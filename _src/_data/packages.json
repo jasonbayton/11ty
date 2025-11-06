@@ -454,6 +454,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -904,6 +909,10 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "ja-jp",
+        "name": "広告のプライバシー"
+      },
+      {
         "locale": "",
         "name": "Android system"
       }
@@ -1243,6 +1252,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -2645,6 +2659,10 @@
       {
         "locale": "fr-fr",
         "name": "Outils d'accessibilité Android"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Android ユーザー補助設定ツール"
       }
     ],
     "devices": [
@@ -2932,6 +2950,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -3319,6 +3342,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -3930,6 +3958,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -4506,6 +4539,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -4613,6 +4651,10 @@
       {
         "locale": "fr-fr",
         "name": "Configuration d'Android"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Android の設定"
       }
     ],
     "devices": [
@@ -5060,6 +5102,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -5577,6 +5624,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -6104,6 +6156,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -6207,6 +6264,10 @@
       {
         "locale": "fr-fr",
         "name": "Système Android"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Android システム"
       }
     ],
     "devices": [
@@ -6664,6 +6725,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -7186,6 +7252,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -7686,6 +7757,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -8231,6 +8307,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -8814,6 +8895,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9026,6 +9112,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -9104,6 +9195,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -9126,9 +9222,26 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "android.overlay.systemui": {
+    "appName": "android.overlay.systemui",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9430,6 +9543,23 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      }
+    ]
+  },
+  "android.unisoc.core.max_cached_processed.overlay": {
+    "appName": "android.unisoc.core.max_cached_processed.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9442,6 +9572,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9454,6 +9589,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9466,6 +9606,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9478,6 +9623,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9490,6 +9640,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9502,6 +9657,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9514,6 +9674,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9526,6 +9691,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -9538,6 +9708,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -11689,6 +11864,10 @@
       {
         "locale": "ru-ru",
         "name": "Ассистент"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "アシスタント"
       }
     ],
     "devices": [
@@ -11811,6 +11990,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -13747,6 +13931,10 @@
         "name": "Avatarkiezer"
       },
       {
+        "locale": "ja-jp",
+        "name": "アバター選択ツール"
+      },
+      {
         "locale": "es-us",
         "name": "Elige una imagen"
       }
@@ -13815,6 +14003,11 @@
       {
         "make": "samsung",
         "model": "SM-A556B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -14393,6 +14586,10 @@
       {
         "locale": "fr-fr",
         "name": "Écrans de veille interactifs basiques"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ベーシックスクリーンセーバー"
       }
     ],
     "devices": [
@@ -14820,6 +15017,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -15850,6 +16052,10 @@
       {
         "locale": "fr-fr",
         "name": "Enregistrer les numéros bloqués"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ブロックした電話番号用ストレージ"
       }
     ],
     "devices": [
@@ -16302,6 +16508,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -16775,6 +16986,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "ja-jp",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en-za",
         "name": "Bluetooth"
       }
@@ -17224,6 +17439,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -17741,6 +17961,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -18321,6 +18546,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -19061,6 +19291,10 @@
       {
         "locale": "ru-ru",
         "name": "Калькулятор"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "電卓"
       }
     ],
     "devices": [
@@ -19260,6 +19494,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -19440,6 +19679,10 @@
       {
         "locale": "ru-ru",
         "name": "Календарь"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "カレンダー"
       }
     ],
     "devices": [
@@ -19702,6 +19945,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -19981,6 +20229,10 @@
       {
         "locale": "en-lk",
         "name": "Calendar storage"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "カレンダーの保存"
       }
     ],
     "devices": [
@@ -20438,6 +20690,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -21340,6 +21597,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -22478,6 +22740,10 @@
       {
         "locale": "ru-ru",
         "name": "Камера"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "カメラ"
       }
     ],
     "devices": [
@@ -22525,6 +22791,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -23083,6 +23354,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -23489,6 +23765,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -23760,6 +24041,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -23881,6 +24167,10 @@
       {
         "locale": "en-de",
         "name": "Captive portal login"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "キャプティブ ポータル ログイン"
       }
     ],
     "devices": [
@@ -24283,6 +24573,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -25047,6 +25342,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -25196,6 +25496,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -26417,6 +26722,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -26643,6 +26953,10 @@
       {
         "locale": "en-pk",
         "name": "Certificate installer"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "証明書インストーラ"
       }
     ],
     "devices": [
@@ -27100,6 +27414,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -27709,6 +28028,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -28772,6 +29096,10 @@
       {
         "locale": "ru-ru",
         "name": "Часы"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "時計"
       }
     ],
     "devices": [
@@ -28979,6 +29307,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -30393,6 +30726,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -31002,6 +31340,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -31341,6 +31684,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -31631,6 +31979,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -32573,6 +32926,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -33088,6 +33446,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -33716,6 +34079,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -33800,6 +34168,18 @@
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
+      }
+    ]
+  },
+  "com.android.launcher3.auto_generated_rro_product__": {
+    "appName": "com.android.launcher3.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -34229,6 +34609,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -34360,6 +34745,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -34942,6 +35332,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -35453,6 +35848,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -35799,6 +36199,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -36174,6 +36579,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -36313,6 +36723,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -37253,6 +37668,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -37824,6 +38244,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -38087,6 +38512,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -38194,6 +38624,11 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -39105,6 +39540,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -39342,6 +39782,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -39429,6 +39874,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.settings.cellbroadcast.overlay": {
+    "appName": "com.android.settings.cellbroadcast.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -40383,6 +40840,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -40605,6 +41067,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -40887,6 +41354,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -41134,6 +41606,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -42587,6 +43064,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -42599,6 +43081,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -42621,6 +43108,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -42929,6 +43421,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -43423,6 +43920,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -43868,6 +44370,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -44888,6 +45395,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -44905,6 +45417,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -45045,6 +45562,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -45169,6 +45691,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -45406,6 +45933,10 @@
       {
         "locale": "en-gb",
         "name": "Find My Device"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Find Hub"
       }
     ],
     "devices": [
@@ -45447,6 +45978,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       }
     ]
@@ -45917,6 +46453,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -46734,6 +47275,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -47401,6 +47947,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -47632,6 +48183,10 @@
       {
         "locale": "en-in",
         "name": "GoogleNetworkStackResOverlay"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "NetworkStackOverlay"
       }
     ],
     "devices": [
@@ -47746,6 +48301,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -47784,6 +48344,10 @@
       {
         "locale": "en-in",
         "name": "TetheringResOverlay"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "TetheringConfigOverlay"
       }
     ],
     "devices": [
@@ -48015,6 +48579,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -48692,6 +49261,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -49111,6 +49685,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -49336,6 +49915,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -49798,6 +50382,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -50217,6 +50806,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -50419,6 +51013,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -50718,6 +51317,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -50850,6 +51454,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -51069,6 +51678,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -51126,6 +51740,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -51620,6 +52239,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -52318,6 +52942,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -52735,6 +53364,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -52935,6 +53569,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -53317,6 +53956,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -53748,6 +54392,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -54158,6 +54807,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -55240,6 +55894,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -55562,6 +56221,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -56336,6 +57000,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -68228,6 +68897,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -68282,6 +68956,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -69746,6 +70425,35 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      }
+    ]
+  },
+  "com.unisoc.connectivity.resources.overlay.go": {
+    "appName": "com.unisoc.connectivity.resources.overlay.go",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      }
+    ]
+  },
+  "com.unisoc.connectivity.resources.overlay.gsi": {
+    "appName": "com.unisoc.connectivity.resources.overlay.gsi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -69775,6 +70483,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -69790,6 +70503,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -70531,6 +71249,10 @@
       {
         "locale": "fr-fr",
         "name": "Gestionnaire d'appareils associés"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "コンパニオン デバイス マネージャー"
       }
     ],
     "devices": [
@@ -70990,6 +71712,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -71180,6 +71907,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -71950,6 +72682,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -73230,6 +73967,10 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "連絡先"
       }
     ],
     "devices": [
@@ -73482,6 +74223,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -73866,6 +74612,10 @@
       {
         "locale": "fr-fr",
         "name": "Liste des contacts"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "アドレス帳"
       }
     ],
     "devices": [
@@ -74190,6 +74940,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -74409,6 +75164,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -74866,6 +75626,10 @@
       {
         "locale": "fr-fr",
         "name": "Encoche d'angle"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "画面隅のカットアウト"
       }
     ],
     "devices": [
@@ -75290,6 +76054,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -75537,6 +76306,10 @@
       {
         "locale": "en-de",
         "name": "Credential manager"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "認証情報マネージャー"
       },
       {
         "locale": "de-de",
@@ -75823,6 +76596,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -76470,6 +77248,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -77347,6 +78130,10 @@
       {
         "locale": "en-de",
         "name": "Default print service"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "デフォルトの印刷サービス"
       }
     ],
     "devices": [
@@ -77789,6 +78576,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -78938,6 +79730,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -79827,6 +80624,10 @@
         "name": "Diagnostica dispositivo"
       },
       {
+        "locale": "ja-jp",
+        "name": "デバイス診断"
+      },
+      {
         "locale": "de-de",
         "name": "Gerätediagnose"
       }
@@ -80000,6 +80801,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -80387,6 +81193,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -81522,6 +82333,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -82069,6 +82885,10 @@
       {
         "locale": "fr-fr",
         "name": "Encoche double"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ダブル カットアウト"
       }
     ],
     "devices": [
@@ -82493,6 +83313,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -82592,6 +83417,10 @@
       {
         "locale": "en-in",
         "name": "Downloads"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ダウンロード マネージャー"
       }
     ],
     "devices": [
@@ -83051,6 +83880,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -83150,6 +83984,10 @@
       {
         "locale": "fr-fr",
         "name": "Téléchargements"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ダウンロード"
       }
     ],
     "devices": [
@@ -83599,6 +84437,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -83966,6 +84809,10 @@
       {
         "locale": "ru-ru",
         "name": "Диск"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ドライブ"
       }
     ],
     "devices": [
@@ -84213,6 +85060,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -85457,6 +86309,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -86471,6 +87328,10 @@
       {
         "locale": "en-in",
         "name": "com.android.emergency"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "com.android.emergency"
       }
     ],
     "devices": [
@@ -86763,6 +87624,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -87617,6 +88483,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -88604,6 +89475,10 @@
       {
         "locale": "fr-fr",
         "name": "Stockage externe"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "外部ストレージ"
       }
     ],
     "devices": [
@@ -89061,6 +89936,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -90105,6 +90985,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -91213,6 +92098,10 @@
       {
         "locale": "fr-fr",
         "name": "Fichiers"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ファイル"
       }
     ],
     "devices": [
@@ -91612,6 +92501,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -92004,6 +92898,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -94826,6 +95725,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -96320,6 +97224,10 @@
         "name": "Modifica album"
       },
       {
+        "locale": "ja-jp",
+        "name": "Photo Edit"
+      },
+      {
         "locale": "en-gb",
         "name": "Photo Edit"
       }
@@ -96339,6 +97247,11 @@
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -97495,6 +98408,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -99184,6 +100102,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -100238,6 +101161,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -100811,6 +101739,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -101439,6 +102372,10 @@
       {
         "locale": "fr-fr",
         "name": "Historique des positions Google"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Google ロケーション履歴"
       }
     ],
     "devices": [
@@ -101846,6 +102783,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -102402,6 +103344,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -102914,6 +103861,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -103056,7 +104008,7 @@
   },
   "com.google.android.play.games": {
     "appName": "Google Play Games",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "it-it",
@@ -103073,6 +104025,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -103230,6 +104187,10 @@
       {
         "locale": "fr-fr",
         "name": "Services Google Play"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Google Play 開発者サービス"
       }
     ],
     "devices": [
@@ -103687,6 +104648,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -104044,6 +105010,10 @@
       {
         "locale": "fr-fr",
         "name": "Google Play Store"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Google Play ストア"
       }
     ],
     "devices": [
@@ -104503,6 +105473,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -104622,6 +105597,10 @@
       {
         "locale": "en-de",
         "name": "Google Safety Centre resources"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Google セーフティ センターのリソース"
       }
     ],
     "devices": [
@@ -104994,6 +105973,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -105148,6 +106132,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -105195,6 +106184,10 @@
       {
         "locale": "fr-fr",
         "name": "Framework des services Google"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Googleサービスフレームワーク"
       }
     ],
     "devices": [
@@ -105652,6 +106645,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -105977,6 +106975,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -106340,6 +107343,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -107326,6 +108334,10 @@
         "name": "Salud conectada"
       },
       {
+        "locale": "ja-jp",
+        "name": "ヘルスコネクト"
+      },
+      {
         "locale": "de-de",
         "name": "Health Connect"
       }
@@ -107605,6 +108617,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -109145,6 +110162,10 @@
       {
         "locale": "fr-fr",
         "name": "Visionneuse HTML"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "HTMLビューア"
       }
     ],
     "devices": [
@@ -109602,6 +110623,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -110062,6 +111088,10 @@
       {
         "locale": "",
         "name": "IFAAManagerApp"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ifaa_manager_service"
       }
     ],
     "devices": [
@@ -110094,6 +111124,11 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -111230,6 +112265,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -111839,6 +112879,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -112457,6 +113502,10 @@
         "name": "Заметки Google Keep"
       },
       {
+        "locale": "ja-jp",
+        "name": "Keep メモ"
+      },
+      {
         "locale": "en-za",
         "name": "Keep notes"
       }
@@ -112568,6 +113617,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -112626,6 +113680,10 @@
       {
         "locale": "en-pk",
         "name": "Key chain"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "キーチェーン"
       }
     ],
     "devices": [
@@ -113083,6 +114141,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -116851,6 +117914,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -118541,6 +119609,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -118938,6 +120011,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -119145,6 +120223,10 @@
       {
         "locale": "ru-ru",
         "name": "Карты"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "マップ"
       }
     ],
     "devices": [
@@ -119584,6 +120666,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -119663,6 +120750,10 @@
       {
         "locale": "sv-se",
         "name": "Feedbackagent för Market"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "マーケットフィードバックエージェント"
       }
     ],
     "devices": [
@@ -120120,6 +121211,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -120859,6 +121955,10 @@
         "name": "Sélecteur de fichiers multimédias"
       },
       {
+        "locale": "ja-jp",
+        "name": "メディアの選択"
+      },
+      {
         "locale": "",
         "name": "Media"
       }
@@ -121253,6 +122353,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -121880,6 +122985,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -122117,6 +123227,10 @@
       {
         "locale": "es-us",
         "name": "Mensajes"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "メッセージ"
       }
     ],
     "devices": [
@@ -122489,6 +123603,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -124586,6 +125705,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -127297,6 +128421,10 @@
       {
         "locale": "fr-fr",
         "name": "Hôte MTP"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "MTP ホスト"
       }
     ],
     "devices": [
@@ -127749,6 +128877,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -128334,6 +129467,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -129744,6 +130882,10 @@
       {
         "locale": "fr-fr",
         "name": "Gestionnaire de réseaux"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ネットワーク マネージャ"
       }
     ],
     "devices": [
@@ -130141,6 +131283,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -130939,6 +132086,10 @@
       {
         "locale": "it-it",
         "name": "NetworkStackOverlayGsi"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "NetworkStackOverlayGsi"
       }
     ],
     "devices": [
@@ -131086,6 +132237,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -131313,6 +132469,10 @@
       {
         "locale": "en-lk",
         "name": "NFC Service"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "NFCサービス"
       },
       {
         "locale": "en-za",
@@ -131719,6 +132879,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -132350,6 +133515,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -133103,6 +134273,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -136752,6 +137927,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -136933,6 +138113,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -137083,6 +138268,10 @@
       {
         "locale": "fr-fr",
         "name": "Programme installation kit"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "パッケージ インストーラ"
       }
     ],
     "devices": [
@@ -137540,6 +138729,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -138089,6 +139283,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -139083,6 +140282,10 @@
       {
         "locale": "fr-fr",
         "name": "Contrôleur d'autorisations"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "アクセス権限の管理"
       }
     ],
     "devices": [
@@ -139500,6 +140703,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -140019,6 +141227,10 @@
       {
         "locale": "sv-se",
         "name": "Personlig säkerhet"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "緊急情報サービス"
       }
     ],
     "devices": [
@@ -140196,6 +141408,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -140762,6 +141979,10 @@
       {
         "locale": "sv-se",
         "name": "Telefon"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "電話"
       }
     ],
     "devices": [
@@ -140956,6 +142177,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -141119,6 +142345,10 @@
       {
         "locale": "en-lk",
         "name": "Phone Call/SMS Storage"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "電話とSMS用ストレージ"
       },
       {
         "locale": "",
@@ -141577,6 +142807,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -141720,6 +142955,10 @@
       {
         "locale": "en-lk",
         "name": "Call Management"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "電話"
       },
       {
         "locale": "en-za",
@@ -142173,6 +143412,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -142314,6 +143558,10 @@
       {
         "locale": "fr-fr",
         "name": "Services téléphoniques"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "電話サービス"
       },
       {
         "locale": "",
@@ -142772,6 +144020,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -142955,6 +144208,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -143180,6 +144438,10 @@
       {
         "locale": "es-es",
         "name": "Salvapantallas de fotos"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "フォトスクリーンセーバー"
       }
     ],
     "devices": [
@@ -143399,6 +144661,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -143588,6 +144855,10 @@
       {
         "locale": "sv-se",
         "name": "Foto"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "フォト"
       }
     ],
     "devices": [
@@ -143902,6 +145173,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -144030,6 +145306,10 @@
       {
         "locale": "en-de",
         "name": "Photos and videos"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "写真と動画"
       }
     ],
     "devices": [
@@ -144369,6 +145649,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -144448,6 +145733,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -145911,6 +147201,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -146444,6 +147739,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -146539,6 +147839,10 @@
       {
         "locale": "en-pk",
         "name": "Print processing service"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "印刷スプーラ"
       }
     ],
     "devices": [
@@ -146998,6 +148302,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -147413,6 +148722,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -148135,6 +149449,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -148303,6 +149622,10 @@
       {
         "locale": "en-de",
         "name": "Punch hole cutout"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "パンチホールのカットアウト"
       },
       {
         "locale": "en-za",
@@ -148714,6 +150037,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -150264,6 +151592,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -151608,6 +152941,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -152612,6 +153950,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -161539,6 +162882,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -163005,6 +164353,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -164258,8 +165611,13 @@
   },
   "com.easycontrol.customercenter": {
     "appName": "Service Center",
-    "userFacing": false,
-    "additionalLocales": [],
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "ja-jp",
+        "name": "サービスセンター"
+      }
+    ],
     "devices": [
       {
         "make": "Ulefone",
@@ -164270,6 +165628,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -164870,6 +166233,10 @@
       {
         "locale": "fr-fr",
         "name": "Paramètres"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "設定"
       }
     ],
     "devices": [
@@ -165327,6 +166694,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -165668,6 +167040,10 @@
       {
         "locale": "fr-fr",
         "name": "Stockage des paramètres"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ストレージの設定"
       }
     ],
     "devices": [
@@ -166127,6 +167503,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -166331,6 +167712,10 @@
       {
         "locale": "en-in",
         "name": "Settings suggestions"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "推奨設定"
       }
     ],
     "devices": [
@@ -166713,6 +168098,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -167339,6 +168729,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -167421,6 +168816,10 @@
       {
         "locale": "sv-se",
         "name": "Skal"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "シェル"
       }
     ],
     "devices": [
@@ -167878,6 +169277,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -168439,6 +169843,10 @@
         "name": "Sim app dialogue"
       },
       {
+        "locale": "ja-jp",
+        "name": "SIM アプリのダイアログ"
+      },
+      {
         "locale": "en-za",
         "name": "Sim app dialogue"
       }
@@ -168858,6 +170266,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -169695,6 +171108,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -173397,6 +174815,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -173871,6 +175294,10 @@
       {
         "locale": "it-it",
         "name": "Registratore suoni"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "音声レコーダー"
       }
     ],
     "devices": [
@@ -173965,6 +175392,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -174037,6 +175469,10 @@
       {
         "locale": "sv-se",
         "name": "Ljud"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "サウンド"
       }
     ],
     "devices": [
@@ -174299,6 +175735,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -174627,6 +176068,10 @@
       {
         "locale": "fr-fr",
         "name": "Reconnaissance et synthèse vocales de Google"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Google 音声認識と音声合成サービス"
       },
       {
         "locale": "en-za",
@@ -175091,6 +176536,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -175703,6 +177153,10 @@
       {
         "locale": "it-it",
         "name": "Gestione archiviazione"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "ストレージ マネージャ"
       }
     ],
     "devices": [
@@ -176085,6 +177539,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -176891,6 +178350,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -177161,6 +178625,10 @@
       {
         "locale": "sv-se",
         "name": "Brytarstyrning"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "スイッチ アクセス"
       }
     ],
     "devices": [
@@ -177318,6 +178786,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -177583,6 +179056,10 @@
       {
         "locale": "en-de",
         "name": "System connectivity resources"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "システム接続リソース"
       }
     ],
     "devices": [
@@ -177965,6 +179442,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -178404,6 +179886,10 @@
       {
         "locale": "en-pk",
         "name": "Family Link parental controls"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "保護者による使用制限（システム）"
       }
     ],
     "devices": [
@@ -178753,6 +180239,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -178992,6 +180483,10 @@
       {
         "locale": "fr-fr",
         "name": "Traçage système"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "システム トレース"
       }
     ],
     "devices": [
@@ -179421,6 +180916,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -179516,6 +181016,10 @@
       {
         "locale": "fr-fr",
         "name": "Interface"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "システム UI"
       }
     ],
     "devices": [
@@ -179973,6 +181477,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -180736,6 +182245,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -181164,6 +182678,10 @@
       {
         "locale": "en-de",
         "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "システム Wi-Fi リソース"
       }
     ],
     "devices": [
@@ -181331,6 +182849,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -181852,6 +183375,10 @@
       {
         "locale": "ru-ru",
         "name": "Теги"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "タグ"
       }
     ],
     "devices": [
@@ -182084,6 +183611,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -182328,6 +183860,10 @@
       {
         "locale": "fr-fr",
         "name": "Encoche haute"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "縦長のカットアウト"
       }
     ],
     "devices": [
@@ -182757,6 +184293,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -182859,6 +184400,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.hebs.tappic": {
+    "appName": "TapPic",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -184120,6 +185673,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -184475,6 +186033,10 @@
       {
         "locale": "it-it",
         "name": "TetheringConfigOverlayGsi"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "TetheringConfigOverlayGsi"
       }
     ],
     "devices": [
@@ -184582,6 +186144,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -184963,6 +186530,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -186049,6 +187621,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -186216,6 +187793,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
@@ -186329,6 +187911,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -186587,6 +188174,18 @@
       }
     ]
   },
+  "com.unisoc.android.wifi": {
+    "appName": "Uni Wi-Fi",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      }
+    ]
+  },
   "com.unisoc": {
     "appName": "unisoc system",
     "userFacing": false,
@@ -186606,6 +188205,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -187129,6 +188733,10 @@
       {
         "locale": "fr-fr",
         "name": "Dictionnaire personnel"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "単語リスト"
       }
     ],
     "devices": [
@@ -187588,6 +189196,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -187918,6 +189531,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -190617,6 +192235,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -190914,6 +192537,10 @@
       {
         "locale": "en-gb",
         "name": "Wallpaper and style"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "壁紙とスタイル"
       }
     ],
     "devices": [
@@ -190996,6 +192623,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -191764,6 +193396,10 @@
       {
         "locale": "fr-fr",
         "name": "Encoche en cascade"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "エッジ スクリーン"
       }
     ],
     "devices": [
@@ -192171,6 +193807,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -192947,6 +194588,10 @@
         "name": "Webcam service"
       },
       {
+        "locale": "ja-jp",
+        "name": "ウェブカメラ サービス"
+      },
+      {
         "locale": "es-us",
         "name": "Servicio de cámara web"
       }
@@ -193030,6 +194675,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
         "os": "35"
       },
       {
@@ -194205,6 +195855,10 @@
         "name": "Alertes d'urgence sans fil"
       },
       {
+        "locale": "ja-jp",
+        "name": "緊急速報メール"
+      },
+      {
         "locale": "",
         "name": "Emergency alerts"
       }
@@ -194594,6 +196248,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -195219,6 +196878,10 @@
       {
         "locale": "fr-fr",
         "name": "Configuration du profil professionnel"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "仕事用の設定"
       }
     ],
     "devices": [
@@ -195671,6 +197334,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -196611,6 +198279,11 @@
         "os": "31"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -197063,6 +198736,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -197353,6 +199031,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -198212,6 +199895,18 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      }
+    ]
+  },
+  "com.incar.update": {
+    "appName": "ソフトウェアアップデート",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
       }
     ]
   },
