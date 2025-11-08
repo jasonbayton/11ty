@@ -1,9 +1,14 @@
 {
   "com.handmark.expressweather": {
     "appName": "1Weather",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "moto g85 5G",
@@ -97,6 +102,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -865,6 +875,10 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "es-us",
+        "name": "Privacidad en los anuncios"
+      },
+      {
         "locale": "es-es",
         "name": "Privacidad en la publicidad"
       },
@@ -875,10 +889,6 @@
       {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
-      },
-      {
-        "locale": "es-us",
-        "name": "Privacidad en los anuncios"
       },
       {
         "locale": "en-nl",
@@ -957,6 +967,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -2358,6 +2373,30 @@
       }
     ]
   },
+  "com.ape.setupwizard": {
+    "appName": "Ajustes de Moto",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.tinno.coresettingsext": {
+    "appName": "Ajustes legales de Moto",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.sonyericsson.album": {
     "appName": "Album",
     "userFacing": false,
@@ -2629,6 +2668,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Suite de Accesibilidad Android"
+      },
+      {
         "locale": "ru-ru",
         "name": "Специальные возможности"
       },
@@ -2639,10 +2682,6 @@
       {
         "locale": "it-it",
         "name": "Accessibilità di Android"
-      },
-      {
-        "locale": "es-us",
-        "name": "Suite de Accesibilidad Android"
       },
       {
         "locale": "de-de",
@@ -2690,6 +2729,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -3047,6 +3091,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -3576,6 +3625,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -4149,6 +4203,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -4621,6 +4680,10 @@
         "name": "Настройка устройства Android"
       },
       {
+        "locale": "es-us",
+        "name": "Configuración de Android"
+      },
+      {
         "locale": "es-es",
         "name": "Configuración de Android"
       },
@@ -4631,10 +4694,6 @@
       {
         "locale": "nl-nl",
         "name": "Android Set-up"
-      },
-      {
-        "locale": "es-us",
-        "name": "Configuración de Android"
       },
       {
         "locale": "de-de",
@@ -4717,6 +4776,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -5234,6 +5298,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -5786,6 +5855,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -6230,6 +6304,10 @@
         "name": "Android system"
       },
       {
+        "locale": "es-us",
+        "name": "Sistema Android"
+      },
+      {
         "locale": "es-es",
         "name": "Sistema Android"
       },
@@ -6240,10 +6318,6 @@
       {
         "locale": "nl-nl",
         "name": "Android-systeem"
-      },
-      {
-        "locale": "es-us",
-        "name": "Sistema Android"
       },
       {
         "locale": "en-mt",
@@ -6335,6 +6409,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -6937,6 +7016,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -7367,6 +7451,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -8067,6 +8156,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -11227,6 +11321,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       }
@@ -11850,16 +11949,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Asistente"
+      },
+      {
         "locale": "es-es",
         "name": "Asistente"
       },
       {
         "locale": "it-it",
         "name": "Assistente"
-      },
-      {
-        "locale": "es-us",
-        "name": "Asistente"
       },
       {
         "locale": "ru-ru",
@@ -11880,6 +11979,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "CUBOT",
@@ -12269,6 +12373,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -14560,16 +14669,16 @@
         "name": "Стандартные заставки"
       },
       {
+        "locale": "es-us",
+        "name": "Protector de pantalla interactivo básico"
+      },
+      {
         "locale": "it-it",
         "name": "Daydream di base"
       },
       {
         "locale": "nl-nl",
         "name": "Algemene dagdromen"
-      },
-      {
-        "locale": "es-us",
-        "name": "Protector de pantalla interactivo básico"
       },
       {
         "locale": "es-es",
@@ -14647,6 +14756,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -16022,6 +16136,10 @@
         "name": "Хранилище заблокир. номеров"
       },
       {
+        "locale": "es-us",
+        "name": "Almacenamiento de números bloqueados"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de números bloqueados"
       },
@@ -16032,10 +16150,6 @@
       {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
-      },
-      {
-        "locale": "es-us",
-        "name": "Almacenamiento de números bloqueados"
       },
       {
         "locale": "de-de",
@@ -16118,6 +16232,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -16914,6 +17033,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "es-us",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "es-es",
         "name": "Bluetooth"
       },
@@ -16931,10 +17054,6 @@
       },
       {
         "locale": "en-be",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "es-us",
         "name": "Bluetooth"
       },
       {
@@ -17059,6 +17178,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -17571,6 +17695,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -18156,6 +18285,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -19265,16 +19399,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Calculadora"
+      },
+      {
         "locale": "es-es",
         "name": "Calculadora"
       },
       {
         "locale": "it-it",
         "name": "Calcolatrice"
-      },
-      {
-        "locale": "es-us",
-        "name": "Calculadora"
       },
       {
         "locale": "de-de",
@@ -19317,6 +19451,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -19720,6 +19859,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -20175,6 +20319,10 @@
         "name": "Calendar storage"
       },
       {
+        "locale": "es-us",
+        "name": "Almacenamiento del calendario"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de calendario"
       },
@@ -20185,10 +20333,6 @@
       {
         "locale": "nl-nl",
         "name": "Agenda opslaan"
-      },
-      {
-        "locale": "es-us",
-        "name": "Almacenamiento del calendario"
       },
       {
         "locale": "en-nl",
@@ -20300,6 +20444,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -21217,6 +21366,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -22453,6 +22607,18 @@
       }
     ]
   },
+  "com.myos.camera": {
+    "appName": "Cámara",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.apps.cameralite": {
     "appName": "camera",
     "userFacing": true,
@@ -23425,6 +23591,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -24113,6 +24284,10 @@
         "name": "Captive portal login"
       },
       {
+        "locale": "es-us",
+        "name": "Acceso a portal cautivo"
+      },
+      {
         "locale": "es-es",
         "name": "Inicio de sesión en portal cautivo"
       },
@@ -24123,10 +24298,6 @@
       {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
-      },
-      {
-        "locale": "es-us",
-        "name": "Acceso a portal cautivo"
       },
       {
         "locale": "en",
@@ -24223,6 +24394,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -24868,6 +25044,10 @@
         "name": "Operator communications"
       },
       {
+        "locale": "es-us",
+        "name": "Comunicaciones de operadores"
+      },
+      {
         "locale": "es-es",
         "name": "Comunicaciones del operador"
       },
@@ -24886,10 +25066,6 @@
       {
         "locale": "en-be",
         "name": "CarrierDefaultApp"
-      },
-      {
-        "locale": "es-us",
-        "name": "Comunicaciones de operadores"
       },
       {
         "locale": "en",
@@ -24995,6 +25171,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -25959,6 +26140,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
@@ -26380,6 +26566,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -26911,6 +27102,10 @@
         "name": "Certificate installer"
       },
       {
+        "locale": "es-us",
+        "name": "Instalador de certificado"
+      },
+      {
         "locale": "es-es",
         "name": "Instalador de certificados"
       },
@@ -26921,10 +27116,6 @@
       {
         "locale": "nl-nl",
         "name": "Certificaat installeren"
-      },
-      {
-        "locale": "es-us",
-        "name": "Instalador de certificado"
       },
       {
         "locale": "en-nl",
@@ -27024,6 +27215,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -27638,6 +27834,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -29070,16 +29271,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Reloj"
+      },
+      {
         "locale": "es-es",
         "name": "Reloj"
       },
       {
         "locale": "it-it",
         "name": "Orologio"
-      },
-      {
-        "locale": "es-us",
-        "name": "Reloj"
       },
       {
         "locale": "de-de",
@@ -29137,6 +29338,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -30334,6 +30540,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -31664,6 +31875,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -31739,6 +31955,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -32160,6 +32381,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -32534,6 +32760,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -33056,6 +33287,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -33899,6 +34135,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -34159,6 +34400,30 @@
       }
     ]
   },
+  "com.android.internal.display.cutout.lamu.ovelay": {
+    "appName": "com.android.internal.display.cutout.lamu.ovelay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.internal.display.cutout.lamulite.ovelay": {
+    "appName": "com.android.internal.display.cutout.lamulite.ovelay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.internal.ranchu.commonoverlay": {
     "appName": "com.android.internal.ranchu.commonoverlay",
     "userFacing": false,
@@ -34247,6 +34512,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -34698,6 +34968,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -35035,6 +35310,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -35491,6 +35771,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -37288,6 +37573,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -37854,6 +38144,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -38314,6 +38609,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.android.providers.partnerbookmarksoverlay": {
+    "appName": "com.android.providers.partnerbookmarksoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -40450,6 +40757,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -41181,6 +41493,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -43203,6 +43520,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -43528,6 +43850,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -44030,6 +44357,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -44719,6 +45051,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -44831,6 +45168,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -45492,6 +45834,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -45578,11 +45925,40 @@
       }
     ]
   },
+  "com.android.wifi.system.mainline.resources.overlay.lite": {
+    "appName": "com.android.wifi.system.mainline.resources.overlay.lite",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.wifi.system.mainline.resources.overlay.power": {
+    "appName": "com.android.wifi.system.mainline.resources.overlay.power",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.wifi.system.resources.overlay": {
     "appName": "com.android.wifi.system.resources.overlay",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "INFINIX",
         "model": "Infinix X6871",
@@ -46188,6 +46564,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -47000,6 +47381,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -47705,6 +48091,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -48777,6 +49168,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -48989,6 +49385,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -49363,6 +49764,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -49757,6 +50163,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -50105,6 +50516,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -50496,6 +50912,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -50880,6 +51301,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -51070,6 +51496,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -51501,6 +51932,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -51969,6 +52405,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -52637,6 +53078,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -53042,6 +53488,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -53451,6 +53902,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -53636,6 +54092,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -54072,6 +54533,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -54487,6 +54953,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -55599,6 +56070,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -55998,6 +56474,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -56348,9 +56829,26 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.google.android.setupwizardstrings.overlay.DS": {
+    "appName": "com.google.android.setupwizardstrings.overlay.DS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -56862,6 +57360,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -57212,6 +57715,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "CUBOT",
         "model": "P80",
@@ -57969,6 +58477,11 @@
         "os": "28"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -58131,6 +58644,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -58375,6 +58893,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -58502,6 +59025,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -58609,6 +59137,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -58705,10 +59238,26 @@
       }
     ]
   },
+  "com.mediatek.gnss.nonframeworklbs.overlay": {
+    "appName": "com.mediatek.gnss.nonframeworklbs.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.ims": {
     "appName": "com.mediatek.ims.ImsApp",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "ImsApp"
+      },
       {
         "locale": "ru-ru",
         "name": "ImsApp"
@@ -58740,6 +59289,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -58886,6 +59440,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -58988,6 +59547,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -59072,6 +59636,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -59199,6 +59768,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "CUBOT",
@@ -60112,6 +60686,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -60169,6 +60748,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
@@ -60712,6 +61296,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -61273,6 +61862,54 @@
       }
     ]
   },
+  "com.motorola.launcher3.overlay.vivo.apptray": {
+    "appName": "com.motorola.launcher3.overlay.vivo.apptray",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.launcher3config.lamuliteoverlay": {
+    "appName": "com.motorola.launcher3config.lamuliteoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.launcher3config.lamupoweroverlay": {
+    "appName": "com.motorola.launcher3config.lamupoweroverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.launcher3overlay": {
+    "appName": "com.motorola.launcher3overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.launcherconfig.overlay.altice": {
     "appName": "com.motorola.launcherconfig.overlay.altice",
     "userFacing": false,
@@ -61461,6 +62098,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -61482,6 +62124,30 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.paks.overlay.tce": {
+    "appName": "com.motorola.paks.overlay.tce",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
+  "com.motorola.safetycenter.nonmain.resources.overlay": {
+    "appName": "com.motorola.safetycenter.nonmain.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -70196,6 +70862,18 @@
       }
     ]
   },
+  "com.tinno.safetycenter.resources.overlay": {
+    "appName": "com.tinno.safetycenter.resources.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.tmobile.echolocate.system": {
     "appName": "com.tmobile.echolocate.system",
     "userFacing": false,
@@ -71227,16 +71905,16 @@
         "name": "Управление подключенными устройствами"
       },
       {
+        "locale": "es-us",
+        "name": "Administrador de dispositivos complementarios"
+      },
+      {
         "locale": "es-es",
         "name": "Gestor de dispositivos complementario"
       },
       {
         "locale": "it-it",
         "name": "Gestione dispositivi associati"
-      },
-      {
-        "locale": "es-us",
-        "name": "Administrador de dispositivos complementarios"
       },
       {
         "locale": "de-de",
@@ -71320,6 +71998,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -71860,6 +72543,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -72297,6 +72985,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -73945,6 +74638,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Contactos"
+      },
+      {
         "locale": "ru-ru",
         "name": "Контакты"
       },
@@ -73955,10 +74652,6 @@
       {
         "locale": "it-it",
         "name": "Contatti"
-      },
-      {
-        "locale": "es-us",
-        "name": "Contactos"
       },
       {
         "locale": "nl-nl",
@@ -74003,6 +74696,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -74578,6 +75276,10 @@
         "name": "Contacts storage"
       },
       {
+        "locale": "es-us",
+        "name": "Almacenamiento para contactos"
+      },
+      {
         "locale": "ru-ru",
         "name": "Хранилище контактов"
       },
@@ -74588,10 +75290,6 @@
       {
         "locale": "it-it",
         "name": "Archiviazione contatti"
-      },
-      {
-        "locale": "es-us",
-        "name": "Almacenamiento para contactos"
       },
       {
         "locale": "en-mt",
@@ -74658,6 +75356,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -75020,6 +75723,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -75592,6 +76300,10 @@
         "name": "В правом углу"
       },
       {
+        "locale": "es-us",
+        "name": "Recorte de la esquina"
+      },
+      {
         "locale": "es-es",
         "name": "Recorte de la esquina"
       },
@@ -75602,10 +76314,6 @@
       {
         "locale": "nl-nl",
         "name": "Hoek-cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recorte de la esquina"
       },
       {
         "locale": "en",
@@ -75692,6 +76400,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -76214,6 +76927,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -76351,6 +77069,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -76826,12 +77549,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "it-it",
-        "name": "Servizi cross-device"
-      },
-      {
         "locale": "es-us",
         "name": "Servicios multidispositivo"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi cross-device"
       },
       {
         "locale": "es-es",
@@ -76872,6 +77595,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -77660,6 +78388,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -78084,6 +78817,10 @@
         "name": "Default print service"
       },
       {
+        "locale": "es-us",
+        "name": "Servicio de impresión predeterminado"
+      },
+      {
         "locale": "es-es",
         "name": "Servicio de impresión predeterminado"
       },
@@ -78094,10 +78831,6 @@
       {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
-      },
-      {
-        "locale": "es-us",
-        "name": "Servicio de impresión predeterminado"
       },
       {
         "locale": "en-nl",
@@ -78196,6 +78929,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -78686,6 +79424,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -78769,6 +79512,18 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.ape.performances": {
+    "appName": "Desempeño",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -79071,6 +79826,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -79183,6 +79943,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -79463,6 +80228,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -79850,6 +80620,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -79974,6 +80749,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -80669,6 +81449,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -81010,6 +81795,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -82003,6 +82793,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Bienestar digital"
+      },
+      {
         "locale": "ru-ru",
         "name": "Цифровое благополучие"
       },
@@ -82013,10 +82807,6 @@
       {
         "locale": "it-it",
         "name": "Benessere digitale"
-      },
-      {
-        "locale": "es-us",
-        "name": "Bienestar digital"
       },
       {
         "locale": "nl-nl",
@@ -82066,6 +82856,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -82712,6 +83507,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -82804,6 +83604,18 @@
       }
     ]
   },
+  "com.ape.dolby.settings": {
+    "appName": "Dolby Atmos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.dolby.daxappui": {
     "appName": "Dolby Audio",
     "userFacing": true,
@@ -82851,6 +83663,10 @@
         "name": "Сверху и снизу"
       },
       {
+        "locale": "es-us",
+        "name": "Recorte doble"
+      },
+      {
         "locale": "es-es",
         "name": "Recorte doble"
       },
@@ -82861,10 +83677,6 @@
       {
         "locale": "nl-nl",
         "name": "Dubbele cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recorte doble"
       },
       {
         "locale": "en",
@@ -82951,6 +83763,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -83383,6 +84200,10 @@
         "name": "Диспетчер загрузки"
       },
       {
+        "locale": "es-us",
+        "name": "Administrador de descargas"
+      },
+      {
         "locale": "es-es",
         "name": "Administrador de descargas"
       },
@@ -83393,10 +84214,6 @@
       {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Administrador de descargas"
       },
       {
         "locale": "de-de",
@@ -83488,6 +84305,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -83962,16 +84784,16 @@
         "name": "Скачанное"
       },
       {
+        "locale": "es-us",
+        "name": "Descargas"
+      },
+      {
         "locale": "es-es",
         "name": "Descargas"
       },
       {
         "locale": "it-it",
         "name": "Download"
-      },
-      {
-        "locale": "es-us",
-        "name": "Descargas"
       },
       {
         "locale": "fr-dz",
@@ -84050,6 +84872,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -84850,6 +85677,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -85834,7 +86666,12 @@
   "com.mediatek.duraspeed": {
     "appName": "DuraSpeed",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Administración de apps en 2.º plano"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -85845,6 +86682,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "CUBOT",
@@ -85947,6 +86789,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -87294,6 +88141,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "en-gb",
         "name": "com.android.emergency"
       },
@@ -87307,10 +88158,6 @@
       },
       {
         "locale": "it-it",
-        "name": "com.android.emergency"
-      },
-      {
-        "locale": "es-us",
         "name": "com.android.emergency"
       },
       {
@@ -87369,6 +88216,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -88659,6 +89511,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -89441,6 +90298,10 @@
         "name": "External storage"
       },
       {
+        "locale": "es-us",
+        "name": "Externo"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento externo"
       },
@@ -89451,10 +90312,6 @@
       {
         "locale": "nl-nl",
         "name": "Externe opslag"
-      },
-      {
-        "locale": "es-us",
-        "name": "Externo"
       },
       {
         "locale": "en-mt",
@@ -89546,6 +90403,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -92068,6 +92930,10 @@
         "name": "Файлы"
       },
       {
+        "locale": "es-us",
+        "name": "Archivos"
+      },
+      {
         "locale": "es-es",
         "name": "Archivos"
       },
@@ -92078,10 +92944,6 @@
       {
         "locale": "nl-nl",
         "name": "Bestanden"
-      },
-      {
-        "locale": "es-us",
-        "name": "Archivos"
       },
       {
         "locale": "de-de",
@@ -92154,6 +93016,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -92675,12 +93542,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "ru-ru",
-        "name": "Google Files"
-      },
-      {
         "locale": "es-us",
         "name": "Files de Google"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Google Files"
       }
     ],
     "devices": [
@@ -92708,6 +93575,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -94220,6 +95092,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -95333,6 +96210,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -97923,6 +98805,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -98163,6 +99050,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -98683,6 +99575,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.ape.personalize": {
+    "appName": "Gestos de Moto",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -99742,6 +100646,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -100781,6 +101690,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -101359,6 +102273,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -102304,6 +103223,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -102338,6 +103262,10 @@
         "name": "История местоположений"
       },
       {
+        "locale": "es-us",
+        "name": "Historial de ubicaciones de Google"
+      },
+      {
         "locale": "es-es",
         "name": "Historial de ubicaciones de Google"
       },
@@ -102348,10 +103276,6 @@
       {
         "locale": "nl-nl",
         "name": "Locatiegeschiedenis van Google"
-      },
-      {
-        "locale": "es-us",
-        "name": "Historial de ubicaciones de Google"
       },
       {
         "locale": "en",
@@ -102428,6 +103352,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -102852,6 +103781,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -102952,6 +103886,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -103469,6 +104408,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -104157,6 +105101,10 @@
         "name": "Сервисы Google Play"
       },
       {
+        "locale": "es-us",
+        "name": "Servicios de Google Play"
+      },
+      {
         "locale": "es-es",
         "name": "Servicios de Google Play"
       },
@@ -104167,10 +105115,6 @@
       {
         "locale": "nl-nl",
         "name": "Google Play-services"
-      },
-      {
-        "locale": "es-us",
-        "name": "Servicios de Google Play"
       },
       {
         "locale": "de-de",
@@ -104258,6 +105202,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -105083,6 +106032,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -105547,6 +106501,10 @@
         "name": "Google Safety Centre resources"
       },
       {
+        "locale": "es-us",
+        "name": "Recursos del Centro de seg. de Google"
+      },
+      {
         "locale": "es-es",
         "name": "Recursos del Centro de Seguridad de Google"
       },
@@ -105557,10 +106515,6 @@
       {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recursos del Centro de seg. de Google"
       },
       {
         "locale": "en-nl",
@@ -105643,6 +106597,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -106170,12 +107129,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-es",
-        "name": "Framework de servicios de Google"
-      },
-      {
         "locale": "es-us",
         "name": "Marco de los servicios de Google"
+      },
+      {
+        "locale": "es-es",
+        "name": "Framework de servicios de Google"
       },
       {
         "locale": "fr-dz",
@@ -106255,6 +107214,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -106777,6 +107741,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -107133,6 +108102,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -107627,6 +108601,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.ape.soundrecorder": {
+    "appName": "Grabadora de sonido",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -108377,6 +109363,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -110132,6 +111123,10 @@
         "name": "Средство просмотра HTML"
       },
       {
+        "locale": "es-us",
+        "name": "Visualizador de HTML"
+      },
+      {
         "locale": "es-es",
         "name": "Visor de HTML"
       },
@@ -110142,10 +111137,6 @@
       {
         "locale": "nl-nl",
         "name": "HTML-viewer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Visualizador de HTML"
       },
       {
         "locale": "de-de",
@@ -110233,6 +111224,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -111785,6 +112781,10 @@
         "name": "Input devices"
       },
       {
+        "locale": "es-us",
+        "name": "Dispositivo de entrada"
+      },
+      {
         "locale": "es-es",
         "name": "Dispositivos de introducción de datos"
       },
@@ -111795,10 +112795,6 @@
       {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
-      },
-      {
-        "locale": "es-us",
-        "name": "Dispositivo de entrada"
       },
       {
         "locale": "en-mt",
@@ -111873,6 +112869,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -112624,6 +113625,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -113654,16 +114660,16 @@
         "name": "Менеджер ключей"
       },
       {
+        "locale": "es-us",
+        "name": "Llavero"
+      },
+      {
         "locale": "it-it",
         "name": "Portachiavi"
       },
       {
         "locale": "nl-nl",
         "name": "Sleutelhanger"
-      },
-      {
-        "locale": "es-us",
-        "name": "Llavero"
       },
       {
         "locale": "fr-dz",
@@ -113751,6 +114757,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -116435,6 +117446,38 @@
       }
     ]
   },
+  "com.lenovo.lsf.user": {
+    "appName": "Lenovo ID",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "ID de Lenovo"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g85 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
   "com.lenovo.lsf": {
     "appName": "Lenovo ID",
     "userFacing": false,
@@ -116464,28 +117507,6 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
-      }
-    ]
-  },
-  "com.lenovo.lsf.user": {
-    "appName": "Lenovo ID",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "ThinkPhone by motorola",
-        "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "ThinkPhone by motorola",
-        "os": "35"
       }
     ]
   },
@@ -117443,6 +118464,10 @@
         "name": "Live wallpaper picker"
       },
       {
+        "locale": "es-us",
+        "name": "Selector de fondo de pantalla animado"
+      },
+      {
         "locale": "es-es",
         "name": "Selector de fondo animado"
       },
@@ -117453,10 +118478,6 @@
       {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Selector de fondo de pantalla animado"
       },
       {
         "locale": "en-mt",
@@ -117542,6 +118563,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -118618,6 +119644,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Servicio LPPe"
+      },
+      {
         "locale": "ru-ru",
         "name": "Служба LPPe"
       }
@@ -118632,6 +119662,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -119254,6 +120289,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -119709,6 +120749,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -120291,6 +121336,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -120736,16 +121786,16 @@
         "name": "Отзывы о Маркете"
       },
       {
+        "locale": "es-us",
+        "name": "Agente de obs. de Market"
+      },
+      {
         "locale": "es-es",
         "name": "Agente comentarios Market"
       },
       {
         "locale": "nl-nl",
         "name": "Market-feedbackagent"
-      },
-      {
-        "locale": "es-us",
-        "name": "Agente de obs. de Market"
       },
       {
         "locale": "sv-se",
@@ -120821,6 +121871,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -121919,6 +122974,10 @@
         "name": "Инструмент выбора медиа"
       },
       {
+        "locale": "es-us",
+        "name": "Selector de medios"
+      },
+      {
         "locale": "es-es",
         "name": "Selector de medios"
       },
@@ -121929,10 +122988,6 @@
       {
         "locale": "nl-nl",
         "name": "Mediakiezer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Selector de medios"
       },
       {
         "locale": "en",
@@ -122013,6 +123068,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -122675,6 +123735,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -123213,6 +124278,10 @@
         "name": "Сообщения"
       },
       {
+        "locale": "es-us",
+        "name": "Mensajes"
+      },
+      {
         "locale": "es-es",
         "name": "Mensajes"
       },
@@ -123223,10 +124292,6 @@
       {
         "locale": "nl-nl",
         "name": "Berichten"
-      },
-      {
-        "locale": "es-us",
-        "name": "Mensajes"
       },
       {
         "locale": "ja-jp",
@@ -123288,6 +124353,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123750,6 +124820,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -123982,6 +125057,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "HONOR",
         "model": "HEY-W09",
         "os": "31"
@@ -124212,6 +125292,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -124960,6 +126045,11 @@
         "os": "28"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -125320,6 +126410,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -125797,6 +126892,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -126180,6 +127280,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -126827,6 +127932,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -127032,6 +128142,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -127133,6 +128248,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -127195,6 +128315,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -127269,6 +128394,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -127360,6 +128490,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -127534,6 +128669,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -127562,8 +128702,18 @@
   "com.motorola.ccc.mainplm": {
     "appName": "Motorola Services Main",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Página principal de los servicios de Motorola"
+      }
+    ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
@@ -127589,6 +128739,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -127681,6 +128836,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -127834,6 +128994,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -128011,6 +129176,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Servicio con base en la ubicación fuera del marco MTK"
+      },
+      {
         "locale": "ru-ru",
         "name": "MTK Non-Framework LBS (MTK не Фреймворк LBS)"
       },
@@ -128028,6 +129197,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -128391,6 +129565,10 @@
         "name": "MTP-хост"
       },
       {
+        "locale": "es-us",
+        "name": "Host MTP"
+      },
+      {
         "locale": "es-es",
         "name": "Host de MTP"
       },
@@ -128401,10 +129579,6 @@
       {
         "locale": "nl-nl",
         "name": "MTP-host"
-      },
-      {
-        "locale": "es-us",
-        "name": "Host MTP"
       },
       {
         "locale": "de-de",
@@ -128487,6 +129661,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -129312,6 +130491,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -130856,16 +132040,16 @@
         "name": "Менеджер сетей"
       },
       {
+        "locale": "es-us",
+        "name": "Administrador de redes"
+      },
+      {
         "locale": "es-es",
         "name": "Administrador de redes"
       },
       {
         "locale": "nl-nl",
         "name": "Netwerkbeheer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Administrador de redes"
       },
       {
         "locale": "de-de",
@@ -130938,6 +132122,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -131739,6 +132928,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -131775,6 +132969,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -132278,6 +133477,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -132403,6 +133607,10 @@
         "name": "NFC service"
       },
       {
+        "locale": "es-us",
+        "name": "Servicio NFC"
+      },
+      {
         "locale": "es-es",
         "name": "NFC"
       },
@@ -132421,10 +133629,6 @@
       {
         "locale": "en-be",
         "name": "Nfc Service"
-      },
-      {
-        "locale": "es-us",
-        "name": "Servicio NFC"
       },
       {
         "locale": "en",
@@ -132539,6 +133743,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -133277,6 +134486,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -133938,6 +135152,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -135581,6 +136800,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -137782,6 +139006,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -138238,6 +139467,10 @@
         "name": "Установщик пакетов"
       },
       {
+        "locale": "es-us",
+        "name": "Instalador de paquetes"
+      },
+      {
         "locale": "es-es",
         "name": "Instalador de paquetes"
       },
@@ -138248,10 +139481,6 @@
       {
         "locale": "nl-nl",
         "name": "Pakket-installatie"
-      },
-      {
-        "locale": "es-us",
-        "name": "Instalador de paquetes"
       },
       {
         "locale": "de-de",
@@ -138339,6 +139568,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -138895,6 +140129,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -139358,6 +140597,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -139391,6 +140635,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -139781,6 +141030,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -140252,6 +141506,10 @@
         "name": "Контролер разрешений"
       },
       {
+        "locale": "es-us",
+        "name": "Controlador de permisos"
+      },
+      {
         "locale": "es-es",
         "name": "Controlador de permisos"
       },
@@ -140262,10 +141520,6 @@
       {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
-      },
-      {
-        "locale": "es-us",
-        "name": "Controlador de permisos"
       },
       {
         "locale": "de-de",
@@ -140343,6 +141597,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -141197,6 +142456,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Seguridad personal"
+      },
+      {
         "locale": "ru-ru",
         "name": "Личная безопасность"
       },
@@ -141207,10 +142470,6 @@
       {
         "locale": "it-it",
         "name": "Emergenze Personali"
-      },
-      {
-        "locale": "es-us",
-        "name": "Seguridad personal"
       },
       {
         "locale": "en",
@@ -141247,6 +142506,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -141957,6 +143221,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Teléfono"
+      },
+      {
         "locale": "ru-ru",
         "name": "Телефон"
       },
@@ -141967,10 +143235,6 @@
       {
         "locale": "it-it",
         "name": "Telefono"
-      },
-      {
-        "locale": "es-us",
-        "name": "Teléfono"
       },
       {
         "locale": "nl-nl",
@@ -142005,6 +143269,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -142303,6 +143572,10 @@
         "name": "Phone and messaging storage"
       },
       {
+        "locale": "es-us",
+        "name": "Memoria Mensajes/Teléfono"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de mensajes y teléfono"
       },
@@ -142313,10 +143586,6 @@
       {
         "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
-      },
-      {
-        "locale": "es-us",
-        "name": "Memoria Mensajes/Teléfono"
       },
       {
         "locale": "en-mt",
@@ -142415,6 +143684,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -142885,6 +144159,10 @@
         "name": "Phone calls"
       },
       {
+        "locale": "es-us",
+        "name": "Llamadas telefónicas"
+      },
+      {
         "locale": "es-es",
         "name": "Llamadas de teléfono"
       },
@@ -142903,10 +144181,6 @@
       {
         "locale": "en-be",
         "name": "Call Management"
-      },
-      {
-        "locale": "es-us",
-        "name": "Llamadas telefónicas"
       },
       {
         "locale": "en-nl",
@@ -143025,6 +144299,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -143520,6 +144799,10 @@
         "name": "Phone services"
       },
       {
+        "locale": "es-us",
+        "name": "Servicios telefónicos"
+      },
+      {
         "locale": "es-es",
         "name": "Servicios telefónicos"
       },
@@ -143530,10 +144813,6 @@
       {
         "locale": "nl-nl",
         "name": "Telefoonservices"
-      },
-      {
-        "locale": "es-us",
-        "name": "Servicios telefónicos"
       },
       {
         "locale": "en-nl",
@@ -143628,6 +144907,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -144833,16 +146117,16 @@
         "name": "Фото"
       },
       {
+        "locale": "es-us",
+        "name": "Fotos"
+      },
+      {
         "locale": "es-es",
         "name": "Fotos"
       },
       {
         "locale": "it-it",
         "name": "Foto"
-      },
-      {
-        "locale": "es-us",
-        "name": "Fotos"
       },
       {
         "locale": "de-de",
@@ -144911,6 +146195,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -145256,6 +146545,10 @@
         "name": "Photos and videos"
       },
       {
+        "locale": "es-us",
+        "name": "Fotos y videos"
+      },
+      {
         "locale": "es-es",
         "name": "Fotos y vídeos"
       },
@@ -145266,10 +146559,6 @@
       {
         "locale": "nl-nl",
         "name": "Foto's en video's"
-      },
-      {
-        "locale": "es-us",
-        "name": "Fotos y videos"
       },
       {
         "locale": "en-nl",
@@ -145352,6 +146641,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -146293,7 +147587,12 @@
   "com.google.android.apps.customization.pixel": {
     "appName": "Pixel Themes",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Temas de Pixel"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -146304,6 +147603,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -147349,6 +148653,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -147809,16 +149118,16 @@
         "name": "Спулер печати"
       },
       {
+        "locale": "es-us",
+        "name": "Cola de impresión"
+      },
+      {
         "locale": "es-es",
         "name": "Cola de impresión"
       },
       {
         "locale": "nl-nl",
         "name": "Afdrukspooler"
-      },
-      {
-        "locale": "es-us",
-        "name": "Cola de impresión"
       },
       {
         "locale": "de-de",
@@ -147910,6 +149219,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -148409,6 +149723,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -148886,6 +150205,18 @@
       }
     ]
   },
+  "com.tinno.productInfo": {
+    "appName": "ProductInfo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.agui.shortcutsettings": {
     "appName": "Programmable key",
     "userFacing": false,
@@ -149057,6 +150388,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -149552,6 +150888,10 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "es-us",
+        "name": "Corte de perforadora"
+      },
+      {
         "locale": "es-es",
         "name": "Recorte redondo"
       },
@@ -149570,10 +150910,6 @@
       {
         "locale": "en-be",
         "name": "Punch hole cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Corte de perforadora"
       },
       {
         "locale": "en",
@@ -149687,6 +151023,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -151647,6 +152988,18 @@
       }
     ]
   },
+  "com.ape.fmradio": {
+    "appName": "Radio FM",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.fmplayer": {
     "appName": "Radio FM",
     "userFacing": false,
@@ -152220,6 +153573,18 @@
       }
     ]
   },
+  "com.ape.faceunlock": {
+    "appName": "Reconocimiento facial",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.tcl.faceunlock": {
     "appName": "Reconocimiento facial",
     "userFacing": false,
@@ -152599,6 +153964,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -153332,6 +154702,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -153999,6 +155374,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -154238,6 +155618,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -154298,6 +155683,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.theme.icon.roundrect": {
+    "appName": "RoundRect",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -163453,6 +164850,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -163986,6 +165388,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -165206,6 +166613,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -165232,6 +166644,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "M2012K11AG",
@@ -166203,6 +167620,10 @@
         "name": "Настройки"
       },
       {
+        "locale": "es-us",
+        "name": "Ajustes"
+      },
+      {
         "locale": "es-es",
         "name": "Ajustes"
       },
@@ -166213,10 +167634,6 @@
       {
         "locale": "nl-nl",
         "name": "Instellingen"
-      },
-      {
-        "locale": "es-us",
-        "name": "Ajustes"
       },
       {
         "locale": "de-de",
@@ -166304,6 +167721,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -167006,6 +168428,10 @@
         "name": "Settings storage"
       },
       {
+        "locale": "es-us",
+        "name": "Almacenamiento de ajustes"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de configuración"
       },
@@ -167016,10 +168442,6 @@
       {
         "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
-      },
-      {
-        "locale": "es-us",
-        "name": "Almacenamiento de ajustes"
       },
       {
         "locale": "en-mt",
@@ -167111,6 +168533,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -167593,6 +169020,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -167678,6 +169110,10 @@
         "name": "Settings suggestions"
       },
       {
+        "locale": "es-us",
+        "name": "Sugerencias de ajustes"
+      },
+      {
         "locale": "es-es",
         "name": "Sugerencias de ajustes"
       },
@@ -167688,10 +169124,6 @@
       {
         "locale": "nl-nl",
         "name": "Instellingen Suggesties"
-      },
-      {
-        "locale": "es-us",
-        "name": "Sugerencias de ajustes"
       },
       {
         "locale": "en-mt",
@@ -167768,6 +169200,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -168889,6 +170326,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -169536,6 +170978,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -169911,6 +171358,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -170658,6 +172110,10 @@
         "name": "SIM-меню"
       },
       {
+        "locale": "es-us",
+        "name": "Mi SIM"
+      },
+      {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
       },
@@ -170676,10 +172132,6 @@
       {
         "locale": "en-be",
         "name": "SIM Tool Kit"
-      },
-      {
-        "locale": "es-us",
-        "name": "Mi SIM"
       },
       {
         "locale": "en-nl",
@@ -170778,6 +172230,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -171378,6 +172835,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -175447,15 +176909,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Sonidos"
+      },
+      {
         "locale": "ru-ru",
         "name": "Звуки"
       },
       {
         "locale": "es-es",
-        "name": "Sonidos"
-      },
-      {
-        "locale": "es-us",
         "name": "Sonidos"
       },
       {
@@ -175510,6 +176972,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -176018,6 +177485,10 @@
         "name": "Распознавание и синтез речи от Google"
       },
       {
+        "locale": "es-us",
+        "name": "Reconocimiento y síntesis de voz de Google"
+      },
+      {
         "locale": "es-es",
         "name": "Reconocimiento y síntesis de voz de Google"
       },
@@ -176036,10 +177507,6 @@
       {
         "locale": "en-be",
         "name": "Google Text-to-speech engine"
-      },
-      {
-        "locale": "es-us",
-        "name": "Reconocimiento y síntesis de voz de Google"
       },
       {
         "locale": "en",
@@ -176151,6 +177618,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -176695,6 +178167,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -177123,12 +178600,12 @@
         "name": "Менеджер хранилища"
       },
       {
-        "locale": "nl-nl",
-        "name": "Opslagbeheer"
-      },
-      {
         "locale": "es-us",
         "name": "Administrador de almacenamiento"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Opslagbeheer"
       },
       {
         "locale": "es-es",
@@ -177214,6 +178691,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -178005,6 +179487,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -178648,6 +180135,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -178904,6 +180396,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       }
@@ -179006,6 +180503,10 @@
         "name": "System connectivity resources"
       },
       {
+        "locale": "es-us",
+        "name": "Recursos de conectividad del sistema"
+      },
+      {
         "locale": "es-es",
         "name": "Recursos de conectividad del sistema"
       },
@@ -179016,10 +180517,6 @@
       {
         "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recursos de conectividad del sistema"
       },
       {
         "locale": "en-nl",
@@ -179107,6 +180604,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -179856,6 +181358,10 @@
         "name": "Родительский контроль Family Link"
       },
       {
+        "locale": "es-us",
+        "name": "Controles parentales del sistema"
+      },
+      {
         "locale": "es-es",
         "name": "Controles parentales de Family Link"
       },
@@ -179866,10 +181372,6 @@
       {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht van systeem"
-      },
-      {
-        "locale": "es-us",
-        "name": "Controles parentales del sistema"
       },
       {
         "locale": "de-de",
@@ -179937,6 +181439,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -180453,16 +181960,16 @@
         "name": "System tracing"
       },
       {
+        "locale": "es-us",
+        "name": "Registro del sistema"
+      },
+      {
         "locale": "es-es",
         "name": "Trazado del sistema"
       },
       {
         "locale": "it-it",
         "name": "Tracciamento del sistema"
-      },
-      {
-        "locale": "es-us",
-        "name": "Registro del sistema"
       },
       {
         "locale": "en-mt",
@@ -180549,6 +182056,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -180986,6 +182498,10 @@
         "name": "Интерфейс системы"
       },
       {
+        "locale": "es-us",
+        "name": "IU del sistema"
+      },
+      {
         "locale": "es-es",
         "name": "IU sistema"
       },
@@ -180996,10 +182512,6 @@
       {
         "locale": "nl-nl",
         "name": "Systeem-UI"
-      },
-      {
-        "locale": "es-us",
-        "name": "IU del sistema"
       },
       {
         "locale": "de-de",
@@ -181087,6 +182599,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -181903,6 +183420,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -182644,6 +184166,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
         "locale": "ru-ru",
         "name": "Системные ресурсы Wi-Fi"
       },
@@ -182654,10 +184180,6 @@
       {
         "locale": "it-it",
         "name": "Risorse Wi-Fi sistema"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recursos Wi‑Fi del sistema"
       },
       {
         "locale": "en-gb",
@@ -182703,6 +184225,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -183357,16 +184884,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "Etiquetas"
+      },
+      {
         "locale": "es-es",
         "name": "Etiquetas"
       },
       {
         "locale": "it-it",
         "name": "Tag"
-      },
-      {
-        "locale": "es-us",
-        "name": "Etiquetas"
       },
       {
         "locale": "sv-se",
@@ -183411,6 +184938,11 @@
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -183826,6 +185358,10 @@
         "name": "Сверху"
       },
       {
+        "locale": "es-us",
+        "name": "Recorte alto"
+      },
+      {
         "locale": "es-es",
         "name": "Recorte alto"
       },
@@ -183836,10 +185372,6 @@
       {
         "locale": "nl-nl",
         "name": "Hoge cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Recorte alto"
       },
       {
         "locale": "en",
@@ -183931,6 +185463,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -184866,6 +186403,11 @@
         "os": "30"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -184995,6 +186537,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
@@ -185026,10 +186573,26 @@
       }
     ]
   },
+  "com.telcel.contenedor": {
+    "appName": "Telcel",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.telephony": {
     "appName": "Telephony Assist",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Asistente de telefonía"
+      },
       {
         "locale": "ru-ru",
         "name": "Телефонный помощник"
@@ -185040,6 +186603,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "INFINIX",
@@ -185331,6 +186899,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -186280,6 +187853,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -186311,6 +187889,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
@@ -187379,6 +188962,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -188703,6 +190291,10 @@
         "name": "Словарь пользователя"
       },
       {
+        "locale": "es-us",
+        "name": "Diccionario del usuario"
+      },
+      {
         "locale": "es-es",
         "name": "Diccionario del usuario"
       },
@@ -188713,10 +190305,6 @@
       {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
-      },
-      {
-        "locale": "es-us",
-        "name": "Diccionario del usuario"
       },
       {
         "locale": "de-de",
@@ -188804,6 +190392,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -191536,11 +193129,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "es-us",
+        "name": "ComandoVoz"
+      },
+      {
         "locale": "es-es",
         "name": "Comando de voz"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
       {
         "make": "CUBOT",
         "model": "P80",
@@ -191843,6 +193445,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -192429,6 +194036,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -193362,6 +194974,10 @@
         "name": "Вырез на экране Waterfall"
       },
       {
+        "locale": "es-us",
+        "name": "Corte de cascada"
+      },
+      {
         "locale": "es-es",
         "name": "Recorte de cascada"
       },
@@ -193372,10 +194988,6 @@
       {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
-      },
-      {
-        "locale": "es-us",
-        "name": "Corte de cascada"
       },
       {
         "locale": "en",
@@ -193457,6 +195069,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -194584,16 +196201,16 @@
         "name": "Webcam service"
       },
       {
+        "locale": "es-us",
+        "name": "Servicio de cámara web"
+      },
+      {
         "locale": "en-de",
         "name": "Webcam service"
       },
       {
         "locale": "ja-jp",
         "name": "ウェブカメラ サービス"
-      },
-      {
-        "locale": "es-us",
-        "name": "Servicio de cámara web"
       }
     ],
     "devices": [
@@ -194610,6 +196227,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -195819,6 +197441,10 @@
         "name": "Экстренные оповещения по беспроводным сетям"
       },
       {
+        "locale": "es-us",
+        "name": "Alertas de emergencia inalámbricas"
+      },
+      {
         "locale": "es-es",
         "name": "Alertas de emergencia inalámbricas"
       },
@@ -195829,10 +197455,6 @@
       {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
-      },
-      {
-        "locale": "es-us",
-        "name": "Alertas de emergencia inalámbricas"
       },
       {
         "locale": "de-de",
@@ -195913,6 +197535,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "HONOR",
@@ -196848,6 +198475,10 @@
         "name": "Рабочий профиль"
       },
       {
+        "locale": "es-us",
+        "name": "Configuración de trabajo"
+      },
+      {
         "locale": "es-es",
         "name": "Configuración de trabajo"
       },
@@ -196858,10 +198489,6 @@
       {
         "locale": "nl-nl",
         "name": "Werkinstelling"
-      },
-      {
-        "locale": "es-us",
-        "name": "Configuración de trabajo"
       },
       {
         "locale": "de-de",
@@ -196944,6 +198571,11 @@
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
@@ -198356,6 +199988,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
         "os": "34"
@@ -198836,6 +200473,11 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       },
       {
         "make": "Elo Touch Solutions",
