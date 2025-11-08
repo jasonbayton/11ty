@@ -509,6 +509,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -1299,6 +1304,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -1842,6 +1852,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -1887,6 +1902,18 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.inputdevices.overlay": {
+    "appName": "AguiInputDevicesOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -3021,6 +3048,11 @@
         "os": "31"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -3421,6 +3453,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -4057,6 +4094,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -4643,6 +4685,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -5213,6 +5260,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -5738,6 +5790,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6273,6 +6330,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6851,6 +6913,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -7364,6 +7431,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -7891,6 +7963,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -8446,6 +8523,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -10013,6 +10095,18 @@
       }
     ]
   },
+  "com.agui.app.apninfocollector": {
+    "appName": "APN Info Viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.sonymobile.apnupdater": {
     "appName": "APN Updater",
     "userFacing": false,
@@ -10105,14 +10199,24 @@
     ]
   },
   "com.agui.appblock": {
-    "appName": "App blocker",
+    "appName": "App Blocker",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "App blocker"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -10309,6 +10413,18 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      }
+    ]
+  },
+  "com.agui.applock": {
+    "appName": "App Lock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -11902,6 +12018,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -12413,6 +12534,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -13815,6 +13941,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -14127,6 +14258,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -15178,6 +15314,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -15347,6 +15488,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -15564,6 +15710,18 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.bedtimesetting": {
+    "appName": "Bedtime mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -16674,6 +16832,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -17610,6 +17773,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -18135,6 +18303,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18725,6 +18898,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -19658,6 +19836,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -20119,6 +20302,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -20884,6 +21072,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -21798,6 +21991,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -21909,6 +22107,18 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.agui.callrecord": {
+    "appName": "Call Recorder",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -22888,6 +23098,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -23971,6 +24186,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -24791,6 +25011,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -25566,6 +25791,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -26953,6 +27183,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -27657,6 +27892,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -28276,6 +28516,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -28834,6 +29079,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.android.theme.icon.circular": {
+    "appName": "Circular",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -29639,6 +29896,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -30364,6 +30626,132 @@
       }
     ]
   },
+  "com.mediatek.miravision.ui": {
+    "appName": "Color Scheme",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "es-es",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "en-gb",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "en-in",
+        "name": "MiraVision"
+      },
+      {
+        "locale": "en-lk",
+        "name": "MiraVision"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T610K",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB570FU",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "LENOVO",
+        "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.heytap.colorfulengine": {
     "appName": "Colorful Engine",
     "userFacing": false,
@@ -30444,6 +30832,42 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.agui.overlay.modules.tethering.entitlement": {
+    "appName": "com.agui.overlay.modules.tethering.entitlement",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.subdisplay.overlay": {
+    "appName": "com.agui.subdisplay.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.update.overlay": {
+    "appName": "com.agui.update.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -30980,6 +31404,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -31594,6 +32023,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -32225,6 +32659,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -33202,6 +33641,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -33727,6 +34171,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34345,6 +34794,11 @@
         "os": "31"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -34924,6 +35378,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -35030,6 +35489,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -35647,6 +36111,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -36176,6 +36645,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -38003,6 +38477,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -38582,6 +39061,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -41197,6 +41681,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -41689,6 +42178,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "34"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43770,6 +44264,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -44292,6 +44791,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -44749,6 +45253,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -45144,6 +45653,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -45287,6 +45801,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -45922,6 +46441,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -46037,6 +46561,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -46291,75 +46820,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      }
-    ]
-  },
-  "com.google.android.apps.adm": {
-    "appName": "com.google.android.apps.adm",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "es-es",
-        "name": "Encontrar mi dispositivo"
-      },
-      {
-        "locale": "it-it",
-        "name": "Trova il mio dispositivo"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Find My Device"
-      },
-      {
-        "locale": "ja-jp",
-        "name": "Find Hub"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "34"
-      },
-      {
-        "make": "CUBOT",
-        "model": "P80",
-        "os": "33"
-      },
-      {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
-        "make": "DOOGEE",
-        "model": "S41 Max",
-        "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "TCL",
-        "model": "T610K",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "T951K",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "C59 Pro",
-        "os": "35"
       }
     ]
   },
@@ -46869,6 +47329,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -47696,6 +48161,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -48360,6 +48830,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -49692,6 +50167,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -50131,6 +50611,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -50346,6 +50831,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -50833,6 +51323,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51262,6 +51757,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51458,6 +51958,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -51783,6 +52288,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -51900,6 +52410,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -52712,6 +53227,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -53433,6 +53953,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -53860,6 +54385,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -54044,6 +54574,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -54462,6 +54997,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54903,6 +55443,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -55325,6 +55870,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -55740,6 +56290,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.google.android.overlay.setupwizard": {
+    "appName": "com.google.android.overlay.setupwizard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -56405,6 +56967,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -56726,6 +57293,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -57517,6 +58089,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -58615,6 +59192,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -58739,6 +59321,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -58755,6 +59342,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -58843,6 +59435,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -58855,6 +59452,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -58867,6 +59469,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -58879,6 +59486,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59016,6 +59628,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59128,6 +59745,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59235,6 +59857,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59247,168 +59874,6 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
-      }
-    ]
-  },
-  "com.mediatek.ims": {
-    "appName": "com.mediatek.ims.ImsApp",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "es-us",
-        "name": "ImsApp"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "ImsApp"
-      },
-      {
-        "locale": "es-es",
-        "name": "ImsApp"
-      },
-      {
-        "locale": "en-gb",
-        "name": "ImsApp"
-      },
-      {
-        "locale": "en-in",
-        "name": "ImsApp"
-      },
-      {
-        "locale": "en-lk",
-        "name": "ImsApp"
-      }
-    ],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Blackview",
-        "model": "VARG",
-        "os": "30"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "CUBOT",
-        "model": "P80",
-        "os": "33"
-      },
-      {
-        "make": "realme",
-        "model": "RMX2001",
-        "os": "30"
-      },
-      {
-        "make": "Sony",
-        "model": "I3312",
-        "os": "27"
-      },
-      {
-        "make": "TCL",
-        "model": "T610K",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-7306F",
-        "os": "30"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "Ulefone",
-        "model": "Power Armor X11 Pro",
-        "os": "31"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "6025D_EEA",
-        "os": "30"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "TCL",
-        "model": "6165H",
-        "os": "33"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
-      },
-      {
-        "make": "TCL",
-        "model": "T951K",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "T8",
-        "os": "34"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "YUMPINGO_1",
-        "os": "28"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6525B",
-        "os": "33"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
-      },
-      {
-        "make": "RHINO",
-        "model": "C10",
-        "os": "29"
       }
     ]
   },
@@ -59538,6 +60003,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59607,6 +60077,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -59623,6 +60098,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -59755,6 +60235,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -72440,6 +72925,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -72605,6 +73095,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -73420,6 +73915,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -74948,6 +75448,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -75673,6 +76178,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -75892,6 +76402,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -76812,6 +77327,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -77346,6 +77866,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -77730,6 +78255,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -78421,6 +78951,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -78717,6 +79252,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -79359,6 +79899,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80535,6 +81080,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -81609,6 +82159,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -81998,6 +82553,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -82100,6 +82660,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -83158,6 +83723,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -84175,6 +84745,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -84747,6 +85322,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -85307,6 +85887,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -85922,6 +86507,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -87199,6 +87789,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -88503,6 +89098,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -89312,6 +89912,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -90845,6 +91450,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -91943,6 +92553,18 @@
       }
     ]
   },
+  "com.agui.factorytest": {
+    "appName": "Factory Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.pri.factorytest": {
     "appName": "factory testing",
     "userFacing": false,
@@ -92460,6 +93082,18 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      }
+    ]
+  },
+  "com.agui.fancooling": {
+    "appName": "Fan Cooling",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -93408,6 +94042,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -93800,6 +94439,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -94845,6 +95489,76 @@
       }
     ]
   },
+  "com.google.android.apps.adm": {
+    "appName": "Find My Device",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "es-es",
+        "name": "Encontrar mi dispositivo"
+      },
+      {
+        "locale": "it-it",
+        "name": "Trova il mio dispositivo"
+      },
+      {
+        "locale": "ja-jp",
+        "name": "Find Hub"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
+        "make": "DOOGEE",
+        "model": "S41 Max",
+        "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T610K",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "C59 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.fmm": {
     "appName": "Find My Mobile",
     "userFacing": false,
@@ -95395,6 +96109,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -95960,6 +96679,18 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.frozen": {
+    "appName": "Freezer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -96650,6 +97381,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -98590,18 +99326,6 @@
       }
     ]
   },
-  "com.agui.game": {
-    "appName": "Game mode",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      }
-    ]
-  },
   "com.yft.gamemode": {
     "appName": "Game mode",
     "userFacing": false,
@@ -98611,6 +99335,23 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.agui.game": {
+    "appName": "Game Mode",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -98956,6 +99697,18 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.agui.aguigrabageclear": {
+    "appName": "Garbage Cleaner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -99332,6 +100085,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -99502,6 +100260,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -101056,6 +101819,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -102120,6 +102888,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -102698,6 +103471,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -103759,6 +104537,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -104328,6 +105111,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -104848,6 +105636,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -105642,6 +106435,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -106472,6 +107270,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -106974,6 +107777,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -107104,6 +107912,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -107656,6 +108469,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -107969,6 +108787,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -108347,6 +109170,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -109635,6 +110463,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -109710,6 +110543,18 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.theme.icon.heart": {
+    "appName": "Heart",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -110290,6 +111135,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.internal.systemui.navbar.hide_gesture_line": {
+    "appName": "Hide Gesture Line",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -111666,6 +112523,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -112128,6 +112990,18 @@
       }
     ]
   },
+  "com.agui.app.imei": {
+    "appName": "IMEI Tool",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.imeisettings": {
     "appName": "ImeiSettings",
     "userFacing": false,
@@ -112488,6 +113362,153 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      }
+    ]
+  },
+  "com.mediatek.ims": {
+    "appName": "ImsApp",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "com.mediatek.ims.ImsApp"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Blackview",
+        "model": "VARG",
+        "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6871",
+        "os": "34"
+      },
+      {
+        "make": "CUBOT",
+        "model": "P80",
+        "os": "33"
+      },
+      {
+        "make": "realme",
+        "model": "RMX2001",
+        "os": "30"
+      },
+      {
+        "make": "Sony",
+        "model": "I3312",
+        "os": "27"
+      },
+      {
+        "make": "TCL",
+        "model": "T610K",
+        "os": "34"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "Ulefone",
+        "model": "Power Armor X11 Pro",
+        "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-X6C6NBF",
+        "os": "31"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "6165H",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "21091116UI",
+        "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "T8",
+        "os": "34"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "YUMPINGO_1",
+        "os": "28"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "INFINIX",
+        "model": "Infinix X6525B",
+        "os": "33"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -113311,6 +114332,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -113397,6 +114423,18 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      }
+    ]
+  },
+  "com.agui.settings": {
+    "appName": "Intelligent assistance",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -113909,6 +114947,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -114631,6 +115674,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -115199,6 +116247,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -115236,6 +116289,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -115443,6 +116501,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -118980,6 +120043,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -119797,6 +120865,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -120689,6 +121762,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -121084,6 +122162,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -121761,6 +122844,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -122313,6 +123401,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -122747,6 +123840,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -122849,6 +123947,11 @@
         "make": "SMT_HK",
         "model": "YUMPINGO_1",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -123453,6 +124556,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124095,6 +125203,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -124120,6 +125233,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -124713,6 +125831,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -126034,98 +127157,6 @@
       }
     ]
   },
-  "com.mediatek.miravision.ui": {
-    "appName": "MiraVision",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6871",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "T610K",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB570FU",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-X6C6NBF",
-        "os": "31"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "TCL",
-        "model": "6165H",
-        "os": "33"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "21091116UI",
-        "os": "33"
-      },
-      {
-        "make": "TCL",
-        "model": "T951K",
-        "os": "35"
-      },
-      {
-        "make": "LENOVO",
-        "model": "TB132FU",
-        "os": "34"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "INFINIX",
-        "model": "Infinix X6525B",
-        "os": "33"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
-      }
-    ]
-  },
   "com.xiaomi.trustservice": {
     "appName": "MiTrustService",
     "userFacing": false,
@@ -126847,6 +127878,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -126984,6 +128020,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.systemmanager": {
+    "appName": "Mobile Management",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -129114,6 +130162,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -129271,6 +130324,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -130103,6 +131161,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -130676,6 +131739,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -132514,6 +133582,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -132590,6 +133663,30 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.agold.networkmanager.ui": {
+    "appName": "Network Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agold.networkmanager.service": {
+    "appName": "Network Manager Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -132961,6 +134058,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -133002,6 +134104,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -133510,6 +134617,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -133575,6 +134687,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.agui.nfc": {
+    "appName": "NFC Card Emulation",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -134118,6 +135242,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -134753,6 +135882,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -135532,6 +136666,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -136885,6 +138024,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137622,6 +138766,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137644,6 +138793,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137665,6 +138819,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -137707,6 +138866,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137723,6 +138887,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -137878,6 +139047,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137895,6 +139069,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137911,6 +139090,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -137953,6 +139137,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -137969,6 +139158,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -137987,6 +139181,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -138003,6 +139202,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -138021,6 +139225,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -138037,6 +139246,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -138055,6 +139269,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -138071,6 +139290,11 @@
       {
         "make": "TCL",
         "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -139171,6 +140395,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -140010,6 +141239,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -140569,6 +141803,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -141077,6 +142316,11 @@
         "os": "31"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
@@ -141092,6 +142336,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -141116,6 +142365,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.agui.providers.pedometer": {
+    "appName": "Pedometer provider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -142009,6 +143270,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -142691,6 +143957,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -143461,6 +144732,11 @@
         "os": "35"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -144126,6 +145402,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -144734,6 +146015,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -145347,6 +146633,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -146487,6 +147778,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -146981,6 +148277,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149093,6 +150394,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -149661,6 +150967,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -150073,6 +151384,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -150205,6 +151521,18 @@
       }
     ]
   },
+  "com.agui.privatespace": {
+    "appName": "Private Space",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.tinno.productInfo": {
     "appName": "ProductInfo",
     "userFacing": false,
@@ -150214,18 +151542,6 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
-      }
-    ]
-  },
-  "com.agui.shortcutsettings": {
-    "appName": "Programmable key",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
       }
     ]
   },
@@ -150830,6 +152146,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -151413,6 +152734,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152951,6 +154277,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -153312,11 +154643,6 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
-      {
-        "make": "LENOVO",
-        "model": "TB352FU",
-        "os": "35"
-      },
       {
         "make": "LENOVO",
         "model": "TB570FU",
@@ -153924,6 +155250,18 @@
       }
     ]
   },
+  "com.tiqiaa.icontrol": {
+    "appName": "Remote",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.hihonor.remotepassword": {
     "appName": "RemotePassword",
     "userFacing": false,
@@ -154169,6 +155507,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -154815,6 +156158,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -155359,6 +156707,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -155666,6 +157019,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -165800,6 +167158,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -166599,6 +167962,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -168163,6 +169531,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -168975,6 +170348,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -169580,6 +170958,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -170766,6 +172149,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -170795,6 +172183,28 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.shortcutsettings": {
+    "appName": "Shortcut keys",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "",
+        "name": "Programmable key"
+      }
+    ],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -171765,6 +173175,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -172607,6 +174022,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -172909,6 +174329,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -175331,6 +176756,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -176867,6 +178297,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -177229,6 +178664,11 @@
         "os": "31"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -177365,6 +178805,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -178055,6 +179500,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -178080,6 +179530,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -178195,6 +179650,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -179068,6 +180528,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -179266,7 +180731,7 @@
     ]
   },
   "com.agui.studentmodel": {
-    "appName": "Student mode",
+    "appName": "Student Mode",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -179274,6 +180739,11 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -179286,6 +180756,18 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      }
+    ]
+  },
+  "com.agui.subdisplay.launcher": {
+    "appName": "SubDisplayLauncher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -179367,6 +180849,18 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      }
+    ]
+  },
+  "com.agui.superflashlight": {
+    "appName": "Super flashlight",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -179872,6 +181366,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -180292,6 +181791,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -180984,6 +182488,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -181781,6 +183290,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -182473,6 +183987,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -183041,6 +184560,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -183314,6 +184838,18 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.update": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -183779,6 +185315,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -184390,6 +185931,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -185165,6 +186711,11 @@
         "os": "31"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -185875,6 +187426,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -185937,6 +187493,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -186453,6 +188014,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
@@ -186698,6 +188264,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -187286,6 +188857,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -187400,6 +188976,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -187881,6 +189462,11 @@
         "make": "OPPO",
         "model": "CPH2591",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -187917,6 +189503,11 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -188117,6 +189708,11 @@
       {
         "make": "OUKITEL",
         "model": "C59 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -188420,6 +190016,18 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.agui.toolbox": {
+    "appName": "Toolbox",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -189231,6 +190839,11 @@
       {
         "make": "samsung",
         "model": "SM-S906B",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -190834,6 +192447,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -191770,6 +193388,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -191807,6 +193430,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -193887,6 +195515,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -194244,6 +195877,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       }
     ]
@@ -195466,6 +197104,11 @@
         "os": "33"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -196312,6 +197955,11 @@
       {
         "make": "ALCommon",
         "model": "ALCommon",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
         "os": "35"
       },
       {
@@ -197374,6 +199022,18 @@
       }
     ]
   },
+  "com.agui.google.android.wifi.resources.overlay": {
+    "appName": "WifiResGoogleOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.wifitest": {
     "appName": "wifitest",
     "userFacing": false,
@@ -197915,6 +199575,11 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -199013,6 +200678,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -199882,6 +201552,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       }
     ]
   },
@@ -200418,6 +202093,11 @@
         "os": "29"
       },
       {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
@@ -200703,6 +202383,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
       },
       {
         "make": "Google",
