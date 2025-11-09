@@ -1918,6 +1918,30 @@
       }
     ]
   },
+  "com.agui.powerprofile.overlay1": {
+    "appName": "AguiPowerProfileOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
+  "com.agui.powerprofile.overlay2": {
+    "appName": "AguiPowerProfileOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "net.bat.store": {
     "appName": "AHA Games",
     "userFacing": true,
@@ -180849,18 +180873,6 @@
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
-      }
-    ]
-  },
-  "com.agui.superflashlight": {
-    "appName": "Super flashlight",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Unihertz",
-        "model": "Titan 2",
-        "os": "35"
       }
     ]
   },
