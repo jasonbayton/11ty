@@ -199,6 +199,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -1052,6 +1057,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -1966,6 +1976,18 @@
       }
     ]
   },
+  "com.ddu.ai": {
+    "appName": "AI Beacon",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.gallery20": {
     "appName": "AI Gallery",
     "userFacing": true,
@@ -2847,6 +2869,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -3232,6 +3259,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -3796,6 +3828,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -4379,6 +4416,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -4959,6 +5001,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -5484,6 +5531,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -6034,6 +6086,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -6605,6 +6662,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -7192,6 +7254,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -7657,6 +7724,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -8327,6 +8399,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12525,6 +12602,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -12873,6 +12955,18 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      }
+    ]
+  },
+  "com.freeme.theme.oversea.Aurora": {
+    "appName": "Aurora",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -15018,6 +15112,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -16526,6 +16625,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -17477,6 +17581,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -17997,6 +18106,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -18592,6 +18706,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -19700,6 +19819,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -20121,6 +20245,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -20766,6 +20895,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -21688,6 +21822,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -23084,6 +23223,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -23920,6 +24064,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -24740,6 +24889,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -25520,6 +25674,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -26615,18 +26774,6 @@
       }
     ]
   },
-  "com.android.toolbox": {
-    "appName": "Cassetta degli attrezzi",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      }
-    ]
-  },
   "com.sec.android.CcInfo": {
     "appName": "CcInfo",
     "userFacing": false,
@@ -26910,6 +27057,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -27586,6 +27738,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -28208,6 +28365,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -29872,6 +30034,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "QEMU",
         "model": "Standard PC (i440FX + PIIX, 1996)",
         "os": "27"
@@ -30700,6 +30867,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -31098,6 +31270,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -31752,6 +31929,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -32483,6 +32665,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -33335,6 +33522,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -33865,6 +34057,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -34663,6 +34860,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -35092,6 +35294,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -35459,6 +35666,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -35878,6 +36090,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -36364,6 +36581,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -38176,6 +38398,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -38755,6 +38982,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -41375,6 +41607,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -42052,6 +42289,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -44103,6 +44345,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -44483,6 +44730,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -44990,6 +45242,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -45599,6 +45856,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -45731,6 +45993,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -46392,6 +46659,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -46516,6 +46788,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -46702,6 +46979,42 @@
         "make": "Dahua",
         "model": "MC480-U",
         "os": "33"
+      }
+    ]
+  },
+  "com.DDU.launcher.custom": {
+    "appName": "com.DDU.launcher.custom",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
+  "com.ddu.launcher.recents.overlay": {
+    "appName": "com.ddu.launcher.recents.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
+  "com.ddu.oobe.overlay": {
+    "appName": "com.ddu.oobe.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -47118,6 +47431,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -47950,6 +48268,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -48652,6 +48975,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -49332,6 +49660,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -49966,6 +50299,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -50360,6 +50698,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -50720,6 +51063,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -51110,6 +51458,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -51521,6 +51874,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -51870,6 +52228,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -52095,6 +52458,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -52516,6 +52884,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -53024,6 +53397,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -53712,6 +54090,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -54129,6 +54512,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -54486,6 +54874,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -54741,6 +55134,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -55187,6 +55585,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -55612,6 +56015,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -56736,6 +57144,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -57118,6 +57531,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -57999,6 +58417,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -59103,6 +59526,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -59282,6 +59710,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -59384,6 +59817,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -59549,6 +59987,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -59681,6 +60124,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -59796,6 +60244,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -59944,6 +60397,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -60043,6 +60501,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -60160,6 +60623,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -60433,6 +60901,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -63574,6 +64047,18 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.oukitel.update.overlay": {
+    "appName": "com.oukitel.update.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       }
     ]
@@ -72619,6 +73104,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -73065,6 +73555,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -73614,6 +74109,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -75267,6 +75767,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -75967,6 +76472,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -76291,6 +76801,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -77036,6 +77551,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -77683,6 +78203,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -78528,6 +79053,11 @@
     "devices": [
       {
         "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
       },
@@ -78947,6 +79477,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -79155,6 +79690,18 @@
       }
     ]
   },
+  "com.ddu.browser.oversea": {
+    "appName": "DDU Browser",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.ifpdos.debugmenu": {
     "appName": "DEBUG MENU",
     "userFacing": false,
@@ -79191,6 +79738,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -79598,6 +80150,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -80879,6 +81436,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -82058,6 +82620,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_arm64",
         "os": "36"
@@ -82457,6 +83024,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -83522,6 +84094,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -84454,6 +85031,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -85014,6 +85596,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -85581,6 +86168,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -86356,6 +86948,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -87308,6 +87905,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -87503,6 +88105,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -88525,6 +89132,18 @@
       }
     ]
   },
+  "com.freeme.theme.oversea.Elements": {
+    "appName": "Elements",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.elo.EloCoreApp": {
     "appName": "elo core service",
     "userFacing": false,
@@ -88743,6 +89362,18 @@
       }
     ]
   },
+  "com.freeme.theme.oversea.Emerald": {
+    "appName": "Emerald",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.cellbroadcastreceiver": {
     "appName": "Emergency alerts",
     "userFacing": false,
@@ -88910,6 +89541,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -89852,6 +90488,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -91144,6 +91785,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -92308,6 +92954,18 @@
       }
     ]
   },
+  "com.aiworks.faceidservice": {
+    "appName": "FaceUnlock",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.aircommandmanager": {
     "appName": "FACM",
     "userFacing": false,
@@ -92825,6 +93483,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "SMT_HK",
@@ -93776,6 +94439,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -94283,6 +94951,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -95557,6 +96230,11 @@
         "os": "36"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -95997,6 +96675,18 @@
       }
     ]
   },
+  "com.android.tool": {
+    "appName": "Flashlight",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.ykjjx.flashlight": {
     "appName": "FlashLight",
     "userFacing": false,
@@ -96089,6 +96779,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -96707,6 +97402,18 @@
       }
     ]
   },
+  "com.freeme.legal": {
+    "appName": "FreemeLegal",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.agui.frozen": {
     "appName": "Freezer",
     "userFacing": false,
@@ -97075,6 +97782,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -97466,6 +98178,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.freeme.theme.oversea.Galaxy": {
+    "appName": "Galaxy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -99889,6 +100613,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -100224,6 +100953,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -101533,6 +102267,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -102592,6 +103331,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -103180,6 +103924,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -104256,6 +105005,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -104805,6 +105559,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -105330,6 +106089,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -106129,6 +106893,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -106964,6 +107733,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -107521,6 +108295,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -107873,6 +108652,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
@@ -108161,6 +108945,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -108651,6 +109440,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -110280,6 +111074,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -112217,6 +113016,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -112725,6 +113529,18 @@
       }
     ]
   },
+  "com.android.hxyservice": {
+    "appName": "hxyservice_lable",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.xiaomi.phone": {
     "appName": "HyperPhone",
     "userFacing": false,
@@ -113035,6 +113851,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "SMT_HK",
@@ -113433,6 +114254,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -114024,6 +114850,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -114762,6 +115593,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -115625,6 +116461,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -115939,6 +116780,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -118397,6 +119243,18 @@
       }
     ]
   },
+  "com.DDU.launcher": {
+    "appName": "Launcher",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.tcl.android.launcher": {
     "appName": "Launcher",
     "userFacing": false,
@@ -119199,6 +120057,18 @@
       }
     ]
   },
+  "com.freeme.theme.oversea.Liujin": {
+    "appName": "Liujin",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.taboola.mip": {
     "appName": "Live lock screen",
     "userFacing": false,
@@ -119760,6 +120630,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -120781,6 +121656,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -121314,6 +122194,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -121479,6 +122364,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -121936,6 +122826,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -122553,6 +123448,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -122889,6 +123789,18 @@
       }
     ]
   },
+  "com.ddu.appstore": {
+    "appName": "Market",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.feedback": {
     "appName": "Market Feedback Agent",
     "userFacing": false,
@@ -123093,6 +124005,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -123806,6 +124723,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -123906,6 +124828,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -124285,6 +125212,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -124967,6 +125899,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -125570,6 +126507,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -127570,6 +128512,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -130100,6 +131047,18 @@
       }
     ]
   },
+  "com.freeme.theme.oversea.Mountain": {
+    "appName": "Mountain",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.miui.msa.global": {
     "appName": "msa",
     "userFacing": false,
@@ -130141,6 +131100,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -130853,6 +131817,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -131620,6 +132589,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -132335,6 +133309,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "SMT_HK",
@@ -133311,6 +134290,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -134054,6 +135038,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -134098,6 +135087,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -134224,6 +135218,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
       {
         "make": "INFINIX",
         "model": "Infinix X6525B",
@@ -134613,6 +135612,11 @@
         "os": "35"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -134996,6 +136000,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -135709,6 +136718,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -136399,6 +137413,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -137990,6 +139009,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -138761,6 +139785,18 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.ddu.oobe": {
+    "appName": "OOBE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -140299,6 +141335,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -140933,6 +141974,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -141495,6 +142541,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -142984,6 +144035,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -143844,6 +144900,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -144601,6 +145662,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -145094,6 +146160,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -145716,6 +146787,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -146327,6 +147403,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -147587,6 +148668,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -148041,6 +149127,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -150088,6 +151179,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -150661,6 +151757,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -151141,6 +152242,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -151840,6 +152946,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -152463,6 +153574,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -155389,6 +156505,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -156087,6 +157208,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -165190,6 +166316,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -165478,6 +166609,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -166877,6 +168013,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -167278,6 +168419,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.ddu.security": {
+    "appName": "Security",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -168429,6 +169582,11 @@
     ],
     "devices": [
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
@@ -169223,6 +170381,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -170042,6 +171205,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -170699,6 +171867,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -171232,6 +172405,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.ddu.setupwizard": {
+    "appName": "Setup",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       }
     ]
@@ -171841,6 +173026,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -172889,6 +174079,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -173766,6 +174961,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -174294,6 +175494,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -176752,6 +177957,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -178263,6 +179473,11 @@
         "os": "33"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
@@ -178496,6 +179711,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -179197,6 +180417,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -181088,6 +182313,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -181676,6 +182906,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -182210,6 +183445,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -183047,6 +184287,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -183684,6 +184929,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -184242,6 +185492,11 @@
         "os": "27"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -184739,6 +185994,23 @@
       }
     ]
   },
+  "com.oukitel.update": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      }
+    ]
+  },
   "com.tcl.fota.system": {
     "appName": "System Update",
     "userFacing": false,
@@ -184827,18 +186099,6 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
-      }
-    ]
-  },
-  "com.oukitel.update": {
-    "appName": "System Update",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
       }
     ]
   },
@@ -185258,6 +186518,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -185826,6 +187091,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -186318,6 +187588,11 @@
       {
         "make": "samsung",
         "model": "SM-F721B",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
         "os": "35"
       },
       {
@@ -187123,6 +188398,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -187518,6 +188798,11 @@
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
       {
         "make": "OUKITEL",
         "model": "C59 Pro",
@@ -188125,6 +189410,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -188201,6 +189491,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -188572,6 +189867,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -189242,6 +190542,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -189367,6 +190672,11 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -189691,6 +191001,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -190028,6 +191343,28 @@
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
+      }
+    ]
+  },
+  "com.android.toolbox": {
+    "appName": "Toolbox",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Cassetta degli attrezzi"
+      }
+    ],
+    "devices": [
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -190652,6 +191989,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -192127,6 +193469,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -194794,6 +196141,11 @@
         "os": "30"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -195195,6 +196547,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -195825,6 +197182,11 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -196816,6 +198178,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -197742,6 +199109,18 @@
       }
     ]
   },
+  "com.ddu.android.weather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.nothing.weather": {
     "appName": "Weather",
     "userFacing": true,
@@ -197898,6 +199277,11 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -199299,6 +200683,11 @@
         "os": "34"
       },
       {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -200358,6 +201747,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -201441,6 +202835,18 @@
       }
     ]
   },
+  "com.freeme.theme.oversea.Xuanlan": {
+    "appName": "Xuanlan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
+      }
+    ]
+  },
   "com.miui.yellowpage": {
     "appName": "Yellow pages",
     "userFacing": false,
@@ -201514,6 +202920,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "NUU",
@@ -201606,6 +203017,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.freeme.theme.oversea.Young": {
+    "appName": "Young",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
@@ -201783,6 +203206,11 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -202230,6 +203658,11 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -202710,6 +204143,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.freeme.theme.oversea.Ziqiong": {
+    "appName": "Ziqiong",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "OUKITEL",
+        "model": "WP60",
+        "os": "35"
       }
     ]
   },
