@@ -299,6 +299,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -856,6 +861,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -1152,6 +1162,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2505,6 +2520,18 @@
       }
     ]
   },
+  "com.datalogic.aladdinapp": {
+    "appName": "Aladdin",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.sonyericsson.album": {
     "appName": "Album",
     "userFacing": false,
@@ -2535,6 +2562,11 @@
       {
         "make": "LENOVO",
         "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -2989,6 +3021,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -3369,6 +3406,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -3975,6 +4017,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -4576,6 +4623,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -5161,6 +5213,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -5701,6 +5758,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6251,6 +6313,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6844,6 +6911,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -7419,6 +7491,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -7916,6 +7993,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -8279,6 +8361,11 @@
       {
         "make": "Xiaomi",
         "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -9253,6 +9340,18 @@
       }
     ]
   },
+  "android.overlay.a15.vendor": {
+    "appName": "android.overlay.a15.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "android.overlay.bluetoothres": {
     "appName": "android.overlay.bluetoothres",
     "userFacing": false,
@@ -9308,6 +9407,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -9648,6 +9752,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -9689,6 +9798,30 @@
       }
     ]
   },
+  "android.overlay.vendor": {
+    "appName": "android.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "android.overlay.vendor.wwan": {
+    "appName": "android.overlay.vendor.wwan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "android.qvaoverlay.common": {
     "appName": "android.qvaoverlay.common",
     "userFacing": false,
@@ -9712,6 +9845,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -11705,6 +11843,11 @@
       {
         "make": "LENOVO",
         "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -15387,6 +15530,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -15760,6 +15908,18 @@
       }
     ]
   },
+  "com.datalogic.battery": {
+    "appName": "Battery Manager",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.sw.battery_notification": {
     "appName": "Battery Notification",
     "userFacing": false,
@@ -15769,6 +15929,18 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      }
+    ]
+  },
+  "com.datalogic.settings.batteryoptimizations": {
+    "appName": "Battery Optimizations",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -16925,6 +17097,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -17886,6 +18063,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -18421,6 +18603,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -19028,6 +19215,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -19569,6 +19761,18 @@
       }
     ]
   },
+  "com.datalogic.browser": {
+    "appName": "Browser",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.tcl.compass": {
     "appName": "Brújula",
     "userFacing": false,
@@ -19812,6 +20016,11 @@
       {
         "make": "samsung",
         "model": "SM-X716B",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -20102,6 +20311,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -20545,6 +20759,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -21230,6 +21449,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -22167,6 +22391,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23211,6 +23440,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -24429,6 +24663,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -25259,6 +25498,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -26044,6 +26288,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -27444,6 +27693,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -28143,6 +28397,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -28775,6 +29034,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30198,6 +30462,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -31037,6 +31306,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -31112,6 +31386,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.datalogic.codiscanservice": {
+    "appName": "CODiScan Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -31700,6 +31986,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -32346,6 +32637,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -32681,6 +32977,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -32767,6 +33068,18 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.carrierconfig.overlay.vendor": {
+    "appName": "com.android.carrierconfig.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -33062,6 +33375,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -33263,6 +33581,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -33574,6 +33897,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33965,6 +34293,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34507,6 +34840,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35255,6 +35593,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -35737,6 +36080,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36532,6 +36880,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -37038,6 +37391,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -37470,6 +37828,18 @@
       }
     ]
   },
+  "com.android.overlay.Luca.power": {
+    "appName": "com.android.overlay.Luca.power",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.overlay.modules.permissioncontroller.tctui": {
     "appName": "com.android.overlay.modules.permissioncontroller.tctui",
     "userFacing": false,
@@ -37542,6 +37912,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.android.overlay.vendor.no_recent_apps": {
+    "appName": "com.android.overlay.vendor.no_recent_apps",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -37745,6 +38127,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -38201,6 +38588,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -38357,6 +38749,18 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
+      }
+    ]
+  },
+  "com.android.phone.overlay.vendor": {
+    "appName": "com.android.phone.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -38876,6 +39280,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -39467,6 +39876,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -40275,6 +40689,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -41041,6 +41460,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -41461,6 +41885,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -41701,6 +42130,18 @@
       {
         "make": "Nothing",
         "model": "A063",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.overlay.vendor.wwan": {
+    "appName": "com.android.settings.overlay.vendor.wwan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -42102,6 +42543,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -42486,6 +42932,11 @@
         "os": "33"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -42739,6 +43190,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -43843,6 +44299,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -44075,6 +44536,18 @@
       {
         "make": "Nothing",
         "model": "A063",
+        "os": "35"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.luca.vendor": {
+    "appName": "com.android.systemui.overlay.luca.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -44599,6 +45072,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -44798,6 +45276,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45235,6 +45718,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45737,6 +46225,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -46547,6 +47040,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -46705,6 +47203,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -46728,6 +47231,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.wifi.resources.overlay.vendor": {
+    "appName": "com.android.wifi.resources.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -47392,6 +47907,18 @@
       }
     ]
   },
+  "com.datalogic.systemupdate.overlay": {
+    "appName": "com.datalogic.systemupdate.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.DDU.launcher.custom": {
     "appName": "com.DDU.launcher.custom",
     "userFacing": false,
@@ -47921,6 +48448,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -48763,6 +49295,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -49470,6 +50007,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -49952,6 +50494,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.google.android.networkstack.overlay.vendor": {
+    "appName": "com.google.android.networkstack.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -50799,6 +51353,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -51213,6 +51772,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -51528,6 +52092,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -51975,6 +52544,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -52392,6 +52966,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -52975,6 +53554,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -53207,6 +53791,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -53924,6 +54513,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -54635,6 +55229,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -55067,6 +55666,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -55394,6 +55998,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -55699,6 +56308,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -56155,6 +56769,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -56590,6 +57209,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -57729,6 +58353,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -58111,6 +58740,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -58979,6 +59613,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -59098,6 +59737,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -59124,6 +59768,18 @@
       }
     ]
   },
+  "com.google.android.wifi.resources.overlay.mem35": {
+    "appName": "com.google.android.wifi.resources.overlay.mem35",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.wifi.resources.overlay.target": {
     "appName": "com.google.android.wifi.resources.overlay.target",
     "userFacing": false,
@@ -59138,6 +59794,18 @@
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.wifi.resources.overlay.vendor": {
+    "appName": "com.google.android.wifi.resources.overlay.vendor",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -64673,6 +65341,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -64822,6 +65495,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -64916,6 +65594,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -65033,6 +65716,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -65112,6 +65800,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -65204,6 +65897,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -65353,6 +66051,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -65435,6 +66138,11 @@
         "os": "28"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -65474,6 +66182,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -65574,6 +66287,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -65668,6 +66386,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -65737,6 +66460,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -65905,6 +66633,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -65927,6 +66660,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.qualcomm.qti.qsoftpos.service": {
+    "appName": "com.qualcomm.qti.qsoftpos.service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -65981,6 +66726,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -66058,6 +66808,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -66154,6 +66909,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -66274,6 +67034,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -66376,6 +67141,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -66475,6 +67245,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -66724,6 +67499,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
@@ -66856,6 +67636,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -66915,6 +67700,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -73881,6 +74671,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -74328,6 +75123,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -74896,6 +75696,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76559,6 +77364,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -77279,6 +78089,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -77579,6 +78394,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -78388,6 +79208,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -79022,6 +79847,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -79487,6 +80317,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -80280,6 +81115,102 @@
       }
     ]
   },
+  "com.datalogic.extension.uxsettings": {
+    "appName": "Datalogic Extension (UX Settings)",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.dlhomescreen": {
+    "appName": "Datalogic Home Screen",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.settings.datalogicscreensaver": {
+    "appName": "Datalogic Screensaver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.service": {
+    "appName": "Datalogic service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.dlsettings": {
+    "appName": "Datalogic Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.server": {
+    "appName": "Datalogic System Services",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.resources": {
+    "appName": "datalogic-resources",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.provider": {
+    "appName": "DatalogicProvider",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.symbol.datawedge": {
     "appName": "DataWedge",
     "userFacing": true,
@@ -80332,6 +81263,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -81022,6 +81958,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82611,6 +83552,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -83868,6 +84814,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -83963,6 +84914,18 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
+      }
+    ]
+  },
+  "com.datalogic.devicepolicymanager": {
+    "appName": "DevicePolicyManagerApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -84981,6 +85944,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -85241,13 +86209,18 @@
   },
   "com.displaylink.desktop.oem": {
     "appName": "DisplayLink Desktop (OEM)",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -85948,6 +86921,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -86530,6 +87508,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -87105,6 +88088,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -87860,6 +88848,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -89072,6 +90065,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -90500,6 +91498,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -91854,6 +92857,18 @@
       }
     ]
   },
+  "com.datalogic.enterpriseupdater": {
+    "appName": "EnterpriseUpdater",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.apps.mediahome.launcher": {
     "appName": "Entertainment Space",
     "userFacing": false,
@@ -92394,6 +93409,18 @@
       }
     ]
   },
+  "com.datalogic.euiccoverlayapp": {
+    "appName": "EuiccOverlayApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.plum.EuiccOverlayApp": {
     "appName": "EuiccOverlayApp",
     "userFacing": false,
@@ -92805,6 +93832,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -94051,6 +95083,18 @@
       {
         "make": "samsung",
         "model": "SM-S931B",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.factory": {
+    "appName": "Factory",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -95486,6 +96530,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -95968,6 +97017,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -98866,6 +99920,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -101725,6 +102784,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -102011,6 +103075,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Nothing",
@@ -103424,6 +104493,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -104503,6 +105577,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -105096,6 +106175,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -106177,6 +107261,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -106751,6 +107840,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -107286,6 +108380,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -108095,6 +109194,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -108945,6 +110049,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -109492,6 +110601,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -109792,6 +110906,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "SMT_HK",
@@ -110167,6 +111286,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -110619,6 +111743,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
@@ -110975,6 +112104,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -112291,6 +113425,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -113655,6 +114794,11 @@
         "os": "27"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
@@ -114281,6 +115425,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -116149,6 +117298,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -116850,6 +118004,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -117688,6 +118847,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -118099,6 +119263,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -118359,6 +119528,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.datalogic.keyremap": {
+    "appName": "Keyboard Mapper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -120569,6 +121750,18 @@
       }
     ]
   },
+  "com.datalogic.launcher": {
+    "appName": "Launcher",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "net.oneplus.launcher": {
     "appName": "Launcher Data Provider",
     "userFacing": false,
@@ -120948,6 +122141,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.datalogic.licensemanager": {
+    "appName": "LicenseManager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -122024,6 +123229,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -122623,6 +123833,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -122877,6 +124092,18 @@
       }
     ]
   },
+  "com.datalogic.logger": {
+    "appName": "Logger",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qti.logkit.lite": {
     "appName": "Logkit-lite",
     "userFacing": false,
@@ -123107,6 +124334,11 @@
       {
         "make": "LENOVO",
         "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -123778,6 +125010,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -124228,6 +125465,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124875,6 +126117,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -125442,6 +126689,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -126646,6 +127898,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -127331,6 +128588,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -127954,6 +129216,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -130014,6 +131281,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -133356,6 +134628,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -134094,6 +135371,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -135476,6 +136758,18 @@
       }
     ]
   },
+  "com.datalogic.extension.netconfighelper": {
+    "appName": "NetConfigHelper",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.netflix.mediaclient": {
     "appName": "Netflix",
     "userFacing": true,
@@ -135850,6 +137144,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -137584,6 +138883,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -138288,6 +139592,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -139018,6 +140327,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -139524,6 +140838,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -139955,6 +141274,18 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      }
+    ]
+  },
+  "com.datalogic.settings.oemconfig": {
+    "appName": "OEMConfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -142397,6 +143728,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -142930,6 +144266,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -143626,6 +144967,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -143901,6 +145247,18 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
+      }
+    ]
+  },
+  "com.datalogic.packageinstaller": {
+    "appName": "PackageInstallerApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -144198,6 +145556,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -145695,6 +147058,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -147304,6 +148672,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -147862,6 +149235,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -148487,6 +149865,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149115,6 +150498,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149878,6 +151266,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -150380,6 +151773,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -150844,6 +152242,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152516,6 +153919,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -152929,6 +154337,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153514,6 +154927,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -153984,6 +155402,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -154713,6 +156136,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -155338,6 +156766,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -155691,6 +157124,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -155815,6 +157253,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -155884,6 +157327,11 @@
       {
         "make": "samsung",
         "model": "SM-X716B",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -156003,6 +157451,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -156159,6 +157612,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -156242,6 +157700,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -156271,6 +157734,11 @@
       {
         "make": "LENOVO",
         "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -156950,6 +158418,18 @@
       }
     ]
   },
+  "com.datalogic.ime": {
+    "appName": "QuickBoard",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.launcher3": {
     "appName": "Quickstep",
     "userFacing": false,
@@ -157049,6 +158529,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -158257,6 +159742,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -158852,6 +160342,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -167925,6 +169420,18 @@
       }
     ]
   },
+  "com.datalogic.scan": {
+    "appName": "Scan Demo",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.zui.camera.qr": {
     "appName": "Scan QR code",
     "userFacing": false,
@@ -167938,6 +169445,18 @@
       {
         "make": "LENOVO",
         "model": "TB570FU",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.scan2deploy": {
+    "appName": "Scan2Deploy",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -169695,6 +171214,18 @@
       }
     ]
   },
+  "com.datalogic.extension.securevault": {
+    "appName": "Secure Vault",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.fast": {
     "appName": "Secure Wi-Fi",
     "userFacing": false,
@@ -170123,6 +171654,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -172560,6 +174096,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -173387,6 +174928,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -174022,6 +175568,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -174829,6 +176380,18 @@
       }
     ]
   },
+  "com.datalogic.setupwizardscanner": {
+    "appName": "SetupWizardScanner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.spreadtrum.sgps": {
     "appName": "SGPS",
     "userFacing": false,
@@ -174858,6 +176421,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.datalogic.shakingscanner": {
+    "appName": "ShakingScanner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -175228,6 +176803,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -176281,6 +177861,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -176618,6 +178203,11 @@
         "make": "Google",
         "model": "Pixel 7 Pro",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -177163,6 +178753,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -177412,6 +179007,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -179717,6 +181317,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -180373,6 +181978,11 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -180384,6 +181994,18 @@
       {
         "make": "OPPO",
         "model": "CPH2591",
+        "os": "35"
+      }
+    ]
+  },
+  "com.datalogic.softspot": {
+    "appName": "SoftSpot",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       }
     ]
@@ -181705,6 +183327,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -181998,6 +183625,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -182734,6 +184366,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -183799,6 +185436,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -184640,6 +186282,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -185196,6 +186843,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -185782,6 +187434,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -186624,6 +188281,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -187286,6 +188948,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -187864,6 +189531,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -188369,6 +190041,18 @@
       }
     ]
   },
+  "com.datalogic.systemupdate": {
+    "appName": "System Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.jren.update": {
     "appName": "System Update",
     "userFacing": false,
@@ -188603,6 +190287,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -189423,6 +191112,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -190180,6 +191874,11 @@
         "os": "34"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
@@ -190788,6 +192487,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -192271,6 +193975,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -193328,6 +195037,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -194388,6 +196102,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -194881,6 +196600,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -195390,6 +197114,11 @@
       {
         "make": "LENOVO",
         "model": "TB352FU",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -195921,6 +197650,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -196783,6 +198517,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -196822,6 +198561,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -196899,6 +198643,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -197011,6 +198760,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -199046,6 +200800,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -199599,6 +201358,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -200680,6 +202444,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -201741,6 +203510,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
@@ -201864,6 +203638,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -202500,6 +204279,18 @@
       }
     ]
   },
+  "com.datalogic.wifiguard": {
+    "appName": "WiFi Guard",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.samsung.android.wifi.ai.ila": {
     "appName": "WiFiAiIla",
     "userFacing": false,
@@ -202872,6 +204663,18 @@
       }
     ]
   },
+  "com.datalogic.wifi.sarmonitor": {
+    "appName": "WifiSarService",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      }
+    ]
+  },
   "com.oplus.wifitest": {
     "appName": "wifitest",
     "userFacing": false,
@@ -203218,6 +205021,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -204316,6 +206124,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -205097,6 +206910,11 @@
         "os": "35"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "Nothing",
         "model": "A063",
         "os": "35"
@@ -205146,6 +206964,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -205243,6 +207066,11 @@
       {
         "make": "Xiaomi",
         "model": "23124RA7EO",
+        "os": "35"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
         "os": "35"
       },
       {
@@ -205780,6 +207608,11 @@
         "os": "36"
       },
       {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
@@ -206185,6 +208018,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      },
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       },
       {
         "make": "LENOVO",
@@ -206610,6 +208448,18 @@
         "make": "Zebra Technologies",
         "model": "TC21",
         "os": "33"
+      }
+    ]
+  },
+  "com.datalogic.ptt.ext.zello": {
+    "appName": "ZelloPttExtension",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
