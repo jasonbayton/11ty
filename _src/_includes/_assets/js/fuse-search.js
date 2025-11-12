@@ -10,7 +10,7 @@ const debounce = (func) => {
   return function execute(...args) {
     // Empty search, remove spinner
     if (document.getElementById("searchField").value.trim() === "") {
-      deleteSpinner;
+      deleteSpinner();
       clearTimeout(timeout);
     } else if (!document.getElementById("debouncing")) {
       const searchResultsElement = document.getElementById("search-field");
