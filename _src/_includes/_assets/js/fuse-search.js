@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", async () => {
               new RegExp(`(${searchString})`, "gi").exec(value) ?? {};
             const matchIndex = exec.index;
 
-            if (matchIndex) {
+            if (matchIndex !== undefined && matchIndex !== null) {
               const wrapperLength = 100;
 
               const start = matchIndex - wrapperLength;
