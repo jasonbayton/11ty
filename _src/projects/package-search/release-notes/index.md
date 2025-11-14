@@ -17,9 +17,10 @@ eleventyNavigation:
 
 ## Release notes
 
-<div class="support-list">
+<div class="release-list">
 {% set first_item = true %}
-{% for post in collections['Package Search'] | reverse %}
+{% set releaseNotes = collections['Package Search'] | sort(attribute='data.published') | reverse %}
+{% for post in releaseNotes %}
 {% for tag in post.data.categories %}
 {% if tag.includes("Package Search Release Notes") %}
 

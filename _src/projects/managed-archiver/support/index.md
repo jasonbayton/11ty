@@ -99,17 +99,21 @@ eleventyNavigation:
 <div class="support-list">
   <ul>
 
-  {% for post in collections['Managed Archiver'] %}
-  {% for tag in post.data.categories %}
-  {% if tag.includes("Managed Archiver Release Notes") %}
-
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}</li>
-
-  {% endif %}
-  {% endfor %}
-  {% endfor %}
+{% set releaseNotes = collections['Managed Archiver'] | sort(attribute='data.published') | reverse %}
+{% for post in releaseNotes %}
+{% for tag in post.data.categories %}
+{% if tag.includes("Managed Archiver Release Notes") %}
+  <li>
+    {% include "_src/_includes/_assets/img/bayton_logos/managed_info_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}
+  </li>
+{% endif %}
+{% endfor %}
+{% endfor %}
 
   </ul>
+  <p>
+    <a href="/projects/package-archiver/release-notes/">View all PACKAGE ARCHIVER release notes</a>
+  </p>
 </div>
 
 </div>

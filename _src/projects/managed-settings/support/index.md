@@ -99,17 +99,29 @@ eleventyNavigation:
 <div class="support-list">
   <ul>
 
-  {% for post in collections['Managed Settings'] %}
+  {% set releaseNotes = collections['Managed Settings'] | sort(attribute='data.published') | reverse %}
+  {% set releaseCount = 0 %}
+
+  {% for post in releaseNotes %}
+  {% if releaseCount < 10 %}
   {% for tag in post.data.categories %}
   {% if tag.includes("Managed Settings Release Notes") %}
 
-  <li>{% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}</li>
+  <li>
+  {% include "_src/_includes/_assets/img/bayton_logos/managed_settings_icon_xs.svg" %} <a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}
+  </li>
 
+  {% set releaseCount = releaseCount + 1 %}
   {% endif %}
   {% endfor %}
+  {% endif %}
   {% endfor %}
 
   </ul>
+
+  <p>
+    <a href="/projects/managed-settings/release-notes/">View all MANAGED SETTINGS release notes</a>
+  </p>
 </div>
 
 </div>
