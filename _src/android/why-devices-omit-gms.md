@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 4000
 ---
 
-A common question, or critique, regarding non-standard Android devices — such as wearables, TV boxes, or, in the recent case, the Rabbit R1, which was discovered to run Android 13 AOSP — is why Google applications aren't pre-loaded, and why these devices don't get GMS (Google Mobile Services) or EDLA certification to run Google's apps and services.
+A common question, or critique, regarding non-standard Android devices - such as wearables, TV boxes, or, in the recent case, the Rabbit R1, which was discovered to run Android 13 AOSP - is why Google applications aren't pre-loaded, and why these devices don't get GMS (Google Mobile Services) or EDLA certification to run Google's apps and services.
 
 The perception might be understandable given that many devices on the market today come with GMS/Play Protect certification and have the permission to run Google's core app suite, however the process is not as simple as pre-loading the apps and going to market.
 

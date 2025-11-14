@@ -12,7 +12,7 @@ excerpt: ''
 type: page
 layout: project.njk
 ---
-**MANAGED INFO is a powerful information and support utility for Android Enterprise deployments, offering a flexible interface for delivering actions, support content, and contextual device details — now with hybrid kiosk and launcher functionality.**
+**MANAGED INFO is a powerful information and support utility for Android Enterprise deployments, offering a flexible interface for delivering actions, support content, and contextual device details - now with hybrid kiosk and launcher functionality.**
 
 ## What does MANAGED INFO do?
 
@@ -32,7 +32,7 @@ MANAGED INFO enables administrators to configure:
 - **Knowledge worker devices**: Offer rich, branded help content and device info to staff
 - **Custom deployments**: Build role-based or team-specific layouts using branded templates, colours, and app sets
 
-Whether you're running a multi-app kiosk environment or offering a branded launcher experience, MANAGED INFO adapts to your environment — fully configurable via any supported EMM.
+Whether you're running a multi-app kiosk environment or offering a branded launcher experience, MANAGED INFO adapts to your environment - fully configurable via any supported EMM.
 
 ## What does MANAGED INFO cost?
 

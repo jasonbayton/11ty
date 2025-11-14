@@ -22,7 +22,7 @@ However, the honeymoon period is certainly over now. Since the acquisition, Goto
 
 Last December, a significant change came when Goto removed essential functionalities from the free plan. Email configuration, VPN setup, Wi-Fi settings, contacts management, and mail were no longer accessible without a paid subscription. Details of these changes weren't outlined in Miradore's release notes, instead opting to send direct emails to certain customers only. I personally heard about it second-hand. Nevertheless, the impact was felt by long-time users who had integrated these features into their device management workflows.
 
-The situation worsened then in April; Goto further restricted the free tier by limiting mass actions — a cornerstone feature for any MDM solution. According to the [official announcement](https://www.miradore.com/knowledge/releases/premium-plus-trial-and-changes-to-the-free-plan/):
+The situation worsened then in April; Goto further restricted the free tier by limiting mass actions - a cornerstone feature for any MDM solution. According to the [official announcement](https://www.miradore.com/knowledge/releases/premium-plus-trial-and-changes-to-the-free-plan/):
 
 > We have modified our Free plan and limited the mass actions. From now on, Free plan customers can:
 > 
@@ -43,7 +43,7 @@ That said, many of the paying customers they have will have come in through thei
 
 If you're going to enforce limits, you'd be wise typically to pick a path - limited licences, or limited functionality. The removal of both critical features *and* the imposition of device limits is a double-whammy that offers the worst of both worlds. I'd ask how they expect groups on the free tier to remain loyal to a platform driven by decisions that scream "we don't want you here", but it seems apparent they haven't considered the question. 
 
-As someone who has championed Miradore for nearly a decade, I find this trajectory disheartening. The platform's Unique Selling Proposition (USP) was its robust free tier, which allowed organisations — especially smaller groups and communities with tight budgets — to manage their Android devices effectively without incurring additional costs, and I have directed hobbyists, charities, and indeed potential customers their way for years to benefit from this in order to take a first step into the enterprise management ecosystem.
+As someone who has championed Miradore for nearly a decade, I find this trajectory disheartening. The platform's Unique Selling Proposition (USP) was its robust free tier, which allowed organisations - especially smaller groups and communities with tight budgets - to manage their Android devices effectively without incurring additional costs, and I have directed hobbyists, charities, and indeed potential customers their way for years to benefit from this in order to take a first step into the enterprise management ecosystem.
 
 Goto's strategy appears to be undermining this USP entirely. By going down the path they've chosen, they're alienating the very user base that helped Miradore grow. It's a puzzling move, especially when considering that the MDM market is more competitive than ever, and my sympathies go out to the remaining Miradore team suffering the consequences of these mandates.
 

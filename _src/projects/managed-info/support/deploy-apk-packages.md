@@ -17,7 +17,18 @@ eleventyNavigation:
     title: Deploy APK packages
 ---
 
+<div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">
+Companion role required
+</div>
+
+In order to manage custom applications, MANAGED INFO must be set as a companion in the AMAPI policy. This can be achieved either through `extensionConfig`, or the new `ROLE` application policy setting.
+
+Without this configured, MANAGED INFO cannot install (or remove) packages.
+</div>
+
 This document explains how to configure your EMM to deploy **APK packages** to devices using MANAGED INFO.  
+
 MANAGED INFO includes a built-in **Package manager** which handles downloading, validating, installing, updating, and uninstalling APKs via Android Management API (AMAPI) custom app deployment.
 
 Administrators only need to configure the policy and define managed configuration correctly; the package manager does the rest.
@@ -100,14 +111,13 @@ Each APK entry in the managed configuration must contain the following fields:
 
 **Package name (required)**
 
-The Android package name, e.g.  
-`com.example.myapp`
+The Android package name, e.g. `com.example.myapp`
 
 **APK download URL (required)**
 
 A direct HTTPS link to the APK file. the package manager fetches and stages this in its internal cache.
 
-_Note: The application size of MANAGED INFO will increase in line with all cached packages. This is not an issue, but do ensure the device has enough space to hold effectively two copies of the same app while the file remains in cache.
+_Note: The application size of MANAGED INFO will increase in line with all cached packages. This is not an issue, but do ensure the device has enough space to hold effectively two copies of the same package while the file remains in cache._
 
 **Version code (recommended)**
 
@@ -278,23 +288,3 @@ Check:
 - HTTPS certificate validity  
 - network/firewall rules  
 - whether the device can reach the host
-
-## Summary for administrators
-
-To deploy APKs through MANAGED INFO:
-
-1. Host APK files on a reachable HTTPS location.
-2. In your EMM, configure one entry per app:
-   - package name  
-   - APK URL  
-   - versionCode  
-   - SHA-256 values if desired  
-3. Save the managed configuration.
-4. MANAGED INFO will:
-   - download  
-   - validate  
-   - install/update  
-   - uninstall removed apps  
-   - maintain state and retries  
-
-This provides fully automated, policy-driven APK deployment without requiring manual custom-app commands.
