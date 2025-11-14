@@ -44,7 +44,9 @@ A minimal example policy with a managed configuration placeholder:
         { "signingKeyCertFingerprintSha256": "<base64-encoded SHA-256>" }
       ],
       "managedConfiguration": {
-        "kiosk_custom_device_wallpaper": "https://example.org/wallpapers/office.jpg"
+        "kiosk_settings": {
+          "kiosk_custom_device_wallpaper": "https://example.org/wallpapers/office.jpg"
+        }      
       }
     }
   ]
