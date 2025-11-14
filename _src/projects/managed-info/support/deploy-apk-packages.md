@@ -105,8 +105,9 @@ The Android package name, e.g.
 
 **APK download URL (required)**
 
-A direct HTTPS link to the APK file.  
-The package manager fetches and stages this in its AMAPI-managed custom APK directory.
+A direct HTTPS link to the APK file. the package manager fetches and stages this in its internal cache.
+
+_Note: The application size of MANAGED INFO will increase in line with all cached packages. This is not an issue, but do ensure the device has enough space to hold effectively two copies of the same app while the file remains in cache.
 
 **Version code (recommended)**
 
@@ -120,6 +121,7 @@ Behaviour:
 **Signing certificate SHA-256 (optional but strongly recommended)**
 
 The SHA-256 fingerprint of the APK’s signing certificate.  
+
 Supports:
 - hex (with or without colons)  
 - base64  
@@ -129,8 +131,7 @@ The package manager normalises and validates it before install.
 
 **APK file SHA-256 (optional)**
 
-Hash of the APK file itself.  
-Ensures the downloaded file matches what you intended to deploy.
+Hash of the APK file itself. Ensures the downloaded file matches what you intended to deploy.
 
 ## What MANAGED INFO does with your configuration
 
@@ -145,6 +146,7 @@ When an entry is present:
    - `PM_ASSIGNED_INDEX` (list of managed apps)
 
 If the install succeeds, the app is added to the index.  
+
 If it fails, the error is recorded but the entry stays in the index so future reconcile cycles can retry.
 
 ## How updates work
