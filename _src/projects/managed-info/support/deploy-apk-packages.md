@@ -10,7 +10,7 @@ tags:
     - 'Managed Info'
     - 'bayton-projects'
 categories: 
-    - Managed Info Setup
+    - Managed Info Features
 layout: base.njk
 eleventyNavigation: 
     order: 9
