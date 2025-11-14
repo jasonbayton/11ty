@@ -19,7 +19,7 @@ eleventyNavigation:
 
 The managed configuration payload, for offline/custom DPC use.
 
-Version: `1.1.1.1`
+Version: `1.1.3.2`
 
 ```json
 {
@@ -196,7 +196,7 @@ Version: `1.1.1.1`
           "type": "BOOL",
           "title": "Show device security posture",
           "description": "Runs a scan on the device to determine its security posture, and displays a report.",
-          "defaultValue": true
+          "defaultValue": false
         }
       ]
     },
@@ -327,7 +327,14 @@ Version: `1.1.1.1`
           "key": "kiosk_custom_background_image",
           "type": "STRING",
           "title": "Custom background image",
-          "description": "Supports PNG and JPG/JPEG. MANAGED INFO will crop and fill the available screen space, which can vary by device. It is recommended to match the image resolution with that of the screen resolution. This is presented in the device details of MANAGED INFO for reference.",
+          "description": "Provide the URL to an image accessible to MANAGED INFO. Supports PNG and JPG/JPEG. MANAGED INFO will crop and fill the available screen space, which can vary by device. It is recommended to match the image resolution with that of the screen resolution. This is presented in the device details of MANAGED INFO for reference.",
+          "defaultValue": ""
+        },
+        {
+          "key": "kiosk_custom_device_wallpaper",
+          "type": "STRING",
+          "title": "Custom device wallpaper",
+          "description": "Unlike the custom background image, this is a utility to set the device wallpaper outside of MANAGED INFO. All requirements for background image apply to device wallpaper, see above. The wallpaper will be applied to both the home and lock screens.",
           "defaultValue": ""
         },
         {
@@ -648,6 +655,50 @@ Version: `1.1.1.1`
                   ]
                 }
               ]
+            },
+            {
+              "key": "stack_video_embed_card",
+              "type": "BUNDLE_ARRAY",
+              "title": "Embedded video card stack (beta)",
+              "description": "Configure one or more cards displaying an embedded YouTube video. Work in progress, currently rotating the screen will stop playback.",
+              "nestedProperties": [
+                {
+                  "key": "stack_video_embed_card_bundle",
+                  "type": "BUNDLE",
+                  "title": "Card settings",
+                  "description": "Build a card from scratch.",
+                  "nestedProperties": [
+                    {
+                      "key": "stack_video_embed_card_title",
+                      "type": "STRING",
+                      "title": "Card title",
+                      "description": "Give your card an optional title. This sits above the card itself, on the app background.",
+                      "defaultValue": "Video card title"
+                    },
+                    {
+                      "key": "stack_video_embed_card_url",
+                      "type": "STRING",
+                      "title": "YouTube video URL",
+                      "description": "Input the URL of the desired YouTube video. Preferably youtube.com/.. but youtu.be should work fine also.",
+                      "defaultValue": "https://www.youtube.com/watch?v=ezb8wJitEmI"
+                    },
+                    {
+                      "key": "stack_video_embed_card_order",
+                      "type": "INTEGER",
+                      "title": "Display order",
+                      "description": "Define an order for this card in relation to cards of the same type, i.e Text, App, or Grid. This doesn't change global order, which is defined by the Stack. Likewise a Grid card won't render above a Text card within this stack. Use multiple stacks for finer control. Accepts a number beginning from 0.",
+                      "defaultValue": 0
+                    },
+                    {
+                      "key": "enable_video_embed_stack_card",
+                      "type": "BOOL",
+                      "title": "Show card",
+                      "description": "Sets visibility of the card within the stack.",
+                      "defaultValue": false
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -703,7 +754,104 @@ Version: `1.1.1.1`
           ]
         }
       ]
+    },
+    {
+      "key": "certificate_management",
+      "type": "BUNDLE",
+      "title": "Certificate management",
+      "description": "Settings for silent install and management of CA and client certificates. Delegated scopes required.",
+      "nestedProperties": [
+        {
+          "key": "certificate_management_enabled",
+          "type": "BOOL",
+          "title": "Enable",
+          "description": "Enable or disable certificate management. Disabling will remove all certificates installed by MANAGED INFO.",
+          "defaultValue": false
+        },
+        {
+          "key": "certificate_management_reinstall_if_changed",
+          "type": "BOOL",
+          "title": "Reinstall when certificate changes",
+          "description": "Automatically reinstall certificates on change or update.",
+          "defaultValue": true
+        },
+        {
+          "key": "certificate_management_uninstall_if_missing",
+          "type": "BOOL",
+          "title": "Uninstall certs removed from config",
+          "description": "Automatically remove certificates that are no longer defined in managed configuration.",
+          "defaultValue": true
+        },
+        {
+          "key": "certificate_management_certificates",
+          "type": "BUNDLE_ARRAY",
+          "title": "Certificates",
+          "description": "A list of certificate entries for installation.",
+          "nestedProperties": [
+            {
+              "key": "certificate_management_certificate",
+              "type": "BUNDLE",
+              "title": "Certificate",
+              "description": "Configuration for a single certificate.",
+              "nestedProperties": [
+                {
+                  "key": "certificate_type",
+                  "type": "CHOICE",
+                  "title": "Type",
+                  "description": "Certificate type, either CA or Client (P12).",
+                  "entries": [
+                    {
+                      "value": "ca",
+                      "name": "CA Certificate"
+                    },
+                    {
+                      "value": "p12",
+                      "name": "PKCS#12 (p12) Client Certificate"
+                    }
+                  ],
+                  "defaultValue": "ca"
+                },
+                {
+                  "key": "certificate_url",
+                  "type": "STRING",
+                  "title": "Download URL",
+                  "description": "Secure HTTPS URL where the certificate can be downloaded. Must be accessible to MANAGED INFO. Use certificate payload if a URL is not desired.",
+                  "defaultValue": ""
+                },
+                {
+                  "key": "certificate_payload",
+                  "type": "STRING",
+                  "title": "Certificate payload",
+                  "description": "Defines the certificate data directly as base64 or Hex. Use this when the certificate cannot be downloaded from a URL. The value must represent the full DER or PKCS#12 file contents, not its hash. Note as the payload may be quite large, some EMMs may not support it. Test with URL if you have issues with the payload.",
+                  "defaultValue": ""
+                },
+                {
+                  "key": "certificate_sha256",
+                  "type": "STRING",
+                  "title": "Certificate file SHA256",
+                  "description": "Expected SHA256 hash of the certificate file for integrity verification. Hex or base64 supported.",
+                  "defaultValue": ""
+                },
+                {
+                  "key": "certificate_alias",
+                  "type": "STRING",
+                  "title": "Key alias",
+                  "description": "Alias to use for client certificates (P12 only).",
+                  "defaultValue": ""
+                },
+                {
+                  "key": "certificate_password",
+                  "type": "STRING",
+                  "title": "PKCS#12 password",
+                  "description": "Password for the PKCS#12 archive, if needed (P12 only).",
+                  "defaultValue": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
 }
 ```

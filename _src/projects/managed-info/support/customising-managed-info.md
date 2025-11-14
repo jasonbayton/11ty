@@ -113,8 +113,14 @@ MANAGED INFO offers the following customisations:
 **Setup Actions customisation** _1.1.2.0_
 : Allows setting the title, subtitle, visibility of the EMM summary card, and preventing factory reset.
 
-**Vertical & horizontal YouTube cards**
+**Vertical & horizontal YouTube cards** _1.1.2.0_
 : Embed required YouTube videos within the card stack layout. Beta feature.
+
+**Deploy wallpaper as home & lock screen background** _1.1.3.0_
+: Take an image from any accessible URL to MANAGED INFO, and set it as the home screen and lock screen wallpaper. Unlike _Application background image (1.0.1.7)_ this applies natively to the device, and is not shown within MANAGED INFO.
+
+**Deploy certificates** _1.1.3.1_
+: Support for CA and PKCS certificate deployment. This requires the `CERT_INSTALL` scope offered by AMAPI, or equivalent support from a custom DPC.
 
 ### In future
 

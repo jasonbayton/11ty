@@ -241,6 +241,26 @@ When configured as a companion application in AMAPI, MANAGED INFO can install AP
 
 </div>
 
+## Certificate Management
+
+<div class="responsive-table-wrapper">
+
+| Setting | Key | Type | Default | Description |
+|---------|-----|------|---------|-------------|
+| Enable certificate management | `certificate_management_enabled` | `bool` | `false` | Enables or disables certificate management. Disabling removes all certificates previously installed by MANAGED INFO. |
+| Reinstall on change | `certificate_management_reinstall_if_changed` | `bool` | `true` | Automatically reinstalls certificates if the certificate content or metadata changes. |
+| Uninstall missing certificates | `certificate_management_uninstall_if_missing` | `bool` | `true` | Removes certificates no longer defined in managed configuration. |
+| Certificates | `certificate_management_certificates` | `bundle_array` | - | A list of certificate entries defining certificates to install. |
+| Certificate type | `certificate_type` | `choice` | `ca` | Defines whether the certificate is a CA certificate or PKCS#12 client certificate. |
+| Certificate URL | `certificate_url` | `string` | - | HTTPS URL pointing to the certificate file. MANAGED INFO must be able to access it. |
+| Certificate payload | `certificate_payload` | `string` | - | Defines the certificate data directly as base64 or Hex. Use this when the certificate cannot be downloaded from a URL. The value must represent the full DER or PKCS#12 file contents, not its hash. Note as the payload may be quite large, some EMMs may not support it. Test with URL if you have issues with the payload. |
+| Certificate SHA256 | `certificate_sha256` | `string` | - | Expected SHA256 hash of the certificate file, used for integrity verification. Accepts hex or base64. |
+| Certificate alias | `certificate_alias` | `string` | - | Alias for PKCS#12 key entries. Applies to client certificates only. |
+| Certificate password | `certificate_password` | `string` | - | PKCS#12 keystore password, if required. Applies to client certificates only. |
+
+</div>
+
+
 ## Limitations
 
 - Apps must be installed for icons/names to appear.
