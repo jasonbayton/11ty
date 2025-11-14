@@ -18,7 +18,7 @@ eleventyNavigation:
 ---
 
 This document explains how to configure your EMM to deploy **device wallpapers** to managed Android devices using MANAGED INFO.  
-MANAGED INFO includes a built‑in **wallpaper manager** that applies a home and lock screen wallpaper based on the `kiosk_custom_device_wallpaper` managed configuration key.
+MANAGED INFO includes a built-in **wallpaper manager** that applies a home and lock screen wallpaper based on the `kiosk_custom_device_wallpaper` managed configuration key.
 
 ## AMAPI policy requirements
 
@@ -57,7 +57,7 @@ EMMs that support native managed configuration input (most do) should configure 
 
 ## MANAGED INFO wallpaper configuration
 
-### Wallpaper key
+**Wallpaper key**
 
 MANAGED INFO currently supports a single managed configuration key:
 
@@ -71,7 +71,7 @@ Supported formats:
 The wallpaper is always applied to **both** home and lock screens.  
 Base64, HEIC/HEIF, and resource-based wallpapers are not currently supported.
 
-### **Caching**
+**Caching**
 
 MANAGED INFO stores:
 
@@ -88,8 +88,8 @@ When a wallpaper URL is present:
 2. Downloads the image.
 3. Verifies the bitmap can be converted.
 4. Compares against the previously applied URL.
-   - If unchanged → no action taken.
-   - If changed → applies wallpaper to home and lock screens.
+   - If unchanged > no action taken.
+   - If changed > applies wallpaper to home and lock screens.
 5. Updates internal state to avoid repeated applications.
 
 ## Removing or disabling a wallpaper
@@ -102,7 +102,8 @@ If `kiosk_custom_device_wallpaper` is removed or set to an empty string:
 
 ## Troubleshooting
 
-### **Wallpaper does not apply**
+**Wallpaper does not apply**
+
 Check:
 - the URL is reachable  
 - the file is a valid image format  
@@ -110,8 +111,15 @@ Check:
 - Ensure the managed configuration has hydrated (there may be a delay after boot).
 - If the wallpaper resets, confirm the EMM is sending `kiosk_custom_device_wallpaper` consistently (missing keys are treated as “no-change”, not “clear”).
 
-### **Slow or large downloads**
+**Slow or large downloads**
+
 Consider:
 - using WebP for smaller file sizes  
 - hosting wallpapers on a CDN  
 - lowering resolution for budget devices
+
+**Wallpaper is cropped**
+
+All wallpapers provided are cropped and centred in line with the existing background image support within MANAGED INFO.
+
+To guarantee what you want to show on the device is correctly aligned, please ensure the image contains all visual elements within the resolution of the device it's being set against. It's recommended, though understandably impractical, to create a wallpaper per-resolution and deploy across multiple policies. A future enhancement to this functionality may include the option for multiple image sizes, and MANAGED INFO will choose the most-suited for the device when setting the wallpaper.
