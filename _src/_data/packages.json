@@ -80840,28 +80840,6 @@
       }
     ]
   },
-  "com.google.android.apps.pixel.customizationbundle": {
-    "appName": "CustomizationBundle",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "nl-nl",
-        "name": "Themapakketten"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      }
-    ]
-  },
   "com.sonymobile.customizationselector": {
     "appName": "CustomizationSelector",
     "userFacing": false,
@@ -178106,7 +178084,7 @@
       },
       {
         "locale": "fr-dz",
-        "name": "Djezzy Plus"
+        "name": "Outils SIM"
       },
       {
         "locale": "it-it",
@@ -194783,6 +194761,28 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.apps.pixel.customizationbundle": {
+    "appName": "Theme packs",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "nl-nl",
+        "name": "Themapakketten"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
