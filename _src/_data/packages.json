@@ -41735,6 +41735,18 @@
       }
     ]
   },
+  "com.android.settings.identitychecksettingsoverlay": {
+    "appName": "com.android.settings.identitychecksettingsoverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.settings.komodo": {
     "appName": "com.android.settings.komodo",
     "userFacing": false,
@@ -77599,6 +77611,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.android.contactspicker": {
+    "appName": "Contacts Picker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
       }
     ]
   },
@@ -124359,7 +124383,7 @@
   },
   "com.google.android.apps.magicportrait": {
     "appName": "Magic Portrait",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "en-gb",
