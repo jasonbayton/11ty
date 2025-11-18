@@ -1,5 +1,5 @@
 ---
-title: Configure PACKAGE SEARCH for NinjaOne MDM
+title: Configure PACKAGE SEARCH to view managed configurations with NinjaOne MDM
 parent: EMM setup guides for PACKAGE SEARCH
 published: '2024-09-27'
 status: publish
@@ -14,7 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 3
-    title: Configure NinjaOne MDM
+    title: NinjaOne MDM managed configuration setup 
 ---
 
 NinjaOne MDM supports the assignment of delegated scopes through the application edit modal. Here are the steps:
