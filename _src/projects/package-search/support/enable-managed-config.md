@@ -1,5 +1,5 @@
 ---
-title: PACKAGE SEARCH delegated scope setup
+title: PACKAGE SEARCH managed configuration setup
 parent: PACKAGE SEARCH support
 published: '2024-09-26'
 status: publish
@@ -14,7 +14,7 @@ categories:
 layout: base.njk
 eleventyNavigation: 
     order: 0
-    title: Configure delegated scopes
+    title: Managed configuration setup
 ---
 
 PACKAGE SEARCH is able to show currently-assigned managed configurations to applications.
