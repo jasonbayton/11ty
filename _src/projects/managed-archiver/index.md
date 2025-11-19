@@ -34,7 +34,9 @@ Whether you need a simple backup solution, or have strict requirements to adhere
 
 ## What does Archiver cost?
 
-Archiver starts from as little as £0.10 per device, per month. Custom endpoint support and additional development requirements may increase this.
+Archiver is presently offered at no cost, under a BYOA (Bring Your Own Architecture) model. If you have an API endpoint to securely transmit message archives to, including associated attachments, Archiver can be configured for your organisation on request. 
+
+The BAYTON PING service can be made available also as an encrypted message store, however this incurs a fee of £0.10 per device, per month for maintenance.
 
 For fully whitelabeled options, costs remain in-line with other projects.
 
