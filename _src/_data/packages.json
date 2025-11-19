@@ -208875,7 +208875,7 @@
   },
   "com.hmct.sensorapp": {
     "appName": "X-Sensors",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -208897,7 +208897,7 @@
   },
   "com.crosscall.xspace.menu": {
     "appName": "X-SPACE",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -208958,7 +208958,7 @@
   },
   "com.crosscall.xstory": {
     "appName": "X-STORY",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -208992,7 +208992,7 @@
   },
   "com.crosscall.xtrack": {
     "appName": "X-TRACK",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
