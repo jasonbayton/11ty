@@ -117,6 +117,6 @@ Consider:
 
 **Wallpaper is cropped**
 
-All wallpapers provided are cropped and centred in line with the existing background image support within MANAGED INFO.
+All wallpapers provided are cropped and centred. If an image is significantly larger than the native resolution of the device, it may be treated by the OS as a panoramic wallpaper, and spread across multiple home pages (where they exist). If you find the image is "cut off" across home screen pages, please adjust its size.
 
 To guarantee what you want to show on the device is correctly aligned, please ensure the image contains all visual elements within the resolution of the device it's being set against. It's recommended, though understandably impractical, to create a wallpaper per-resolution and deploy across multiple policies. A future enhancement to this functionality may include the option for multiple image sizes, and MANAGED INFO will choose the most-suited for the device when setting the wallpaper.
