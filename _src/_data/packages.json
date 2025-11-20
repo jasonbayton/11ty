@@ -197217,7 +197217,7 @@
   },
   "com.google.android.apps.pixel.customizationbundle": {
     "appName": "Theme packs",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "nl-nl",
