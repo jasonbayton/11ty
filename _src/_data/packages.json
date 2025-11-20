@@ -174,6 +174,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -937,6 +942,10 @@
         "name": "Privacy per gli annunci"
       },
       {
+        "locale": "de-at",
+        "name": "Datenschutz bei Werbung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Advertentieprivacy"
       },
@@ -1077,6 +1086,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -2514,11 +2528,21 @@
   "com.ape.setupwizard": {
     "appName": "Ajustes de Moto",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Moto Setup"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -2526,11 +2550,21 @@
   "com.tinno.coresettingsext": {
     "appName": "Ajustes legales de Moto",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "MotoRechtlicheEinstellungen"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -2844,6 +2878,10 @@
         "name": "Accessibilità di Android"
       },
       {
+        "locale": "de-at",
+        "name": "Android für Barrierefreiheit"
+      },
+      {
         "locale": "de-de",
         "name": "Android für Barrierefreiheit"
       },
@@ -2934,6 +2972,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -3336,6 +3379,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -3915,6 +3963,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -4523,6 +4576,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -4967,6 +5025,10 @@
         "name": "Configurazione Android"
       },
       {
+        "locale": "de-at",
+        "name": "Android-Einrichtung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android Set-up"
       },
@@ -5126,6 +5188,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -5673,6 +5740,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -6255,6 +6327,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -6676,6 +6753,10 @@
         "name": "Sistema Android"
       },
       {
+        "locale": "de-at",
+        "name": "Android-System"
+      },
+      {
         "locale": "nl-nl",
         "name": "Android-systeem"
       },
@@ -6844,6 +6925,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -7466,6 +7552,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -7946,6 +8037,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -8661,6 +8757,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -12626,6 +12727,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -13007,6 +13113,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -15555,6 +15666,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -16961,6 +17077,10 @@
         "name": "Archivio numeri bloccati"
       },
       {
+        "locale": "de-at",
+        "name": "Speicher für blockierte Nummern"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag voor geblokkeerde nummers"
       },
@@ -17120,6 +17240,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -17898,6 +18023,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "de-at",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "en-au",
         "name": "Bluetooth"
       },
@@ -18106,6 +18235,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -18653,6 +18787,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -19273,6 +19412,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -20381,6 +20525,10 @@
         "name": "Calcolatrice"
       },
       {
+        "locale": "de-at",
+        "name": "Rechner"
+      },
+      {
         "locale": "de-de",
         "name": "Rechner"
       },
@@ -20451,6 +20599,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -20790,6 +20943,10 @@
         "name": "Calendario"
       },
       {
+        "locale": "de-at",
+        "name": "Kalender"
+      },
+      {
         "locale": "de-de",
         "name": "Kalender"
       },
@@ -20879,6 +21036,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -21346,6 +21508,10 @@
         "name": "Spazio di archiviazione in Calendario"
       },
       {
+        "locale": "de-at",
+        "name": "Kalenderspeicher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda opslaan"
       },
@@ -21534,6 +21700,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -22359,6 +22530,10 @@
       {
         "locale": "es-us",
         "name": "Respaldar o realizar copia de seguridad del registro de llamadas"
+      },
+      {
+        "locale": "de-at",
+        "name": "Sicherung/Wiederherstellung Anrufliste"
       }
     ],
     "devices": [
@@ -22491,6 +22666,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -23727,11 +23907,21 @@
   "com.myos.camera": {
     "appName": "Cámara",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Kamera"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -24680,7 +24870,12 @@
   "com.android.cameraextensions": {
     "appName": "CameraExtensionsProxy",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Kamera-Erweiterungen-Proxy"
+      }
+    ],
     "devices": [
       {
         "make": "samsung",
@@ -24791,6 +24986,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -25468,6 +25668,10 @@
         "name": "Accesso a captive portal"
       },
       {
+        "locale": "de-at",
+        "name": "Anmeldung über Captive Portal"
+      },
+      {
         "locale": "nl-nl",
         "name": "Inloggen via captive portal"
       },
@@ -25636,6 +25840,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -26258,6 +26467,10 @@
         "name": "Comunicazioni con l'operatore"
       },
       {
+        "locale": "de-at",
+        "name": "Kommunikation mit Mobilfunkanbieter"
+      },
+      {
         "locale": "en-au",
         "name": "CarrierDefaultApp"
       },
@@ -26443,6 +26656,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -27383,6 +27601,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -27856,6 +28079,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -28369,6 +28597,10 @@
         "name": "Installatore certificato"
       },
       {
+        "locale": "de-at",
+        "name": "Zertifikats-Installer"
+      },
+      {
         "locale": "nl-nl",
         "name": "Certificaat installeren"
       },
@@ -28545,6 +28777,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -29199,6 +29436,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -30625,6 +30867,10 @@
         "name": "Orologio"
       },
       {
+        "locale": "de-at",
+        "name": "Uhr"
+      },
+      {
         "locale": "de-de",
         "name": "Uhr"
       },
@@ -30710,6 +30956,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -31776,6 +32027,10 @@
         "name": "MiraVision"
       },
       {
+        "locale": "de-at",
+        "name": "MiraVision"
+      },
+      {
         "locale": "es-es",
         "name": "MiraVision"
       },
@@ -31811,6 +32066,11 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -32181,6 +32441,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33549,6 +33814,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -33668,6 +33938,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -34080,6 +34355,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -34553,6 +34833,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35110,6 +35395,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -35973,6 +36263,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -36232,6 +36527,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -36243,6 +36543,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -36410,6 +36715,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36846,6 +37156,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -37248,6 +37563,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -37749,6 +38069,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -39672,6 +39997,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -40276,6 +40606,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -43015,6 +43350,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -43767,6 +44107,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -45890,6 +46235,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -46275,6 +46625,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -46807,6 +47162,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -47481,6 +47841,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -47613,6 +47978,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -48321,6 +48691,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -48416,6 +48791,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -48427,6 +48807,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -48450,6 +48835,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -49080,6 +49470,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -49947,6 +50342,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -50682,6 +51082,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -51786,6 +52191,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -52043,6 +52453,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -52454,6 +52869,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -52844,6 +53264,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -53244,6 +53669,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -53670,6 +54100,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -54059,6 +54494,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -54274,6 +54714,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -54740,6 +55185,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -55268,6 +55718,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -55981,6 +56436,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -56418,6 +56878,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -56815,6 +57280,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -57070,6 +57540,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -57536,6 +58011,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -57981,6 +58461,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -59145,6 +59630,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -59554,6 +60044,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -59909,6 +60404,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -59923,6 +60423,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -60480,6 +60985,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -60868,6 +61378,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Ulefone",
@@ -61636,6 +62151,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -61818,6 +62338,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -62102,6 +62627,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -62244,6 +62774,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -62366,6 +62901,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -62471,6 +63011,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -62515,6 +63060,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -62621,6 +63171,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -62738,6 +63293,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -62875,6 +63435,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -63793,6 +64358,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -63853,6 +64423,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -64403,6 +64978,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -64973,6 +65553,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -64984,6 +65569,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -64997,6 +65587,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -65008,6 +65603,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -65205,6 +65805,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -65250,6 +65855,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -74354,6 +74964,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -75400,6 +76015,10 @@
         "name": "Gestione dispositivi associati"
       },
       {
+        "locale": "de-at",
+        "name": "Begleitgerät-Manager"
+      },
+      {
         "locale": "de-de",
         "name": "Begleitgerät-Manager"
       },
@@ -75556,6 +76175,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -76069,6 +76693,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -76603,6 +77232,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -78257,6 +78891,10 @@
         "name": "Contatti"
       },
       {
+        "locale": "de-at",
+        "name": "Kontakte"
+      },
+      {
         "locale": "nl-nl",
         "name": "Contacten"
       },
@@ -78334,6 +78972,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -78937,6 +79580,10 @@
         "name": "Archiviazione contatti"
       },
       {
+        "locale": "de-at",
+        "name": "Kontakte-Speicher"
+      },
+      {
         "locale": "en-mt",
         "name": "Contacts storage"
       },
@@ -79056,6 +79703,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -79417,6 +80069,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -80022,6 +80679,10 @@
         "name": "Ritaglio angolo"
       },
       {
+        "locale": "de-at",
+        "name": "Eckenausschnitt"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoek-cutout"
       },
@@ -80180,6 +80841,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -80672,6 +81338,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -80744,6 +81415,10 @@
       {
         "locale": "it-it",
         "name": "Gestore delle credenziali"
+      },
+      {
+        "locale": "de-at",
+        "name": "Anmeldedaten-Manager"
       },
       {
         "locale": "es-es",
@@ -80864,6 +81539,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81391,6 +82071,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -82203,6 +82888,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -82772,6 +83462,10 @@
         "name": "Servizio di stampa predefinito"
       },
       {
+        "locale": "de-at",
+        "name": "Standarddruckdienst"
+      },
+      {
         "locale": "nl-nl",
         "name": "Standaard afdrukservice"
       },
@@ -82942,6 +83636,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -83381,6 +84080,10 @@
         "name": "Modo de tienda"
       },
       {
+        "locale": "de-at",
+        "name": "Vorführmodus"
+      },
+      {
         "locale": "en-gb",
         "name": "Retail mode"
       },
@@ -83398,6 +84101,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -83492,11 +84200,21 @@
   "com.ape.performances": {
     "appName": "Desempeño",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Leistung"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -83809,6 +84527,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -83926,6 +84649,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -84261,6 +84989,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -84608,6 +85341,10 @@
       {
         "locale": "es-us",
         "name": "Ayuda del dispositivo"
+      },
+      {
+        "locale": "de-at",
+        "name": "Gerätehilfe"
       }
     ],
     "devices": [
@@ -84619,6 +85356,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -84751,6 +85493,10 @@
       {
         "locale": "es-us",
         "name": "Administración del dispositivo"
+      },
+      {
+        "locale": "de-at",
+        "name": "Gerätemanagement"
       }
     ],
     "devices": [
@@ -84762,6 +85508,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -85414,6 +86165,10 @@
         "name": "Диагностика устройства"
       },
       {
+        "locale": "de-at",
+        "name": "Gerätediagnose"
+      },
+      {
         "locale": "sv-se",
         "name": "Enhetsdiagnostik"
       },
@@ -85489,6 +86244,11 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -85859,6 +86619,11 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -87008,6 +87773,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -87637,6 +88407,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -87738,6 +88513,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -87798,6 +88578,10 @@
       {
         "locale": "it-it",
         "name": "Ritaglio doppio"
+      },
+      {
+        "locale": "de-at",
+        "name": "Doppelter Ausschnitt"
       },
       {
         "locale": "nl-nl",
@@ -87958,6 +88742,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -88367,6 +89156,10 @@
         "name": "Gestione download"
       },
       {
+        "locale": "de-at",
+        "name": "Download-Manager"
+      },
+      {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
       },
@@ -88535,6 +89328,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89132,6 +89930,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -89947,6 +90750,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -90940,6 +91748,10 @@
       {
         "locale": "es-us",
         "name": "Administración de apps en 2.º plano"
+      },
+      {
+        "locale": "de-at",
+        "name": "Verwaltung von Hintergrund-Apps"
       }
     ],
     "devices": [
@@ -90962,6 +91774,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -91134,6 +91951,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -92500,6 +93322,10 @@
         "name": "com.android.emergency"
       },
       {
+        "locale": "de-at",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "en-mt",
         "name": "com.android.emergency"
       },
@@ -92610,6 +93436,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -93910,6 +94741,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -94738,6 +95574,10 @@
         "name": "Archivio esterno"
       },
       {
+        "locale": "de-at",
+        "name": "Externer Speicher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Externe opslag"
       },
@@ -94906,6 +95746,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -97488,6 +98333,10 @@
         "name": "File"
       },
       {
+        "locale": "de-at",
+        "name": "Dateien"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bestanden"
       },
@@ -97632,6 +98481,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -98186,6 +99040,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -100018,6 +100877,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -101274,6 +102138,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -103896,6 +104765,10 @@
       {
         "locale": "es-us",
         "name": "Juegos"
+      },
+      {
+        "locale": "de-at",
+        "name": "Spiele"
       }
     ],
     "devices": [
@@ -103907,6 +104780,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -104203,6 +105081,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -104739,11 +105622,21 @@
   "com.ape.personalize": {
     "appName": "Gestos de Moto",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Moto-Gesten"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -105889,6 +106782,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -106968,6 +107866,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -107581,6 +108484,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -108481,6 +109389,10 @@
       {
         "locale": "es-us",
         "name": "Configuración del iniciador de Google"
+      },
+      {
+        "locale": "de-at",
+        "name": "Startbildschirm-Konfiguration"
       }
     ],
     "devices": [
@@ -108492,6 +109404,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -108540,6 +109457,10 @@
       {
         "locale": "it-it",
         "name": "Cronologia delle posizioni Google"
+      },
+      {
+        "locale": "de-at",
+        "name": "Google-Standortverlauf"
       },
       {
         "locale": "nl-nl",
@@ -108690,6 +109611,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -109079,6 +110005,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "TCL",
         "model": "T610K",
         "os": "34"
@@ -109254,6 +110185,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -109806,6 +110742,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -110471,6 +111412,10 @@
         "name": "Google Play Services"
       },
       {
+        "locale": "de-at",
+        "name": "Google Play-Dienste"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Play-services"
       },
@@ -110635,6 +111580,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -111500,6 +112450,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -111936,6 +112891,10 @@
         "name": "Risorse Centro sicurezza online Google"
       },
       {
+        "locale": "de-at",
+        "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
         "locale": "nl-nl",
         "name": "Google Veiligheidscentrum-bronnen"
       },
@@ -112090,6 +113049,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -112764,6 +113728,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -113294,6 +114263,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -113665,6 +114639,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -114150,11 +115129,21 @@
   "com.ape.soundrecorder": {
     "appName": "Grabadora de sonido",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Soundrekorder"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -114870,6 +115859,10 @@
         "name": "Connessione Salute"
       },
       {
+        "locale": "de-at",
+        "name": "Health Connect"
+      },
+      {
         "locale": "nl-nl",
         "name": "Health Connect"
       },
@@ -114971,6 +115964,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -116762,6 +117760,10 @@
         "name": "Visualizzatore HTML"
       },
       {
+        "locale": "de-at",
+        "name": "HTML-Anzeige"
+      },
+      {
         "locale": "nl-nl",
         "name": "HTML-viewer"
       },
@@ -116926,6 +117928,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -118233,6 +119240,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -118656,6 +119668,10 @@
         "name": "Dispositivi di immissione"
       },
       {
+        "locale": "de-at",
+        "name": "Eingabegeräte"
+      },
+      {
         "locale": "nl-nl",
         "name": "Invoerapparaten"
       },
@@ -118807,6 +119823,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -119585,6 +120606,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -120628,6 +121654,10 @@
         "name": "Portachiavi"
       },
       {
+        "locale": "de-at",
+        "name": "Schlüsselbund"
+      },
+      {
         "locale": "nl-nl",
         "name": "Sleutelhanger"
       },
@@ -120792,6 +121822,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123564,12 +124599,21 @@
       {
         "locale": "es-us",
         "name": "ID de Lenovo"
+      },
+      {
+        "locale": "de-at",
+        "name": "Lenovo-ID"
       }
     ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -124631,6 +125675,10 @@
         "name": "Selettore sfondo animato"
       },
       {
+        "locale": "de-at",
+        "name": "Live-Hintergrund-Auswahl"
+      },
+      {
         "locale": "nl-nl",
         "name": "Interactieve achtergrondkiezer"
       },
@@ -124793,6 +125841,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -125190,6 +126243,18 @@
         "make": "Ulefone",
         "model": "Power Armor X11 Pro",
         "os": "31"
+      }
+    ]
+  },
+  "com.taboola.ody": {
+    "appName": "Live-Sperrbildschirm",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -125862,6 +126927,10 @@
       {
         "locale": "ru-ru",
         "name": "Служба LPPe"
+      },
+      {
+        "locale": "de-at",
+        "name": "LPPe-Dienst"
       }
     ],
     "devices": [
@@ -125889,6 +126958,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -126601,6 +127675,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -127086,6 +128165,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -127718,6 +128802,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -128295,6 +129384,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -129400,6 +130494,10 @@
         "name": "Selettore media"
       },
       {
+        "locale": "de-at",
+        "name": "Media-Auswahl"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mediakiezer"
       },
@@ -129547,6 +130645,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -130249,6 +131352,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -130879,6 +131987,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -131359,6 +132472,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -131601,6 +132719,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -131836,6 +132959,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -132919,6 +134047,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -133768,6 +134901,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -134426,6 +135564,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -134459,6 +135602,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -134615,6 +135763,10 @@
         "name": "Comentarios sobre Moto"
       },
       {
+        "locale": "de-at",
+        "name": "Moto-Feedback"
+      },
+      {
         "locale": "en-mt",
         "name": "Moto feedback"
       },
@@ -134632,6 +135784,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -134742,6 +135899,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g85 5G",
         "os": "34"
       },
@@ -134809,6 +135971,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -134888,6 +136055,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -134988,6 +136160,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -135021,6 +136198,11 @@
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135148,6 +136330,10 @@
       {
         "locale": "es-us",
         "name": "Notificaciones de Motorola"
+      },
+      {
+        "locale": "de-at",
+        "name": "Motorola-Benachrichtigungen"
       }
     ],
     "devices": [
@@ -135159,6 +136345,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135195,12 +136386,21 @@
       {
         "locale": "es-us",
         "name": "Página principal de los servicios de Motorola"
+      },
+      {
+        "locale": "de-at",
+        "name": "Startseite der Motorola-Dienste"
       }
     ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135222,6 +136422,10 @@
       {
         "locale": "es-us",
         "name": "Ajustes de Motorola"
+      },
+      {
+        "locale": "de-at",
+        "name": "Motorola-Einstellungen"
       }
     ],
     "devices": [
@@ -135233,6 +136437,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135313,6 +136522,10 @@
         "name": "Actualización de software de Motorola"
       },
       {
+        "locale": "de-at",
+        "name": "Motorola-Softwareupdate"
+      },
+      {
         "locale": "en-mt",
         "name": "Motorola software update"
       },
@@ -135330,6 +136543,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135488,6 +136706,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135723,6 +136946,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "TCL",
@@ -136098,6 +137326,10 @@
         "name": "Host MTP"
       },
       {
+        "locale": "de-at",
+        "name": "MTP-Host"
+      },
+      {
         "locale": "nl-nl",
         "name": "MTP-host"
       },
@@ -136257,6 +137489,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -137077,6 +138314,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Zebra Technologies",
@@ -138676,6 +139918,10 @@
         "name": "Administrador de redes"
       },
       {
+        "locale": "de-at",
+        "name": "Netzwerkmanager"
+      },
+      {
         "locale": "nl-nl",
         "name": "Netwerkbeheer"
       },
@@ -138815,6 +140061,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -139620,6 +140871,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -139669,6 +140925,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -140199,6 +141460,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -140366,6 +141632,10 @@
       {
         "locale": "it-it",
         "name": "NFC"
+      },
+      {
+        "locale": "de-at",
+        "name": "NFC-Dienst"
       },
       {
         "locale": "en-au",
@@ -140562,6 +141832,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -141325,6 +142600,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -142031,6 +143311,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -143670,7 +144955,12 @@
   "com.mediatek.omacp": {
     "appName": "Omacp",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "OMACP"
+      }
+    ],
     "devices": [
       {
         "make": "A-gold",
@@ -143696,6 +144986,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -146049,6 +147344,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -146517,6 +147817,10 @@
         "name": "Installazione pacchetti"
       },
       {
+        "locale": "de-at",
+        "name": "Paketinstallation"
+      },
+      {
         "locale": "nl-nl",
         "name": "Pakket-installatie"
       },
@@ -146681,6 +147985,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -147284,6 +148593,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -147712,6 +149026,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -147750,6 +149069,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -148159,6 +149483,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -148670,6 +149999,10 @@
         "name": "App di controllo autorizzazioni"
       },
       {
+        "locale": "de-at",
+        "name": "Berechtigungssteuerung"
+      },
+      {
         "locale": "nl-nl",
         "name": "Rechtenbeheer"
       },
@@ -148819,6 +150152,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149664,6 +151002,10 @@
         "name": "Emergenze Personali"
       },
       {
+        "locale": "de-at",
+        "name": "Persönliche Sicherheit"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎Personal Safety‎‏‎‎‏‎"
       },
@@ -149734,6 +151076,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -150464,6 +151811,10 @@
         "name": "Telefono"
       },
       {
+        "locale": "de-at",
+        "name": "Telefon"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoon"
       },
@@ -150521,6 +151872,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -150831,6 +152187,10 @@
         "name": "Memoria telefono/messaggi"
       },
       {
+        "locale": "de-at",
+        "name": "Telefon- und SMS-Speicher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslag telefoon/berichten"
       },
@@ -151006,6 +152366,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -151448,6 +152813,10 @@
         "name": "Chiamate telefoniche"
       },
       {
+        "locale": "de-at",
+        "name": "Telefonanrufe"
+      },
+      {
         "locale": "en-au",
         "name": "Call Management"
       },
@@ -151651,6 +153020,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152118,6 +153492,10 @@
         "name": "Servizi telefonici"
       },
       {
+        "locale": "de-at",
+        "name": "Telefondienste"
+      },
+      {
         "locale": "nl-nl",
         "name": "Telefoonservices"
       },
@@ -152289,6 +153667,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153491,6 +154874,10 @@
         "name": "Foto"
       },
       {
+        "locale": "de-at",
+        "name": "Fotos"
+      },
+      {
         "locale": "de-de",
         "name": "Fotos"
       },
@@ -153617,6 +155004,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -153949,6 +155341,10 @@
         "name": "Foto e video"
       },
       {
+        "locale": "de-at",
+        "name": "Fotos & Videos"
+      },
+      {
         "locale": "nl-nl",
         "name": "Foto's en video's"
       },
@@ -154083,6 +155479,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -155018,6 +156419,10 @@
       {
         "locale": "es-us",
         "name": "Temas de Pixel"
+      },
+      {
+        "locale": "de-at",
+        "name": "Pixel-Designs"
       }
     ],
     "devices": [
@@ -155045,6 +156450,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -156180,6 +157590,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -156608,6 +158023,10 @@
         "name": "Cola de impresión"
       },
       {
+        "locale": "de-at",
+        "name": "Druck-Spooler"
+      },
+      {
         "locale": "nl-nl",
         "name": "Afdrukspooler"
       },
@@ -156776,6 +158195,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -157295,6 +158719,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -157773,6 +159202,11 @@
         "make": "motorola",
         "model": "moto g05",
         "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       }
     ]
   },
@@ -158010,6 +159444,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -158482,6 +159921,10 @@
         "name": "Ritaglio per hole punch"
       },
       {
+        "locale": "de-at",
+        "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
         "locale": "en-au",
         "name": "Punch hole cutout"
       },
@@ -158670,6 +160113,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -161300,11 +162748,21 @@
   "com.ape.faceunlock": {
     "appName": "Reconocimiento facial",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Gesichtserkennung"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -161679,6 +163137,10 @@
       {
         "locale": "ru-ru",
         "name": "Дистанционное средство подготовки"
+      },
+      {
+        "locale": "de-at",
+        "name": "Remote-Bereitstellung"
       }
     ],
     "devices": [
@@ -161736,6 +163198,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -162493,6 +163960,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -163180,6 +164652,11 @@
       },
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
       },
@@ -163424,6 +164901,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -163500,6 +164982,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -172008,6 +173495,10 @@
         "name": "Selettore motore di ricerca"
       },
       {
+        "locale": "de-at",
+        "name": "Suchmaschinenauswahl"
+      },
+      {
         "locale": "nl-nl",
         "name": "Kiezer voor zoekmachine"
       },
@@ -172112,6 +173603,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -172895,6 +174391,10 @@
       {
         "locale": "es-us",
         "name": "Carpeta segura"
+      },
+      {
+        "locale": "de-at",
+        "name": "Geschützter Ordner"
       }
     ],
     "devices": [
@@ -172906,6 +174406,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -173540,6 +175045,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -174752,6 +176262,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Sony",
         "model": "I3312",
         "os": "27"
@@ -174787,6 +176302,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -175796,6 +177316,10 @@
         "name": "Impostazioni"
       },
       {
+        "locale": "de-at",
+        "name": "Einstellungen"
+      },
+      {
         "locale": "nl-nl",
         "name": "Instellingen"
       },
@@ -175960,6 +177484,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -176639,6 +178168,10 @@
         "name": "Memoria impostazioni"
       },
       {
+        "locale": "de-at",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslagruimte voor instellingen"
       },
@@ -176807,6 +178340,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -177229,6 +178767,10 @@
         "name": "Almacenamiento de ajustes"
       },
       {
+        "locale": "de-at",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "en-mt",
         "name": "Settings storage"
       },
@@ -177250,6 +178792,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -177349,6 +178896,10 @@
       {
         "locale": "it-it",
         "name": "Suggerimenti impostazioni"
+      },
+      {
+        "locale": "de-at",
+        "name": "Vorschläge für die Einstellungen"
       },
       {
         "locale": "nl-nl",
@@ -177494,6 +179045,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -178701,6 +180257,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -179325,6 +180886,10 @@
       {
         "locale": "es-us",
         "name": "Barra lateral"
+      },
+      {
+        "locale": "de-at",
+        "name": "Android-Randleiste"
       }
     ],
     "devices": [
@@ -179336,6 +180901,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -179800,6 +181370,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -180539,6 +182114,10 @@
         "name": "Servizi SIM"
       },
       {
+        "locale": "de-at",
+        "name": "SIM-Toolkit"
+      },
+      {
         "locale": "en-au",
         "name": "SIM Tool Kit"
       },
@@ -180712,6 +182291,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -181302,6 +182886,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -185530,6 +187119,10 @@
         "name": "Sonidos"
       },
       {
+        "locale": "de-at",
+        "name": "Töne"
+      },
+      {
         "locale": "de-de",
         "name": "Töne"
       },
@@ -185626,6 +187219,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -186141,6 +187739,10 @@
         "name": "Riconoscimento e sintesi vocale di Google"
       },
       {
+        "locale": "de-at",
+        "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
         "locale": "en-au",
         "name": "Google Text-to-speech engine"
       },
@@ -186337,6 +187939,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -186851,6 +188458,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -187293,6 +188905,10 @@
         "name": "Administrador de almacenamiento"
       },
       {
+        "locale": "de-at",
+        "name": "Speichermanager"
+      },
+      {
         "locale": "nl-nl",
         "name": "Opslagbeheer"
       },
@@ -187435,6 +189051,11 @@
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -188283,6 +189904,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -188868,6 +190494,10 @@
         "name": "Accesibilidad con interruptores"
       },
       {
+        "locale": "de-at",
+        "name": "Schalterzugriff"
+      },
+      {
         "locale": "es-es",
         "name": "Accesibilidad con interruptores"
       },
@@ -188924,6 +190554,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -189306,6 +190941,10 @@
         "name": "Risorse per connettività di sistema"
       },
       {
+        "locale": "de-at",
+        "name": "Systemverbindungsressourcen"
+      },
+      {
         "locale": "nl-nl",
         "name": "Resources voor systeemconnectiviteit"
       },
@@ -189460,6 +191099,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -190196,6 +191840,10 @@
         "name": "Controllo genitori di sistema"
       },
       {
+        "locale": "de-at",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
         "locale": "nl-nl",
         "name": "Ouderlijk toezicht van systeem"
       },
@@ -190325,6 +191973,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -190828,6 +192481,10 @@
         "name": "Tracciamento del sistema"
       },
       {
+        "locale": "de-at",
+        "name": "Ablaufverfolgung"
+      },
+      {
         "locale": "en-mt",
         "name": "System tracing"
       },
@@ -190982,6 +192639,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -191396,6 +193058,10 @@
         "name": "UI sistema"
       },
       {
+        "locale": "de-at",
+        "name": "System-UI"
+      },
+      {
         "locale": "nl-nl",
         "name": "Systeem-UI"
       },
@@ -191560,6 +193226,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -192405,6 +194076,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -193162,6 +194838,10 @@
         "name": "Risorse Wi-Fi sistema"
       },
       {
+        "locale": "de-at",
+        "name": "System-WLAN-Ressourcen"
+      },
+      {
         "locale": "en-gb",
         "name": "System Wi-Fi resources"
       },
@@ -193241,6 +194921,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -193995,6 +195680,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
@@ -194415,6 +196105,10 @@
         "name": "Ritaglio alto"
       },
       {
+        "locale": "de-at",
+        "name": "Großer Ausschnitt"
+      },
+      {
         "locale": "nl-nl",
         "name": "Hoge cutout"
       },
@@ -194578,6 +196272,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -195498,6 +197197,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
@@ -195647,6 +197351,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
@@ -195701,6 +197410,10 @@
       {
         "locale": "ru-ru",
         "name": "Телефонный помощник"
+      },
+      {
+        "locale": "de-at",
+        "name": "Telefonie-Hilfe"
       }
     ],
     "devices": [
@@ -195723,6 +197436,11 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "realme",
@@ -196084,6 +197802,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -197028,6 +198751,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -197067,6 +198795,11 @@
       {
         "make": "motorola",
         "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -198273,6 +200006,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -199614,6 +201352,10 @@
         "name": "Dizionario utente"
       },
       {
+        "locale": "de-at",
+        "name": "Mein Wörterbuch"
+      },
+      {
         "locale": "nl-nl",
         "name": "Gebruikerswoordenboek"
       },
@@ -199778,6 +201520,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -202953,6 +204700,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -203450,6 +205202,10 @@
         "name": "Fondo de pantalla y estilo"
       },
       {
+        "locale": "de-at",
+        "name": "Hintergrund und Stil"
+      },
+      {
         "locale": "en",
         "name": "‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‎Wallpaper & style‎‏‎‎‏‎"
       },
@@ -203513,6 +205269,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Zebra Technologies",
@@ -204492,6 +206253,10 @@
         "name": "Curvatura Waterfall"
       },
       {
+        "locale": "de-at",
+        "name": "Aussparung für Wasserfall-Display"
+      },
+      {
         "locale": "nl-nl",
         "name": "Waterval-cutout"
       },
@@ -204640,6 +206405,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -205611,6 +207381,23 @@
       }
     ]
   },
+  "com.inmobi.weather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g85 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.coloros.weather2": {
     "appName": "Weather",
     "userFacing": true,
@@ -205669,18 +207456,6 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
-      }
-    ]
-  },
-  "com.inmobi.weather": {
-    "appName": "Weather",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g85 5G",
-        "os": "34"
       }
     ]
   },
@@ -205768,6 +207543,10 @@
         "name": "Servicio de cámara web"
       },
       {
+        "locale": "de-at",
+        "name": "Webcam-Dienst"
+      },
+      {
         "locale": "en-de",
         "name": "Webcam service"
       },
@@ -205806,6 +207585,11 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -207097,6 +208881,10 @@
         "name": "Avvisi di emergenza wireless"
       },
       {
+        "locale": "de-at",
+        "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
       },
@@ -207244,6 +209032,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -208171,6 +209964,10 @@
         "name": "Configurazione per il lavoro"
       },
       {
+        "locale": "de-at",
+        "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
         "locale": "nl-nl",
         "name": "Werkinstelling"
       },
@@ -208330,6 +210127,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -209876,6 +211678,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-T636B",
         "os": "35"
@@ -210366,6 +212173,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "DOOGEE",
