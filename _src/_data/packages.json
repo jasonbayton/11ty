@@ -169,14 +169,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -938,12 +938,12 @@
         "name": "Privacidad en la publicidad"
       },
       {
-        "locale": "it-it",
-        "name": "Privacy per gli annunci"
-      },
-      {
         "locale": "de-at",
         "name": "Datenschutz bei Werbung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Privacy per gli annunci"
       },
       {
         "locale": "nl-nl",
@@ -1083,14 +1083,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -2874,12 +2874,12 @@
         "name": "Suite de Accesibilidad Android"
       },
       {
-        "locale": "it-it",
-        "name": "Accessibilità di Android"
-      },
-      {
         "locale": "de-at",
         "name": "Android für Barrierefreiheit"
+      },
+      {
+        "locale": "it-it",
+        "name": "Accessibilità di Android"
       },
       {
         "locale": "de-de",
@@ -2969,14 +2969,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -3376,14 +3376,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -3955,6 +3955,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -3963,11 +3968,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -4566,6 +4566,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -4574,11 +4579,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -5021,12 +5021,12 @@
         "name": "Configuración de Android"
       },
       {
-        "locale": "it-it",
-        "name": "Configurazione Android"
-      },
-      {
         "locale": "de-at",
         "name": "Android-Einrichtung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione Android"
       },
       {
         "locale": "nl-nl",
@@ -5180,6 +5180,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -5188,11 +5193,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -5732,6 +5732,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -5740,11 +5745,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -6317,6 +6317,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -6325,11 +6330,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -6749,12 +6749,12 @@
         "name": "Sistema Android"
       },
       {
-        "locale": "it-it",
-        "name": "Sistema Android"
-      },
-      {
         "locale": "de-at",
         "name": "Android-System"
+      },
+      {
+        "locale": "it-it",
+        "name": "Sistema Android"
       },
       {
         "locale": "nl-nl",
@@ -6917,6 +6917,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -6925,11 +6930,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -7547,14 +7547,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -8029,6 +8029,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -8037,11 +8042,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -8754,14 +8754,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -12722,14 +12722,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -15656,6 +15656,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -15664,11 +15669,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -17073,12 +17073,12 @@
         "name": "Almacenamiento de números bloqueados"
       },
       {
-        "locale": "it-it",
-        "name": "Archivio numeri bloccati"
-      },
-      {
         "locale": "de-at",
         "name": "Speicher für blockierte Nummern"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio numeri bloccati"
       },
       {
         "locale": "nl-nl",
@@ -17232,6 +17232,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -17240,11 +17245,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -18019,11 +18019,11 @@
         "name": "Bluetooth"
       },
       {
-        "locale": "it-it",
+        "locale": "de-at",
         "name": "Bluetooth"
       },
       {
-        "locale": "de-at",
+        "locale": "it-it",
         "name": "Bluetooth"
       },
       {
@@ -18227,6 +18227,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -18235,11 +18240,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -18779,6 +18779,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -18787,11 +18792,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -19404,6 +19404,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -19412,11 +19417,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -20521,12 +20521,12 @@
         "name": "Calculadora"
       },
       {
-        "locale": "it-it",
-        "name": "Calcolatrice"
-      },
-      {
         "locale": "de-at",
         "name": "Rechner"
+      },
+      {
+        "locale": "it-it",
+        "name": "Calcolatrice"
       },
       {
         "locale": "de-de",
@@ -20596,14 +20596,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -21033,14 +21033,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -21504,12 +21504,12 @@
         "name": "Almacenamiento de calendario"
       },
       {
-        "locale": "it-it",
-        "name": "Spazio di archiviazione in Calendario"
-      },
-      {
         "locale": "de-at",
         "name": "Kalenderspeicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Spazio di archiviazione in Calendario"
       },
       {
         "locale": "nl-nl",
@@ -21692,6 +21692,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -21700,11 +21705,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -22658,6 +22658,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -22666,11 +22671,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -24983,14 +24983,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25664,12 +25664,12 @@
         "name": "Inicio de sesión en portal cautivo"
       },
       {
-        "locale": "it-it",
-        "name": "Accesso a captive portal"
-      },
-      {
         "locale": "de-at",
         "name": "Anmeldung über Captive Portal"
+      },
+      {
+        "locale": "it-it",
+        "name": "Accesso a captive portal"
       },
       {
         "locale": "nl-nl",
@@ -25837,14 +25837,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -26463,12 +26463,12 @@
         "name": "Comunicaciones del operador"
       },
       {
-        "locale": "it-it",
-        "name": "Comunicazioni con l'operatore"
-      },
-      {
         "locale": "de-at",
         "name": "Kommunikation mit Mobilfunkanbieter"
+      },
+      {
+        "locale": "it-it",
+        "name": "Comunicazioni con l'operatore"
       },
       {
         "locale": "en-au",
@@ -26648,6 +26648,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -26656,11 +26661,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -28076,14 +28076,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -28593,12 +28593,12 @@
         "name": "Instalador de certificados"
       },
       {
-        "locale": "it-it",
-        "name": "Installatore certificato"
-      },
-      {
         "locale": "de-at",
         "name": "Zertifikats-Installer"
+      },
+      {
+        "locale": "it-it",
+        "name": "Installatore certificato"
       },
       {
         "locale": "nl-nl",
@@ -28769,6 +28769,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -28777,11 +28782,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -29428,6 +29428,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -29436,11 +29441,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -30863,12 +30863,12 @@
         "name": "Reloj"
       },
       {
-        "locale": "it-it",
-        "name": "Orologio"
-      },
-      {
         "locale": "de-at",
         "name": "Uhr"
+      },
+      {
+        "locale": "it-it",
+        "name": "Orologio"
       },
       {
         "locale": "de-de",
@@ -30953,14 +30953,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -32433,6 +32433,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -32441,11 +32446,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -33930,6 +33930,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -33938,11 +33943,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -34825,6 +34825,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -34833,11 +34838,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -35387,6 +35387,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -35395,11 +35400,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -36258,14 +36258,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -36712,14 +36712,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -37560,14 +37560,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -38066,14 +38066,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -39987,6 +39987,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -39995,11 +40000,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -40598,6 +40598,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -40606,11 +40611,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -43340,6 +43340,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -43348,11 +43353,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -44104,14 +44104,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46230,14 +46230,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -46617,6 +46617,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -46625,11 +46630,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -47154,6 +47154,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -47162,11 +47167,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -49467,14 +49467,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -50337,14 +50337,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -51079,14 +51079,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -52450,14 +52450,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -52864,14 +52864,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -53261,14 +53261,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -53666,14 +53666,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -54095,14 +54095,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -54489,14 +54489,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -54711,14 +54711,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -55182,14 +55182,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -55715,14 +55715,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -56431,14 +56431,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -56873,14 +56873,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -57537,14 +57537,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -58006,14 +58006,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -58458,14 +58458,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -59625,14 +59625,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -60039,14 +60039,14 @@
         "os": "35"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -60980,14 +60980,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -62335,14 +62335,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "realme",
@@ -76011,12 +76011,12 @@
         "name": "Gestor de dispositivos complementario"
       },
       {
-        "locale": "it-it",
-        "name": "Gestione dispositivi associati"
-      },
-      {
         "locale": "de-at",
         "name": "Begleitgerät-Manager"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione dispositivi associati"
       },
       {
         "locale": "de-de",
@@ -76167,6 +76167,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -76175,11 +76180,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -77224,6 +77224,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -77232,11 +77237,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -78887,12 +78887,12 @@
         "name": "Contactos"
       },
       {
-        "locale": "it-it",
-        "name": "Contatti"
-      },
-      {
         "locale": "de-at",
         "name": "Kontakte"
+      },
+      {
+        "locale": "it-it",
+        "name": "Contatti"
       },
       {
         "locale": "nl-nl",
@@ -78969,14 +78969,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -79576,12 +79576,12 @@
         "name": "Información de contactos"
       },
       {
-        "locale": "it-it",
-        "name": "Archiviazione contatti"
-      },
-      {
         "locale": "de-at",
         "name": "Kontakte-Speicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archiviazione contatti"
       },
       {
         "locale": "en-mt",
@@ -79695,6 +79695,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -79703,11 +79708,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -80675,12 +80675,12 @@
         "name": "Recorte de la esquina"
       },
       {
-        "locale": "it-it",
-        "name": "Ritaglio angolo"
-      },
-      {
         "locale": "de-at",
         "name": "Eckenausschnitt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio angolo"
       },
       {
         "locale": "nl-nl",
@@ -80833,6 +80833,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -80841,11 +80846,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -81413,12 +81413,12 @@
         "name": "Credential manager"
       },
       {
-        "locale": "it-it",
-        "name": "Gestore delle credenziali"
-      },
-      {
         "locale": "de-at",
         "name": "Anmeldedaten-Manager"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestore delle credenziali"
       },
       {
         "locale": "es-es",
@@ -81536,14 +81536,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -82068,14 +82068,14 @@
         "os": "35"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -83458,12 +83458,12 @@
         "name": "Servicio de impresión predeterminado"
       },
       {
-        "locale": "it-it",
-        "name": "Servizio di stampa predefinito"
-      },
-      {
         "locale": "de-at",
         "name": "Standarddruckdienst"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizio di stampa predefinito"
       },
       {
         "locale": "nl-nl",
@@ -83628,6 +83628,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -83636,11 +83641,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -84986,14 +84986,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -87763,6 +87763,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -87771,11 +87776,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -88576,12 +88576,12 @@
         "name": "Recorte doble"
       },
       {
-        "locale": "it-it",
-        "name": "Ritaglio doppio"
-      },
-      {
         "locale": "de-at",
         "name": "Doppelter Ausschnitt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio doppio"
       },
       {
         "locale": "nl-nl",
@@ -88734,6 +88734,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -88742,11 +88747,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -89152,12 +89152,12 @@
         "name": "Administrador de descargas"
       },
       {
-        "locale": "it-it",
-        "name": "Gestione download"
-      },
-      {
         "locale": "de-at",
         "name": "Download-Manager"
+      },
+      {
+        "locale": "it-it",
+        "name": "Gestione download"
       },
       {
         "locale": "nl-nl",
@@ -89320,6 +89320,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -89328,11 +89333,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -89922,6 +89922,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -89930,11 +89935,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -90742,6 +90742,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -90750,11 +90755,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -91948,14 +91948,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -93318,11 +93318,11 @@
         "name": "Emergencia"
       },
       {
-        "locale": "it-it",
+        "locale": "de-at",
         "name": "com.android.emergency"
       },
       {
-        "locale": "de-at",
+        "locale": "it-it",
         "name": "com.android.emergency"
       },
       {
@@ -93428,6 +93428,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -93436,11 +93441,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -95570,12 +95570,12 @@
         "name": "Almacenamiento externo"
       },
       {
-        "locale": "it-it",
-        "name": "Archivio esterno"
-      },
-      {
         "locale": "de-at",
         "name": "Externer Speicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Archivio esterno"
       },
       {
         "locale": "nl-nl",
@@ -95738,6 +95738,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -95746,11 +95751,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -98329,12 +98329,12 @@
         "name": "Archivos"
       },
       {
-        "locale": "it-it",
-        "name": "File"
-      },
-      {
         "locale": "de-at",
         "name": "Dateien"
+      },
+      {
+        "locale": "it-it",
+        "name": "File"
       },
       {
         "locale": "nl-nl",
@@ -98478,14 +98478,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -99037,14 +99037,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -102130,6 +102130,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -102138,11 +102143,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -105073,6 +105073,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -105081,11 +105086,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -106777,14 +106777,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -107856,6 +107856,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -107864,11 +107869,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -108476,6 +108476,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -108484,11 +108489,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -109455,12 +109455,12 @@
         "name": "Historial de ubicaciones de Google"
       },
       {
-        "locale": "it-it",
-        "name": "Cronologia delle posizioni Google"
-      },
-      {
         "locale": "de-at",
         "name": "Google-Standortverlauf"
+      },
+      {
+        "locale": "it-it",
+        "name": "Cronologia delle posizioni Google"
       },
       {
         "locale": "nl-nl",
@@ -109608,14 +109608,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -110177,6 +110177,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -110185,11 +110190,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -110734,6 +110734,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -110742,11 +110747,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -111408,12 +111408,12 @@
         "name": "Servicios de Google Play"
       },
       {
-        "locale": "it-it",
-        "name": "Google Play Services"
-      },
-      {
         "locale": "de-at",
         "name": "Google Play-Dienste"
+      },
+      {
+        "locale": "it-it",
+        "name": "Google Play Services"
       },
       {
         "locale": "nl-nl",
@@ -111572,6 +111572,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -111580,11 +111585,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -112440,6 +112440,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -112448,11 +112453,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -112887,12 +112887,12 @@
         "name": "Recursos del Centro de Seguridad de Google"
       },
       {
-        "locale": "it-it",
-        "name": "Risorse Centro sicurezza online Google"
-      },
-      {
         "locale": "de-at",
         "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse Centro sicurezza online Google"
       },
       {
         "locale": "nl-nl",
@@ -113046,14 +113046,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -113718,6 +113718,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -113726,11 +113731,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -114253,6 +114253,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -114261,11 +114266,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -114636,14 +114636,14 @@
         "os": "35"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -115855,12 +115855,12 @@
         "name": "Здоровье и спорт"
       },
       {
-        "locale": "it-it",
-        "name": "Connessione Salute"
-      },
-      {
         "locale": "de-at",
         "name": "Health Connect"
+      },
+      {
+        "locale": "it-it",
+        "name": "Connessione Salute"
       },
       {
         "locale": "nl-nl",
@@ -115961,14 +115961,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -117756,12 +117756,12 @@
         "name": "Visor de HTML"
       },
       {
-        "locale": "it-it",
-        "name": "Visualizzatore HTML"
-      },
-      {
         "locale": "de-at",
         "name": "HTML-Anzeige"
+      },
+      {
+        "locale": "it-it",
+        "name": "Visualizzatore HTML"
       },
       {
         "locale": "nl-nl",
@@ -117920,6 +117920,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -117928,11 +117933,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -119664,12 +119664,12 @@
         "name": "Dispositivos de introducción de datos"
       },
       {
-        "locale": "it-it",
-        "name": "Dispositivi di immissione"
-      },
-      {
         "locale": "de-at",
         "name": "Eingabegeräte"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dispositivi di immissione"
       },
       {
         "locale": "nl-nl",
@@ -119815,6 +119815,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -119823,11 +119828,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -120603,14 +120603,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -121650,12 +121650,12 @@
         "name": "Llavero"
       },
       {
-        "locale": "it-it",
-        "name": "Portachiavi"
-      },
-      {
         "locale": "de-at",
         "name": "Schlüsselbund"
+      },
+      {
+        "locale": "it-it",
+        "name": "Portachiavi"
       },
       {
         "locale": "nl-nl",
@@ -121814,6 +121814,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -121822,11 +121827,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -125671,12 +125671,12 @@
         "name": "Selector de fondo animado"
       },
       {
-        "locale": "it-it",
-        "name": "Selettore sfondo animato"
-      },
-      {
         "locale": "de-at",
         "name": "Live-Hintergrund-Auswahl"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selettore sfondo animato"
       },
       {
         "locale": "nl-nl",
@@ -125833,6 +125833,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -125841,11 +125846,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -127670,14 +127670,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -128162,14 +128162,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -128792,6 +128792,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -128800,11 +128805,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -129376,6 +129376,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -129384,11 +129389,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -130490,12 +130490,12 @@
         "name": "Selector de medios"
       },
       {
-        "locale": "it-it",
-        "name": "Selettore media"
-      },
-      {
         "locale": "de-at",
         "name": "Media-Auswahl"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selettore media"
       },
       {
         "locale": "nl-nl",
@@ -130642,14 +130642,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -131342,6 +131342,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -131350,11 +131355,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -131982,14 +131982,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -134037,6 +134037,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -134045,11 +134050,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -137322,12 +137322,12 @@
         "name": "Host de MTP"
       },
       {
-        "locale": "it-it",
-        "name": "Host MTP"
-      },
-      {
         "locale": "de-at",
         "name": "MTP-Host"
+      },
+      {
+        "locale": "it-it",
+        "name": "Host MTP"
       },
       {
         "locale": "nl-nl",
@@ -137481,6 +137481,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -137489,11 +137494,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -138306,6 +138306,11 @@
         "os": "34"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -138314,11 +138319,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Zebra Technologies",
@@ -140058,14 +140058,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -141630,12 +141630,12 @@
         "name": "NFC"
       },
       {
-        "locale": "it-it",
-        "name": "NFC"
-      },
-      {
         "locale": "de-at",
         "name": "NFC-Dienst"
+      },
+      {
+        "locale": "it-it",
+        "name": "NFC"
       },
       {
         "locale": "en-au",
@@ -141824,6 +141824,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -141832,11 +141837,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -142595,14 +142595,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -143308,14 +143308,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -147339,14 +147339,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -147813,12 +147813,12 @@
         "name": "Instalador de paquetes"
       },
       {
-        "locale": "it-it",
-        "name": "Installazione pacchetti"
-      },
-      {
         "locale": "de-at",
         "name": "Paketinstallation"
+      },
+      {
+        "locale": "it-it",
+        "name": "Installazione pacchetti"
       },
       {
         "locale": "nl-nl",
@@ -147977,6 +147977,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -147985,11 +147990,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -148583,6 +148583,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -148591,11 +148596,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -149995,12 +149995,12 @@
         "name": "Controlador de permisos"
       },
       {
-        "locale": "it-it",
-        "name": "App di controllo autorizzazioni"
-      },
-      {
         "locale": "de-at",
         "name": "Berechtigungssteuerung"
+      },
+      {
+        "locale": "it-it",
+        "name": "App di controllo autorizzazioni"
       },
       {
         "locale": "nl-nl",
@@ -150149,14 +150149,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -150998,12 +150998,12 @@
         "name": "Emergencias"
       },
       {
-        "locale": "it-it",
-        "name": "Emergenze Personali"
-      },
-      {
         "locale": "de-at",
         "name": "Persönliche Sicherheit"
+      },
+      {
+        "locale": "it-it",
+        "name": "Emergenze Personali"
       },
       {
         "locale": "en",
@@ -151073,14 +151073,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -151807,12 +151807,12 @@
         "name": "Teléfono"
       },
       {
-        "locale": "it-it",
-        "name": "Telefono"
-      },
-      {
         "locale": "de-at",
         "name": "Telefon"
+      },
+      {
+        "locale": "it-it",
+        "name": "Telefono"
       },
       {
         "locale": "nl-nl",
@@ -151869,14 +151869,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -152183,12 +152183,12 @@
         "name": "Almacenamiento de mensajes y teléfono"
       },
       {
-        "locale": "it-it",
-        "name": "Memoria telefono/messaggi"
-      },
-      {
         "locale": "de-at",
         "name": "Telefon- und SMS-Speicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Memoria telefono/messaggi"
       },
       {
         "locale": "nl-nl",
@@ -152358,6 +152358,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -152366,11 +152371,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -152809,12 +152809,12 @@
         "name": "Llamadas de teléfono"
       },
       {
-        "locale": "it-it",
-        "name": "Chiamate telefoniche"
-      },
-      {
         "locale": "de-at",
         "name": "Telefonanrufe"
+      },
+      {
+        "locale": "it-it",
+        "name": "Chiamate telefoniche"
       },
       {
         "locale": "en-au",
@@ -153012,6 +153012,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -153020,11 +153025,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -153488,12 +153488,12 @@
         "name": "Servicios telefónicos"
       },
       {
-        "locale": "it-it",
-        "name": "Servizi telefonici"
-      },
-      {
         "locale": "de-at",
         "name": "Telefondienste"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi telefonici"
       },
       {
         "locale": "nl-nl",
@@ -153659,6 +153659,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -153667,11 +153672,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -154870,12 +154870,12 @@
         "name": "Fotos"
       },
       {
-        "locale": "it-it",
-        "name": "Foto"
-      },
-      {
         "locale": "de-at",
         "name": "Fotos"
+      },
+      {
+        "locale": "it-it",
+        "name": "Foto"
       },
       {
         "locale": "de-de",
@@ -154996,6 +154996,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -155004,11 +155009,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
@@ -155337,12 +155337,12 @@
         "name": "Fotos y vídeos"
       },
       {
-        "locale": "it-it",
-        "name": "Foto e video"
-      },
-      {
         "locale": "de-at",
         "name": "Fotos & Videos"
+      },
+      {
+        "locale": "it-it",
+        "name": "Foto e video"
       },
       {
         "locale": "nl-nl",
@@ -155476,14 +155476,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -157580,6 +157580,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -157588,11 +157593,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -158187,6 +158187,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -158195,11 +158200,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -158714,14 +158714,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -159436,6 +159436,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -159444,11 +159449,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -159917,12 +159917,12 @@
         "name": "Recorte redondo"
       },
       {
-        "locale": "it-it",
-        "name": "Ritaglio per hole punch"
-      },
-      {
         "locale": "de-at",
         "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio per hole punch"
       },
       {
         "locale": "en-au",
@@ -160110,14 +160110,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -163195,14 +163195,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -173491,12 +173491,12 @@
         "name": "Selector de motor de búsqueda"
       },
       {
-        "locale": "it-it",
-        "name": "Selettore motore di ricerca"
-      },
-      {
         "locale": "de-at",
         "name": "Suchmaschinenauswahl"
+      },
+      {
+        "locale": "it-it",
+        "name": "Selettore motore di ricerca"
       },
       {
         "locale": "nl-nl",
@@ -173600,14 +173600,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -175037,6 +175037,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -175045,11 +175050,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -177312,12 +177312,12 @@
         "name": "Ajustes"
       },
       {
-        "locale": "it-it",
-        "name": "Impostazioni"
-      },
-      {
         "locale": "de-at",
         "name": "Einstellungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Impostazioni"
       },
       {
         "locale": "nl-nl",
@@ -177476,6 +177476,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -177484,11 +177489,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -178164,12 +178164,12 @@
         "name": "Almacenamiento de configuración"
       },
       {
-        "locale": "it-it",
-        "name": "Memoria impostazioni"
-      },
-      {
         "locale": "de-at",
         "name": "Einstellungsspeicher"
+      },
+      {
+        "locale": "it-it",
+        "name": "Memoria impostazioni"
       },
       {
         "locale": "nl-nl",
@@ -178332,6 +178332,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -178340,11 +178345,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -178894,12 +178894,12 @@
         "name": "Sugerencias de ajustes"
       },
       {
-        "locale": "it-it",
-        "name": "Suggerimenti impostazioni"
-      },
-      {
         "locale": "de-at",
         "name": "Vorschläge für die Einstellungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Suggerimenti impostazioni"
       },
       {
         "locale": "nl-nl",
@@ -179037,6 +179037,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -179045,11 +179050,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -180247,6 +180247,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -180255,11 +180260,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -181362,6 +181362,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -181370,11 +181375,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -182110,12 +182110,12 @@
         "name": "Kit herramientas SIM"
       },
       {
-        "locale": "it-it",
-        "name": "Servizi SIM"
-      },
-      {
         "locale": "de-at",
         "name": "SIM-Toolkit"
+      },
+      {
+        "locale": "it-it",
+        "name": "Servizi SIM"
       },
       {
         "locale": "en-au",
@@ -182288,14 +182288,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -187216,14 +187216,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -187735,12 +187735,12 @@
         "name": "Reconocimiento y síntesis de voz de Google"
       },
       {
-        "locale": "it-it",
-        "name": "Riconoscimento e sintesi vocale di Google"
-      },
-      {
         "locale": "de-at",
         "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
+        "locale": "it-it",
+        "name": "Riconoscimento e sintesi vocale di Google"
       },
       {
         "locale": "en-au",
@@ -187931,6 +187931,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -187939,11 +187944,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -189048,14 +189048,14 @@
         "os": "34"
       },
       {
-        "make": "CipherLab",
-        "model": "RK95",
-        "os": "28"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "CipherLab",
+        "model": "RK95",
+        "os": "28"
       },
       {
         "make": "samsung",
@@ -189899,14 +189899,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -190551,14 +190551,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -190937,12 +190937,12 @@
         "name": "Recursos de conectividad del sistema"
       },
       {
-        "locale": "it-it",
-        "name": "Risorse per connettività di sistema"
-      },
-      {
         "locale": "de-at",
         "name": "Systemverbindungsressourcen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse per connettività di sistema"
       },
       {
         "locale": "nl-nl",
@@ -191096,14 +191096,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -191836,12 +191836,12 @@
         "name": "Controles parentales de Family Link"
       },
       {
-        "locale": "it-it",
-        "name": "Controllo genitori di sistema"
-      },
-      {
         "locale": "de-at",
         "name": "Jugendschutzeinstellungen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Controllo genitori di sistema"
       },
       {
         "locale": "nl-nl",
@@ -191970,14 +191970,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -192477,12 +192477,12 @@
         "name": "Trazado del sistema"
       },
       {
-        "locale": "it-it",
-        "name": "Tracciamento del sistema"
-      },
-      {
         "locale": "de-at",
         "name": "Ablaufverfolgung"
+      },
+      {
+        "locale": "it-it",
+        "name": "Tracciamento del sistema"
       },
       {
         "locale": "en-mt",
@@ -192631,6 +192631,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -192639,11 +192644,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -193054,12 +193054,12 @@
         "name": "IU sistema"
       },
       {
-        "locale": "it-it",
-        "name": "UI sistema"
-      },
-      {
         "locale": "de-at",
         "name": "System-UI"
+      },
+      {
+        "locale": "it-it",
+        "name": "UI sistema"
       },
       {
         "locale": "nl-nl",
@@ -193218,6 +193218,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -193226,11 +193231,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -194834,12 +194834,12 @@
         "name": "Recursos Wi‑Fi del sistema"
       },
       {
-        "locale": "it-it",
-        "name": "Risorse Wi-Fi sistema"
-      },
-      {
         "locale": "de-at",
         "name": "System-WLAN-Ressourcen"
+      },
+      {
+        "locale": "it-it",
+        "name": "Risorse Wi-Fi sistema"
       },
       {
         "locale": "en-gb",
@@ -194918,14 +194918,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -195675,14 +195675,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "DOOGEE",
@@ -196101,12 +196101,12 @@
         "name": "Recorte alto"
       },
       {
-        "locale": "it-it",
-        "name": "Ritaglio alto"
-      },
-      {
         "locale": "de-at",
         "name": "Großer Ausschnitt"
+      },
+      {
+        "locale": "it-it",
+        "name": "Ritaglio alto"
       },
       {
         "locale": "nl-nl",
@@ -196264,6 +196264,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -196272,11 +196277,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -197799,14 +197799,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -200003,14 +200003,14 @@
         "os": "34"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -201348,12 +201348,12 @@
         "name": "Diccionario del usuario"
       },
       {
-        "locale": "it-it",
-        "name": "Dizionario utente"
-      },
-      {
         "locale": "de-at",
         "name": "Mein Wörterbuch"
+      },
+      {
+        "locale": "it-it",
+        "name": "Dizionario utente"
       },
       {
         "locale": "nl-nl",
@@ -201512,6 +201512,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -201520,11 +201525,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -204690,6 +204690,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -204698,11 +204703,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -206249,12 +206249,12 @@
         "name": "Recorte de cascada"
       },
       {
-        "locale": "it-it",
-        "name": "Curvatura Waterfall"
-      },
-      {
         "locale": "de-at",
         "name": "Aussparung für Wasserfall-Display"
+      },
+      {
+        "locale": "it-it",
+        "name": "Curvatura Waterfall"
       },
       {
         "locale": "nl-nl",
@@ -206402,14 +206402,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -208877,12 +208877,12 @@
         "name": "Alertas de emergencia inalámbricas"
       },
       {
-        "locale": "it-it",
-        "name": "Avvisi di emergenza wireless"
-      },
-      {
         "locale": "de-at",
         "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
+        "locale": "it-it",
+        "name": "Avvisi di emergenza wireless"
       },
       {
         "locale": "nl-nl",
@@ -209029,14 +209029,14 @@
         "os": "33"
       },
       {
-        "make": "HOTWAV",
-        "model": "TAB R9 Pro",
-        "os": "34"
-      },
-      {
         "make": "motorola",
         "model": "moto g15",
         "os": "35"
+      },
+      {
+        "make": "HOTWAV",
+        "model": "TAB R9 Pro",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -209960,12 +209960,12 @@
         "name": "Configuración de trabajo"
       },
       {
-        "locale": "it-it",
-        "name": "Configurazione per il lavoro"
-      },
-      {
         "locale": "de-at",
         "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
+        "locale": "it-it",
+        "name": "Configurazione per il lavoro"
       },
       {
         "locale": "nl-nl",
@@ -210119,6 +210119,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -210127,11 +210132,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -211668,6 +211668,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -211676,11 +211681,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -212165,6 +212165,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -212173,11 +212178,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "DOOGEE",
