@@ -28,7 +28,7 @@ Below you'll find a table of system apps across various devices. [These devices]
 
 Packages are updated here within a few minutes following a first sync, and daily after. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
-**Currently tracked system apps: <span class="highlight">**{{ packages | length }}**</span>**
+**Currently tracked system apps: <span class="highlight">**{{ packages | length }}**</span> across <span class="highlight" id="oemCount">...</span> OEMs**
 
 <small>
 
@@ -74,56 +74,6 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 </tr>
 </thead>
 <tbody>
-{% for pkg, entry in packages %}
-<tr>
-  <td>{{ entry.appName or pkg }}</td>
-  <td><code>{{ pkg }}</code></td>
-  <td><div class="scrollable">
-  {%- set makes = "" -%}
-  {%- for device in entry.devices -%}
-    {%- if loop.first -%}
-      {{ device.make }}
-    {%- elif not device.make in makes -%}
-      , {{ device.make }}
-    {%- endif -%}
-    {%- set makes = makes + device.make + "," -%}
-  {%- endfor -%}
-</div></td>
-
-<td><div class="scrollable">
-  {%- set models = "" -%}
-  {%- for device in entry.devices -%}
-    {%- if loop.first -%}
-      {{ device.model }}
-    {%- elif not device.model in models -%}
-      , {{ device.model }}
-    {%- endif -%}
-    {%- set models = models + device.model + "," -%}
-  {%- endfor -%}
-</div></td>
-
-<td><div class="scrollable">
-  {%- set osVersions = "" -%}
-  {%- for device in entry.devices -%}
-    {%- if loop.first -%}
-      {{ device.os }}
-    {%- elif not device.os in osVersions -%}
-      , {{ device.os }}
-    {%- endif -%}
-    {%- set osVersions = osVersions + device.os + "," -%}
-  {%- endfor -%}
-</div></td>
-
-<td><div class="scrollable">
-  {%- if entry.additionalLocales and entry.additionalLocales.length > 0 -%}
-    {%- for alt in entry.additionalLocales -%}
-      {%- if not loop.first -%}, {% endif -%}{{ alt.name }}
-    {%- endfor -%}
-  {%- endif -%}
-</div></td>
-  <td>{{ entry.userFacing }}</td>
-</tr>
-{% endfor %}
 </tbody>
 </table>
 
