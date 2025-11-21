@@ -69,6 +69,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -167,11 +172,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -930,16 +930,16 @@
         "name": "Ad privacy"
       },
       {
+        "locale": "de-at",
+        "name": "Datenschutz bei Werbung"
+      },
+      {
         "locale": "es-us",
         "name": "Privacidad en los anuncios"
       },
       {
         "locale": "es-es",
         "name": "Privacidad en la publicidad"
-      },
-      {
-        "locale": "de-at",
-        "name": "Datenschutz bei Werbung"
       },
       {
         "locale": "it-it",
@@ -1000,6 +1000,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -1081,11 +1086,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -2525,50 +2525,6 @@
       }
     ]
   },
-  "com.ape.setupwizard": {
-    "appName": "Ajustes de Moto",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Moto Setup"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      }
-    ]
-  },
-  "com.tinno.coresettingsext": {
-    "appName": "Ajustes legales de Moto",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "MotoRechtlicheEinstellungen"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      }
-    ]
-  },
   "com.datalogic.aladdinapp": {
     "appName": "Aladdin",
     "userFacing": true,
@@ -2862,6 +2818,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Android für Barrierefreiheit"
+      },
+      {
         "locale": "es-us",
         "name": "Suite de Accesibilidad Android"
       },
@@ -2872,10 +2832,6 @@
       {
         "locale": "es-es",
         "name": "Suite de Accesibilidad Android"
-      },
-      {
-        "locale": "de-at",
-        "name": "Android für Barrierefreiheit"
       },
       {
         "locale": "it-it",
@@ -2903,6 +2859,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -2967,11 +2928,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -3281,6 +3237,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -3374,11 +3335,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -3845,6 +3801,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -3953,11 +3914,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -4461,6 +4417,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -4564,11 +4525,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -5013,16 +4969,16 @@
         "name": "Настройка устройства Android"
       },
       {
+        "locale": "de-at",
+        "name": "Android-Einrichtung"
+      },
+      {
         "locale": "es-us",
         "name": "Configuración de Android"
       },
       {
         "locale": "es-es",
         "name": "Configuración de Android"
-      },
-      {
-        "locale": "de-at",
-        "name": "Android-Einrichtung"
       },
       {
         "locale": "it-it",
@@ -5067,6 +5023,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -5178,11 +5139,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -5622,6 +5578,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -5730,11 +5691,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -6212,6 +6168,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -6315,11 +6276,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -6741,16 +6697,16 @@
         "name": "Android system"
       },
       {
+        "locale": "de-at",
+        "name": "Android-System"
+      },
+      {
         "locale": "es-us",
         "name": "Sistema Android"
       },
       {
         "locale": "es-es",
         "name": "Sistema Android"
-      },
-      {
-        "locale": "de-at",
-        "name": "Android-System"
       },
       {
         "locale": "it-it",
@@ -6804,6 +6760,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -6915,11 +6876,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -7467,6 +7423,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -7545,11 +7506,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -7919,6 +7875,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -8027,11 +7988,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -8679,6 +8635,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -8752,11 +8713,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -12703,6 +12659,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -12720,11 +12681,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -13106,6 +13062,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -13113,11 +13074,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -15556,6 +15512,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -15654,11 +15615,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -17065,16 +17021,16 @@
         "name": "Хранилище заблокир. номеров"
       },
       {
+        "locale": "de-at",
+        "name": "Speicher für blockierte Nummern"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento de números bloqueados"
       },
       {
         "locale": "es-es",
         "name": "Almacenamiento de números bloqueados"
-      },
-      {
-        "locale": "de-at",
-        "name": "Speicher für blockierte Nummern"
       },
       {
         "locale": "it-it",
@@ -17119,6 +17075,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -17230,11 +17191,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -18011,15 +17967,15 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "de-at",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "es-us",
         "name": "Bluetooth"
       },
       {
         "locale": "es-es",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "de-at",
         "name": "Bluetooth"
       },
       {
@@ -18114,6 +18070,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -18225,11 +18186,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -18669,6 +18625,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -18777,11 +18738,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -19294,6 +19250,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -19402,11 +19363,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -20513,16 +20469,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Rechner"
+      },
+      {
         "locale": "es-us",
         "name": "Calculadora"
       },
       {
         "locale": "es-es",
         "name": "Calculadora"
-      },
-      {
-        "locale": "de-at",
-        "name": "Rechner"
       },
       {
         "locale": "it-it",
@@ -20550,6 +20506,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -20594,11 +20555,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -20939,12 +20895,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Calendario"
-      },
-      {
         "locale": "de-at",
         "name": "Kalender"
+      },
+      {
+        "locale": "es-us",
+        "name": "Calendario"
       },
       {
         "locale": "de-de",
@@ -20972,6 +20928,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -21031,11 +20992,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -21496,16 +21452,16 @@
         "name": "Calendar storage"
       },
       {
+        "locale": "de-at",
+        "name": "Kalenderspeicher"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento del calendario"
       },
       {
         "locale": "es-es",
         "name": "Almacenamiento de calendario"
-      },
-      {
-        "locale": "de-at",
-        "name": "Kalenderspeicher"
       },
       {
         "locale": "it-it",
@@ -21579,6 +21535,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -21690,11 +21651,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -22528,12 +22484,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Respaldar o realizar copia de seguridad del registro de llamadas"
-      },
-      {
         "locale": "de-at",
         "name": "Sicherung/Wiederherstellung Anrufliste"
+      },
+      {
+        "locale": "es-us",
+        "name": "Respaldar o realizar copia de seguridad del registro de llamadas"
       }
     ],
     "devices": [
@@ -22550,6 +22506,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -22656,11 +22617,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -23904,28 +23860,6 @@
       }
     ]
   },
-  "com.myos.camera": {
-    "appName": "Cámara",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Kamera"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      }
-    ]
-  },
   "com.google.android.apps.cameralite": {
     "appName": "camera",
     "userFacing": true,
@@ -24893,6 +24827,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -24981,11 +24920,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -25656,16 +25590,16 @@
         "name": "Captive portal login"
       },
       {
+        "locale": "de-at",
+        "name": "Anmeldung über Captive Portal"
+      },
+      {
         "locale": "es-us",
         "name": "Acceso a portal cautivo"
       },
       {
         "locale": "es-es",
         "name": "Inicio de sesión en portal cautivo"
-      },
-      {
-        "locale": "de-at",
-        "name": "Anmeldung über Captive Portal"
       },
       {
         "locale": "it-it",
@@ -25734,6 +25668,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -25835,11 +25774,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -26455,16 +26389,16 @@
         "name": "Operator communications"
       },
       {
+        "locale": "de-at",
+        "name": "Kommunikation mit Mobilfunkanbieter"
+      },
+      {
         "locale": "es-us",
         "name": "Comunicaciones de operadores"
       },
       {
         "locale": "es-es",
         "name": "Comunicaciones del operador"
-      },
-      {
-        "locale": "de-at",
-        "name": "Kommunikation mit Mobilfunkanbieter"
       },
       {
         "locale": "it-it",
@@ -26545,6 +26479,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -26646,11 +26585,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -27575,6 +27509,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -27597,11 +27536,6 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -27981,6 +27915,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -28074,11 +28013,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -28585,16 +28519,16 @@
         "name": "Certificate installer"
       },
       {
+        "locale": "de-at",
+        "name": "Zertifikats-Installer"
+      },
+      {
         "locale": "es-us",
         "name": "Instalador de certificado"
       },
       {
         "locale": "es-es",
         "name": "Instalador de certificados"
-      },
-      {
-        "locale": "de-at",
-        "name": "Zertifikats-Installer"
       },
       {
         "locale": "it-it",
@@ -28656,6 +28590,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -28767,11 +28706,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -29318,6 +29252,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -29426,11 +29365,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -30855,16 +30789,16 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Uhr"
+      },
+      {
         "locale": "es-us",
         "name": "Reloj"
       },
       {
         "locale": "es-es",
         "name": "Reloj"
-      },
-      {
-        "locale": "de-at",
-        "name": "Uhr"
       },
       {
         "locale": "it-it",
@@ -30896,6 +30830,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -30951,11 +30890,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -32019,15 +31953,15 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "MiraVision"
+      },
+      {
         "locale": "es-us",
         "name": "MiraVision"
       },
       {
         "locale": "ru-ru",
-        "name": "MiraVision"
-      },
-      {
-        "locale": "de-at",
         "name": "MiraVision"
       },
       {
@@ -32053,6 +31987,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -32066,11 +32005,6 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -32323,6 +32257,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -32431,11 +32370,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -33799,6 +33733,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -33811,11 +33750,6 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "motorola",
@@ -33854,6 +33788,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -33928,11 +33867,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -34349,17 +34283,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -34715,6 +34649,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -34823,11 +34762,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -35277,6 +35211,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -35385,11 +35324,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -36203,6 +36137,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -36256,11 +36195,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -36525,12 +36459,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -36542,12 +36476,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -36604,6 +36538,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -36710,11 +36649,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -37136,6 +37070,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A566B",
         "os": "36"
@@ -37154,11 +37093,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "36"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -37480,6 +37414,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -37558,11 +37497,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -37961,6 +37895,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -38064,11 +38003,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -39882,6 +39816,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -39985,11 +39924,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -40488,6 +40422,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -40596,11 +40535,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -43230,6 +43164,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -43338,11 +43277,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -44054,6 +43988,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -44102,11 +44041,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -46170,6 +46104,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -46228,11 +46167,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -46507,6 +46441,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -46615,11 +46554,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -47064,6 +46998,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -47152,11 +47091,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -47827,6 +47761,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -47839,11 +47778,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -47955,6 +47889,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -47978,11 +47917,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -48677,6 +48611,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -48689,11 +48628,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -48789,12 +48723,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -48806,12 +48740,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -48821,6 +48755,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "moto g05",
@@ -48835,11 +48774,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -49397,6 +49331,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -49465,11 +49404,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -50252,6 +50186,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -50335,11 +50274,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -51009,6 +50943,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -51077,11 +51016,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -52161,6 +52095,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -52188,11 +52127,6 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -52385,6 +52319,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -52448,11 +52387,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -52784,6 +52718,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -52862,11 +52801,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -53222,6 +53156,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -53259,11 +53198,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -53601,6 +53535,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -53664,11 +53603,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -54015,6 +53949,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -54093,11 +54032,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -54455,6 +54389,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -54487,11 +54426,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -54656,6 +54590,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -54709,11 +54648,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -55137,6 +55071,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -55180,11 +55119,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -55650,6 +55584,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -55713,11 +55652,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -56356,6 +56290,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -56429,11 +56368,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -56798,6 +56732,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -56871,11 +56810,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -57245,6 +57179,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -57277,11 +57216,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -57462,6 +57396,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -57535,11 +57474,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -57931,6 +57865,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -58004,11 +57943,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -58383,6 +58317,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -58456,11 +58395,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -59545,6 +59479,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -59623,11 +59562,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -59984,6 +59918,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -60036,11 +59975,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -60400,12 +60334,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -60422,12 +60356,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -60935,6 +60869,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -60978,11 +60917,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -61371,6 +61305,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -61378,11 +61317,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Ulefone",
@@ -62131,6 +62065,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -62149,11 +62088,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -62310,6 +62244,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -62333,11 +62272,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -62607,6 +62541,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -62625,11 +62564,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -62760,6 +62694,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -62772,11 +62711,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -62887,6 +62821,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -62899,11 +62838,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -63009,12 +62943,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -63048,6 +62982,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -63060,11 +62999,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -63170,12 +63104,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -63275,6 +63209,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -63293,11 +63232,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -63422,6 +63356,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -63435,11 +63374,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -64353,12 +64287,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -64422,12 +64356,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -64972,17 +64906,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -65551,12 +65485,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -65568,12 +65502,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -65585,12 +65519,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -65602,12 +65536,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -65795,17 +65729,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -65854,12 +65788,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -74962,12 +74896,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -76003,16 +75937,16 @@
         "name": "Управление подключенными устройствами"
       },
       {
+        "locale": "de-at",
+        "name": "Begleitgerät-Manager"
+      },
+      {
         "locale": "es-us",
         "name": "Administrador de dispositivos complementarios"
       },
       {
         "locale": "es-es",
         "name": "Gestor de dispositivos complementario"
-      },
-      {
-        "locale": "de-at",
-        "name": "Begleitgerät-Manager"
       },
       {
         "locale": "it-it",
@@ -76054,6 +75988,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -76165,11 +76104,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -76622,58 +76556,16 @@
       }
     ]
   },
-  "com.google.android.compos.payload": {
-    "appName": "CompOS",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 6 Pro",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 8",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 7 Pro",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 8a",
-        "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 6",
-        "os": "36"
-      }
-    ]
-  },
   "com.android.compos.payload": {
     "appName": "CompOS",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "samsung",
         "model": "SM-A566B",
@@ -76693,11 +76585,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "36"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -76763,6 +76650,53 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.compos.payload": {
+    "appName": "CompOS",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 6 Pro",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 8",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 7 Pro",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 8a",
+        "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9a",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 6",
+        "os": "36"
       }
     ]
   },
@@ -77114,6 +77048,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -77222,11 +77161,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -78875,6 +78809,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Kontakte"
+      },
+      {
         "locale": "es-us",
         "name": "Contactos"
       },
@@ -78885,10 +78823,6 @@
       {
         "locale": "es-es",
         "name": "Contactos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Kontakte"
       },
       {
         "locale": "it-it",
@@ -78912,6 +78846,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -78967,11 +78906,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -79564,6 +79498,10 @@
         "name": "Contacts storage"
       },
       {
+        "locale": "de-at",
+        "name": "Kontakte-Speicher"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento para contactos"
       },
@@ -79574,10 +79512,6 @@
       {
         "locale": "es-es",
         "name": "Información de contactos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Kontakte-Speicher"
       },
       {
         "locale": "it-it",
@@ -79613,6 +79547,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "A-gold",
@@ -79693,11 +79632,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -80022,6 +79956,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -80069,11 +80008,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -80667,16 +80601,16 @@
         "name": "В правом углу"
       },
       {
+        "locale": "de-at",
+        "name": "Eckenausschnitt"
+      },
+      {
         "locale": "es-us",
         "name": "Recorte de la esquina"
       },
       {
         "locale": "es-es",
         "name": "Recorte de la esquina"
-      },
-      {
-        "locale": "de-at",
-        "name": "Eckenausschnitt"
       },
       {
         "locale": "it-it",
@@ -80725,6 +80659,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -80831,11 +80770,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -81328,17 +81262,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -81461,6 +81395,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -81534,11 +81473,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -82038,6 +81972,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -82065,11 +82004,6 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -82884,12 +82818,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -83450,16 +83384,16 @@
         "name": "Default print service"
       },
       {
+        "locale": "de-at",
+        "name": "Standarddruckdienst"
+      },
+      {
         "locale": "es-us",
         "name": "Servicio de impresión predeterminado"
       },
       {
         "locale": "es-es",
         "name": "Servicio de impresión predeterminado"
-      },
-      {
-        "locale": "de-at",
-        "name": "Standarddruckdienst"
       },
       {
         "locale": "it-it",
@@ -83520,6 +83454,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -83626,11 +83565,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -84076,12 +84010,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Modo de tienda"
-      },
-      {
         "locale": "de-at",
         "name": "Vorführmodus"
+      },
+      {
+        "locale": "es-us",
+        "name": "Modo de tienda"
       },
       {
         "locale": "en-gb",
@@ -84095,17 +84029,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -84193,28 +84127,6 @@
       {
         "make": "TCL",
         "model": "T951K",
-        "os": "35"
-      }
-    ]
-  },
-  "com.ape.performances": {
-    "appName": "Desempeño",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Leistung"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -84517,17 +84429,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -84576,6 +84488,53 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "android.autoinstalls.config.motorola.layout": {
+    "appName": "Device configuration",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "motorola edge 50 fusion",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g34 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g85 5G",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "34"
+      },
+      {
+        "make": "motorola",
+        "model": "motorola edge 50 fusion",
+        "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "ThinkPhone by motorola",
+        "os": "35"
       }
     ]
   },
@@ -84633,53 +84592,6 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
-      }
-    ]
-  },
-  "android.autoinstalls.config.motorola.layout": {
-    "appName": "Device configuration",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "motorola edge 50 fusion",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g34 5G",
-        "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "ThinkPhone by motorola",
-        "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "motorola edge 50 fusion",
-        "os": "36"
-      },
-      {
-        "make": "motorola",
-        "model": "ThinkPhone by motorola",
-        "os": "35"
       }
     ]
   },
@@ -84911,6 +84823,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -84984,11 +84901,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -85339,15 +85251,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Ayuda del dispositivo"
-      },
-      {
         "locale": "de-at",
         "name": "Gerätehilfe"
+      },
+      {
+        "locale": "es-us",
+        "name": "Ayuda del dispositivo"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -85356,11 +85273,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -85491,15 +85403,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Administración del dispositivo"
-      },
-      {
         "locale": "de-at",
         "name": "Gerätemanagement"
+      },
+      {
+        "locale": "es-us",
+        "name": "Administración del dispositivo"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -85508,11 +85425,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -86197,6 +86109,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -86244,11 +86161,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -86591,6 +86503,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -86619,11 +86536,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -87683,6 +87595,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -87761,11 +87678,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -88397,17 +88309,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -88467,6 +88379,23 @@
       }
     ]
   },
+  "com.ape.dolby.settings": {
+    "appName": "Dolby Atmos",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.motorola.dolby.dolbyui": {
     "appName": "Dolby Atmos",
     "userFacing": true,
@@ -88500,23 +88429,6 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
-        "os": "35"
-      }
-    ]
-  },
-  "com.ape.dolby.settings": {
-    "appName": "Dolby Atmos",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       }
     ]
@@ -88568,16 +88480,16 @@
         "name": "Сверху и снизу"
       },
       {
+        "locale": "de-at",
+        "name": "Doppelter Ausschnitt"
+      },
+      {
         "locale": "es-us",
         "name": "Recorte doble"
       },
       {
         "locale": "es-es",
         "name": "Recorte doble"
-      },
-      {
-        "locale": "de-at",
-        "name": "Doppelter Ausschnitt"
       },
       {
         "locale": "it-it",
@@ -88626,6 +88538,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -88732,11 +88649,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -89144,16 +89056,16 @@
         "name": "Диспетчер загрузки"
       },
       {
+        "locale": "de-at",
+        "name": "Download-Manager"
+      },
+      {
         "locale": "es-us",
         "name": "Administrador de descargas"
       },
       {
         "locale": "es-es",
         "name": "Administrador de descargas"
-      },
-      {
-        "locale": "de-at",
-        "name": "Download-Manager"
       },
       {
         "locale": "it-it",
@@ -89207,6 +89119,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -89318,11 +89235,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -89812,6 +89724,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -89920,11 +89837,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -90667,6 +90579,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -90740,11 +90657,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -91746,15 +91658,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Administración de apps en 2.º plano"
-      },
-      {
         "locale": "de-at",
         "name": "Verwaltung von Hintergrund-Apps"
+      },
+      {
+        "locale": "es-us",
+        "name": "Administración de apps en 2.º plano"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -91774,11 +91691,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -91840,6 +91752,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -91946,11 +91863,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -93302,6 +93214,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "es-us",
         "name": "com.android.emergency"
       },
@@ -93316,10 +93232,6 @@
       {
         "locale": "es-es",
         "name": "Emergencia"
-      },
-      {
-        "locale": "de-at",
-        "name": "com.android.emergency"
       },
       {
         "locale": "it-it",
@@ -93347,6 +93259,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -93426,11 +93343,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -94731,17 +94643,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -95562,16 +95474,16 @@
         "name": "External storage"
       },
       {
+        "locale": "de-at",
+        "name": "Externer Speicher"
+      },
+      {
         "locale": "es-us",
         "name": "Externo"
       },
       {
         "locale": "es-es",
         "name": "Almacenamiento externo"
-      },
-      {
-        "locale": "de-at",
-        "name": "Externer Speicher"
       },
       {
         "locale": "it-it",
@@ -95625,6 +95537,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -95736,11 +95653,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -98321,16 +98233,16 @@
         "name": "Файлы"
       },
       {
+        "locale": "de-at",
+        "name": "Dateien"
+      },
+      {
         "locale": "es-us",
         "name": "Archivos"
       },
       {
         "locale": "es-es",
         "name": "Archivos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Dateien"
       },
       {
         "locale": "it-it",
@@ -98375,6 +98287,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -98476,11 +98393,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -98982,6 +98894,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -99035,11 +98952,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -100873,12 +100785,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -102020,6 +101932,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -102128,11 +102045,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -104763,15 +104675,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Juegos"
-      },
-      {
         "locale": "de-at",
         "name": "Spiele"
+      },
+      {
+        "locale": "es-us",
+        "name": "Juegos"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -104780,11 +104697,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -105008,6 +104920,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -105071,11 +104988,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -105583,6 +105495,28 @@
       }
     ]
   },
+  "com.ape.faceunlock": {
+    "appName": "Gesichtserkennung",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Reconocimiento facial"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.tcl.tct.filemanager": {
     "appName": "Gestión archivos",
     "userFacing": false,
@@ -105616,28 +105550,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      }
-    ]
-  },
-  "com.ape.personalize": {
-    "appName": "Gestos de Moto",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Moto-Gesten"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       }
     ]
   },
@@ -106672,6 +106584,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -106775,11 +106692,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -107741,6 +107653,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -107854,11 +107771,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -108366,6 +108278,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -108474,11 +108391,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -109387,15 +109299,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Configuración del iniciador de Google"
-      },
-      {
         "locale": "de-at",
         "name": "Startbildschirm-Konfiguration"
+      },
+      {
+        "locale": "es-us",
+        "name": "Configuración del iniciador de Google"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -109404,11 +109321,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -109447,16 +109359,16 @@
         "name": "История местоположений"
       },
       {
+        "locale": "de-at",
+        "name": "Google-Standortverlauf"
+      },
+      {
         "locale": "es-us",
         "name": "Historial de ubicaciones de Google"
       },
       {
         "locale": "es-es",
         "name": "Historial de ubicaciones de Google"
-      },
-      {
-        "locale": "de-at",
-        "name": "Google-Standortverlauf"
       },
       {
         "locale": "it-it",
@@ -109505,6 +109417,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -109606,11 +109523,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -110001,12 +109913,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -110064,6 +109976,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -110175,11 +110092,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -110624,6 +110536,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -110732,11 +110649,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -111400,16 +111312,16 @@
         "name": "Сервисы Google Play"
       },
       {
+        "locale": "de-at",
+        "name": "Google Play-Dienste"
+      },
+      {
         "locale": "es-us",
         "name": "Servicios de Google Play"
       },
       {
         "locale": "es-es",
         "name": "Servicios de Google Play"
-      },
-      {
-        "locale": "de-at",
-        "name": "Google Play-Dienste"
       },
       {
         "locale": "it-it",
@@ -111459,6 +111371,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -111570,11 +111487,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -112330,6 +112242,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -112438,11 +112355,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -112879,16 +112791,16 @@
         "name": "Google Safety Centre resources"
       },
       {
+        "locale": "de-at",
+        "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
         "locale": "es-us",
         "name": "Recursos del Centro de seg. de Google"
       },
       {
         "locale": "es-es",
         "name": "Recursos del Centro de Seguridad de Google"
-      },
-      {
-        "locale": "de-at",
-        "name": "Google Sicherheitscenter-Ressourcen"
       },
       {
         "locale": "it-it",
@@ -112953,6 +112865,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -113044,11 +112961,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -113608,6 +113520,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -113716,11 +113633,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -114183,6 +114095,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -114251,11 +114168,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -114576,6 +114488,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -114633,11 +114550,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -115123,28 +115035,6 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
-      }
-    ]
-  },
-  "com.ape.soundrecorder": {
-    "appName": "Grabadora de sonido",
-    "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Soundrekorder"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       }
     ]
   },
@@ -115891,6 +115781,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -115959,11 +115854,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -117748,16 +117638,16 @@
         "name": "Средство просмотра HTML"
       },
       {
+        "locale": "de-at",
+        "name": "HTML-Anzeige"
+      },
+      {
         "locale": "es-us",
         "name": "Visualizador de HTML"
       },
       {
         "locale": "es-es",
         "name": "Visor de HTML"
-      },
-      {
-        "locale": "de-at",
-        "name": "HTML-Anzeige"
       },
       {
         "locale": "it-it",
@@ -117807,6 +117697,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -117918,11 +117813,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -119215,6 +119105,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -119238,11 +119133,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -119656,16 +119546,16 @@
         "name": "Input devices"
       },
       {
+        "locale": "de-at",
+        "name": "Eingabegeräte"
+      },
+      {
         "locale": "es-us",
         "name": "Dispositivo de entrada"
       },
       {
         "locale": "es-es",
         "name": "Dispositivos de introducción de datos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Eingabegeräte"
       },
       {
         "locale": "it-it",
@@ -119702,6 +119592,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -119813,11 +119708,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -120528,6 +120418,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -120601,11 +120496,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -121429,6 +121319,28 @@
       }
     ]
   },
+  "com.myos.camera": {
+    "appName": "Kamera",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Cámara"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.google.android.keep": {
     "appName": "Keep Notes",
     "userFacing": true,
@@ -121646,12 +121558,12 @@
         "name": "Менеджер ключей"
       },
       {
-        "locale": "es-us",
-        "name": "Llavero"
-      },
-      {
         "locale": "de-at",
         "name": "Schlüsselbund"
+      },
+      {
+        "locale": "es-us",
+        "name": "Llavero"
       },
       {
         "locale": "it-it",
@@ -121701,6 +121613,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -121812,11 +121729,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -124580,6 +124492,28 @@
       }
     ]
   },
+  "com.ape.performances": {
+    "appName": "Leistung",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Desempeño"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.lenovo.hec.lenovoextend": {
     "appName": "Lenovo Freestyle",
     "userFacing": false,
@@ -124597,23 +124531,23 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "ID de Lenovo"
-      },
-      {
         "locale": "de-at",
         "name": "Lenovo-ID"
+      },
+      {
+        "locale": "es-us",
+        "name": "ID de Lenovo"
       }
     ],
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -125663,16 +125597,16 @@
         "name": "Live wallpaper picker"
       },
       {
+        "locale": "de-at",
+        "name": "Live-Hintergrund-Auswahl"
+      },
+      {
         "locale": "es-us",
         "name": "Selector de fondo de pantalla animado"
       },
       {
         "locale": "es-es",
         "name": "Selector de fondo animado"
-      },
-      {
-        "locale": "de-at",
-        "name": "Live-Hintergrund-Auswahl"
       },
       {
         "locale": "it-it",
@@ -125725,6 +125659,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -125831,11 +125770,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -126921,19 +126855,24 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "LPPe-Dienst"
+      },
+      {
         "locale": "es-us",
         "name": "Servicio LPPe"
       },
       {
         "locale": "ru-ru",
         "name": "Служба LPPe"
-      },
-      {
-        "locale": "de-at",
-        "name": "LPPe-Dienst"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "A-gold",
         "model": "Titan",
@@ -126958,11 +126897,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -127575,6 +127509,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -127668,11 +127607,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -128082,6 +128016,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -128160,11 +128099,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -128677,6 +128611,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -128790,11 +128729,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -129266,6 +129200,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -129374,11 +129313,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -130482,16 +130416,16 @@
         "name": "Инструмент выбора медиа"
       },
       {
+        "locale": "de-at",
+        "name": "Media-Auswahl"
+      },
+      {
         "locale": "es-us",
         "name": "Selector de medios"
       },
       {
         "locale": "es-es",
         "name": "Selector de medios"
-      },
-      {
-        "locale": "de-at",
-        "name": "Media-Auswahl"
       },
       {
         "locale": "it-it",
@@ -130544,6 +130478,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -130640,11 +130579,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -131247,6 +131181,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -131340,11 +131279,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -131892,6 +131826,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -131980,11 +131919,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -132417,6 +132351,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -132469,11 +132408,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -132664,6 +132598,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -132716,11 +132655,6 @@
       {
         "make": "samsung",
         "model": "SM-S721U",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -132911,6 +132845,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -132959,11 +132898,6 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -133927,6 +133861,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -134035,11 +133974,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -134891,17 +134825,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135554,17 +135488,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135601,12 +135535,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "motorola edge 50 fusion",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
@@ -135759,12 +135693,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Comentarios sobre Moto"
-      },
-      {
         "locale": "de-at",
         "name": "Moto-Feedback"
+      },
+      {
+        "locale": "es-us",
+        "name": "Comentarios sobre Moto"
       },
       {
         "locale": "en-mt",
@@ -135778,17 +135712,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135889,17 +135823,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -135965,17 +135899,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136001,6 +135935,28 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "35"
+      }
+    ]
+  },
+  "com.ape.setupwizard": {
+    "appName": "Moto Setup",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ajustes de Moto"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -136049,17 +136005,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136150,17 +136106,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136190,6 +136146,28 @@
       }
     ]
   },
+  "com.ape.personalize": {
+    "appName": "Moto-Gesten",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Gestos de Moto"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.aura.oobe.motorola": {
     "appName": "MotoApps",
     "userFacing": false,
@@ -136197,12 +136175,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "motorola edge 50 fusion",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
@@ -136241,6 +136219,28 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      }
+    ]
+  },
+  "com.tinno.coresettingsext": {
+    "appName": "MotoRechtlicheEinstellungen",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Ajustes legales de Moto"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
       }
     ]
   },
@@ -136328,15 +136328,20 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Notificaciones de Motorola"
-      },
-      {
         "locale": "de-at",
         "name": "Motorola-Benachrichtigungen"
+      },
+      {
+        "locale": "es-us",
+        "name": "Notificaciones de Motorola"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -136345,11 +136350,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136384,23 +136384,23 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Página principal de los servicios de Motorola"
-      },
-      {
         "locale": "de-at",
         "name": "Startseite der Motorola-Dienste"
+      },
+      {
+        "locale": "es-us",
+        "name": "Página principal de los servicios de Motorola"
       }
     ],
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -136420,15 +136420,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Ajustes de Motorola"
-      },
-      {
         "locale": "de-at",
         "name": "Motorola-Einstellungen"
+      },
+      {
+        "locale": "es-us",
+        "name": "Ajustes de Motorola"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -136437,11 +136442,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136518,12 +136518,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Actualización de software de Motorola"
-      },
-      {
         "locale": "de-at",
         "name": "Motorola-Softwareupdate"
+      },
+      {
+        "locale": "es-us",
+        "name": "Actualización de software de Motorola"
       },
       {
         "locale": "en-mt",
@@ -136537,17 +136537,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136700,17 +136700,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -136928,6 +136928,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -136946,11 +136951,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "TCL",
@@ -137314,16 +137314,16 @@
         "name": "MTP-хост"
       },
       {
+        "locale": "de-at",
+        "name": "MTP-Host"
+      },
+      {
         "locale": "es-us",
         "name": "Host MTP"
       },
       {
         "locale": "es-es",
         "name": "Host de MTP"
-      },
-      {
-        "locale": "de-at",
-        "name": "MTP-Host"
       },
       {
         "locale": "it-it",
@@ -137368,6 +137368,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -137479,11 +137484,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -138261,6 +138261,11 @@
         "os": "33"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -138304,11 +138309,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -139910,16 +139910,16 @@
         "name": "Менеджер сетей"
       },
       {
+        "locale": "de-at",
+        "name": "Netzwerkmanager"
+      },
+      {
         "locale": "es-us",
         "name": "Administrador de redes"
       },
       {
         "locale": "es-es",
         "name": "Administrador de redes"
-      },
-      {
-        "locale": "de-at",
-        "name": "Netzwerkmanager"
       },
       {
         "locale": "nl-nl",
@@ -139960,6 +139960,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -140056,11 +140061,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -140867,12 +140867,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -140924,12 +140924,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -141456,12 +141456,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -141622,16 +141622,16 @@
         "name": "NFC service"
       },
       {
+        "locale": "de-at",
+        "name": "NFC-Dienst"
+      },
+      {
         "locale": "es-us",
         "name": "Servicio NFC"
       },
       {
         "locale": "es-es",
         "name": "NFC"
-      },
-      {
-        "locale": "de-at",
-        "name": "NFC-Dienst"
       },
       {
         "locale": "it-it",
@@ -141716,6 +141716,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -141822,11 +141827,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -142520,6 +142520,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -142593,11 +142598,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -143213,6 +143213,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -143306,11 +143311,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -144963,6 +144963,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -144986,11 +144991,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -147289,6 +147289,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -147337,11 +147342,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -147805,16 +147805,16 @@
         "name": "Установщик пакетов"
       },
       {
+        "locale": "de-at",
+        "name": "Paketinstallation"
+      },
+      {
         "locale": "es-us",
         "name": "Instalador de paquetes"
       },
       {
         "locale": "es-es",
         "name": "Instalador de paquetes"
-      },
-      {
-        "locale": "de-at",
-        "name": "Paketinstallation"
       },
       {
         "locale": "it-it",
@@ -147864,6 +147864,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -147975,11 +147980,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -148473,6 +148473,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -148581,11 +148586,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -149016,17 +149016,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -149063,17 +149063,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -149472,6 +149472,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -149483,11 +149488,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -149987,16 +149987,16 @@
         "name": "Контролер разрешений"
       },
       {
+        "locale": "de-at",
+        "name": "Berechtigungssteuerung"
+      },
+      {
         "locale": "es-us",
         "name": "Controlador de permisos"
       },
       {
         "locale": "es-es",
         "name": "Controlador de permisos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Berechtigungssteuerung"
       },
       {
         "locale": "it-it",
@@ -150046,6 +150046,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -150147,11 +150152,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -150986,6 +150986,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Persönliche Sicherheit"
+      },
+      {
         "locale": "es-us",
         "name": "Seguridad personal"
       },
@@ -150996,10 +151000,6 @@
       {
         "locale": "es-es",
         "name": "Emergencias"
-      },
-      {
-        "locale": "de-at",
-        "name": "Persönliche Sicherheit"
       },
       {
         "locale": "it-it",
@@ -151027,6 +151027,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -151071,11 +151076,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -151728,72 +151728,14 @@
       }
     ]
   },
-  "com.android.dialer": {
-    "appName": "Phone",
-    "userFacing": true,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "A-gold",
-        "model": "Titan",
-        "os": "28"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone64_x86_64",
-        "os": "31"
-      },
-      {
-        "make": "OnePlus",
-        "model": "OnePlus8Pro",
-        "os": "30"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "GMS on ARM64",
-        "os": "34"
-      },
-      {
-        "make": "QEMU",
-        "model": "Standard PC (i440FX + PIIX, 1996)",
-        "os": "27"
-      },
-      {
-        "make": "NUU",
-        "model": "N5501L",
-        "os": "27"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "35"
-      },
-      {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "33"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "YUMPINGO_1",
-        "os": "28"
-      },
-      {
-        "make": "RHINO",
-        "model": "C10",
-        "os": "29"
-      }
-    ]
-  },
   "com.google.android.dialer": {
     "appName": "Phone",
     "userFacing": true,
     "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Telefon"
+      },
       {
         "locale": "es-us",
         "name": "Teléfono"
@@ -151805,10 +151747,6 @@
       {
         "locale": "es-es",
         "name": "Teléfono"
-      },
-      {
-        "locale": "de-at",
-        "name": "Telefon"
       },
       {
         "locale": "it-it",
@@ -151828,6 +151766,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -151867,11 +151810,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -152075,6 +152013,68 @@
       }
     ]
   },
+  "com.android.dialer": {
+    "appName": "Phone",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "A-gold",
+        "model": "Titan",
+        "os": "28"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone64_x86_64",
+        "os": "31"
+      },
+      {
+        "make": "OnePlus",
+        "model": "OnePlus8Pro",
+        "os": "30"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "GMS on ARM64",
+        "os": "34"
+      },
+      {
+        "make": "QEMU",
+        "model": "Standard PC (i440FX + PIIX, 1996)",
+        "os": "27"
+      },
+      {
+        "make": "NUU",
+        "model": "N5501L",
+        "os": "27"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "35"
+      },
+      {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "33"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "YUMPINGO_1",
+        "os": "28"
+      },
+      {
+        "make": "RHINO",
+        "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
   "com.android.incallui": {
     "appName": "Phone",
     "userFacing": false,
@@ -152175,16 +152175,16 @@
         "name": "Phone and messaging storage"
       },
       {
+        "locale": "de-at",
+        "name": "Telefon- und SMS-Speicher"
+      },
+      {
         "locale": "es-us",
         "name": "Memoria Mensajes/Teléfono"
       },
       {
         "locale": "es-es",
         "name": "Almacenamiento de mensajes y teléfono"
-      },
-      {
-        "locale": "de-at",
-        "name": "Telefon- und SMS-Speicher"
       },
       {
         "locale": "it-it",
@@ -152245,6 +152245,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -152356,11 +152361,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -152801,16 +152801,16 @@
         "name": "Phone calls"
       },
       {
+        "locale": "de-at",
+        "name": "Telefonanrufe"
+      },
+      {
         "locale": "es-us",
         "name": "Llamadas telefónicas"
       },
       {
         "locale": "es-es",
         "name": "Llamadas de teléfono"
-      },
-      {
-        "locale": "de-at",
-        "name": "Telefonanrufe"
       },
       {
         "locale": "it-it",
@@ -152899,6 +152899,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -153010,11 +153015,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -153480,16 +153480,16 @@
         "name": "Phone services"
       },
       {
+        "locale": "de-at",
+        "name": "Telefondienste"
+      },
+      {
         "locale": "es-us",
         "name": "Servicios telefónicos"
       },
       {
         "locale": "es-es",
         "name": "Servicios telefónicos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Telefondienste"
       },
       {
         "locale": "it-it",
@@ -153546,6 +153546,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -153657,11 +153662,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -154862,15 +154862,15 @@
         "name": "Фото"
       },
       {
+        "locale": "de-at",
+        "name": "Fotos"
+      },
+      {
         "locale": "es-us",
         "name": "Fotos"
       },
       {
         "locale": "es-es",
-        "name": "Fotos"
-      },
-      {
-        "locale": "de-at",
         "name": "Fotos"
       },
       {
@@ -154903,6 +154903,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -154994,11 +154999,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -155329,16 +155329,16 @@
         "name": "Photos and videos"
       },
       {
+        "locale": "de-at",
+        "name": "Fotos & Videos"
+      },
+      {
         "locale": "es-us",
         "name": "Fotos y videos"
       },
       {
         "locale": "es-es",
         "name": "Fotos y vídeos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Fotos & Videos"
       },
       {
         "locale": "it-it",
@@ -155398,6 +155398,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -155474,11 +155479,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -156417,15 +156417,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Temas de Pixel"
-      },
-      {
         "locale": "de-at",
         "name": "Pixel-Designs"
+      },
+      {
+        "locale": "es-us",
+        "name": "Temas de Pixel"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -156450,11 +156455,6 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -157470,6 +157470,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -157578,11 +157583,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -158015,16 +158015,16 @@
         "name": "Спулер печати"
       },
       {
+        "locale": "de-at",
+        "name": "Druck-Spooler"
+      },
+      {
         "locale": "es-us",
         "name": "Cola de impresión"
       },
       {
         "locale": "es-es",
         "name": "Cola de impresión"
-      },
-      {
-        "locale": "de-at",
-        "name": "Druck-Spooler"
       },
       {
         "locale": "nl-nl",
@@ -158074,6 +158074,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -158185,11 +158190,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -158634,6 +158634,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -158712,11 +158717,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -159200,12 +159200,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -159326,6 +159326,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -159434,11 +159439,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -159909,16 +159909,16 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "de-at",
+        "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
         "locale": "es-us",
         "name": "Corte de perforadora"
       },
       {
         "locale": "es-es",
         "name": "Recorte redondo"
-      },
-      {
-        "locale": "de-at",
-        "name": "Ausschnitt für Punch-Hole-Display"
       },
       {
         "locale": "it-it",
@@ -160007,6 +160007,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -160108,11 +160113,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -162745,28 +162745,6 @@
       }
     ]
   },
-  "com.ape.faceunlock": {
-    "appName": "Reconocimiento facial",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "de-at",
-        "name": "Gesichtserkennung"
-      }
-    ],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      }
-    ]
-  },
   "com.tcl.faceunlock": {
     "appName": "Reconocimiento facial",
     "userFacing": false,
@@ -163155,6 +163133,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -163193,11 +163176,6 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -163940,6 +163918,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
@@ -163958,11 +163941,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -164642,17 +164620,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -164882,6 +164860,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -164898,11 +164881,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -164981,12 +164959,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       }
     ]
@@ -173487,12 +173465,12 @@
         "name": "Search engine selector"
       },
       {
-        "locale": "es-es",
-        "name": "Selector de motor de búsqueda"
-      },
-      {
         "locale": "de-at",
         "name": "Suchmaschinenauswahl"
+      },
+      {
+        "locale": "es-es",
+        "name": "Selector de motor de búsqueda"
       },
       {
         "locale": "it-it",
@@ -173532,6 +173510,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -173598,11 +173581,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -174389,15 +174367,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Carpeta segura"
-      },
-      {
         "locale": "de-at",
         "name": "Geschützter Ordner"
+      },
+      {
+        "locale": "es-us",
+        "name": "Carpeta segura"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -174406,11 +174389,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -174927,6 +174905,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -175035,11 +175018,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -176258,12 +176236,12 @@
     "devices": [
       {
         "make": "motorola",
-        "model": "moto g05",
+        "model": "moto g15",
         "os": "35"
       },
       {
         "make": "motorola",
-        "model": "moto g15",
+        "model": "moto g05",
         "os": "35"
       },
       {
@@ -176295,6 +176273,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -176302,11 +176285,6 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -177304,16 +177282,16 @@
         "name": "Настройки"
       },
       {
+        "locale": "de-at",
+        "name": "Einstellungen"
+      },
+      {
         "locale": "es-us",
         "name": "Ajustes"
       },
       {
         "locale": "es-es",
         "name": "Ajustes"
-      },
-      {
-        "locale": "de-at",
-        "name": "Einstellungen"
       },
       {
         "locale": "it-it",
@@ -177363,6 +177341,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -177474,11 +177457,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -178156,16 +178134,16 @@
         "name": "Settings storage"
       },
       {
+        "locale": "de-at",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "es-us",
         "name": "Almacenamiento de ajustes"
       },
       {
         "locale": "es-es",
         "name": "Almacenamiento de configuración"
-      },
-      {
-        "locale": "de-at",
-        "name": "Einstellungsspeicher"
       },
       {
         "locale": "it-it",
@@ -178219,6 +178197,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -178330,11 +178313,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -178763,12 +178741,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Almacenamiento de ajustes"
-      },
-      {
         "locale": "de-at",
         "name": "Einstellungsspeicher"
+      },
+      {
+        "locale": "es-us",
+        "name": "Almacenamiento de ajustes"
       },
       {
         "locale": "en-mt",
@@ -178786,17 +178764,17 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -178886,16 +178864,16 @@
         "name": "Settings suggestions"
       },
       {
+        "locale": "de-at",
+        "name": "Vorschläge für die Einstellungen"
+      },
+      {
         "locale": "es-us",
         "name": "Sugerencias de ajustes"
       },
       {
         "locale": "es-es",
         "name": "Sugerencias de ajustes"
-      },
-      {
-        "locale": "de-at",
-        "name": "Vorschläge für die Einstellungen"
       },
       {
         "locale": "it-it",
@@ -178949,6 +178927,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -179035,11 +179018,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -180137,6 +180115,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -180245,11 +180228,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -180884,15 +180862,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Barra lateral"
-      },
-      {
         "locale": "de-at",
         "name": "Android-Randleiste"
+      },
+      {
+        "locale": "es-us",
+        "name": "Barra lateral"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
@@ -180901,11 +180884,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -181257,6 +181235,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -181360,11 +181343,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -182102,16 +182080,16 @@
         "name": "SIM-меню"
       },
       {
+        "locale": "de-at",
+        "name": "SIM-Toolkit"
+      },
+      {
         "locale": "es-us",
         "name": "Mi SIM"
       },
       {
         "locale": "es-es",
         "name": "Kit herramientas SIM"
-      },
-      {
-        "locale": "de-at",
-        "name": "SIM-Toolkit"
       },
       {
         "locale": "it-it",
@@ -182180,6 +182158,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -182286,11 +182269,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -182863,6 +182841,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -182886,11 +182869,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -187102,10 +187080,36 @@
       }
     ]
   },
+  "com.ape.soundrecorder": {
+    "appName": "Soundrekorder",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "es-us",
+        "name": "Grabadora de sonido"
+      }
+    ],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.soundpicker": {
     "appName": "Sounds",
     "userFacing": false,
     "additionalLocales": [
+      {
+        "locale": "de-at",
+        "name": "Töne"
+      },
       {
         "locale": "es-us",
         "name": "Sonidos"
@@ -187117,10 +187121,6 @@
       {
         "locale": "es-es",
         "name": "Sonidos"
-      },
-      {
-        "locale": "de-at",
-        "name": "Töne"
       },
       {
         "locale": "de-de",
@@ -187144,6 +187144,11 @@
         "make": "Google",
         "model": "brya",
         "os": "33"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
       },
       {
         "make": "Google",
@@ -187214,11 +187219,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -187727,16 +187727,16 @@
         "name": "Распознавание и синтез речи от Google"
       },
       {
+        "locale": "de-at",
+        "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
         "locale": "es-us",
         "name": "Reconocimiento y síntesis de voz de Google"
       },
       {
         "locale": "es-es",
         "name": "Reconocimiento y síntesis de voz de Google"
-      },
-      {
-        "locale": "de-at",
-        "name": "Spracherkennung und -Synthese von Google"
       },
       {
         "locale": "it-it",
@@ -187818,6 +187818,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -187929,11 +187934,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -188443,6 +188443,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "OnePlus",
         "model": "OnePlus8Pro",
         "os": "30"
@@ -188455,11 +188460,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -188901,12 +188901,12 @@
         "name": "Менеджер хранилища"
       },
       {
-        "locale": "es-us",
-        "name": "Administrador de almacenamiento"
-      },
-      {
         "locale": "de-at",
         "name": "Speichermanager"
+      },
+      {
+        "locale": "es-us",
+        "name": "Administrador de almacenamiento"
       },
       {
         "locale": "nl-nl",
@@ -188960,6 +188960,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -189046,11 +189051,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -189804,6 +189804,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -189897,11 +189902,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -190490,12 +190490,12 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Accesibilidad con interruptores"
-      },
-      {
         "locale": "de-at",
         "name": "Schalterzugriff"
+      },
+      {
+        "locale": "es-us",
+        "name": "Accesibilidad con interruptores"
       },
       {
         "locale": "es-es",
@@ -190515,6 +190515,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -190549,11 +190554,6 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -190929,16 +190929,16 @@
         "name": "System connectivity resources"
       },
       {
+        "locale": "de-at",
+        "name": "Systemverbindungsressourcen"
+      },
+      {
         "locale": "es-us",
         "name": "Recursos de conectividad del sistema"
       },
       {
         "locale": "es-es",
         "name": "Recursos de conectividad del sistema"
-      },
-      {
-        "locale": "de-at",
-        "name": "Systemverbindungsressourcen"
       },
       {
         "locale": "it-it",
@@ -191003,6 +191003,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -191094,11 +191099,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -191828,16 +191828,16 @@
         "name": "Родительский контроль Family Link"
       },
       {
+        "locale": "de-at",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
         "locale": "es-us",
         "name": "Controles parentales del sistema"
       },
       {
         "locale": "es-es",
         "name": "Controles parentales de Family Link"
-      },
-      {
-        "locale": "de-at",
-        "name": "Jugendschutzeinstellungen"
       },
       {
         "locale": "it-it",
@@ -191887,6 +191887,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -191968,11 +191973,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -192469,16 +192469,16 @@
         "name": "System tracing"
       },
       {
+        "locale": "de-at",
+        "name": "Ablaufverfolgung"
+      },
+      {
         "locale": "es-us",
         "name": "Registro del sistema"
       },
       {
         "locale": "es-es",
         "name": "Trazado del sistema"
-      },
-      {
-        "locale": "de-at",
-        "name": "Ablaufverfolgung"
       },
       {
         "locale": "it-it",
@@ -192523,6 +192523,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -192629,11 +192634,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -193046,16 +193046,16 @@
         "name": "Интерфейс системы"
       },
       {
+        "locale": "de-at",
+        "name": "System-UI"
+      },
+      {
         "locale": "es-us",
         "name": "IU del sistema"
       },
       {
         "locale": "es-es",
         "name": "IU sistema"
-      },
-      {
-        "locale": "de-at",
-        "name": "System-UI"
       },
       {
         "locale": "it-it",
@@ -193105,6 +193105,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -193216,11 +193221,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -194021,6 +194021,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
@@ -194074,11 +194079,6 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "samsung",
@@ -194822,6 +194822,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "System-WLAN-Ressourcen"
+      },
+      {
         "locale": "es-us",
         "name": "Recursos Wi‑Fi del sistema"
       },
@@ -194832,10 +194836,6 @@
       {
         "locale": "es-es",
         "name": "Recursos Wi‑Fi del sistema"
-      },
-      {
-        "locale": "de-at",
-        "name": "System-WLAN-Ressourcen"
       },
       {
         "locale": "it-it",
@@ -194867,6 +194867,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
@@ -194916,11 +194921,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -195615,6 +195615,11 @@
     ],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -195673,11 +195678,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -196093,16 +196093,16 @@
         "name": "Сверху"
       },
       {
+        "locale": "de-at",
+        "name": "Großer Ausschnitt"
+      },
+      {
         "locale": "es-us",
         "name": "Recorte alto"
       },
       {
         "locale": "es-es",
         "name": "Recorte alto"
-      },
-      {
-        "locale": "de-at",
-        "name": "Großer Ausschnitt"
       },
       {
         "locale": "it-it",
@@ -196156,6 +196156,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -196262,11 +196267,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -197178,6 +197178,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "35"
       },
@@ -197194,11 +197199,6 @@
       {
         "make": "motorola",
         "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
         "os": "35"
       },
       {
@@ -197342,6 +197342,11 @@
     "devices": [
       {
         "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
         "model": "moto g05",
         "os": "35"
       },
@@ -197349,11 +197354,6 @@
         "make": "INFINIX",
         "model": "Infinix X6871",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "OUKITEL",
@@ -197404,19 +197404,24 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Telefonie-Hilfe"
+      },
+      {
         "locale": "es-us",
         "name": "Asistente de telefonía"
       },
       {
         "locale": "ru-ru",
         "name": "Телефонный помощник"
-      },
-      {
-        "locale": "de-at",
-        "name": "Telefonie-Hilfe"
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Blackview",
         "model": "VARG",
@@ -197436,11 +197441,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "realme",
@@ -197704,6 +197704,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
         "os": "31"
@@ -197797,11 +197802,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -198470,6 +198470,100 @@
       }
     ]
   },
+  "com.mediatek.networkstack.tethering.overlay": {
+    "appName": "TetheringResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
+  "com.mediatek.networkstack.tethering.googleoverlay": {
+    "appName": "TetheringResOverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g05",
+        "os": "35"
+      },
+      {
+        "make": "Xiaomi",
+        "model": "23106RN0DA",
+        "os": "35"
+      },
+      {
+        "make": "OUKITEL",
+        "model": "WP100 TITAN",
+        "os": "34"
+      },
+      {
+        "make": "Nothing",
+        "model": "A015",
+        "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T951K",
+        "os": "35"
+      },
+      {
+        "make": "OPPO",
+        "model": "CPH2591",
+        "os": "35"
+      },
+      {
+        "make": "Unihertz",
+        "model": "Titan 2",
+        "os": "35"
+      }
+    ]
+  },
   "com.android.networkstack.tethering.overlay": {
     "appName": "TetheringResOverlay",
     "userFacing": false,
@@ -198740,100 +198834,6 @@
       }
     ]
   },
-  "com.mediatek.networkstack.tethering.overlay": {
-    "appName": "TetheringResOverlay",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "TCL",
-        "model": "T951K",
-        "os": "35"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "Unihertz",
-        "model": "Titan 2",
-        "os": "35"
-      }
-    ]
-  },
-  "com.mediatek.networkstack.tethering.googleoverlay": {
-    "appName": "TetheringResOverlay",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g05",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      },
-      {
-        "make": "Xiaomi",
-        "model": "23106RN0DA",
-        "os": "35"
-      },
-      {
-        "make": "OUKITEL",
-        "model": "WP100 TITAN",
-        "os": "34"
-      },
-      {
-        "make": "Nothing",
-        "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "TCL",
-        "model": "T951K",
-        "os": "35"
-      },
-      {
-        "make": "OPPO",
-        "model": "CPH2591",
-        "os": "35"
-      },
-      {
-        "make": "Unihertz",
-        "model": "Titan 2",
-        "os": "35"
-      }
-    ]
-  },
   "com.mtk.google.android.networkstack.tethering.overlay": {
     "appName": "TetheringResOverlay",
     "userFacing": false,
@@ -198965,6 +198965,10 @@
       {
         "locale": "nl-nl",
         "name": "Themapakketten"
+      },
+      {
+        "locale": "en-ca-u-fw-mon-mu-celsius",
+        "name": "CustomizationBundle"
       }
     ],
     "devices": [
@@ -198976,6 +198980,11 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 8",
         "os": "36"
       }
     ]
@@ -199928,6 +199937,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6 Pro",
         "os": "35"
@@ -200001,11 +200015,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -201340,16 +201349,16 @@
         "name": "Словарь пользователя"
       },
       {
+        "locale": "de-at",
+        "name": "Mein Wörterbuch"
+      },
+      {
         "locale": "es-us",
         "name": "Diccionario del usuario"
       },
       {
         "locale": "es-es",
         "name": "Diccionario del usuario"
-      },
-      {
-        "locale": "de-at",
-        "name": "Mein Wörterbuch"
       },
       {
         "locale": "it-it",
@@ -201399,6 +201408,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -201510,11 +201524,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -204580,6 +204589,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -204688,11 +204702,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -205198,12 +205207,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "es-us",
-        "name": "Fondo de pantalla y estilo"
-      },
-      {
         "locale": "de-at",
         "name": "Hintergrund und Stil"
+      },
+      {
+        "locale": "es-us",
+        "name": "Fondo de pantalla y estilo"
       },
       {
         "locale": "en",
@@ -205235,6 +205244,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "sdk_gphone64_x86_64",
@@ -205269,11 +205283,6 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Zebra Technologies",
@@ -206241,16 +206250,16 @@
         "name": "Вырез на экране Waterfall"
       },
       {
+        "locale": "de-at",
+        "name": "Aussparung für Wasserfall-Display"
+      },
+      {
         "locale": "es-us",
         "name": "Corte de cascada"
       },
       {
         "locale": "es-es",
         "name": "Recorte de cascada"
-      },
-      {
-        "locale": "de-at",
-        "name": "Aussparung für Wasserfall-Display"
       },
       {
         "locale": "it-it",
@@ -206299,6 +206308,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -206400,11 +206414,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -207337,6 +207346,23 @@
       }
     ]
   },
+  "com.inmobi.weather": {
+    "appName": "Weather",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g85 5G",
+        "os": "34"
+      }
+    ]
+  },
   "com.hihonor.android.totemweather": {
     "appName": "Weather",
     "userFacing": true,
@@ -207378,23 +207404,6 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
-      }
-    ]
-  },
-  "com.inmobi.weather": {
-    "appName": "Weather",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g85 5G",
-        "os": "34"
       }
     ]
   },
@@ -207535,16 +207544,16 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-at",
+        "name": "Webcam-Dienst"
+      },
+      {
         "locale": "",
         "name": "Webcam service"
       },
       {
         "locale": "es-us",
         "name": "Servicio de cámara web"
-      },
-      {
-        "locale": "de-at",
-        "name": "Webcam-Dienst"
       },
       {
         "locale": "en-de",
@@ -207556,6 +207565,11 @@
       }
     ],
     "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
       {
         "make": "Google",
         "model": "Pixel 6 Pro",
@@ -207585,11 +207599,6 @@
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "Google",
@@ -208869,16 +208878,16 @@
         "name": "Экстренные оповещения по беспроводным сетям"
       },
       {
+        "locale": "de-at",
+        "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
         "locale": "es-us",
         "name": "Alertas de emergencia inalámbricas"
       },
       {
         "locale": "es-es",
         "name": "Alertas de emergencia inalámbricas"
-      },
-      {
-        "locale": "de-at",
-        "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
         "locale": "it-it",
@@ -208931,6 +208940,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -209027,11 +209041,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "HOTWAV",
@@ -209952,16 +209961,16 @@
         "name": "Рабочий профиль"
       },
       {
+        "locale": "de-at",
+        "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
         "locale": "es-us",
         "name": "Configuración de trabajo"
       },
       {
         "locale": "es-es",
         "name": "Configuración de trabajo"
-      },
-      {
-        "locale": "de-at",
-        "name": "Einrichtung des Arbeitsprofils"
       },
       {
         "locale": "it-it",
@@ -210006,6 +210015,11 @@
       {
         "make": "samsung",
         "model": "SM-A266B",
+        "os": "35"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g15",
         "os": "35"
       },
       {
@@ -210117,11 +210131,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -211553,6 +211562,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -211666,11 +211680,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
@@ -212090,6 +212099,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "motorola",
+        "model": "moto g15",
+        "os": "35"
+      },
+      {
         "make": "A-gold",
         "model": "Titan",
         "os": "28"
@@ -212163,11 +212177,6 @@
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
-      },
-      {
-        "make": "motorola",
-        "model": "moto g15",
-        "os": "35"
       },
       {
         "make": "CipherLab",
