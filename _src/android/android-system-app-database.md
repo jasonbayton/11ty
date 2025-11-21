@@ -28,7 +28,7 @@ Below you'll find a table of system apps across various devices. [These devices]
 
 Packages are updated here within a few minutes following a first sync, and daily after. The primary app name is English, however additional app names are provided in _Also known by_ for ease of search. Search is full-text, all-column.
 
-**Currently tracked system apps: <span class="highlight">**{{ packages | length }}**</span>**
+**Currently tracked system apps:** <span class="highlight">**{{ packages | length }}</span> across <span class="highlight" id="oemCount"></span> OEMs.**
 
 <small>
 

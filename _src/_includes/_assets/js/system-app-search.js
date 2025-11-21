@@ -1,9 +1,26 @@
+function uniqueCaseInsensitive(values) {
+  const seen = new Set();
+  for (const v of values) {
+    if (typeof v === 'string') {
+      seen.add(v.toLowerCase());
+    }
+  }
+  return Array.from(seen);
+}
+
 async function buildTable() {
   const tableBody = document.querySelector('#appTable tbody');
   const searchInput = document.getElementById('searchInput');
   const filterMake = document.getElementById('filterMake');
   const filterModel = document.getElementById('filterModel');
   const filterOS = document.getElementById('filterOS');
+
+    // Update the "across N OEMs" badge if present
+  const oemCountSpan = document.getElementById('oemCount');
+  if (oemCountSpan && Array.isArray(window.deviceAppMatrix)) {
+    const oemCount = uniqueCaseInsensitive(window.deviceAppMatrix.map(d => d.make)).length;
+    oemCountSpan.textContent = oemCount;
+  }
 
   // Build rows from window.packages, linking to table elements
   const rows = [];
@@ -143,7 +160,7 @@ async function buildTable() {
         row.alsoKnownBy.toLowerCase().includes(q) ||
           row.userFacing.toLowerCase().includes(q)) &&
         (!selectedMake || row.make.split(',').map(s => s.trim()).includes(selectedMake)) &&
-        (!selectedModel || row.model.split(',').map(s => s.trim()).includes(selectedModel)) &&
+        (!selectedModel || row.model.includes(selectedModel)) &&
         (!selectedOS || row.os.split(',').map(s => s.trim()).includes(selectedOS));
 
       return matches;
