@@ -3,10 +3,14 @@ const deviceMap = {};
 
 for (const [pkg, entry] of Object.entries(packages)) {
   for (const device of entry.devices) {
-    const key = `${device.make}|||${device.model}|||${device.os}`;
+    const normalisedMake = typeof device.make === 'string'
+      ? device.make.toLowerCase()
+      : device.make;
+
+    const key = `${normalisedMake}|||${device.model}|||${device.os}`;
     if (!deviceMap[key]) {
       deviceMap[key] = {
-        make: device.make,
+        make: normalisedMake,
         model: device.model,
         os: device.os,
         apps: []
