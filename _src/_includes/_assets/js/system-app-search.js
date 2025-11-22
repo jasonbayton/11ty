@@ -183,6 +183,70 @@ async function buildTable() {
 
   updateFilters();
   render();
+
+  // Pagination for contributing devices table
+  function initDevicePagination() {
+    const deviceTableBody = document.querySelector('#deviceTable tbody');
+    const devicePagination = document.getElementById('devicePagination');
+    if (!deviceTableBody || !devicePagination) {
+      return;
+    }
+
+    const deviceRows = Array.from(deviceTableBody.rows);
+    const deviceItemsPerPageSelect = document.getElementById('deviceItemsPerPage');
+    let deviceItemsPerPage = deviceItemsPerPageSelect?.value === 'all'
+      ? Infinity
+      : parseInt(deviceItemsPerPageSelect?.value || '20', 10);
+    let deviceCurrentPage = 1;
+
+    function renderDevicePage() {
+      const totalPages = Math.ceil(deviceRows.length / deviceItemsPerPage) || 1;
+
+      deviceRows.forEach((row, index) => {
+        const start = (deviceCurrentPage - 1) * deviceItemsPerPage;
+        const end = start + deviceItemsPerPage;
+        row.style.display = (index >= start && index < end) ? '' : 'none';
+      });
+
+      let html = '';
+      if (totalPages > 1) {
+        html += `<a href="#" data-page="${deviceCurrentPage - 1}" class="${deviceCurrentPage === 1 ? 'disabled' : ''}">&lt;</a>`;
+        for (let i = 1; i <= totalPages; i++) {
+          html += `<a href="#" data-page="${i}" class="${i === deviceCurrentPage ? 'active' : ''}">${i}</a>`;
+        }
+        html += `<a href="#" data-page="${deviceCurrentPage + 1}" class="${deviceCurrentPage === totalPages ? 'disabled' : ''}">&gt;</a>`;
+      }
+
+      devicePagination.innerHTML = html;
+
+      devicePagination.querySelectorAll('a[data-page]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const page = parseInt(btn.dataset.page, 10);
+          const totalPages = Math.ceil(deviceRows.length / deviceItemsPerPage) || 1;
+          if (isNaN(page) || page < 1 || page > totalPages || page === deviceCurrentPage) {
+            return;
+          }
+          deviceCurrentPage = page;
+          renderDevicePage();
+        });
+      });
+    }
+
+    if (deviceItemsPerPageSelect) {
+      deviceItemsPerPageSelect.addEventListener('change', () => {
+        deviceItemsPerPage = deviceItemsPerPageSelect.value === 'all'
+          ? Infinity
+          : parseInt(deviceItemsPerPageSelect.value || '20', 10);
+        deviceCurrentPage = 1;
+        renderDevicePage();
+      });
+    }
+
+    renderDevicePage();
+  }
+
+  initDevicePagination();
 }
 
 buildTable();

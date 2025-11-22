@@ -5,6 +5,7 @@ status: publish
 author: 'Jason Bayton'
 tags: 
     - App management
+    - sysapp-database
 excerpt: ''
 alert: 'This is a brand new service, and will evolve in response to feedback and iterative improvements. Feel free to let me know your thoughts.'
 type: documentation
@@ -131,7 +132,8 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 <div class="pagination-controls">
   <label for="itemsPerPage">Show per page:</label>
   <select id="itemsPerPage">
-    <option value="100" selected>100</option>
+    <option value="50" selected>50</option>
+    <option value="100">100</option>
     <option value="200">200</option>
     <option value="500">500</option>
     <option value="1000">1000</option>
@@ -149,7 +151,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 Unique devices that have contributed system applications to this table: <span class="highlight"> **{{ deviceAppMatrix.length }}** </span>
 
 <div class="responsive-table-wrapper">
-<table id="deviceTable" style="table-layout: fixed; width: 100%; min-width: 400px; border-collapse: border">
+<table id="deviceTable">
 <thead>
 <tr>
   <th>OEM</th>
@@ -169,6 +171,18 @@ Unique devices that have contributed system applications to this table: <span cl
 {% endfor %}
 </tbody>
 </table>
+</div>
+
+<div class="pagination-controls">
+  <label for="deviceItemsPerPage">Show per page:</label>
+  <select id="deviceItemsPerPage">
+    <option value="20" selected>20</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="200">200</option>
+    <option value="all">All</option>
+  </select>
+  <div id="devicePagination" class="pagination"></div>
 </div>
 
 <script src="/js/system-app-search.js"></script>

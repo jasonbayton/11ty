@@ -3,19 +3,25 @@ const deviceMap = {};
 
 for (const [pkg, entry] of Object.entries(packages)) {
   for (const device of entry.devices) {
-    const normalisedMake = typeof device.make === 'string'
+    // Use a lowercased make only for the deduplication key,
+    // but keep the first-seen original casing for display.
+    const keyMake = typeof device.make === 'string'      
       ? device.make.toLowerCase()
       : device.make;
 
-    const key = `${normalisedMake}|||${device.model}|||${device.os}`;
+    const key = `${keyMake}|||${device.model}|||${device.os}`;
+    
     if (!deviceMap[key]) {
+      // First time we see this (make, model, os) combination:
+      // store the original make as captured in packages.json
       deviceMap[key] = {
-        make: normalisedMake,
+        make: device.make,        
         model: device.model,
         os: device.os,
         apps: []
       };
     }
+
     deviceMap[key].apps.push(pkg);
   }
 }
