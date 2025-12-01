@@ -26,9 +26,18 @@ Undertake your own testing accordingly, and feel free to [get in touch](mailto:j
 
 ## Company-owned managed profile and vital apps
 
+<div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">Pixel Screenshots</div>
+
+**Update Dec, 2025:** I've received confirmation from Google that **Pixel Screenshots** is a permanent addition to an otherwise generally bloatware-free Pixel experience, and it is intended & expected to see this unnecessary application pop up in the work profile.
+
+That's a disappointing outcome to a year-long support ticket, that remains open presently for Pixel Studio.
+
+</div>
+
 During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. After the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offering Googles suite of applications, setup completes and apps begin installing & updating.
 
-On update, both **Pixel Studio** and **Pixel Screenshots** find their way into the managed work profile. This is despite neither app being in the PAI list, they appear to update shortly after setup completes, and the act of updating is what triggers their arrival within the work profile.
+On update, both **Pixel Studio** ~~and **Pixel Screenshots**~~ find their way into the managed work profile. This is despite neither app being in the PAI list, they appear to update shortly after setup completes, and the act of updating is what triggers their arrival within the work profile.
 
 Via policy the following also has no effect on the appearance of these apps within the profile:
 
@@ -47,7 +56,7 @@ It's unusual to see apps pop into the profile after provisioning, which suggests
 
 https://www.youtube.com/watch?v=vmrL7WI2OmQ
 
-For further clarity, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour. This confirms to me, it is the act of pushing a new version of the app to devices, as until that happens these apps remain where they belong, in the parent profile.
+For further clarity, updating these apps manually from Google Play after setup, if automatic setup is skipped/stopped for example, will result in the same behaviour. This confirms to me it is the act of pushing a new version of the app to devices, as until that happens these apps remain where they belong, in the parent profile.
 
 ### Workaround
 
