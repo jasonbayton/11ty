@@ -12,9 +12,9 @@ Recent headlines have sparked concern and confusion about a new Android feature 
 
 ## What Android RCS archival actually is
 
-**RCS Archival** is a feature introduced by Google to help organisations meet regulatory requirements (for example: financial, legal, and government sectors).
+RCS Archival is a feature introduced by Google to help organisations meet regulatory requirements (for example: financial, legal, and government sectors).
 
-Modern messaging creates a compliance challenge. SMS could historically be archived via carriers, but RCS (the upgraded texting standard used by Google Messages amongst others) is **end-to-end encrypted**, which means organisations cannot simply rely on carrier logs or network-level capture.
+Modern messaging creates a compliance challenge. SMS could historically be archived via carriers, but RCS (the upgraded texting standard used by Google Messages amongst others) is end-to-end encrypted, which means organisations cannot simply rely on carrier logs or network-level capture.
 
 From Google’s official announcement:
 
@@ -48,7 +48,7 @@ Google’s documentation makes this explicit:
 > “This feature works for Google Messages on fully-managed Android devices.”  
 > — [Google Support](https://support.google.com/work/android/answer/13761869)
 
-Even if an organisation wants to archive messages, **they cannot do it on your personal phone**. It is simply not possible for this feature to activate anywhere except on fully managed devices.
+Even if an organisation wants to archive messages, **they cannot do it on your personal device**. It is simply not possible for this feature to function anywhere except on fully managed devices.
 
 ## Not enabled by default
 
@@ -81,8 +81,8 @@ A crucial part of this design is user visibility.
 Meaning:
 
 * You **cannot** be silently monitored.
-* If the feature is active, you will **see a persistent notification** in Google Messages.
-* Once you see that banner, you know every message in Google Messages is being archived.
+* If the feature is active, you will **see a notification** in Google Messages.
+* Once you see that warning, you know every message in Google Messages is being archived.
 
 This ensures the feature cannot be used clandestinely. It's intentionally transparent.
 
@@ -175,6 +175,6 @@ Google summarises its purpose best:
 > “RCS Archival helps organisations meet strict compliance needs while maintaining the advanced security features of Google Messages.”  
 > — Google Android Enterprise Blog
 
-# Unconvinced?
+# Still unconvinced?
 
 [Get in touch](/contact), and I'll provide a demo with my own archival app, [MANAGED ARCHIVER](/projects/managed-archiver). You'll be able to see not only what happens on-device, but on the server-side, also.
