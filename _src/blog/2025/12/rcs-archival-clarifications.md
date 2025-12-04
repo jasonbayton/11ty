@@ -8,7 +8,7 @@ type: post
 tags:
   - Enterprise
 ---
-Recent headlines have sparked concern and confusion about a new Android feature that supposedly lets your boss read all your text messages. Sensational claims like “Google starts sharing all your text messages with your employer” have understandably raised privacy concerns. In reality, Android RCS Archival is a tightly scoped enterprise feature designed for regulatory compliance - not a free-for-all licence for employers to snoop on any phone. This post will clarify what RCS Archival actually is, how it works, and debunk the common misconceptions.
+Recent headlines have sparked concern and confusion about a new Android feature that supposedly "lets your boss read all your text messages". Sensational claims like “Google starts sharing all your text messages with your employer” have understandably raised privacy concerns. In reality, Android RCS Archival is a tightly scoped enterprise feature designed for regulatory compliance - not a free-for-all licence for employers to snoop on any phone. This post will clarify what RCS Archival actually is, how it works, and debunk the common misconceptions.
 
 ## What Android RCS archival actually is
 
@@ -52,7 +52,7 @@ Even if an organisation wants to archive messages, **they cannot do it on your p
 
 ## Not enabled by default
 
-Android RCS Archival is **opt-in**, not automatic.
+Android's RCS Archival is **opt-in** for an organisation, not automatic.
 
 To activate it, an IT administrator must:
 
@@ -69,7 +69,7 @@ From Google:
 
 There is no “silent switch” Google can flip globally.
 There is no mass rollout to all users.
-There is no automatic activation for all Pixels (or other Android Enterprise devices as support rolls out)
+There is no automatic activation for all Pixels (or other Android Enterprise devices as support rolls out).
 
 ## Transparent to employees
 
@@ -81,7 +81,7 @@ A crucial part of this design is user visibility.
 Meaning:
 
 * You **cannot** be silently monitored.
-* If the feature is active, you will **see a notification** in Google Messages.
+* If the feature is active, you will **see a prompt** in Google Messages.
 * Once you see that warning, you know every message in Google Messages is being archived.
 
 This ensures the feature cannot be used clandestinely. It's intentionally transparent.
@@ -90,12 +90,11 @@ This ensures the feature cannot be used clandestinely. It's intentionally transp
 
 ## Encryption remains intact
 
-One of the more misleading claims circulating was that RCS Archival “breaks” end-to-end encryption.
+One of the more misleading claims circulating is that RCS Archival “breaks” end-to-end encryption.
 
 It doesn’t.
 
-RCS encryption protects messages **in transit**.  
-Archiving happens on the device **after** the message is decrypted for display.
+RCS encryption protects messages **in transit**. Archiving happens on the device **after** the message is decrypted for display.
 
 This is exactly the same model used by:
 
@@ -143,7 +142,7 @@ If you’re using your personal phone:
 
 * **Nothing changes.**
 * Your employer cannot access your messages.
-* The feature doesn’t even function on personal devices.
+* The feature doesn’t function on personal devices.
 
 This entire capability is irrelevant to personal Android users.
 
@@ -167,8 +166,7 @@ And your users are transparently informed when it’s active.
 
 Despite dramatic headlines, Android’s RCS Archival feature is **not a privacy invasion**, **not automatically enabled**, and **not applicable to personal phones**. It aligns with what should be typically expected of a company device - actions may be monitored, data may be recorded.
 
-If your organisation issues fully managed Android devices, you can now archive RCS/SMS securely and compliantly.  
-If you’re an employee using your own phone – relax. This does not affect you, and your boss cannot read your messages.
+If your organisation issues fully managed Android devices, you can now archive RCS/SMS securely and compliantly. If you’re an employee using your own phone, relax. This does not affect you, and your boss cannot read your messages.
 
 Google summarises its purpose best:
 
