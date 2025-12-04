@@ -18,7 +18,7 @@ Modern messaging creates a compliance challenge. SMS could historically be archi
 
 From Google’s official announcement:
 
-> “This new capability allows organisations to seamlessly capture the records required to stay compliant.”  
+> “This new capability, available on Google Pixel and other compatible Android Enterprise devices gives your employees all the benefits of RCS — like typing indicators, read receipts, and end-to-end encryption between Android devices — while ensuring your organization meets its regulatory requirements”  
 > — [Google Android Enterprise Blog](https://blog.google/products/android-enterprise/rcs-archival/)
 
 How it works:
@@ -64,7 +64,7 @@ If they do not do all three, **archival does not occur**.
 
 From Google:
 
-> “IT administrators can enable RCS Archival through a simple managed configuration, with full control over which devices have the feature turned on.”  
+> “IT administrators can enable RCS Archival through a simple configuration. You have full control to decide which devices have the feature turned on and which archival application you deploy for your organization.”  
 > — Google Android Enterprise Blog
 
 There is no “silent switch” Google can flip globally.
@@ -172,7 +172,7 @@ If you’re an employee using your own phone – relax. This does not affect you
 
 Google summarises its purpose best:
 
-> “RCS Archival helps organisations meet strict compliance needs while maintaining the advanced security features of Google Messages.”  
+> “[RCS Archival] helps your organization meet strict compliance needs while using the advanced security of Google Messages.”  
 > — Google Android Enterprise Blog
 
 # Still unconvinced?
