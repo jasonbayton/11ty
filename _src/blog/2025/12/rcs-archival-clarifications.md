@@ -1,6 +1,6 @@
 ---
 title: "RCS archival and you: clearing up the misconceptions"
-date: '2025-12-04'
+date: '2025-12-05'
 status: publish
 author: 'Jason Bayton'
 excerpt: "Crazy to think, but Google are *not* suddenly and fundamentally reversing their stance on privacy?!"
