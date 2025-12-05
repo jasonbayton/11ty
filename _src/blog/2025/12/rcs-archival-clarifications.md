@@ -1,5 +1,5 @@
 ---
-title: "RCS archival and you: clearing up the misconceptions"
+title: "RCS Archival and you: clearing up the misconceptions"
 date: '2025-12-05'
 status: publish
 author: 'Jason Bayton'
@@ -10,7 +10,7 @@ tags:
 ---
 Recent headlines have sparked concern and confusion about a new Android feature that supposedly "lets your boss read all your text messages". Sensational claims like “Google starts sharing all your text messages with your employer” have understandably raised privacy concerns. In reality, Android RCS Archival is a tightly scoped enterprise feature designed for regulatory compliance - not a free-for-all licence for employers to snoop on any phone. This post will clarify what RCS Archival actually is, how it works, and debunk the common misconceptions.
 
-## What Android RCS archival actually is
+## What Android RCS Archival actually is
 
 RCS Archival is a feature introduced by Google to help organisations meet regulatory requirements (for example: financial, legal, and government sectors).
 
@@ -118,7 +118,7 @@ It does *not* affect:
 * Facebook Messenger
 * Any other third-party messaging app
 
-Those apps retain their own security models, separate from Android’s enterprise capabilities. Will similar archival solutions become possible with these applications (or any others) in future? Possibly.. but today's RCS archival offered by Google is app-level and limited only to Google Messages.
+Those apps retain their own security models, separate from Android’s enterprise capabilities. Will similar archival solutions become possible with these applications (or any others) in future? Possibly.. but today's RCS Archival offered by Google is app-level and limited only to Google Messages.
 
 ## Myths vs facts
 
@@ -173,6 +173,6 @@ Google summarises its purpose best:
 > “[RCS Archival] helps your organization meet strict compliance needs while using the advanced security of Google Messages.”  
 > — Google Android Enterprise Blog
 
-# Still unconvinced?
+## Still unconvinced?
 
 [Get in touch](/contact), and I'll provide a demo with my own archival app, [MANAGED ARCHIVER](/projects/managed-archiver). You'll be able to see not only what happens on-device, but on the server-side, also.
