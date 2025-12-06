@@ -35,7 +35,7 @@ This cannot be stressed enough:
 
 **RCS Archival does not work on personal devices.  
 It does not work on BYOD devices.  
-It does not work on Work Profile setups.**
+It does not work on Work Profile setups (both BYOD and work profiles on company-owned devices (COPE)).**
 
 It only applies to devices that are:
 
