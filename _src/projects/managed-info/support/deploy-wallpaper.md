@@ -29,6 +29,19 @@ Your AMAPI policy should:
 2. Avoid policy‑level restrictions that block wallpaper modification.
 3. Include the wallpaper configuration in `managedConfiguration` directly in the policy.
 
+## Deploy through your EMM UI
+
+- First, import MANAGED INFO via Google Play. 
+- Depending on the EMM vendor in use, the step to editing and the app and/or creating a managed configuration can differ - refer to EMM documentation for help.
+- When the managed configuration is loaded/present, look for **Kiosk settings**.
+- Within **Kiosk settings**, locate **Custom device wallpaper**.
+- Input a URL to an image accessible to MANAGED INFO. This can be on the local network, or hosted somewhere like Unsplash.
+- Save and close, the app will automatically apply the wallpaper once it has downloaded and processed it. This can take a few minutes.
+
+**Note**: MANAGED INFO must have been opened on a device at least once in order for the wallpaper manager to function. This is a limitation of Android. Check your EMM vendor documentation for options.
+
+## JSON & lower-level config
+
 A minimal example policy with a managed configuration placeholder:
 
 ```json
