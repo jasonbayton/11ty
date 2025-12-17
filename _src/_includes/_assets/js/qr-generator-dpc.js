@@ -1,24 +1,20 @@
-// Pre-configured DPC entries
-const preConfiguredDPCs = {
-    "omnissa_hub": {
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.airwatch.androidagent/com.airwatch.agent.DeviceAdministratorReceiver",
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "6kyqxDOjgS30jvQuzh4uvHPk-0bmAD-1QU7vtW7i_o8",
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://getwsone.com/mobileenrollment/airwatchagent.apk"
-    },
-    "google_dpc": {
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.google.android.apps.work.clouddpc/.receivers.CloudDeviceAdminReceiver",
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "I5YvS0O5hXY46mb01BlRjq4oJJGs2kuUcHvVkAPEXlg",
-        "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://play.google.com/managed/downloadManagingApp?identifier=setup"
-    }
+const dpcData = (typeof window !== 'undefined' && window.DPC_DATA) ? window.DPC_DATA : null;
+const preConfiguredDPCs = (dpcData && dpcData.preConfiguredDPCs) ? dpcData.preConfiguredDPCs : {};
+const vendorProfiles = (dpcData && dpcData.vendorProfiles) ? dpcData.vendorProfiles : {};
+
+const resolveSelectedVendorToPayload = (vendorKey) => {
+    const profile = vendorProfiles[vendorKey];
+    const dpcKey = profile && profile.dpcKey ? profile.dpcKey : vendorKey;
+    return preConfiguredDPCs[dpcKey] || null;
 };
 
-// Function to populate the form based on selected DPC
-const populateFormFromDPC = (dpcKey) => {
-    const selectedDPC = preConfiguredDPCs[dpcKey];
-    if (!selectedDPC) return;
+// Function to populate the form based on selected EMM vendor (or direct DPC key)
+const populateFormFromDPC = (vendorKey) => {
+    const selectedPayload = resolveSelectedVendorToPayload(vendorKey);
+    if (!selectedPayload) return;
 
     // Populate the fields
-    Object.entries(selectedDPC).forEach(([key, value]) => {
+    Object.entries(selectedPayload).forEach(([key, value]) => {
         const field = document.querySelector(`[data-qr-key="${key}"]`);
         if (field) {
             field.value = value;
@@ -30,16 +26,15 @@ const populateFormFromDPC = (dpcKey) => {
 const dpcSelectorElement = document.getElementById('dpc_selector');
 if (dpcSelectorElement) {
     dpcSelectorElement.addEventListener('change', (event) => {
-        const selectedDPC = event.target.value;
-        populateFormFromDPC(selectedDPC);
-    });
+    const selectedVendor = event.target.value;
+    populateFormFromDPC(selectedVendor);
+});
 } else {
     console.warn("Element #dpc_selector not found in the DOM.");
 }
 
-const qrBuilder = () => {
+const collectProvisioningData = () => {
     const qrElements = document.querySelectorAll('[data-qr-key]');
-
     let qrData = {}; // Start with an empty object
 
     // Get the error message element
@@ -48,7 +43,7 @@ const qrBuilder = () => {
         errorMessageElement.innerText = ''; // Clear previous error messages
     }
 
-    let invalidInputDetected = false; // Flag to prevent QR generation if errors are found
+    let invalidInputDetected = false; // Flag to prevent output generation if errors are found
 
     // Collect data from input elements
     qrElements.forEach((el) => {
@@ -60,24 +55,24 @@ const qrBuilder = () => {
             if (el.checked) {
                 qrData[key] = el.checked;
             }
-        } 
-        
+        }
+
         // Textarea Handling (PROVISIONING_ADMIN_EXTRAS_BUNDLE)
         else if (el.tagName === 'TEXTAREA') {
             value = el.value.trim();
-            
+
             if (value === "") {
                 // Do not add the key if empty
                 return;
             }
-        
+
             try {
                 const cleanedValue = value
-                    .replace(/(\r\n|\n|\r)/gm, '') 
-                    .replace(/^\{|\}$/g, '');       
-                    
+                    .replace(/(\r\n|\n|\r)/gm, '')
+                    .replace(/^\{|\}$/g, '');
+
                 const parsedValue = JSON.parse(`{${cleanedValue}}`);
-                
+
                 // Only assign if the parsed value has content
                 if (Object.keys(parsedValue).length > 0) {
                     qrData[key] = parsedValue;
@@ -89,8 +84,8 @@ const qrBuilder = () => {
                 }
                 invalidInputDetected = true;
             }
-        } 
-        
+        }
+
         // Standard Input Fields
         else {
             value = el.value.trim();
@@ -102,22 +97,70 @@ const qrBuilder = () => {
 
     // Prevent QR generation if any invalid input was detected
     if (invalidInputDetected) {
-        console.error("QR code generation halted due to errors.");
-        return;
+        console.error("Output generation halted due to errors.");
+        return { qrData: null, errorMessageElement, invalidInputDetected: true };
     }
 
-    const qrDataString = JSON.stringify(qrData, null, 2);
-    const dataLength = qrDataString.length;
+    return { qrData, errorMessageElement, invalidInputDetected: false };
+};
 
-    // Display the generated JSON (for validation)
+const renderGeneratedJson = (qrData) => {
+    const qrDataString = JSON.stringify(qrData, null, 2);
     document.getElementById('json_code').innerHTML = `<b>Generated JSON</b><pre class="language-json"><code class="language-json">${qrDataString}</code></pre>`;
+    return qrDataString;
+};
+
+const escapeNfcValue = (value) => {
+    // NFC provisioning format expects escaping for characters like ':' and '=' within values.
+    // Also escape backslashes first to avoid double-escaping.
+    return String(value)
+        .replace(/\\/g, '\\\\')
+        .replace(/:/g, '\\:')
+        .replace(/=/g, '\\=')
+        .replace(/(\r\n|\n|\r)/gm, '');
+};
+
+const buildNfcPayload = (qrData) => {
+    // Flatten top-level keys to key=value lines. If a value is an object (e.g., extras bundle), JSON stringify it.
+    const lines = [];
+    Object.entries(qrData).forEach(([key, value]) => {
+        if (value === undefined || value === null) return;
+
+        let outValue = value;
+        if (typeof value === 'object') {
+            outValue = JSON.stringify(value);
+        }
+
+        lines.push(`${key}=${escapeNfcValue(outValue)}`);
+    });
+
+    return lines.join('\n');
+};
+
+const showNfcOutput = (nfcText) => {
+    const nfcContainer = document.getElementById('nfc_code');
+    const nfcTextEl = document.getElementById('nfc_code_text');
+
+    if (!nfcContainer || !nfcTextEl) return;
+
+    nfcTextEl.textContent = nfcText;
+    nfcContainer.style.display = 'block';
+};
+
+const qrBuilder = () => {
+    const { qrData, errorMessageElement, invalidInputDetected } = collectProvisioningData();
+    if (invalidInputDetected || !qrData) return;
+
+    // Always render generated JSON for validation
+    const qrDataString = renderGeneratedJson(qrData);
+    const dataLength = qrDataString.length;
 
     // Adjust QR code scale and error correction level based on data size
     let scale;
     let errorCorrectionLevel;
     if (dataLength > 2600) {
         scale = 10;
-        errorCorrectionLevel = 'L'; 
+        errorCorrectionLevel = 'L';
     } else if (dataLength > 2000) {
         scale = 6;
         errorCorrectionLevel = 'M';
@@ -162,6 +205,17 @@ const qrBuilder = () => {
     );
 };
 
+const nfcBuilder = () => {
+    const { qrData, invalidInputDetected } = collectProvisioningData();
+    if (invalidInputDetected || !qrData) return;
+
+    // Render generated JSON for validation
+    renderGeneratedJson(qrData);
+
+    const nfcText = buildNfcPayload(qrData);
+    showNfcOutput(nfcText);
+};
+
 // Function to support nested JSON object handling
 function setNestedObject(obj, path, value) {
     let schema = obj;
@@ -175,8 +229,12 @@ function setNestedObject(obj, path, value) {
     schema[pList[len - 1]] = value;
 }
 
-// Attach the event listener to the button
+// Attach the event listeners to the buttons
+// Single Generate button should build both QR (JSON payload) and NFC output.
 const generateButton = document.getElementById('generate_code');
 if (generateButton) {
-    generateButton.addEventListener('click', qrBuilder);
+    generateButton.addEventListener('click', () => {
+        qrBuilder();
+        nfcBuilder();
+    });
 }

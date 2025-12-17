@@ -68,17 +68,47 @@
                         <br>
                         <br>
 
-                        <!--div class="callout callout-blue">
+                        <div class="">
                             <div class="field-title">
-                                <label for="dpc_selector">Select Pre-Configured DPC</label>
+                                <label for="dpc_selector">Select existing EMM vendor to pre-fill fields</label>
                             </div>
+
                             <select id="dpc_selector" class="input-text input-dropdown">
-                                <option value="">-- Select a DPC --</option>
-                                <option value="omnissa_hub">Omnissa Hub</option>
-                                <option value="google_dpc">Android Device Policy</option>
+                                <option value="">-- Select --</option>
+
+                                {% if dpc_data and dpc_data.vendorProfiles %}
+                                    {% set amapi = [] %}
+                                    {% set custom = [] %}
+
+                                    {% for key, profile in dpc_data.vendorProfiles %}
+                                        {% if profile.group == 'AMAPI' %}
+                                            {% set amapi = amapi.concat([{ key: key, label: profile.label }]) %}
+                                        {% else %}
+                                            {% set custom = custom.concat([{ key: key, label: profile.label }]) %}
+                                        {% endif %}
+                                    {% endfor %}
+
+                                    {% if amapi.length %}
+                                        <optgroup label="AMAPI (Android Device Policy)">
+                                            {% for item in amapi | sort(false, false, 'label') %}
+                                                <option value="{{ item.key }}">{{ item.label }}</option>
+                                            {% endfor %}
+                                        </optgroup>
+                                    {% endif %}
+
+                                    {% if custom.length %}
+                                        <optgroup label="Custom DPC">
+                                            {% for item in custom | sort(false, false, 'label') %}
+                                                <option value="{{ item.key }}">{{ item.label }}</option>
+                                            {% endfor %}
+                                        </optgroup>
+                                    {% endif %}
+                                {% endif %}
                             </select>
-                        </div-->
-                        
+                        </div>
+
+                        <hr width="60%" class="margin-top-50 margin-bottom-20">
+
                         <div id="component_name" class="field-qr">
                             <div class="field-title">
                                 <label for="token_field">Component name</label>
@@ -115,7 +145,7 @@
                             </details>
                         </div>
                     </div>
-                </div> 
+                </div>
 
                 <!-- Insert token
                         "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
@@ -139,7 +169,7 @@
                             {% renderFile "_src/_includes/_parts/generator/dpc-extras.md" %}
                         </details>
                     </div>
-                </div> 
+                </div>
 
                 <!-- Configure options
                         "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true/false,
@@ -210,7 +240,7 @@
                 </div>
 
                 <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
-                    <div class="provisioning-options-left field">                
+                    <div class="provisioning-options-left field">
                         <div id="set_locale" class="field-qr">
                             <div class="field-title">
                                 <label for="setlocale_field">Set locale</label> (<a href="https://www.localeplanet.com/icu/" target="_blank">Ref</a>)
@@ -422,7 +452,7 @@
                 <div id="error_message" class="text-align-right text-red"></div>
 
                 <h4 class="post-title post-archive">
-                    <a class="button" id="generate_code">Generate QR</a><br>
+                    <a class="button" id="generate_code">Generate</a><br>
                 </h4>
 
                 <canvas class="post-block" id="generated_qr">
@@ -430,10 +460,15 @@
 
                 <div class="post-block" id="download_qr">
                 </div>
-                 
+
                 <div class="post-block" id="json_code">
                 </div>
-                
+
+                <div class="post-block" id="nfc_code" style="display:none;">
+                    <b>NFC output</b> <span class="label label-orange">BETA</span>
+                    <pre class="language-text"><code class="language-text" id="nfc_code_text"></code></pre>
+                </div>
+
                 <div class="changelog-qr-generator">
                     {% include "./_parts/gitlog.njk" %}
                 </div>
@@ -444,6 +479,12 @@
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
+
+            <script>
+                // Expose Eleventy DPC data (payloads + vendor profiles) to browser JS
+                window.DPC_DATA = {{ dpc_data | dump | safe }};
+            </script>
+
             <script src="/js/qrcode.js"></script>
             <script src="/js/qr-generator-dpc.js"></script>
         </footer>
