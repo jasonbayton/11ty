@@ -1,5 +1,5 @@
 ---
-title: "Weaponising Safety: Google Play Protect is the new DPC Gatekeeper"
+title: "Weaponising safety: Google Play Protect is now the custom DPC gatekeeper"
 date: '2025-12-19'
 status: publish
 author: 'Jason Bayton'
