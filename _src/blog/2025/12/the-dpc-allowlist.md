@@ -17,7 +17,7 @@ Google's changes, which went live earlier this year, involve a new "Approved And
 
 The premise is simple: Only DPCs verified and approved by Android Enterprise are now permitted during the Android Enterprise provisioning process. If your DPC isn't on the list, the enrolment can fail with a rather ominous message: "Harmful app blocked".
 
-![Harmful app?](https://cdn.bayton.org/uploads/2025/dpc-allowlist/Screenshot_20251219-184809.png)
+<img width="500px" src="https://cdn.bayton.org/uploads/2025/dpc-allowlist/Screenshot_20251219-184809.png">
 
 On the surface, Google’s justification appears to be the typical "security and privacy" refrain. A DPC holds considerable power over an end-user device and could result in some rather unsavoury predicaments if a user could be convinced to factory reset their device, initiate provisioning, and enrol into a potential attackers' solution... But as is often the case with these top-down mandates, the "security" label is being used to justify a level of centralised control that feels increasingly stifling for the ecosystem.
 
