@@ -1,4 +1,4 @@
-DPC options allow for the configuration of a **chosen** Device Policy Controller. Unlike the AMAPI generator where these options are hidden (as they're preconfigured, and hard-coded), for custom DPC enrolments these fields must match that required by your EMM. More details:
+DPC options allow for the configuration of a chosen Device Policy Controller. Unlike the AMAPI generator where these options are hidden (as they're preconfigured, and hard-coded), for custom DPC enrolments these fields must match that required by your EMM. More details:
 
 `android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME`
     : The component name of the **Admin Receiver** registered within the DPC you'd like to use. This isn't simply a package name, but a component within. MobileIron's, for example, is `com.mobileiron/com.mobileiron.receiver.MIDeviceAdmin`. If you're unsure of this you can either decompile the DPC APK (which may not be permitted, FYI) or reach out to your EMM vendor for assistance. If you already have devices enrolled, the receiver can be fetched from a [bug report](/android/how-to-capture-device-logs/), also.
