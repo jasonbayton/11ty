@@ -111,7 +111,7 @@ If you're going to navigate it, here are the hoops; steps that should be unneces
 
 _If you’re blocked mid-provisioning, tell admins and users plainly that the warning is about allowlisting, not malware, and point out the option for them to continue the install if present in the Play Protect warning._
 
-## A Call for transparency and over-communication
+## A call for transparency and over-communication
 
 Standardisation is a good thing. I’ve spent years advocating for the **Android Management API (AMAPI)** and a more consistent experience across OEMs. But standardisation should not be achieved like this.
 
