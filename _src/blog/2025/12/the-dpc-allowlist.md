@@ -1,6 +1,6 @@
 ---
-title: "Weaponising safety: Google Play Protect is now the custom DPC gatekeeper"
-date: '2025-12-19'
+title: "Google Play Protect is now the custom DPC gatekeeper"
+date: '2025-12-21'
 status: publish
 author: 'Jason Bayton'
 excerpt: "This is a significant shift in how Android Enterprise operates, and the quiet nature of the rollout is arguably as damaging as the technical change itself."
