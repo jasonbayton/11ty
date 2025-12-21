@@ -28,7 +28,7 @@ The premise is simple: Only DPCs verified and approved by Android Enterprise are
 
 <img width="500px" src="https://cdn.bayton.org/uploads/2025/dpc-allowlist/Screenshot_20251219-184809.png">
 
-On the surface, Google’s justification appears to be the typical "security and privacy" refrain. A DPC holds considerable power over an end-user device and could result in some rather unsavoury predicaments if a user could be convinced to factory reset their device, initiate provisioning, and enrol into a potential attackers' solution... But as is often the case with these top-down mandates, the "security" label is being used to justify a level of centralised control that feels increasingly stifling for the ecosystem.
+On the surface, Google’s justification appears to be the typical "security and privacy" refrain. A DPC holds considerable power over an end-user device and could result in some rather unsavoury predicaments if a user could be convinced to factory reset their device, initiate provisioning, and enrol into a potential attacker's solution... But as is often the case with these top-down mandates, the "security" label is being used to justify a level of centralised control that feels increasingly stifling for the ecosystem.
 
 What this results in is perhaps the most significant change to how a DPC operates since the introduction of Android Enterprise, in Android Lollipop (5.0).
 
@@ -46,7 +46,7 @@ In parallel to this more recently (well, 2019), Google introduced the Android Ma
 
 AMAPI in turn has become more and more restrictive on who uses it and how; their permissible usage page has grown more complex and limited as time has progressed, most recently completely blocking new vendors from even touching the API without Google's approval of a vendor's business case, and then limiting the number of devices permitted to enrol without continued and repetitive applications for increased quotas. It's becoming quite a restrictive, overly-moderated experience.
 
-As Google tightens the screws on AMAPI access, the custom DPC route has become a more appealing option. I can speak to several vendors I've worked with previously denied access to AMAPI who have turned to custom DPC, for example. For many use cases access to Google Play for app/account management isn't all that critical and achieves the goals in mind. Google's approval framework might suggest if a vendor can't get approval for AMAPI, they must automatically be doing something untoward, but given the permissible uses are limited and target some of the most popular use cases for restricted access - financing, device as a service (Daas), and in-house solutions - that suggestion would be plainly wrong.
+As Google tightens the screws on AMAPI access, the custom DPC route has become a more appealing option. I can speak to several vendors I've worked with previously denied access to AMAPI who have turned to custom DPC, for example. For many use cases access to Google Play for app/account management isn't all that critical and achieves the goals in mind. Google's approval framework might suggest if a vendor can't get approval for AMAPI, they must automatically be doing something untoward, but given the permissible uses are limited and target some of the most popular use cases for restricted access - financing, device as a service (DaaS), and in-house solutions - that suggestion would be plainly wrong.
 
 In any case, the move to start restricting custom DPCs could have been anticipated, though I'm not sure many (including me) did so. While I agree policing of the custom DPC market is beneficial (I'm sure _some_ fall for the mandate to wipe and enrol their devices into a malicious solution, I've seen worse), the way Google has gone about it leaves a terrible taste in my mouth.
 
@@ -82,7 +82,7 @@ This lack of communication feels tone-deaf. It ignores the reality of countless 
 
 Google Play Protect was introduced as the world’s most widely deployed mobile threat protection service. Its job is to find malware, identify potentially harmful applications (PHAs), and keep users safe from actual threats, but here Google is using Play Protect as the gatekeeper, and by folding the "Approved DPC" list into Play Protect’s enforcement engine, Google has turned a tool designed for protection into a weapon of enforcement of Google's will. 
 
-There's obviously a distinction between GPP flagging on sensitive permissions, which is valid and I take no issue with, versus GPP running off an arbitrary list of package names someone within Google has put into a list. The latter is mind-boggling to me.
+There's obviously a distinction between GPP flagging on sensitive permissions, which is valid and I take no issue with, versus GPP running off an arbitrary list of package names a team within Google has to maintain. The latter is mind-boggling to me.
 
 The weaponisation of a tool many in the ecosystem have applauded as a beacon of Android security means when a user or an IT admin attempts to enrol a device using a DPC that isn't on Google's allowlist, Play Protect intervenes. 
 
@@ -96,7 +96,7 @@ With this allowlist, the days of building a custom DPC for anything but what Goo
 
 By introducing this barrier, Google is having a very real impact on innovation and accessibility; the "guilty until proven innocent" approach blocking unverified DPCs by default during provisioning shows Google is treating any independent developer as a potential threat. This doesn't just stop "rogue" apps; it stops legitimate, innovative solutions that haven't been given Google's approval.
 
-Again, I'm not against protection for users in the ecosystem. I find it however baffling with all the signals Play Protect gets from a device, with all of the ecosystem data Google consumes across billions of Android devices, all of the pattern recognition, user feedback, _all of this noise_ Google has chosen to forego every ounce of technology they use powering Android's industry-leading security.. for a list. Implemented with little to no consideration for the ramifications to businesses and communities.
+Again, I'm not against protection for users in the ecosystem. I find it, however, baffling with all the signals Play Protect gets from a device, with all of the ecosystem data Google consumes across billions of Android devices, all of the pattern recognition, user feedback, _all of this noise_ Google has chosen to forego every ounce of technology they use powering Android's industry-leading security.. for a list. Implemented with little to no consideration for the ramifications to businesses and communities.
 
 ## What you can do if you're affected
 
