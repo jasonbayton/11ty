@@ -1,5 +1,5 @@
 ---
-title: "The AE requests of Christmas (2025 Edition)"
+title: "The 12 AE requests of Christmas (2025 Edition)"
 date: '2025-12-21'
 status: publish
 author: 'Jason Bayton'
