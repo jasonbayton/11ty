@@ -9,7 +9,7 @@ tags:
   - Enterprise
 ---
 
-<div class="callout callout-blue">
+<div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">My DPC has been blocked by Google Play Protect</div>
 
 For anyone landing here after searching for answers as to why you're seeing unsettling Play Protect warnings for safe, compliant apps, read [this help article](https://support.google.com/work/android/answer/16694822) and submit an appeal. 
