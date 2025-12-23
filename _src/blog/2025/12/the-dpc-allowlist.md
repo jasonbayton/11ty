@@ -75,6 +75,7 @@ Google made the change earlier this year and no one outside of existing partners
 - [Is there any way to disable Google Play Protect (GPP) during QR code enrollment?](https://www.androidenterprise.community/discussions/conversations/is-there-any-way-to-disable-google-play-protect-gpp-during-qr-code-enrollment-to/13952)
 - [Play Protect is blocking our DPC app — appeal already submitted, looking for guidance](https://www.androidenterprise.community/discussions/conversations/play-protect-is-blocking-our-dpc-app-%e2%80%94-appeal-already-submitted-looking-for-guid/14046)
 - [Google Play Protect’s new policy for custom DPC](https://www.androidenterprise.community/discussions/conversations/google-play-protects-new-policy-for-custom-dpc/13852)
+- [Issue with Android Enterprise provisioning](https://www.androidenterprise.community/discussions/conversations/issue-with-android-enterprise-provisioning-afwidentifier-invalid-and-play-protec/14105)
 
 This lack of communication feels tone-deaf. It ignores the reality of countless developers who have built livelihoods on the open nature of Android, only to be thrown face-first into an arbitrary wall.
 
