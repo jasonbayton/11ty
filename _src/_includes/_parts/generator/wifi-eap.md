@@ -1,7 +1,7 @@
 When using EAP for Wi-Fi security, you can configure the following:
 
 **EAP Method**
-: Choose from PEAP, TLS, TTLS, PWD, SIM, AKA, or AKA'.
+: Choose from PEAP, TLS, TTLS, PWD, SIM, or AKA.
 
 **Phase 2 Authentication**
 : Secondary authentication options (None, PAP, CHAP, MSCHAP, MSCHAPv2).
@@ -21,4 +21,4 @@ When using EAP for Wi-Fi security, you can configure the following:
 **Wi-Fi User Certificate**
 : The user certificate (also provided in Base64-encoded format) is required for TLS-based authentication methods like EAP-TLS. This certificate is used for mutual authentication where both the server and the client must authenticate each other.
 
-Please be aware these fields, particularly certificates, will add a considerable amount of data to the QR code. The larger the QR, the less reliable and more difficult it can be to scan.
+Please be aware these fields, particularly certificates, will add a considerable amount of data to the QR code. The larger the payload, the less reliable and more difficult it can be to use.

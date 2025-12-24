@@ -22,12 +22,12 @@ To use them, follow the setup wizard on the Android device until a Google accoun
 <div id="dpc_extras">
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/mobileiron_71819.png">
-    <b>MobileIron Core</b>  
+    <b>Ivanti - MobileIron Core</b>  
     afw#mobileiron.core
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/mobileiron_71819.png">
-    <b>MobileIron Cloud</b>  
+    <b>Ivanti - MobileIron Cloud</b>  
     afw#mobileiron.cloud
   </div>
   <div class="dpc-vendor">
@@ -47,7 +47,7 @@ To use them, follow the setup wizard on the Android device until a Google accoun
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/ws1uemicon.jpg">
-    <b>VMware WS1 UEM</b>  
+    <b>Omnissa WS1 UEM</b>  
     afw#hub
   </div>
   <div class="dpc-vendor">
@@ -62,7 +62,7 @@ To use them, follow the setup wizard on the Android device until a Google accoun
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/mobileiron_71819.png">
-    <b>MobileIron Core Telekom</b>  
+    <b>Ivanti - MobileIron Core Telekom</b>  
     afw#telekom.mi  
   </div>
   <div class="dpc-vendor">
@@ -182,12 +182,12 @@ To use them, follow the setup wizard on the Android device until a Google accoun
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/mobileiron_71819.png">
-    <b>MobileIron Cloud AtWork</b>  
+    <b>Ivanti - MobileIron Cloud AtWork</b>  
     afw#mobileiron.atwork
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/ws1uemicon.jpg">
-    <b>VMware Workspace One</b>  
+    <b>Omnissa Workspace One</b>  
     afw#workspaceone
   </div>
   <div class="dpc-vendor">

@@ -57,7 +57,7 @@ It's one of those things that puts AMAPI vendors at a competitive disadvantage f
 
 ## 6. Private DNS via policy
 
-`PRIVATE_DNS_MODE_PROVIDER_HOSTNAME` is a staple of modern network security. In 2026, being unable to force a specific secure DNS provider via a top-level JSON field simply has to happen.
+Private DNS capabilities are only gaining in popularity as more of the world cotton-on to the benefits of secure DNS. It's becoming a staple of modern network security. In 2026, being able to force a specific secure DNS provider via a policy simply has to happen.
 
 I put this on the list literally because I'm struggling with this with a customer who has moved over from a custom DPC solution. Another competitive disadvantage to navigate. 
 
@@ -81,9 +81,9 @@ Today I get around this mostly by writing JSON directly up to AMAPI with the man
 
 The Shared Device problem has been solved by third parties for years, but we’re still waiting for native AMAPI parity with the `UserManager` APIs. We want to create and manage ephemeral users (shift workers) directly through policy without relying on heavy-handed wrappers: cached apps, login/logout flows, and a data purge at logout - all driven by policy, not a custom shell app. Even better if it could hook into modern identity platforms within the Android accounts manager.
 
-## 2. Offline system updates (local URI)
+## 2. Offline system updates
 
-The ability to push system updates from a local URI has been one of my most favourite custom DPC features. I don't use it so much today as [I no longer build Android devices](https://bayton.org/blog/2020/12/on-building-android-devices/) (for now), but it remains the case that not every device has a suitable path to Google’s OTA servers. 
+The ability to push system updates from a local/offline location has been one of my most favourite custom DPC features. I don't use it so much today as [I no longer build Android devices](https://bayton.org/blog/2020/12/on-building-android-devices/) (for now), but it remains the case that not every device has a suitable path to Google’s OTA servers. 
 
 For air-gapped warehouses or secure labs, we need to point the device to a local file server and say _update from here._ A logistics hub with no internet should be able to stage an OEM-provided OTA on an SMB share and push it overnight via policy, not incite disruption with temporarily moving devices to a different network just to patch.
 

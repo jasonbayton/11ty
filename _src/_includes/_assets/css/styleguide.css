@@ -312,6 +312,86 @@
     padding: 150px;
 }
 
+.padding-l-10 {
+    padding-left: 10px;
+}
+
+.padding-l-20 {
+    padding-left: 20px;
+}
+
+.padding-l-30 {
+    padding-left: 30px;
+}
+
+.padding-l-40 {
+    padding-left: 40px;
+}
+
+.padding-l-50 {
+    padding-left: 50px;
+}
+
+.padding-l-60 {
+    padding-left: 60px;
+}
+
+.padding-l-70 {
+    padding-left: 70px;
+}
+
+.padding-l-80 {
+    padding-left: 80px;
+}
+
+.padding-l-90 {
+    padding-left: 90px;
+}
+
+.padding-l-100 {
+    padding-left: 100px;
+}
+
+.padding-r-10 {
+    padding-right: 10px;
+}
+
+.padding-r-20 {
+    padding-right: 20px;
+}
+
+.padding-r-30 {
+    padding-right: 30px;
+}
+
+.padding-r-40 {
+    padding-right: 40px;
+}
+
+.padding-r-50 {
+    padding-right: 50px;
+}
+
+.padding-r-60 {
+    padding-right: 60px;
+}
+
+.padding-r-70 {
+    padding-right: 70px;
+}
+
+.padding-r-80 {
+    padding-right: 80px;
+}
+
+.padding-r-90 {
+    padding-right: 90px;
+}
+
+.padding-r-100 {
+    padding-right: 100px;
+}
+
 .padding-lr-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -678,6 +758,54 @@
 }
 
 /* Margin classes */
+
+.margin-l-10 {
+    margin-left: 10px;
+}
+
+.margin-l-20 {
+    margin-left: 20px;
+}
+
+.margin-l-30 {
+    margin-left: 30px;
+}
+
+.margin-l-40 {
+    margin-left: 40px;
+}
+
+.margin-l-50 {
+    margin-left: 50px;
+}
+
+.margin-l-60 {
+    margin-left: 60px;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.margin-r-20 {
+    margin-right: 20px;
+}
+
+.margin-r-30 {
+    margin-right: 30px;
+}
+
+.margin-r-40 {
+    margin-right: 40px;
+}
+
+.margin-r-50 {
+    margin-right: 50px;
+}
+
+.margin-r-60 {
+    margin-right: 60px;
+}
 
 .margin-top-10 {
     margin-top: 10px;
