@@ -1,9 +1,9 @@
 ---
-title: "Google Play Protect is now the custom DPC gatekeeper"
+title: "Google Play Protect is now the custom DPC gatekeeper, and everyone is a threat by default"
 date: '2025-12-21'
 status: publish
 author: 'Jason Bayton'
-excerpt: "This is a significant shift in how Android Enterprise operates, and the quiet nature of the rollout is arguably as damaging as the technical change itself."
+excerpt: "This is a significant shift in how Android Enterprise operates, and the quiet nature of the rollout is arguably as damaging as the way it is being executed."
 type: post
 tags:
   - Enterprise
@@ -76,12 +76,13 @@ Google made the change earlier this year and no one outside of existing partners
 - [Play Protect is blocking our DPC app — appeal already submitted, looking for guidance](https://www.androidenterprise.community/discussions/conversations/play-protect-is-blocking-our-dpc-app-%e2%80%94-appeal-already-submitted-looking-for-guid/14046)
 - [Google Play Protect’s new policy for custom DPC](https://www.androidenterprise.community/discussions/conversations/google-play-protects-new-policy-for-custom-dpc/13852)
 - [Issue with Android Enterprise provisioning](https://www.androidenterprise.community/discussions/conversations/issue-with-android-enterprise-provisioning-afwidentifier-invalid-and-play-protec/14105)
+- [Clarification on DPC policy](https://www.androidenterprise.community/discussions/Conversations/clarification-on-dpc-policy/14165)
 
 This lack of communication feels tone-deaf. It ignores the reality of countless developers who have built livelihoods on the open nature of Android, only to be thrown face-first into an arbitrary wall.
 
 ### The second is how it's being enforced.
 
-Google Play Protect was introduced as the world’s most widely deployed mobile threat protection service. Its job is to find malware, identify potentially harmful applications (PHAs), and keep users safe from actual threats, but here Google is using Play Protect as the gatekeeper, and by folding the "Approved DPC" list into Play Protect’s enforcement engine, Google has turned a tool designed for protection into a weapon of enforcement of Google's will. 
+Google Play Protect was introduced as the world’s most widely deployed mobile threat protection service. Its job is to find malware, identify potentially harmful applications (PHAs), and keep users safe from real threats, but here Google is using Play Protect as the gatekeeper, and by folding the "Approved DPC" list into Play Protect’s enforcement engine, Google has turned a tool designed for protection into a weapon of enforcement of Google's will. 
 
 There's obviously a distinction between GPP flagging on sensitive permissions, which is valid and I take no issue with, versus GPP running off an arbitrary list of package names a team within Google has to maintain. The latter is mind-boggling to me.
 
@@ -89,7 +90,7 @@ The weaponisation of a tool many in the ecosystem have applauded as a beacon of 
 
 It doesn't say, *"This vendor hasn't completed their paperwork."*, it displays some of the scariest warnings in the Android lexicon.
 
-By using the same type of warning for a legitimate DPC as they do for an app trying to steal your banking information - **because the developer hasn't asked for permission from Google to use standardised, open APIs** - Google is intentionally blurring the line between *unauthorised* and *unsafe*. It isn't about code quality or actual PHA behaviour; it's about control. A perfectly safe, well-written DPC can be "blocked to protect the device" simply because the developer hasn't filed the right paperwork or doesn't fit Google’s current vision of what a DPC should be.
+By using the same type of warning for a legitimate DPC as they do for an app trying to steal your banking information - **because the developer hasn't asked for permission from Google to use standardised, open APIs** - Google is intentionally blurring the line between *unauthorised* and *unsafe*. It isn't about code quality or actual PHA behaviour; it's about control. A perfectly safe, well-written DPC can be "blocked to protect the device" simply because the developer hasn't filed their paperwork (that they may have known nothing about, per above) or doesn't fit Google’s current vision of what a DPC should be.
 
 This is a massive erosion of trust. If "unsafe" just means "not a Google approved application," my prediction is we will eventually see the messaging for Play Protect soften, lowering the likelihood of taking actual malware warnings seriously. It all starts with an "oh ignore the warning, just continue", and authority is lost. Google is crying wolf to protect its ecosystem boundaries, and in doing so, they are devaluing the very security tool they claim is vital for the platform's health.
 
@@ -103,7 +104,7 @@ Again, I'm not against protection for users in the ecosystem. I find it, however
 
 The answer is to get verified, because this new reality treats every custom DPC as hostile until you prove otherwise. 
 
-If you're going to navigate it, here are the hoops; steps that should be unnecessary if Play Protect judged behaviour instead of defaulting to the ban-hammer:
+If you're going to navigate it, here are the hoops; steps that shouldn't be unnecessary if Play Protect judged behaviour instead of defaulting to the ban-hammer:
 
 * Align to Google’s permissible usage list: no device financing schemes; no surveillance-first builds; no silent push/preload/auto-install without explicit customer and end-user consent.
 * Strip sensitive permissions to the minimum required to function so Play Protect has less to flag while you apply.
@@ -112,12 +113,12 @@ If you're going to navigate it, here are the hoops; steps that should be unneces
 
 _If you’re blocked mid-provisioning, tell admins and users plainly that the warning is about allowlisting, not malware, and point out the option for them to continue the install if present in the Play Protect warning._
 
-## A call for transparency and over-communication
+## To close this out
 
 Standardisation is a good thing. I’ve spent years advocating for the **Android Management API (AMAPI)** and a more consistent experience across OEMs. But standardisation should not be achieved like this.
 
-Google needs to decouple **technical safety** from **verification.** If an app isn't verified, the OS should tell the user that. It should say: *"This management tool is from an unverified developer. Proceed with caution."* It should **not** say: *"This app is trying to bypass security."* By using the PHA stick to enforce partner rules, Google is signalling that the wider community - the tinkerers, the niche hardware vendors, and the independent developers - are no longer a priority. It’s a move that lacks empathy for the diverse ways Android is used in the real world.
+Google needs to decouple **technical safety** from **verification.** If an app isn't verified, the OS should tell the user that. It should say: *"This management tool is from an unverified/unknown/unapproved developer. Proceed with caution."* It should **not** say: *"This app is trying to bypass security."* By using the PHA stick to enforce partner rules, Google is signalling that the wider community - the tinkerers, the niche hardware vendors, and the independent developers - are no longer a priority. It’s a move that lacks empathy for the diverse ways Android is used across the world.
 
-The ship has sailed to put a pause on this now, but it's not too late to put out visible announcements, talk about the security, justify the change - everything that was done with developer verification should be done here, too.
+The ship has sailed to put a pause on this now, but it's not too late to put out visible announcements, talk about the security, justify the change, adjust the messaging - everything that was done with developer verification should be done here, too.
 
-To the developers and vendors struggling with this: My advice is to document everything. Any failed appeal, any poor user experience, and any customer you lose because of a "Harmful App" warning. The only way Google changes course is when the volume of the ecosystem's frustration is seen and heard. Ensure you reach out on the [customer community](https://androidenterprise.community) and make your voice heard. We've made incredible changes through the community over the last few years.
+To the developers and vendors struggling with this: My advice is to document everything: Any failed appeal, any poor user experience, and any customer you lose because of a misleading warning. Submit it to the [customer community](https://androidenterprise.community) and make sure you're seen and heard. We've made incredible changes through the community over the last few years. Feedback matters.
