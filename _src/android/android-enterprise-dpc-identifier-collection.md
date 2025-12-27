@@ -57,8 +57,8 @@ To use them, follow the setup wizard on the Android device until a Google accoun
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/shoonyaglow.png">
-    <b>Shoonya</b>  
-    afw#shoonya  
+    <b>Esper</b>  
+    afw#esper  
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/mobileiron_71819.png">
