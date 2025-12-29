@@ -27,7 +27,7 @@ Rather than pouring over application lists and application inventory tables, the
 
 In order to leverage this feature:
 
-- PACKAGE SEARCH requires the delegation of a Device Policy Manager scope, `ENABLE_SYSTEM_APP`, also referred to in Android as `DELEGATION_APP_RESTRICTIONS`.
+- PACKAGE SEARCH requires the delegation of a Device Policy Manager scope, `ENABLE_SYSTEM_APP`.
 - A dedicated managed configuration option is present, **Allow enabling unavailable apps (system apps)**. This must also be enabled.
 
 These two guards ensure this functionality is less likely to be turned on unknowingly.
@@ -89,6 +89,6 @@ In the above, PACKAGE SEARCH is being pushed to a device silently with the `PREI
 
 ### EMM vendor setup
 
-Typically delegated scopes are found within application configurations. Within your EMM when adding an application, you should see delegated scopes alongside install type, managed config, install priority/constraints, and so on. It should provide a drop-down or checkbox list for scopes able to be delegated to an application. Select ENABLE_SYSTEM_APP, or if the EMM provides their own label for scopes, look out for Managed Configuration, App configuration, or a similar sounding option.
+Typically delegated scopes are found within application configurations. Within your EMM when adding an application, you should see delegated scopes alongside install type, managed config, install priority/constraints, and so on. It should provide a drop-down or checkbox list for scopes able to be delegated to an application. Select ENABLE_SYSTEM_APP, or if the EMM provides their own label for scopes, look out for Enable system apps, or a similar sounding option.
 
 Further guidance may be found in [EMM setup guides](../emm-setup). Documentation isn't provided for every EMM on the market currently. If you'd like guidance for your particular EMM, please [raise a request](https://github.com/jasonbayton/11ty/issues/new?assignees=jasonbayton&labels=documentation&projects=&template=content-request.md&title=%5BContent+request%5D). If you happen to know your EMM vendor leverages AMAPI, you may also raise a support request with them, providing above AMAPI JSON example and requesting guidance on how this is applied to your policies.
