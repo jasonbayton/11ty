@@ -84,6 +84,12 @@ const vendorProfiles = {
     group: "AMAPI",
     note: "Uses Android Device Policy"
   },
+  "beam": {
+    label: "BEAM",
+    dpcKey: "amapi_dpc",
+    group: "AMAPI",
+    note: "Uses Android Device Policy"
+  },
   "omnissa_workspace_one_amapi": {
     label: "Omnissa Workspace ONE (AMAPI)",
     dpcKey: "amapi_dpc",
