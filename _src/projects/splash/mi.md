@@ -1,5 +1,5 @@
 ---
-title: MANAGED INFO & KIOSK
+title: MANAGED INFO HUB
 date: '2025-05-17'
 status: publish
 author: 'Jason Bayton'

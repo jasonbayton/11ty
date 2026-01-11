@@ -57,13 +57,13 @@ Ideal for quickly locating and monitoring applications & their metadata. Even sh
 </div>
 <div class="project-description">
 
-## MANAGED INFO & Kiosk
+## MANAGED INFO HUB
 
-MANAGED INFO & Kiosk is a flexible kiosk launcher, support tool, and device companion for Android Enterprise fleets.
+MANAGED INFO HUB is a flexible kiosk launcher, support tool, and device companion for Android Enterprise fleets.
 
 It adapts to whatever role your fleet needs - from a full home-screen replacement with infinitely-customisable layouts that anchors kiosk deployments, to a lightweight device overview/support tool that keeps essential information and contact details within easy reach. 
 
-In addition, MANAGED INFO & Kiosk builds in deep, config-driven MDM companion integration, such as APK deployment capabilities, location tracking services, Device Trust from Android Enterprise, and more through AMAPI SDK integration.. it surfaces tailored support, status, and actions right where administrators and users expect them.
+In addition, MANAGED INFO HUB builds in deep, config-driven MDM companion integration, such as APK deployment capabilities, location tracking services, Device Trust from Android Enterprise, and more through AMAPI SDK integration.. it surfaces tailored support, status, and actions right where administrators and users expect them.
 
 <a class="button" href="/projects/splash/mi">Check it out</a>
 
