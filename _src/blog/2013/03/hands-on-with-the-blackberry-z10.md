@@ -129,37 +129,69 @@ Over all the BlackBerry Z10 is a decent phone. Despite being a completely new OS
 
 Here are a few more images:
 
- <style type="text/css">
-			#gallery-28 {
-				margin: auto;
-			}
-			#gallery-28 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 25%;
-			}
-			#gallery-28 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-28 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-28"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; max-width: 820px;">
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_00000008.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000008/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000016.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000016/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000006.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000006/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000005.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000005/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000008/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000008.png" width="200" />
+</a>
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173034.jpg)](/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173034/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000015.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000015/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000017.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000017/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000012.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000012/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000016/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000016.png" width="200" />
+</a>
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_00000021.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000021/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000010.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000010/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000023.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000023/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000018.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000018/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000006/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000006.png" width="200" />
+</a>
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173001.jpg)](/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173001/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173401-e1485294355911.jpg)](/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173401/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000009.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000009/) </dt></dl>   
- </div>
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000005/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000005.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173034/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173034.jpg" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000015/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000015.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000017/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000017.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000012/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000012.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000021/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000021.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000010/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000010.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000023/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000023.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000018/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000018.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173001/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173001.jpg" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_20130224_173401/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_20130224_173401-e1485294355911.jpg" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000009/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000009.png" width="200" />
+</a>
+
+</div>
 
 With that said, it lacks the app availability of it’s competitors and even though it looks and feels nice, I can’t see it being a first choice over the numerous alternative devices on the market for most people, especially given it’s priced at around the same as some of the higher end Android devices currently on the market and given BlackBerry’s sometimes doubted future. For a corporate device it would certainly do the job, and for those with the correct BlackBerry infrastructure already in place it’d probably be a no-brainer.
