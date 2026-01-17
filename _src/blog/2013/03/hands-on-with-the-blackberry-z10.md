@@ -74,31 +74,32 @@ Further to the above, a swipe from the top down will put the lockscreen into nig
 
 Other gestures, consist of sliding up from the bottom to return to the home screen. This puts the currently opened app, plus any other previously opened apps into a new pane on the home screen allowing you to quickly switch between them. From the home screen, sliding left to right will take you into the BlackBerry Hub, and sliding right to left will take you into your apps list.
 
- <style type="text/css">
-			#gallery-27 {
-				margin: auto;
-			}
-			#gallery-27 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 25%;
-			}
-			#gallery-27 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-27 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; max-width: 820px;">
 
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-27"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000019/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000019.png" width="200" />
+</a>
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_00000019.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000019/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000022.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000022/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000014.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000014/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000024.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000024/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000022/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000022.png" width="200" />
+</a>
 
-[![](https://cdn.bayton.org/uploads/2013/03/IMG_00000003.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000003/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2013/03/IMG_00000013.png)](/2013/03/hands-on-with-the-blackberry-z10/img_00000013/) </dt></dl>   
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000014/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000014.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000024/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000024.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000003/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000003.png" width="200" />
+</a>
+
+<a href="/2013/03/hands-on-with-the-blackberry-z10/img_00000013/">
+  <img src="https://cdn.bayton.org/uploads/2013/03/IMG_00000013.png" width="200" />
+</a>
+
 </div>
 
 The BlackBerry Hub? Yes, that’s what they’re calling a central location dedicated to all of your messages from the accounts you add to the device. It means less dipping in and out of different applications, instead using one area accessible from anywhere on the phone (if in an app, swiping up and then right will take you there) to manage and reply to your messages. It’s a novel idea, though in practise I’ve preferred keeping messages separate. You do however have control over what’s shown there, which is good.
