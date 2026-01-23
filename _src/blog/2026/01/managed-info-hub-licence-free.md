@@ -25,7 +25,7 @@ To address this, I'm restructuring licensing around the following boundaries:
 - **Presentation and experience features** remain licence-free  
 - **Integration and data-leverage features** become licensable
 
-The practical effect is to make Managed Info easier to adopt and experiment with, while still aligning licences to features that provide partners and organisations with data they can in-turn use for other commercial purposes.
+The practical effect is to make MANAGED INFO easier to adopt and experiment with, while still aligning licences to features that provide partners and organisations with data they can in-turn use for other commercial purposes.
 
 ## What remains licence-free
 
@@ -46,11 +46,11 @@ The following experiences are now available without a licence:
 - Optional app drawer and admin escape panels
 - Managed Settings integration
 
-These are the capabilities that support *displaying information and building bespoke device experiences*, without extracting or exporting data externally. This aligns with how organisations commonly use Managed Info to present help, support content, or tailored launch surfaces.
+These are the capabilities that support *displaying information and building bespoke device experiences*, without extracting or exporting data externally. This aligns with how organisations commonly use MANAGED INFO to present help, support content, or tailored launch surfaces.
 
 ## Which capabilities are now licenced
 
-A licence is required when Managed Info is used in ways that materialise external value outside of presentation:
+A licence is required when MANAGED INFO is used in ways that materialise external value outside of presentation:
 
 - **Device data integration** (trust signals, network state, hardware metadata)
 - **Export of device signals** into external systems or dashboards
@@ -80,7 +80,7 @@ You may notice further references to **MANAGED INFO HUB** or **MANAGED HUB** acr
 
 That name better reflects the current shape of the project with the aim that it reflects more than just the fixed info/support panel the project started with; it’s becoming something of a handy EMM companion app (not just for APKs, but Location tracking, Device Trust data, and metadata sync are all available to interested partners. Reach out for details!)
 
-In terms of other changes in 1.1.8.0, this was predominently about stability and performance, however the main new user-facing feature is an app drawer when MANAGED INFO is in launcher mode. The app drawer can be fully open, or limited only to the defined packages listed in managed config. It's pretty neat.
+In terms of other changes in 1.1.8.0, this was predominantly about stability and performance, however the main new user-facing feature is an app drawer when MANAGED INFO is in launcher mode. The app drawer can be fully open, or limited only to the defined packages listed in managed config. It's pretty neat.
 
 [![app drawer](https://cdn.bayton.org/uploads/2026/managed-info-licence/app_drawer.png)](https://cdn.bayton.org/uploads/2026/managed-info-licence/app_drawer.png)
 
