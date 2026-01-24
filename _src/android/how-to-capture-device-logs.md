@@ -25,18 +25,16 @@ USB debugging may be prevented by policy for managed devices. Please consult you
 1. Open Settings
     1. Either swipe up from the home screen to display the app drawer, and select settings, or
     2. Swipe down from the notification area and tap the settings icon present in the notification panel.
-2. Tap About device
-3. Swipe down to Build number
-4. Tap 7 times on Build number
+2. Tap About device/my device/device info (varies by OEM)
+3. Locate build number
+4. Tap 7 times on build number
 5. Developer mode will be enabled
-6. Enabling USB debugging
-7. Prerequisites – PC with ADB configured
 
 ## After enabling developer mode,
 
 1. Tap back into Settings
 2. Tap System
-3. Tap Advanced
+3. Locate developer options (may be hidden behind advanced)
 4. Tap developer options
 5. Swipe to USB debugging, and toggle it on
 
