@@ -19,7 +19,7 @@ eleventyNavigation:
 
 ## What is the Device Identifiers card?
 
-The Device Identifiers card in MANAGED INFO is a licensed feature that displays key hardware and enrolment identifiers for your device, such as IMEI, serial number, Android ID, and enrolment-specific ID. These are essential for device tracking, support, and compliance in Android Enterprise environments.
+The Device Identifiers card in MANAGED INFO displays key hardware and enrolment identifiers for your device, such as IMEI, serial number, Android ID, and enrolment-specific ID. These are essential for device tracking, support, and compliance in Android Enterprise environments.
 
 ## What identifiers are shown?
 
@@ -38,7 +38,6 @@ The Device Identifiers card is **enabled by default** for unmanaged devices, but
 
 To display device identifiers, **all of the following are required**:
 
-- **A valid licence** for MANAGED INFO
 - The **CERT_INSTALL** delegated scope (assigned via your EMM/MDM)
 - The **READ_PHONE_STATE** permission (prompted at runtime, or pre-approved by your admin)
 
@@ -55,13 +54,13 @@ You can revisit this card at any time; identifiers update automatically as permi
 
 ## Understanding the output
 
-- **All identifiers displayed:** Your device is licensed, and all required permissions and delegated scopes are in place.
+- **All identifiers displayed:** All required permissions and delegated scopes are in place.
 - **“Unavailable” shown:**  
   - IMEI will not appear on Wi-Fi-only devices.
   - Other fields may show “Unavailable” if the device does not expose that value.
   - The device may be too old to show an identifier through the modern requests MANAGED INFO makes
 - **Error-state card displayed:**  
-  - If licensing, permission, or delegated scope are missing, the card will switch to an error state with specific instructions on what’s required.
+  - If permissions or delegated scope are missing, the card will switch to an error state with specific instructions on what’s required.
   - The card will remain visible while enabled, always showing the current access state.
 
 ## When should this card be used?

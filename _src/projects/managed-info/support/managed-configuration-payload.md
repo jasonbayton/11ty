@@ -204,7 +204,7 @@ Version: `1.1.3.2`
       "key": "customisation_settings",
       "type": "BUNDLE",
       "title": "Customisation settings",
-      "description": "Additional application options for licensed organisations.",
+      "description": "Additional application options for organisations.",
       "nestedProperties": [
         {
           "key": "organisation_id",
@@ -406,7 +406,7 @@ Version: `1.1.3.2`
       "key": "card_stacks",
       "type": "BUNDLE_ARRAY",
       "title": "Build a card layout",
-      "description": "Mix and match card types to create a bespoke layout. Licensed feature.",
+      "description": "Mix and match card types to create a bespoke layout.",
       "nestedProperties": [
         {
           "key": "stack_bundle",

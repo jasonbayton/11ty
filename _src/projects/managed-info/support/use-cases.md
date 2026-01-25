@@ -71,7 +71,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 <div>
 
-## 3. Multi-App launcher layout (licensed)
+## 3. Multi-App launcher layout 
 
 **Goal**: Present a grid of approved applications with friendly labels.
 
@@ -98,7 +98,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 <div>
 
-## 4. Single-app cards with context (licensed)
+## 4. Single-app cards with context
 
 **Goal**: Highlight an app with an explainer or warning.
 
@@ -121,7 +121,7 @@ Explore practical examples of how to deploy MANAGED INFO for different use cases
 
 <div>
 
-## 5. Lockdown mode (licensed)
+## 5. Lockdown mode
 
 **Goal**: Prevent access to all but minimum required apps outside of permitted times.
 

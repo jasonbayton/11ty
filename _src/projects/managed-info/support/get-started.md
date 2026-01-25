@@ -77,7 +77,7 @@ Once configured and ready to deploy, push the application to desired devices.
 
 ## Licence setup & advanced configuration
 
-With a licence, available either as a one-time fee for the entire organisation, or £0.50 for each device requiring advanced configuration (see [pricing](/projects/managed-info/pricing)), it then becomes possible to unlock the full suite of cards and settings MANAGED INFO has to offer. 
+With a licence, available either as a one-time fee for the entire organisation, or £0.50 for each device requiring advanced configuration (see [pricing](/projects/managed-info/pricing)), it then becomes possible to unlock all integration features with remote solutions MANAGED INFO has to offer. 
 
 To configure the licence:
 
@@ -87,8 +87,8 @@ To configure the licence:
 
 Once licensed, the following configurations will become functional:
 
-- Customisation settings
-- Kiosk settings
-- Build a card layout
+- Location data sync
+- Metadata sync
+- Device trust signals/verdicts data
 
-Additionally, it will be possible to switch the device info cards to a button in the top bar.
+Please note, in order for remote sync to function, a domain name must be provided for allowlisting.

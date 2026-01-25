@@ -61,11 +61,11 @@ Customisations are sent through managed config, and if a device is not online - 
 
 **No access to the licensing server**
 
-If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and customisations will not apply. See [network requirements](/projects/managed-settings/support/managed-settings-requirements/).
+If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and restrictions will not apply. See [network requirements](/projects/managed-settings/support/managed-settings-requirements/).
 
 **Invalid/unlicensed organisation ID**
 
-Customisations are only supported on licensed organisation IDs. On invalid or unlicensed organisation IDs, customisations will be ignored.
+Integrations are only supported on licensed organisation IDs. On invalid or unlicensed organisation IDs, none of the integration services run.
 
 If you're licensed, please ensure the organisation ID added to the managed config is correct, validate the device(s) can reach the licensing server, and reach out to [project-support@bayton.org](mailto:project-support@bayton.org) for further assistance.
 
@@ -73,7 +73,7 @@ If you're licensed, please ensure the organisation ID added to the managed confi
 
 **Ensure devices are able to connect to the internet.** 
 
-Licence validation is performed on every app launch. If MANAGED INFO is unable to reach the PING service, it will retry for 7 days before clearing the licensed state. All customisations will then disable.
+Licence validation is performed on every app launch and whenever managed configuration changes. If MANAGED INFO is unable to reach the PING service, it will retry for 30 days before clearing the licensed state. All licensed features will then disable.
 
 ### Customisations don't update
 

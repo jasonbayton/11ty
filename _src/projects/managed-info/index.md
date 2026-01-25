@@ -36,14 +36,11 @@ Whether you're running a multi-app kiosk environment or offering a branded launc
 
 ## What does MANAGED INFO cost?
 
-MANAGED INFO is a **free** application. An optional licence unlocks additional customisation options, including:
+MANAGED INFO is a **free** application. An optional licence unlocks additional integration options, including:
 
-- **Custom cards and banners**
-- **Organisation branding**
-- **App grid configuration**
-- **Theming and layout control**
-- **Device identifiers**
-- **“Fun” toggle 😁**
+- **Device metadata sync off-device**
+- **Integrate device trust signals into your product/solution**
+- **Integrate location tracking into your product/solution**
 
 Licensing can be per device, or a flat fee per organisation. Branding and white-label builds are also available.
 

@@ -14,7 +14,7 @@ eleventyNavigation:
     title: Pricing
 ---
 
-MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, **trials are available** before committing to a licence, please [get in touch](/contact) to request one.
+MANAGED INFO is available at no cost for customisation and layout configuration. If you'd like to explore integrating device metadata, device trust status, or integration with your EMM product, please [get in touch](/contact).
 
 <br>
 
@@ -26,17 +26,24 @@ MANAGED INFO is available at no cost for standard info cards and support messagi
             <li>Access to quick actions, device details, organisation message, and contact information</li>
             <li>Email support</li>
             <li>Community support</li>
-        </ul>
-        <a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo" class="btn">Get it</a>
-    </div>
-    <div class="pricing-item popular">
-        <h3>Organisation licence</h3>
-        <p class="price">From £500<br><i><small>or £0.50 per device</small></i></p>
-        <ul>
             <li>Hide most BAYTON branding</li>
             <li>Custom in-app title</li>
             <li>Custom cards</li>
             <li>Launch apps and intents</li>
+            <li>Deploy certificates</li>
+            <li>Set device wallpaper</li>
+            <li>and much more..</li>
+        </ul>
+        <a href="https://play.google.com/store/apps/details?id=org.bayton.managedinfo" class="btn">Get it</a>
+    </div>
+    <div class="pricing-item popular">
+        <h3>Integration licence</h3>
+        <p class="price">From £500<br><i><small>or £0.50 per device</small></i></p>
+        <ul>
+            
+            <li>Sync device metadata to a remote endpoint</li>
+            <li>Integrate device trust signals into your application/service</li>
+            <li>Use MANAGED INFO as your EMM companion app</li>
             <li>Email support</li>
             <li>Community support</li>
         </ul>
@@ -44,11 +51,11 @@ MANAGED INFO is available at no cost for standard info cards and support messagi
     </div>
     <div class="pricing-item">
         <h3>Whitelabel</h3>
-        <p class="price">From £3,000</p>
+        <p class="price">From £5,000</p>
         <ul>
             <li>Custom branding</li>
             <li>Custom app functionality</li>
-            <li>Flat fee per organisation ID</li>
+            <li>Flat fee per customer</li>
             <li>6 months of priority support</li>
         </ul>
         <a href="#for-vendors" class="btn">View details</a>
@@ -56,7 +63,7 @@ MANAGED INFO is available at no cost for standard info cards and support messagi
 </div>
 <div class="pricing-item">
         <h3>Priority support</h3>
-        <p class="price">£1,000(p.a)</p>
+        <p class="price">£2,000(p.a)</p>
         <ul>
             <li>Receive enhanced assistance for BAYTON apps within your deployment(s)</li>
         </ul>
@@ -67,7 +74,7 @@ MANAGED INFO is available at no cost for standard info cards and support messagi
 
 ## For organisations 
 
-Customisation is available per organisation ID, and licensed as below. All but Priority Support are one-time fees:
+Integration is available per organisation ID/domain, and licensed as below. All but Priority Support are one-time fees:
 
 <div class="responsive-table-wrapper">
 
@@ -114,21 +121,21 @@ If you're an ecosystem partner (or organisation) there are two current approache
 
 **Resell**: Licence customers on the standard package (as above). Get in touch to discuss reseller discounts.
 
-**Whitelabel**: Licence a version that is customised out of box (no waiting for managed configs to apply). £3,000 will grant you a vendor licence to distribute across your customer base, and a flat one-time £300 for each organisation ID associated with your custom package ID, or £0.30 per device.
+**Whitelabel**: Licence a version that is customised out of box (no waiting for managed configs to apply). £5,000 will grant you a vendor licence to distribute across your customer base, and a flat one-time fee associated with your custom package ID per-customer.
 
 <div class="responsive-table-wrapper">
 
 | Licence             | Devices    | Cost   | 
 | ------------------- | ---------- | ------ |
-| **Customised app**  | ∞          | £3,000 | 
-| **Organisation ID** | ∞          | £300   |  
-|                     | Per device | £0.30  |  
+| **Customised app**  | ∞          | £5,000 | 
+| **Customer**        | ∞          | £100   |  
+|                     | Per device | £0.10  |  
 
 </div>
 
 ## <span class="material-symbols-outlined orange">support</span> Priority support
 
-MANAGED SETTINGS comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
+MANAGED INFO comes with access to email support, access to the Discord community, and documentation. If you'd like additional support, priority offers:
 
 - A dedicated, private communication channel (Discord & voice)
 - Faster (UK hours) responses

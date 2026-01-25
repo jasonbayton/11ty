@@ -23,19 +23,23 @@ This guide covers how to use the **admin override configuration** with MANAGED I
 
 To enable admin override in kiosk/launcher mode:
 
-1. Configure the admin override in your MANAGED INFO deployment and set a password.
+1. Configure the admin override in your MANAGED INFO deployment via managed configurations, and set a password.
 2. Provision your device in kiosk/launcher mode using either AMAPI or a custom DPC.
-3. Long-press the settings icon (default or MANAGED SETTINGS) to prompt for the admin password and access the device applications list.
+3. Long-press the settings icon (default or MANAGED SETTINGS) in the **main UI** (other screens aren't supported) to prompt for the admin password and access the device applications list.
 
 ## What happens after override
 
-After entering the admin override password, a bottom sheet appears listing all available apps with launcher icons that can be opened. This includes user-installed and permitted system apps. System apps without launcher icons or those blocked by policy will not appear.
+After entering the admin override password, a bottom sheet appears listing all available apps with launcher icons that can be opened. This includes user-installed and permitted system apps. 
+
+Note: System apps without launcher icons, those blocked by policy, or those blocked by the MANAGED INFO app drawer allowlist will not appear.
 
 ## Limitations and policy requirements
 
 ### AMAPI kiosk mode
 
-For admin override to work in AMAPI kiosk mode, only apps that are allowlisted in your AMAPI policy can be launched. Even if an app is visible, it cannot be opened unless it is included in the allowlist. To ensure the desired apps are accessible via admin override, update your AMAPI policy to include all relevant applications. They will not be shown in any app cards by default by doing this (unlike the baked-in Android kiosk).
+For admin override to work in AMAPI kiosk mode, only apps that are added to (allowlisted) your AMAPI policy can be launched. Even if an app is visible, it cannot be opened unless it is included in the allowlist. To ensure the desired apps are accessible via admin override, update your AMAPI policy to include all relevant applications. They will not be shown in any app cards by default by doing this (unlike the baked-in Android kiosk).
+
+For launcher mode where the default home application is set to MANAGED INFO, either via the default apps policy within AMAPI, or via a persistent preferred activity, all applications are able to be launched.
 
 ### Custom DPC
 
