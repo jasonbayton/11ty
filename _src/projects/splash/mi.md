@@ -81,7 +81,7 @@ for end-users, right off the mark.</p>
 
 <p>MANAGED INFO makes for a great in-kiosk shortcut for device information, particularly if the MDM/EMM doesn't offer similar on-device contextual information; just turn off all but the revelant cards, and deploy to devices.</p>
 
-<p>Need more still? Show important identifiers like serial and IMEI with an organisation licence.</p>
+<p>Need more still? Show important identifiers like serial and IMEI with the device info cards.</p>
 
 [Check out the quickstart](/projects/managed-info/support/get-started/)
 
@@ -119,7 +119,7 @@ for end-users, right off the mark.</p>
 <section id="kiosk" class="service-item grid grid-column-2 grid-column-mobile-1 grid-gap-60 padding-top-200 padding-mobile-top-100">
 <div class="service-text grid-align-middle grid-mobile-align-top">
 <h2>Endless customisation</h2>
-<p>Choose between the included cards to build your experience, or - with a licence - start from a blank slate, building your vision with a selection of card templates including:</p>
+<p>Choose between the included cards to build your experience, or start from a blank slate, building your vision with a selection of card templates including:</p>
 
 - Text cards
 - App message cards
@@ -367,7 +367,7 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
       "key": "customisation_settings",
       "type": "BUNDLE",
       "title": "Customisation settings",
-      "description": "Additional application options for licensed organisations.",
+      "description": "Additional application options for organisations.",
       "nestedProperties": [
         {
           "key": "organisation_id",
@@ -562,7 +562,7 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
       "key": "card_stacks",
       "type": "BUNDLE_ARRAY",
       "title": "Build a card layout",
-      "description": "Mix and match card types to create a bespoke layout. Licensed feature.",
+      "description": "Mix and match card types to create a bespoke layout.",
       "nestedProperties": [
         {
           "key": "stack_bundle",
@@ -842,7 +842,7 @@ Check out [MANAGED SETTINGS](/projects/managed-settings)
 <h2 id="get-started">Seen enough?</h2>
 </div>
 <h3>Pricing</h3>
-<p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore endless customisation, trials are available before committing to a licence, and bundled-pricing is available for MANAGED SETTINGS, also.</p>
+<p>MANAGED INFO is available at no cost for standard info cards and support messaging. If you'd like to explore integration options, trials are available before committing to a licence, and bundled-pricing is available for MANAGED SETTINGS, also.</p>
 
 <div class="callout">
 Test all MANAGED INFO features with the trial licence: <span class="highlight">managedinfotrial100</span>. Input this into the <b>Licensed organisation ID</b> field within managed configurations. Note this trial license rotates often.
