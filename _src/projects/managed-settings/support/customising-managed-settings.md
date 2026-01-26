@@ -53,7 +53,7 @@ If you'd like to see more customisation options, or general features, [raise a f
 
 ## Enter your organisation ID
 
-In order to unlock customisations, input the licensed organisation ID of Android Enterprise bind. You can find this in two ways:
+In order to unlock customisations, input the licensed organisation ID of your Android Enterprise bind. You can find this in two ways:
 
 - Head to [Google Play admin settings](https://play.google.com/work/adminsettings) and log in with the account you used for your bind
 - Open the managed Google Play iFrame within your EMM, and click the settings icon in the top right of the iFrame

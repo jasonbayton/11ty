@@ -123,7 +123,7 @@ If you'd like to see more customisation options, or general features, [raise a f
 
 ## Enter your organisation ID
 
-In order to unlock remote data sync and backend service integration, inputting the licensed organisation ID of Android Enterprise bind is the first of a two-step process. You can find this in two ways:
+In order to unlock remote data sync and backend service integration, inputting the licensed organisation ID of you Android Enterprise bind is the first of a two-step process. You can find this in two ways:
 
 - Head to [Google Play admin settings](https://play.google.com/work/adminsettings) and log in with the account you used for your bind
 - Open the managed Google Play iFrame within your EMM, and click the settings icon in the top right of the iFrame
