@@ -40,7 +40,7 @@ For those who consider copying and pasting JSON code a bit of a pain, you’re i
 
 Reach out to your vendor to ask when this functionality will be available.
 
-## MobileIron
+## Ivanti Neurons for MDM (MobileIron Cloud)
 
 <pre>
 {
@@ -48,6 +48,7 @@ Reach out to your vendor to ask when this functionality will be available.
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "server":"<strong>your.server.com</strong>",
 "user":"<strong>user</strong>",
+"password": "<strong>password</strong>",
 "quickStart":<strong>true/false</strong>
 }
 }
