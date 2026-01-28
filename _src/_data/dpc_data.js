@@ -18,6 +18,12 @@ const preConfiguredDPCs = {
     "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://play.google.com/managed/downloadManagingApp?identifier=maas360"
   },
 
+  "ivanti_inmdm": {
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME":"com.mobileiron.anyware.android/com.mobileiron.polaris.manager.device.AndroidDeviceAdminReceiver",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM":"xFg1LVfpb97Vq958bulXHYWpd4hmVOl2RU2ThGyktc0",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://support.mobileiron.com/cloud-android/current/MobileIron-Go-latest.apk",
+  },
+
   "miradore": {
     "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.miradore.client.v2/com.miradore.client.admin.AdminReceiver",
     "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "WPz_o805S_Kmr4H8DtVE-1ioiVfXGpCN4COBVIkdFqU",
@@ -105,6 +111,11 @@ const vendorProfiles = {
   "ibm_maas360": {
     label: "IBM MaaS360",
     dpcKey: "ibm_maas360",
+    group: "Custom DPC"
+  },
+  "ivanti_inmdm": {
+    label: "Ivanti Neurons for MDM",
+    dpcKey: "ivanti_inmdm",
     group: "Custom DPC"
   },
   "miradore": {
