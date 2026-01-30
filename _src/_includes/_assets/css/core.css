@@ -635,10 +635,9 @@ content#home {
 }
 
 /* Homepage redesign layout */
+
 .home-redesign-header {
-  background: var(--background);
-  color: var(--text);
-  border-bottom: 1px solid var(--light);
+  /* Blank */
 }
 
 content#home-redesign {
@@ -665,11 +664,28 @@ content#home-redesign {
   margin-bottom: 40px;
 }
 
+.home-redesign-section-partner-logos {
+  padding: 110px 0px !important;
+
+  #vendor_logo_container_scroll {
+    padding-top: 60px;
+  }
+}
+
+
+
 .home-redesign-section__title {
-  font-size: clamp(30px, 4vw, 52px);
-  line-height: 1.1;
+  font-size: clamp(44px, 4.6vw, 80px);
+  line-height: 1.12;
   margin: 0 0 14px;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.home-redesign-section__title-small {
+  font-size: clamp(24px, 2.6vw, 40px);
+  line-height: 1.12;
+  margin: 0 0 14px;
+  font-weight: 700;
 }
 
 .home-redesign-section__title--centre {
@@ -677,10 +693,10 @@ content#home-redesign {
 }
 
 .home-redesign-section__lede {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   margin: 0;
-  max-width: 680px;
+  max-width: 900px;
   color: color-mix(in srgb, var(--text) 70%, transparent);
 }
 
@@ -694,13 +710,9 @@ content#home-redesign {
 
 .home-redesign-hero {
   padding: 90px 0 70px;
-  border-bottom: 1px solid var(--light);
 }
 
 .home-redesign-hero .home-redesign-container {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-  gap: 40px;
   align-items: center;
 }
 
@@ -710,10 +722,10 @@ content#home-redesign {
 }
 
 .home-redesign-hero__title {
-  font-size: clamp(38px, 5.2vw, 66px);
-  line-height: 1.06;
+  font-size: clamp(44px, 5.6vw, 100px);
+  line-height: 1.04;
   margin: 0;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .home-redesign-hero__title p {
@@ -721,10 +733,11 @@ content#home-redesign {
 }
 
 .home-redesign-hero__subheading {
-  font-size: 16px;
+  font-size: 28px;
   line-height: 1.6;
   color: color-mix(in srgb, var(--text) 65%, transparent);
-  max-width: 640px;
+  max-width: 900px;
+  padding: 20px 0;
 }
 
 .home-redesign-hero__subheading p {
@@ -741,12 +754,12 @@ content#home-redesign {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 14px;
-  border-radius: 6px;
+  padding: 20px 24px;
+  border-radius: 8px;
   border: 1px solid var(--light);
   text-decoration: none;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 19px;
   line-height: 1;
   transition: all 0.15s ease;
   gap: 8px;
@@ -810,13 +823,13 @@ content#home-redesign {
 
 .home-redesign-card:hover {
   border-color: var(--orange);
-  transform: translateY(-1px);
 }
 
 .home-redesign-card__title {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
   margin: 0;
+  padding-bottom: 12px;
 }
 
 .home-redesign-card__title a {
@@ -825,7 +838,7 @@ content#home-redesign {
 }
 
 .home-redesign-card__copy {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.55;
   margin: 0;
   color: color-mix(in srgb, var(--text) 70%, transparent);
@@ -835,14 +848,15 @@ content#home-redesign {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  padding-top: 4px;
 }
 
 .home-redesign-tag {
   background: var(--subtle-bg);
   border: 1px solid var(--light);
   border-radius: 6px;
-  padding: 2px 6px;
-  font-size: 10px;
+  padding: 3px 8px;
+  font-size: 11px;
   color: color-mix(in srgb, var(--text) 75%, transparent);
 }
 
@@ -858,15 +872,18 @@ content#home-redesign {
   font-size: 12px;
   line-height: 1;
   transition: border-color 0.15s ease, color 0.15s ease;
+  width: 50%;
+  align-self: end;
 }
 
 .home-redesign-card__action:hover {
+  background: var(--orange);
   border-color: var(--orange);
-  color: var(--blood-orange);
+  color: var(--bright);
 }
 
 .home-redesign-card__meta {
-  font-size: 10px;
+  font-size: 11px;
   color: color-mix(in srgb, var(--text) 55%, transparent);
 }
 
@@ -922,6 +939,80 @@ content#home-redesign {
   font-weight: 700;
   line-height: 1;
   margin-top: 2px;
+}
+
+/* Consultancy section – bespoke layout (matches Figma) */
+
+.home-redesign-section--consultancy {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.home-redesign-consultancy__title {
+  color: var(--orange);
+}
+
+.home-redesign-consultancy__subtitle {
+  font-size: clamp(18px, 4vw, 30px);
+  font-weight: 800;
+  margin: 0 0 60px;
+  line-height: 1;
+}
+
+/* List */
+.home-redesign-consultancy__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 70px;
+  display: grid;
+  gap: 20px;
+}
+
+.home-redesign-consultancy__list li {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: clamp(22px, 2.6vw, 32);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+/* Check-in-circle icon */
+.home-redesign-consultancy__list li::before {
+  content: " ✓ ";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  border: 2px solid var(--orange);
+  color: var(--orange);
+  font-weight: 900;
+  flex: 0 0 24px;
+}
+
+.home-redesign-src { 
+  display: block;
+  font-size: 14px;
+  padding: 10px 0;
+  float: right;
+}
+
+/* Stat */
+.home-redesign-consultancy__stat {
+  margin-top: 24px;
+}
+
+.home-redesign-consultancy__stat small {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--text) 55%, transparent);
+}
+
+.home-redesign-consultancy__stat a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .home-redesign-videos {

@@ -17,30 +17,34 @@
                 <div class="home-redesign-container">
                     <div class="home-redesign-hero__content">
                         <div class="home-redesign-hero__title" id="home-redesign-heading" role="heading" aria-level="1">
-                            {% renderFile "./_src/_includes/_parts/home/heading.md" %}
+                            <p>
+                                Android Enterprise,<br>
+                                <span class="home-redesign-accent">explained. Built.</span><br>
+                                <span class="home-redesign-accent">Deployed.</span>
+                            </p>
                         </div>
                         <div class="home-redesign-hero__subheading">
-                            {% renderFile "./_src/_includes/_parts/home/subheading.md" %}
+                        <p>
+                            Helping organisations understand, adopt, and maximise Android Enterprise for business.
+                        </p>
                         </div>
                         <div class="home-redesign-hero__actions">
-                            <a class="home-redesign-button home-redesign-button--primary" href="/blog">Read the blog →</a>
-                            <a class="home-redesign-button home-redesign-button--outline" href="/projects">Explore tools →</a>
-                            <a class="home-redesign-button home-redesign-button--outline" href="/support">Consultancy →</a>
+                            <a class="home-redesign-button home-redesign-button--primary" href="/blog">Read the blog »</a>
+                            <a class="home-redesign-button home-redesign-button--outline" href="/projects">Explore projects »</a>
+                            <a class="home-redesign-button home-redesign-button--outline" href="/support">Get help »</a>
                         </div>
                         <div class="home-redesign-hero__intro">
                             {{ content | safe }}
                         </div>
                     </div>
-                    <div class="home-redesign-hero__media" aria-hidden="true">
-                        <img src="/img/aec.png" width="260" height="260" alt="Android Enterprise Certified badge">
-                    </div>
                 </div>
             </section>
 
             <!-- Logo carousel retained from the existing homepage. -->
-            <section id="partner_logos" class="home-redesign-section home-redesign-section--muted" aria-label="Partner logos">
+            <section id="partner_logos" class="home-redesign-section home-redesign-section-partner-logos home-redesign-section--muted" aria-label="Partner logos">
                 <div class="home-redesign-container">
-                    <h2 class="home-redesign-section__title home-redesign-section__title--centre">Partners & organisations I’ve worked with</h2>
+                    <h2 class="home-redesign-section__title home-redesign-section__title"><span class="home-redesign-accent">Partners & organisations</span> I’ve worked with</h2>
+                    <p></p>
                     {% include "./_parts/partner-logos.njk" %}
                 </div>
             </section>
@@ -58,38 +62,32 @@
                         {
                             name: "Managed Settings",
                             description: "Limited Settings experiences that keep managed Android estates focused and secure.",
-                            tags: ["Tool", "Production"],
+                            tags: ["Project"],
                             url: "/projects/managed-settings/"
                         },
                         {
                             name: "Package Search",
                             description: "Inspect Android packages and metadata with an enterprise-first focus.",
-                            tags: ["Tool", "Reference"],
+                            tags: ["Project"],
                             url: "/projects/package-search/"
                         },
                         {
                             name: "Managed Info Hub",
                             description: "Device companion tooling for kiosk, support, and fleet status insights.",
-                            tags: ["Tool", "Open"],
+                            tags: ["Project"],
                             url: "/projects/managed-info/"
                         },
                         {
                             name: "Managed Archiver",
-                            description: "Message archive tooling for managed Android devices and estates.",
-                            tags: ["Tool", "Production"],
+                            description: "Archive SMS, MMS, and RCS for Android Enterprise devices.",
+                            tags: ["Project"],
                             url: "/projects/managed-archiver/"
                         },
                         {
-                            name: "QR Code Generator",
+                            name: "Android Enterprise QR Code Generator",
                             description: "Generate Android Enterprise enrolment QR codes without manual JSON edits.",
-                            tags: ["Tool", "Reference"],
+                            tags: ["Tool"],
                             url: "/qr-generator/"
-                        },
-                        {
-                            name: "Android System Apps Database",
-                            description: "Reference the system apps shipped by OEM builds and Android versions.",
-                            tags: ["Reference"],
-                            url: "/android/android-system-app-database/"
                         }
                     ] %}
                     <div class="home-redesign-grid">
@@ -104,7 +102,7 @@
                                     {% endfor %}
                                 </div>
                             </div>
-                            <a class="home-redesign-card__action" href="{{ project.url }}">Open ↗</a>
+                            <a class="home-redesign-card__action" href="{{ project.url }}">Go »</a>
                         </article>
                         {% endfor %}
                     </div>
@@ -119,11 +117,10 @@
                         <div class="home-redesign-section__lede">
                             Opinionated guidance and long-form analysis for Android Enterprise practitioners.
                         </div>
-                        <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts →</a>
                     </div>
                     <div class="home-redesign-grid home-redesign-grid--three">
                         {% for post in collections.blog | reverse %}
-                        {% if loop.index0 < 3 %}
+                        {% if loop.index0 < 6 %}
                         <article class="home-redesign-card">
                             <div class="home-redesign-card__body">
                                 <h3 class="home-redesign-card__title">
@@ -142,48 +139,104 @@
                         {% endif %}
                         {% endfor %}
                     </div>
+                    <br>
+                    <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts »</a>
+
+                    <br><br>
+
+                    <div class="home-redesign-section__intro">
+                      <h3 class="home-redesign-section__title-small">Latest <span class="home-redesign-accent">notes</span></h3>
+                      <div class="home-redesign-section__lede">
+                        Short-form updates, experiments, and quick references.
+                      </div>
+                    </div>
+
+                    <div class="home-redesign-grid home-redesign-grid--three">
+                      {% for note in collections.notes | reverse %}
+                      {% if loop.index0 < 3 %}
+                      <article class="home-redesign-card">
+                        <div class="home-redesign-card__body">
+                          <h3 class="home-redesign-card__title">
+                            <a href="{{ note.url | url }}">{{ note.data.title }}</a>
+                          </h3>
+                          <p class="home-redesign-card__copy">
+                            {% if note.data.excerpt|length %}
+                              {{ note.data.excerpt }}
+                            {% else %}
+                              {{ note.content | truncate(32) | safe }}
+                            {% endif %}
+                          </p>
+                        </div>
+                        <div class="home-redesign-card__meta">{{ note.date | dateFull }}</div>
+                      </article>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+
+                    <br>
+                    <a class="home-redesign-button home-redesign-button--outline" href="/notes">View all notes »</a>
                 </div>
             </section>
 
             <!-- Consultancy section reuses existing content with redesign styling. -->
-            <section id="home-redesign-consultancy" class="home-redesign-section">
-                <div class="home-redesign-container">
-                    <div class="home-redesign-section__intro">
-                        <h2 class="home-redesign-section__title"><span class="home-redesign-accent">Consultancy</span></h2>
-                    </div>
-                    <div class="home-redesign-consultancy">
-                        {% renderFile "./_src/_includes/_parts/home/what-i-do-consultancy.md" %}
-                    </div>
-                    <a class="home-redesign-button home-redesign-button--primary" href="/support">Work with me →</a>
+            <section
+            id="home-redesign-consultancy"
+            class="home-redesign-section home-redesign-section--consultancy"
+            >
+            <div class="home-redesign-container">
+                <h2 class="home-redesign-section__title">Consultancy</h2>
+
+                <p class="home-redesign-home-redesign-section__lede home-redesign-consultancy__subtitle">
+                    <span class="home-redesign-accent">42%</span> of all reported European cyberattacks <span class="home-redesign-accent">targeted mobile</span> in 2025*</span>. Don't become a statistic.
+                </p>
+
+                <ul class="home-redesign-consultancy__list">
+                    <li>Android Enterprise architecture &amp; deployment</li>
+                    <li>EMM / OEM / partner advisory</li>
+                    <li>Custom development &amp; implementation</li>
+                    <li>Training &amp; support</li>
+                </ul>
+
+                <a
+                class="home-redesign-button home-redesign-button--primary"
+                href="/support"
+                >
+                Work with me »
+                </a>
+                <div>
+                    <a class="home-redesign-src" href="https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025">
+                        *Source: ENISA
+                    </a>
                 </div>
+            </div>
             </section>
 
             <!-- Highlights section translated into redesign cards with accurate links. -->
             <section id="home-redesign-highlights" class="home-redesign-section home-redesign-section--muted">
                 <div class="home-redesign-container">
                     <div class="home-redesign-section__intro">
-                        <h2 class="home-redesign-section__title">Reference tools you <span class="home-redesign-accent">won’t find elsewhere</span></h2>
+                        <h2 class="home-redesign-section__title">Invaluable utilities you <span class="home-redesign-accent">won’t find elsewhere</span></h2>
                     </div>
                     {% set highlightCards = [
                         {
-                            name: "Android System Apps Database",
-                            problem: "Which system apps ship with Samsung versus Google builds?",
+                            name: "Android system apps database",
+                            problem: "Find package names, OS/OEM distribution details and more for system apps.",
                             url: "/android/android-system-app-database/"
                         },
                         {
-                            name: "Versions / API Matrix",
+                            name: "Android versions / API matrix",
                             problem: "Understand which API levels map to every Android release.",
                             url: "/android/android-versions/"
                         },
                         {
-                            name: "QR Generator",
-                            problem: "Generate enrolment QR codes without wrestling JSON schemas.",
+                            name: "Provisioning QR/NFC generator",
+                            problem: "Generate enrolment QR codes, ZT DPC extras payloads, and NFC configs without wrestling with code.",
                             url: "/qr-generator/"
                         },
                         {
-                            name: "Device Trust Explorer",
-                            problem: "Get clarity on attestation, integrity checks, and validation flows.",
-                            url: "/android/android-enterprise-device-support/validation-process-and-information/"
+                            name: "Android Enterprise FAQs",
+                            problem: "All the questions I get, answered.",
+                            url: "/android/android-enterprise-faq//"
                         }
                     ] %}
                     <div class="home-redesign-grid home-redesign-grid--two">
@@ -191,7 +244,7 @@
                         <a class="home-redesign-card home-redesign-card--link home-redesign-card--highlight" href="{{ highlight.url }}">
                             <div class="home-redesign-card__top">
                                 <h3 class="home-redesign-card__title">{{ highlight.name }}</h3>
-                                <span class="home-redesign-card__arrow">→</span>
+                                <span class="home-redesign-card__arrow">»</span>
                             </div>
                             <p class="home-redesign-card__copy">{{ highlight.problem }}</p>
                         </a>
