@@ -40,7 +40,7 @@
             <!-- Logo carousel retained from the existing homepage. -->
             <section id="partner_logos" class="home-redesign-section home-redesign-section--muted" aria-label="Partner logos">
                 <div class="home-redesign-container">
-                    <h2 class="home-redesign-section__title home-redesign-section__title--centre">Partners & organisations I’ve worked with 🚀</h2>
+                    <h2 class="home-redesign-section__title home-redesign-section__title--centre">Partners & organisations I’ve worked with</h2>
                     {% include "./_parts/partner-logos.njk" %}
                 </div>
             </section>
@@ -96,7 +96,7 @@
                         {% for project in projectCards %}
                         <article class="home-redesign-card">
                             <div class="home-redesign-card__body">
-                                <h3 class="home-redesign-card__title">{{ project.name }}</h3>
+                                <h3 class="home-redesign-card__title"><a href="{{ project.url }}">{{ project.name }}</a></h3>
                                 <p class="home-redesign-card__copy">{{ project.description }}</p>
                                 <div class="home-redesign-card__tags">
                                     {% for tag in project.tags %}
@@ -119,6 +119,7 @@
                         <div class="home-redesign-section__lede">
                             Opinionated guidance and long-form analysis for Android Enterprise practitioners.
                         </div>
+                        <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts →</a>
                     </div>
                     <div class="home-redesign-grid home-redesign-grid--three">
                         {% for post in collections.blog | reverse %}
@@ -141,7 +142,6 @@
                         {% endif %}
                         {% endfor %}
                     </div>
-                    <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts →</a>
                 </div>
             </section>
 
@@ -154,6 +154,7 @@
                     <div class="home-redesign-consultancy">
                         {% renderFile "./_src/_includes/_parts/home/what-i-do-consultancy.md" %}
                     </div>
+                    <a class="home-redesign-button home-redesign-button--primary" href="/support">Work with me →</a>
                 </div>
             </section>
 
@@ -187,12 +188,12 @@
                     ] %}
                     <div class="home-redesign-grid home-redesign-grid--two">
                         {% for highlight in highlightCards %}
-                        <a class="home-redesign-card home-redesign-card--link" href="{{ highlight.url }}">
-                            <div class="home-redesign-card__body">
+                        <a class="home-redesign-card home-redesign-card--link home-redesign-card--highlight" href="{{ highlight.url }}">
+                            <div class="home-redesign-card__top">
                                 <h3 class="home-redesign-card__title">{{ highlight.name }}</h3>
-                                <p class="home-redesign-card__copy">{{ highlight.problem }}</p>
+                                <span class="home-redesign-card__arrow">→</span>
                             </div>
-                            <span class="home-redesign-card__action">Explore →</span>
+                            <p class="home-redesign-card__copy">{{ highlight.problem }}</p>
                         </a>
                         {% endfor %}
                     </div>
