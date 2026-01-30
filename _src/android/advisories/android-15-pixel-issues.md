@@ -35,7 +35,7 @@ That's a disappointing outcome to a year-long support ticket, that remains open 
 
 </div>
 
-During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. After the [PAI](https://bayton.org/blog/2024/03/play-auto-install/) screen offering Googles suite of applications, setup completes and apps begin installing & updating.
+During the provisioning and setup flow, users are deferred to the setup wizard to add a personal account and set up their device normally. After the [PAI](/blog/2024/03/play-auto-install/) screen offering Googles suite of applications, setup completes and apps begin installing & updating.
 
 On update, both **Pixel Studio** ~~and **Pixel Screenshots**~~ find their way into the managed work profile. This is despite neither app being in the PAI list, they appear to update shortly after setup completes, and the act of updating is what triggers their arrival within the work profile.
 

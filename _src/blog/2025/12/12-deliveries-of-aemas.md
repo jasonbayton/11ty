@@ -32,7 +32,7 @@ Developer verification raises the bar for Play publishers by requiring stronger 
 
 Organisations deploying private apps to their own tenants are currently exempt, but it remains a big change nonetheless, and organisations benefit from the wider boost in authenticity of apps and developers.
 
-I covered off more about developer approval [here](https://bayton.org/blog/2025/08/google-play-developer-verification/).
+I covered off more about developer approval [here](/blog/2025/08/google-play-developer-verification/).
 
 ## **10. Device Trust from Android Enterprise**
 
@@ -42,7 +42,7 @@ Device Trust enables real-time posture and integrity signals (Play Integrity ver
 
 This isn’t a small feature. It fundamentally changes how Android Enterprise fits into modern security architectures.
 
-I wrote more about Device Trust [here](https://bayton.org/blog/2025/10/device-trust-android-enterprise/).
+I wrote more about Device Trust [here](/blog/2025/10/device-trust-android-enterprise/).
 
 ## **9. Custom app management via AMAPI (`CUSTOM` install type)**
 
@@ -50,7 +50,7 @@ One of the most consequential releases of the year, perhaps even since AMAPI beg
 
 AMAPI introduced first-class support for installing and managing custom applications using `installType: CUSTOM`, backed by signing certificate validation (`appSigningKeyFingerprints`) and explicit install and uninstall commands. It allows organisations reliant on line-of-business (LOB) internal applications to ditch any and all wild-west sideloading for a policy-driven, verifiable deployment, which is exactly what enterprise actually needs. All without the need for uploading apps to Google Play.
 
-I wrote more about custom apps [here](https://bayton.org/blog/2025/08/amapi-apk-deployment/).
+I wrote more about custom apps [here](/blog/2025/08/amapi-apk-deployment/).
 
 ## **8. Zero-touch portal audit logs and admin roles**
 
@@ -117,7 +117,7 @@ This finally removed a long-standing enterprise limitation.
 
 In March 2025, Android App Bundle uploads became supported in the Managed Google Play iframe. Private apps finally gained parity with public Play distribution, including split APK delivery and more efficient installations.
 
-I wrote more about AAB [here](https://bayton.org/blog/2025/03/dabbling-with-aab-support-managed-google-play/).
+I wrote more about AAB [here](/blog/2025/03/dabbling-with-aab-support-managed-google-play/).
 
 ## **1. Android’s accelerated platform release cadence**
 

@@ -15,7 +15,7 @@ I'll be honest, I didn't consider this to be much of a big deal. Having caught t
 
 I was wrong. 
 
-Unfortunately, just one version release after they [introduced and subsequently killed off](https://bayton.org/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) work profiles on fully managed devices (I'm still not over it) in the space of a year, Google have opted to once again force through changes with little thought or consideration for the many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation with managed estates.
+Unfortunately, just one version release after they [introduced and subsequently killed off](/blog/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) work profiles on fully managed devices (I'm still not over it) in the space of a year, Google have opted to once again force through changes with little thought or consideration for the many organisations already leveraging Android today, and have done so in a way that harbours frustration and fragmentation with managed estates.
 
 ## What's changed?
 

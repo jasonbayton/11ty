@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Head/meta goes here -->
+        {% include "./_parts/head.njk" %}
+        <!-- // -->
+    </head>
+    <body>
+        <header class="home-redesign-header">
+            <!-- Shared site header for consistent logo/navigation. -->
+            {% include "./_parts/header.njk" %}
+            <!-- // -->
+        </header>
+        <content id="home-redesign">
+            <!-- Hero section mapped from the redesign, using live homepage copy. -->
+            <section class="home-redesign-hero" aria-labelledby="home-redesign-heading">
+                <div class="home-redesign-container">
+                    <div class="home-redesign-hero__content">
+                        <div class="home-redesign-hero__title" id="home-redesign-heading" role="heading" aria-level="1">
+                            <p>
+                                Android Enterprise,<br>
+                                <span class="home-redesign-accent">explained. Built.</span><br>
+                                <span class="home-redesign-accent">Deployed.</span>
+                            </p>
+                        </div>
+                        <div class="home-redesign-hero__subheading">
+                        <p>
+                            Helping organisations understand, adopt, and maximise Android Enterprise for business.
+                        </p>
+                        </div>
+                        <div class="home-redesign-hero__actions">
+                            <a class="home-redesign-button home-redesign-button--primary" href="/blog">Read the blog »</a>
+                            <a class="home-redesign-button home-redesign-button--outline" href="/projects">Explore projects »</a>
+                            <a class="home-redesign-button home-redesign-button--outline" href="/support">Get help »</a>
+                        </div>
+                        <div class="home-redesign-hero__intro">
+                            {{ content | safe }}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Logo carousel retained from the existing homepage. -->
+            <section id="partner_logos" class="home-redesign-section home-redesign-section-partner-logos home-redesign-section--muted" aria-label="Partner logos">
+                <div class="home-redesign-container">
+                    <h2 class="home-redesign-section__title home-redesign-section__title"><span class="home-redesign-accent">Partners & organisations</span> I’ve worked with</h2>
+                    <p></p>
+                    {% include "./_parts/partner-logos.njk" %}
+                </div>
+            </section>
+
+            <!-- Projects section rebuilt as cards with accurate project links. -->
+            <section id="home-redesign-projects" class="home-redesign-section">
+                <div class="home-redesign-container">
+                    <div class="home-redesign-section__intro">
+                        <h2 class="home-redesign-section__title">Projects & <span class="home-redesign-accent">Tools</span></h2>
+                        <div class="home-redesign-section__lede">
+                            {% renderFile "./_src/_includes/_parts/home/projects-subheading.md" %}
+                        </div>
+                    </div>
+                    {% set projectCards = [
+                        {
+                            name: "Managed Settings",
+                            description: "Limited Settings experiences that keep managed Android estates focused and secure.",
+                            tags: ["Project"],
+                            url: "/projects/managed-settings/"
+                        },
+                        {
+                            name: "Package Search",
+                            description: "Inspect Android packages and metadata with an enterprise-first focus.",
+                            tags: ["Project"],
+                            url: "/projects/package-search/"
+                        },
+                        {
+                            name: "Managed Info Hub",
+                            description: "Device companion tooling for kiosk, support, and fleet status insights.",
+                            tags: ["Project"],
+                            url: "/projects/managed-info/"
+                        },
+                        {
+                            name: "Managed Archiver",
+                            description: "Archive SMS, MMS, and RCS for Android Enterprise devices.",
+                            tags: ["Project"],
+                            url: "/projects/managed-archiver/"
+                        },
+                        {
+                            name: "Android Enterprise QR Code Generator",
+                            description: "Generate Android Enterprise enrolment QR codes without manual JSON edits.",
+                            tags: ["Tool"],
+                            url: "/qr-generator/"
+                        }
+                    ] %}
+                    <div class="home-redesign-grid">
+                        {% for project in projectCards %}
+                        <article class="home-redesign-card">
+                            <div class="home-redesign-card__body">
+                                <h3 class="home-redesign-card__title"><a href="{{ project.url }}">{{ project.name }}</a></h3>
+                                <p class="home-redesign-card__copy">{{ project.description }}</p>
+                                <div class="home-redesign-card__tags">
+                                    {% for tag in project.tags %}
+                                    <span class="home-redesign-tag">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <a class="home-redesign-card__action" href="{{ project.url }}">Go »</a>
+                        </article>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <!-- Latest writing uses the existing blog collection to keep links accurate. -->
+            <section id="home-redesign-blog" class="home-redesign-section home-redesign-section--muted">
+                <div class="home-redesign-container">
+                    <div class="home-redesign-section__intro">
+                        <h2 class="home-redesign-section__title">Writing & <span class="home-redesign-accent">analysis</span></h2>
+                        <div class="home-redesign-section__lede">
+                            Opinionated guidance and long-form analysis for Android Enterprise practitioners.
+                        </div>
+                    </div>
+                    <div class="home-redesign-grid home-redesign-grid--three">
+                        {% for post in collections.blog | reverse %}
+                        {% if loop.index0 < 6 %}
+                        <article class="home-redesign-card">
+                            <div class="home-redesign-card__body">
+                                <h3 class="home-redesign-card__title">
+                                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                                </h3>
+                                <p class="home-redesign-card__copy">
+                                    {% if post.data.excerpt|length %}
+                                        {{ post.data.excerpt }}
+                                    {% else %}
+                                        {{ post.content | truncate(32) | safe }}
+                                    {% endif %}
+                                </p>
+                            </div>
+                            <div class="home-redesign-card__meta">{{ post.date | dateFull }}</div>
+                        </article>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <br>
+                    <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts »</a>
+
+                    <br><br>
+
+                    <div class="home-redesign-section__intro">
+                      <h3 class="home-redesign-section__title-small">Latest <span class="home-redesign-accent">notes</span></h3>
+                      <div class="home-redesign-section__lede">
+                        Short-form updates, experiments, and quick references.
+                      </div>
+                    </div>
+
+                    <div class="home-redesign-grid home-redesign-grid--three">
+                      {% for note in collections.notes | reverse %}
+                      {% if loop.index0 < 3 %}
+                      <article class="home-redesign-card">
+                        <div class="home-redesign-card__body">
+                          <h3 class="home-redesign-card__title">
+                            <a href="{{ note.url | url }}">{{ note.data.title }}</a>
+                          </h3>
+                          <p class="home-redesign-card__copy">
+                            {% if note.data.excerpt|length %}
+                              {{ note.data.excerpt }}
+                            {% else %}
+                              {{ note.content | truncate(32) | safe }}
+                            {% endif %}
+                          </p>
+                        </div>
+                        <div class="home-redesign-card__meta">{{ note.date | dateFull }}</div>
+                      </article>
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+
+                    <br>
+                    <a class="home-redesign-button home-redesign-button--outline" href="/notes">View all notes »</a>
+                </div>
+            </section>
+
+            <!-- Consultancy section reuses existing content with redesign styling. -->
+            <section
+            id="home-redesign-consultancy"
+            class="home-redesign-section home-redesign-section--consultancy"
+            >
+            <div class="home-redesign-container">
+                <h2 class="home-redesign-section__title">Consultancy</h2>
+
+                <p class="home-redesign-home-redesign-section__lede home-redesign-consultancy__subtitle">
+                    <span class="home-redesign-accent">42%</span> of all reported European cyberattacks <span class="home-redesign-accent">targeted mobile</span> in 2025*</span>. Don't become a statistic.
+                </p>
+
+                <ul class="home-redesign-consultancy__list">
+                    <li>Android Enterprise architecture &amp; deployment</li>
+                    <li>EMM / OEM / partner advisory</li>
+                    <li>Custom development &amp; implementation</li>
+                    <li>Training &amp; support</li>
+                </ul>
+
+                <a
+                class="home-redesign-button home-redesign-button--primary"
+                href="/support"
+                >
+                Work with me »
+                </a>
+                <div>
+                    <a class="home-redesign-src" href="https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025">
+                        *Source: ENISA
+                    </a>
+                </div>
+            </div>
+            </section>
+
+            <!-- Highlights section translated into redesign cards with accurate links. -->
+            <section id="home-redesign-highlights" class="home-redesign-section home-redesign-section--muted">
+                <div class="home-redesign-container">
+                    <div class="home-redesign-section__intro">
+                        <h2 class="home-redesign-section__title">Invaluable utilities you <span class="home-redesign-accent">won’t find elsewhere</span></h2>
+                    </div>
+                    {% set highlightCards = [
+                        {
+                            name: "Android system apps database",
+                            problem: "Find package names, OS/OEM distribution details and more for system apps.",
+                            url: "/android/android-system-app-database/"
+                        },
+                        {
+                            name: "Android versions / API matrix",
+                            problem: "Understand which API levels map to every Android release.",
+                            url: "/android/android-versions/"
+                        },
+                        {
+                            name: "Provisioning QR/NFC generator",
+                            problem: "Generate enrolment QR codes, ZT DPC extras payloads, and NFC configs without wrestling with code.",
+                            url: "/qr-generator/"
+                        },
+                        {
+                            name: "Android Enterprise FAQs",
+                            problem: "All the questions I get, answered.",
+                            url: "/android/android-enterprise-faq//"
+                        }
+                    ] %}
+                    <div class="home-redesign-grid home-redesign-grid--two">
+                        {% for highlight in highlightCards %}
+                        <a class="home-redesign-card home-redesign-card--link home-redesign-card--highlight" href="{{ highlight.url }}">
+                            <div class="home-redesign-card__top">
+                                <h3 class="home-redesign-card__title">{{ highlight.name }}</h3>
+                                <span class="home-redesign-card__arrow">»</span>
+                            </div>
+                            <p class="home-redesign-card__copy">{{ highlight.problem }}</p>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <!-- Video section restored using existing video embeds. -->
+            <section id="home-redesign-videos" class="home-redesign-section">
+                <div class="home-redesign-container">
+                    <div class="home-redesign-section__intro">
+                        <h2 class="home-redesign-section__title">Videos</h2>
+                    </div>
+                    <div class="home-redesign-videos">
+                        <div class="home-redesign-videos__intro">
+                            {% renderFile "./_src/_includes/_parts/home/vidtext.md" %}
+                        </div>
+                        <div class="home-redesign-videos__featured">
+                            {% renderFile "./_src/_includes/_parts/home/video.md" %}
+                        </div>
+                    </div>
+                    <div class="home-redesign-videos__grid">
+                        <div class="home-redesign-videos__column">
+                            {% renderFile "./_src/_includes/_parts/home/video2.md" %}
+                            {% renderFile "./_src/_includes/_parts/home/video4.md" %}
+                            {% renderFile "./_src/_includes/_parts/home/video6.md" %}
+                        </div>
+                        <div class="home-redesign-videos__column">
+                            {% renderFile "./_src/_includes/_parts/home/video3.md" %}
+                            {% renderFile "./_src/_includes/_parts/home/video5.md" %}
+                            {% renderFile "./_src/_includes/_parts/home/video7.md" %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rogerstone Rangers sponsorship section retained. -->
+            <section id="sponsor_rrjfc" class="home-redesign-section home-redesign-section--muted">
+                <div class="home-redesign-container">
+                    {% renderFile "./_src/_includes/_parts/sponsor_rrjfc.njk" %}
+                </div>
+            </section>
+        </content>
+        <footer>
+            <!-- Footer content reused from the existing homepage. -->
+            {% include "./_parts/footer.njk" %}
+        </footer>
+    </body>
+</html>

@@ -83,7 +83,7 @@ The Shared Device problem has been solved by third parties for years, but we’r
 
 ## 2. Offline system updates
 
-The ability to push system updates from a local/offline location has been one of my most favourite custom DPC features. I don't use it so much today as [I no longer build Android devices](https://bayton.org/blog/2020/12/on-building-android-devices/) (for now), but it remains the case that not every device has a suitable path to Google’s OTA servers. 
+The ability to push system updates from a local/offline location has been one of my most favourite custom DPC features. I don't use it so much today as [I no longer build Android devices](/blog/2020/12/on-building-android-devices/) (for now), but it remains the case that not every device has a suitable path to Google’s OTA servers. 
 
 For air-gapped warehouses or secure labs, we need to point the device to a local file server and say _update from here._ A logistics hub with no internet should be able to stage an OEM-provided OTA on an SMB share and push it overnight via policy, not incite disruption with temporarily moving devices to a different network just to patch.
 

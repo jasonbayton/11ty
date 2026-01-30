@@ -35,7 +35,7 @@ Edit _April 24th_: Manage System Updates, as well as [AMAPI policy docs](https:/
 
 ## What is Project Mainline?
 
-This is covered in [Considerations for Choosing Android in the Enterprise](https://bayton.org/android/considerations-for-choosing-android-in-the-enterprise/), but to quote the article:
+This is covered in [Considerations for Choosing Android in the Enterprise](/android/considerations-for-choosing-android-in-the-enterprise/), but to quote the article:
 
 > ### Project mainline (Google Play System Updates)
 >
