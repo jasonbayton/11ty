@@ -14,7 +14,7 @@ eleventyNavigation:
 Enabling developer options allow users to perform various debugging tasks, including viewing Logs, taking bug reports, etc. It can be very useful in various scenarios and aids tremendously in troubleshooting issues.
 
 <div class="callout">
-<h3>Enterprise management heads-up</h3>
+<div class="callout-heading callout-heading-small">Enterprise management heads-up</div>
 
 USB debugging may be prevented by policy for managed devices. Please consult your administrator/IT team for guidance on enabling developer options described below.
 
