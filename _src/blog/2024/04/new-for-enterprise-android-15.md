@@ -60,9 +60,9 @@ This sounds like it's ticking off a long-desired feature request to fully disabl
 
 ## Vital apps mandate for document previewer
 
-~~I touched on this in a [recent doc](https://bayton.org/android/what-are-vital-apps/). The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.~~
+~~I touched on this in a [recent doc](/android/what-are-vital-apps/). The absence of a document preview application for managed devices has been quite a noisy complaint from organisations for many years, overshadowed only by missing camera &/ gallery applications. None of these apps have been mandated by Google for the fully managed/work profile user experience, and so the common trend is to see them simply not added.~~
 
-~~In fact, when I was [building devices for enterprise](https://bayton.org/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager. Any photos taken could then be viewed in this app.~~
+~~In fact, when I was [building devices for enterprise](/blog/2023/08/product-files-the-doordash-tablet/#the-android-journey), I spent a decent amount of time learning the intricacies of vital apps and considering the use cases of customers to determine what was vital to productivity. I'd always opt to deploy Files By Google as the "Downloads" application, as this killed two birds with one stone - file preview support & a file (download) manager. Any photos taken could then be viewed in this app.~~
 
 ~~But not all OEMs consider this, or really think about enterprise at all, and so it's nice to see Google identifying the gap and plugging it accordingly.. even if it took several years to do so.~~
 

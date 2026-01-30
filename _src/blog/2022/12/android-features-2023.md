@@ -27,7 +27,7 @@ Arguably if organisations struggle to keep up with application updates and the r
 
 But what about breaking changes?
 
-Sometimes apps have to change (at least [once a year](https://bayton.org/blog/2022/11/november-play-policy-changes/) in fact), and do so in a way that isn't compatible with the device or needs of an organisation. No amount of testing will lead to a resolution there; either orgs work with the developer directly to create a bespoke version, or they transition to a new solution for what they're trying to achieve. Both can take more than 90 days from start to solution, leading to potentially significant issues for a managed estate in the interim.
+Sometimes apps have to change (at least [once a year](/blog/2022/11/november-play-policy-changes/) in fact), and do so in a way that isn't compatible with the device or needs of an organisation. No amount of testing will lead to a resolution there; either orgs work with the developer directly to create a bespoke version, or they transition to a new solution for what they're trying to achieve. Both can take more than 90 days from start to solution, leading to potentially significant issues for a managed estate in the interim.
 
 And what about the apps not defined by policy? 
 
@@ -78,7 +78,7 @@ It won't fix the frequency, or number, of updates that some devices receive, and
 ## Ephemeral & multi-user support in AMAPI
 Folks, it's been 4 years since this launched with 9.0, and I still can't define a shared-use use case with AMAPI. 
 
-A feature hyped so well with the 9.0 release, and justifiably so, yet it's barely mentioned today. I believe I last brought it up in [2020](https://bayton.org/blog/2020/01/the-decade-that-redefined-android-in-the-enterprise/#:~:text=ephemeral%20user%20support) in my _Decade that redefined Android in the enterprise_ article, though it's been top of mind several times this year where customers have struggled to deploy a shared use case and AMAPI hasn't offered me the means to support them. 
+A feature hyped so well with the 9.0 release, and justifiably so, yet it's barely mentioned today. I believe I last brought it up in [2020](/blog/2020/01/the-decade-that-redefined-android-in-the-enterprise/#:~:text=ephemeral%20user%20support) in my _Decade that redefined Android in the enterprise_ article, though it's been top of mind several times this year where customers have struggled to deploy a shared use case and AMAPI hasn't offered me the means to support them. 
 
 Work-arounds have included leveraging app data wiping on a regular (manually or API-automated) basis, full regular resets, policy switching (like data wiping but more aggressively) and a lot of generally sub-par accommodations for what is there, but not usable.
 

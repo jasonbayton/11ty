@@ -78,7 +78,7 @@ In their place, applications will need to lean on the new [Connected apps](https
 
 ## SIM management for COPE devices
 
-This has been on my list of feature requests [_for years_](https://bayton.org/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#work-profile-sim-management)! The ability to manage SIM functionality, and direct it into the work profile has been an ecosystem-wide gripe with COPE (and lesser but still valid, BYO) for as long as I can remember.
+This has been on my list of feature requests [_for years_](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#work-profile-sim-management)! The ability to manage SIM functionality, and direct it into the work profile has been an ecosystem-wide gripe with COPE (and lesser but still valid, BYO) for as long as I can remember.
 
 But! It's not what I'd consider fully formed just yet.
 
