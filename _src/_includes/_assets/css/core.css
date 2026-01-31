@@ -953,6 +953,50 @@ content#home-redesign {
 
 /* Consultancy section – bespoke layout (matches Figma) */
 
+.home-redesign-consultancy__content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 60px;
+  align-items: start;
+  margin-bottom: 70px;
+}
+
+.home-redesign-consultancy__logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.home-redesign-consultancy__badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.home-redesign-consultancy__badge-label {
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+}
+
+.home-redesign-consultancy__logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .home-redesign-consultancy__content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .home-redesign-consultancy__logo {
+    justify-self: start;
+  }
+}
+
 .home-redesign-section--consultancy {
   padding-top: 140px;
   padding-bottom: 140px;
@@ -973,7 +1017,7 @@ content#home-redesign {
 .home-redesign-consultancy__list {
   list-style: none;
   padding: 0;
-  margin: 0 0 70px;
+  margin: 0 ;
   display: grid;
   gap: 20px;
 }
