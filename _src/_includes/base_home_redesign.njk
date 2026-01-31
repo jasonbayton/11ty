@@ -115,7 +115,7 @@
                     <div class="home-redesign-section__intro">
                         <h2 class="home-redesign-section__title">Writing & <span class="home-redesign-accent">analysis</span></h2>
                         <div class="home-redesign-section__lede">
-                            Opinionated guidance and long-form analysis for Android Enterprise practitioners.
+                            Opinionated guidance and long-form analysis for Android Enterprise and technology at large.
                         </div>
                     </div>
                     <div class="home-redesign-grid home-redesign-grid--three">
@@ -123,6 +123,7 @@
                         {% if loop.index0 < 6 %}
                         <article class="home-redesign-card">
                             <div class="home-redesign-card__body">
+                                <div class="home-redesign-card__meta">{{ post.date | dateFull }}</div>
                                 <h3 class="home-redesign-card__title">
                                     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                                 </h3>
@@ -134,13 +135,50 @@
                                     {% endif %}
                                 </p>
                             </div>
-                            <div class="home-redesign-card__meta">{{ post.date | dateFull }}</div>
                         </article>
                         {% endif %}
                         {% endfor %}
                     </div>
                     <br>
                     <a class="home-redesign-button home-redesign-button--outline" href="/blog">View all posts »</a>
+
+                    <br><br>
+
+                    <div class="home-redesign-section__intro">
+                      <h3 class="home-redesign-section__title-small">Latest <span class="home-redesign-accent">docs</span></h3>
+                      <div class="home-redesign-section__lede">
+                        Documentation and reference material, kept up to date.
+                      </div>
+                    </div>
+
+                    <div class="home-redesign-grid home-redesign-grid--three">
+                      {% set docsCount = 0 %}
+                      {% for doc in collections.all | reverse %}
+                      {% if (doc.data.type and doc.data.type.includes("documentation")) and (not doc.data.type.includes("archive")) %}
+                      {% if docsCount < 6 %}
+                      <article class="home-redesign-card">
+                        <div class="home-redesign-card__body">
+                          <div class="home-redesign-card__meta">Updated {{ doc.page.date | dateFull }}</div>
+                          <h3 class="home-redesign-card__title">
+                            <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
+                          </h3>
+                          <div class="home-redesign-card__tags">
+                            {% for tag in doc.data.tags %}
+                            {% if (not tag.includes("android-docs")) and (not tag.includes("documentation")) and (not tag.includes("archive")) %}
+                            <a class="home-redesign-tag" href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+                            {% endif %}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      </article>
+                      {% set docsCount = docsCount + 1 %}
+                      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+                    </div>
+
+                    <br>
+                    <a class="home-redesign-button home-redesign-button--outline" href="/android">View all docs »</a>
 
                     <br><br>
 
@@ -156,6 +194,7 @@
                       {% if loop.index0 < 3 %}
                       <article class="home-redesign-card">
                         <div class="home-redesign-card__body">
+                          <div class="home-redesign-card__meta">{{ note.date | dateFull }}</div>
                           <h3 class="home-redesign-card__title">
                             <a href="{{ note.url | url }}">{{ note.data.title }}</a>
                           </h3>
@@ -167,7 +206,6 @@
                             {% endif %}
                           </p>
                         </div>
-                        <div class="home-redesign-card__meta">{{ note.date | dateFull }}</div>
                       </article>
                       {% endif %}
                       {% endfor %}
@@ -259,24 +297,38 @@
                     <div class="home-redesign-section__intro">
                         <h2 class="home-redesign-section__title">Videos</h2>
                     </div>
-                    <div class="home-redesign-videos">
+                    <div class="home-redesign-videos home-redesign-videos--top">
                         <div class="home-redesign-videos__intro">
                             {% renderFile "./_src/_includes/_parts/home/vidtext.md" %}
                         </div>
                         <div class="home-redesign-videos__featured">
-                            {% renderFile "./_src/_includes/_parts/home/video.md" %}
+                            <div class="home-redesign-video-card home-redesign-video-card--featured">
+                                {% renderFile "./_src/_includes/_parts/home/video.md" %}
+                            </div>
                         </div>
                     </div>
                     <div class="home-redesign-videos__grid">
                         <div class="home-redesign-videos__column">
-                            {% renderFile "./_src/_includes/_parts/home/video2.md" %}
-                            {% renderFile "./_src/_includes/_parts/home/video4.md" %}
-                            {% renderFile "./_src/_includes/_parts/home/video6.md" %}
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video2.md" %}
+                            </div>
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video4.md" %}
+                            </div>
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video6.md" %}
+                            </div>
                         </div>
                         <div class="home-redesign-videos__column">
-                            {% renderFile "./_src/_includes/_parts/home/video3.md" %}
-                            {% renderFile "./_src/_includes/_parts/home/video5.md" %}
-                            {% renderFile "./_src/_includes/_parts/home/video7.md" %}
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video3.md" %}
+                            </div>
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video5.md" %}
+                            </div>
+                            <div class="home-redesign-video-card">
+                                {% renderFile "./_src/_includes/_parts/home/video7.md" %}
+                            </div>
                         </div>
                     </div>
                 </div>
