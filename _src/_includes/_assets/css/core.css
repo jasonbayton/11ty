@@ -923,6 +923,11 @@ content#home-redesign {
   color: var(--blood-orange);
 }
 
+.home-redesign-card--highlight:hover .home-redesign-card__title {
+  color: var(--orange);
+  cursor: pointer;
+}
+
 .home-redesign-consultancy {
   font-size: 20px;
   line-height: 1.7;
@@ -1115,7 +1120,6 @@ content#home-redesign {
 
 .home-redesign-video-card:hover {
   border-color: var(--orange);
-  transform: translateY(-2px);
 }
 
 /* Remove the default spacing the embed plugin adds so cards align */
