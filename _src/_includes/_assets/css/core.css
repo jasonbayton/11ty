@@ -1,3 +1,201 @@
+
+
+
+/* Android advisories - card layout */
+
+.android-advisories {
+  display: grid;
+  gap: 18px;
+  padding: 20px 0;
+}
+
+.android-advisory-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--light);
+  border-radius: 16px;
+  padding: 28px;
+  background: var(--background);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.android-advisory-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-1px);
+}
+
+.android-advisory-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.android-advisory-card__date {
+  font-size: 18px;
+  color: color-mix(in srgb, var(--text) 55%, transparent);
+}
+
+.android-advisory-card__badge {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--orange);
+  color: var(--bright);
+}
+
+.android-advisory-card__title {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+
+.android-advisory-card__excerpt {
+  font-size: 18px;
+  line-height: 1.55;
+  color: color-mix(in srgb, var(--text) 70%, transparent);
+}
+
+.android-advisories__actions {
+  padding-top: 6px;
+  justify-self: end;
+}
+
+@media (max-width: 900px) {
+  .android-advisory-card {
+    padding: 22px;
+    border-radius: 14px;
+  }
+
+  .android-advisory-card__title {
+    font-size: 22px;
+  }
+}
+/* Android docs - card grid */
+
+.android-docs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  padding: 20px 0 30px;
+}
+
+.android-doc-card {
+  border: 1px solid var(--light);
+  border-radius: 16px;
+  padding: 24px;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.android-doc-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-1px);
+}
+
+.android-doc-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.android-doc-card__flag {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--subtle-bg);
+  border: 1px solid var(--light);
+  color: color-mix(in srgb, var(--text) 75%, transparent);
+}
+
+.android-doc-card__title {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.15;
+}
+
+.android-doc-card__desc {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.55;
+  color: color-mix(in srgb, var(--text) 65%, transparent);
+}
+
+.android-doc-card__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.android-doc-card__links li a {
+  text-decoration: none;
+}
+
+.android-doc-card__links li a::before {
+  content: "»";
+  padding-right: 10px;
+}
+
+.android-doc-card__links li a:hover {
+  color: var(--orange);
+}
+
+.android-doc-card__footer {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.android-doc-card__count {
+  font-size: 16px;
+  color: color-mix(in srgb, var(--text) 55%, transparent);
+}
+
+.android-doc-card__viewall {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.android-doc-card__viewall:hover {
+  color: var(--blood-orange);
+}
+
+@media (max-width: 1800px) {
+  .android-docs-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .android-docs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .android-doc-card {
+    border-radius: 14px;
+    padding: 20px;
+  }
+
+  .android-doc-card__title {
+    font-size: 22px;
+  }
+}
 /*  core */
 
 .material-symbols-outlined {
@@ -1810,7 +2008,7 @@ section#sponsor_rrjfc {
 
 .post-title {
   margin: 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .post-meta {

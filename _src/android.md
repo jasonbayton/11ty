@@ -22,58 +22,92 @@ Whether you’re just discovering Android Enterprise or are looking to boost exi
 
 ## Advisories
 
-<div class="callout">
+<div class="android-advisories">
 
 {% for post in collections['Advisories'] | reverse %}
-{% if loop.index0 < 5 %}
+{% if loop.index0 < 3 %}
 
-<div class="post-block">
-<div class="post-body">
-
-
-### [{{ post.data.title }}]({{ post.url | url }})
-
-{% if post.data.excerpt|length %}
-<div class="post-summary">
-<i>{{ post.date | dateFull }}</i> | {{ post.data.excerpt }}
-</div>
+{% set advisoryLabel = "ADVISORY" %}
+{% if post.data.advisory_type %}
+  {% set advisoryLabel = post.data.advisory_type | upper %}
+{% else %}
+  {% for t in post.data.tags %}
+    {% if t and (t | lower) == "issue" %}
+      {% set advisoryLabel = "ISSUE" %}
+    {% elif t and (t | lower) == "notice" %}
+      {% set advisoryLabel = "NOTICE" %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
-</div>
-</div>
+<a class="android-advisory-card" href="{{ post.url | url }}">
+  <div class="android-advisory-card__meta">
+    <span class="android-advisory-card__date">{{ post.date | dateFull }}</span>
+    <!--span class="android-advisory-card__badge">{{ advisoryLabel }}</span-->
+  </div>
+  <div class="android-advisory-card__title">{{ post.data.title }}</div>
+  {% if post.data.excerpt and post.data.excerpt | length %}
+  <div class="android-advisory-card__excerpt">{{ post.data.excerpt }}</div>
+  {% endif %}
+</a>
 
 {% endif %}
 {% endfor %}
 
-<div id="android_viewmore" class="post-title">
-<a class="button button-small" href="/android/advisories">more »</a>
+<div class="android-advisories__actions">
+  <a class="button button-small" href="/android/advisories">more »</a>
 </div>
+
 </div>
 
 ## Docs
 
-<div id="android_doc_grid">
+<div class="android-docs-grid">
+
+{% set docCategoryMeta = {
+  "Fundamentals": { "desc": "Core concepts and getting started guides", "flag": "Popular" },
+  "Device Management": { "desc": "Provisioning, enrolment, and device lifecycle" },
+  "Work Profiles": { "desc": "BYOD and work profile management" },
+  "App Management": { "desc": "Deploy and manage enterprise applications" },
+  "Security & Compliance": { "desc": "Policies, encryption, and security features" },
+  "Enterprise Solutions": { "desc": "Large-scale deployment strategies", "flag": "New" }
+} %}
+
 {% for tag in android_tags %}
-<div class="android-doc-grid-group">
-
-## {{ tag.name }}
-
 {% set taglist = collections[ tag.name ] | eleventyNavigation %}
-<div class="android-topic">
-<ul>
+{% set tagCount = taglist | length %}
+{% set meta = docCategoryMeta[tag.name] %}
+
+<article class="android-doc-card">
+<div class="android-doc-card__header">
+
+{% if meta and meta.flag %}
+  <span class="android-doc-card__flag">{{ meta.flag }}</span>
+{% endif %}
+</div>
+
+<h3 class="android-doc-card__title">{{ tag.name }}</h3>
+
+{% if meta and meta.desc %}
+<p class="android-doc-card__desc">{{ meta.desc }}</p>
+{% endif %}
+
+<ul class="android-doc-card__links">
 {% for post in taglist %}
 {% if loop.index0 < 4 %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
+
+<div class="android-doc-card__footer">
+<span class="android-doc-card__count">{{ tagCount }} article{% if tagCount != 1 %}s{% endif %}</span>
+<a class="android-doc-card__viewall" href="/tags/{{ tag.name | slugify }}">View all</a>
 </div>
-<div id="android_viewmore">
-<a class="button button-small" href="/tags/{{ tag.name | slugify }}">more »</a>
-</div>
-</div>
+</article>
+
 {% endfor %}
-<br>
+
 </div>
 
 ## Something missing?
