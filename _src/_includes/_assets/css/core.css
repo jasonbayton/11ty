@@ -722,7 +722,7 @@ content#home-redesign {
 }
 
 .home-redesign-hero__title {
-  font-size: clamp(44px, 5.6vw, 100px);
+  font-size: clamp(60px, 5.6vw, 100px);
   line-height: 1.04;
   margin: 0;
   font-weight: 800;
