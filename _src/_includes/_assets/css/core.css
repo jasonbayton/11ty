@@ -707,6 +707,7 @@ content#home {
     font-size: 22px;
   }
 }
+
 /* Android docs - card grid */
 
 .android-docs-grid {
@@ -832,10 +833,6 @@ content#home {
 
 /* Homepage redesign layout */
 
-.home-redesign-header {
-  /* Blank */
-}
-
 content#home-redesign {
   display: block;
   max-width: 100%;
@@ -891,7 +888,6 @@ content#home-redesign {
   line-height: 1.6;
   margin: 0;
   max-width: 900px;
-  color: color-mix(in srgb, var(--text) 70%, transparent);
 }
 
 .home-redesign-section__lede p {
@@ -929,7 +925,6 @@ content#home-redesign {
 .home-redesign-hero__subheading {
   font-size: 28px;
   line-height: 1.6;
-  color: color-mix(in srgb, var(--text) 65%, transparent);
   max-width: 900px;
   padding: 20px 0;
 }
@@ -1041,7 +1036,6 @@ content#home-redesign {
   font-size: 18px;
   line-height: 1.55;
   margin: 0;
-  color: color-mix(in srgb, var(--text) 70%, transparent);
 }
 
 .home-redesign-card__tags {
@@ -1110,7 +1104,6 @@ content#home-redesign {
 
 .home-redesign-card--highlight .home-redesign-card__arrow {
   font-weight: 700;
-  color: color-mix(in srgb, var(--text) 55%, transparent);
 }
 
 .home-redesign-card--highlight:hover .home-redesign-card__arrow {
