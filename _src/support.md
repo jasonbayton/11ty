@@ -12,8 +12,8 @@ layout: base.njk
   <div class="impactful-layout">
     <!-- Left column -->
     <div class="impactful-hero">
-      <h2 class="page-subtitle">Modern device management <span class="highlight">made simple</span>.</h2>
-      <p>From strategy to development, deployment to in-life support, I provide expert Android Enterprise support & consultancy for organisations of all sizes. Let’s bring your <span class="highlight">vision to life</span> together.</p>
+      <h2 class="page-subtitle">Modern Android management <span class="highlight">made simple</span>.</h2>
+      <p>From strategy to development, deployment to in-life support, I provide expert Android training, support, & consultancy for organisations of all sizes. Let’s bring your <span class="highlight">vision to life</span> together.</p>
     </div>
     <!-- Right column -->
     <div class="contact-form">
