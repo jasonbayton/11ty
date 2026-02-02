@@ -18,7 +18,7 @@ Devices managed using Android Enterprise may restrict the ability to install or 
 
 **What causes this restriction?**
 
-An administrator has enabled one or both of the following AMAPI controls:
+An administrator has enabled one or both of the following restrictions:
 
 - Disallow app installation  
 - Disallow app uninstallation  
