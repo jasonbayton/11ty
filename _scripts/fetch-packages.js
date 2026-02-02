@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config(); // Load environment variables from .env file
 
 async function fetchAndSavePackages() {
-    const devicesUrl = 'https://ping-dir.projects.bayton.org/items/device_packages?limit=-1';
+    const devicesUrl = 'https://ping.bayton.org/items/device_packages?limit=-1';
     const token = process.env.PINGDIR_API;
     const outputPath = path.join(__dirname, '../_src/_data', 'packages.json');
 
