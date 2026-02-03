@@ -2279,17 +2279,23 @@ footer {
 .callout {
     padding: 20px;
     margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 20px 10px 10px 50px;
     box-sizing: border-box;
     color: var(--brand-text);
-    background-color: var(--subtle-bg);
+    /* background-color: var(--subtle-bg); */
+    border: solid var(--light);
+    border-width: 2px 2px 2px 10px;
+
 
   &.callout-orange {
-      background-color: var(--orange);
-      color: #ffffff;
+      border-color: var(--orange);
+
+    & .callout-heading {
+      color: var(--orange);
+    }
 
     & .callout-heading::after {
-      background-color: #ffffff;
+      background-color: var(--orange);
     }
 
     & .callout-heading::before {
@@ -2297,53 +2303,37 @@ footer {
     }
 
     & .callout-heading-small::after {
-      background-color: #ffffff;
-    }
-
-    & code {
-      color: var(--bright);
-    }
-
-    & .responsive-table-wrapper td {
-      background-color: #4e0000!important;
-    }
-
-    & .responsive-table-wrapper th {
-      color: #ffffff;
+      background-color: var(--orange);
     }
   }
 
   &.callout-blue {
-    background-color: var(--main-blue);
-    color: #ffffff;
+    border-color: var(--main-blue);
+
+    & .callout-heading {
+      color: var(--main-blue);
+    }
 
     & .callout-heading::after {
-      background-color: #ffffff;
+      background-color: var(--main-blue);
     }
 
     & .callout-heading-small::after {
-      background-color: #ffffff;
+      background-color: var(--main-blue);
     }
 
-    & code {
-      color: var(--light);
-    }
 
-    & .responsive-table-wrapper td {
-      background-color: #003b55!important;
-    }
-
-    & .responsive-table-wrapper th {
-      color: #ffffff;
-    }
   }
 
   &.callout-red {
-    background-color: var(--main-red);
-    color: #ffffff;
+    border-color: var(--main-red);
+
+    & .callout-heading {
+      color: var(--main-red);
+    }
 
     & .callout-heading::after {
-      background-color: #ffffff;
+      background-color: var(--main-red);
     }
     
     & .callout-heading::before {
@@ -2351,50 +2341,29 @@ footer {
     }
 
     & .callout-heading-small::after {
-      background-color: #ffffff;
-    }
-
-    & code {
-      color: var(--light);
-    }
-
-    & .responsive-table-wrapper td {
-      background-color: #4e0000!important;
-    }
-
-    & .responsive-table-wrapper th {
-      color: #ffffff;
+      background-color: var(--main-red);
     }
   }
 
   &.callout-green {
-    background-color: var(--main-green);
-    color: #ffffff;
+    border-color: var(--main-green);
+
+    & .callout-heading {
+      color: var(--main-green);
+    }
 
     & .callout-heading::after {
-      background-color: #ffffff;
+      background-color: var(--main-green);
     }
 
     & .callout-heading-small::after {
-      background-color: #ffffff;
-    }
-
-    & code {
-      color: var(--light);
-    }
-
-    & .responsive-table-wrapper td {
-      background-color: #086a00!important;
-    }
-
-    & .responsive-table-wrapper th {
-      color: #ffffff;
+      background-color: var(--main-green);
     }
   }
 
   & .callout-heading {
       font-size: 30px;
-      font-weight: 300;
+      font-weight: 600;
       width: fit-content;
 
     &::after {
