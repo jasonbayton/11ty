@@ -1,5 +1,5 @@
 ---
-title: "Why can’t I install or uninstall apps on my device?"
+title: "Why can’t I install or uninstall apps on my managed device?"
 published: '2026-02-02'
 status: publish
 author: 'Jason Bayton'
@@ -14,6 +14,9 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 21000
 --- 
+
+There are many reasons an application may not be able to install on a device, from compatibility to environmental issues, but this document focuses on policy-induced issues.
+
 Devices managed using Android Enterprise may restrict the ability to install or uninstall applications.
 
 **What causes this restriction?**
