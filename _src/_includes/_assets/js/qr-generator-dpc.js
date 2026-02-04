@@ -2,6 +2,106 @@ const dpcData = (typeof window !== 'undefined' && window.DPC_DATA) ? window.DPC_
 const preConfiguredDPCs = (dpcData && dpcData.preConfiguredDPCs) ? dpcData.preConfiguredDPCs : {};
 const vendorProfiles = (dpcData && dpcData.vendorProfiles) ? dpcData.vendorProfiles : {};
 
+const importJsonElement = document.getElementById('import_json');
+const importApplyButton = document.getElementById('import_apply');
+const importClearButton = document.getElementById('import_clear');
+
+const clearGeneratedOutputs = () => {
+    const canvas = document.getElementById('generated_qr');
+    const download = document.getElementById('download_qr');
+    const json = document.getElementById('json_code');
+    const nfc = document.getElementById('nfc_code');
+    const nfcText = document.getElementById('nfc_code_text');
+
+    if (canvas) {
+        const ctx = canvas.getContext && canvas.getContext('2d');
+        if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+        canvas.style.display = 'none';
+    }
+
+    if (download) download.innerHTML = '';
+    if (json) json.innerHTML = '';
+
+    if (nfcText) nfcText.textContent = '';
+    if (nfc) nfc.style.display = 'none';
+};
+
+const parseImportedJson = (raw, errorMessageElement) => {
+    const trimmed = (raw || '').trim();
+    if (!trimmed) return { payload: null, invalid: false };
+
+    try {
+        const parsed = JSON.parse(trimmed);
+        if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+            if (errorMessageElement) errorMessageElement.innerText = 'Imported JSON must be a top-level object.';
+            return { payload: null, invalid: true };
+        }
+        return { payload: parsed, invalid: false };
+    } catch (e) {
+        if (errorMessageElement) errorMessageElement.innerText = 'Invalid JSON in Import existing JSON.';
+        return { payload: null, invalid: true };
+    }
+};
+
+const pruneProvisioningPayload = (input) => {
+    if (input === null || input === undefined) return undefined;
+
+    if (typeof input !== 'object') {
+        if (typeof input === 'string') {
+            const trimmed = input.trim();
+            return trimmed === '' ? undefined : trimmed;
+        }
+        if (typeof input === 'boolean') {
+            return input === true ? true : undefined; // drop false
+        }
+        return input;
+    }
+
+    if (Array.isArray(input)) {
+        const pruned = input
+            .map(pruneProvisioningPayload)
+            .filter((v) => v !== undefined);
+        return pruned.length ? pruned : undefined;
+    }
+
+    const out = {};
+    Object.entries(input).forEach(([k, v]) => {
+        const pv = pruneProvisioningPayload(v);
+        if (pv === undefined) return;
+        out[k] = pv;
+    });
+
+    return Object.keys(out).length ? out : undefined;
+};
+
+const populateFormFromPayload = (payload) => {
+    if (!payload || typeof payload !== 'object') return;
+
+    Object.entries(payload).forEach(([key, value]) => {
+        const field = document.querySelector(`[data-qr-key="${key}"]`);
+        if (!field) return;
+
+        // Extras bundle textarea - store as formatted JSON if object
+        if (field.tagName === 'TEXTAREA') {
+            if (value && typeof value === 'object') {
+                field.value = JSON.stringify(value, null, 2);
+            } else {
+                field.value = String(value);
+            }
+            return;
+        }
+
+        // Checkbox fields
+        if (field.hasAttribute('data-qr-bool')) {
+            field.checked = Boolean(value);
+            return;
+        }
+
+        // Standard inputs/selects
+        field.value = (value === undefined || value === null) ? '' : String(value);
+    });
+};
+
 const resolveSelectedVendorToPayload = (vendorKey) => {
     const profile = vendorProfiles[vendorKey];
     const dpcKey = profile && profile.dpcKey ? profile.dpcKey : vendorKey;
@@ -33,6 +133,31 @@ if (dpcSelectorElement) {
     console.warn("Element #dpc_selector not found in the DOM.");
 }
 
+// Import JSON actions
+if (importApplyButton) {
+    importApplyButton.addEventListener('click', () => {
+        const errorMessageElement = document.getElementById('error_message');
+        if (errorMessageElement) errorMessageElement.innerText = '';
+
+        if (!importJsonElement) return;
+
+        const { payload, invalid } = parseImportedJson(importJsonElement.value, errorMessageElement);
+        if (invalid || !payload) return;
+
+        populateFormFromPayload(payload);
+    });
+}
+
+if (importClearButton) {
+    importClearButton.addEventListener('click', () => {
+        const errorMessageElement = document.getElementById('error_message');
+        if (errorMessageElement) errorMessageElement.innerText = '';
+
+        if (importJsonElement) importJsonElement.value = '';
+        clearGeneratedOutputs();
+    });
+}
+
 const collectProvisioningData = () => {
     const qrElements = document.querySelectorAll('[data-qr-key]');
     let qrData = {}; // Start with an empty object
@@ -41,6 +166,18 @@ const collectProvisioningData = () => {
     const errorMessageElement = document.getElementById('error_message');
     if (errorMessageElement) {
         errorMessageElement.innerText = ''; // Clear previous error messages
+    }
+
+    // If advanced import JSON is provided, it takes precedence over form inputs.
+    if (importJsonElement) {
+        const { payload, invalid } = parseImportedJson(importJsonElement.value, errorMessageElement);
+        if (invalid) {
+            return { qrData: null, errorMessageElement, invalidInputDetected: true };
+        }
+        if (payload) {
+            const pruned = pruneProvisioningPayload(payload);
+            return { qrData: pruned || {}, errorMessageElement, invalidInputDetected: false };
+        }
     }
 
     let invalidInputDetected = false; // Flag to prevent output generation if errors are found
@@ -67,12 +204,17 @@ const collectProvisioningData = () => {
             }
 
             try {
-                const cleanedValue = value
-                    .replace(/(\r\n|\n|\r)/gm, '')
-                    .replace(/^\{|\}$/g, '');
+                const normalised = value.trim();
 
-                const parsedValue = JSON.parse(`{${cleanedValue}}`);
+                // Accept either a full JSON object ({ ... }) or the existing fragment format ("k":"v", ...)
+                const looksLikeObject = normalised.startsWith('{') && normalised.endsWith('}');
 
+                const parsedValue = looksLikeObject
+                    ? JSON.parse(normalised)
+                    : JSON.parse(`{${normalised
+                        .replace(/(\r\n|\n|\r)/gm, '')
+                        .replace(/^\{|\}$/g, '')
+                    }`);
                 // Only assign if the parsed value has content
                 if (Object.keys(parsedValue).length > 0) {
                     qrData[key] = parsedValue;

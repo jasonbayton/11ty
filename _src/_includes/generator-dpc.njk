@@ -61,6 +61,40 @@
                         "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM":"I5YvS0O5hXY46mb01BlRjq4oJJGs2kuUcHvVkAPEXlg",
                         "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://play.google.com/managed/downloadManagingApp?identifier=setup",
                 -->
+                <div class="generator-bg">
+                    
+                    <details id="json_import" >
+                        <summary><b>Import existing JSON</b> <span class="label label-orange">BETA</span></summary>
+                        <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0">
+                            <div class="left">
+                                
+                                <p class="post-meta-condensed">Paste a complete provisioning payload JSON. You can apply it to the form, or generate directly from it.</p>
+
+                                <div class="field-qr">
+                                    <div class="field-title">
+                                        <label for="import_json">Provisioning JSON</label>
+                                    </div>
+                                    <textarea
+                                        id="import_json"
+                                        class="input-text"
+                                        placeholder='{"android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "..."}'></textarea>
+                                </div>             
+                            </div>
+                            <div class="dpc-options-right">
+                                <div id="token_description" class="field-description">
+                                    <details class="details-desktop">
+                                        <summary><b>Description</b></summary>
+                                        {% renderFile "_src/_includes/_parts/generator/import-intro.md" %}
+                                    </details>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="field-qr text-align-right">
+                            <a class="button button-small" id="import_apply">Populate form</a>
+                            <a class="button button-small" id="import_clear">Clear</a>
+                        </div>
+                    </details>
+                </div>
 
                 <div class="grid grid-column-2-explicit grid-column-mobile-1-explicit grid-gap-h-30 grid-gap-mobile-h-0 generator-bg">
                     <div class="dpc-options-left field">
