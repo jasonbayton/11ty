@@ -2412,6 +2412,7 @@ footer {
 
   &.callout-small {
       border: 0;
+      border-radius: 10px;
       padding: 3px;
       background-color: var(--dark);
       color: var(--bright);
