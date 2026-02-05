@@ -63,38 +63,54 @@
                             name: "Managed Settings",
                             description: "Limited Settings experiences that keep managed Android estates focused and secure.",
                             tags: ["Products"],
-                            url: "/projects/managed-settings/"
+                            url: "/projects/managed-settings/",
+                            icon: "./_assets/img/bayton_logos/dynamic/ms_dynamic_icon.svg"
                         },
                         {
                             name: "Package Search",
                             description: "Inspect Android packages and metadata with an enterprise-first focus.",
                             tags: ["Products"],
-                            url: "/projects/package-search/"
+                            url: "/projects/package-search/",
+                            icon: "./_assets/img/bayton_logos/dynamic/ps_dynamic_icon.svg"
                         },
                         {
                             name: "Managed Info Hub",
-                            description: "Device companion tooling for kiosk, support, and fleet status insights.",
+                            description: "Device companion tooling for kiosk, support, development, and fleet status insights.",
                             tags: ["Products"],
-                            url: "/projects/splash/mi"
+                            url: "/projects/splash/mi",
+                            icon: "./_assets/img/bayton_logos/dynamic/mi_dynamic_icon.svg"
                         },
                         {
                             name: "Managed Archiver",
                             description: "Archive SMS, MMS, and RCS for Android Enterprise devices.",
                             tags: ["Products"],
-                            url: "/projects/managed-archiver/"
+                            url: "/projects/managed-archiver/",
+                            icon: "./_assets/img/bayton_logos/dynamic/ma_dynamic_icon.svg"
                         },
                         {
                             name: "Android Enterprise QR Code Generator",
                             description: "Generate Android Enterprise enrolment QR codes without manual JSON edits.",
                             tags: ["Tools"],
-                            url: "/qr-generator/"
+                            url: "/qr-generator/",
+                            icon: "./_assets/img/bayton_logos/dynamic/qr_dynamic_icon.svg"
                         }
                     ] %}
                     <div class="home-redesign-grid">
                         {% for project in projectCards %}
                         <article class="home-redesign-card">
                             <div class="home-redesign-card__body">
-                                <h3 class="home-redesign-card__title"><a href="{{ project.url }}">{{ project.name }}</a></h3>
+                                <div class="home-redesign-card__header">
+                                    {% if project.icon %}
+                                        <span class="home-redesign-card__icon" aria-hidden="true">
+                                            {% include project.icon %}
+                                        </span>
+                                    {% endif %}
+                                    <h3 class="home-redesign-card__title">
+                                        <a href="{{ project.url }}">
+                                            {{ project.name }}
+                                        </a>
+                                    </h3>
+                                </div>
                                 <p class="home-redesign-card__copy">{{ project.description }}</p>
                                 <div class="home-redesign-card__tags">
                                     {% for tag in project.tags %}

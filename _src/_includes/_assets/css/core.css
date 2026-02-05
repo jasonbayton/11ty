@@ -843,6 +843,30 @@ content#home {
 
 /* Homepage redesign layout */
 
+.home-redesign-card__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Icon is optional – layout should not break if missing */
+.home-redesign-card__icon {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.home-redesign-card__icon svg,
+.home-redesign-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 content#home-redesign {
   display: block;
   max-width: 100%;
