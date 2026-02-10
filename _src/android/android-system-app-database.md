@@ -14,6 +14,7 @@ eleventyNavigation:
   order: 10000
 ---
 
+<script>document.documentElement.classList.add('has-js');</script>
 <script>
 window.deviceAppMatrix = {{ deviceAppMatrix | dump | safe }};
 window.packages = {{ packages | dump | safe }};
@@ -74,7 +75,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 <th>User-facing</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="no-js-table">
 {% for pkg, entry in packages %}
 <tr>
   <td>{{ entry.appName or pkg }}</td>

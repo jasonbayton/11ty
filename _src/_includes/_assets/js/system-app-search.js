@@ -8,49 +8,60 @@ function uniqueCaseInsensitive(values) {
   return Array.from(seen);
 }
 
-async function buildTable() {
-  const tableBody = document.querySelector('#appTable tbody');
+function buildTable() {
+  const table = document.getElementById('appTable');
   const searchInput = document.getElementById('searchInput');
   const filterMake = document.getElementById('filterMake');
   const filterModel = document.getElementById('filterModel');
   const filterOS = document.getElementById('filterOS');
 
-    // Update the "across N OEMs" badge if present
+  // Update the "across N OEMs" badge if present
   const oemCountSpan = document.getElementById('oemCount');
   if (oemCountSpan && Array.isArray(window.deviceAppMatrix)) {
     const oemCount = uniqueCaseInsensitive(window.deviceAppMatrix.map(d => d.make)).length;
     oemCountSpan.textContent = oemCount;
   }
 
-  // Build rows from window.packages, linking to table elements
+  // Create the JS-driven tbody, replacing the server-rendered one
+  const tbody = document.createElement('tbody');
+  const noJsTbody = table.querySelector('.no-js-table');
+  if (noJsTbody) noJsTbody.remove();
+  table.appendChild(tbody);
+
+  // Build row data from window.packages (no DOM matching)
   const rows = [];
   for (const [pkg, entry] of Object.entries(window.packages)) {
-    // Create comma-separated lists as rendered in the table
-    const makes = Array.from(new Set(entry.devices.map(d => d.make))).join(', ');
-    const models = Array.from(new Set(entry.devices.map(d => d.model))).join(', ');
-    const oses = Array.from(new Set(entry.devices.map(d => d.os))).join(', ');
+    const makesArr = [...new Set(entry.devices.map(d => d.make))];
+    const modelsArr = [...new Set(entry.devices.map(d => d.model))];
+    const osesArr = [...new Set(entry.devices.map(d => d.os))];
     const alsoKnownBy = entry.additionalLocales && entry.additionalLocales.length
       ? entry.additionalLocales.map(alt => alt.name).join(', ')
       : '';
 
-    // Find the TR element for rendering
-    const tr = Array.from(tableBody.children).find(tr =>
-      tr.children[1] && tr.children[1].textContent.replace(/`/g,'').trim() === pkg
-    );
-
     rows.push({
-      element: tr,
       packageName: pkg,
-      appName: entry.appName,
-      make: makes,
-      model: models,
-      os: oses,
-      alsoKnownBy: alsoKnownBy,
-      userFacing: entry.userFacing ? entry.userFacing.toString().toLowerCase() : ''
+      appName: entry.appName || pkg,
+      makesArr,
+      modelsArr,
+      osesArr,
+      make: makesArr.join(', '),
+      model: modelsArr.join(', '),
+      os: osesArr.join(', '),
+      alsoKnownBy,
+      userFacing: entry.userFacing ? 'true' : ''
     });
   }
 
-  function updateFilters(activeFilter = null) {
+  // Pre-compute lowercase values for search
+  const searchableRows = rows.map(row => ({
+    row,
+    searchText: [
+      row.packageName, row.appName, row.make, row.model,
+      row.os, row.alsoKnownBy, row.userFacing
+    ].join(' ').toLowerCase()
+  }));
+
+  function updateFilters(activeFilter) {
     const selectedMake = filterMake.value;
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
@@ -76,35 +87,43 @@ async function buildTable() {
 
     if (activeFilter !== 'make') {
       filterMake.innerHTML = `<option value="">All OEMs</option>` +
-        makes.map(m => `<option value="${m}" ${m === selectedMake ? 'selected' : ''}>${m}</option>`).join('');
+        makes.map(m => `<option value="${escapeHtml(m)}" ${m === selectedMake ? 'selected' : ''}>${escapeHtml(m)}</option>`).join('');
     }
     if (activeFilter !== 'model') {
       filterModel.innerHTML = `<option value="">All Models</option>` +
-        models.map(m => `<option value="${m}" ${m === selectedModel ? 'selected' : ''}>${m}</option>`).join('');
+        models.map(m => `<option value="${escapeHtml(m)}" ${m === selectedModel ? 'selected' : ''}>${escapeHtml(m)}</option>`).join('');
     }
     if (activeFilter !== 'os') {
       filterOS.innerHTML = `<option value="">All OS</option>` +
-        oses.map(o => `<option value="${o}" ${o === selectedOS ? 'selected' : ''}>${o}</option>`).join('');
+        oses.map(o => `<option value="${escapeHtml(o)}" ${o === selectedOS ? 'selected' : ''}>${escapeHtml(o)}</option>`).join('');
     }
   }
 
-  [filterMake, filterModel, filterOS, searchInput].forEach(el => {
-    ['input', 'change', 'keyup'].forEach(evt => {
-      el.addEventListener(evt, () => {
-        updateFilters();
-        currentPage = 1; // Reset to page 1 on filter/search change
-        itemsPerPage = itemsPerPageSelect.value === 'all' ? Infinity : parseInt(itemsPerPageSelect.value);
-        render();
-      });
+  // Debounce for search input
+  let searchTimeout;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      currentPage = 1;
+      render();
+    }, 150);
+  });
+
+  // Filters only need 'change' event
+  const filterMap = [[filterMake, 'make'], [filterModel, 'model'], [filterOS, 'os']];
+  filterMap.forEach(([el, name]) => {
+    el.addEventListener('change', () => {
+      updateFilters(name);
+      currentPage = 1;
+      render();
     });
   });
 
   let currentPage = 1;
-  let itemsPerPageSelect = document.getElementById('itemsPerPage');
-  let itemsPerPage = itemsPerPageSelect?.value === 'all' ? Infinity : parseInt(itemsPerPageSelect?.value || '100');
+  const itemsPerPageSelect = document.getElementById('itemsPerPage');
+  let itemsPerPage = itemsPerPageSelect?.value === 'all' ? Infinity : parseInt(itemsPerPageSelect?.value || '50');
 
   const paginationContainer = document.getElementById('pagination');
-  // const itemsPerPageSelect = document.getElementById('itemsPerPage'); // Already declared above
 
   function renderPagination(totalItems) {
     const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -129,7 +148,10 @@ async function buildTable() {
     paginationContainer.querySelectorAll('a[data-page]').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
-        currentPage = parseInt(btn.dataset.page);
+        const page = parseInt(btn.dataset.page);
+        const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+        if (isNaN(page) || page < 1 || page > totalPages) return;
+        currentPage = page;
         render();
       });
     });
@@ -143,41 +165,44 @@ async function buildTable() {
     });
   }
 
+  function escapeHtml(str) {
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
   function render() {
     const q = searchInput.value.toLowerCase();
     const selectedMake = filterMake.value;
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
-    const filteredRows = rows.filter(row => {
-      const matches =
-        (!q ||
-        row.packageName.toLowerCase().includes(q) ||
-        row.appName.toLowerCase().includes(q) ||
-        row.make.toLowerCase().includes(q) ||
-        row.model.toLowerCase().includes(q) ||
-        row.os.toLowerCase().includes(q) ||
-        row.alsoKnownBy.toLowerCase().includes(q) ||
-          row.userFacing.toLowerCase().includes(q)) &&
-        (!selectedMake || row.make.split(',').map(s => s.trim()).includes(selectedMake)) &&
-        (!selectedModel || row.model.includes(selectedModel)) &&
-        (!selectedOS || row.os.split(',').map(s => s.trim()).includes(selectedOS));
-
-      return matches;
+    // Filter rows
+    const filteredRows = searchableRows.filter(({ row, searchText }) => {
+      return (!q || searchText.includes(q)) &&
+        (!selectedMake || row.makesArr.includes(selectedMake)) &&
+        (!selectedModel || row.modelsArr.includes(selectedModel)) &&
+        (!selectedOS || row.osesArr.includes(selectedOS));
     });
 
-    rows.forEach(row => {
-      row.element.style.display = 'none';
-    });
-
+    // Paginate
     const visibleRows = itemsPerPage === Infinity
       ? filteredRows
       : filteredRows.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
-    visibleRows.forEach(row => {
-      row.element.style.display = '';
-    });
+    // Build HTML only for visible rows
+    let html = '';
+    for (const { row } of visibleRows) {
+      html += '<tr>'
+        + `<td>${escapeHtml(row.appName)}</td>`
+        + `<td><code>${escapeHtml(row.packageName)}</code></td>`
+        + `<td><div class="scrollable">${escapeHtml(row.make)}</div></td>`
+        + `<td><div class="scrollable">${escapeHtml(row.model)}</div></td>`
+        + `<td><div class="scrollable">${escapeHtml(row.os)}</div></td>`
+        + `<td><div class="scrollable">${escapeHtml(row.alsoKnownBy)}</div></td>`
+        + `<td>${escapeHtml(row.userFacing)}</td>`
+        + '</tr>';
+    }
 
+    tbody.innerHTML = html;
     renderPagination(filteredRows.length);
   }
 
@@ -188,9 +213,7 @@ async function buildTable() {
   function initDevicePagination() {
     const deviceTableBody = document.querySelector('#deviceTable tbody');
     const devicePagination = document.getElementById('devicePagination');
-    if (!deviceTableBody || !devicePagination) {
-      return;
-    }
+    if (!deviceTableBody || !devicePagination) return;
 
     const deviceRows = Array.from(deviceTableBody.rows);
     const deviceItemsPerPageSelect = document.getElementById('deviceItemsPerPage');
@@ -224,9 +247,7 @@ async function buildTable() {
           e.preventDefault();
           const page = parseInt(btn.dataset.page, 10);
           const totalPages = Math.ceil(deviceRows.length / deviceItemsPerPage) || 1;
-          if (isNaN(page) || page < 1 || page > totalPages || page === deviceCurrentPage) {
-            return;
-          }
+          if (isNaN(page) || page < 1 || page > totalPages || page === deviceCurrentPage) return;
           deviceCurrentPage = page;
           renderDevicePage();
         });
