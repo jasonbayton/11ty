@@ -131,6 +131,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
 </div>
 
 <div class="pagination-controls">
+<div class="pagination-select">
   <label for="itemsPerPage">Show per page:</label>
   <select id="itemsPerPage">
     <option value="50" selected>50</option>
@@ -140,6 +141,7 @@ Get the app, and follow [the instructions](/projects/package-search/support/syst
     <option value="1000">1000</option>
     <option value="all">All</option>
   </select>
+  </div>
   <div id="pagination" class="pagination"></div>
 </div>
 </div>

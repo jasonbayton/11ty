@@ -3533,7 +3533,24 @@ section#note_overview {
 }
 
 .pagination-controls {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-self: flex-end;
+  gap: 8px;
   text-align: right;
+}
+
+.pagination-select {
+    justify-content: flex-end;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
 }
 
 .pagination a {
