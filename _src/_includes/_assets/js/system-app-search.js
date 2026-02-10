@@ -15,6 +15,9 @@ function buildTable() {
   const filterModel = document.getElementById('filterModel');
   const filterOS = document.getElementById('filterOS');
 
+  const normaliseMake = (make) => typeof make === 'string' ? make.toLowerCase() : make;
+  const equalsIgnoreCase = (a, b) => normaliseMake(a) === normaliseMake(b);
+
   // Update the "across N OEMs" badge if present
   const oemCountSpan = document.getElementById('oemCount');
   if (oemCountSpan && Array.isArray(window.deviceAppMatrix)) {
@@ -42,6 +45,7 @@ function buildTable() {
       packageName: pkg,
       appName: entry.appName || pkg,
       makesArr,
+      makesArrLower: makesArr.map(normaliseMake),
       modelsArr,
       osesArr,
       make: makesArr.join(', '),
@@ -63,6 +67,7 @@ function buildTable() {
 
   function updateFilters(activeFilter) {
     const selectedMake = filterMake.value;
+    const selectedMakeNorm = normaliseMake(selectedMake);
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
@@ -73,21 +78,27 @@ function buildTable() {
       (!selectedOS || d.os === selectedOS)
     );
     const modelDevices = baseDevices.filter(d =>
-      (!selectedMake || d.make === selectedMake) &&
+      (!selectedMake || equalsIgnoreCase(d.make, selectedMake)) &&
       (!selectedOS || d.os === selectedOS)
     );
     const osDevices = baseDevices.filter(d =>
-      (!selectedMake || d.make === selectedMake) &&
+      (!selectedMake || equalsIgnoreCase(d.make, selectedMake)) &&
       (!selectedModel || d.model === selectedModel)
     );
 
-    const makes = [...new Set(makeDevices.map(d => d.make))].sort();
+    // Deduplicate makes case-insensitively but keep first-seen display casing
+    const makeDisplayMap = new Map();
+    makeDevices.forEach(d => {
+      const key = normaliseMake(d.make);
+      if (!makeDisplayMap.has(key)) makeDisplayMap.set(key, d.make);
+    });
+    const makes = Array.from(makeDisplayMap.values()).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
     const models = [...new Set(modelDevices.map(d => d.model))].sort();
     const oses = [...new Set(osDevices.map(d => d.os))].sort();
 
     if (activeFilter !== 'make') {
       filterMake.innerHTML = `<option value="">All OEMs</option>` +
-        makes.map(m => `<option value="${escapeHtml(m)}" ${m === selectedMake ? 'selected' : ''}>${escapeHtml(m)}</option>`).join('');
+        makes.map(m => `<option value="${escapeHtml(m)}" ${equalsIgnoreCase(m, selectedMake) ? 'selected' : ''}>${escapeHtml(m)}</option>`).join('');
     }
     if (activeFilter !== 'model') {
       filterModel.innerHTML = `<option value="">All Models</option>` +
@@ -172,13 +183,14 @@ function buildTable() {
   function render() {
     const q = searchInput.value.toLowerCase();
     const selectedMake = filterMake.value;
+    const selectedMakeNorm = normaliseMake(selectedMake);
     const selectedModel = filterModel.value;
     const selectedOS = filterOS.value;
 
     // Filter rows
     const filteredRows = searchableRows.filter(({ row, searchText }) => {
       return (!q || searchText.includes(q)) &&
-        (!selectedMake || row.makesArr.includes(selectedMake)) &&
+        (!selectedMake || row.makesArrLower.includes(selectedMakeNorm)) &&
         (!selectedModel || row.modelsArr.includes(selectedModel)) &&
         (!selectedOS || row.osesArr.includes(selectedOS));
     });
