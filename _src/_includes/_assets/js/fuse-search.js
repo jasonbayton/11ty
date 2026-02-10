@@ -1,3 +1,8 @@
+const escapeHtml = (str) => {
+  const map = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" };
+  return str.replace(/[&<>"']/g, (c) => map[c]);
+};
+
 const deleteSpinner = () => {
   const debouncing = document.getElementById("debouncing");
 
@@ -10,7 +15,6 @@ const debounce = (func) => {
   return function execute(...args) {
     // Empty search, remove spinner
     if (document.getElementById("searchField").value.trim() === "") {
-      deleteSpinner();
       clearTimeout(timeout);
     } else if (!document.getElementById("debouncing")) {
       const searchResultsElement = document.getElementById("search-field");
@@ -32,40 +36,57 @@ const debounce = (func) => {
 
     // Clear older timeout before attemping to run
     clearTimeout(timeout);
-    timeout = setTimeout(later, 150);
+    timeout = setTimeout(later, 300);
   };
 };
 
-document.addEventListener("DOMContentLoaded", async () => {
-  let searchData = null;
-
-  // Fetch search data from index
-  await fetch("/search-index.json")
-    .then((res) => res.json())
-    .then((data) => {
-      searchData = data;
-    })
-    .catch((err) => {
-      console.warn("Fetch error", err);
-    });
-
-  // No search possible without data
-  if (!searchData) return;
-
+document.addEventListener("DOMContentLoaded", () => {
   // Fuse options
   const searchOptions = {
     includeMatches: true,
     ignoreLocation: true,
-    useExtendedSearch: true,
     threshold: 0.3,
     keys: ["title", "content", "url"],
   };
 
-  // Init fuse
-  const fuse = new Fuse(searchData, searchOptions);
+  // Init search worker — fetches and indexes data in the background
+  const worker = new Worker("/js/fuse-search-worker.js");
+  let workerReady = false;
+  let pendingQuery = null;
+
+  worker.onmessage = function (e) {
+    const { type, data } = e.data;
+
+    if (type === "ready") {
+      workerReady = true;
+      // Run any search that was queued while worker was initialising
+      if (pendingQuery !== null) {
+        worker.postMessage({ type: "search", data: { query: pendingQuery } });
+        pendingQuery = null;
+      }
+    }
+
+    if (type === "error") {
+      console.warn("Search worker error", data.message);
+    }
+
+    if (type === "results") {
+      deleteSpinner();
+      renderResults(data.results, data.query);
+    }
+  };
+
+  // Kick off fetch + indexing immediately
+  worker.postMessage({ type: "init", data: { options: searchOptions } });
 
   // Get search input
   const searchInput = document.getElementById("searchField");
+  const clearButton = document.getElementById("search-clear");
+
+  // Show/hide clear button based on input value
+  function updateClearButton() {
+    clearButton.hidden = searchInput.value.trim() === "";
+  }
 
   // Focus on search if search input exists
   if (searchInput) {
@@ -80,7 +101,19 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (searchString) {
     handleSearch(searchString);
     searchInput.value = searchString;
+    updateClearButton();
   }
+
+  // Clear button handler
+  clearButton.addEventListener("click", function () {
+    searchInput.value = "";
+    urlQuery.delete("q");
+    window.history.replaceState({}, "", `${window.location.pathname}`);
+    deleteSpinner();
+    handleSearch("");
+    updateClearButton();
+    searchInput.focus();
+  });
 
   // Watch key evets on search input
   if (searchInput) {
@@ -106,6 +139,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           );
         }
 
+        updateClearButton();
+
         // Run search
         handleSearch(searchValue);
       })
@@ -113,16 +148,19 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   // Method to handle new searches
-  async function handleSearch(searchString) {
-    // Empty search, display no results
-    if (!searchString) {
+  function handleSearch(searchString) {
+    // Empty search or too short, display no results
+    if (!searchString || searchString.length < 2) {
       renderResults([], searchString);
       return;
     }
 
-    // Get search results and display them
-    const results = fuse.search(searchString);
-    renderResults(results, searchString);
+    // Send search to worker
+    if (workerReady) {
+      worker.postMessage({ type: "search", data: { query: searchString } });
+    } else {
+      pendingQuery = searchString;
+    }
   }
 
   // Display results on UI
@@ -149,22 +187,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Results received, render them
     else if (results.length > 0) {
-      // Create unordered list element
-      const ul = document.createElement("ul");
+      // Create regex once for all results (case-insensitive)
+      const searchRegex = new RegExp(`(${searchString.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, "gi");
+
+      // Build HTML string instead of DOM manipulation
+      let htmlString = "<ul>";
 
       // Loop through results
       results.forEach((result) => {
         // Get title of match
         const title = result.item.title;
 
-        // Create a list item and link for result
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        const h2 = document.createElement("h2");
-        const p = document.createElement("p");
-
-        let highlightedTitle;
-        let highlightedContent;
+        let highlightedTitle = title;
+        let highlightedContent = "";
 
         // Loop through matches
         result.matches.forEach((match) => {
@@ -172,19 +207,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
           // Matches title
           if (key === "title") {
-            // Highlight match
+            // Highlight match - use the cached regex
             highlightedTitle = value.replace(
-              new RegExp(`(${searchString})`, "gi"),
+              searchRegex,
               "<u><b>$1</b></u>"
             );
           } else {
-            const exec =
-              new RegExp(`(${searchString})`, "gi").exec(value) ?? {};
-            const matchIndex = exec.index;
+            const exec = searchRegex.exec(value);
 
-            if (matchIndex !== undefined && matchIndex !== null) {
+            if (exec) {
+              const matchIndex = exec.index;
               const wrapperLength = 100;
-
               const start = matchIndex - wrapperLength;
 
               if (start < 0) {
@@ -196,7 +229,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                       matchIndex + searchString.length + wrapperLength
                     )
                     .replace(
-                      new RegExp(`(${searchString})`, "gi"),
+                      searchRegex,
                       "<u><b>$1</b></u>"
                     ) + "...";
               } else {
@@ -214,35 +247,32 @@ document.addEventListener("DOMContentLoaded", async () => {
                   array
                     .join(" ")
                     .replace(
-                      new RegExp(`(${searchString})`, "gi"),
+                      searchRegex,
                       "<u><b>$1</b></u>"
                     ) +
                   "...";
               }
             }
+
+            // Reset regex for next use
+            searchRegex.lastIndex = 0;
           }
-
-          // Set title
-          h2.innerHTML = highlightedTitle ?? title;
-
-          // Set links title and url
-          a.title = title;
-          a.href = result.item.url;
         });
 
-        a.appendChild(h2);
+        // Build HTML string
+        htmlString += `<li><a href="${escapeHtml(result.item.url)}" title="${escapeHtml(title)}"><h2>${highlightedTitle}</h2>`;
 
         if (highlightedContent) {
-          p.innerHTML = highlightedContent;
-          a.appendChild(p);
+          htmlString += `<p>${highlightedContent}</p>`;
         }
 
-        li.appendChild(a);
-        ul.appendChild(li);
+        htmlString += `</a></li>`;
       });
 
-      // Append list of results to wrapper
-      searchResultsElement.appendChild(ul);
+      htmlString += "</ul>";
+
+      // Single DOM update
+      searchResultsElement.innerHTML = htmlString;
     }
   }
 });

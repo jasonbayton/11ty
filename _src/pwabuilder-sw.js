@@ -168,6 +168,7 @@ async function handlePeriodicSync() {
       "/css/core.css",
       "/css/base.css",
       "/js/fuse-search.js",
+      "/js/fuse-search-worker.js",
     ];
     const staticCache = await caches.open(STATIC_ASSETS_CACHE);
     await staticCache.addAll(urlsToCache);

@@ -3264,11 +3264,35 @@ font-size: 1.25rem;
 position: relative;
 }
 
-/* Search input spinner */
+#searchField::-webkit-search-cancel-button {
+-webkit-appearance: none;
+appearance: none;
+display: none;
+}
+
+#search-clear {
+position: absolute;
+top: 50%;
+right: 0.75rem;
+transform: translateY(-50%);
+background: none;
+border: none;
+cursor: pointer;
+padding: 0.25rem;
+color: var(--orange);
+font-size: 0;
+line-height: 1;
+}
+
+#search-clear .material-symbols-outlined {
+font-size: 28px;
+}
+
+/* Search input spinner (typing debounce) */
 #debouncing {
 position: absolute;
 top: 2.1rem;
-right: 2.5rem;
+right: 2.9rem;
 width: 2rem;
 height: 2rem;
 border-radius: 50%;

@@ -21,6 +21,7 @@
 
                 <div  id="search-field" class="field">
                     <input type="search" placeholder="Type a word to begin.." id="searchField">
+                    <button type="button" id="search-clear" aria-label="Clear search" hidden><span class="material-symbols-outlined">close</span></button>
                 </div>
 
                 <div class="post-block search-results" id="searchResults"></div>
@@ -32,7 +33,6 @@
         <footer>
             {% include "./_parts/footer.njk" %}
         </footer>
-        <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
         <script defer type="text/javascript" src="/js/fuse-search.js"></script>
     </body>
 </html>
