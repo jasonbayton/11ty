@@ -3,6 +3,12 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config(); // Load environment variables from .env file
 
+// Strip invisible unicode formatting characters (LTR/RTL marks, zero-width spaces, etc.)
+const invisibleCharsRegex = /[\u200B-\u200F\u2028-\u202F\u2060-\u2069\uFEFF\u034F\u061C\u180E]/g;
+function sanitize(str) {
+    return str.replace(invisibleCharsRegex, '').trim();
+}
+
 async function fetchAndSavePackages() {
     const devicesUrl = 'https://ping.bayton.org/items/device_packages?limit=-1';
     const token = process.env.PINGDIR_API;
@@ -48,16 +54,21 @@ async function fetchAndSavePackages() {
                 if (typeof appName === 'object' && appName !== null) {
                     const loc = appName.locale?.toLowerCase();
                     if (loc && typeof appName.value === 'string') {
-                        result[packageName].namesByLocale.set(loc, appName.value);
+                        const cleanValue = sanitize(appName.value);
+                        if (cleanValue) result[packageName].namesByLocale.set(loc, cleanValue);
                     }
                 } else if (typeof appName === 'string') {
+                    const cleanName = sanitize(appName);
                     // Store the value directly for non-object appName, using empty string as locale key
-                    result[packageName].namesByLocale.set('', appName);
+                    if (cleanName) result[packageName].namesByLocale.set('', cleanName);
                 }
 
                 // Track fallback names if no locale and value is string and not yet seen
-                if (typeof appName === 'string' && !result[packageName].fallbackNames.includes(appName)) {
-                    result[packageName].fallbackNames.push(appName);
+                if (typeof appName === 'string') {
+                    const cleanFallback = sanitize(appName);
+                    if (cleanFallback && !result[packageName].fallbackNames.includes(cleanFallback)) {
+                        result[packageName].fallbackNames.push(cleanFallback);
+                    }
                 }
 
                 if ('userFacing' in pkgEntry) {
