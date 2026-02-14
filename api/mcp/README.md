@@ -91,6 +91,55 @@ The implementation also validates tool inputs at runtime and returns clear error
 
 
 
+
+## Remote MCP endpoint on Netlify (`/mcp`)
+
+For direct MCP compatibility on Netlify, this repository now includes a Streamable HTTP MCP function:
+
+- `netlify/functions/mcp.js`
+
+This function exposes your tools at `/mcp` (not only `/.netlify/functions/*`) and is designed for remote MCP clients and proxies.
+
+### Local development
+
+Use Netlify CLI to emulate functions and routing:
+
+```bash
+netlify dev
+```
+
+Then connect clients to:
+
+- `http://localhost:8888/mcp` (default Netlify CLI port; confirm in your local output)
+
+### Inspecting the remote MCP
+
+```bash
+# Local
+npx @modelcontextprotocol/inspector npx mcp-remote@next http://localhost:8888/mcp
+
+# Deployed
+npx @modelcontextprotocol/inspector npx mcp-remote@next https://<your-domain>/mcp
+```
+
+### Claude Desktop configuration example (hybrid compatibility)
+
+```json
+{
+  "mcpServers": {
+    "bayton-content-remote": {
+      "command": "npx",
+      "args": [
+        "mcp-remote@next",
+        "https://<your-domain>/mcp"
+      ]
+    }
+  }
+}
+```
+
+The existing `netlify/functions/mcp-search-content.js` and `netlify/functions/mcp-get-content-by-url.js` endpoints remain useful for simple HTTP integrations, while `/mcp` is the protocol-native route for MCP clients.
+
 ## Netlify-compatible HTTP option
 
 If you need this to work inside Netlify’s serverless runtime, this repository now includes HTTP adapters under `netlify/functions/`:
