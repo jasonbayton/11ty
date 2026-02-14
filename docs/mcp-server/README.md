@@ -70,7 +70,7 @@ For MCP clients that support stdio servers:
 ## Production hardening ideas
 
 - Add a build hook so search index refresh happens before MCP server restart.
-- Cache a lower-cased token field for faster keyword matching.
+- Prebuild and persist tokenised content fields (for example, arrays of keywords) in the search index for faster loading and matching.
 - Add URL allow-listing to avoid exposing unpublished routes.
 - Add `lastModified` metadata (for example via git history) in tool responses.
 - Add optional semantic retrieval (embeddings) alongside keyword search.
