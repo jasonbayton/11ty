@@ -30,18 +30,31 @@ let cachedDocs = null;
  * @returns {{statusCode: number, headers: Record<string, string>, body: string}}
  */
 function jsonResponse(statusCode, payload) {
+  const isSuccess = statusCode >= 200 && statusCode < 300;
+
+  /** @type {Record<string, string>} */
+  const headers = {
+    'content-type': 'application/json; charset=utf-8',
+    // Enable browser-based clients to call these endpoints cross-origin.
+    'access-control-allow-origin': '*',
+    'access-control-allow-methods': 'GET,POST,OPTIONS',
+    'access-control-allow-headers': 'content-type',
+  };
+
+  if (isSuccess) {
+    // Successful responses are cacheable for a short period because the
+    // underlying index only changes when a new site build is deployed.
+    headers['cache-control'] = 'public, max-age=3600';
+    // Ensure shared caches differentiate responses when Origin varies.
+    headers['vary'] = 'Origin';
+  } else {
+    // Avoid caching error or non-success responses.
+    headers['cache-control'] = 'no-store';
+  }
+
   return {
     statusCode,
-    headers: {
-      'content-type': 'application/json; charset=utf-8',
-      // Responses are cacheable for a short period because the underlying index
-      // only changes when a new site build is deployed.
-      'cache-control': 'public, max-age=3600',
-      // Enable browser-based clients to call these endpoints cross-origin.
-      'access-control-allow-origin': '*',
-      'access-control-allow-methods': 'GET,POST,OPTIONS',
-      'access-control-allow-headers': 'content-type',
-    },
+    headers,
     body: JSON.stringify(payload, null, 2),
   };
 }
