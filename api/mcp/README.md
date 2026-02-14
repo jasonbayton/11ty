@@ -181,19 +181,6 @@ If you want MCP in production on Netlify, use one of these approaches:
 - host the MCP server on a separate always-on runtime (for example a container/VM) and point clients to that deployment;
 - adapt the MCP capabilities into Netlify Functions/Edge Functions patterns where appropriate (request/response), noting this is a different execution model from stdio MCP.
 
-For local development and CI, continue to run the MCP server directly:
-
-```bash
-node api/mcp/eleventy-content-mcp-server.js
-```
-
-If you prefer to run it directly via shebang, first make it executable:
-
-```bash
-chmod +x api/mcp/eleventy-content-mcp-server.js
-./api/mcp/eleventy-content-mcp-server.js
-```
-
 ## Production hardening ideas
 
 - Add a build hook so search index refresh happens before MCP server restart.
