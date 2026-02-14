@@ -37,6 +37,7 @@ async function loadIndex() {
  * Build a tiny searchable view for quick keyword matching.
  *
  * @param {Array<{title: string, url: string, content: string}>} docs
+ * @returns {Array<{title: string, url: string, content: string, haystack: string}>}
  */
 function buildSearchView(docs) {
   return docs.map(doc => ({
