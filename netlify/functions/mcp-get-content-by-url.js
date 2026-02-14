@@ -55,7 +55,11 @@ function parseParams(event) {
  */
 exports.handler = async event => {
   if (event.httpMethod === 'OPTIONS') {
-    return jsonResponse(204, {});
+    // Return a proper 204 No Content response for CORS preflight, with no body.
+    return {
+      statusCode: 204,
+      body: '',
+    };
   }
 
   try {
