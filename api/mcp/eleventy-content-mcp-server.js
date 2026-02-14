@@ -7,25 +7,18 @@
  * be used as a blueprint and adapted safely.
  */
 
-const fs = require('node:fs/promises');
-const path = require('node:path');
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
+const {
+  buildSearchView,
+  createSearchMatcher,
+  loadIndex,
+} = require('../../netlify/functions/_shared/content-index');
 
 /**
- * Resolve paths relative to the repository root.
+ * Reuse the shared index/search helpers so Netlify HTTP and stdio MCP paths
+ * stay aligned and avoid logic drift over time.
  */
-const REPO_ROOT = path.resolve(__dirname, '..', '..');
-const SEARCH_INDEX_PATH = path.join(REPO_ROOT, '_public', 'search-index.json');
-
-/**
- * Determine whether verbose error output should be used.
- *
- * @returns {boolean}
- */
-function isDevelopment() {
-  return process.env.NODE_ENV === 'development';
-}
 
 /**
  * Validate and normalise search tool inputs at runtime.
@@ -65,89 +58,6 @@ function validateUrlParams(params) {
   return { url: params.url.trim() };
 }
 
-/**
- * Load and sanitise the generated search index.
- *
- * @returns {Promise<Array<{title: string, url: string, content: string}>>}
- */
-async function loadIndex() {
-  let raw;
-
-  try {
-    raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
-  } catch (error) {
-    if (error && error.code === 'ENOENT') {
-      const detail = isDevelopment() ? ` (${SEARCH_INDEX_PATH})` : '';
-      throw new Error(
-        `Search index is unavailable. Run "npm run build" first so Eleventy generates it${detail}.`
-      );
-    }
-
-    throw error;
-  }
-
-  let parsed;
-  if (!raw || raw.trim() === '') {
-    // Treat an empty or whitespace-only index file as an empty list of docs.
-    parsed = [];
-  } else {
-    try {
-      parsed = JSON.parse(raw);
-    } catch (error) {
-      if (isDevelopment()) {
-        throw new Error(`Failed to parse search index at ${SEARCH_INDEX_PATH}: ${error.message}`);
-      }
-
-      throw new Error('Search index data is malformed.');
-    }
-  }
-
-  if (!Array.isArray(parsed)) {
-    throw new Error('Search index data is invalid: expected an array of documents.');
-  }
-
-  // Eleventy template currently emits a trailing empty object; remove invalid
-  // entries so tool handlers can rely on a consistent shape.
-  return parsed
-    .filter(item => item && item.url && item.title)
-    .map(item => ({
-      title: String(item.title),
-      url: String(item.url),
-      content: item.content == null ? '' : String(item.content),
-    }));
-}
-
-/**
- * Build a tiny searchable view for quick keyword matching.
- *
- * @param {Array<{title: string, url: string, content: string}>} docs
- * @returns {Array<{title: string, url: string, content: string, haystack: string}>}
- */
-function buildSearchView(docs) {
-  return docs.map(doc => ({
-    ...doc,
-    haystack: `${doc.title}\n${doc.content || ''}`.toLowerCase(),
-  }));
-}
-
-
-/**
- * Create a search matcher that prefers whole-word matching for simple terms,
- * and falls back to escaped substring matching for complex queries.
- *
- * @param {string} query
- * @returns {RegExp}
- */
-function createSearchMatcher(query) {
-  const normalised = query.trim().toLowerCase();
-  const escaped = normalised.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-  if (/^[\p{L}\p{N}_-]+$/u.test(normalised)) {
-    return new RegExp(`\\b${escaped}\\b`, 'iu');
-  }
-
-  return new RegExp(escaped, 'iu');
-}
 
 async function main() {
   const docs = await loadIndex();

@@ -44,7 +44,10 @@ function validateSearchParams(params) {
  * @returns {{query?: unknown, limit?: unknown}}
  */
 function parseParams(event) {
-  if (event.httpMethod === 'POST' && event.body) {
+  if (event.httpMethod === 'POST') {
+    if (!event.body) {
+      throw new Error('POST requests must include a JSON body.');
+    }
     try {
       return JSON.parse(event.body);
     } catch (parseError) {
@@ -95,7 +98,9 @@ exports.handler = async event => {
     });
   } catch (error) {
     const isClientError =
-      error.message.includes('Parameter') || error.message.includes('Request body must be valid JSON');
+      error.message.includes('Parameter') ||
+      error.message.includes('Request body must be valid JSON') ||
+      error.message.includes('POST requests must include a JSON body');
 
     const isServiceUnavailable = error.message.includes('Search index is unavailable');
 

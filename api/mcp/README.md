@@ -114,6 +114,8 @@ curl "https://<your-site>.netlify.app/.netlify/functions/mcp-get-content-by-url?
 
 Both endpoints also accept `POST` with a JSON body.
 
+Netlify function caching note: the shared index cache is kept per warm function container. New deployments naturally refresh data, but if content changed mid-container lifetime, the old in-memory snapshot may persist briefly until the container recycles.
+
 ### Which option should you choose?
 
 - Use `api/mcp/eleventy-content-mcp-server.js` when your client supports stdio MCP and you can run an always-on process.
