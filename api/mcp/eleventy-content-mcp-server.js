@@ -19,6 +19,15 @@ const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const SEARCH_INDEX_PATH = path.join(REPO_ROOT, '_public', 'search-index.json');
 
 /**
+ * Determine whether verbose error output should be used.
+ *
+ * @returns {boolean}
+ */
+function isDevelopment() {
+  return process.env.NODE_ENV === 'development';
+}
+
+/**
  * Validate and normalise search tool inputs at runtime.
  *
  * @param {{query?: unknown, limit?: unknown}} params
@@ -68,8 +77,9 @@ async function loadIndex() {
     raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
   } catch (error) {
     if (error && error.code === 'ENOENT') {
+      const detail = isDevelopment() ? ` (${SEARCH_INDEX_PATH})` : '';
       throw new Error(
-        `Search index not found at ${SEARCH_INDEX_PATH}. Run "npm run build" first so Eleventy generates it.`
+        `Search index is unavailable. Run "npm run build" first so Eleventy generates it${detail}.`
       );
     }
 
@@ -84,14 +94,16 @@ async function loadIndex() {
     try {
       parsed = JSON.parse(raw);
     } catch (error) {
-      throw new Error(`Failed to parse search index at ${SEARCH_INDEX_PATH}: ${error.message}`);
+      if (isDevelopment()) {
+        throw new Error(`Failed to parse search index at ${SEARCH_INDEX_PATH}: ${error.message}`);
+      }
+
+      throw new Error('Search index data is malformed.');
     }
   }
 
   if (!Array.isArray(parsed)) {
-    throw new Error(
-      `Search index at ${SEARCH_INDEX_PATH} is invalid: expected an array of documents.`
-    );
+    throw new Error('Search index data is invalid: expected an array of documents.');
   }
 
   // Eleventy template currently emits a trailing empty object; remove invalid
@@ -116,6 +128,25 @@ function buildSearchView(docs) {
     ...doc,
     haystack: `${doc.title}\n${doc.content || ''}`.toLowerCase(),
   }));
+}
+
+
+/**
+ * Create a search matcher that prefers whole-word matching for simple terms,
+ * and falls back to escaped substring matching for complex queries.
+ *
+ * @param {string} query
+ * @returns {RegExp}
+ */
+function createSearchMatcher(query) {
+  const normalised = query.trim().toLowerCase();
+  const escaped = normalised.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  if (/^[\p{L}\p{N}_-]+$/u.test(normalised)) {
+    return new RegExp(`\\b${escaped}\\b`, 'iu');
+  }
+
+  return new RegExp(escaped, 'iu');
 }
 
 async function main() {
@@ -156,9 +187,9 @@ async function main() {
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
-      const q = query.toLowerCase();
+      const matcher = createSearchMatcher(query);
       const matches = searchableDocs
-        .filter(doc => doc.haystack.includes(q))
+        .filter(doc => matcher.test(doc.haystack))
         .slice(0, limit)
         .map(doc => ({
           title: doc.title,

@@ -7,8 +7,11 @@
 
 const {
   buildSearchView,
+  createSearchMatcher,
+  isDevelopment,
   jsonResponse,
   loadIndex,
+  safeMessage,
 } = require('./_shared/content-index');
 
 /**
@@ -22,8 +25,7 @@ function validateSearchParams(params) {
     throw new Error('Parameter "query" must be a string with at least 2 characters.');
   }
 
-  const rawLimit = params.limit ?? 5;
-  const actualLimit = Number(rawLimit);
+  const actualLimit = Number(params.limit ?? 5);
 
   if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
     throw new Error('Parameter "limit" must be an integer between 1 and 20.');
@@ -45,8 +47,14 @@ function parseParams(event) {
   if (event.httpMethod === 'POST' && event.body) {
     try {
       return JSON.parse(event.body);
-    } catch {
-      throw new Error('Request body must be valid JSON.');
+    } catch (parseError) {
+      // Keep logs detailed for maintainers while keeping responses controlled.
+      console.error('Failed to parse JSON body in mcp-search-content:', parseError);
+      const devDetail =
+        isDevelopment() && parseError && parseError.message
+          ? ` Parse error: ${parseError.message}`
+          : '';
+      throw new Error(`Request body must be valid JSON.${devDetail}`);
     }
   }
 
@@ -60,16 +68,20 @@ function parseParams(event) {
  * Netlify Function entry point.
  */
 exports.handler = async event => {
+  if (event.httpMethod === 'OPTIONS') {
+    return jsonResponse(204, {});
+  }
+
   try {
     const params = parseParams(event);
     const { query, limit } = validateSearchParams(params);
 
     const docs = await loadIndex();
     const searchableDocs = buildSearchView(docs);
-    const q = query.toLowerCase();
+    const matcher = createSearchMatcher(query);
 
     const results = searchableDocs
-      .filter(doc => doc.haystack.includes(q))
+      .filter(doc => matcher.test(doc.haystack))
       .slice(0, limit)
       .map(doc => ({
         title: doc.title,
@@ -82,9 +94,16 @@ exports.handler = async event => {
       results,
     });
   } catch (error) {
-    return jsonResponse(400, {
+    const isClientError =
+      error.message.includes('Parameter') || error.message.includes('Request body must be valid JSON');
+
+    const isServiceUnavailable = error.message.includes('Search index is unavailable');
+
+    const statusCode = isClientError ? 400 : isServiceUnavailable ? 503 : 500;
+
+    return jsonResponse(statusCode, {
       error: 'search_failed',
-      message: error.message,
+      message: safeMessage(error, 'Search request failed.'),
     });
   }
 };

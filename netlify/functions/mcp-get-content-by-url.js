@@ -5,7 +5,7 @@
  * Method: GET (query string) or POST (JSON body)
  */
 
-const { jsonResponse, loadIndex } = require('./_shared/content-index');
+const { isDevelopment, jsonResponse, loadIndex, safeMessage } = require('./_shared/content-index');
 
 /**
  * Validate and normalise URL lookup parameters.
@@ -31,8 +31,14 @@ function parseParams(event) {
   if (event.httpMethod === 'POST' && event.body) {
     try {
       return JSON.parse(event.body);
-    } catch {
-      throw new Error('Request body must be valid JSON.');
+    } catch (parseError) {
+      // Keep logs detailed for maintainers while keeping responses controlled.
+      console.error('Failed to parse JSON body in mcp-get-content-by-url:', parseError);
+      const devDetail =
+        isDevelopment() && parseError && parseError.message
+          ? ` Parse error: ${parseError.message}`
+          : '';
+      throw new Error(`Request body must be valid JSON.${devDetail}`);
     }
   }
 
@@ -45,6 +51,10 @@ function parseParams(event) {
  * Netlify Function entry point.
  */
 exports.handler = async event => {
+  if (event.httpMethod === 'OPTIONS') {
+    return jsonResponse(204, {});
+  }
+
   try {
     const params = parseParams(event);
     const { url } = validateUrlParams(params);
@@ -61,9 +71,16 @@ exports.handler = async event => {
 
     return jsonResponse(200, found);
   } catch (error) {
-    return jsonResponse(400, {
+    const isClientError =
+      error.message.includes('Parameter') || error.message.includes('Request body must be valid JSON');
+
+    const isServiceUnavailable = error.message.includes('Search index is unavailable');
+
+    const statusCode = isClientError ? 400 : isServiceUnavailable ? 503 : 500;
+
+    return jsonResponse(statusCode, {
       error: 'lookup_failed',
-      message: error.message,
+      message: safeMessage(error, 'Lookup request failed.'),
     });
   }
 };

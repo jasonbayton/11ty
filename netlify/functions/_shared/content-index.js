@@ -14,6 +14,15 @@ const path = require('node:path');
 const SEARCH_INDEX_PATH = path.resolve(process.cwd(), '_public', 'search-index.json');
 
 /**
+ * Module-level cache to avoid re-reading and re-parsing the full search index
+ * on every single invocation within the same warm function container.
+ *
+ * Netlify may still create new containers over time, so this is a best-effort
+ * performance optimisation rather than a global cache guarantee.
+ */
+let cachedDocs = null;
+
+/**
  * Build a JSON HTTP response with standard headers for Netlify Functions.
  *
  * @param {number} statusCode
@@ -25,10 +34,40 @@ function jsonResponse(statusCode, payload) {
     statusCode,
     headers: {
       'content-type': 'application/json; charset=utf-8',
-      'cache-control': 'no-store',
+      // Responses are cacheable for a short period because the underlying index
+      // only changes when a new site build is deployed.
+      'cache-control': 'public, max-age=3600',
+      // Enable browser-based clients to call these endpoints cross-origin.
+      'access-control-allow-origin': '*',
+      'access-control-allow-methods': 'GET,POST,OPTIONS',
+      'access-control-allow-headers': 'content-type',
     },
     body: JSON.stringify(payload, null, 2),
   };
+}
+
+/**
+ * Determine whether to expose verbose internal error detail.
+ *
+ * @returns {boolean}
+ */
+function isDevelopment() {
+  return process.env.NODE_ENV === 'development';
+}
+
+/**
+ * Convert internal errors into safe, user-facing messages.
+ *
+ * @param {Error} error
+ * @param {string} fallbackMessage
+ * @returns {string}
+ */
+function safeMessage(error, fallbackMessage) {
+  if (isDevelopment() && error && error.message) {
+    return error.message;
+  }
+
+  return fallbackMessage;
 }
 
 /**
@@ -37,18 +76,21 @@ function jsonResponse(statusCode, payload) {
  * @returns {Promise<Array<{title: string, url: string, content: string}>>}
  */
 async function loadIndex() {
+  if (cachedDocs) {
+    return cachedDocs;
+  }
+
   let raw;
 
   try {
     raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
   } catch (error) {
     if (error && error.code === 'ENOENT') {
-      throw new Error(
-        `Search index not found at ${SEARCH_INDEX_PATH}. Ensure the Eleventy build has completed before invoking this endpoint.`
-      );
+      const detail = isDevelopment() ? ` (${SEARCH_INDEX_PATH})` : '';
+      throw new Error(`Search index is unavailable. Ensure the Eleventy build has completed${detail}.`);
     }
 
-    throw error;
+    throw new Error(safeMessage(error, 'Failed to load the search index.'));
   }
 
   let parsed;
@@ -58,23 +100,23 @@ async function loadIndex() {
     try {
       parsed = JSON.parse(raw);
     } catch (error) {
-      throw new Error(`Failed to parse search index at ${SEARCH_INDEX_PATH}: ${error.message}`);
+      throw new Error(safeMessage(error, 'Search index data is malformed.'));
     }
   }
 
   if (!Array.isArray(parsed)) {
-    throw new Error(
-      `Search index at ${SEARCH_INDEX_PATH} is invalid: expected an array of documents.`
-    );
+    throw new Error('Search index data is invalid. Expected an array of documents.');
   }
 
-  return parsed
+  cachedDocs = parsed
     .filter(item => item && item.url && item.title)
     .map(item => ({
       title: String(item.title),
       url: String(item.url),
       content: item.content == null ? '' : String(item.content),
     }));
+
+  return cachedDocs;
 }
 
 /**
@@ -90,8 +132,29 @@ function buildSearchView(docs) {
   }));
 }
 
+/**
+ * Create a search matcher that prefers whole-word matching for simple terms,
+ * and falls back to escaped substring matching for complex queries.
+ *
+ * @param {string} query
+ * @returns {RegExp}
+ */
+function createSearchMatcher(query) {
+  const normalised = query.trim().toLowerCase();
+  const escaped = normalised.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  if (/^[\p{L}\p{N}_-]+$/u.test(normalised)) {
+    return new RegExp(`\\b${escaped}\\b`, 'iu');
+  }
+
+  return new RegExp(escaped, 'iu');
+}
+
 module.exports = {
   buildSearchView,
+  createSearchMatcher,
+  isDevelopment,
   jsonResponse,
   loadIndex,
+  safeMessage,
 };

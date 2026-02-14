@@ -37,5 +37,8 @@
     "lodash": "^4.17.21",
     "markdown-it-deflist": "^3.0.0",
     "workbox-sw": "^6.5.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

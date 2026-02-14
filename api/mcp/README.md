@@ -35,7 +35,7 @@ It uses:
 Install dependencies (inside this repo):
 
 ```bash
-npm install --save @modelcontextprotocol/sdk
+npm install
 ```
 
 This package is required at runtime by the MCP server, so install it as a regular dependency for production deployments (including environments that use `npm ci --omit=dev`).
@@ -52,9 +52,16 @@ Run the server:
 node api/mcp/eleventy-content-mcp-server.js
 ```
 
+If you prefer to run it directly via shebang, first make it executable:
+
+```bash
+chmod +x api/mcp/eleventy-content-mcp-server.js
+./api/mcp/eleventy-content-mcp-server.js
+```
+
 ## Client configuration example
 
-For MCP clients that support stdio servers, point at the script path in your local clone:
+For MCP clients that support stdio servers, point at an absolute script path in your local clone (or set a compatible working directory):
 
 ```json
 {
@@ -62,7 +69,7 @@ For MCP clients that support stdio servers, point at the script path in your loc
     "bayton-content": {
       "command": "node",
       "args": [
-        "api/mcp/eleventy-content-mcp-server.js"
+        "/path/to/repo/api/mcp/eleventy-content-mcp-server.js"
       ]
     }
   }
@@ -129,11 +136,19 @@ For local development and CI, continue to run the MCP server directly:
 node api/mcp/eleventy-content-mcp-server.js
 ```
 
+If you prefer to run it directly via shebang, first make it executable:
+
+```bash
+chmod +x api/mcp/eleventy-content-mcp-server.js
+./api/mcp/eleventy-content-mcp-server.js
+```
+
 ## Production hardening ideas
 
 - Add a build hook so search index refresh happens before MCP server restart.
 - Prebuild and persist tokenised content fields (for example, keyword arrays) in the search index for faster loading and matching.
 - Add URL allow-listing to avoid exposing unpublished routes.
+- Add rate limiting or API gateway controls to reduce abuse and accidental overload.
 - Add `lastModified` metadata (for example via git history) in tool responses.
 - Add optional semantic retrieval (embeddings) alongside keyword search.
 
