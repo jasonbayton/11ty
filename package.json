@@ -7,7 +7,8 @@
     "refresh:git-history": "node _src/_data/gitHistory.js",
     "build": "npm run refresh:git-history && npx @11ty/eleventy",
     "serve": "npm run refresh:git-history && npx @11ty/eleventy --serve",
-    "incremental": "npm run refresh:git-history && npx @11ty/eleventy --serve --incremental"
+    "incremental": "npm run refresh:git-history && npx @11ty/eleventy --serve --incremental",
+    "test:mcp-smoke": "node api/mcp/mcp-smoke-test.js"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-img": "^4.0.2",
+    "@modelcontextprotocol/sdk": "^1.26.0",
     "dotenv": "^16.4.5",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-embed-twitter": "^1.3.4",
@@ -35,5 +37,8 @@
     "lodash": "^4.17.21",
     "markdown-it-deflist": "^3.0.0",
     "workbox-sw": "^6.5.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
