@@ -35,7 +35,7 @@ It uses:
 Install dependencies (inside this repo):
 
 ```bash
-npm install --save-dev @modelcontextprotocol/sdk zod
+npm install --save @modelcontextprotocol/sdk zod
 ```
 
 Build content before starting the MCP server:
