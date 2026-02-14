@@ -69,9 +69,10 @@ async function main() {
     },
     async ({ query, limit }) => {
       const q = query.toLowerCase();
+      const actualLimit = limit ?? 5;
       const matches = searchableDocs
         .filter(doc => doc.haystack.includes(q))
-        .slice(0, limit)
+        .slice(0, actualLimit)
         .map(doc => ({
           title: doc.title,
           url: doc.url,
