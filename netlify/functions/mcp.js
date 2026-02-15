@@ -13,8 +13,8 @@ const {
 } = require('@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js');
 const {
   buildSearchView,
-  createSearchMatcher,
   loadIndex,
+  searchDocs,
 } = require('./_shared/content-index');
 
 /**
@@ -90,15 +90,7 @@ async function createServer() {
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
-      const matcher = createSearchMatcher(query);
-      const results = searchableDocs
-        .filter(doc => matcher.test(doc.haystack))
-        .slice(0, limit)
-        .map(doc => ({
-          title: doc.title,
-          url: doc.url,
-          snippet: (doc.content || '').slice(0, 320),
-        }));
+      const results = searchDocs(searchableDocs, query, limit);
 
       return {
         content: [{ type: 'text', text: JSON.stringify({ total: results.length, results }, null, 2) }],

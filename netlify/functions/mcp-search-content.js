@@ -7,10 +7,10 @@
 
 const {
   buildSearchView,
-  createSearchMatcher,
   isDevelopment,
   jsonResponse,
   loadIndex,
+  searchDocs,
   safeMessage,
 } = require('./_shared/content-index');
 
@@ -81,16 +81,7 @@ exports.handler = async event => {
 
     const docs = await loadIndex();
     const searchableDocs = buildSearchView(docs);
-    const matcher = createSearchMatcher(query);
-
-    const results = searchableDocs
-      .filter(doc => matcher.test(doc.haystack))
-      .slice(0, limit)
-      .map(doc => ({
-        title: doc.title,
-        url: doc.url,
-        snippet: (doc.content || '').slice(0, 320),
-      }));
+    const results = searchDocs(searchableDocs, query, limit);
 
     return jsonResponse(200, {
       total: results.length,

@@ -5,3 +5,18 @@
   from = "/mcp"
   to = "/.netlify/functions/mcp"
   status = 200
+
+[[redirects]]
+  from = "/api/mcp"
+  to = "/.netlify/functions/mcp"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/search-content"
+  to = "/.netlify/functions/mcp-search-content"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/get-content-by-url"
+  to = "/.netlify/functions/mcp-get-content-by-url"
+  status = 200

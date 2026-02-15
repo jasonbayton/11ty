@@ -224,9 +224,66 @@ function createSearchMatcher(query) {
   return new RegExp(escaped, 'iu');
 }
 
+/**
+ * Build a readable snippet around the first content match.
+ *
+ * @param {string} content
+ * @param {RegExp} matcher
+ * @returns {string}
+ */
+function buildMatchSnippet(content, matcher) {
+  if (!content) {
+    return '';
+  }
+
+  const index = content.search(matcher);
+  if (index < 0) {
+    return content.slice(0, 320);
+  }
+
+  const start = Math.max(0, index - 120);
+  const end = Math.min(content.length, index + 200);
+  const prefix = start > 0 ? '...' : '';
+  const suffix = end < content.length ? '...' : '';
+  return `${prefix}${content.slice(start, end)}${suffix}`;
+}
+
+/**
+ * Search docs with lightweight relevance ranking and contextual snippets.
+ *
+ * @param {Array<{title: string, url: string, content: string, haystack: string}>} searchableDocs
+ * @param {string} query
+ * @param {number} limit
+ * @returns {Array<{title: string, url: string, snippet: string}>}
+ */
+function searchDocs(searchableDocs, query, limit) {
+  const matcher = createSearchMatcher(query);
+  const titleMatcher = createSearchMatcher(query);
+
+  const ranked = searchableDocs
+    .filter(doc => matcher.test(doc.haystack))
+    .map(doc => {
+      const titleHit = titleMatcher.test(doc.title);
+      const contentIndex = doc.content ? doc.content.search(matcher) : -1;
+      const positionScore = contentIndex < 0 ? 0 : Math.max(0, 40 - Math.floor(contentIndex / 80));
+      const score = (titleHit ? 100 : 0) + positionScore;
+
+      return {
+        title: doc.title,
+        url: doc.url,
+        snippet: buildMatchSnippet(doc.content || '', matcher),
+        score,
+      };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  return ranked.slice(0, limit).map(({ score, ...result }) => result);
+}
+
 module.exports = {
   buildSearchView,
   createSearchMatcher,
+  searchDocs,
   isDevelopment,
   jsonResponse,
   loadIndex,

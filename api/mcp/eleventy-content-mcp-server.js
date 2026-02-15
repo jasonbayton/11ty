@@ -11,8 +11,8 @@ const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
 const {
   buildSearchView,
-  createSearchMatcher,
   loadIndex,
+  searchDocs,
 } = require('../../netlify/functions/_shared/content-index');
 
 /**
@@ -97,15 +97,7 @@ async function main() {
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
-      const matcher = createSearchMatcher(query);
-      const matches = searchableDocs
-        .filter(doc => matcher.test(doc.haystack))
-        .slice(0, limit)
-        .map(doc => ({
-          title: doc.title,
-          url: doc.url,
-          snippet: (doc.content || '').slice(0, 320),
-        }));
+      const matches = searchDocs(searchableDocs, query, limit);
 
       return {
         content: [
