@@ -23,6 +23,63 @@ const SEARCH_INDEX_PATH = path.resolve(process.cwd(), '_public', 'search-index.j
 let cachedDocs = null;
 
 /**
+ * Resolve the site origin for remote search-index fallback in serverless.
+ *
+ * @returns {string | null}
+ */
+function getSiteOrigin() {
+  const candidates = [
+    process.env.URL,
+    process.env.DEPLOY_URL,
+    process.env.SITE_URL,
+  ];
+
+  for (const value of candidates) {
+    if (typeof value !== 'string' || value.trim().length < 1) {
+      continue;
+    }
+    try {
+      return new URL(value).origin;
+    } catch {
+      // Ignore invalid environment values.
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Parse and normalise raw JSON search index content.
+ *
+ * @param {string} raw
+ * @returns {Array<{title: string, url: string, content: string}>}
+ */
+function parseIndex(raw) {
+  let parsed;
+  if (!raw || raw.trim() === '') {
+    parsed = [];
+  } else {
+    try {
+      parsed = JSON.parse(raw);
+    } catch (error) {
+      throw new Error(safeMessage(error, 'Search index data is malformed.'));
+    }
+  }
+
+  if (!Array.isArray(parsed)) {
+    throw new Error('Search index data is invalid. Expected an array of documents.');
+  }
+
+  return parsed
+    .filter(item => item && item.url && item.title)
+    .map(item => ({
+      title: String(item.title),
+      url: String(item.url),
+      content: item.content == null ? '' : String(item.content),
+    }));
+}
+
+/**
  * Build a JSON HTTP response with standard headers for Netlify Functions.
  *
  * @param {number} statusCode
@@ -93,42 +150,46 @@ async function loadIndex() {
     return cachedDocs;
   }
 
-  let raw;
-
   try {
-    raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
+    const raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
+    cachedDocs = parseIndex(raw);
+    return cachedDocs;
   } catch (error) {
-    if (error && error.code === 'ENOENT') {
-      const detail = isDevelopment() ? ` (${SEARCH_INDEX_PATH})` : '';
-      throw new Error(`Search index is unavailable. Ensure the Eleventy build has completed${detail}.`);
-    }
-
-    throw new Error(safeMessage(error, 'Failed to load the search index.'));
-  }
-
-  let parsed;
-  if (!raw || raw.trim() === '') {
-    parsed = [];
-  } else {
-    try {
-      parsed = JSON.parse(raw);
-    } catch (error) {
-      throw new Error(safeMessage(error, 'Search index data is malformed.'));
+    if (!(error && error.code === 'ENOENT')) {
+      throw new Error(safeMessage(error, 'Failed to load the search index.'));
     }
   }
 
-  if (!Array.isArray(parsed)) {
-    throw new Error('Search index data is invalid. Expected an array of documents.');
+  const origin = getSiteOrigin();
+  if (!origin) {
+    const detail = isDevelopment() ? ` (${SEARCH_INDEX_PATH})` : '';
+    throw new Error(`Search index is unavailable. Ensure the Eleventy build has completed${detail}.`);
   }
 
-  cachedDocs = parsed
-    .filter(item => item && item.url && item.title)
-    .map(item => ({
-      title: String(item.title),
-      url: String(item.url),
-      content: item.content == null ? '' : String(item.content),
-    }));
+  let response;
+  try {
+    response = await fetch(`${origin}/search-index.json`, {
+      headers: { accept: 'application/json' },
+    });
+  } catch (error) {
+    throw new Error(safeMessage(error, 'Search index is unavailable. Ensure the Eleventy build has completed.'));
+  }
 
+  if (!response.ok) {
+    if (response.status === 404) {
+      throw new Error('Search index is unavailable. Ensure the Eleventy build has completed.');
+    }
+    throw new Error(`Search index fetch failed with status ${response.status}.`);
+  }
+
+  let raw;
+  try {
+    raw = await response.text();
+  } catch (error) {
+    throw new Error(safeMessage(error, 'Failed to read search index response.'));
+  }
+
+  cachedDocs = parseIndex(raw);
   return cachedDocs;
 }
 

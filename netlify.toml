@@ -1,0 +1,7 @@
+[functions]
+  included_files = ["_public/search-index.json"]
+
+[[redirects]]
+  from = "/mcp"
+  to = "/.netlify/functions/mcp"
+  status = 200
