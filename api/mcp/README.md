@@ -1,201 +1,246 @@
 # MCP server blueprint for bayton.org content
 
-This guide shows one practical way to expose this Eleventy content as an MCP server so AI clients can:
+This repository exposes Bayton.org content through MCP and HTTP adapters so AI clients can:
 
-- search the published content,
-- fetch page/article metadata,
-- retrieve rendered content snippets for grounding.
+- search content quickly,
+- retrieve full document content when needed,
 
-## Why this approach fits this repository
+## Current architecture
 
-The site already generates a machine-readable search index at `/search-index.json` from `collections.all`, including `title`, `url`, and parsed `content`. That means your MCP server can use one consistent source for retrieval without needing to parse every template format itself.
-
-## Architecture
-
-1. **Build the site** with Eleventy.
-2. **Read `_public/search-index.json`** as the core content catalogue.
-3. **Expose MCP tools**:
+1. Eleventy builds `/search-index.json` from `collections.all`.
+2. Runtime loaders read `_public/search-index.json`.
+3. MCP/HTTP endpoints expose two tools:
    - `search_content(query, limit)`
    - `get_content_by_url(url)`
-4. **Optionally expose MCP resources** for full-document access.
 
-## Minimal implementation
+### Important behavior
 
-A ready-to-run, commented example server is provided at:
+- Search is intentionally **two-step retrieval**:
+  - `search_content` returns ranked results with a contextual `snippet`.
+  - `get_content_by_url` returns full indexed `content` for exact URLs.
 
-- `api/mcp/eleventy-content-mcp-server.js`
+## Files in this repo
 
-It uses:
-
-- `@modelcontextprotocol/sdk` for the MCP protocol,
-- a small in-memory index loaded from Eleventy output.
+- Local stdio MCP server: `api/mcp/eleventy-content-mcp-server.js`
+- Remote MCP endpoint (Streamable HTTP): `netlify/functions/mcp.js`
+- HTTP search adapter: `netlify/functions/mcp-search-content.js`
+- HTTP lookup adapter: `netlify/functions/mcp-get-content-by-url.js`
+- Shared index/search helpers: `netlify/functions/_shared/content-index.js`
+- Netlify functions/routing: `netlify.toml`
 
 ## Setup
 
-Install dependencies (inside this repo):
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-This package is required at runtime by the MCP server, so install it as a regular dependency for production deployments (including environments that use `npm ci --omit=dev`).
-
-Build content before starting the MCP server:
+Build content:
 
 ```bash
 npm run build
 ```
 
-Run the server:
+Run the local stdio MCP server:
 
 ```bash
 node api/mcp/eleventy-content-mcp-server.js
 ```
 
-If you prefer to run it directly via shebang, first make it executable:
+## Netlify routes (clean API paths)
+
+Configured in `_src/_includes/_redirects` and mirrored in `netlify.toml`:
+
+- `/api/mcp` -> protocol MCP endpoint
+- `/api/mcp/search-content` -> HTTP search adapter
+- `/api/mcp/get-content-by-url` -> HTTP lookup adapter
+- `/mcp` -> protocol MCP endpoint (alias)
+
+Function bundles include `_public/search-index.json` via `netlify.toml`, and shared loader logic also supports a remote `/search-index.json` fallback when local file access is unavailable.
+
+## Usage examples
+
+### 1) HTTP search and full retrieval
+
+Search:
 
 ```bash
-chmod +x api/mcp/eleventy-content-mcp-server.js
-./api/mcp/eleventy-content-mcp-server.js
+curl "https://bayton.org/api/mcp/search-content?query=android&limit=3"
 ```
 
-## Client configuration example
+Search with spaces in query text (URL-encoded):
 
-For MCP clients that support stdio servers, point at an absolute script path in your local clone (or set a compatible working directory):
+```bash
+curl "https://bayton.org/api/mcp/search-content?query=android%20enterprise&limit=3"
+```
+
+Search with spaces using `--data-urlencode`:
+
+```bash
+curl -G "https://bayton.org/api/mcp/search-content" \
+  --data-urlencode "query=android enterprise" \
+  --data-urlencode "limit=3"
+```
+
+Search with JSON `POST` (no URL encoding needed):
+
+```bash
+curl -X POST "https://bayton.org/api/mcp/search-content" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"android enterprise","limit":3}'
+```
+
+Get full indexed content for one URL:
+
+```bash
+curl "https://bayton.org/api/mcp/get-content-by-url?url=/android/"
+```
+
+### 2) Protocol endpoint sanity check
+
+The MCP endpoint expects MCP-compatible headers/transport. A bare `curl` may return `Not Acceptable`.
+
+Minimal header check:
+
+```bash
+curl -i -H "Accept: text/event-stream" "https://bayton.org/api/mcp"
+```
+
+### 3) Inspect the MCP server
+
+```bash
+npx @modelcontextprotocol/inspector npx mcp-remote@next https://bayton.org/api/mcp
+```
+
+## Client configuration examples
+
+### Claude Desktop (remote MCP via `mcp-remote`)
 
 ```json
 {
   "mcpServers": {
     "bayton-content": {
-      "command": "node",
+      "command": "npx",
       "args": [
-        "/path/to/repo/api/mcp/eleventy-content-mcp-server.js"
+        "mcp-remote@next",
+        "https://bayton.org/api/mcp"
       ]
     }
   }
 }
 ```
 
-## How it works
+### OpenAI API (Responses API MCP tool)
 
-At runtime, the MCP server follows a simple flow:
+```python
+from openai import OpenAI
 
-1. On startup, it reads `_public/search-index.json` generated by Eleventy.
-2. It normalises each entry (`title`, `url`, `content`) and builds an in-memory search field.
-3. It opens an MCP stdio transport and registers two tools:
-   - `search_content`: keyword match over title + content with a configurable `limit`.
-   - `get_content_by_url`: exact lookup for one site URL.
-4. MCP clients call those tools using JSON-RPC via stdio, and receive text payloads containing JSON results.
+client = OpenAI()
 
-The implementation also validates tool inputs at runtime and returns clear errors when the index file is missing or malformed.
+resp = client.responses.create(
+    model="gpt-5",
+    input="Find Android 14 enterprise changes and summarize with source URLs.",
+    tools=[
+        {
+            "type": "mcp",
+            "server_label": "bayton_content",
+            "server_url": "https://bayton.org/api/mcp",
+            "require_approval": "never"
+        }
+    ]
+)
 
+print(resp.output_text)
+```
 
+### Gemini API (Google GenAI SDK + MCP)
 
+Gemini SDKs support MCP integration (currently documented as experimental), with automatic tool calling support in Python and JavaScript SDKs.
 
-## Remote MCP endpoint on Netlify (`/mcp`)
+Python example using a stdio bridge to your remote MCP endpoint:
 
-For direct MCP compatibility on Netlify, this repository now includes a Streamable HTTP MCP function:
+```python
+import asyncio
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
+from google import genai
 
-- `netlify/functions/mcp.js`
+client = genai.Client()
 
-This function exposes your tools at `/mcp` (not only `/.netlify/functions/*`) and is designed for remote MCP clients and proxies.
+server_params = StdioServerParameters(
+    command="npx",
+    args=["-y", "mcp-remote@next", "https://bayton.org/api/mcp"],
+)
 
-### Local development
+async def run():
+    async with stdio_client(server_params) as (read, write):
+        async with ClientSession(read, write) as session:
+            await session.initialize()
+            response = await client.aio.models.generate_content(
+                model="gemini-2.5-flash",
+                contents="Search bayton.org for Android 14 policy changes.",
+                config=genai.types.GenerateContentConfig(
+                    tools=[session],
+                ),
+            )
+            print(response.text)
 
-Use Netlify CLI to emulate functions and routing:
+asyncio.run(run())
+```
+
+Notes:
+
+- Gemini MCP support is currently documented as experimental.
+- Built-in support is tools-focused; resources/prompts support may vary by SDK/version.
+
+### Claude Messages API (MCP connector)
+
+```bash
+curl https://api.anthropic.com/v1/messages \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "anthropic-beta: mcp-client-2025-04-04" \
+  -d '{
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 1000,
+    "messages": [{"role": "user", "content": "Search Bayton for Android 14 policy content."}],
+    "mcp_servers": [
+      {
+        "type": "url",
+        "name": "bayton-content",
+        "url": "https://bayton.org/api/mcp"
+      }
+    ]
+  }'
+```
+
+## Local development
+
+Run Netlify emulation:
 
 ```bash
 netlify dev
 ```
 
-Then connect clients to:
-
-- `http://localhost:8888/mcp` (default Netlify CLI port; confirm in your local output)
-
-### Inspecting the remote MCP
+Then test:
 
 ```bash
-# Local
-npx @modelcontextprotocol/inspector npx mcp-remote@next http://localhost:8888/mcp
-
-# Deployed
-npx @modelcontextprotocol/inspector npx mcp-remote@next https://<your-domain>/mcp
+curl "http://localhost:8888/api/mcp/search-content?query=android&limit=3"
+curl "http://localhost:8888/api/mcp/get-content-by-url?url=/android/"
 ```
 
-### Claude Desktop configuration example (hybrid compatibility)
+## Production notes
 
-```json
-{
-  "mcpServers": {
-    "bayton-content-remote": {
-      "command": "npx",
-      "args": [
-        "mcp-remote@next",
-        "https://<your-domain>/mcp"
-      ]
-    }
-  }
-}
-```
+- `search_content` is optimized for discovery, not full grounding.
+- For LLM grounding, call `get_content_by_url` on the best search hits.
+- Cache behavior is per warm function container; new deploys refresh index data.
 
-The existing `netlify/functions/mcp-search-content.js` and `netlify/functions/mcp-get-content-by-url.js` endpoints remain useful for simple HTTP integrations, while `/mcp` is the protocol-native route for MCP clients.
+## References
 
-## Netlify-compatible HTTP option
-
-If you need this to work inside Netlify’s serverless runtime, this repository now includes HTTP adapters under `netlify/functions/`:
-
-- `netlify/functions/mcp-search-content.js`
-- `netlify/functions/mcp-get-content-by-url.js`
-
-These functions read the same `_public/search-index.json` output and expose equivalent capabilities over HTTP.
-
-### How to call them
-
-After deploying to Netlify:
-
-```bash
-# Search by keyword
-curl "https://<your-site>.netlify.app/.netlify/functions/mcp-search-content?query=android&limit=3"
-
-# Fetch a document by exact site URL
-curl "https://<your-site>.netlify.app/.netlify/functions/mcp-get-content-by-url?url=/android/"
-```
-
-Both endpoints also accept `POST` with a JSON body.
-
-Netlify function caching note: the shared index cache is kept per warm function container. New deployments naturally refresh data, but if content changed mid-container lifetime, the old in-memory snapshot may persist briefly until the container recycles.
-
-### Which option should you choose?
-
-- Use `api/mcp/eleventy-content-mcp-server.js` when your client supports stdio MCP and you can run an always-on process.
-- Use `netlify/functions/*` when deploying on Netlify and you need request/response HTTP endpoints.
-
-## Netlify and Eleventy
-
-Short answer: **not automatically**.
-
-Netlify will run your configured build command (for example `npm run build`) to generate the static site output, including `_public/search-index.json`. However, a long-running stdio MCP process such as `api/mcp/eleventy-content-mcp-server.js` is **not** started automatically as part of a standard Eleventy static deployment.
-
-If you want MCP in production on Netlify, use one of these approaches:
-
-- host the MCP server on a separate always-on runtime (for example a container/VM) and point clients to that deployment;
-- adapt the MCP capabilities into Netlify Functions/Edge Functions patterns where appropriate (request/response), noting this is a different execution model from stdio MCP.
-
-## Production hardening ideas
-
-- Add a build hook so search index refresh happens before MCP server restart.
-- Prebuild and persist tokenised content fields (for example, keyword arrays) in the search index for faster loading and matching.
-- Add URL allow-listing to avoid exposing unpublished routes.
-- Add rate limiting or API gateway controls to reduce abuse and accidental overload.
-- Add `lastModified` metadata (for example via git history) in tool responses.
-- Add optional semantic retrieval (embeddings) alongside keyword search.
-
-## Optional protocol smoke test
-
-After building the site, you can run an end-to-end MCP check:
-
-```bash
-node api/mcp/mcp-smoke-test.js
-```
-
-This spawns the server over stdio, performs MCP initialisation, lists tools, and calls each tool once.
+- OpenAI MCP + connectors guide: https://platform.openai.com/docs/guides/tools-connectors-mcp
+- OpenAI MCP integrations guide: https://platform.openai.com/docs/mcp
+- Gemini function calling + MCP section: https://ai.google.dev/gemini-api/docs/function-calling
+- Anthropic MCP connector (Messages API): https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
+- Anthropic Claude Code/Desktop MCP config docs: https://docs.anthropic.com/en/docs/claude-code/mcp
