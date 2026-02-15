@@ -131,19 +131,49 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
     return collection.slice(amount);
   });
 
+  const decodeHtmlEntities = value => {
+    if (!value) {
+      return "";
+    }
+
+    const named = {
+      nbsp: " ",
+      amp: "&",
+      quot: "\"",
+      apos: "'",
+    };
+
+    return value
+      .replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z]+);/g, (match, entity) => {
+        if (entity[0] === "#") {
+          const isHex = entity[1].toLowerCase() === "x";
+          const number = parseInt(entity.slice(isHex ? 2 : 1), isHex ? 16 : 10);
+          if (number === 60 || number === 62) {
+            return match;
+          }
+          return Number.isFinite(number) ? String.fromCodePoint(number) : match;
+        }
+
+        const key = entity.toLowerCase();
+        return Object.prototype.hasOwnProperty.call(named, key) ? named[key] : match;
+      });
+  };
+
   eleventyConfig.addFilter("parseContent", (content) => {
     // Remove tags from content
     return (
-      striptags(content)
+      decodeHtmlEntities(striptags(content))
         // Handle new lines
         .replaceAll(/(\r\n|\n|\r)/gm, " ")
         // Handle scaping
         .replaceAll("\\", "\\\\")
         // Handle control characters
         .replaceAll(/[\u0000-\u001F\u007F-\u009F]/g, "")
-        // Remove html space entity
-        .replaceAll("&nbsp;", " ")
     );
+  });
+
+  eleventyConfig.addFilter("jsonString", value => {
+    return JSON.stringify(value == null ? "" : String(value));
   });
 
 // throttle watch

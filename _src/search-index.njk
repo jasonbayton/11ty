@@ -4,11 +4,12 @@ eleventyExcludeFromCollections: yes
 ---
 [
   {% for post in collections.all %}
+    {% if post.url %}
     {
-      "title":"{{ post.data.title }}",
-      "url":"{{ post.url }}",
-      "content": "{{ post.templateContent | parseContent }}"
-    },
+      "title": {{ post.data.title | jsonString | safe }},
+      "url": {{ post.url | jsonString | safe }},
+      "content": {{ post.templateContent | parseContent | jsonString | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endif %}
   {% endfor %}
-{}
 ]
