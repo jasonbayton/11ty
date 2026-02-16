@@ -3,7 +3,7 @@ permalink: /search-index.json
 eleventyExcludeFromCollections: yes
 ---
 [
-  {% for post in collections.all if post.url %}
+  {% for post in collections.all | selectattr("url") %}
     {
       "title": {{ post.data.title | jsonString | safe }},
       "url": {{ post.url | jsonString | safe }},
