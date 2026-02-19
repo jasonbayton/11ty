@@ -106,10 +106,10 @@ This project was built utilising GPT-5.3-Codex and Claude Opus 4.6. Security aud
 
 **Authentication Flow (OAuth 2.0):**
 1. User initiates login → `/auth/google/start`
-2. Function generates HMAC-signed OAuth state parameter
-3. Redirects to Google OAuth consent screen
+2. Function generates HMAC-signed OAuth state + PKCE challenge (`S256`) and stores the PKCE verifier server-side (keyed by OAuth nonce)
+3. Sets nonce cookie and redirects to Google OAuth consent screen
 4. Google redirects to `/auth/google/callback` with authorisation code
-5. Function validates state signature, exchanges code for tokens
+5. Function validates state signature, consumes server-side PKCE verifier, exchanges code for tokens
 6. Stores encrypted refresh token in Netlify Blobs
 7. Sets HttpOnly session cookie with workspace context
 8. Redirects to application
@@ -217,28 +217,27 @@ Users can be members of multiple workspaces and switch between them via `/worksp
    - Random 18-byte nonce (`crypto.randomBytes(18).toString('base64url')`)
    - State payload: `{nonce, projectId, returnTo, issuedAt}`
    - HMAC-SHA256 signature of state using `OAUTH_STATE_SECRET`
-3. Sets nonce cookie (10-minute TTL), redirects to Google with signed state
+   - PKCE verifier + `S256` code challenge (verifier persisted server-side, keyed by nonce/workspace scope)
+3. Sets nonce cookie (10-minute TTL), redirects to Google with signed state + `code_challenge`
 4. On callback, validates:
    - State signature matches (timing-safe comparison)
    - Nonce matches the cookie value
+   - Server-side PKCE verifier exists for the nonce/scope and is consumed single-use
    - Timestamp within 10-minute window
    - `returnTo` passes path traversal sanitisation
-5. Exchanges authorisation code for tokens via Google OAuth API
+5. Exchanges authorisation code + `code_verifier` for tokens via Google OAuth API
 6. Validates tokens via Google `tokeninfo` endpoint
 7. Stores refresh token encrypted with AES-256-GCM
 
 **Security Controls:**
 - State parameter HMAC signing prevents CSRF — **server returns 500 if `OAUTH_STATE_SECRET` is unset**
 - Cookie-based nonce verification prevents replay attacks
+- PKCE verifier is stored server-side (not in client cookies) and consumed once during callback
 - Short-lived state (10 min) limits window of compromise
 - Token validation ensures authenticity
 - Refresh tokens encrypted at rest
 - Access tokens validated server-side on each request
 - OAuth callback rate-limited (120 requests/min per IP)
-
-**Remaining Open Items:**
-- Token validation can be disabled via `AUTH_VALIDATE_TOKENS=false` (operator decision)
-- `include_granted_scopes` is opt-in (`GOOGLE_OAUTH_INCLUDE_GRANTED_SCOPES=true`)
 
 #### 3.1.2 Magic Link Authentication
 
@@ -270,9 +269,6 @@ const tokenHash = crypto.createHash('sha256').update(token).digest('hex');
 - Debug link gated behind `!isProductionRuntime() && MULTI_TENANT_MAGIC_LINK_DEBUG`
 - Rate limiting on generation (120 req/min per IP) and verification (180 req/min per IP)
 
-**Remaining Open Items:**
-- No protection against email enumeration timing side-channel
-
 #### 3.1.3 Session Management
 
 **Cookie Configuration:**
@@ -302,12 +298,6 @@ mcp_mt_session=<sessionId>;
 - SameSite=Lax provides CSRF protection (allows OAuth callbacks)
 - Session payload stored server-side in Netlify Blobs
 - Client-side sentinel value (`__cookie_session__`) used in frontend state instead of real tokens
-
-**Remaining Open Items:**
-- Session cookies lack `__Host-` prefix (subdomain security)
-- No idle timeout (30-day active sessions)
-- No session ID regeneration on privilege change
-- 30-day TTL may be too long for sensitive environments
 
 ### 3.2 Secrets Management
 
@@ -344,12 +334,6 @@ Where:
 - Random IV per encryption operation (no IV reuse)
 - Master key rotation support via version field
 - API responses return only `*Set` boolean flags, never encrypted envelopes
-
-**Remaining Open Items:**
-- Master key fallback chain includes `OAUTH_TOKEN_ENCRYPTION_KEY` (should be consolidated)
-- Decryption failures silently return empty string (no operator visibility)
-- No key rotation implementation yet (version field exists but unused)
-- Envelope format has no key ID field (complicates future rotation)
 
 #### 3.2.2 Secret Storage
 
@@ -502,11 +486,6 @@ function isSameOriginRequest(request) {
 
 Applied to all POST/PUT/PATCH/DELETE endpoints including workspace management operations, secret updates, and user invitations. Mutating requests without an `Origin` header are rejected.
 
-**Remaining Open Items:**
-- No `Referer` header fallback
-- No CSRF token system (Origin enforcement covers browser clients; non-browser clients are blocked)
-- SameSite=Lax provides partial mitigation but is not comprehensive
-
 ### 3.5 Rate Limiting
 
 **Implementation:**
@@ -596,10 +575,6 @@ assistant-jobs/{jobId}.json
 **Fail-Closed Behaviour:**
 In production with multi-tenant mode enabled, the system throws a hard error if the blob store is unavailable. The in-memory Map fallback is only available in non-production environments. This is controlled by `shouldRequirePersistentStore()` which checks `NODE_ENV === 'production'` and `MULTI_TENANT_ENABLED`.
 
-**Remaining Open Items:**
-- No data encryption at rest beyond application-level encryption (relies on Netlify/Cloudflare infrastructure)
-- No native backup capability (Netlify Blobs is ephemeral-style storage)
-
 ### 4.3 Security Headers
 
 **Configured via netlify.toml:**
@@ -623,10 +598,6 @@ In production with multi-tenant mode enabled, the system throws a hard error if 
   Referrer-Policy = "no-referrer"
   Permissions-Policy = "microphone=(self), camera=(), geolocation=()"
 ```
-
-**Remaining Open Items:**
-- CSP `style-src 'unsafe-inline'` allows inline styles (Tailwind CSS requirement)
-- `img-src https:` has no host restriction (allows any HTTPS image)
 
 ### 4.4 Build & CI/CD
 
@@ -672,11 +643,6 @@ Security-sensitive workspace operations emit structured audit events to stdout:
 - OAuth connect/disconnect
 - Bootstrap admin cross-workspace actions
 - User removal from workspaces
-
-**Remaining Open Items:**
-- No centralised log aggregation (relies on Netlify function logs)
-- Sensitive key detection does not catch `apikey`, `api_key`, `bearer`, or `credential` patterns
-- Some error paths may pass upstream API error messages to the client
 
 ## 5. External Integrations
 
@@ -794,10 +760,6 @@ Each tool call triggers server-side AMAPI proxy with:
 - Email security depends on recipient's email provider
 - SPF/DKIM/DMARC should be configured for sender domain
 - Debug mode returns magic link in API response only when `!isProductionRuntime()` AND explicit debug flag is set
-
-**Remaining Open Items:**
-- Email enumeration possible via delivery timing
-- No explicit rate limiting on invite email sends (general endpoint rate limits apply)
 
 ## 6. Data Flows
 
