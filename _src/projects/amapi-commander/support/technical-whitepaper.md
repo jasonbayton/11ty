@@ -17,7 +17,7 @@ eleventyNavigation:
     title: Technical whitepaper
 ---
 
-**Version:** 1.1
+**Version:** 1.2
 **Date:** February 2026
 **Status:** Pre-Production Security Review
 
@@ -154,7 +154,7 @@ The application implements a **workspace-based multi-tenancy** model where each 
 
 **Workspace Roles:**
 - **Owner:** Full control (invite, manage secrets, remove members, delete workspace)
-- **Admin:** Manage members and invites (cannot change secrets or remove owners; cannot assign `owner` role)
+- **Admin:** Manage members and invites (cannot change secrets, remove owners, assign `owner` role, or delete workspaces)
 - **Member:** Read-only access to workspace fleet data
 
 ### 2.2 Bootstrap Admin System
@@ -163,6 +163,7 @@ For platform-level administration, the system supports **bootstrap admins** iden
 - Create and manage "commander" (global) memberships
 - Access all workspaces (read-only)
 - Remove users from any workspace (with audit trail)
+- Delete workspaces when required (with audit trail)
 - View system-wide diagnostics
 
 **Security Considerations:**
@@ -573,7 +574,7 @@ assistant-jobs/{jobId}.json
 ```
 
 **Fail-Closed Behaviour:**
-In production with multi-tenant mode enabled, the system throws a hard error if the blob store is unavailable. The in-memory Map fallback is only available in non-production environments. This is controlled by `shouldRequirePersistentStore()` which checks `NODE_ENV === 'production'` and `MULTI_TENANT_ENABLED`.
+In production with multi-tenant mode enabled, the system throws a hard error if the blob store is unavailable. The in-memory Map fallback is only available in non-production environments. This is controlled by `shouldRequirePersistentStore()` which checks `NODE_ENV === 'production'` or Netlify `CONTEXT === 'production'` when `MULTI_TENANT_ENABLED` is set and `MULTI_TENANT_REQUIRE_BLOB_STORE` is unset.
 
 ### 4.3 Security Headers
 
@@ -1098,6 +1099,7 @@ AUTH_VALIDATE_TOKENS=true
 - `POST /workspace/create` — Create new workspace
 - `GET /workspace/config` — Get active workspace config and membership list
 - `POST /workspace/select` — Switch active workspace
+- `POST /workspace/delete` — Delete workspace and purge associated workspace-scoped data (owner/bootstrap-admin only)
 - `GET /workspace/users` — List workspace members
 - `POST /workspace/invite` — Invite user to workspace
 - `POST /workspace/user/remove` — Remove user from workspace
@@ -1165,7 +1167,7 @@ AUTH_VALIDATE_TOKENS=true
 
 ## Conclusion
 
-AMAPI Commander demonstrates a modern serverless SaaS architecture with comprehensive security controls including OAuth 2.0 authentication, AES-256-GCM encryption, multi-tenant isolation, and defence-in-depth strategies. The platform has undergone two rounds of security auditing with the majority of critical and high-priority items addressed.
+AMAPI Commander demonstrates a modern serverless SaaS architecture with comprehensive security controls including OAuth 2.0 authentication, AES-256-GCM encryption, multi-tenant isolation, and defence-in-depth strategies. The platform has undergone three rounds of security auditing with all critical and high-priority, and most lower-recommended items addressed.
 
 **Current Readiness:**
 - Core functionality implemented and tested
