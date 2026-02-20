@@ -17,8 +17,8 @@ eleventyNavigation:
     title: Technical whitepaper
 ---
 
-**Version:** 1.3
-**Date:** February 2026
+**Version:** 1.3  
+**Date:** February 2026  
 **Status:** Pre-Production Security Review
 
 ## Executive Summary

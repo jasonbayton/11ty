@@ -1,5 +1,5 @@
 ---
-title: AMAPI Commander get started
+title: Get started with AMAPI Commander
 parent: AMAPI Commander support
 published: '2025-02-19'
 status: publish
