@@ -17,7 +17,7 @@ eleventyNavigation:
     title: Technical whitepaper
 ---
 
-**Version:** 1.2
+**Version:** 1.3
 **Date:** February 2026
 **Status:** Pre-Production Security Review
 
@@ -32,11 +32,14 @@ This whitepaper documents the technical implementation, security architecture, i
 This project was built utilising GPT-5.3-Codex and Claude Opus 4.6. Security auditing completed by these two models & Gemini.
 
 **Key Capabilities:**
-- Natural language querying of Android device fleet data via OpenAI GPT-4.1
+- Natural language querying of Android device fleet data via OpenAI GPT-4.1 (text and voice)
 - Multi-tenant workspace model with fine-grained RBAC
 - Server-side OAuth 2.0 token management with encryption at rest
 - AMAPI proxy with caching and rate limiting
-- Background job processing for asynchronous fleet queries
+- Background job processing for asynchronous fleet queries with intelligent query planning
+- Voice-based fleet interaction via OpenAI Realtime API (WebRTC)
+- Per-user chat history with workspace-scoped persistence
+- Scheduled fleet data refresh (cron-based)
 
 **Technology Stack:**
 - **Frontend:** React 19, TypeScript, Tailwind CSS, Vite
@@ -97,7 +100,7 @@ This project was built utilising GPT-5.3-Codex and Claude Opus 4.6. Security aud
 │  │ Google       │  │ OpenAI       │  │ Resend          │   │
 │  │ - OAuth      │  │ - GPT-4.1    │  │ - Email         │   │
 │  │ - AMAPI      │  │ - Chat API   │  │ - Magic Links   │   │
-│  │ - Tokeninfo  │  │              │  │ - Invites       │   │
+│  │ - Tokeninfo  │  │ - Realtime   │  │ - Invites       │   │
 │  └──────────────┘  └──────────────┘  └─────────────────┘   │
 └────────────────────────────────────────────────────────────┘
 ```
@@ -140,6 +143,21 @@ This project was built utilising GPT-5.3-Codex and Claude Opus 4.6. Security aud
 5. Stores results in Netlify Blobs with workspace+job scoping
 6. Client polls `/assistant/chat/status` for completion
 7. Client retrieves results via `/assistant/chat/result`
+
+**Voice Realtime Flow:**
+1. User initiates voice session → `/assistant/realtime-session`
+2. Function validates session + workspace OAuth, returns OpenAI ephemeral session token
+3. Browser establishes WebRTC peer connection to OpenAI Realtime API
+4. Voice transcript processed by assistant with enterprise/policy/device context injected
+5. Tool calls serialised and executed server-side via RTC data channel
+6. Assistant responds with synthesised voice
+
+**Query Planning Flow:**
+1. User submits natural language query
+2. `query-planner.js` performs pattern-based intent classification (e.g. `enterprise_count`, `enterprise_device_counts`, `enterprise_app_presence`)
+3. Extracts parameters: device families, app names, Android versions, scope (single vs all enterprises)
+4. Determines sync vs async mode based on estimated runtime (sync budget: 5 seconds)
+5. Async queries spawn background jobs; MCP calls are rate-limited via a sliding window (default 60 calls per 60 seconds), with sync chunks capped at 8 calls per chunk
 
 ## 2. Multi-Tenant Architecture
 
@@ -205,6 +223,32 @@ Each session includes:
 The `projectId` is not stored in the session directly; it is resolved from the active workspace's configuration at request time.
 
 Users can be members of multiple workspaces and switch between them via `/workspace/select`.
+
+### 2.4 Chat History
+
+Per-user chat history is stored with workspace scoping:
+```
+workspaces/{workspaceId}/users/{emailHash}/chat-history.json
+```
+
+- Maximum 5,000 messages per history
+- 30-day retention (configurable via `MULTI_TENANT_CHAT_HISTORY_RETENTION_DAYS`)
+- Message text sanitised to 8,000 characters maximum
+- Tool call metadata tracked per message (max 24 calls, each max 120 characters)
+- Read, write, and delete operations via `/workspace/chat-history`
+
+### 2.5 Workspace Audit Log
+
+Each workspace maintains a rolling audit trail:
+- **Buffer size:** 500 entries per workspace (oldest evicted when full)
+- **Payload sanitisation:** Maximum 24 fields per entry, 512 characters per string value
+- **Access control:** Owner and admin roles only via `GET /workspace/audit-log` (100-entry read limit)
+- **Events logged:** Workspace creation, member invite/removal, secret changes, OAuth connect/disconnect, bootstrap admin actions
+- **Storage:** `workspaces/{workspaceId}/audit-log.json`
+
+### 2.6 Workspace Mutation Locks
+
+State-changing workspace operations (delete, invite, member addition/removal, invite consumption) are serialised using per-workspace Promise-chain locks to prevent race conditions during concurrent requests. Each operation awaits the completion of any preceding operation on the same workspace before proceeding.
 
 ## 3. Security Architecture
 
@@ -507,6 +551,13 @@ Applied to all POST/PUT/PATCH/DELETE endpoints including workspace management op
 | `/auth/magic-link/start` | `auth-magic-link-start` | 120 | 60 s | Yes |
 | `/auth/magic-link/verify` | `auth-magic-link-verify` | 180 | 60 s | Yes |
 | `/auth/google/callback` | `oauth-callback` | 120 | 60 s | Yes |
+| `/workspace/create` | `workspace-create` | 60 | 60 s | No (opt-in) |
+| `/workspace/invite` | `workspace-invite` | 120 | 60 s | No (opt-in) |
+| `/workspace/delete` | `workspace-delete` | 15 | 60 s | No (opt-in) |
+| `/workspace/chat-history` (read) | `chat-read` | 240 | 60 s | No (opt-in) |
+| `/workspace/chat-history` (write) | `chat-write` | 480 | 60 s | No (opt-in) |
+| `/workspace/chat-history` (delete) | `chat-delete` | 60 | 60 s | No (opt-in) |
+| `/feedback/submit` | `feedback` | 120 | 60 s | Yes |
 
 **IP Resolution:**
 ```javascript
@@ -571,6 +622,12 @@ assistant-cache/workspace/{workspaceId}/project/{projectId}/device/{deviceName}.
 
 // Async job results (variable, up to 5 MB)
 assistant-jobs/{jobId}.json
+
+// Chat history (per user, per workspace)
+workspaces/{workspaceId}/users/{emailHash}/chat-history.json
+
+// Workspace audit log (rolling buffer, < 500 entries)
+workspaces/{workspaceId}/audit-log.json
 ```
 
 **Fail-Closed Behaviour:**
@@ -691,6 +748,7 @@ Security-sensitive workspace operations emit structured audit events to stdout:
 
 **APIs Used:**
 - **Chat Completions API:** GPT model with function calling (tool use)
+- **Realtime API:** Voice-based interaction via WebRTC
 
 **Authentication:**
 - Bearer token: Workspace-scoped OpenAI API key (encrypted at rest)
@@ -737,6 +795,22 @@ Each tool call triggers server-side AMAPI proxy with:
 - Per-tool-result character limit (120,000 characters)
 - Rate limiting on assistant endpoint (opt-in)
 - Workspace-scoped API keys (users pay for their own usage)
+
+**Realtime API (Voice):**
+
+The platform supports voice-based fleet interaction via OpenAI's Realtime API:
+
+1. Client requests an ephemeral session token via `POST /assistant/realtime-session`
+2. Server validates the user's session, workspace membership, and OAuth credentials, then obtains an OpenAI ephemeral token
+3. Browser establishes a WebRTC peer connection directly to OpenAI's Realtime endpoint
+4. Enterprise context is included in the session bootstrap; policy and device context is resolved later during backend tool execution
+5. The sole Realtime tool exposed is `ask_fleet`; when invoked, the backend assistant orchestrates MCP tool calls (e.g. `list_devices`, `get_device`) on behalf of the voice session
+6. Audio responses synthesised by OpenAI are streamed back to the client over WebRTC
+
+**Security Controls:**
+- OpenAI ephemeral tokens are short-lived and issued only after a workspace-authenticated request
+- Microphone access gated by `Permissions-Policy: microphone=(self)` header and browser media permission prompt
+- Workspace session and OAuth validation mirrors text-based chat, though Realtime bootstrap does not require an explicit `projectId` (unlike `/assistant/chat`)
 
 ### 5.3 Resend Email Service
 
@@ -844,6 +918,14 @@ User      Frontend      Trigger Func    Background Func    AMAPI
   |           |--[GET /assistant/chat/result?jobId=xxx]-->           |
   |           |<--[{devices: [...]}]-------------------------        |
 ```
+
+**Device Deduplication:**
+
+Fleet sync results are processed through `dedupeDevicesForReenrolment()` which merges devices sharing the same name or previous names. When duplicates exist, the device with the most recent enrolment, compliance, or sync timestamp is retained. This prevents duplicate entries caused by device re-enrolment (factory reset and re-provision) and produces accurate fleet counts.
+
+**Device Summary Compaction:**
+
+Raw device payloads from AMAPI are compacted into summary objects for caching and assistant context injection. Summaries include: name, state, compliance status, ownership, battery level (extracted from the latest `powerManagementEvent`), model, and hardware info. This reduces cache size and LLM token consumption.
 
 ## 7. Security Threat Model
 
@@ -1096,18 +1178,20 @@ AUTH_VALIDATE_TOKENS=true
 - `POST /auth/logout-session` — Multi-tenant session logout
 
 **Workspace Management:**
-- `POST /workspace/create` — Create new workspace
+- `POST /workspace/create` — Create new workspace (rate-limited: 60/min)
 - `GET /workspace/config` — Get active workspace config and membership list
 - `POST /workspace/select` — Switch active workspace
-- `POST /workspace/delete` — Delete workspace and purge associated workspace-scoped data (owner/bootstrap-admin only)
+- `POST /workspace/delete` — Delete workspace and purge associated workspace-scoped data (owner/bootstrap-admin only; rate-limited: 15/min)
 - `GET /workspace/users` — List workspace members
-- `POST /workspace/invite` — Invite user to workspace
+- `POST /workspace/invite` — Invite user to workspace (rate-limited: 120/min)
 - `POST /workspace/user/remove` — Remove user from workspace
 - `POST /workspace/secrets/openai` — Set OpenAI API key
 - `POST /workspace/secrets/google-client` — Set Google OAuth client credentials
 - `POST /workspace/google-oauth/start` — Start workspace OAuth setup
 - `GET /workspace/google-oauth/callback` — Complete workspace OAuth callback
 - `POST /workspace/google-oauth/disconnect` — Disconnect workspace OAuth
+- `GET /workspace/audit-log` — Retrieve workspace audit entries (owner/admin only; 100-entry read limit)
+- `GET/POST/DELETE /workspace/chat-history` — Read, write, or delete per-user chat sessions (rate-limited: 240/480/60 per min respectively)
 
 **Assistant API:**
 - `POST /assistant/chat` — Query GPT assistant (rate-limited: 2,000/min, opt-in)
@@ -1120,7 +1204,7 @@ AUTH_VALIDATE_TOKENS=true
 **Fleet Data:**
 - `GET /assistant/fleet/enterprises` — List enterprises (cached)
 - `GET /assistant/fleet/enterprise?name=X` — Get enterprise details
-- `GET /assistant/fleet/devices?enterpriseName=X` — List devices
+- `GET /assistant/fleet/devices?enterpriseName=X` — List devices (with re-enrolment deduplication)
 - `GET /assistant/fleet/device?name=X` — Get device details
 - `POST /assistant/fleet/refresh` — Trigger background fleet sync
 - `GET /assistant/fleet/policies?enterpriseName=X` — List policies
@@ -1129,10 +1213,13 @@ AUTH_VALIDATE_TOKENS=true
 - `GET /assistant/fleet/web-app?name=X` — Get web app details
 - `GET /assistant/fleet/application?packageName=X` — Get application details
 
+**Scheduled:**
+- `assistant-refresh-scheduled` — Cron-triggered function that refreshes fleet data for active workspaces in configurable batch sizes
+
 **Utilities:**
 - `POST /mcp` — Model Context Protocol endpoint (tool listing and execution)
 - `GET /assistant/app-icon?packageName=X` — Proxy Play Store icon (SSRF-protected)
-- `POST /feedback/submit` — Submit user feedback (sends email)
+- `POST /feedback/submit` — Submit user feedback (sends email; rate-limited: 120/min)
 - `GET /app/config` — Get application configuration (returns `projectId` and `cacheDefaultEnabled`)
 
 ### Appendix C: Error Codes
@@ -1145,6 +1232,7 @@ AUTH_VALIDATE_TOKENS=true
 | 404 | Not Found | Resource does not exist, wrong workspace |
 | 405 | Method Not Allowed | Wrong HTTP method (GET vs POST) |
 | 409 | Conflict | Duplicate workspace, existing membership |
+| 413 | Payload Too Large | Workspace mutation body exceeds `MULTI_TENANT_WORKSPACE_MUTATION_MAX_REQUEST_BYTES` (default 100 KB) |
 | 429 | Too Many Requests | Rate limit exceeded |
 | 500 | Internal Server Error | Uncaught exception, configuration error (e.g. missing OAuth state secret) |
 | 502 | Bad Gateway | External API failure (Google, OpenAI) |
@@ -1164,17 +1252,24 @@ AUTH_VALIDATE_TOKENS=true
 - **RBAC:** Role-Based Access Control
 - **SSRF:** Server-Side Request Forgery
 - **TTL:** Time To Live (cache/token expiration)
+- **WebRTC:** Web Real-Time Communication (browser peer-to-peer protocol)
 
 ## Conclusion
 
 AMAPI Commander demonstrates a modern serverless SaaS architecture with comprehensive security controls including OAuth 2.0 authentication, AES-256-GCM encryption, multi-tenant isolation, and defence-in-depth strategies. The platform has undergone three rounds of security auditing with all critical and high-priority, and most lower-recommended items addressed.
 
 **Current Readiness:**
-- Core functionality implemented and tested
-- Security architecture designed and hardened
-- Multi-tenancy model provides workspace isolation with role hierarchy enforcement
-- Audit logging implemented for privileged operations
+- Core functionality implemented and tested (228 passing tests, 100% pass rate)
+- Security architecture designed and hardened across three audit rounds
+- Multi-tenancy model provides workspace isolation with role hierarchy enforcement and mutation locks
+- Audit logging implemented for privileged operations (500-entry rolling buffer per workspace)
 - SSRF, CSRF, and injection defences in place
 - Secrets management returns only boolean flags to clients
+- Voice-based fleet interaction via OpenAI Realtime API
+- Intelligent query planning with automatic sync/async routing
+- Device deduplication across re-enrolments
+- Per-user chat history with workspace-scoped persistence
+- Scheduled fleet data refresh for active workspaces
+- HSTS deployed (`max-age=31536000`)
 
 This whitepaper serves as both technical documentation for developers and security guidance for operators. It should be updated as the architecture evolves and new security controls are implemented.
