@@ -8,50 +8,18 @@
  */
 
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
+const z = require('zod/v4');
 const {
   WebStandardStreamableHTTPServerTransport,
 } = require('@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js');
 const {
-  buildSearchView,
   loadIndex,
+  loadSearchView,
+  noContentResponse,
   searchDocs,
+  validateSearchParams,
+  validateUrlParams,
 } = require('./_shared/content-index');
-
-/**
- * Validate and normalise search parameters.
- *
- * @param {{query?: unknown, limit?: unknown}} params
- * @returns {{query: string, limit: number}}
- */
-function validateSearchParams(params) {
-  if (typeof params.query !== 'string' || params.query.trim().length < 2) {
-    throw new Error('Parameter "query" must be a string with at least 2 characters.');
-  }
-
-  const actualLimit = Number(params.limit ?? 5);
-  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
-    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
-  }
-
-  return {
-    query: params.query.trim(),
-    limit: actualLimit,
-  };
-}
-
-/**
- * Validate and normalise URL lookup parameters.
- *
- * @param {{url?: unknown}} params
- * @returns {{url: string}}
- */
-function validateUrlParams(params) {
-  if (typeof params.url !== 'string' || params.url.trim().length < 1) {
-    throw new Error('Parameter "url" must be a non-empty string.');
-  }
-
-  return { url: params.url.trim() };
-}
 
 /**
  * Build the MCP server and register tools/resources.
@@ -60,7 +28,7 @@ function validateUrlParams(params) {
  */
 async function createServer() {
   const docs = await loadIndex();
-  const searchableDocs = buildSearchView(docs);
+  const searchableDocs = await loadSearchView();
 
   const server = new McpServer({
     name: 'bayton-content-remote',
@@ -73,20 +41,10 @@ async function createServer() {
     {
       title: 'Search site content',
       description: 'Keyword search across titles and body text from search-index.json.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          query: { type: 'string', minLength: 2, description: 'Search query in plain text.' },
-          limit: {
-            type: 'number',
-            minimum: 1,
-            maximum: 20,
-            default: 5,
-            description: 'Maximum number of results to return.',
-          },
+        inputSchema: {
+          query: z.string().min(2).describe('Search query in plain text.'),
+          limit: z.number().int().min(1).max(20).default(5).describe('Maximum number of results to return.'),
         },
-        required: ['query'],
-      },
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
@@ -104,13 +62,9 @@ async function createServer() {
     {
       title: 'Get content by URL',
       description: 'Return title and content for an exact site URL.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          url: { type: 'string', minLength: 1, description: 'Path such as /android/...' },
+        inputSchema: {
+          url: z.string().min(1).describe('Path such as /android/...'),
         },
-        required: ['url'],
-      },
     },
     async params => {
       const { url } = validateUrlParams(params);
@@ -199,6 +153,33 @@ exports.handler = async event => {
   let server;
 
   try {
+    if (event.httpMethod === 'OPTIONS') {
+      return noContentResponse();
+    }
+
+    if (event.httpMethod !== 'POST') {
+      return {
+        statusCode: 405,
+        headers: {
+          'content-type': 'application/json; charset=utf-8',
+          allow: 'POST, OPTIONS',
+          'cache-control': 'no-store',
+        },
+        body: JSON.stringify(
+          {
+            jsonrpc: '2.0',
+            error: {
+              code: -32600,
+              message: 'Method not allowed. Use POST for MCP requests.',
+            },
+            id: null,
+          },
+          null,
+          2
+        ),
+      };
+    }
+
     const request = toWebRequest(event);
     server = await createServer();
     transport = new WebStandardStreamableHTTPServerTransport({

@@ -50,7 +50,7 @@ node api/mcp/eleventy-content-mcp-server.js
 
 ## Netlify routes (clean API paths)
 
-Configured in `_src/_includes/_redirects` and mirrored in `netlify.toml`:
+Configured in `netlify.toml` (and optionally mirrored in `_src/_includes/_redirects` if you maintain redirects there):
 
 - `/api/mcp` -> protocol MCP endpoint
 - `/api/mcp/search-content` -> HTTP search adapter

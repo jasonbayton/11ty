@@ -34,6 +34,19 @@ function getToolText(result) {
     .join('\n');
 }
 
+/**
+ * Ensure MCP tool results are successful, not just non-empty.
+ *
+ * @param {{isError?: boolean, content?: Array<{type?: string, text?: string}>}} result
+ * @param {string} toolName
+ */
+function assertToolSuccess(result, toolName) {
+  if (result && result.isError) {
+    const detail = getToolText(result) || 'Unknown MCP tool error';
+    throw new Error(`${toolName} returned an MCP error: ${detail}`);
+  }
+}
+
 async function main() {
   const transport = new StdioClientTransport({
     command: 'node',
@@ -76,6 +89,7 @@ async function main() {
         limit: 1,
       },
     });
+    assertToolSuccess(searchResult, 'search_content');
 
     const searchText = getToolText(searchResult);
     if (!searchText) {
@@ -95,6 +109,7 @@ async function main() {
         name: 'get_content_by_url',
         arguments: { url: firstUrl },
       });
+      assertToolSuccess(byUrlResult, 'get_content_by_url');
 
       const byUrlText = getToolText(byUrlResult);
       if (!byUrlText) {
