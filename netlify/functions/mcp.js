@@ -12,46 +12,12 @@ const {
   WebStandardStreamableHTTPServerTransport,
 } = require('@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js');
 const {
-  buildSearchView,
   loadIndex,
+  loadSearchView,
   searchDocs,
+  validateSearchParams,
+  validateUrlParams,
 } = require('./_shared/content-index');
-
-/**
- * Validate and normalise search parameters.
- *
- * @param {{query?: unknown, limit?: unknown}} params
- * @returns {{query: string, limit: number}}
- */
-function validateSearchParams(params) {
-  if (typeof params.query !== 'string' || params.query.trim().length < 2) {
-    throw new Error('Parameter "query" must be a string with at least 2 characters.');
-  }
-
-  const actualLimit = Number(params.limit ?? 5);
-  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
-    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
-  }
-
-  return {
-    query: params.query.trim(),
-    limit: actualLimit,
-  };
-}
-
-/**
- * Validate and normalise URL lookup parameters.
- *
- * @param {{url?: unknown}} params
- * @returns {{url: string}}
- */
-function validateUrlParams(params) {
-  if (typeof params.url !== 'string' || params.url.trim().length < 1) {
-    throw new Error('Parameter "url" must be a non-empty string.');
-  }
-
-  return { url: params.url.trim() };
-}
 
 /**
  * Build the MCP server and register tools/resources.
@@ -60,7 +26,7 @@ function validateUrlParams(params) {
  */
 async function createServer() {
   const docs = await loadIndex();
-  const searchableDocs = buildSearchView(docs);
+  const searchableDocs = await loadSearchView();
 
   const server = new McpServer({
     name: 'bayton-content-remote',
@@ -78,7 +44,7 @@ async function createServer() {
         properties: {
           query: { type: 'string', minLength: 2, description: 'Search query in plain text.' },
           limit: {
-            type: 'number',
+            type: 'integer',
             minimum: 1,
             maximum: 20,
             default: 5,

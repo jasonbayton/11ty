@@ -6,36 +6,14 @@
  */
 
 const {
-  buildSearchView,
   isDevelopment,
   jsonResponse,
-  loadIndex,
+  loadSearchView,
+  noContentResponse,
   searchDocs,
   safeMessage,
+  validateSearchParams,
 } = require('./_shared/content-index');
-
-/**
- * Validate and normalise input parameters for search requests.
- *
- * @param {{query?: unknown, limit?: unknown}} params
- * @returns {{query: string, limit: number}}
- */
-function validateSearchParams(params) {
-  if (typeof params.query !== 'string' || params.query.trim().length < 2) {
-    throw new Error('Parameter "query" must be a string with at least 2 characters.');
-  }
-
-  const actualLimit = Number(params.limit ?? 5);
-
-  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
-    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
-  }
-
-  return {
-    query: params.query.trim(),
-    limit: actualLimit,
-  };
-}
 
 /**
  * Parse request parameters from either query string or JSON body.
@@ -72,15 +50,27 @@ function parseParams(event) {
  */
 exports.handler = async event => {
   if (event.httpMethod === 'OPTIONS') {
-    return jsonResponse(204, {});
+    return noContentResponse();
+  }
+  if (event.httpMethod !== 'GET' && event.httpMethod !== 'POST') {
+    const response = jsonResponse(405, {
+      error: 'method_not_allowed',
+      message: 'Method must be GET, POST, or OPTIONS.',
+    });
+    return {
+      ...response,
+      headers: {
+        ...response.headers,
+        allow: 'GET, POST, OPTIONS',
+      },
+    };
   }
 
   try {
     const params = parseParams(event);
     const { query, limit } = validateSearchParams(params);
 
-    const docs = await loadIndex();
-    const searchableDocs = buildSearchView(docs);
+    const searchableDocs = await loadSearchView();
     const results = searchDocs(searchableDocs, query, limit);
 
     return jsonResponse(200, {
@@ -88,12 +78,13 @@ exports.handler = async event => {
       results,
     });
   } catch (error) {
+    const message = error && typeof error.message === 'string' ? error.message : '';
     const isClientError =
-      error.message.includes('Parameter') ||
-      error.message.includes('Request body must be valid JSON') ||
-      error.message.includes('POST requests must include a JSON body');
+      message.includes('Parameter') ||
+      message.includes('Request body must be valid JSON') ||
+      message.includes('POST requests must include a JSON body');
 
-    const isServiceUnavailable = error.message.includes('Search index is unavailable');
+    const isServiceUnavailable = message.includes('Search index is unavailable');
 
     const statusCode = isClientError ? 400 : isServiceUnavailable ? 503 : 500;
 

@@ -5,21 +5,14 @@
  * Method: GET (query string) or POST (JSON body)
  */
 
-const { isDevelopment, jsonResponse, loadIndex, safeMessage } = require('./_shared/content-index');
-
-/**
- * Validate and normalise URL lookup parameters.
- *
- * @param {{url?: unknown}} params
- * @returns {{url: string}}
- */
-function validateUrlParams(params) {
-  if (typeof params.url !== 'string' || params.url.trim().length < 1) {
-    throw new Error('Parameter "url" must be a non-empty string.');
-  }
-
-  return { url: params.url.trim() };
-}
+const {
+  isDevelopment,
+  jsonResponse,
+  loadIndex,
+  noContentResponse,
+  safeMessage,
+  validateUrlParams,
+} = require('./_shared/content-index');
 
 /**
  * Parse request parameters from either query string or JSON body.
@@ -55,10 +48,19 @@ function parseParams(event) {
  */
 exports.handler = async event => {
   if (event.httpMethod === 'OPTIONS') {
-    // Return a proper 204 No Content response for CORS preflight, with no body.
+    return noContentResponse();
+  }
+  if (event.httpMethod !== 'GET' && event.httpMethod !== 'POST') {
+    const response = jsonResponse(405, {
+      error: 'method_not_allowed',
+      message: 'Method must be GET, POST, or OPTIONS.',
+    });
     return {
-      statusCode: 204,
-      body: '',
+      ...response,
+      headers: {
+        ...response.headers,
+        allow: 'GET, POST, OPTIONS',
+      },
     };
   }
 
@@ -78,12 +80,13 @@ exports.handler = async event => {
 
     return jsonResponse(200, found);
   } catch (error) {
+    const message = error && typeof error.message === 'string' ? error.message : '';
     const isClientError =
-      error.message.includes('Parameter') ||
-      error.message.includes('Request body must be valid JSON') ||
-      error.message.includes('POST requests must include a JSON body');
+      message.includes('Parameter') ||
+      message.includes('Request body must be valid JSON') ||
+      message.includes('POST requests must include a JSON body');
 
-    const isServiceUnavailable = error.message.includes('Search index is unavailable');
+    const isServiceUnavailable = message.includes('Search index is unavailable');
 
     const statusCode = isClientError ? 400 : isServiceUnavailable ? 503 : 500;
 

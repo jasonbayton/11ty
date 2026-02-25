@@ -10,9 +10,11 @@
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
 const {
-  buildSearchView,
   loadIndex,
+  loadSearchView,
   searchDocs,
+  validateSearchParams,
+  validateUrlParams,
 } = require('../../netlify/functions/_shared/content-index');
 
 /**
@@ -20,48 +22,9 @@ const {
  * stay aligned and avoid logic drift over time.
  */
 
-/**
- * Validate and normalise search tool inputs at runtime.
- *
- * @param {{query?: unknown, limit?: unknown}} params
- * @returns {{query: string, limit: number}}
- */
-function validateSearchParams(params) {
-  if (typeof params.query !== 'string' || params.query.trim().length < 2) {
-    throw new Error('Parameter "query" must be a string with at least 2 characters.');
-  }
-
-  // Default to 5 when the client omits `limit`.
-  const actualLimit = params.limit ?? 5;
-
-  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
-    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
-  }
-
-  return {
-    query: params.query.trim(),
-    limit: actualLimit,
-  };
-}
-
-/**
- * Validate and normalise URL lookup inputs at runtime.
- *
- * @param {{url?: unknown}} params
- * @returns {{url: string}}
- */
-function validateUrlParams(params) {
-  if (typeof params.url !== 'string' || params.url.trim().length < 1) {
-    throw new Error('Parameter "url" must be a non-empty string.');
-  }
-
-  return { url: params.url.trim() };
-}
-
-
 async function main() {
   const docs = await loadIndex();
-  const searchableDocs = buildSearchView(docs);
+  const searchableDocs = await loadSearchView();
 
   const server = new McpServer({
     name: 'bayton-content',
@@ -85,7 +48,7 @@ async function main() {
             minLength: 2,
           },
           limit: {
-            type: 'number',
+            type: 'integer',
             description: 'Maximum number of results to return.',
             minimum: 1,
             maximum: 20,

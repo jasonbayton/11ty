@@ -21,6 +21,7 @@ const SEARCH_INDEX_PATH = path.resolve(process.cwd(), '_public', 'search-index.j
  * performance optimisation rather than a global cache guarantee.
  */
 let cachedDocs = null;
+let cachedSearchableDocs = null;
 
 /**
  * Resolve the site origin for remote search-index fallback in serverless.
@@ -117,6 +118,21 @@ function jsonResponse(statusCode, payload) {
 }
 
 /**
+ * Build an empty 204 response with CORS headers for browser preflight checks.
+ *
+ * @returns {{statusCode: number, headers: Record<string, string>, body: string}}
+ */
+function noContentResponse() {
+  const base = jsonResponse(204, {});
+  base.headers['cache-control'] = 'no-store';
+  delete base.headers.vary;
+  return {
+    ...base,
+    body: '',
+  };
+}
+
+/**
  * Determine whether to expose verbose internal error detail.
  *
  * @returns {boolean}
@@ -153,6 +169,7 @@ async function loadIndex() {
   try {
     const raw = await fs.readFile(SEARCH_INDEX_PATH, 'utf8');
     cachedDocs = parseIndex(raw);
+    cachedSearchableDocs = null;
     return cachedDocs;
   } catch (error) {
     if (!(error && error.code === 'ENOENT')) {
@@ -190,6 +207,7 @@ async function loadIndex() {
   }
 
   cachedDocs = parseIndex(raw);
+  cachedSearchableDocs = null;
   return cachedDocs;
 }
 
@@ -204,6 +222,58 @@ function buildSearchView(docs) {
     ...doc,
     haystack: `${doc.title}\n${doc.content || ''}`.toLowerCase(),
   }));
+}
+
+/**
+ * Load docs and return a cached searchable view for warm serverless containers.
+ *
+ * @returns {Promise<Array<{title: string, url: string, content: string, haystack: string}>>}
+ */
+async function loadSearchView() {
+  const docs = await loadIndex();
+
+  if (cachedSearchableDocs) {
+    return cachedSearchableDocs;
+  }
+
+  cachedSearchableDocs = buildSearchView(docs);
+  return cachedSearchableDocs;
+}
+
+/**
+ * Validate and normalize search parameters used across MCP and HTTP adapters.
+ *
+ * @param {{query?: unknown, limit?: unknown}} params
+ * @returns {{query: string, limit: number}}
+ */
+function validateSearchParams(params) {
+  if (typeof params.query !== 'string' || params.query.trim().length < 2) {
+    throw new Error('Parameter "query" must be a string with at least 2 characters.');
+  }
+
+  const actualLimit = Number(params.limit ?? 5);
+  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
+    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
+  }
+
+  return {
+    query: params.query.trim(),
+    limit: actualLimit,
+  };
+}
+
+/**
+ * Validate and normalize URL lookup parameters used across MCP and HTTP adapters.
+ *
+ * @param {{url?: unknown}} params
+ * @returns {{url: string}}
+ */
+function validateUrlParams(params) {
+  if (typeof params.url !== 'string' || params.url.trim().length < 1) {
+    throw new Error('Parameter "url" must be a non-empty string.');
+  }
+
+  return { url: params.url.trim() };
 }
 
 /**
@@ -286,6 +356,10 @@ module.exports = {
   searchDocs,
   isDevelopment,
   jsonResponse,
+  noContentResponse,
   loadIndex,
+  loadSearchView,
   safeMessage,
+  validateSearchParams,
+  validateUrlParams,
 };
