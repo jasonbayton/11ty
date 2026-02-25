@@ -8,6 +8,7 @@
  */
 
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
+const z = require('zod/v4');
 const {
   WebStandardStreamableHTTPServerTransport,
 } = require('@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js');
@@ -40,20 +41,10 @@ async function createServer() {
     {
       title: 'Search site content',
       description: 'Keyword search across titles and body text from search-index.json.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          query: { type: 'string', minLength: 2, description: 'Search query in plain text.' },
-          limit: {
-            type: 'integer',
-            minimum: 1,
-            maximum: 20,
-            default: 5,
-            description: 'Maximum number of results to return.',
-          },
+        inputSchema: {
+          query: z.string().min(2).describe('Search query in plain text.'),
+          limit: z.number().int().min(1).max(20).default(5).describe('Maximum number of results to return.'),
         },
-        required: ['query'],
-      },
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
@@ -71,13 +62,9 @@ async function createServer() {
     {
       title: 'Get content by URL',
       description: 'Return title and content for an exact site URL.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          url: { type: 'string', minLength: 1, description: 'Path such as /android/...' },
+        inputSchema: {
+          url: z.string().min(1).describe('Path such as /android/...'),
         },
-        required: ['url'],
-      },
     },
     async params => {
       const { url } = validateUrlParams(params);

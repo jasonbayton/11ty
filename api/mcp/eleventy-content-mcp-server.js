@@ -9,6 +9,7 @@
 
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
+const z = require('zod/v4');
 const {
   loadIndex,
   loadSearchView,
@@ -39,24 +40,10 @@ async function main() {
     {
       title: 'Search site content',
       description: 'Keyword search across titles and body text from search-index.json.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          query: {
-            type: 'string',
-            description: 'Search query in plain text.',
-            minLength: 2,
-          },
-          limit: {
-            type: 'integer',
-            description: 'Maximum number of results to return.',
-            minimum: 1,
-            maximum: 20,
-            default: 5,
-          },
+        inputSchema: {
+          query: z.string().min(2).describe('Search query in plain text.'),
+          limit: z.number().int().min(1).max(20).default(5).describe('Maximum number of results to return.'),
         },
-        required: ['query'],
-      },
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
@@ -81,17 +68,9 @@ async function main() {
     {
       title: 'Get content by URL',
       description: 'Return title and content for an exact site URL.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          url: {
-            type: 'string',
-            description: 'Path such as /docs/linux/ubuntu/...',
-            minLength: 1,
-          },
+        inputSchema: {
+          url: z.string().min(1).describe('Path such as /docs/linux/ubuntu/...'),
         },
-        required: ['url'],
-      },
     },
     async params => {
       const { url } = validateUrlParams(params);
