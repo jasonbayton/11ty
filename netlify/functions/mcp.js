@@ -14,6 +14,7 @@ const {
 const {
   loadIndex,
   loadSearchView,
+  noContentResponse,
   searchDocs,
   validateSearchParams,
   validateUrlParams,
@@ -165,6 +166,33 @@ exports.handler = async event => {
   let server;
 
   try {
+    if (event.httpMethod === 'OPTIONS') {
+      return noContentResponse();
+    }
+
+    if (event.httpMethod !== 'POST') {
+      return {
+        statusCode: 405,
+        headers: {
+          'content-type': 'application/json; charset=utf-8',
+          allow: 'POST, OPTIONS',
+          'cache-control': 'no-store',
+        },
+        body: JSON.stringify(
+          {
+            jsonrpc: '2.0',
+            error: {
+              code: -32600,
+              message: 'Method not allowed. Use POST for MCP requests.',
+            },
+            id: null,
+          },
+          null,
+          2
+        ),
+      };
+    }
+
     const request = toWebRequest(event);
     server = await createServer();
     transport = new WebStandardStreamableHTTPServerTransport({
