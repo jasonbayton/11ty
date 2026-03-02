@@ -62,7 +62,7 @@ Every tool is strictly read-only. There are no create, update, or delete operati
 
 Where a traditional integration might require dozens of lines of code to list devices, filter by OS version, and format a report, an MCP-connected model handles that in a single conversational turn - chaining `list_devices`, inspecting the returned fields, and summarising the output without any bespoke client logic.
 
-## What AMAPI Commander does
+## AMAPI Commander
 
 [AMAPI Commander](https://amapi-commander.bayton.org) is a multi-tenant web application that sits between the user and AMAPI. Rather than navigating dashboards or writing API calls, you ask the platform a question, and it returns an answer in seconds.
 
@@ -98,7 +98,7 @@ I will pause here to say it's not _all_ out-of-the-box-LLM. Without gates and a 
 
 </div>
 
-## Built for multi-tenant from day one
+### Built for multi-tenant from day one
 
 Each workspace operates as an isolated tenant with its own Google Cloud project credentials, encrypted API keys, user memberships, and role-based access control. Workspace owners manage secrets, admins handle invitations and members, and members get read access to estate data. Data is isolated at every layer: storage keys, cache entries, and audit logs are all scoped either per workspace, or per user.
 
@@ -106,15 +106,33 @@ Each workspace operates as an isolated tenant with its own Google Cloud project 
 
 On the security side, credentials are encrypted at rest with AES-256-GCM (the same standard used across banking and government), and the platform never returns encrypted values to the client. Authentication supports both Google OAuth for authorising Google Cloud Project access, while passwordless magic links handle access to AMAPI Commander's UI. There's also a comprehensive audit trail for privileged operations. The architecture has been through multiple rounds of security auditing, and the full technical detail is documented in the [Technical Whitepaper](/projects/amapi-commander/support/technical-whitepaper/) for those who want to kick the tyres.
 
+### Keeping your data yours
+
+A platform that queries fleet data needs to take data ownership seriously. Here's how AMAPI Commander handles it:
+
+**Nothing persists unless you want it to.** Estate data caching is off by default. Every query goes straight to AMAPI, gets the answer, and the response isn't stored. You can opt into caching per workspace, which dramatically improves performance for repeated queries and reduces your Google API quota usage, but it's a deliberate choice rather than a default.
+
+**Workspaces can be fully deleted.** Workspace owners and platform admins can delete a workspace entirely, which purges all associated data: configuration, encrypted credentials, cached estate data, chat history, audit logs, and memberships. There's no soft-delete or retention period, it gets wiped out.
+
+**Chat history is scoped and ephemeral.** Conversations are stored per user, per workspace, with a configurable retention period (30 days by default). Users can delete their own chat history at any time. Message content is capped and sanitised before storage.
+
+**Credentials never leave the server.** Encrypted secrets (OAuth tokens, API keys) are stored server-side with AES-256-GCM and workspace-bound authenticated encryption. The client only ever sees whether a secret has been set - never the value itself, not even the ciphertext.
+
+**User identifiers are hashed.** Email addresses used for storage keys are SHA-256 hashed, so even the underlying blob store doesn't contain plaintext email-to-data mappings.
+
+**Logs redact sensitive data.** Any server-side logging automatically strips tokens, secrets, passwords, and authorisation headers before they reach stdout.
+
+In short, active steps have been taken to minimise data collection, and encrypt the data that is temporarily (as long as needed) kept.
+
 ## Who is this for?
 
 AMAPI Commander is a reference implementation, not an end-customer product. It's built for anyone in the Android Enterprise ecosystem who has direct access to an AMAPI-enabled Google Cloud project:
 
-- **EMM vendors** exploring how conversational AI and MCP can surface estate data — a working example of the experience they could offer their own customers.
+- **EMM vendors** exploring how conversational AI and MCP can surface estate data - a working example of the experience they could offer their own customers.
 - **Managed service providers** who operate their own AMAPI projects perhaps via on-prem solutions on behalf of an EMM, and want a more accessible way to query the data they already manage.
 - **Technical partners and developers** integrating with AMAPI who want to see how MCP tools map to the API in practice.
 
-Organisations managing devices through a commercial EMM won't have access to the underlying Google Cloud project — their vendor owns that. AMAPI Commander is a glimpse of what's possible when that data is made conversational, and an invitation for vendors to bring something similar to their own platforms.
+Organisations managing devices through a commercial EMM won't have access to the underlying Google Cloud project - their vendor owns that. AMAPI Commander is a glimpse of what's possible when that data is made conversational, and an invitation for vendors to bring something similar to their own platforms.
 
 ## What AMAPI Commander isn't
 
