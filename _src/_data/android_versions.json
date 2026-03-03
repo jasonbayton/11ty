@@ -11,6 +11,17 @@
     "eolDate": "YYYY-MM-DD|null"
   },
   "items": [
+        {
+      "version": "17",
+      "apiLevel": 37,
+      "codename": "Cinnamon Bun",
+      "releaseDate": "2025-06-10",
+      "icon": "https://cdn.bayton.org/assets/android_version_icons/android_17.svg",
+      "status": "latest",
+      "supported": true,
+      "productionRelease": false,
+      "eolDate": null
+    },
     {
       "version": "16",
       "apiLevel": 36,
@@ -50,10 +61,10 @@
       "codename": "Tiramisu",
       "releaseDate": "2022-08-15",
       "icon": "https://cdn.bayton.org/assets/android_version_icons/android_13.svg",
-      "status": "maintained",
+      "status": "end-of-support",
       "supported": true,
       "productionRelease": true,
-      "eolDate": null
+      "eolDate": "2026-03-02"
     },
     {
       "version": "12L",
