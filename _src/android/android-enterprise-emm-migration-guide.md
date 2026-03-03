@@ -56,7 +56,7 @@ It's worth noting that the underlying platform support for DPC migration has exi
 
 Compare this to Apple, who shipped MDM migration with iOS 26, iPadOS 26, and macOS 26 last year. Through Apple Business Manager, organisations can reassign devices to a new MDM server, set an enforcement deadline, and the device migrates without a factory reset - user data intact, managed profiles swapped out, apps optionally preserved. Apple had the courage to force their EMM ecosystem to be better and prioritise the customer experience over vendor lock-in. Google, despite having the technical foundations in place for the better part of a decade, has not. Whether this is a lack of will, a concession to EMM vendors who benefit from the switching cost is anyone's guess - but the result is the same: Android migrations remain disruptive by default, and organisations pay the price.
 
-If you'd like to see this change, voice your feedback to the [Android Enterprise Customer Community](https://androidenterprise.community). Refer to this article is desired (but that's not necessary).
+If you'd like to see this change, voice your feedback to the [Android Enterprise Customer Community](https://androidenterprise.community). Refer to this article if desired (but that's not necessary).
 
 </div>
 
