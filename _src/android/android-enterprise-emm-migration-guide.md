@@ -4,9 +4,12 @@ date: '2026-03-03'
 status: publish
 author: 'Jason Bayton'
 excerpt: "A comprehensive guide to planning and executing a migration of Android Enterprise devices between EMM platforms, and the practical realities of moving an estate without losing your mind."
-type: post
-tags:
-  - Enterprise
+type: documentation
+tags: 
+    - General
+layout: base.njk
+eleventyNavigation:
+  order: 2000
 ---
 
 ## What is this guide?
