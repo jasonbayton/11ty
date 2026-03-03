@@ -69,9 +69,7 @@ Here is what migration looks like for each deployment scenario:
 Managed backup and restore
 </div>
 
-Technically it's now possible for organisations already using Authenticate with Google to user-assign devices to employees:
-
-https://support.google.com/work/android/answer/16713206
+Technically [it's now possible](https://support.google.com/work/android/answer/16713206) for organisations already using Authenticate with Google to user-assign devices to employees:
 
 As of writing AMAPI doesn't support the APIs needed to control the device backup service. Some legacy EMM vendors will with custom DPC, which is a considerable competitive advantage Google offers them over the rest of the AMAPI-enabled market.
 
