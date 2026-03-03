@@ -1,6 +1,6 @@
 ---
 title: "How to migrate Android devices from one EMM to another"
-date: '2026-03-03'
+published: '2026-03-03'
 status: publish
 author: 'Jason Bayton'
 excerpt: "A comprehensive guide to planning and executing a migration of Android Enterprise devices between EMM platforms, and the practical realities of moving an estate without losing your mind."
