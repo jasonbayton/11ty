@@ -12,9 +12,12 @@ eleventyNavigation:
   order: 2000
 ---
 
-## What is this guide?
+<div class="callout callout-green">
+<div class="callout-heading callout-heading-small">New to Android Enterprise?</div>
 
 For information regarding Android Enterprise, including the deployment scenarios referenced throughout this guide and how it can benefit organisations, have a read of [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/).
+
+</div>
 
 Migrating Android devices between EMM platforms is one of the most disruptive activities an organisation can undertake with its estate. Similar to the days of Device Administrator, there is no in-place migration path for most deployment scenarios. Devices will need to be wiped, reprovisioned, and re-enrolled.
 
@@ -47,10 +50,13 @@ For the majority of Android Enterprise deployment scenarios, migration means a w
 Google has publicly documented [DPC migration](/blog/2024/01/amapi-migrations/) functionality within the Android Management API, but this is currently limited to migrating devices from a custom DPC (Play EMM API) backend to AMAPI within the same EMM vendor. It cannot be used to migrate devices between vendors, and it cannot be reversed. Cross-vendor, wipe-free migration remains aspirational.
 
 <div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">This could be easier</div>
 
 It's worth noting that the underlying platform support for DPC migration has existed since Android 9.0 (that was 2018). The APIs are there. Google discussed it at their partner summit that year as an ambitious capability that would allow seamless, wipe-free migration of devices between EMM platforms. Several years on, it still hasn't been enabled for cross-vendor use. The watered-down version that eventually surfaced in early 2024 serves only single-vendor custom DPC-to-AMAPI transitions, which is useful for vendors modernising their backend but does nothing for organisations wanting to change provider.
 
 Compare this to Apple, who shipped MDM migration with iOS 26, iPadOS 26, and macOS 26 last year. Through Apple Business Manager, organisations can reassign devices to a new MDM server, set an enforcement deadline, and the device migrates without a factory reset - user data intact, managed profiles swapped out, apps optionally preserved. Apple had the courage to force their EMM ecosystem to be better and prioritise the customer experience over vendor lock-in. Google, despite having the technical foundations in place for the better part of a decade, has not. Whether this is a lack of will, a concession to EMM vendors who benefit from the switching cost is anyone's guess - but the result is the same: Android migrations remain disruptive by default, and organisations pay the price.
+
+If you'd like to see this change, voice your feedback to the [Android Enterprise Customer Community](https://androidenterprise.community). Refer to this article is desired (but that's not necessary).
 
 </div>
 
