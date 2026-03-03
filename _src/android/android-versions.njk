@@ -27,6 +27,7 @@ eleventyNavigation:
   <table>
   <thead>
     <tr>
+    <th aria-label="Android icon">Icon</th>
     <th>Version</th>
     <th>Codename</th>
     <th>API version</th>
@@ -39,6 +40,13 @@ eleventyNavigation:
   <tbody>
   {% for item in androidVersions.items %}
     <tr>
+      <td>
+        {% if item.icon %}
+          <img src="{{ item.icon }}" alt="Android {{ item.version }} icon" width="24" height="24" loading="lazy" decoding="async">
+        {% else %}
+          -
+        {% endif %}
+      </td>
       <td>{{ item.version }}</td>
       <td>{{ item.codename }}</td>
       <td>{{ item.apiLevel }}</td>
