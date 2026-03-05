@@ -48,11 +48,13 @@ So while here it's _just an MDM_, with the pace it was spun up, the next logical
 
 ### A caveat on existing knowledge
 
-It's become common to see people with zero experience spinning up tools with AI that end up failing in spectacular ways - security holes, architectural dead ends, fundamental misunderstandings of the problem they're trying to solve. The AI can write the code, but it can't tell you whether the code is solving the right problem in the right way.
+It's become common to see people with no experience spinning up tools with AI that end up failing in spectacular ways - security holes, architectural dead ends, fundamental misunderstandings of the problem they're trying to solve. The AI can write the code, but it can't tell you whether the code is solving the right problem in the right way.
 
-Flash is an AMAPI MDM because I have a deep understanding of the Android ecosystem, the management API, and a reasonable background in systems architecture. I know many of the things to look out for - where AMAPI behaves unexpectedly, where policy management gets tricky, where tenant isolation can't be an afterthought. That domain knowledge shaped every architectural decision and every prompt I gave the agents. It's also why Flash isn't an iOS or Windows MDM today. I'd want to understand those management stacks at a developer level to a similar degree before I'd trust what I put out. AI dramatically compresses the build cycle, but it doesn't replace knowing what you're building and why.
+Flash is an Android MDM because I have a deep understanding of the Android ecosystem, the management API, and a reasonable background in systems architecture. I know many of the things to look out for - where AMAPI behaves unexpectedly, where policy management gets tricky, where tenant isolation can't be an afterthought. That domain knowledge shaped every architectural decision and every prompt I gave the agents. It's also why Flash isn't an iOS or Windows MDM today. I'd want to understand those management stacks at a developer level to a similar degree before I'd trust what I put out. AI dramatically compresses the build cycle, but it doesn't replace knowing what you're building and why.
 
-This isn't a flex for the sake of it (well, maybe a little). Rather, it's an observation about where the barrier to entry now sits. The same APIs that power commercial MDM solutions are available to anyone with a Google Cloud project. The same frameworks, the same infrastructure primitives, the same deployment platforms. What's changed is the velocity at which a single person - armed with domain expertise, an agentic workflow, and a decent laptop - can turn all of that into a working product.
+On the other hand, this cautionary approach is probably why I'm not a millionaire already, but I digress..
+
+In any case, this is an observation on where the barrier to entry now sits. The same APIs that power commercial MDM solutions are available to anyone with a Google Cloud project. The same frameworks, the same infrastructure primitives, the same deployment platforms. What's changed is the velocity at which a single person - armed with domain expertise, an agentic workflow, and a decent laptop - can turn all of that into a working product.
 
 Just to call it out, I'm not saying Flash is perfectly bug free. Manually testing in-production takes dramatically longer than committing code, but what I've tested so far has been fine. 
 
@@ -194,11 +196,11 @@ I understand why permissible usage exists. The perceived support burden, the pot
 
 Speaking to industry peers, there are some interesting ideas emerging should loosening these restrictions become feasible - not eliminating them entirely, but perhaps opening up customer access with appropriate guardrails. Google could spin up developer communities, recommended architectures and prompts, and leave a level of access without the expectations of support existing partners have today. It's all technically possible. The question is whether the policies will keep pace with the reality that the tooling has already moved on.
 
-## New interfaces, new paradigms. The rise of AEC.
+## New interfaces, new paradigms. The rise of ACE.
 
 The exciting bit isn't just that you can build an MDM faster. It's that you can build an MDM *differently*.
 
-I use MDM as it's a well-recognised acronym, but we've seen MDM, EMM, UEM iterate _what_ is managed. AEC - Agentic Endpoint Control - expands _how_ it is managed.
+I use MDM as it's a well-recognised acronym, but we've seen MDM, EMM, UEM iterate _what_ is managed. ACE - Agentic Control of Endpoints - expands _how_ it is managed.
 
 Every major MDM platform today is fundamentally a web console with a REST API underneath. Some have added chatbots or AI assistants on top, but the core interaction model hasn't changed since the early days: log in, navigate menus, configure policies, view reports. 
 
