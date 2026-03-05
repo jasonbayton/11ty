@@ -3,7 +3,7 @@ title: "MDM is dead. Long live ACE?"
 date: '2026-03-05'
 status: publish
 author: 'Jason Bayton'
-excerpt: "Agentic development is on the rise, agenctic control could come next - the enterprise mobility space is not immune."
+excerpt: "Agentic development is on the rise, agentic control could come next - the enterprise mobility space is not immune."
 type: post
 tags:
   - Enterprise
@@ -22,7 +22,7 @@ I haven't done much with agentic development up to this point and talking recent
 So, I opted to take on something ambitious; build a full, production-grade MDM platform to replace the tools I use on a daily basis.
 
 More than a proof of concept. (but still a POC).  
-Not a weekend hack. (Also.. debateable).
+Not a weekend hack. (Also.. debatable).
 
 What I ended up with was a multi-tenant, role-enforced, enterprise-ready management platform with policy authoring, device lifecycle management, enrolment workflows, location, and an integrated AI assistant. I planned meticulously from the outset to try to avoid the common pitfalls of AI-assisted development - security holes, spaghetti code, architectural dead ends - by defining the foundations before anything wrote a single line.
 
