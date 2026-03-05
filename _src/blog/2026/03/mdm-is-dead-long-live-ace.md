@@ -60,11 +60,11 @@ The exciting bit isn't just that you can build an MDM faster. It's that you can 
 
 I use MDM as it's a well-recognised acronym, but we've seen MDM, EMM, UEM iterate _what_ is managed. ACE - Agentic Control of Endpoints - expands _how_ it is managed.
 
-Every major MDM platform today is fundamentally a web console with a REST API underneath. Some have added chatbots or AI assistants on top, but the core interaction model hasn't changed since the early days: log in, navigate menus, configure policies, view reports. 
+Every major EMM platform today is fundamentally a web console running atop an API. To be fair, vendors in the space aren't standing still - we're seeing AI-driven insights, proactive monitoring, tools for automated data analysis that would take an engineer hours to work through, and predictive analytics on hardware health and environmental conditions. These are meaningful improvements. But the core interaction model - log in, navigate menus, configure policies, view reports - hasn't fundamentally changed in years. The AI is making the existing paradigm smarter, not replacing it, and of course the most visible change the introduction of a chatbot.
 
-Conversational MDM - asking your platform questions in natural language - is a welcome step, but it's a baby step. It's still the same data, the same operations, just accessed through a different input method.
+Conversational device management - asking your platform questions in natural language - is a welcome step, but it's a baby step. It's still the same data, the same operations, just accessed through a different input method.
 
-What happens when you're not constrained by twenty years of UI patterns and backward compatibility? What happens when the management interface isn't a dashboard at all?
+What happens when you're not constrained by decades of UI patterns and backward compatibility? What happens when the management interface isn't a dashboard at all?
 
 Think about what an agentic management platform could look like. Not a chatbot bolted onto a console, but a system where you describe your desired state - "I want these devices secured to NCSC best practices, with these apps deployed, location tracked within these geofences, and any compliance violation automatically triaged within 30 minutes" - and an autonomous agent makes it happen. Monitors it. Adapts it. Reports back when something _needs_ human attention.
 
