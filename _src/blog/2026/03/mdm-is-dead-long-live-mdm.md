@@ -232,7 +232,7 @@ Importantly, Flashi runs on Flash's own API - no direct database manipulation, n
 
 Flash MDM exists primarily as proof that this shift is real and happening now. It's a working, deployable platform with a comprehensive feature set and an architecture designed for extensibility.
 
-In fact, if you have a spare Android device, you can take the platform for a spin by signing up below, just be mindful if you use the assistant, it will run out of OpenAI API credits at some point:  
+In fact, if you have a spare Android device, you can take the platform for a spin by signing up below, just be mindful if you use the assistant it will run out of OpenAI API credits at some point:  
 
 [https://flash-mdm.netlify.app/join/w/customer](https://flash-mdm.netlify.app/join/w/customer)
 
