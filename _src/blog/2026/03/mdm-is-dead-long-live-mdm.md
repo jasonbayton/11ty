@@ -1,5 +1,5 @@
 ---
-title: "Traditional MDM development is dead"
+title: "MDM is dead. Long live MDM"
 date: '2026-03-05'
 status: publish
 author: 'Jason Bayton'
@@ -126,8 +126,6 @@ The architecture follows a hierarchy that'll feel familiar if you've worked with
 
 </div>
 
-**Geofencing** uses Google Maps to define geographic boundaries and scheduled functions to check device locations against configured fences. Cross a boundary, trigger a workflow. (Companion app required).
-
 **Reports and exports** let you pull device inventories, policy configurations, audit logs, and application catalogues in CSV and JSON formats.
 
 [![Reports and export interface](https://cdn.bayton.org/uploads/2026/mdm-is-dead/reports.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/reports.png)
@@ -136,13 +134,15 @@ The architecture follows a hierarchy that'll feel familiar if you've worked with
 
 [![Licence management with usage and compliance overview](https://cdn.bayton.org/uploads/2026/mdm-is-dead/licences.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/licences.png)
 
-**The API** is comprehensive - 87 serverless functions spanning auth, workspaces, environments, groups, devices, policies, components, apps, enrolment, certificates, workflows, geofences, licensing, billing, dashboard aggregation, audit logging, and superadmin operations. It ships with an OpenAPI specification and supports both workspace-scoped and environment-scoped API keys. Every endpoint is a potential integration point, whether you're connecting a traditional automation pipeline or letting an autonomous agent manage your fleet.
+**The API** is comprehensive - over 80 serverless functions spanning auth, workspaces, environments, groups, devices, policies, components, apps, enrolment, certificates, workflows, geofences, licensing, billing, dashboard aggregation, audit logging, and superadmin operations. It ships with an OpenAPI specification and supports both workspace-scoped and environment-scoped API keys. Every endpoint is a potential integration point, whether you're connecting a traditional automation pipeline or letting an autonomous agent manage your fleet.
+
+You can see it live here: [https://flash-mdm.netlify.app/api/docs/](https://flash-mdm.netlify.app/api/docs/)
 
 [![API settings with OpenAPI spec and API key management](https://cdn.bayton.org/uploads/2026/mdm-is-dead/settings-api.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/settings-api.png)
 
 **An integrated AI assistant** - Flashi - lets users query workspace data conversationally, using OpenAI's tool-calling with read-only AMAPI MCP tools alongside Flash's internal Postgres tools. This is the Commander concept, transplanted directly into the management platform. It worked in Commander, it works identically here, and it means every operator has a natural language interface to their entire estate without leaving the console.
 
-Critically, Flashi runs on Flash's own API - no direct database manipulation, no hard-wired access. It's subject to the same RBAC controls as any other user. Administrators can set Flashi's role per environment from the settings page: it defaults to viewer, leaning on the AMAPI MCP for read-only estate queries, but can be elevated up to admin-level to create policies, wipe devices, generate reports, and more. I've kept it safe by default, but flexible - use it as much as you trust it. It's gated behind a dual toggle - platform-level and per-environment - so administrators retain full control over whether it's active at all.
+Importantly, Flashi runs on Flash's own API - no direct database manipulation, no hard-wired access. It's subject to the same RBAC controls as any other user. Administrators can set Flashi's role per environment from the settings page: it defaults to viewer, leaning on the AMAPI MCP for read-only estate queries, but can be elevated up to admin-level to create policies, wipe devices, generate reports, and more. I've kept it safe by default, but flexible - use it as much as you trust it. It's gated behind a dual toggle - platform-level and per-environment - so administrators retain full control over whether it's active at all.
 
 **Multi-tenancy and RBAC** are first-class. Four roles - owner, admin, member, viewer - enforced on every API call. Access can be workspace-wide or scoped to specific environments, so you can give a partner organisation visibility into their slice of the estate without exposing the rest. The superadmin panel provides platform-level oversight across all workspaces, environments, devices, and users.
 
@@ -216,10 +216,13 @@ We'll see new entrants. We'll see organisations that previously would never have
 
 The vendors who've been sitting on the same basic management paradigm for a decade will have to think about how to adapt. Not just adding an AI chatbot to the existing console, but fundamentally rethinking what device management looks like when the barriers to building it from scratch have effectively vanished. Your favourite SaaS platform, MDM included, is about to support every feature you've ever wanted - because if it doesn't, someone will build one that does. In days.
 
-## Flash as a case study, not a product
+## Flash is a case study, not a product
 
 Flash MDM exists primarily as proof that this shift is real and happening now. It's a working, deployable platform with a comprehensive feature set and an architecture designed for extensibility.
 
-Is it going to replace your enterprise MDM tomorrow? Probably not. But the fact that it exists at all - built by one person in roughly a week, managing real devices in production today - should give everyone in this space something to think about.
+In fact, if you have a spare Android device, you can take the platform for a spin by signing up here:  
+[https://flash-mdm.netlify.app/join/w/customer](https://flash-mdm.netlify.app/join/w/customer)
+
+Is it going to replace your enterprise MDM tomorrow? Probably not. Not next month, either. But the fact that it exists at all - built by one guy in under a week, managing real devices in "production" currently - should give everyone in this space something to think about.
 
 Traditional MDM development, as we've known it for the last two decades, is dead. What comes next is going to be far more interesting.
