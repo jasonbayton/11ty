@@ -1,5 +1,5 @@
 ---
-title: "MDM is dead. What comes next?"
+title: "MDM is dead. Long live ACE?"
 date: '2026-03-05'
 status: publish
 author: 'Jason Bayton'
@@ -54,7 +54,7 @@ I understand why permissible usage exists. The perceived support burden, the pot
 
 Speaking to industry peers, there are some interesting ideas emerging should loosening these restrictions become feasible - not eliminating them entirely, but perhaps opening up customer access with appropriate guardrails. Google could spin up developer communities, recommended architectures and tooling/prompts - even a Gem or two to help repeatedly put the basics in place, and leave a level of access without the expectations of support existing partners have today. It's all technically possible. The question is whether the policies will keep pace with the reality that the tooling has already moved on.
 
-## New interfaces, new paradigms. The rise of ACE.
+## New interfaces, new paradigms. The future of ACE.
 
 The exciting bit isn't just that you can build an MDM faster. It's that you can build an MDM *differently*.
 
@@ -232,8 +232,10 @@ Importantly, Flashi runs on Flash's own API - no direct database manipulation, n
 
 Flash MDM exists primarily as proof that this shift is real and happening now. It's a working, deployable platform with a comprehensive feature set and an architecture designed for extensibility.
 
-In fact, if you have a spare Android device, you can take the platform for a spin by signing up here:  
+In fact, if you have a spare Android device, you can take the platform for a spin by signing up below, just be mindful if you use the assistant, it will run out of OpenAI API credits at some point:  
+
 [https://flash-mdm.netlify.app/join/w/customer](https://flash-mdm.netlify.app/join/w/customer)
+
 
 Is it going to replace your enterprise MDM tomorrow? Probably not. Not next month, either. But the fact that it exists at all should give folks in this space something to think about.
 
