@@ -1,44 +1,48 @@
 ---
-title: "MDM is dead. Long live MDM"
+title: "MDM is dead. What comes next?"
 date: '2026-03-05'
 status: publish
 author: 'Jason Bayton'
-excerpt: "Agentic development is on the rise, the enterprise mobility space is not immune."
+excerpt: "Agentic development is on the rise, agenctic control could come next - the enterprise mobility space is not immune."
 type: post
 tags:
   - Enterprise
 ---
 
-If you manage devices for a living, you've probably felt it. That creeping sense that the platforms you rely on - the ones built by teams of dozens, iterated over decades, sold on multi-year contracts - are ripe to have the ground shift beneath them. I can't predict the future, but I can share what happened when I decided to test the thesis myself.
+If you manage devices for a living, you've probably felt it, that creeping sense that the platforms you rely on - the ones built by teams of dozens, iterated over decades, sold on multi-year contracts - are ripe to have the ground shift beneath them. I can't predict the future, but I can share what happened when I decided to test the thesis myself.
 
-After shipping [AMAPI Commander](/blog/2026/02/introducing-amapi-commander/), a conversational interface for querying Android device estates, I found myself asking a dangerous question: *how much further could I take agentic development?* Commander was a focused project, an AI-powered layer on top of Google's Android Management API MCP that let you ask questions about your fleet in plain English. It worked, but it is read-only, and the real challenge of device management has never been reading data - it's acting on it.
+After shipping [AMAPI Commander](/blog/2026/02/introducing-amapi-commander/), a conversational interface for querying Android device estates via the AMAPI MCP, I found myself asking a dangerous question:
 
-I haven't done much with AI-assisted development up to this point and talking recently with some peers, felt like I might be falling behind a reality here to stay.
+*How much further could I take agentic development?*
 
-So, I opted to take on something ambitious: build a full, production-grade MDM platform to replace the tools I use on a daily basis.
+Commander was a a great start, an AI-powered layer on top of Google's Android Management API MCP that let you ask questions about your fleet in plain English. It works, but it is read-only, and the real challenge of device management has never been reading data - it's acting on it.
 
-Not a proof of concept. (It is, really).
+I haven't done much with agentic development up to this point and talking recently with some peers, felt like I might be falling behind on a reality here to stay.
+
+So, I opted to take on something ambitious; build a full, production-grade MDM platform to replace the tools I use on a daily basis.
+
+More than a proof of concept. (but still a POC).
 Not a weekend hack. (Also.. debateable).
 
 In any case, a multi-tenant, role-enforced, enterprise-ready management platform with policy authoring, device lifecycle management, enrolment workflows, location, and an integrated AI assistant. I planned meticulously from the outset to try to avoid the common pitfalls of AI-assisted development - security holes, spaghetti code, architectural dead ends - by defining the foundations before anything wrote a single line.
 
 I called it Flash, because it was made in.. well, you get it.
 
-After a week of work, here's where I think we stand.
+After a bit of work and a lot of reflection, here's where I think we stand.
 
 ## The current situation
 
 Enterprise mobility management vendors have been building and iterating their products for a long time. Some for decades. They employ teams of tens or hundreds of engineers. They've accumulated years of customer feedback, compliance requirements, and institutional knowledge. The platforms they've built are genuinely impressive in scope.. and in a lot of cases go far beyond _just an MDM_.
 
-Yet the core of Flash MDM - the device management engine, policy system, enrolment flows, dashboard, and API - was built in about three evenings. I'd be lying if I said I found the bed much before 2am on those days, but all the same.. three evenings. By the end of the third evening I was inviting peers in to take a look at a working platform managing real devices. 
+Yet the core of Flash MDM - the device management engine, policy system, enrolment flows, dashboard, and API - was built in about three evenings. I'd be lying if I said I found the bed much before 2am on those days, but all the same.. By the end of the third evening I was inviting peers in to take a look at a working platform managing real devices. 
 
-The Flashi AI assistant, licensing, and RBAC were added over a further two evenings (not consecutively, but in total hours, I took breaks). I bought a few extra credits beyond the Claude Pro and ChatGPT Pro subscriptions to finish things off. The total investment in AI tooling was less than you'd spend on a family dinner.
+The Flashi AI assistant, licensing, and RBAC were added over a further two evenings (not consecutively, I took breaks). I bought a few extra credits beyond the Claude Pro and ChatGPT Pro subscriptions to finish things off. The total investment in AI tooling was less than you'd spend on a family dinner.
 
-The speed at which this materialised wasn't just down to typing prompts into a chat window. I adopted some of the approaches the wider AI development community has been refining for leveraging multiple agents semi-autonomously, so rather than prompt-babysitting a single model, I used one LLM to spin up CLI agents of itself and other LLMs - agentic teams working across Claude, Codex, and Ollama running GPT-OSS locally (all my Mac Mini could handle). This let me set a direction before stepping away, and come back to meaningful progress rather than a blinking cursor.
+The speed at which this materialised wasn't just down to typing prompts into a chat window. I adopted some of the approaches the wider AI development community has been refining for leveraging multiple agents semi-autonomously, so rather than prompt-babysitting a single model, I used one LLM to spin up CLI agents of itself and other LLMs - agentic teams working across Claude, Codex, and Ollama running GPT-OSS locally (all my Mac Mini can handle). This let me set a direction before stepping away, and come back to meaningful progress rather than a blinking cursor. I also gave them full access, given it's a dedicated machine holding no real data, there was no need to wait around to approve every change it wanted to make.
 
 Each completed output was QA'd and security-hardened by other agents in the chain, with findings written to files for constant monitoring. Once the OpenAPI specification was in place, I gave the agents their own API keys to QA within the running platform itself - they could verify their changes against the live application, not just the codebase. That doubled their efficiency and halved my review burden.
 
-It's not unsupervised - I reviewed everything, and the architectural decisions were all mine - but the execution loop was dramatically compressed. Where a traditional development cycle would require context-switching between writing code, reviewing code, writing tests, and running security checks, the agentic approach let all of that happen concurrently.
+That's not to say it was unsupervised - I reviewed everything before committing to git, and the architectural decisions were all mine - but the execution loop was dramatically compressed. Where a traditional development cycle would require context-switching between writing code, reviewing code, writing tests, and running security checks, the agentic approach let all of that happen concurrently.
 
 So while here it's _just an MDM_, with the pace it was spun up, the next logical task would be to start moving into additional features and functionality. How far could a project progress in a month, quarter, year?
 
@@ -48,7 +52,9 @@ It's become common to see people with zero experience spinning up tools with AI 
 
 Flash is an AMAPI MDM because I have a deep understanding of the Android ecosystem, the management API, and a reasonable background in systems architecture. I know many of the things to look out for - where AMAPI behaves unexpectedly, where policy management gets tricky, where tenant isolation can't be an afterthought. That domain knowledge shaped every architectural decision and every prompt I gave the agents. It's also why Flash isn't an iOS or Windows MDM today. I'd want to understand those management stacks at a developer level to a similar degree before I'd trust what I put out. AI dramatically compresses the build cycle, but it doesn't replace knowing what you're building and why.
 
-This isn't a flex for the sake of it (well, maybe a little). Rather, it's an observation about where the barrier to entry now sits. The same APIs that power commercial MDM solutions are available to anyone with a Google Cloud project. The same frameworks, the same infrastructure primitives, the same deployment platforms. What's changed is the velocity at which a single developer - armed with domain expertise, an agentic workflow, and a decent laptop - can turn all of that into a working product.
+This isn't a flex for the sake of it (well, maybe a little). Rather, it's an observation about where the barrier to entry now sits. The same APIs that power commercial MDM solutions are available to anyone with a Google Cloud project. The same frameworks, the same infrastructure primitives, the same deployment platforms. What's changed is the velocity at which a single person - armed with domain expertise, an agentic workflow, and a decent laptop - can turn all of that into a working product.
+
+Just to call it out, I'm not saying Flash is perfectly bug free. Manually testing in-production takes dramatically longer than committing code, but what I've tested so far has been fine. 
 
 ## What Flash actually is
 
@@ -188,9 +194,11 @@ I understand why permissible usage exists. The perceived support burden, the pot
 
 Speaking to industry peers, there are some interesting ideas emerging should loosening these restrictions become feasible - not eliminating them entirely, but perhaps opening up customer access with appropriate guardrails. Google could spin up developer communities, recommended architectures and prompts, and leave a level of access without the expectations of support existing partners have today. It's all technically possible. The question is whether the policies will keep pace with the reality that the tooling has already moved on.
 
-## New interfaces, new paradigms
+## New interfaces, new paradigms. The rise of AEC.
 
 The exciting bit isn't just that you can build an MDM faster. It's that you can build an MDM *differently*.
+
+I use MDM as it's a well-recognised acronym, but we've seen MDM, EMM, UEM iterate _what_ is managed. AEC - Agentic Endpoint Control - expands _how_ it is managed.
 
 Every major MDM platform today is fundamentally a web console with a REST API underneath. Some have added chatbots or AI assistants on top, but the core interaction model hasn't changed since the early days: log in, navigate menus, configure policies, view reports. 
 
@@ -198,11 +206,11 @@ Conversational MDM - asking your platform questions in natural language - is a w
 
 What happens when you're not constrained by twenty years of UI patterns and backward compatibility? What happens when the management interface isn't a dashboard at all?
 
-Think about what an agentic management platform could look like. Not a chatbot bolted onto a console, but a system where you describe your desired state - "I want these devices secured to NCSC best practices, with these apps deployed, location tracked within these geofences, and any compliance violation automatically triaged within 30 minutes" - and an autonomous agent makes it happen. Monitors it. Adapts it. Reports back when something needs human attention.
+Think about what an agentic management platform could look like. Not a chatbot bolted onto a console, but a system where you describe your desired state - "I want these devices secured to NCSC best practices, with these apps deployed, location tracked within these geofences, and any compliance violation automatically triaged within 30 minutes" - and an autonomous agent makes it happen. Monitors it. Adapts it. Reports back when something _needs_ human attention.
 
-Think Jarvis. Think Cortana - the Halo one, not the Microsoft one.
+Think Jarvis. Think Cortana - the Halo one, not the travesty Microsoft put out.
 
-Flash already has the foundations for this. The API is comprehensive enough to drive every operation programmatically. The workflow engine handles event-driven automation. Flashi provides the conversational layer. The next step - autonomous management agents that go beyond answering questions to taking action - is an engineering problem, not a research problem; interpreting device state, reasoning about policy compliance, proactively monitoring for long-term issues.. we're not far from agents that could spin up a virtual device, enrol it, push a policy, pull logs, and identify whether the issue is a configuration mistake or an API problem. All without human intervention.
+Flash already has the foundations for this. The API is comprehensive enough to drive operations programmatically. The workflow engine handles event-driven automation. Flashi provides the conversational layer.. but it's still a traditional platform with a chatbot bolted on. The next step - autonomous management agents that go beyond answering questions to taking action - is an engineering problem, not a research problem; interpreting device state, reasoning about policy compliance, proactively monitoring for long-term issues.. we're not far from agents that could spin up a virtual device, enrol it, push a policy, pull logs, and identify whether the issue is a configuration mistake or an API problem. All without human intervention.
 
 ## What this means for the industry
 
