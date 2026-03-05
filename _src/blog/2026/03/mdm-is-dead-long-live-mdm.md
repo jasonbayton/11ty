@@ -136,7 +136,7 @@ With all that said.. Could a dedicated security team find things to improve? I'm
 
 *Location and geofencing require a companion app, TBD.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![Device detail view showing hardware, management status, and installed apps](https://cdn.bayton.org/uploads/2026/mdm-is-dead/device-detail.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/device-detail.png)
 
@@ -150,7 +150,7 @@ With all that said.. Could a dedicated security team find things to improve? I'm
 
 **Policy management** follows a waterfall inheritance model through the group hierarchy, with per-device overrides available when you need them. Applications and network configurations are componentised - define them once, assign them across the environment - while the core policy settings are managed per-policy with a structured form view covering everything from password requirements and restrictions through to kiosk mode and compliance rules. A Monaco-powered JSON editor is there for when you need full control over the raw policy.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![Policy editor with structured form view and documentation panel](https://cdn.bayton.org/uploads/2026/mdm-is-dead/policy-editor-form.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/policy-editor-form.png)
 
@@ -164,7 +164,7 @@ With all that said.. Could a dedicated security team find things to improve? I'm
 
 **Application management** integrates with managed Google Play for searching, deploying, and configuring applications across the estate. App feedback from devices surfaces directly in the console, and managed configurations let you push settings to supported applications.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![Application catalogue with managed Google Play integration](https://cdn.bayton.org/uploads/2026/mdm-is-dead/applications.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/applications.png)
 
@@ -174,7 +174,7 @@ With all that said.. Could a dedicated security team find things to improve? I'm
 
 **Enrolment** supports multiple provisioning methods: QR code, sign-in URL enrolment for BYOD scenarios with domain-restricted access, and zero-touch provisioning integration.. amongst others.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![Enrolment tokens with QR codes](https://cdn.bayton.org/uploads/2026/mdm-is-dead/enrolment-tokens.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/enrolment-tokens.png)
 
@@ -188,7 +188,7 @@ With all that said.. Could a dedicated security team find things to improve? I'm
 
 **Workflows** provide event-driven automation. Define triggers based on device enrolment, state changes, compliance violations, app installations, geofence events, or time-based schedules, and the platform evaluates them asynchronously through a background job queue. Think of it as a lightweight IFTTT for your device fleet.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![Workflow list with execution counts](https://cdn.bayton.org/uploads/2026/mdm-is-dead/workflows.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/workflows.png)
 
@@ -216,7 +216,7 @@ Importantly, Flashi runs on Flash's own API - no direct database manipulation, n
 
 **Multi-tenancy and RBAC** are first-class. Four roles - owner, admin, member, viewer - enforced on every API call. Access can be workspace-wide or scoped to specific environments, so you can give a partner organisation visibility into their slice of the estate without exposing the rest. The superadmin panel provides platform-level oversight across all workspaces, environments, devices, and users.
 
-<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30">
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
 [![User profile with TOTP setup](https://cdn.bayton.org/uploads/2026/mdm-is-dead/settings-profile.png)](https://cdn.bayton.org/uploads/2026/mdm-is-dead/settings-profile.png)
 
