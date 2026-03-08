@@ -47,13 +47,13 @@ async function main() {
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
-      const matches = searchDocs(searchableDocs, query, limit);
+      const { totalMatches, results } = searchDocs(searchableDocs, query, limit);
 
       return {
         content: [
           {
             type: 'text',
-            text: JSON.stringify({ total: matches.length, results: matches }, null, 2),
+            text: JSON.stringify({ totalIndexed: searchableDocs.length, totalMatches, returned: results.length, results }, null, 2),
           },
         ],
       };

@@ -71,10 +71,12 @@ exports.handler = async event => {
     const { query, limit } = validateSearchParams(params);
 
     const searchableDocs = await loadSearchView();
-    const results = searchDocs(searchableDocs, query, limit);
+    const { totalMatches, results } = searchDocs(searchableDocs, query, limit);
 
     return jsonResponse(200, {
-      total: results.length,
+      totalIndexed: searchableDocs.length,
+      totalMatches,
+      returned: results.length,
       results,
     });
   } catch (error) {

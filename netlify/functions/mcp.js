@@ -48,10 +48,10 @@ async function createServer() {
     },
     async params => {
       const { query, limit } = validateSearchParams(params);
-      const results = searchDocs(searchableDocs, query, limit);
+      const { totalMatches, results } = searchDocs(searchableDocs, query, limit);
 
       return {
-        content: [{ type: 'text', text: JSON.stringify({ total: results.length, results }, null, 2) }],
+        content: [{ type: 'text', text: JSON.stringify({ totalIndexed: searchableDocs.length, totalMatches, returned: results.length, results }, null, 2) }],
       };
     }
   );

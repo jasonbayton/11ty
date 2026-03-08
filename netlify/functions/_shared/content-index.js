@@ -324,7 +324,7 @@ function buildMatchSnippet(content, matcher) {
  * @param {Array<{title: string, url: string, content: string, haystack: string}>} searchableDocs
  * @param {string} query
  * @param {number} limit
- * @returns {Array<{title: string, url: string, snippet: string}>}
+ * @returns {{totalMatches: number, results: Array<{title: string, url: string, snippet: string}>}}
  */
 function searchDocs(searchableDocs, query, limit) {
   const matcher = createSearchMatcher(query);
@@ -347,7 +347,10 @@ function searchDocs(searchableDocs, query, limit) {
     })
     .sort((a, b) => b.score - a.score);
 
-  return ranked.slice(0, limit).map(({ score, ...result }) => result);
+  return {
+    totalMatches: ranked.length,
+    results: ranked.slice(0, limit).map(({ score, ...result }) => result),
+  };
 }
 
 module.exports = {
