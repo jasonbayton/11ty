@@ -251,9 +251,9 @@ function validateSearchParams(params) {
     throw new Error('Parameter "query" must be a string with at least 2 characters.');
   }
 
-  const actualLimit = Number(params.limit ?? 5);
-  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 20) {
-    throw new Error('Parameter "limit" must be an integer between 1 and 20.');
+  const actualLimit = Number(params.limit ?? 20);
+  if (!Number.isInteger(actualLimit) || actualLimit < 1 || actualLimit > 30) {
+    throw new Error('Parameter "limit" must be an integer between 1 and 30.');
   }
 
   return {

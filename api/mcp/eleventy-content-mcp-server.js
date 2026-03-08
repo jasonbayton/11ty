@@ -42,7 +42,7 @@ async function main() {
       description: 'Keyword search across titles and body text from search-index.json.',
         inputSchema: {
           query: z.string().min(2).describe('Search query in plain text.'),
-          limit: z.number().int().min(1).max(20).default(5).describe('Maximum number of results to return.'),
+          limit: z.number().int().min(1).max(30).default(20).describe('Maximum number of results to return.'),
         },
     },
     async params => {
