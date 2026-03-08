@@ -1,0 +1,15 @@
+---
+permalink: /md-index.json
+eleventyExcludeFromCollections: true
+---
+[
+  {% set mdPages = collections.all | markdownPages %}
+  {% for page in mdPages %}
+    {
+      "title": {{ page.data.title | jsonString | safe }},
+      "url": {{ page.url | jsonString | safe }},
+      "markdown": {{ page.inputPath | markdownSource | jsonString | safe }},
+      "inputPath": {{ page.inputPath | jsonString | safe }}
+    }{% if not loop.last %},{% endif %}
+  {% endfor %}
+]

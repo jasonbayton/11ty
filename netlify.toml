@@ -1,5 +1,5 @@
 [functions]
-  included_files = ["_public/search-index.json"]
+  included_files = ["_public/search-index.json", "_public/md-index.json"]
 
 [[redirects]]
   from = "/mcp"
@@ -20,3 +20,9 @@
   from = "/api/mcp/get-content-by-url"
   to = "/.netlify/functions/mcp-get-content-by-url"
   status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/md-view?path=/:splat"
+  status = 200
+  conditions = { Host = ["bayton.md", "www.bayton.md"] }

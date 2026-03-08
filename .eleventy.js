@@ -1,4 +1,6 @@
 const { DateTime } = require("luxon");
+const fs = require("node:fs");
+const path = require("node:path");
 const markdownIt = require("markdown-it");
 const markdownItDefList = require('markdown-it-deflist');
 const markdownItAnchor = require("markdown-it-anchor");
@@ -174,6 +176,43 @@ eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"));
 
   eleventyConfig.addFilter("jsonString", value => {
     return JSON.stringify(value == null ? "" : String(value));
+  });
+
+  const stripFrontMatter = raw => {
+    if (typeof raw !== "string" || raw.length === 0) {
+      return "";
+    }
+
+    return raw.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, "");
+  };
+
+  eleventyConfig.addFilter("markdownPages", pages => {
+    if (!Array.isArray(pages)) {
+      return [];
+    }
+
+    return pages.filter(page => {
+      if (!page || !page.url || !page.inputPath) {
+        return false;
+      }
+      return page.inputPath.endsWith(".md");
+    });
+  });
+
+  eleventyConfig.addFilter("markdownSource", inputPath => {
+    if (typeof inputPath !== "string" || !inputPath.endsWith(".md")) {
+      return "";
+    }
+
+    const absoluteInputPath = path.resolve(process.cwd(), inputPath);
+
+    try {
+      const raw = fs.readFileSync(absoluteInputPath, "utf8");
+      return stripFrontMatter(raw);
+    } catch (error) {
+      console.warn(`Unable to read markdown source for ${inputPath}:`, error.message);
+      return "";
+    }
   });
 
 // throttle watch
