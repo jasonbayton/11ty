@@ -4,14 +4,19 @@ This repository exposes Bayton.org content through MCP and HTTP adapters so AI c
 
 - search content quickly,
 - retrieve full document content when needed,
+- query Android system-app data by device/package.
 
 ## Current architecture
 
 1. Eleventy builds `/search-index.json` from `collections.all`.
-2. Runtime loaders read `_public/search-index.json`.
-3. MCP/HTTP endpoints expose two tools:
+2. Runtime loaders read `_public/search-index.json` and `_src/_data/packages.json`.
+3. MCP endpoint exposes:
    - `search_content(query, limit)`
    - `get_content_by_url(url)`
+   - `sysapps_list_devices(make?, model?, os?, offset?, limit?)`
+   - `sysapps_get_device_apps(make, model, os, offset?, limit?)`
+   - `sysapps_search(query, offset?, limit?)`
+   - `sysapps_compare_devices(left_make, left_model, left_os, right_make, right_model, right_os, diff_limit?)`
 
 ### Important behavior
 
@@ -50,14 +55,18 @@ node api/mcp/eleventy-content-mcp-server.js
 
 ## Netlify routes (clean API paths)
 
-Configured in `netlify.toml` (and optionally mirrored in `_src/_includes/_redirects` if you maintain redirects there):
+Configured in `netlify.toml`:
 
 - `/api/mcp` -> protocol MCP endpoint
 - `/api/mcp/search-content` -> HTTP search adapter
 - `/api/mcp/get-content-by-url` -> HTTP lookup adapter
+- `/api/mcp/sysapps/list-devices` -> HTTP sysapps device list adapter
+- `/api/mcp/sysapps/get-device-apps` -> HTTP sysapps exact device lookup adapter
+- `/api/mcp/sysapps/search` -> HTTP sysapps package/app search adapter
+- `/api/mcp/sysapps/compare-devices` -> HTTP sysapps compare adapter
 - `/mcp` -> protocol MCP endpoint (alias)
 
-Function bundles include `_public/search-index.json` via `netlify.toml`, and shared loader logic also supports a remote `/search-index.json` fallback when local file access is unavailable.
+Function bundles include `_public/search-index.json` and `_src/_data/packages.json` via `netlify.toml`, and content-index loader logic also supports a remote `/search-index.json` fallback when local file access is unavailable.
 
 ## Usage examples
 
@@ -95,6 +104,18 @@ Get full indexed content for one URL:
 
 ```bash
 curl "https://bayton.org/api/mcp/get-content-by-url?url=/android/"
+
+# List available device tuples in system-app dataset
+curl "https://bayton.org/api/mcp/sysapps/list-devices?limit=3"
+
+# Fetch complete system-app list for a device (omit limit/offset for full result)
+curl -G "https://bayton.org/api/mcp/sysapps/get-device-apps" \
+  --data-urlencode "make=Samsung" \
+  --data-urlencode "model=SM-A546B" \
+  --data-urlencode "os=14"
+
+# Search system-app dataset by package/app/alias
+curl "https://bayton.org/api/mcp/sysapps/search?query=bluetooth&limit=3"
 ```
 
 ### 2) Protocol endpoint sanity check

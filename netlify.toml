@@ -1,5 +1,5 @@
 [functions]
-  included_files = ["_public/search-index.json"]
+  included_files = ["_public/search-index.json", "_src/_data/packages.json"]
 
 [[redirects]]
   from = "/mcp"
@@ -19,4 +19,24 @@
 [[redirects]]
   from = "/api/mcp/get-content-by-url"
   to = "/.netlify/functions/mcp-get-content-by-url"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/sysapps/list-devices"
+  to = "/.netlify/functions/mcp-sysapps-list-devices"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/sysapps/get-device-apps"
+  to = "/.netlify/functions/mcp-sysapps-get-device-apps"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/sysapps/search"
+  to = "/.netlify/functions/mcp-sysapps-search"
+  status = 200
+
+[[redirects]]
+  from = "/api/mcp/sysapps/compare-devices"
+  to = "/.netlify/functions/mcp-sysapps-compare-devices"
   status = 200
