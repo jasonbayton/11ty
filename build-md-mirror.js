@@ -2,8 +2,8 @@
 
 /**
  * Builds a raw markdown mirror of all published content for bayton.md.
- * Copies source .md files (with frontmatter intact) to _public_md/
- * at matching URL paths.
+ * Wraps source .md files (with frontmatter) in a minimal HTML page
+ * with Prism.js syntax highlighting.
  *
  * No dependencies required.
  *
@@ -17,6 +17,47 @@ const SRC_DIR = path.join(__dirname, '_src');
 const OUT_DIR = path.join(__dirname, '_public_md');
 
 const SKIP_DIRS = new Set(['_includes', '_data', '_layouts', 'node_modules']);
+
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function getTitle(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const fmMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (fmMatch) {
+    const titleMatch = fmMatch[1].match(/^title:\s*['"]?(.+?)['"]?\s*$/m);
+    if (titleMatch) return titleMatch[1];
+  }
+  return path.basename(filePath, '.md');
+}
+
+function wrapInHtml(mdContent, title) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${escapeHtml(title)} — bayton.md</title>
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+<style>
+  body { margin: 0; padding: 0; background: #272822; }
+  pre { margin: 0; padding: 1rem; }
+  code { font-size: 14px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<pre><code class="language-markdown">${escapeHtml(mdContent)}</code></pre>
+<script src="https://unpkg.com/prismjs@1.20.0/prism.js"></script>
+<script src="https://unpkg.com/prismjs@1.20.0/components/prism-markdown.min.js"></script>
+<script src="https://unpkg.com/prismjs@1.20.0/components/prism-yaml.min.js"></script>
+</body>
+</html>`;
+}
 
 function isPublished(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
@@ -68,17 +109,22 @@ for (const filePath of files) {
   if (!isPublished(filePath)) continue;
 
   const urlPath = getUrlPath(filePath);
-  const outPath = path.join(OUT_DIR, urlPath, 'index.md');
+  const mdContent = fs.readFileSync(filePath, 'utf8');
+  const title = getTitle(filePath);
+  const html = wrapInHtml(mdContent, title);
+  const outPath = path.join(OUT_DIR, urlPath, 'index.html');
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.copyFileSync(filePath, outPath);
+  fs.writeFileSync(outPath, html);
   count++;
 }
 
 // Copy the bayton.md homepage (kept outside _src/ to avoid 11ty processing)
 const homePage = path.join(__dirname, 'md-home.md');
 if (fs.existsSync(homePage)) {
-  fs.copyFileSync(homePage, path.join(OUT_DIR, 'index.md'));
+  const mdContent = fs.readFileSync(homePage, 'utf8');
+  const html = wrapInHtml(mdContent, 'bayton.md');
+  fs.writeFileSync(path.join(OUT_DIR, 'index.html'), html);
   count++;
 }
 
