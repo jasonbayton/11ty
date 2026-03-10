@@ -36,13 +36,15 @@ function getTitle(filePath) {
   return path.basename(filePath, '.md');
 }
 
-function wrapInHtml(mdContent, title) {
+function wrapInHtml(mdContent, title, urlPath) {
+  const canonical = `https://bayton.org${urlPath}`;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)} — bayton.md</title>
+<link rel="canonical" href="${canonical}">
 <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 <style>
   body { margin: 0; padding: 0; background: #272822; }
@@ -111,7 +113,7 @@ for (const filePath of files) {
   const urlPath = getUrlPath(filePath);
   const mdContent = fs.readFileSync(filePath, 'utf8');
   const title = getTitle(filePath);
-  const html = wrapInHtml(mdContent, title);
+  const html = wrapInHtml(mdContent, title, urlPath);
   const outPath = path.join(OUT_DIR, urlPath, 'index.html');
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -123,7 +125,7 @@ for (const filePath of files) {
 const homePage = path.join(__dirname, 'md-home.md');
 if (fs.existsSync(homePage)) {
   const mdContent = fs.readFileSync(homePage, 'utf8');
-  const html = wrapInHtml(mdContent, 'bayton.md');
+  const html = wrapInHtml(mdContent, 'bayton.md', '/');
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), html);
   count++;
 }
