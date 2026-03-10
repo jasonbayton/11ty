@@ -143,9 +143,9 @@ const vendorProfiles = {
     dpcKey: "manageengine_mdm",
     group: "Custom DPC"
   },
-  "matrix42": {
+  "matrix42_silverback": {
     label: "Matrix42",
-    dpcKey: "matrix42",
+    dpcKey: "matrix42_silverback",
     group: "Custom DPC"
   }
 };
