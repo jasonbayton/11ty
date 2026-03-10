@@ -3,6 +3,7 @@ node_modules
 
 # build artefacts
 _public
+_public_md
 .DS_Store
 .vscode/
 .env
