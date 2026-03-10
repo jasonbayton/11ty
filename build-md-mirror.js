@@ -38,7 +38,19 @@ function walkDir(dir, results = []) {
   return results;
 }
 
+function getPermalink(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const fmMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (fmMatch) {
+    const plMatch = fmMatch[1].match(/^permalink:\s*(.+)$/m);
+    if (plMatch) return plMatch[1].trim();
+  }
+  return null;
+}
+
 function getUrlPath(filePath) {
+  const permalink = getPermalink(filePath);
+  if (permalink) return permalink;
   let rel = path.relative(SRC_DIR, filePath).replace(/\.md$/, '');
   if (rel === 'index') return '/';
   return '/' + rel + '/';
@@ -60,6 +72,13 @@ for (const filePath of files) {
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.copyFileSync(filePath, outPath);
+  count++;
+}
+
+// Copy the bayton.md homepage (kept outside _src/ to avoid 11ty processing)
+const homePage = path.join(__dirname, 'md-home.md');
+if (fs.existsSync(homePage)) {
+  fs.copyFileSync(homePage, path.join(OUT_DIR, 'index.md'));
   count++;
 }
 
