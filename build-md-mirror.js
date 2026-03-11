@@ -38,6 +38,8 @@ function getTitle(filePath) {
 
 function wrapInHtml(mdContent, title, urlPath) {
   const canonical = `https://bayton.org${urlPath}`;
+  const slug = urlPath.replace(/\//g, '-').replace(/^-|-$/g, '') || 'index';
+  const filename = `${slug}.md`;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,17 +48,63 @@ function wrapInHtml(mdContent, title, urlPath) {
 <title>${escapeHtml(title)} — bayton.md</title>
 <link rel="canonical" href="${canonical}">
 <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
 <style>
   body { margin: 0; padding: 0; background: #272822; }
-  pre { margin: 0; padding: 1rem; }
+  pre { margin: 0; padding: 1rem; padding-top: 3rem; }
   code { font-size: 14px; line-height: 1.5; }
+  .toolbar { position: fixed; top: 0.75rem; right: 0.75rem; display: flex; gap: 0.5rem; z-index: 10; }
+  .toolbar button {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    color: #f8f8f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  .toolbar button:hover { background: rgba(255,255,255,0.2); }
+  .toolbar button.copied { background: rgba(166,226,46,0.3); }
 </style>
 </head>
 <body>
+<div class="toolbar">
+  <button id="copy-btn" title="Copy to clipboard" onclick="copyMd()">
+    <span class="material-symbols-outlined">content_copy</span>
+  </button>
+  <button id="download-btn" title="Download as .md" onclick="downloadMd()">
+    <span class="material-symbols-outlined">download</span>
+  </button>
+</div>
 <pre><code class="language-markdown">${escapeHtml(mdContent)}</code></pre>
 <script src="https://unpkg.com/prismjs@1.20.0/prism.js"></script>
 <script src="https://unpkg.com/prismjs@1.20.0/components/prism-markdown.min.js"></script>
 <script src="https://unpkg.com/prismjs@1.20.0/components/prism-yaml.min.js"></script>
+<script>
+const rawMd = document.querySelector('pre code').textContent;
+function copyMd() {
+  navigator.clipboard.writeText(rawMd).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.classList.add('copied');
+    btn.querySelector('span').textContent = 'check';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.querySelector('span').textContent = 'content_copy';
+    }, 2000);
+  });
+}
+function downloadMd() {
+  const blob = new Blob([rawMd], { type: 'text/markdown' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = ${JSON.stringify(filename)};
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
 </body>
 </html>`;
 }
