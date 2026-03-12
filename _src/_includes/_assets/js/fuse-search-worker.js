@@ -18,7 +18,9 @@ self.onmessage = async function (e) {
 
   if (type === "search") {
     if (!fuse) return;
-    const results = fuse.search(data.query, { limit: 30 });
+    const hasCustomLimit = Number.isFinite(data.limit) && data.limit > 0;
+    const limit = hasCustomLimit ? data.limit : 30;
+    const results = fuse.search(data.query, { limit });
     self.postMessage({ type: "results", data: { results, query: data.query } });
   }
 };
