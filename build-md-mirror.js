@@ -206,6 +206,7 @@ ${SHARED_HEAD}
     outline: none;
   }
   #searchField:focus { border-color: ${BRAND_ACCENT}; }
+  #searchField::-webkit-search-cancel-button { -webkit-appearance: none; display: none; }
   #searchField::placeholder { color: ${OKAIDIA_MUTED}; }
   #search-clear {
     position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
@@ -336,6 +337,7 @@ ${SHARED_HEAD}
     border-radius: 6px; color: ${OKAIDIA_FG}; font-size: 1rem; outline: none;
   }
   #searchField:focus { border-color: ${BRAND_ACCENT}; }
+  #searchField::-webkit-search-cancel-button { -webkit-appearance: none; display: none; }
   #searchField::placeholder { color: ${OKAIDIA_MUTED}; }
   #search-clear {
     position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
