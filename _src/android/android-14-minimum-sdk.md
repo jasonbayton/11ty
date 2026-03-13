@@ -28,7 +28,7 @@ No. It's certainly better to ensure apps are targeting the latest API level wher
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) will increase year-on-year. This means apps that target API levels lower than 24 (7.0) will not install with Android 15, and 25/26 (7.1-8.0) with Android 16.
+This new policy, like Google Play's [targetSDK requirements](https://support.google.com/googleplay/android-developer/answer/11926878) is expected to increase over time. Apps targeting API levels lower than 24 (7.0) will not install from Android 15 onwards, though Android 16 did not increment this further. See [Android minimum SDK matrix](/android/android-minimum-targetsdk-matrix/) for a full overview.
 
 </div>
 
