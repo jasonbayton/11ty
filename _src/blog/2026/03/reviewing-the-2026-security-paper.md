@@ -1,6 +1,6 @@
 ---
-title: "What's new in the 2016 Android Security Paper?"
-date: '2026-03-05'
+title: "What's new in the 2026 Android Security Paper?"
+date: '2026-03-13'
 status: publish
 author: 'Jason Bayton'
 excerpt: "Summarising 74 pages of security gold so you don't have to (but you probably should)."
