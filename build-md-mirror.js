@@ -84,10 +84,10 @@ const SHARED_HEAD = `<meta charset="utf-8">
 
 const OKAIDIA_BG = '#272822';
 const OKAIDIA_FG = '#f8f8f2';
-const OKAIDIA_GREEN = '#a6e22e';
+const BRAND_ACCENT = '#ff4500';   // bayton.org --orange
 const OKAIDIA_MUTED = '#75715e';
-const OKAIDIA_BLUE = '#66d9ef';
-const OKAIDIA_ORANGE = '#fd971f';
+const BRAND_BLUE = '#0283bd';     // bayton.org --main-blue
+const BRAND_GREEN = '#15B007';    // bayton.org --main-green
 
 // ── Page templates ──
 
@@ -119,12 +119,29 @@ ${SHARED_HEAD}
     justify-content: center;
     transition: background 0.2s;
   }
+  .toolbar-btn {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    color: ${OKAIDIA_FG};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    text-decoration: none;
+  }
+  .toolbar-btn:hover { background: rgba(255,255,255,0.2); text-decoration: none; }
   .toolbar button:hover { background: rgba(255,255,255,0.2); }
-  .toolbar button.copied { background: rgba(166,226,46,0.3); }
+  .toolbar button.copied { background: rgba(21,176,7,0.3); }
 </style>
 </head>
 <body>
 <div class="toolbar">
+  <a href="/" class="toolbar-btn" title="Home">
+    <span class="material-symbols-outlined">home</span>
+  </a>
   <button id="copy-btn" title="Copy to clipboard" onclick="copyMd()">
     <span class="material-symbols-outlined">content_copy</span>
   </button>
@@ -176,7 +193,7 @@ ${SHARED_HEAD}
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.6;
   }
-  a { color: ${OKAIDIA_GREEN}; text-decoration: none; }
+  a { color: ${BRAND_ACCENT}; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
   .header a { color: ${OKAIDIA_MUTED}; font-size: 0.9rem; }
@@ -188,7 +205,7 @@ ${SHARED_HEAD}
     border-radius: 6px; color: ${OKAIDIA_FG}; font-size: 1rem;
     outline: none;
   }
-  #searchField:focus { border-color: ${OKAIDIA_GREEN}; }
+  #searchField:focus { border-color: ${BRAND_ACCENT}; }
   #searchField::placeholder { color: ${OKAIDIA_MUTED}; }
   #search-clear {
     position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
@@ -225,31 +242,58 @@ ${SHARED_HEAD}
 }
 
 function buildHomePage(pages) {
-  // Build a tree from URL paths
-  const tree = {};
+  // Build a nested tree structure from URL paths
+  function insertIntoTree(node, parts, page) {
+    if (parts.length === 0) {
+      node._pages = node._pages || [];
+      node._pages.push(page);
+      return;
+    }
+    const [head, ...rest] = parts;
+    if (!node[head]) node[head] = {};
+    insertIntoTree(node[head], rest, page);
+  }
+
+  const root = {};
   for (const p of pages) {
     const parts = p.url.split('/').filter(Boolean);
     if (parts.length === 0) continue;
-    const section = parts[0];
-    if (!tree[section]) tree[section] = [];
-    tree[section].push(p);
+    insertIntoTree(root, parts, p);
   }
 
-  // Sort sections alphabetically, pages by title within each
-  const sections = Object.keys(tree).sort();
+  // Recursively render the tree as nested <ul> with collapsible dirs
+  function renderTree(node, depth = 0) {
+    const dirs = Object.keys(node).filter(k => k !== '_pages').sort();
+    const files = (node._pages || []).sort((a, b) => a.title.localeCompare(b.title));
+    if (dirs.length === 0 && files.length === 0) return '';
 
-  let treeHtml = '';
-  for (const section of sections) {
-    const items = tree[section].sort((a, b) => a.title.localeCompare(b.title));
-    const preview = items.slice(0, 5);
-    treeHtml += `<div class="section">
-  <h2><a href="/${section}/">${escapeHtml(section)}</a> <span class="count">${items.length}</span></h2>
-  <ul>
-    ${preview.map(p => `<li><a href="${escapeHtml(p.url)}">${escapeHtml(p.title)}</a></li>`).join('\n    ')}
-    ${items.length > 5 ? `<li class="more">${items.length - 5} more pages</li>` : ''}
-  </ul>
-</div>`;
+    let html = '<ul>';
+    for (const dir of dirs) {
+      const childCount = countPages(node[dir]);
+      const open = depth < 1 ? ' open' : '';
+      html += `<li class="dir">
+        <details${open}>
+          <summary><span class="material-symbols-outlined icon">folder</span> ${escapeHtml(dir)} <span class="count">${childCount}</span></summary>
+          ${renderTree(node[dir], depth + 1)}
+        </details>
+      </li>`;
+    }
+    for (const f of files) {
+      html += `<li class="file"><span class="material-symbols-outlined icon">description</span> <a href="${escapeHtml(f.url)}">${escapeHtml(f.title)}</a></li>`;
+    }
+    html += '</ul>';
+    return html;
   }
+
+  function countPages(node) {
+    let count = (node._pages || []).length;
+    for (const k of Object.keys(node)) {
+      if (k !== '_pages') count += countPages(node[k]);
+    }
+    return count;
+  }
+
+  const treeHtml = renderTree(root);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -262,28 +306,28 @@ ${SHARED_HEAD}
     margin: 0; padding: 2rem;
     background: ${OKAIDIA_BG}; color: ${OKAIDIA_FG};
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.6;
+    font-size: 14px; line-height: 1.6;
     max-width: 900px;
   }
-  a { color: ${OKAIDIA_GREEN}; text-decoration: none; }
+  a { color: ${BRAND_ACCENT}; text-decoration: none; }
   a:hover { text-decoration: underline; }
   h1 { font-size: 1.8rem; margin: 0 0 0.25rem; }
   .subtitle { color: ${OKAIDIA_MUTED}; margin: 0 0 1.5rem; font-size: 0.95rem; }
-  .nav { display: flex; gap: 1rem; margin-bottom: 2rem; align-items: center; }
+  .nav { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: center; }
   .nav a {
     padding: 0.4rem 0.75rem; border-radius: 6px;
     background: rgba(255,255,255,0.08); color: ${OKAIDIA_FG};
     font-size: 0.85rem; display: flex; align-items: center; gap: 0.3rem;
   }
   .nav a:hover { background: rgba(255,255,255,0.15); text-decoration: none; }
-  #search-field { position: relative; margin-bottom: 2rem; }
+
+  #search-field { position: relative; margin-bottom: 1.5rem; }
   #searchField {
     width: 100%; padding: 0.75rem 2.5rem 0.75rem 1rem;
     background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 6px; color: ${OKAIDIA_FG}; font-size: 1rem;
-    outline: none;
+    border-radius: 6px; color: ${OKAIDIA_FG}; font-size: 1rem; outline: none;
   }
-  #searchField:focus { border-color: ${OKAIDIA_GREEN}; }
+  #searchField:focus { border-color: ${BRAND_ACCENT}; }
   #searchField::placeholder { color: ${OKAIDIA_MUTED}; }
   #search-clear {
     position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
@@ -300,15 +344,32 @@ ${SHARED_HEAD}
   .search-no-results { color: ${OKAIDIA_MUTED}; }
   #debouncing { color: ${OKAIDIA_MUTED}; }
   #debouncing::after { content: "Searching..."; }
-  .sections { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
-  .section { padding: 1rem; border-radius: 8px; background: rgba(255,255,255,0.04); }
-  .section h2 { margin: 0 0 0.5rem; font-size: 1.1rem; text-transform: capitalize; }
-  .section h2 .count { color: ${OKAIDIA_MUTED}; font-size: 0.8rem; font-weight: normal; }
-  .section ul { list-style: none; padding: 0; margin: 0; }
-  .section li { padding: 0.15rem 0; font-size: 0.85rem; }
-  .section li.more { color: ${OKAIDIA_MUTED}; font-style: italic; }
+
+  /* Tree */
+  .tree ul { list-style: none; padding-left: 1.25rem; margin: 0; }
+  .tree > ul { padding-left: 0; }
+  .tree li { padding: 2px 0; }
+  .tree .icon { font-size: 16px; vertical-align: middle; margin-right: 2px; }
+  .tree .dir > details > summary .icon { color: ${BRAND_GREEN}; }
+  .tree .file .icon { color: ${OKAIDIA_MUTED}; }
+  .tree .count { color: ${OKAIDIA_MUTED}; font-size: 0.8em; margin-left: 0.3em; }
+  .tree summary {
+    cursor: pointer; padding: 2px 4px; border-radius: 4px;
+    list-style: none; display: flex; align-items: center; gap: 2px;
+  }
+  .tree summary::-webkit-details-marker { display: none; }
+  .tree summary::before {
+    content: '';
+    display: inline-block; width: 0; height: 0;
+    border-left: 5px solid ${OKAIDIA_FG}; border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+    margin-right: 4px; transition: transform 0.15s;
+  }
+  .tree details[open] > summary::before { transform: rotate(90deg); }
+  .tree summary:hover { background: rgba(255,255,255,0.05); }
+  .tree .file { display: flex; align-items: center; gap: 2px; padding-left: 13px; }
+
   .footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); color: ${OKAIDIA_MUTED}; font-size: 0.8rem; }
-  .footer a { color: ${OKAIDIA_BLUE}; }
+  .footer a { color: ${BRAND_BLUE}; }
 </style>
 </head>
 <body>
@@ -326,7 +387,7 @@ ${SHARED_HEAD}
   </button>
 </div>
 <div id="searchResults"></div>
-<div class="sections">
+<div class="tree">
 ${treeHtml}
 </div>
 <div class="footer">
