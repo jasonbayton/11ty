@@ -1,5 +1,5 @@
 ---
-title: 'Android minimum SDK matrix'
+title: 'Android minimum target SDK matrix'
 published: '2026-03-13'
 status: publish
 author: 'Jason Bayton'
