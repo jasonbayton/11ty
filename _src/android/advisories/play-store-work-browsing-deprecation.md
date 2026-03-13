@@ -9,7 +9,7 @@
  tags:
      - Advisories
 ---
-Google is pulling the plug on the app browsing page within Play Store for Work on **April 15, 2026**. If you've been around long enough to remember the old app "Approval" flow, this was the page that supported it - and since that was deprecated back in September 2025, the browsing page has been largely redundant since.
+Google is pulling the plug on the app browsing page within Play Store for Work. If you've been around long enough to remember the old app "Approval" flow, this was the page that supported it - and since that was deprecated back in September 2025, the browsing page has been largely redundant since.
 
 After April 15, visiting `play.google.com/work` will redirect based on your organisation type:
 
