@@ -15,7 +15,7 @@ Google has progressively introduced and tightened requirements around the `targe
 
 ## On-device minimum targetSdkVersion
 
-Starting with Android 14, Google introduced an OS-level enforcement that outright prevents the installation of applications targeting very old API levels. When an app fails this check, Android throws a `INSTALL_FAILED_DEPRECATED_SDK_VERSION` security exception, and the installation is blocked regardless of the source - whether sideloaded, pushed via an EMM, or installed from a store.
+Starting with Android 14, Google introduced an OS-level enforcement that outright prevents the installation of applications targeting very old API levels. When an app fails this check, Android throws an `INSTALL_FAILED_DEPRECATED_SDK_VERSION` security exception, and the installation is blocked regardless of the source - whether sideloaded, pushed via an EMM, or installed from a store.
 
 The only bypass available is through ADB:
 

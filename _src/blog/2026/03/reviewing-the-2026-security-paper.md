@@ -11,7 +11,7 @@ tags:
 
 Google has released the 2026 edition of the Android Security Paper, and I've spent some time comparing it with notes from the 2023 and 2024 versions I've reviewed in the past to determine both net-new content, as well as overall direction.
 
-The short version: core architecture is largely the same over the last few years. The Linux sandbox model, SELinux enforcement, hardware-backed keystore, verified boot - all of that is still there, and still described in much the same way. What changes is a gradual shift in approach to security, I see three themes emerging:
+The short version: core architecture is largely the same over the last few years. The Linux sandbox model, SELinux enforcement, hardware-backed keystore, verified boot - all of that is still there, and still described in much the same way. What changes is a gradual shift in approach to security. I see three themes emerging:
 
 1. Android is moving from malware-focused security alone to behavioural protection
 2. The OS is starting to intervene in real-world attacks like scams and social engineering
@@ -87,7 +87,7 @@ The example given is telling: a navigation app might get unrestricted location a
 
 Users also get transparency logs explaining why the AI restricted or granted access, and they can override the system's recommendations.
 
-This is a genuinely new, interesting usecase for AI. Previous papers described static permission models - you grant an app access, and it has that access until you revoke it, or it eventually gets revoked after a period of time. The 2026 paper introduces adaptive permission enforcement, where context matters.
+This is a genuinely new, interesting use case for AI. Previous papers described static permission models - you grant an app access, and it has that access until you revoke it, or it eventually gets revoked after a period of time. The 2026 paper introduces adaptive permission enforcement, where context matters.
 
 Part of that context of course for enterprise is _does policy mandate the approval of this permission?_ In which case, the above doesn't come into it.
 
