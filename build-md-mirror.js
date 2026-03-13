@@ -269,6 +269,14 @@ function buildHomePage(pages) {
 
     let html = '<ul>';
     for (const dir of dirs) {
+      const childDirs = Object.keys(node[dir]).filter(k => k !== '_pages');
+      const childFiles = node[dir]._pages || [];
+      // Collapse: if a folder has exactly 1 page and no subdirs, render the page directly
+      if (childDirs.length === 0 && childFiles.length === 1) {
+        const f = childFiles[0];
+        html += `<li class="file"><span class="material-symbols-outlined icon">description</span> <a href="${escapeHtml(f.url)}">${escapeHtml(f.title)}</a></li>`;
+        continue;
+      }
       const childCount = countPages(node[dir]);
       const open = depth < 1 ? ' open' : '';
       html += `<li class="dir">
