@@ -1,6 +1,10 @@
 [functions]
   included_files = ["_public/search-index.json", "_src/_data/packages.json"]
 
+[[edge_functions]]
+  function = "url-heal"
+  path = "/*"
+
 [[redirects]]
   from = "/mcp"
   to = "/.netlify/functions/mcp"

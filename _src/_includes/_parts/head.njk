@@ -59,15 +59,57 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
 
         <script>
-                function spaNavigate(data) {
-          // Fallback for browsers that don't support this API:
-          if (!document.startViewTransition) {
-            updateTheDOMSomehow(data);
-            return;
+          function isSkippableViewTransitionError(error) {
+            return error instanceof DOMException && (
+              error.name === 'AbortError' ||
+              error.name === 'InvalidStateError'
+            );
           }
 
-          document.startViewTransition(() => updateTheDOMSomehow(data));
-        }
+          function reportViewTransitionError(error) {
+            if (window.Sentry && typeof window.Sentry.captureException === 'function') {
+              window.Sentry.captureException(error);
+              return;
+            }
+
+            if (window.posthog && typeof window.posthog.captureException === 'function') {
+              window.posthog.captureException(error);
+              return;
+            }
+
+            console.error(error);
+          }
+
+          function spaNavigate(data) {
+            // Fallback for browsers that don't support this API.
+            if (!document.startViewTransition) {
+              updateTheDOMSomehow(data);
+              return null;
+            }
+
+            const transition = document.startViewTransition(() => updateTheDOMSomehow(data));
+            const readyResult = transition.ready.then(
+              () => null,
+              (error) => ({ error })
+            );
+            const updateResult = transition.updateCallbackDone.then(
+              () => null,
+              (error) => ({ error })
+            );
+
+            Promise.all([readyResult, updateResult]).then(([readyFailure, updateFailure]) => {
+              if (updateFailure) {
+                reportViewTransitionError(updateFailure.error);
+                return;
+              }
+
+              if (readyFailure && !isSkippableViewTransitionError(readyFailure.error)) {
+                reportViewTransitionError(readyFailure.error);
+              }
+            });
+
+            return transition;
+          }
         </script>
 
         <script>
