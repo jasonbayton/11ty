@@ -33,8 +33,8 @@ Before diving in, here's a quick comparison of the three editions:
 | **Scam / social engineering** | Minimal | Some Play Protect warnings | AI-based scam detection and in-call intervention (p. 12) |
 | **Privacy model** | Runtime permissions, privacy dashboard | Privacy sandbox, Private Space | AI-driven contextual privacy controls (p. 13) |
 | **Notification privacy** | Standard notification controls | Some improvements | Smart lock-screen redaction for sensitive content (p. 13) |
-| **Play Protect telemetry** | Large-scale scanning | 200 billion apps scanned daily | Updated to 340 billion apps scanned daily (p. 17) |
-| **Virtualisation** | Early AVF introduction | More detailed AVF explanation | Stronger enterprise positioning of pVMs and pKVM (p. 31) |
+| **Play Protect telemetry** | Over 125 billion apps scanned daily | 200 billion apps scanned daily | Updated to 340 billion apps scanned daily (p. 16) |
+| **Virtualisation** | AVF introduction | More detailed AVF explanation | Stronger enterprise positioning of pVMs and pKVM (p. 31) |
 | **Enterprise management** | Work profiles, OEMConfig, provisioning | eSIM management, COPE controls | Zero-trust framing, conditional access (p. 14) |
 
 The high-level trend is clear. In 2023, the paper focused on platform security architecture and malware defence. In 2024, it shifted toward privacy and theft protection. In 2026, it moves to behavioural security, context-aware authentication, and device hardening modes.
@@ -47,7 +47,7 @@ The most notable addition in the 2026 paper is Advanced Protection, described on
 
 When enabled, the paper says it activates a hardened device mode that blocks the sideloading of apps, ensures scam and web protections cannot be disabled, deactivates 2G networks, and prevents reconnection to known insecure Wi-Fi networks.
 
-It also enables USB data lockdown - turning off USB data transfers unless the phone is unlocked - and enforces an inactivity reboot if the device is locked for an extended period, for example 72 hours.
+It also enables USB data lockdown - turning off USB data transfers unless the phone is unlocked - and enforces an inactivity reboot if the device is locked for an extended period (the paper gives 72 hours as an example).
 
 This is interesting because it's essentially a security posture profile baked into the OS. Right now, EMMs control these kinds of settings individually through user restrictions, network policies, install controls, and Play Protect enforcement. Advanced Protection bundles all of that into a single platform-level switch.
 
@@ -99,9 +99,9 @@ This directly addresses lock-screen shoulder surfing, which is a real problem in
 
 ### Hardware-backed zero-trust architecture
 
-Page 13 frames Android security around zero-trust architecture for the first time, noting that Android 16 "moves towards enforcing a zero-trust model at the hardware level, ensuring that every request - from the device, app, or user - must be validated before granting access."
+Page 13 frames Android security around hardware-backed zero-trust architecture, noting that Android 16 "moves towards enforcing a zero-trust model at the hardware level, ensuring that every request - from the device, app, or user - must be validated before granting access."
 
-In previous years this was implied through Play Integrity and device attestation. In 2026, it becomes core messaging.
+Zero-trust principles aren't new to the Android security papers - the 2024 edition explicitly referenced them in its opening paragraph. What's new in 2026 is the hardware-level enforcement framing, tying zero-trust directly to hypervisor and hardware-backed controls rather than treating it as a design philosophy alone.
 
 ### Quantum-resistant cryptography
 
@@ -109,7 +109,7 @@ Also new to the 2026 paper (p. 13): support for post-quantum cryptography algori
 
 ### Updated Play Protect numbers
 
-The 2026 paper reports Play Protect now scans over 340 billion apps daily (p. 17). The 2024 paper reported roughly 200 billion. That's some exceptional growth within the ecosystem. Update your slides if you're referencing the old figure when talking Android :) 
+The 2026 paper reports Play Protect now scans over 340 billion apps daily (p. 16). The 2024 paper reported roughly 200 billion, and the 2023 paper cited over 125 billion. That's some exceptional growth within the ecosystem. Update your slides if you're referencing the old figure when talking Android :) 
 
 ## On virtualisation
 
@@ -131,7 +131,7 @@ The 2026 paper describes this through several components:
 
 **Secretkeeper HAL** - Provides DICE Policy gated storage for VM secrets, ensuring rollback protection so that even if an attacker gains control of the main Android OS, they can't force the secure pVM back to an older, vulnerable version (p. 35).
 
-**SESIP Level 5 certification** - The paper notes pKVM has recently achieved SESIP Level 5 certification (p. 36), described as the highest level of security assurance, meaning the system is resistant to attack by "highly skilled, well-funded, and knowledgeable adversaries."
+**SESIP Level 5 certification** - According to the paper, pKVM has recently achieved SESIP Level 5 certification (p. 36), described as the highest level of security assurance, meaning the system is resistant to attack by "highly skilled, well-funded, and knowledgeable adversaries."
 
 ### What this signals for the future
 
