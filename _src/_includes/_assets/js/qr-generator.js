@@ -31,9 +31,18 @@ const qrBuilder = () => {
 	var link = document.getElementById('generate_download');
 		link.setAttribute('download', 'provisioning_qr.png');
 		link.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+		link.addEventListener('click', () => {
+			if (typeof posthog !== 'undefined') {
+				posthog.capture('qr_downloaded', { generator_type: 'standard' });
+			}
+		});
 	
 	console.debug('qrData', qrData);
 	document.getElementById('json_code').innerHTML = '<b>Generated JSON</b><pre class="language-json"><code class="language-json">' + JSON.stringify(qrData, null, 2) + '</code></pre>';
+
+	if (typeof posthog !== 'undefined') {
+		posthog.capture('qr_generated', { generator_type: 'standard' });
+	}
 
 	//function copyJson() {
 	//	var copyText = JSON.stringify(qrData, null, 2);

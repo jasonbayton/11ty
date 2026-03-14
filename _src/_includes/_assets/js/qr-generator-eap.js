@@ -91,6 +91,10 @@ const qrBuilder = () => {
                 // Show the canvas when QR code is successfully generated
                 canvas.style.display = 'block';
 
+                if (typeof posthog !== 'undefined') {
+                    posthog.capture('qr_generated', { generator_type: 'eap' });
+                }
+
                 // Proceed with the rest of your code
                 document.getElementById('download_qr').innerHTML =
                     '<a class="button" id="generate_download">Download QR</a>';
@@ -101,6 +105,11 @@ const qrBuilder = () => {
                     'href',
                     canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream')
                 );
+                link.addEventListener('click', () => {
+                    if (typeof posthog !== 'undefined') {
+                        posthog.capture('qr_downloaded', { generator_type: 'eap' });
+                    }
+                });
             }
         }
     );

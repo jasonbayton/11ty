@@ -337,11 +337,19 @@ const qrBuilder = () => {
             } else {
                 errorMessageElement.innerText = '';
                 canvas.style.display = 'block';
+                if (typeof posthog !== 'undefined') {
+                    posthog.capture('qr_generated', { generator_type: 'dpc' });
+                }
                 document.getElementById('download_qr').innerHTML =
                     '<a class="button" id="generate_download">Download QR</a>';
                 const link = document.getElementById('generate_download');
                 link.setAttribute('download', 'provisioning_qr.png');
                 link.setAttribute('href', canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream'));
+                link.addEventListener('click', () => {
+                    if (typeof posthog !== 'undefined') {
+                        posthog.capture('qr_downloaded', { generator_type: 'dpc' });
+                    }
+                });
             }
         }
     );
