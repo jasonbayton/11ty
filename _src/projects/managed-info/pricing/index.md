@@ -85,7 +85,7 @@ Integration is available per organisation ID/domain, and licensed as below. All 
 |                      | 0 - 2,000                | £500    | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUeVS0tOcqo4GA9AC) |
 |                      | 2,001 - 5,000            | £700    | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/6oEdROgsM0HG0qk4gj) |
 |                      | 5,001 - ∞                | £1,000  | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/9AQ2966Scdus8WQbIM) |
-| **Priority support** | ∞                        | £1,000  | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
+| **Priority support** | ∞                        | £2,000  | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/eVa4he3G01LK6OI28d) | 
 
 </div>
 
@@ -103,7 +103,7 @@ Bundle MANAGED SETTINGS and MANAGED INFO at a discounted, combined, one-time cos
 |                      | 0 - 2,000                | £700   | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/bIY5lidgAbmk5KE7sI)  |
 |                      | 2,001 - 5,000            | £1000  | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/aEUdRO4K4gGE2ys4gx)  |
 |                      | 5,001 - ∞                | £1,500 | One-off     | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/cN27tq5O81LK1uo8wO)  |
-| **Priority support** | ∞                        | £1,500 | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/cN27tqekE4XWc928wP)  | 
+| **Priority support** | ∞                        | £2,500 | Per annum   | <span class="material-symbols-outlined">shopping_bag</span> [Buy](https://buy.stripe.com/cN27tqekE4XWc928wP)  | 
 
 </div>
 </div>

@@ -45,7 +45,7 @@ If any of these requirements are missing and the card remains enabled, you will 
 
 Once all requirements are met:
 
-1. Open /scroll to Device Info.
+1. Open/scroll to Device Info.
 2. Scroll to the **Device identifiers** section.
 3. The card will show each available identifier, or “Unavailable” if the device lacks that identifier (e.g., IMEI on Wi-Fi-only devices).
 4. If requirements are not met, an error message will provide clear instructions (see “Understanding the results”).

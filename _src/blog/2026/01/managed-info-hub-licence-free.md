@@ -11,16 +11,18 @@ tags:
 
 MANAGED INFO is moving to a predominantly licence-free model for almost all core capabilities.
 
-Over the last 18 months the project has grown substantially in scope, from a simple information/support surface to a flexible and capable tool for building device experiences. On a deeper level, it has integrated new functionality that isn't even visible to end users, but the capabilities it provides now offers organisations an EMM-agnostic tool offering features an EMM might not.
+Over the last 18 months the project has grown substantially in scope, from a simple information/support surface to a flexible and capable tool for building device experiences. On a deeper level, it has integrated new functionality that isn't even visible to end users, but the capabilities it provides now offers organisations an EMM-agnostic tool supporting a myriad of features not available elsewhere.
 
-I'm proud of many of the capabilities that have been integrated to date, it's been a fantastic learning experience getting hands-on with the AMAPI SDK and rolling out functionality that makes a difference. 
+I'm proud of many of the capabilities that have been integrated to date, it's been a fantastic learning experience. Getting hands-on with the AMAPI SDK in particular has been extremely useful for my understanding of the inner-workings on the development side of AMAPI day-to-day, but being able to roll out functionality that makes a difference generally is awesome. 
+
+Accolades of note:
 
 - Did you know MANAGED INFO was the first independent tool to roll out APK deployment, for example? The research, implementation, and subsequent [write-up](/blog/2025/08/amapi-apk-deployment) has been used across the ecosystem to help vendors build their own solutions.
 - It was also one of the first solutions to get approval and support for Device Trust, which I wrote about [here](/blog/2025/10/device-trust-android-enterprise).
 
-As the functionality matured, licensing has been something of an afterthought. Now, I feel, the licensing model has been making less sense. I've even been making many of the newer features (wallpaper support, certificate deployment, APK deployment) licence-free already. 
+As the functionality has matured, licensing has been something of an afterthought. Now, I feel, the licensing model doesn't really make sense. I've even been making many of the newer features (wallpaper support, certificate deployment, APK deployment) licence-free already, and am now looking to take things further.
 
-To address this, I'm restructuring licensing around the following boundaries:
+Going forward, I'm restructuring licensing around the following boundaries:
 
 - **Presentation and experience features** remain licence-free  
 - **Integration and data-leverage features** become licensable
@@ -46,7 +48,7 @@ The following experiences are now available without a licence:
 - Optional app drawer and admin escape panels
 - Managed Settings integration
 
-These are the capabilities that support *displaying information and building bespoke device experiences*, without extracting or exporting data externally. This aligns with how organisations commonly use MANAGED INFO to present help, support content, or tailored launch surfaces.
+These are the capabilities that support *displaying information and building bespoke device experiences*, without extracting or exporting data externally. This aligns with how organisations commonly use MANAGED INFO to present help, support content, or tailored launcher surfaces.
 
 ## Which capabilities are now licenced
 
