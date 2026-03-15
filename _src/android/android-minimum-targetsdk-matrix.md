@@ -119,6 +119,8 @@ adb install --bypass-low-target-sdk-block bayton-sdk-demo-target22-android5.1.ap
 
 The above applications have never been on Google Play and will likely trigger a Play Protect warning, you can bypass this when it pops up, otherwise you will receive a `INSTALL_FAILED_VERIFICATION_FAILURE` error. This is separate to the target SDK warnings.
 
+The source code for these applications can be found [on GitHub](https://github.com/baytonorg/org.bayton.sdkdemo/).
+
 ## Read more
 
 - [Android versions matrix](/android/android-versions/) - API levels, release dates, and end-of-life dates
