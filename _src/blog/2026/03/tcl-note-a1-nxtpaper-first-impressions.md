@@ -37,7 +37,6 @@ In terms of the bundled accessories I received with the Kickstarter, the keyboar
 
 ![](https://cdn.bayton.org/uploads/2026/tcl-note-a1-nxtpaper-first-impressions/PXL_20260317_162051958.jpg)
 
-
 ### Spec
 
 - Platform: MediaTek MT8781V/NA (Helio G100)
