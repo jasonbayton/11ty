@@ -17,7 +17,7 @@ eleventyNavigation:
 --- 
 Not normally by default, though do validate with your EMM vendor. If confirmed disabled however FRP kicks in after a reset, log a ticket with EMM support.
 
-If so desired, whitelisted Factory Reset Protection is available and offers a simple, albeit caveated means of ensuring devices can’t simply be wiped and re-setup without Android Enterprise provisioning taking place. For zero-touch devices there’s no need to leverage it.
+If so desired, allowlisted Enterprise Factory Reset Protection is available and offers a simple, albeit caveated means of ensuring devices can’t simply be wiped and re-setup without Android Enterprise provisioning taking place. For zero-touch devices there’s no need to leverage it.
 
 More: [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/).
 

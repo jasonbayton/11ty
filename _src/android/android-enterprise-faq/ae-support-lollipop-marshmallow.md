@@ -19,3 +19,10 @@ While it’s indeed true Android Enterprise was introduced as *Android for Work*
 
 In other words, Marshmallow is chosen as a reasonably reliable reference point for when Android Enterprise was guaranteed to be widely supported. There will be OEMs that can confidently state they supported it from Day Zero, however few did.
 
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Modern deployments</div>
+
+Both Lollipop and Marshmallow are well past end of life. For current deployments, Android 14 should be considered the practical minimum - it is the oldest version still receiving security patches from Google, though some older versions are still actively patched by OEMs directly on certain devices. If you're planning a new deployment, target Android 15 or newer where possible to take advantage of the latest management APIs and security features, while ensuring prolonged security updates and support.
+
+</div>
+

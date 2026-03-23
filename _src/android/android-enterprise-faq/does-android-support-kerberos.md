@@ -15,11 +15,11 @@ eleventyNavigation:
   key: "Does Android support Kerberos natively?"
   order: 14000
 --- 
-No. 
+No.
 
 I’d recommend taking a look at [Hypergate](https://hypergate.com).
 
-There is however a project which was initiated (but not wholly supported) by Google to bring Kerberos support to Android through an application. Take a look at the respective [GitHub repo](https://github.com/google/android-kerberos-authenticator) to learn more.
+There is a project which was initiated (but not wholly supported) by Google to bring Kerberos support to Android through an application. Take a look at the respective [GitHub repo](https://github.com/google/android-kerberos-authenticator) to learn more, though note the project has seen no activity since 2019 and should be considered abandoned.
 
-Related: [Setup Kerberos Authentication on MobileIron Core for Android Enterprise](/docs/enterprise-mobility/mobileiron/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise/)
+Related: [Setup Kerberos Authentication on Ivanti EPMM (formerly MobileIron Core) for Android Enterprise](/docs/enterprise-mobility/mobileiron/setup-kerberos-authentication-on-mobileiron-core-for-android-enterprise/)
 

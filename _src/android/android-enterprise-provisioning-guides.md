@@ -11,6 +11,13 @@ layout: base.njk
 eleventyNavigation:
   order: 19000
 ---
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Looking for a provisioning methods overview?</div>
+
+These guides were created in 2017 against specific EMM platforms and Android versions of the time. For a comprehensive, up-to-date overview of all Android Enterprise provisioning methods - including QR code, zero-touch, KME, NFC, DPC identifier, and more - see [Android Enterprise provisioning methods](/android/android-enterprise-provisioning-methods/).
+
+</div>
+
 <div class="callout callout-green">
 <div class="callout-heading callout-heading-small">What is Android Enterprise?</div>
 

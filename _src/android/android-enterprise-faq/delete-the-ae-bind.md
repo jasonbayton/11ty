@@ -46,8 +46,8 @@ In the first instance, the simplest course of action is to unbind through your E
 
 - [Ivanti EPMM/MobileIron](https://help.ivanti.com/mi/help/en_us/CORE/11.x/dmga/DMGfiles/Removing_Android_enterpr.htm)
 - [SOTI](https://www.soti.net/mc/help/v15.2/en/console/devices/managing/enrollment/androidplus/enterprise/mgpa_enterprise_delete.html)
-- [VMware Workspace One UEM](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AndroidRegistrationRegisterAndroidwithWorkspaceONE.html)
-- [Intune](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AndroidRegistrationRegisterAndroidwithWorkspaceONE.html)
+- [Omnissa Workspace ONE UEM](https://techzone.omnissa.com/managing-android-devices-workspace-one-operational-tutorial#unbind-domain-from-workspace-one-uem)
+- [Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/enrollment/connect-intune-android-enterprise#disconnect-your-android-enterprise-administrative-account)
 
 _Feel free to [submit a PR](https://github.com/jasonbayton/11ty/blob/main/_src/android/android-enterprise-faq/delete-the-ae-bind.md) with additional EMM articles!_
 

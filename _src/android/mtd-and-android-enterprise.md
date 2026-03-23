@@ -49,16 +49,16 @@ As a fully managed device, there are no concerns over lack of visibility, and sh
 
 ## Company owned - Dedicated (COSU)
 
-A COSU device is normally one utilising a kiosk, either natively (and particularly following improvements with Android Pie) or, more likely, via an EMM vendor kiosk/launcher.
+A dedicated device is normally one utilising a kiosk, either natively (and particularly following improvements with Android 9) or, more likely, via an EMM vendor kiosk/launcher.
 
-Much like the fully managed device, deploying MTD to a COSU device will provide full access akin to a legacy enrolment, and can see:
+Much like the fully managed device, deploying MTD to a dedicated device will provide full access akin to a legacy enrolment, and can see:
 
 - System and corporate applications
 - Network information
 - Device details and posture
 - Malicious links opened from other applications on the device
 
-There’s only one caveat; if the MTD solution cannot auto-activate on Android devices today, an MTD application would need to be made visible within the kiosk environment in order to allow for the opening and activation of the service. Exceptions apply so do check this with the MTD vendor.
+There is only one caveat: if the MTD solution cannot auto-activate on Android devices today, the MTD application would need to be made visible within the kiosk environment in order to allow for the opening and activation of the service. Exceptions apply, so do check this with the MTD vendor, and check if your EMM supports application roles for AMAPI, as the MTD role can wake an MTD app in the background to initiate activation without user-engagement.
 
 ## Personally and company owned work profile (BYOD, COPE)
 
@@ -141,7 +141,7 @@ The Private Space _can_ be turned off for company owned devices (it is by defaul
 
 ## Touching on VPN capabilities
 
-Some MTD vendors offer VPN capabilities, or may even entirely rely upon a persistent VPN connection to be remotely useful. The problem with this approach, though valid and arguably potentially necessary for some traffic management capabilities prior to Android Pie (when APN configuration support was introduced), is as follows:
+Some MTD vendors offer VPN capabilities, or may even entirely rely upon a persistent VPN connection to be remotely useful. The problem with this approach, though valid and arguably potentially necessary for some traffic management capabilities prior to Android 9 (when APN configuration support was introduced), is as follows:
 
 **Android supports one active VPN session at a time.**
 
@@ -155,7 +155,7 @@ Organisations should clarify with their MTD vendor whether the solution requires
 
 ## Conclusion
 
-Depending on the Android Enterprise deployment scenario in use, MTD protection can range from basic – protecting primarily corporate data within a work profile, to full – protecting the entire device with no visibility issues.
+Depending on the Android Enterprise deployment scenario in use, MTD protection can range from basic - protecting primarily corporate data within a work profile, to full - protecting the entire device with no visibility issues.
 
 Considering under what deployment scenario an MTD would be used ahead of time will ensure there’s no confusion about the capabilities available, and with enough forward-thinking, the need for an MTD could and should influence the deployment scenario chosen by the business to begin with.
 
