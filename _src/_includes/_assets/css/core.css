@@ -25,6 +25,10 @@
   width: 1em;
 }
 
+html.material-symbols-pending .material-symbols-outlined {
+  visibility: hidden;
+}
+
 @view-transition {
   navigation: auto;
 }

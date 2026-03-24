@@ -1,3 +1,6 @@
+        <script>
+          document.documentElement.classList.add('material-symbols-pending');
+        </script>
         <script type="text/human">
           /*
 
@@ -55,6 +58,24 @@
         <link rel="stylesheet" href="/css/base.css">
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
+
+        <script>
+          window.addEventListener('DOMContentLoaded', () => {
+            if (!document.fonts || typeof document.fonts.load !== 'function') {
+              document.documentElement.classList.remove('material-symbols-pending');
+              return;
+            }
+
+            Promise.all([
+              document.fonts.load('24px "Material Symbols Outlined"', 'menu'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'search'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'routine'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'qr_code_2_add')
+            ]).finally(() => {
+              document.documentElement.classList.remove('material-symbols-pending');
+            });
+          }, { once: true });
+        </script>
 
         <script>
           function isSkippableViewTransitionError(error) {
