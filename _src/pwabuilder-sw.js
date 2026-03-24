@@ -167,6 +167,7 @@ async function handlePeriodicSync() {
       "/manifest.json",
       "/css/core.css",
       "/css/base.css",
+      "/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2",
       "/js/fuse-search.js",
       "/js/fuse-search-worker.js",
     ];
