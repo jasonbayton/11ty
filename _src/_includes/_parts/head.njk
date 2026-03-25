@@ -1,3 +1,6 @@
+        <script>
+          document.documentElement.classList.add('material-symbols-pending');
+        </script>
         <script type="text/human">
           /*
 
@@ -49,14 +52,30 @@
         <link rel="me" href="mailto:jason@bayton.org">
         <link rel="webmention" href="https://webmention.io/bayton.org/webmention" />
         <link rel="pingback" href="https://webmention.io/bayton.org/xmlrpc" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
+        <link rel="preload" href="/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2" as="font" type="font/woff2" crossorigin>
         <!--link rel="stylesheet" href="/css/fa.css"-->
         <link rel="stylesheet" href="/css/core.css">
         <link rel="stylesheet" href="/css/base.css">
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
+
+        <script>
+          window.addEventListener('DOMContentLoaded', () => {
+            if (!document.fonts || typeof document.fonts.load !== 'function') {
+              document.documentElement.classList.remove('material-symbols-pending');
+              return;
+            }
+
+            Promise.all([
+              document.fonts.load('24px "Material Symbols Outlined"', 'menu'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'search'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'routine'),
+              document.fonts.load('24px "Material Symbols Outlined"', 'qr_code_2_add')
+            ]).finally(() => {
+              document.documentElement.classList.remove('material-symbols-pending');
+            });
+          }, { once: true });
+        </script>
 
         <script>
           function isSkippableViewTransitionError(error) {
