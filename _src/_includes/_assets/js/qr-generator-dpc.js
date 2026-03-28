@@ -145,6 +145,9 @@ if (importApplyButton) {
         if (invalid || !payload) return;
 
         populateFormFromPayload(payload);
+        // Clear import textarea so subsequent form edits take effect on generate
+        importJsonElement.value = '';
+        importJsonElement.placeholder = 'JSON applied to form. Edit the fields below and click Generate.';
     });
 }
 
