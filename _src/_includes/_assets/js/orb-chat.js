@@ -869,7 +869,7 @@
         if (!sessionRes.ok) throw new Error('Unable to start realtime session.');
         var ephemeralKey = sessionJson && sessionJson.client_secret && sessionJson.client_secret.value;
         if (!ephemeralKey) throw new Error('Realtime session token was not returned.');
-        var model = sessionJson.model || 'gpt-4o-mini-realtime-preview';
+        var model = sessionJson.model || 'gpt-realtime-1.5';
 
         // 2. Mic access
         var stream = await navigator.mediaDevices.getUserMedia({ audio: true });

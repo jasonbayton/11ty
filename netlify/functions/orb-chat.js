@@ -355,7 +355,7 @@ exports.handler = async (event) => {
 
     // Call LLM — can also use search_bayton tool for refinement
     let completion = await openai.chat.completions.create({
-      model: 'gpt-4.1-mini',
+      model: 'gpt-5.4-mini',
       messages,
       max_tokens: 800,
       temperature: 0.3,
@@ -384,7 +384,7 @@ exports.handler = async (event) => {
       }
 
       completion = await openai.chat.completions.create({
-        model: 'gpt-4.1-mini',
+        model: 'gpt-5.4-mini',
         messages,
         max_tokens: 800,
         temperature: 0.3,

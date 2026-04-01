@@ -62,7 +62,7 @@ exports.handler = async (event) => {
     return jsonResponse(500, { error: 'OPENAI_API_KEY not configured' });
   }
 
-  const model = 'gpt-4o-mini-realtime-preview';
+  const model = 'gpt-realtime-1.5';
   const voice = 'sage';
 
   try {
