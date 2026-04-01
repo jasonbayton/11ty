@@ -378,7 +378,11 @@ function searchDocs(searchableDocs, query, limit) {
       const titleHit = matcher.test(doc.title);
       const contentIndex = doc.content ? doc.content.search(matcher) : -1;
       const positionScore = contentIndex < 0 ? 0 : Math.max(0, 40 - Math.floor(contentIndex / 80));
-      const score = (titleHit ? 100 : 0) + positionScore + 50; // bonus for phrase match
+      // Boost guide/reference pages over blog posts — guides are evergreen, blogs are dated announcements
+      const isGuide = doc.url.startsWith('/android/') || doc.url.startsWith('/docs/');
+      const isBlog = doc.url.startsWith('/blog/');
+      const typeBonus = isGuide ? 30 : (isBlog ? -15 : 0);
+      const score = (titleHit ? 100 : 0) + positionScore + 50 + typeBonus; // bonus for phrase match + page type
 
       return {
         title: doc.title,
