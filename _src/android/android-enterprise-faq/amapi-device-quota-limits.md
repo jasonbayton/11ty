@@ -34,4 +34,4 @@ The quota becomes relevant if you are:
 
 To obtain an initial quota, you must apply through Google's partner validation process. This involves demonstrating that your solution meets Google's requirements for an EMM partner. The process is documented in the [AMAPI permissible usage](https://developers.google.com/android/management/permissible-usage) page.
 
-Note that quota increases are not automatic and require review. Plan ahead if you anticipate scaling beyond the default limit, as the validation process takes time.
+Note that quota increases are not automatic and require review. Community reports indicate response times of 7 or more business days, with some requests taking multiple weeks. Plan well ahead if you anticipate scaling beyond the default limit - do not wait until devices are failing to enrol before requesting an increase. Initiating the quota request early in the development or procurement phase avoids enrolment failures during growth.

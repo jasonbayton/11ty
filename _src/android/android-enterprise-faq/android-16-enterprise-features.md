@@ -18,7 +18,7 @@ sources:
   - https://developers.google.com/android/work/requirements
   - https://support.google.com/work/android/answer/16319376
 ---
-Android 16 introduces several enterprise-relevant features and policy enhancements:
+Android 16 introduces several enterprise-relevant features and policy enhancements. It also marks the shift to a semi-annual release cadence, with a major platform update in Q2 and a smaller feature update in Q4 each year.
 
 **Network management**
 - Block the use of Thread networks on managed devices

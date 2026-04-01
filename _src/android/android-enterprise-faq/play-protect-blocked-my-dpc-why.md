@@ -20,6 +20,12 @@ Before you appeal:
 - Align to the [Play Protect unwanted software](https://developers.google.com/android/play-protect/mobile-unwanted-software) and [warning dev guidance](https://developers.google.com/android/play-protect/warning-dev-guidance): be transparent, avoid silent installs, and justify sensitive permissions (SMS, notifications, accessibility, overlays).
 - Make sure your use case fits Google’s permissible usage for enterprise management. If you don’t need a sensitive permission, remove it while you apply.
 
-Then submit an appeal using Google’s DPC allowlist form (linked from the Play Protect warning/help article). Explain the business use case, the permissions you request, and how users are informed. While waiting, advise users/admins that the warning is about allowlisting, not malware, and that the “continue” option may appear if permitted in your flow.
+Then submit an appeal using Google’s DPC allowlist form (linked from the Play Protect warning/help article). Explain the business use case, the permissions you request, and how users are informed.
 
-Read more on this can be read in the full article: [The DPC allowlist](/blog/2025/12/the-dpc-allowlist/).
+**What to expect after submitting an appeal:**
+- Appeals are reviewed by a Google team, and responses typically take anywhere from a few days to several weeks. There is no published SLA.
+- During the review period, devices encountering the block may still show a “continue” option depending on how the DPC is distributed. This allows provisioning to proceed in some cases, but this behaviour is not guaranteed.
+- If the appeal is rejected, review the feedback, address any flagged issues (common: unexplained use of accessibility or overlay permissions), and resubmit.
+- Communicate to users and admins that the warning is about allowlisting, not malware detection. This helps reduce support ticket volume while waiting for resolution.
+
+Read more in the full article: [The DPC allowlist](/blog/2025/12/the-dpc-allowlist/).
