@@ -93,7 +93,7 @@ exports.handler = async (event) => {
       try {
         // Check if question already exists
         const checkRes = await fetch(
-          `https://ping.bayton.org/items/orb_questions?filter[question][_ieq]=${encodeURIComponent(question)}&limit=1`,
+          `https://ping.bayton.org/items/orb_questions?filter[question][_icontains]=${encodeURIComponent(question)}&limit=1`,
           { headers: authHeaders }
         );
         if (!checkRes.ok) {
