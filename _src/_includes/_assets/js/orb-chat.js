@@ -1280,6 +1280,7 @@
         var q = self.voice.lastUserTranscript;
         if (q && self._shouldSaveQuestion(q)) {
           var isMissing = /don't have information|jason.*draft|no relevant/i.test(text);
+          console.log('[AutoSave] Saving question:', q, isMissing ? '(missing content)' : '');
           fetch('/api/orb-realtime-tool', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -1287,7 +1288,16 @@
               tool_name: 'save_question',
               arguments: { question: q, answer: isMissing ? 'missing content' : '' },
             }),
-          }).catch(function () {});
+          }).then(function (r) {
+            console.log('[AutoSave] Response:', r.status);
+            return r.json();
+          }).then(function (d) {
+            console.log('[AutoSave] Result:', d);
+          }).catch(function (e) {
+            console.error('[AutoSave] Failed:', e);
+          });
+        } else if (q) {
+          console.log('[AutoSave] Skipped (filtered):', q);
         }
       };
       this.voice.onLoadingStart = function () {
