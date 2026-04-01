@@ -1,6 +1,15 @@
 [functions]
   included_files = ["_public/search-index.json", "_src/_data/packages.json"]
 
+[functions."orb-chat"]
+  timeout = 60
+
+[functions."orb-realtime-session"]
+  timeout = 30
+
+[functions."orb-realtime-tool"]
+  timeout = 30
+
 [[edge_functions]]
   function = "url-heal"
   path = "/*"
@@ -43,4 +52,24 @@
 [[redirects]]
   from = "/api/mcp/sysapps/compare-devices"
   to = "/.netlify/functions/mcp-sysapps-compare-devices"
+  status = 200
+
+[[redirects]]
+  from = "/api/orb-chat"
+  to = "/.netlify/functions/orb-chat"
+  status = 200
+
+[[redirects]]
+  from = "/api/orb-popular"
+  to = "/.netlify/functions/orb-popular"
+  status = 200
+
+[[redirects]]
+  from = "/api/orb-realtime-session"
+  to = "/.netlify/functions/orb-realtime-session"
+  status = 200
+
+[[redirects]]
+  from = "/api/orb-realtime-tool"
+  to = "/.netlify/functions/orb-realtime-tool"
   status = 200

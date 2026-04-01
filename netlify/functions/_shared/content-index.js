@@ -94,7 +94,7 @@ function jsonResponse(statusCode, payload) {
   const headers = {
     'content-type': 'application/json; charset=utf-8',
     // Enable browser-based clients to call these endpoints cross-origin.
-    'access-control-allow-origin': '*',
+    'access-control-allow-origin': process.env.URL || 'https://bayton.org',
     'access-control-allow-methods': 'GET,POST,OPTIONS',
     'access-control-allow-headers': 'content-type',
   };
@@ -287,11 +287,14 @@ function createSearchMatcher(query) {
   const normalised = query.trim().toLowerCase();
   const escaped = normalised.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-  if (/^[\p{L}\p{N}_-]+$/u.test(normalised)) {
-    return new RegExp(`\\b${escaped}\\b`, 'iu');
+  // Treat spaces and hyphens as interchangeable so "zero touch" matches "zero-touch" and vice versa
+  const flexible = escaped.replace(/[\s-]+/g, '[\\s-]+');
+
+  if (/^[\p{L}\p{N}_\s-]+$/u.test(normalised)) {
+    return new RegExp(`\\b${flexible}\\b`, 'iu');
   }
 
-  return new RegExp(escaped, 'iu');
+  return new RegExp(flexible, 'iu');
 }
 
 /**
@@ -308,18 +311,57 @@ function buildMatchSnippet(content, matcher) {
 
   const index = content.search(matcher);
   if (index < 0) {
-    return content.slice(0, 320);
+    return content.slice(0, 1000);
   }
 
-  const start = Math.max(0, index - 120);
-  const end = Math.min(content.length, index + 200);
+  const start = Math.max(0, index - 300);
+  const end = Math.min(content.length, index + 900);
   const prefix = start > 0 ? '...' : '';
   const suffix = end < content.length ? '...' : '';
   return `${prefix}${content.slice(start, end)}${suffix}`;
 }
 
 /**
+ * Common English stop words to ignore when extracting keywords from queries.
+ */
+const STOP_WORDS = new Set([
+  'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+  'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could',
+  'should', 'may', 'might', 'can', 'shall', 'to', 'of', 'in', 'for',
+  'on', 'with', 'at', 'by', 'from', 'as', 'into', 'through', 'during',
+  'before', 'after', 'above', 'below', 'between', 'out', 'off', 'over',
+  'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when',
+  'where', 'why', 'how', 'all', 'each', 'every', 'both', 'few', 'more',
+  'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own',
+  'same', 'so', 'than', 'too', 'very', 'just', 'about', 'also', 'and',
+  'but', 'or', 'if', 'because', 'until', 'while', 'it', 'its', 'this',
+  'that', 'these', 'those', 'i', 'me', 'my', 'we', 'our', 'you', 'your',
+  'he', 'him', 'his', 'she', 'her', 'they', 'them', 'their', 'what',
+  'which', 'who', 'whom', 'hey', 'hi', 'hello', 'thanks', 'please',
+  'tell', 'know', 'like', 'get', 'got', 'want', 'need', 'think',
+]);
+
+/**
+ * Extract meaningful keywords from a query string, removing stop words.
+ *
+ * @param {string} query
+ * @returns {string[]}
+ */
+function extractKeywords(query) {
+  return query
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 2 && !STOP_WORDS.has(w));
+}
+
+/**
  * Search docs with lightweight relevance ranking and contextual snippets.
+ *
+ * Uses phrase matching first, then falls back to keyword-based matching
+ * when the query is a full sentence (e.g. "is zero touch supported on
+ * all devices?" won't match as a phrase, but the keywords "zero", "touch",
+ * "supported", "devices" will find the right docs).
  *
  * @param {Array<{title: string, url: string, content: string, haystack: string}>} searchableDocs
  * @param {string} query
@@ -328,15 +370,15 @@ function buildMatchSnippet(content, matcher) {
  */
 function searchDocs(searchableDocs, query, limit) {
   const matcher = createSearchMatcher(query);
-  const titleMatcher = createSearchMatcher(query);
 
-  const ranked = searchableDocs
+  // 1. Phrase match (existing behaviour — works great for short/precise queries)
+  const phraseResults = searchableDocs
     .filter(doc => matcher.test(doc.haystack))
     .map(doc => {
-      const titleHit = titleMatcher.test(doc.title);
+      const titleHit = matcher.test(doc.title);
       const contentIndex = doc.content ? doc.content.search(matcher) : -1;
       const positionScore = contentIndex < 0 ? 0 : Math.max(0, 40 - Math.floor(contentIndex / 80));
-      const score = (titleHit ? 100 : 0) + positionScore;
+      const score = (titleHit ? 100 : 0) + positionScore + 50; // bonus for phrase match
 
       return {
         title: doc.title,
@@ -344,18 +386,58 @@ function searchDocs(searchableDocs, query, limit) {
         snippet: buildMatchSnippet(doc.content || '', matcher),
         score,
       };
-    })
-    .sort((a, b) => b.score - a.score);
+    });
+
+  // 2. Keyword fallback — when phrase match finds too few results
+  const keywords = extractKeywords(query);
+  let keywordResults = [];
+
+  if (phraseResults.length < limit && keywords.length > 1) {
+    const keywordMatchers = keywords.map(k => createSearchMatcher(k));
+    const phraseUrls = new Set(phraseResults.map(r => r.url));
+    const minKeywords = Math.max(2, Math.ceil(keywords.length * 0.6));
+
+    keywordResults = searchableDocs
+      .filter(doc => !phraseUrls.has(doc.url))
+      .map(doc => {
+        let matchCount = 0;
+        let bestMatcher = null;
+        for (const km of keywordMatchers) {
+          if (km.test(doc.haystack)) {
+            matchCount++;
+            if (!bestMatcher) bestMatcher = km;
+          }
+        }
+        return { doc, matchCount, bestMatcher };
+      })
+      .filter(r => r.matchCount >= minKeywords)
+      .sort((a, b) => b.matchCount - a.matchCount)
+      .slice(0, limit * 2)
+      .map(r => {
+        const snippetMatcher = r.bestMatcher || keywordMatchers[0];
+        const titleHit = r.bestMatcher ? r.bestMatcher.test(r.doc.title) : false;
+        return {
+          title: r.doc.title,
+          url: r.doc.url,
+          snippet: buildMatchSnippet(r.doc.content || '', snippetMatcher),
+          score: (titleHit ? 80 : 0) + r.matchCount * 15,
+        };
+      });
+  }
+
+  // Merge, sort by score, deduplicate
+  const all = phraseResults.concat(keywordResults).sort((a, b) => b.score - a.score);
 
   return {
-    totalMatches: ranked.length,
-    results: ranked.slice(0, limit).map(({ score, ...result }) => result),
+    totalMatches: all.length,
+    results: all.slice(0, limit).map(({ score, ...result }) => result),
   };
 }
 
 module.exports = {
   buildSearchView,
   createSearchMatcher,
+  extractKeywords,
   searchDocs,
   isDevelopment,
   jsonResponse,
