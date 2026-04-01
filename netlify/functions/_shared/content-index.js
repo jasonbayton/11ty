@@ -382,7 +382,12 @@ function searchDocs(searchableDocs, query, limit) {
       const isGuide = doc.url.startsWith('/android/') || doc.url.startsWith('/docs/');
       const isBlog = doc.url.startsWith('/blog/');
       const typeBonus = isGuide ? 30 : (isBlog ? -15 : 0);
-      const score = (titleHit ? 100 : 0) + positionScore + 50 + typeBonus; // bonus for phrase match + page type
+      // Recency bonus — extract year from URL (/blog/YYYY/...) or content, prefer newer content
+      const yearMatch = doc.url.match(/\/(\d{4})\//);
+      const docYear = yearMatch ? parseInt(yearMatch[1], 10) : 0;
+      const currentYear = new Date().getFullYear();
+      const recencyBonus = docYear > 0 ? Math.max(-20, Math.min(20, (docYear - currentYear + 3) * 5)) : 0;
+      const score = (titleHit ? 100 : 0) + positionScore + 50 + typeBonus + recencyBonus;
 
       return {
         title: doc.title,
@@ -420,11 +425,17 @@ function searchDocs(searchableDocs, query, limit) {
       .map(r => {
         const snippetMatcher = r.bestMatcher || keywordMatchers[0];
         const titleHit = r.bestMatcher ? r.bestMatcher.test(r.doc.title) : false;
+        const isGuide = r.doc.url.startsWith('/android/') || r.doc.url.startsWith('/docs/');
+        const isBlog = r.doc.url.startsWith('/blog/');
+        const kwTypeBonus = isGuide ? 30 : (isBlog ? -15 : 0);
+        const kwYearMatch = r.doc.url.match(/\/(\d{4})\//);
+        const kwDocYear = kwYearMatch ? parseInt(kwYearMatch[1], 10) : 0;
+        const kwRecency = kwDocYear > 0 ? Math.max(-20, Math.min(20, (kwDocYear - new Date().getFullYear() + 3) * 5)) : 0;
         return {
           title: r.doc.title,
           url: r.doc.url,
           snippet: buildMatchSnippet(r.doc.content || '', snippetMatcher),
-          score: (titleHit ? 80 : 0) + r.matchCount * 15,
+          score: (titleHit ? 80 : 0) + r.matchCount * 15 + kwTypeBonus + kwRecency,
         };
       });
   }
