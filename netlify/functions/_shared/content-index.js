@@ -76,6 +76,7 @@ function parseIndex(raw) {
     .map(item => ({
       title: String(item.title),
       url: String(item.url),
+      date: item.date ? String(item.date) : '',
       content: item.content == null ? '' : String(item.content),
     }));
 }
@@ -218,10 +219,23 @@ async function loadIndex() {
  * @returns {Array<{title: string, url: string, content: string, haystack: string}>}
  */
 function buildSearchView(docs) {
-  return docs.map(doc => ({
-    ...doc,
-    haystack: `${doc.title}\n${doc.content || ''}`.toLowerCase(),
-  }));
+  return docs.map(doc => {
+    // Extract year from date field, fall back to URL pattern
+    let year = 0;
+    if (doc.date) {
+      const d = new Date(doc.date);
+      if (!isNaN(d.getTime())) year = d.getFullYear();
+    }
+    if (!year) {
+      const m = doc.url.match(/\/(\d{4})\//);
+      if (m) year = parseInt(m[1], 10);
+    }
+    return {
+      ...doc,
+      year,
+      haystack: `${doc.title}\n${doc.content || ''}`.toLowerCase(),
+    };
+  });
 }
 
 /**
@@ -382,11 +396,9 @@ function searchDocs(searchableDocs, query, limit) {
       const isGuide = doc.url.startsWith('/android/') || doc.url.startsWith('/docs/');
       const isBlog = doc.url.startsWith('/blog/');
       const typeBonus = isGuide ? 30 : (isBlog ? -15 : 0);
-      // Recency bonus — extract year from URL (/blog/YYYY/...) or content, prefer newer content
-      const yearMatch = doc.url.match(/\/(\d{4})\//);
-      const docYear = yearMatch ? parseInt(yearMatch[1], 10) : 0;
+      // Recency bonus — prefer newer content over older
       const currentYear = new Date().getFullYear();
-      const recencyBonus = docYear > 0 ? Math.max(-20, Math.min(20, (docYear - currentYear + 3) * 5)) : 0;
+      const recencyBonus = doc.year > 0 ? Math.max(-20, Math.min(20, (doc.year - currentYear + 3) * 5)) : 0;
       const score = (titleHit ? 100 : 0) + positionScore + 50 + typeBonus + recencyBonus;
 
       return {
@@ -428,9 +440,7 @@ function searchDocs(searchableDocs, query, limit) {
         const isGuide = r.doc.url.startsWith('/android/') || r.doc.url.startsWith('/docs/');
         const isBlog = r.doc.url.startsWith('/blog/');
         const kwTypeBonus = isGuide ? 30 : (isBlog ? -15 : 0);
-        const kwYearMatch = r.doc.url.match(/\/(\d{4})\//);
-        const kwDocYear = kwYearMatch ? parseInt(kwYearMatch[1], 10) : 0;
-        const kwRecency = kwDocYear > 0 ? Math.max(-20, Math.min(20, (kwDocYear - new Date().getFullYear() + 3) * 5)) : 0;
+        const kwRecency = r.doc.year > 0 ? Math.max(-20, Math.min(20, (r.doc.year - new Date().getFullYear() + 3) * 5)) : 0;
         return {
           title: r.doc.title,
           url: r.doc.url,
