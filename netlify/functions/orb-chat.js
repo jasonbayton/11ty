@@ -393,12 +393,16 @@ exports.handler = async (event) => {
     const shouldSave = trimmed.length >= 10 && !isChitChat && (aeSignal || isQuestion || trimmed.length >= 30);
     if (shouldSave) {
       const isMissing = /don't have information|jason.*draft|no relevant/i.test(reply);
-      executeTool({
-        function: {
-          name: 'save_question',
-          arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : '' }),
-        },
-      }).catch(() => {});
+      try {
+        await executeTool({
+          function: {
+            name: 'save_question',
+            arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : '' }),
+          },
+        });
+      } catch (e) {
+        console.error('[auto-save] Failed:', e);
+      }
     }
 
     const res = jsonResponse(200, { reply, sources: citedSources });
