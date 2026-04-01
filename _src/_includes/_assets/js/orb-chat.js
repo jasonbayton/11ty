@@ -1013,7 +1013,6 @@
               if (self.onLoadingStart) self.onLoadingStart();
 
               // Execute tool asynchronously
-              console.log('[VoiceEngine] Executing tool:', toolName, args);
               fetch('/api/orb-realtime-tool', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -1021,7 +1020,6 @@
               })
                 .then(function (r) { return r.json().catch(function () { return {}; }); })
                 .then(function (toolData) {
-                  console.log('[VoiceEngine] Tool result:', toolName, toolData);
                   // Capture sources from search_bayton or fetch_url for the next assistant message
                   if ((toolName === 'search_bayton' || toolName === 'fetch_url') && toolData.sources && toolData.sources.length > 0) {
                     if (self.pendingSources && self.pendingSources.length > 0) {
@@ -1275,7 +1273,6 @@
         var q = self.voice.lastUserTranscript;
         if (q && self._shouldSaveQuestion(q)) {
           var isMissing = /don't have information|jason.*draft|no relevant/i.test(text);
-          console.log('[AutoSave] Saving question:', q, isMissing ? '(missing content)' : '');
           fetch('/api/orb-realtime-tool', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -1284,15 +1281,10 @@
               arguments: { question: q, answer: isMissing ? 'missing content' : text },
             }),
           }).then(function (r) {
-            console.log('[AutoSave] Response:', r.status);
             return r.json();
-          }).then(function (d) {
-            console.log('[AutoSave] Result:', d);
           }).catch(function (e) {
             console.error('[AutoSave] Failed:', e);
           });
-        } else if (q) {
-          console.log('[AutoSave] Skipped (filtered):', q);
         }
       };
       this.voice.onLoadingStart = function () {

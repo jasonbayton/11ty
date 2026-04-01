@@ -4,17 +4,77 @@
         {% include "./_parts/head.njk" %}
     </head>
     <body>
-        <header class="home-redesign-header">
+        <!-- Floating nav toggle — always visible -->
+        <button id="orb-nav-toggle" type="button" aria-label="Show navigation">
+            <span class="material-symbols-outlined" id="orb-nav-icon" style="font-size:14px">expand_content</span>
+        </button>
+
+        <header class="home-redesign-header orb-header-hidden" id="orb-header">
             {% include "./_parts/header.njk" %}
         </header>
         <content id="orb-page">
             <style>
+                /* ---- Hidden header/footer ---- */
+                .orb-header-hidden,
+                .orb-footer-hidden {
+                    max-height: 0;
+                    overflow: hidden;
+                    opacity: 0;
+                    pointer-events: none;
+                    transition: max-height 0.4s ease, opacity 0.3s ease;
+                }
+                .orb-header-visible {
+                    max-height: 500px;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+                .orb-footer-visible {
+                    max-height: 1000px;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+
+                /* Floating nav button */
+                #orb-nav-toggle {
+                    position: fixed;
+                    top: 0.5rem;
+                    left: 0.5rem;
+                    z-index: 10001;
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    border: 1px solid var(--border-color, rgba(0,0,0,0.12));
+                    background: var(--card-bg, #fff);
+                    color: var(--main-text, #1f2937);
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                    transition: transform 0.2s ease, background 0.2s ease;
+                }
+                #orb-nav-toggle:hover {
+                    transform: scale(1.08);
+                    background: var(--main-orange, #ff4500);
+                    color: #fff;
+                    border-color: var(--main-orange, #ff4500);
+                }
+                [data-theme="dark"] #orb-nav-toggle {
+                    background: rgba(255, 255, 255, 0.08);
+                    border-color: rgba(255, 255, 255, 0.12);
+                    color: #e5e7eb;
+                }
+                [data-theme="dark"] #orb-nav-toggle:hover {
+                    background: var(--main-orange, #ff4500);
+                    color: #fff;
+                }
+
                 /* ---- Orb page layout ---- */
                 #orb-page {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    padding: 10rem 1rem 10rem;
+                    padding: 4rem 1rem 10rem;
                     min-height: 60vh;
                 }
 
@@ -276,9 +336,35 @@
                 </div>
             </div>
         </content>
-        <footer style="margin-top: 100px;">
+        <footer class="orb-footer-hidden" id="orb-footer" style="margin-top: 100px;">
             {% include "./_parts/footer.njk" %}
         </footer>
         <script src="/js/orb-chat.js" defer></script>
+        <script>
+        (function () {
+            var toggle = document.getElementById('orb-nav-toggle');
+            var icon = document.getElementById('orb-nav-icon');
+            var header = document.getElementById('orb-header');
+            var footer = document.getElementById('orb-footer');
+            var open = false;
+
+            toggle.addEventListener('click', function () {
+                open = !open;
+                if (open) {
+                    header.classList.remove('orb-header-hidden');
+                    header.classList.add('orb-header-visible');
+                    footer.classList.remove('orb-footer-hidden');
+                    footer.classList.add('orb-footer-visible');
+                    icon.textContent = 'collapse_content';
+                } else {
+                    header.classList.add('orb-header-hidden');
+                    header.classList.remove('orb-header-visible');
+                    footer.classList.add('orb-footer-hidden');
+                    footer.classList.remove('orb-footer-visible');
+                    icon.textContent = 'expand_content';
+                }
+            });
+        })();
+        </script>
     </body>
 </html>
