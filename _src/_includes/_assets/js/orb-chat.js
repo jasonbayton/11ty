@@ -1452,19 +1452,59 @@
   };
 
   ChatController.prototype.renderMarkdown = function (text) {
-    // Simple markdown: bold, italic, links, line breaks
-    return text
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*(.+?)\*/g, '<em>$1</em>')
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, function(m, linkText, url) {
-    if (/^(https?:\/\/|\/)/i.test(url)) {
-      var safeUrl = url.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-      return '<a href="' + safeUrl + '" target="_blank" rel="noopener noreferrer">' + linkText + '</a>';
-    }
-    return linkText;
-  })
-      .replace(/\n/g, '<br>');
+    // Escape HTML
+    var html = text
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    // Fenced code blocks: ```lang\n...\n```
+    html = html.replace(/```(\w*)\n([\s\S]*?)```/g, function (m, lang, code) {
+      return '<pre class="orb-code"><code>' + code.replace(/\n$/, '') + '</code></pre>';
+    });
+
+    // Inline code: `code`
+    html = html.replace(/`([^`\n]+)`/g, '<code class="orb-inline-code">$1</code>');
+
+    // Headings: ### h3, ## h2 (at start of line)
+    html = html.replace(/(^|\n)#### (.+)/g, '$1<strong class="orb-h4">$2</strong>');
+    html = html.replace(/(^|\n)### (.+)/g, '$1<strong class="orb-h3">$2</strong>');
+    html = html.replace(/(^|\n)## (.+)/g, '$1<strong class="orb-h2">$2</strong>');
+
+    // Bold & italic
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+    // Links
+    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function (m, linkText, url) {
+      if (/^(https?:\/\/|\/)/i.test(url)) {
+        var safeUrl = url.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        return '<a href="' + safeUrl + '" target="_blank" rel="noopener noreferrer">' + linkText + '</a>';
+      }
+      return linkText;
+    });
+
+    // Unordered lists: lines starting with - (convert blocks)
+    html = html.replace(/(^|\n)(- .+(\n- .+)*)/g, function (m, pre, block) {
+      var items = block.split('\n').map(function (line) {
+        return '<li>' + line.replace(/^- /, '') + '</li>';
+      }).join('');
+      return pre + '<ul class="orb-list">' + items + '</ul>';
+    });
+
+    // Ordered lists: lines starting with 1. 2. etc
+    html = html.replace(/(^|\n)(\d+\. .+(\n\d+\. .+)*)/g, function (m, pre, block) {
+      var items = block.split('\n').map(function (line) {
+        return '<li>' + line.replace(/^\d+\. /, '') + '</li>';
+      }).join('');
+      return pre + '<ol class="orb-list">' + items + '</ol>';
+    });
+
+    // Line breaks (but not inside <pre> blocks)
+    html = html.replace(/\n/g, '<br>');
+    // Clean up <br> immediately after block elements
+    html = html.replace(/<\/(pre|ul|ol|li)><br>/g, '</$1>');
+    html = html.replace(/<br><(pre|ul|ol)/g, '<$1');
+
+    return html;
   };
 
   ChatController.prototype.loadRecentQuestions = function () {

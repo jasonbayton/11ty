@@ -201,6 +201,54 @@
                     background: rgba(255, 255, 255, 0.06);
                     color: #e5e7eb;
                 }
+                /* ---- Markdown rendering in bubbles ---- */
+                .orb-code {
+                    background: rgba(0, 0, 0, 0.06);
+                    border-radius: 0.5rem;
+                    padding: 0.6rem 0.8rem;
+                    overflow-x: auto;
+                    font-size: 0.8rem;
+                    line-height: 1.5;
+                    margin: 0.4rem 0;
+                    white-space: pre;
+                    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+                }
+                [data-theme="dark"] .orb-code {
+                    background: rgba(0, 0, 0, 0.3);
+                }
+                .orb-inline-code {
+                    background: rgba(0, 0, 0, 0.06);
+                    padding: 0.1rem 0.35rem;
+                    border-radius: 0.25rem;
+                    font-size: 0.82em;
+                    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+                }
+                [data-theme="dark"] .orb-inline-code {
+                    background: rgba(255, 255, 255, 0.1);
+                }
+                .orb-list {
+                    margin: 0.3rem 0;
+                    padding-left: 1.4rem;
+                }
+                .orb-list li {
+                    margin: 0.15rem 0;
+                }
+                .orb-h2 {
+                    display: block;
+                    font-size: 1.05rem;
+                    margin: 0.5rem 0 0.2rem;
+                }
+                .orb-h3 {
+                    display: block;
+                    font-size: 0.95rem;
+                    margin: 0.4rem 0 0.2rem;
+                }
+                .orb-h4 {
+                    display: block;
+                    font-size: 0.9rem;
+                    margin: 0.3rem 0 0.15rem;
+                }
+
                 .orb-sources {
                     display: flex;
                     flex-wrap: wrap;
