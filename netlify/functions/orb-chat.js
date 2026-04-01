@@ -125,6 +125,58 @@ const TOOLS = [
   },
 ];
 
+/**
+ * Extract plain text from HTML using a simple state machine.
+ * Skips content inside script/style/nav/header/footer elements entirely.
+ */
+function htmlToText(html) {
+  const SKIP_TAGS = new Set(['script', 'style', 'nav', 'header', 'footer', 'noscript', 'svg']);
+  let out = '';
+  let i = 0;
+  const len = html.length;
+
+  while (i < len) {
+    if (html[i] === '<') {
+      // Find end of tag
+      const tagEnd = html.indexOf('>', i);
+      if (tagEnd === -1) break;
+      const tagContent = html.slice(i + 1, tagEnd).trim();
+      // Check if it's an opening skip-tag
+      const tagNameMatch = tagContent.match(/^(\w+)/);
+      if (tagNameMatch) {
+        const tagName = tagNameMatch[1].toLowerCase();
+        if (SKIP_TAGS.has(tagName) && tagContent[0] !== '/') {
+          // Skip to closing tag
+          const closeTag = '</' + tagName;
+          const closeIdx = html.toLowerCase().indexOf(closeTag, tagEnd);
+          if (closeIdx !== -1) {
+            const afterClose = html.indexOf('>', closeIdx);
+            i = afterClose !== -1 ? afterClose + 1 : closeIdx + closeTag.length;
+          } else {
+            i = tagEnd + 1;
+          }
+          continue;
+        }
+      }
+      // Non-skip tag — emit a space and move past it
+      out += ' ';
+      i = tagEnd + 1;
+    } else if (html[i] === '&') {
+      // Skip HTML entities
+      const semiIdx = html.indexOf(';', i);
+      if (semiIdx !== -1 && semiIdx - i < 10) {
+        out += ' ';
+        i = semiIdx + 1;
+      } else {
+        out += html[i++];
+      }
+    } else {
+      out += html[i++];
+    }
+  }
+  return out.replace(/\s+/g, ' ').trim();
+}
+
 /** Allowed domains for fetch_url tool */
 const FETCH_URL_ALLOWLIST = [
   'developer.android.com',
@@ -150,29 +202,7 @@ async function fetchExternalUrl(url) {
     });
     if (!res.ok) return { result: `Fetch failed: HTTP ${res.status}`, sources: [] };
 
-    let text = await res.text();
-    // Strip dangerous/structural elements — iterative to handle nesting
-    // Use [^>]* on closing tags to match </script attr>, </script\t\n>, etc.
-    let prev;
-    do {
-      prev = text;
-      text = text
-        .replace(/<script\b[^>]*>[\s\S]*?<\/script[^>]*>/gi, '')
-        .replace(/<style\b[^>]*>[\s\S]*?<\/style[^>]*>/gi, '')
-        .replace(/<nav\b[^>]*>[\s\S]*?<\/nav[^>]*>/gi, '')
-        .replace(/<header\b[^>]*>[\s\S]*?<\/header[^>]*>/gi, '')
-        .replace(/<footer\b[^>]*>[\s\S]*?<\/footer[^>]*>/gi, '');
-    } while (text !== prev);
-    // Strip any remaining tags, entities, collapse whitespace
-    do {
-      prev = text;
-      text = text.replace(/<[^>]*>/g, ' ');
-    } while (text !== prev);
-    text = text
-      .replace(/&[a-zA-Z0-9#]+;/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim()
-      .slice(0, 4000);
+    const text = htmlToText(await res.text()).slice(0, 4000);
 
     return {
       result: text || 'Page had no extractable text content.',
