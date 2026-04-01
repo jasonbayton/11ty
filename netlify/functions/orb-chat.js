@@ -397,7 +397,7 @@ exports.handler = async (event) => {
         await executeTool({
           function: {
             name: 'save_question',
-            arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : '' }),
+            arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : reply }),
           },
         });
       } catch (e) {

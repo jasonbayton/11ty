@@ -1286,7 +1286,7 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               tool_name: 'save_question',
-              arguments: { question: q, answer: isMissing ? 'missing content' : '' },
+              arguments: { question: q, answer: isMissing ? 'missing content' : text },
             }),
           }).then(function (r) {
             console.log('[AutoSave] Response:', r.status);
