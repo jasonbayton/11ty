@@ -357,7 +357,7 @@ exports.handler = async (event) => {
     let completion = await openai.chat.completions.create({
       model: 'gpt-5.4-mini',
       messages,
-      max_tokens: 800,
+      max_completion_tokens: 800,
       temperature: 0.3,
       tools: TOOLS,
       tool_choice: 'auto',
@@ -386,7 +386,7 @@ exports.handler = async (event) => {
       completion = await openai.chat.completions.create({
         model: 'gpt-5.4-mini',
         messages,
-        max_tokens: 800,
+        max_completion_tokens: 800,
         temperature: 0.3,
         tools: TOOLS,
         tool_choice: 'auto',
