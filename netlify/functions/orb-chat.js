@@ -151,20 +151,24 @@ async function fetchExternalUrl(url) {
     if (!res.ok) return { result: `Fetch failed: HTTP ${res.status}`, sources: [] };
 
     let text = await res.text();
-    // Strip dangerous/structural elements (loop to handle nested tags)
+    // Strip dangerous/structural elements — iterative to handle nesting
+    // Use [^>]* on closing tags to match </script attr>, </script\t\n>, etc.
     let prev;
     do {
       prev = text;
       text = text
-        .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, '')
-        .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '')
-        .replace(/<nav\b[^>]*>[\s\S]*?<\/nav\s*>/gi, '')
-        .replace(/<header\b[^>]*>[\s\S]*?<\/header\s*>/gi, '')
-        .replace(/<footer\b[^>]*>[\s\S]*?<\/footer\s*>/gi, '');
+        .replace(/<script\b[^>]*>[\s\S]*?<\/script[^>]*>/gi, '')
+        .replace(/<style\b[^>]*>[\s\S]*?<\/style[^>]*>/gi, '')
+        .replace(/<nav\b[^>]*>[\s\S]*?<\/nav[^>]*>/gi, '')
+        .replace(/<header\b[^>]*>[\s\S]*?<\/header[^>]*>/gi, '')
+        .replace(/<footer\b[^>]*>[\s\S]*?<\/footer[^>]*>/gi, '');
     } while (text !== prev);
-    // Strip remaining tags, entities, collapse whitespace
+    // Strip any remaining tags, entities, collapse whitespace
+    do {
+      prev = text;
+      text = text.replace(/<[^>]*>/g, ' ');
+    } while (text !== prev);
     text = text
-      .replace(/<[^>]+>/g, ' ')
       .replace(/&[a-zA-Z0-9#]+;/g, ' ')
       .replace(/\s+/g, ' ')
       .trim()
@@ -225,6 +229,10 @@ async function executeTool(toolCall) {
           `https://ping.bayton.org/items/orb_questions?filter[question][_icontains]=${encodeURIComponent(question)}&limit=1`,
           { headers: authHeaders }
         );
+        if (!checkRes.ok) {
+          console.error('[save_question] Directus check failed:', checkRes.status);
+          return { result: 'Save failed.', sources: [] };
+        }
         const checkData = await checkRes.json();
         const existing = checkData.data?.[0];
         if (existing) {

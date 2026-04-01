@@ -145,19 +145,22 @@ exports.handler = async (event) => {
         if (!res.ok) return jsonResponse(200, { result: `Fetch failed: HTTP ${res.status}`, sources: [] });
 
         let text = await res.text();
-        // Strip dangerous/structural elements (loop to handle nested tags)
+        // Strip dangerous/structural elements — iterative to handle nesting
         let prev;
         do {
           prev = text;
           text = text
-            .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, '')
-            .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '')
-            .replace(/<nav\b[^>]*>[\s\S]*?<\/nav\s*>/gi, '')
-            .replace(/<header\b[^>]*>[\s\S]*?<\/header\s*>/gi, '')
-            .replace(/<footer\b[^>]*>[\s\S]*?<\/footer\s*>/gi, '');
+            .replace(/<script\b[^>]*>[\s\S]*?<\/script[^>]*>/gi, '')
+            .replace(/<style\b[^>]*>[\s\S]*?<\/style[^>]*>/gi, '')
+            .replace(/<nav\b[^>]*>[\s\S]*?<\/nav[^>]*>/gi, '')
+            .replace(/<header\b[^>]*>[\s\S]*?<\/header[^>]*>/gi, '')
+            .replace(/<footer\b[^>]*>[\s\S]*?<\/footer[^>]*>/gi, '');
+        } while (text !== prev);
+        do {
+          prev = text;
+          text = text.replace(/<[^>]*>/g, ' ');
         } while (text !== prev);
         text = text
-          .replace(/<[^>]+>/g, ' ')
           .replace(/&[a-zA-Z0-9#]+;/g, ' ')
           .replace(/\s+/g, ' ')
           .trim()

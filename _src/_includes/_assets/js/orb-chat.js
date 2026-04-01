@@ -292,12 +292,20 @@
 
     var dpr = window.devicePixelRatio || 1;
     var rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width * dpr;
-    canvas.height = rect.height * dpr;
-    ctx.scale(dpr, dpr);
+    var displayWidth = rect.width;
+    var displayHeight = rect.height;
 
-    var W = rect.width;
-    var H = rect.height;
+    if (this._lastW !== displayWidth || this._lastH !== displayHeight || this._lastDpr !== dpr) {
+      this._lastW = displayWidth;
+      this._lastH = displayHeight;
+      this._lastDpr = dpr;
+      canvas.width = displayWidth * dpr;
+      canvas.height = displayHeight * dpr;
+    }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    var W = displayWidth;
+    var H = displayHeight;
     var dt = 0.016;
     this.time += dt;
     var t = this.time;
@@ -1105,7 +1113,7 @@
             type: 'session.update',
             session: {
               modalities: ['text', 'audio'],
-              voice: 'alloy',
+              voice: 'sage',
               turn_detection: {
                 type: 'server_vad',
                 threshold: 0.4,
@@ -1433,6 +1441,7 @@
           a.href = s.url;
           a.textContent = s.title;
           a.target = '_blank';
+          a.rel = 'noopener noreferrer';
           srcDiv.appendChild(a);
         });
         wrapper.appendChild(srcDiv);
@@ -1469,11 +1478,12 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.+?)\*/g, '<em>$1</em>')
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, function(m, text, url) {
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, function(m, linkText, url) {
     if (/^(https?:\/\/|\/)/i.test(url)) {
-      return '<a href="' + url + '" target="_blank">' + text + '</a>';
+      var safeUrl = url.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+      return '<a href="' + safeUrl + '" target="_blank" rel="noopener noreferrer">' + linkText + '</a>';
     }
-    return text;
+    return linkText;
   })
       .replace(/\n/g, '<br>');
   };
