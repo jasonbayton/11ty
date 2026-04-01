@@ -36,6 +36,7 @@
     "eleventy-plugin-youtube-embed": "^1.7.1",
     "lodash": "^4.17.21",
     "markdown-it-deflist": "^3.0.0",
+    "openai": "^6.33.0",
     "workbox-sw": "^6.5.4"
   },
   "engines": {

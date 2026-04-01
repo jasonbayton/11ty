@@ -8,7 +8,7 @@ This repository exposes Bayton.org content through MCP and HTTP adapters so AI c
 
 ## Current architecture
 
-1. Eleventy builds `/search-index.json` from `collections.all`.
+1. Eleventy builds `/search-index.json` from `collections.all`, emitting `title`, `url`, `date`, and parsed `content` for each document.
 2. Runtime loaders read `_public/search-index.json` and `_src/_data/packages.json`.
 3. MCP endpoint exposes:
    - `search_content(query, limit)`
@@ -23,6 +23,11 @@ This repository exposes Bayton.org content through MCP and HTTP adapters so AI c
 - Search is intentionally **two-step retrieval**:
   - `search_content` returns ranked results with a contextual `snippet`.
   - `get_content_by_url` returns full indexed `content` for exact URLs.
+- Search ranking is not simple text matching:
+  - exact/phrase matches are preferred first,
+  - guide and docs content is boosted over blog posts,
+  - newer content receives a recency bonus based on the indexed `date`,
+  - if `date` is missing or unparsable, ranking falls back to extracting a year from the URL when possible.
 
 ## Files in this repo
 
