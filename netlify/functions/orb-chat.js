@@ -150,16 +150,22 @@ async function fetchExternalUrl(url) {
     });
     if (!res.ok) return { result: `Fetch failed: HTTP ${res.status}`, sources: [] };
 
-    const html = await res.text();
-    // Strip HTML tags, collapse whitespace, truncate
-    const text = html
-      .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-      .replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, '')
-      .replace(/<header[^>]*>[\s\S]*?<\/header>/gi, '')
-      .replace(/<footer[^>]*>[\s\S]*?<\/footer>/gi, '')
+    let text = await res.text();
+    // Strip dangerous/structural elements (loop to handle nested tags)
+    let prev;
+    do {
+      prev = text;
+      text = text
+        .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, '')
+        .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '')
+        .replace(/<nav\b[^>]*>[\s\S]*?<\/nav\s*>/gi, '')
+        .replace(/<header\b[^>]*>[\s\S]*?<\/header\s*>/gi, '')
+        .replace(/<footer\b[^>]*>[\s\S]*?<\/footer\s*>/gi, '');
+    } while (text !== prev);
+    // Strip remaining tags, entities, collapse whitespace
+    text = text
       .replace(/<[^>]+>/g, ' ')
-      .replace(/&[a-z]+;/gi, ' ')
+      .replace(/&[a-zA-Z0-9#]+;/g, ' ')
       .replace(/\s+/g, ' ')
       .trim()
       .slice(0, 4000);
