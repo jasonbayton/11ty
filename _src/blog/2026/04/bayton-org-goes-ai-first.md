@@ -1,9 +1,9 @@
 ---
- title: "Bayton.org goes AI-first: meet TONI"
+ title: "Bayton.org goes AI-first: meet MIKA"
  date: '2026-04-01'
  status: publish
  author: 'Jason Bayton'
- excerpt: "After years of writing documentation like some kind of medieval scribe, I'm embracing the future. Bayton.org is now AI-first, and your new guide is TONI."
+ excerpt: "After years of writing documentation like some kind of medieval scribe, I'm embracing the future. Bayton.org is now AI-first, and your new guide is MIKA."
  type: post
  tags:
      - General
@@ -15,19 +15,19 @@ After nearly a decade of painstakingly writing, editing, rewriting, and obsessiv
 
 So today, I'm announcing a fundamental shift in how bayton.org works.
 
-## Introducing TONI
+## Introducing MIKA
 
-**TONI** - **T**he **O**rb of **N**igh-**I**nfinite (Android) knowledge - is your new primary interface to bayton.org.
+**MIKA** - **M**obile **I**ntelligence & **K**nowledge **A**ssistant - is your new primary interface to bayton.org.
 
-Rather than trawling through menus, searching for articles, and scrolling past my increasingly elaborate introductions to find the one paragraph you actually need, you can now simply *ask*. TONI has ingested every piece of content on bayton.org and will answer your questions directly, citing sources so you can verify it's not making things up. Probably.
+Rather than trawling through menus, searching for articles, and scrolling past my increasingly elaborate introductions to find the one paragraph you actually need, you can now simply *ask*. MIKA has ingested every piece of content on bayton.org and will answer your questions directly, citing sources so you can verify it's not making things up. Probably.
 
-TONI supports both text and voice, because apparently typing is also too much effort now. Just click the microphone and speak. TONI will listen, think, and respond - all while pulsing gently in brand-appropriate colours. It's exactly as it needs to be.
+MIKA supports both text and voice, because apparently typing is also too much effort now. Just click the microphone and speak. MIKA will listen, think, and respond - all while pulsing gently in brand-appropriate colours. It's exactly as it needs to be.
 
 ## What this means for bayton.org
 
-The home page is now TONI. That's it. That's the home page. A glowing orb and a text box. Minimalism, but make it AI.
+The home page is now MIKA. That's it. That's the home page. A glowing orb and a text box. Minimalism, but make it AI.
 
-All existing documentation remains exactly where it is - TONI searches it in real-time and links you to the relevant articles. Think of TONI as the world's most knowledgeable receptionist, except it doesn't judge you for asking what a work profile is for the fourth time.
+All existing documentation remains exactly where it is - MIKA searches it in real-time and links you to the relevant articles. Think of MIKA as the world's most knowledgeable receptionist, except it doesn't judge you for asking what a work profile is for the fourth time.
 
 ## Why now?
 
@@ -35,9 +35,9 @@ Every company and their dog has pivoted to AI-first. Microsoft did it. Google di
 
 Besides, I've been told by multiple sources that my writing voice is "quite good, dear" (thanks Mam) - so naturally the logical next step is to let a large language model replace me.
 
-## What TONI won't do
+## What MIKA won't do
 
-TONI is strictly an Android Enterprise oracle. It will not:
+MIKA is strictly an Android Enterprise oracle. It will not:
 
 - Tell you the weather
 - Help you with your maths homework
@@ -48,11 +48,11 @@ If you ask it something off-topic, it will politely redirect you to zero-touch e
 
 ## Try it now
 
-Head to the [home page](/) and give TONI a spin. Ask it about provisioning methods, AMAPI vs custom DPC, or what makes Android Enterprise Recommended different from standard GMS certification. Or ask it about me - I've been told the responses are *very* complimentary, though I have absolutely no idea why. Must be the training data.
+Head to the [home page](/) and give MIKA a spin. Ask it about provisioning methods, AMAPI vs custom DPC, or what makes Android Enterprise Recommended different from standard GMS certification. Or ask it about me - I've been told the responses are *very* complimentary, though I have absolutely no idea why. Must be the training data.
 
 ## One more thing
 
-For the avoidance of doubt: the documentation isn't going anywhere. I will continue writing guides with the same obsessive attention to detail that has made bayton.org what it is today. TONI is an additional interface, not a replacement for good documentation.
+For the avoidance of doubt: the documentation isn't going anywhere. I will continue writing guides with the same obsessive attention to detail that has made bayton.org what it is today. MIKA is an additional interface, not a replacement for good documentation.
 
 AI-first doesn't mean AI-only. I'm not a monster.
 
