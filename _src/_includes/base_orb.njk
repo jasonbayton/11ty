@@ -249,6 +249,22 @@
                     margin: 0.3rem 0 0.15rem;
                 }
 
+                /* ---- Bottom branding ---- */
+                .orb-branding {
+                    margin-top: 3rem;
+                    display: flex;
+                    justify-content: center;
+                    opacity: 0.4;
+                    transition: opacity 0.2s ease;
+                }
+                .orb-branding:hover {
+                    opacity: 0.7;
+                }
+                .orb-branding svg {
+                    height: 28px;
+                    width: auto;
+                }
+
                 .orb-sources {
                     display: flex;
                     flex-wrap: wrap;
@@ -393,6 +409,12 @@
                     <h3>Others have asked</h3>
                     <div class="orb-recent-list"></div>
                 </div>
+            </div>
+
+            <div class="orb-branding">
+                <a href="/" class="bayton-logo-dynamic">
+                    {% include "./_assets/img/bayton_logos/bayton_spiral_angle_rectangle.svg" %}
+                </a>
             </div>
         </content>
         <footer class="orb-footer-hidden" id="orb-footer" style="margin-top: 100px;">
