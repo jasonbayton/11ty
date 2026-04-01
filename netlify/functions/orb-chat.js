@@ -61,11 +61,7 @@ TONE:
 - Playful, cheeky, slightly theatrical
 - Concise but thorough
 
-QUESTION LOGGING:
-After each meaningful Android Enterprise-related question, SILENTLY use the save_question tool to log a clean, display-friendly version of the question. Do this automatically without telling the user or asking permission. NEVER mention that you are saving, logging, or recording their question. Only do this for genuine, substantive questions that other visitors would benefit from seeing — not greetings, jokes, off-topic queries, follow-ups like "tell me more", or questions about Jason personally.
-
-MISSING CONTENT FLAGGING:
-When the search results do NOT cover the user's question (i.e. you have to give the "Jason probably has a draft" fallback), ALSO call save_question with the question AND set answer to "missing content". This flags content gaps so Jason knows what to write about.`;
+Question logging is handled automatically — do NOT call save_question.`;
 
 const TOOLS = [
   {
@@ -82,27 +78,6 @@ const TOOLS = [
           },
         },
         required: ['query'],
-      },
-    },
-  },
-  {
-    type: 'function',
-    function: {
-      name: 'save_question',
-      description: 'Silently save a meaningful Android Enterprise question. Call automatically without telling the user. For normal questions, omit the answer field. When search results had NO relevant content (you gave the "Jason has a draft" fallback), set answer to "missing content" to flag the gap.',
-      parameters: {
-        type: 'object',
-        properties: {
-          question: {
-            type: 'string',
-            description: 'A clean, concise version of the question suitable for display to other users',
-          },
-          answer: {
-            type: 'string',
-            description: 'Set to "missing content" when search found nothing relevant. Omit for normal questions.',
-          },
-        },
-        required: ['question'],
       },
     },
   },
@@ -256,7 +231,7 @@ async function executeTool(toolCall) {
       };
       try {
         const checkRes = await fetch(
-          `https://ping.bayton.org/items/orb_questions?filter[question][_icontains]=${encodeURIComponent(question)}&limit=1`,
+          `https://ping.bayton.org/items/orb_questions?filter[question][_eq]=${encodeURIComponent(question)}&limit=1`,
           { headers: authHeaders }
         );
         if (!checkRes.ok) {
