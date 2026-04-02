@@ -356,17 +356,46 @@ const STOP_WORDS = new Set([
 ]);
 
 /**
+ * EMM vendor synonyms — expand queries so alternate names find the same content.
+ * Each key maps to additional search terms to inject.
+ */
+const VENDOR_SYNONYMS = {
+  'workspace': ['airwatch', 'ws1', 'omnissa'],
+  'ws1': ['workspace', 'airwatch', 'omnissa'],
+  'airwatch': ['workspace', 'ws1', 'omnissa'],
+  'omnissa': ['workspace', 'ws1', 'airwatch'],
+  'intune': ['microsoft', 'endpoint'],
+  'mobileiron': ['ivanti'],
+  'ivanti': ['mobileiron'],
+  'maas360': ['ibm'],
+  'hexnode': ['mitsogo'],
+  'managengine': ['zoho'],
+  'scalefusion': ['mobilock'],
+};
+
+/**
  * Extract meaningful keywords from a query string, removing stop words.
+ * Also expands known EMM vendor synonyms so alternate names match content.
  *
  * @param {string} query
  * @returns {string[]}
  */
 function extractKeywords(query) {
-  return query
+  const words = query
     .toLowerCase()
     .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
     .split(/\s+/)
     .filter(w => w.length >= 2 && !STOP_WORDS.has(w));
+
+  // Expand vendor synonyms
+  const expanded = new Set(words);
+  for (const w of words) {
+    const synonyms = VENDOR_SYNONYMS[w];
+    if (synonyms) {
+      for (const s of synonyms) expanded.add(s);
+    }
+  }
+  return Array.from(expanded);
 }
 
 /**
