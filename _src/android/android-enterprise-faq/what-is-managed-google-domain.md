@@ -43,8 +43,6 @@ Follow Google's official upgrade guide: [Upgrade to managed Google domain](https
 
 After upgrading, manage your enterprise through the [Google Admin console](https://admin.google.com) rather than play.google.com/work.
 
-**Sources:**
-- [Google blog: Simplify Android Enterprise with managed Google domains](https://blog.google/products-and-platform/products/android-enterprise/domain-upgrade/)
-- [Android Enterprise Help: Upgrade to managed Google domain](https://support.google.com/work/android/answer/16147675)
-- [Android Enterprise Customer Community: 2026 Planning Roadmap](https://www.androidenterprise.community/blog/resources/what-to-include-in-your-2026-plan-a-quarterly-roadmap-to-maximize-your-android-d/14382)
-- [Managed Google domains: what, why, and how to upgrade](https://www.androidenterprise.community/android-enterprise-general-discussions-3/day-4-managed-google-domains-what-why-and-how-to-upgrade-1543)
+### Can I rename the organisation after upgrading?
+
+There is no self-service option to rename the managed Google Play organisation name. For managed Google domain enterprises, the organisation name is inherited from the Google Workspace or Cloud Identity domain configuration and must be changed through the Admin console under Account settings. Choose the name carefully before initiating the bind or upgrade.

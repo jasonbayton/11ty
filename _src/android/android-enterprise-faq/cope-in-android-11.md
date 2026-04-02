@@ -28,7 +28,8 @@ For the full breakdown of what changed, including migration paths for existing d
 - **Android 12** introduced personal usage policies allowing organisations to control whether personal accounts, camera, and screen capture are available on the device. These are coarse controls compared to what WPoFMD offered, but better than nothing.
 - **Android 13** added the notification permission requirement, which impacts how work apps surface notifications after initial setup.
 - **Android 14** refined work profile behaviour and introduced cross-profile restrictions.
-- **Android 15** introduced [Private Space](/android/what-is-android-15-private-space/), which is relevant for COPE as it creates another isolated area on the device that admins have no visibility of. Private Space can be disabled on company-owned devices via policy.
+- **Android 15** introduced [Private Space](/android/what-is-android-15-private-space/), which is relevant for COPE as it creates another isolated area on the device that admins have no visibility of. Private Space can be disabled on company-owned devices via policy. Android 15 also changed re-enrolment behaviour: after a factory reset, COPE devices now require the Google account to be re-entered during setup rather than inheriting the previous session.
+- **Android 16** continues with the same COPE architecture. New capabilities include APN configuration via AMAPI, eSIM EID retrieval for provisioning workflows, and NFC controller management - all applicable to COPE as a company-owned deployment scenario.
 
 If your organisation needs strong device-wide control and visibility, fully managed (COBO) remains the better choice. COPE is best suited to deployments where the organisation accepts limited personal-side visibility in exchange for offering employees genuine personal use on a company device.
 
