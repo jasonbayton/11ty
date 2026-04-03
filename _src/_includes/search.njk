@@ -25,6 +25,30 @@
                 </div>
 
                 <div class="post-block search-results" id="searchResults"></div>
+
+                <div class="mika-search-cta">
+                    <p>Can't find what you're looking for? <a href="/mika/">Ask MIKA</a> - the AI-powered assistant with full access to bayton.org content.</p>
+                </div>
+                <style>
+                    .mika-search-cta {
+                        margin-top: 2rem;
+                        padding: 1rem 1.25rem;
+                        border-radius: 0.75rem;
+                        background: rgba(255, 69, 0, 0.05);
+                        border: 1px solid rgba(255, 69, 0, 0.15);
+                        text-align: center;
+                        font-size: 0.85rem;
+                        color: var(--text, #cfcfcf);
+                    }
+                    .mika-search-cta a {
+                        color: var(--main-orange, #ff4500);
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                    .mika-search-cta a:hover {
+                        text-decoration: underline;
+                    }
+                </style>
             </section>
             <!-- Page feedback goes here -->
             {% include "./_parts/feedback.njk" %}
@@ -34,5 +58,6 @@
             {% include "./_parts/footer.njk" %}
         </footer>
         <script defer type="text/javascript" src="/js/fuse-search.js"></script>
+        {% include "./_parts/mika-widget.njk" %}
     </body>
 </html>

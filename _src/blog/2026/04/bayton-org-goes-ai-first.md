@@ -12,7 +12,7 @@
 <div class="callout callout-green">
 <div class="callout-heading">Yes, this was created for April 1st</div>
 
-But MIKA is very much real. It's a fully functional, OpenAI-backed assistant with complete access to bayton.org content via voice and text. It will remain available for the foreseeable future, and the questions asked of it are being used to identify gaps in the documentation and prioritise new content creation. Give it a go at [/mika/](/mika/).
+But MIKA is very much real. It's a fully functional, OpenAI-backed assistant with complete access to bayton.org content via voice and text. It no longer takes over the homepage - instead it's available as a floating orb across the entire site and a dedicated full experience at [/mika/](/mika/) with voice support. The questions asked of it are being used to identify gaps in the documentation and prioritise new content creation. Give it a go!
 
 </div>
 
