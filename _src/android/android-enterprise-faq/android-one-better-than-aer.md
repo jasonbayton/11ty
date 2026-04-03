@@ -15,17 +15,20 @@ eleventyNavigation:
   key: "Is Android One better than AER? (Or the other way around?)"
   order: 10000
 --- 
-**Note: The Android One programme appears to be no longer active.** Google has not announced new Android One devices since approximately 2022, and the programme is no longer marketed or accepting new validations. The information below is retained for historical context.
+<div class="callout callout-orange">
+<div class="callout-heading callout-heading-small">Programme status</div>
 
-Android One and Android Enterprise Recommended were two different programmes offering a bit of overlap in security and consistency.
+Android One is effectively dormant. No new devices have launched since a Japan-exclusive Kyocera handset in early 2023, and no OEMs are (from what I've seen) actively developing Android One handsets. This FAQ is retained for historical context. See [What is Android One?](/android/what-is-android-one/) for the full background.
 
-Android Enterprise Recommended ensures devices validated meet the minimum requirements and recommendations of a consistent UX for management, 90 day security updates for 3 years and at least one letter upgrade (O to P, P to Q.. ). OEMs maintain their value-adds, bundled apps, custom UIs and more.
+</div>
 
-Android One took this a step further; any device in the Android One programme used a system image developed with Google. Like the Nexus days of old, the UI was vanilla Android and the Android One team had to approve any additional applications bundled with the device.
+Android One and [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/) were two different programmes with some overlap in their focus on security and consistency.
 
-Updates had to be released every 30 days and the devices had to support two letter upgrades (O to Q, P to R, etc).
+**Android Enterprise Recommended** is an active validation programme ensuring devices meet Google's minimum enterprise requirements - including hardware specifications appropriate for enterprise use. OEMs must publicly disclose the end date for security update support per device. OEMs maintain their own UIs, bundled apps, and value-adds. Note that Google dropped the mandatory 90-day security update and minimum OS upgrade requirements from the programme several years ago.
 
-When combined with AER, Android One offered additional benefits validated to work in the enterprise.
+**Android One** went further on the software side. Devices in the programme used a system image developed with Google, offering a near-stock experience with minimal bloat. Security updates were required every 30 days, and devices supported two major OS upgrades - commitments that were stronger than AER at the time.
 
-For current device procurement decisions, [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/) is the relevant programme to evaluate.
+When combined, the two programmes offered a strong proposition: a clean, fast device with enterprise validation and aggressive update commitments.
+
+In practice, the distinction is now historical. The Android ecosystem has matured significantly since Android One's peak. Leading OEMs like Samsung and Google now ship up to seven years of updates on flagships, with several years of support increasingly common on mid-range devices, making the update advantage Android One once held far less relevant. AER remains the active programme organisations should focus on for device selection, alongside checking the specific OEM's published update commitments for each device model.
 

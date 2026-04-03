@@ -15,15 +15,15 @@ eleventyNavigation:
   key: 'What is Android Enterprise Recommended?'
   order: 8000
 --- 
-AER is Google’s validation programme for devices, EMMs, Carriers and MSPs. It sets a baseline of enterprise requirements that participating vendors must meet and maintain.
+AER is Google’s validation programme for devices, EMMs, and MSPs.
+
+Each will have a [list of requirements](https://androidenterprisepartners.withgoogle.com/glossary/overview/) to meet in order to validate, and will re-validate on an annual basis. AER for Carriers was announced in 2018 but was subsequently shelved by Google.
 
 ### What does AER cover?
 
-Each category has its own [list of requirements](https://www.android.com/enterprise/recommended/requirements/):
-
-- **Devices** - must meet minimum hardware specifications, deliver security patches within 90 days, support at least one OS letter upgrade, and pass Android Enterprise management compatibility testing. The programme includes standard, rugged, and dedicated device categories
+- **Devices** - must meet minimum hardware specifications, publicly disclose the security update support end date and update frequency, support at least one major OS upgrade (with a recommendation of up to seven for Android 16 devices), and pass Android Enterprise management compatibility testing. The programme includes standard, rugged, and dedicated device categories. Note: the previous mandatory 90-day security patch requirement was dropped for devices validating on Android 15 and later; OEMs must now instead publish their update cadence and end-of-support date for transparency
 - **EMMs** - must support a defined set of Android Enterprise management features across all deployment scenarios
-- **Carriers and MSPs** - must demonstrate competency in deploying and supporting Android Enterprise for their customers
+- **MSPs** - must demonstrate competency in deploying and supporting Android Enterprise for their customers
 
 Validated vendors re-validate on an annual basis.
 
