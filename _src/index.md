@@ -2,5 +2,5 @@
 title: Home
 date: 2022-03-02
 tags:
-layout: base_orb.njk
+layout: base_home_redesign.njk
 ---

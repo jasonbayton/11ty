@@ -249,9 +249,20 @@
                     margin: 0.3rem 0 0.15rem;
                 }
 
+                /* ---- Disclaimer ---- */
+                .orb-disclaimer {
+                    margin: 5rem 0 0;
+                    text-align: center;
+                    font-size: 0.8rem;
+                    color: var(--secondary-text, #9ca3af);
+                    max-width: 360px;
+                    line-height: 1.4;
+                    opacity: 0.6;
+                }
+
                 /* ---- Bottom branding ---- */
                 .orb-branding {
-                    margin-top: 10rem;
+                    margin-top: 0.5rem;
                     display: flex;
                     justify-content: center;
                     transition: opacity 0.2s ease;
@@ -410,13 +421,14 @@
                 </div>
             </div>
 
+            <p class="orb-disclaimer"><em>This is an AI tool and may make mistakes. Some conversation history may be retained where content gaps are discovered in order to prioritise new docs and resources. Don't chat if that's a concern!</em></p>
             <div class="orb-branding">
                 <a href="/" class="bayton-logo-dynamic">
                     {% include "./_assets/img/bayton_logos/bayton_spiral_angle_rectangle.svg" %}
                 </a>
             </div>
         </content>
-        <footer class="orb-footer-hidden" id="orb-footer" style="margin-top: 100px;">
+        <footer class="orb-footer-hidden" id="orb-footer" style="margin-top: 20px;">
             {% include "./_parts/footer.njk" %}
         </footer>
         <script src="/js/orb-chat.js" defer></script>

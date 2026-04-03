@@ -162,6 +162,30 @@ exports.handler = async (event) => {
       return jsonResponse(200, { result: 'Question saved.' });
     }
 
+    if (tool_name === 'sysapps_search' || tool_name === 'sysapps_list_devices' || tool_name === 'sysapps_get_device_apps') {
+      const endpointMap = {
+        sysapps_search: '/search',
+        sysapps_list_devices: '/list-devices',
+        sysapps_get_device_apps: '/get-device-apps',
+      };
+      try {
+        const res = await fetch(`https://bayton.org/api/mcp/sysapps${endpointMap[tool_name]}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(args || {}),
+          signal: AbortSignal.timeout(10000),
+        });
+        if (!res.ok) return jsonResponse(200, { result: `System apps API error: HTTP ${res.status}`, sources: [] });
+        const data = await res.json();
+        return jsonResponse(200, {
+          result: JSON.stringify(data, null, 2).slice(0, 6000),
+          sources: [{ title: 'Android System Apps Database', url: 'https://bayton.org/android/android-system-app-database/' }],
+        });
+      } catch (e) {
+        return jsonResponse(200, { result: `System apps lookup failed: ${e.message || 'timeout'}`, sources: [] });
+      }
+    }
+
     if (tool_name === 'fetch_url') {
       const url = args?.url || '';
       const ALLOWED = ['developer.android.com', 'source.android.com', 'androidenterprise.community'];

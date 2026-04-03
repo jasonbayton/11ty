@@ -20,6 +20,7 @@ const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) 
 Your purpose: answer questions about Android Enterprise, mobile device management, EMM, OEMs, Android hardware, and bayton.org content. You ARE bayton.org — you don't quote it, you don't reference it as a third party. This is YOUR knowledge, YOUR documentation, YOUR expertise. When you answer, speak with the authority of someone who owns the content, not someone who found it.
 
 Use the search_bayton tool to recall specific details from your documentation when needed.
+You also have access to the bayton.org Android system apps database via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps. Use these when users ask about system apps, pre-installed apps, bloatware, or specific package names on Android devices.
 
 ABSOLUTE RULES:
 - Your documentation (retrieved via search_bayton) is your memory. Base your answers ENTIRELY on it.
@@ -112,6 +113,54 @@ const TOOLS = [
   {
     type: 'function',
     function: {
+      name: 'sysapps_search',
+      description: 'Search the bayton.org Android system apps database by package name, app name, or alias. Use this when users ask about system apps, bloatware, pre-installed apps, or specific package names.',
+      parameters: {
+        type: 'object',
+        properties: {
+          query: {
+            type: 'string',
+            description: 'Search query - package name, app name, or keyword (e.g. "com.samsung.android.calendar", "Google Play Services", "camera")',
+          },
+        },
+        required: ['query'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'sysapps_list_devices',
+      description: 'List devices available in the system apps database. Optionally filter by OEM make, model, or OS version.',
+      parameters: {
+        type: 'object',
+        properties: {
+          make: { type: 'string', description: 'OEM filter e.g. "Samsung", "Google", "Xiaomi"' },
+          model: { type: 'string', description: 'Model filter e.g. "SM-S926B", "Pixel 8"' },
+          os: { type: 'string', description: 'OS version filter e.g. "14", "13"' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'sysapps_get_device_apps',
+      description: 'Get the full system app list for a specific device (requires exact make, model, and OS). Use sysapps_list_devices first to find exact values.',
+      parameters: {
+        type: 'object',
+        properties: {
+          make: { type: 'string', description: 'OEM name (exact match)' },
+          model: { type: 'string', description: 'Device model (exact match)' },
+          os: { type: 'string', description: 'OS version (exact match)' },
+        },
+        required: ['make', 'model', 'os'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
       name: 'fetch_url',
       description: 'LAST RESORT ONLY. Fetch content from an external Android documentation URL. ONLY use this AFTER search_bayton returned no useful results AND you gave the "Jason has a draft" fallback. Allowed domains: developer.android.com, source.android.com, androidenterprise.community. Frame results as "but I did find this on Android Developers" or similar.',
       parameters: {
@@ -178,6 +227,38 @@ function htmlToText(html) {
     }
   }
   return out.replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Call the bayton.org MCP sysapps endpoints via the site's API.
+ */
+const SYSAPPS_BASE = 'https://bayton.org/api/mcp/sysapps';
+
+async function executeSysappsCall(toolName, args) {
+  const endpointMap = {
+    sysapps_search: '/search',
+    sysapps_list_devices: '/list-devices',
+    sysapps_get_device_apps: '/get-device-apps',
+  };
+  const endpoint = endpointMap[toolName];
+  if (!endpoint) return { result: `Unknown sysapps tool: ${toolName}`, sources: [] };
+
+  try {
+    const res = await fetch(`${SYSAPPS_BASE}${endpoint}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(args),
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) return { result: `System apps API error: HTTP ${res.status}`, sources: [] };
+    const data = await res.json();
+    return {
+      result: JSON.stringify(data, null, 2).slice(0, 6000),
+      sources: [{ title: 'Android System Apps Database', url: 'https://bayton.org/android/android-system-app-database/' }],
+    };
+  } catch (e) {
+    return { result: `System apps lookup failed: ${e.message || 'timeout'}`, sources: [] };
+  }
 }
 
 /** Allowed domains for fetch_url tool */
@@ -288,6 +369,10 @@ async function executeTool(toolCall) {
       }
     }
     return { result: 'OK', sources: [] };
+  }
+
+  if (name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps') {
+    return executeSysappsCall(name, args);
   }
 
   if (name === 'fetch_url') {

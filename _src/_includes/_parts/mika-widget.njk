@@ -1,0 +1,591 @@
+<!-- MIKA floating chat widget -->
+<div id="mika-fab" class="mika-fab" aria-label="Ask MIKA">
+    <div class="mika-mini-orb">
+        <div class="mika-mini-orb-core"></div>
+    </div>
+    <span class="mika-fab-label">Ask MIKA</span>
+</div>
+
+<div id="mika-drawer" class="mika-drawer mika-drawer-hidden">
+    <div class="mika-drawer-header">
+        <div class="mika-drawer-title">
+            <strong>MIKA</strong>
+            <span class="mika-drawer-subtitle">Mobile Intelligence & Knowledge Assistant</span>
+        </div>
+        <div class="mika-drawer-actions">
+            <a href="/mika/" class="mika-drawer-expand" aria-label="Open full MIKA" title="Open full experience">
+                <span class="material-symbols-outlined" style="font-size:18px">open_in_new</span>
+            </a>
+            <button id="mika-drawer-close" class="mika-drawer-close-btn" aria-label="Close MIKA">
+                <span class="material-symbols-outlined" style="font-size:20px">close</span>
+            </button>
+        </div>
+    </div>
+    <div id="mika-drawer-messages" class="mika-drawer-messages"></div>
+    <div class="mika-drawer-input-bar">
+        <input id="mika-drawer-input" type="text" placeholder="Ask a question..." autocomplete="off">
+        <button id="mika-drawer-send" type="button" aria-label="Send" disabled>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<style>
+    /* ---- MIKA FAB ---- */
+    .mika-fab {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        border: none;
+        border-radius: 2rem;
+        padding: 0.5rem 1rem 0.5rem 0.6rem;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.82rem;
+        font-weight: 600;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    [data-theme="dark"] .mika-fab {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .mika-fab:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 28px rgba(255, 69, 0, 0.3);
+    }
+    .mika-fab-label {
+        white-space: nowrap;
+        letter-spacing: 0.02em;
+    }
+    @media (max-width: 480px) {
+        .mika-fab {
+            padding: 0.45rem;
+            border-radius: 50%;
+        }
+        .mika-fab-label {
+            display: none;
+        }
+    }
+    .mika-fab-hidden {
+        display: none !important;
+    }
+
+    /* ---- Mini orb ---- */
+    .mika-mini-orb {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at 40% 40%,
+            rgba(255, 69, 0, 0.15),
+            rgba(255, 69, 0, 0.05) 60%,
+            transparent 70%
+        );
+    }
+    .mika-mini-orb-core {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 35%,
+            #ff6a33,
+            #ff4500 50%,
+            #cc3700 100%
+        );
+        box-shadow:
+            0 0 8px rgba(255, 69, 0, 0.6),
+            0 0 20px rgba(255, 69, 0, 0.2);
+        animation: mika-orb-pulse 3s ease-in-out infinite;
+    }
+    @keyframes mika-orb-pulse {
+        0%, 100% {
+            transform: scale(1);
+            box-shadow:
+                0 0 8px rgba(255, 69, 0, 0.6),
+                0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        50% {
+            transform: scale(1.12);
+            box-shadow:
+                0 0 12px rgba(255, 69, 0, 0.8),
+                0 0 28px rgba(255, 69, 0, 0.3);
+        }
+    }
+    .mika-fab:hover .mika-mini-orb-core {
+        animation: mika-orb-pulse 1.5s ease-in-out infinite;
+        box-shadow:
+            0 0 14px rgba(255, 69, 0, 0.9),
+            0 0 32px rgba(255, 69, 0, 0.4);
+    }
+
+    /* ---- MIKA Drawer ---- */
+    .mika-drawer {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 10000;
+        width: 380px;
+        max-width: calc(100vw - 2rem);
+        height: 520px;
+        max-height: calc(100vh - 6rem);
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border-color, #e5e7eb);
+        border-radius: 1rem;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+    [data-theme="dark"] .mika-drawer {
+        background: var(--light, #2d2d2d);
+        border-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+    .mika-drawer-hidden {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+        pointer-events: none;
+    }
+
+    @media (max-width: 640px) {
+        .mika-drawer {
+            bottom: 0;
+            right: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100vw - 2rem);
+            max-width: calc(100vw - 2rem);
+            height: calc(100vh - 3rem);
+            max-height: calc(100vh - 3rem);
+            border-radius: 1rem 1rem 0 0;
+        }
+        .mika-drawer-hidden {
+            transform: translateX(-50%) translateY(20px) scale(0.95);
+        }
+    }
+
+    /* Header */
+    .mika-drawer-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid var(--border-color, #e5e7eb);
+        flex-shrink: 0;
+    }
+    [data-theme="dark"] .mika-drawer-header {
+        border-color: rgba(255, 255, 255, 0.08);
+    }
+    .mika-drawer-title {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+    .mika-drawer-title strong {
+        font-size: 0.95rem;
+        color: var(--main-orange, #ff4500);
+    }
+    .mika-drawer-subtitle {
+        font-size: 0.65rem;
+        color: var(--secondary-text, #9ca3af);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+    .mika-drawer-actions {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+    .mika-drawer-expand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        color: var(--secondary-text, #9ca3af);
+        text-decoration: none;
+        transition: background 0.15s, color 0.15s;
+    }
+    .mika-drawer-expand:hover {
+        background: rgba(255, 69, 0, 0.08);
+        color: var(--main-orange, #ff4500);
+    }
+    .mika-drawer-close-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: none;
+        background: transparent;
+        color: var(--secondary-text, #9ca3af);
+        cursor: pointer;
+        transition: background 0.15s, color 0.15s;
+    }
+    .mika-drawer-close-btn:hover {
+        background: rgba(255, 69, 0, 0.08);
+        color: var(--main-orange, #ff4500);
+    }
+
+    /* Messages */
+    .mika-drawer-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+    .mika-drawer-msg {
+        display: flex;
+        flex-direction: column;
+    }
+    .mika-drawer-msg-user { align-items: flex-end; }
+    .mika-drawer-msg-assistant { align-items: flex-start; }
+    .mika-drawer-bubble {
+        max-width: 90%;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0.75rem;
+        font-size: 0.82rem;
+        line-height: 1.5;
+        word-break: break-word;
+    }
+    .mika-drawer-bubble a {
+        color: var(--main-orange, #ff4500);
+        text-decoration: underline;
+    }
+    .mika-drawer-bubble-user {
+        background: var(--main-orange, #ff4500);
+        color: #fff;
+        border-bottom-right-radius: 0.2rem;
+    }
+    .mika-drawer-bubble-assistant {
+        background: var(--card-bg, #f3f4f6);
+        color: var(--main-text, #1f2937);
+        border-bottom-left-radius: 0.2rem;
+    }
+    [data-theme="dark"] .mika-drawer-bubble-assistant {
+        background: rgba(255, 255, 255, 0.06);
+        color: #e5e7eb;
+    }
+
+    /* Markdown in drawer */
+    .mika-drawer-bubble pre {
+        background: rgba(0, 0, 0, 0.06);
+        border-radius: 0.4rem;
+        padding: 0.4rem 0.6rem;
+        overflow-x: auto;
+        font-size: 0.75rem;
+        margin: 0.3rem 0;
+        white-space: pre;
+        font-family: 'SF Mono', 'Consolas', monospace;
+    }
+    [data-theme="dark"] .mika-drawer-bubble pre {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .mika-drawer-bubble code:not(pre code) {
+        background: rgba(0, 0, 0, 0.06);
+        padding: 0.1rem 0.25rem;
+        border-radius: 0.2rem;
+        font-size: 0.78em;
+        font-family: 'SF Mono', 'Consolas', monospace;
+    }
+    [data-theme="dark"] .mika-drawer-bubble code:not(pre code) {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .mika-drawer-bubble ul, .mika-drawer-bubble ol {
+        margin: 0.2rem 0;
+        padding-left: 1.2rem;
+    }
+
+    /* Typing dots */
+    .mika-drawer-dot {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #9ca3af;
+        margin: 0 1.5px;
+        animation: mika-bounce 1.2s infinite;
+    }
+    .mika-drawer-dot:nth-child(2) { animation-delay: 0.15s; }
+    .mika-drawer-dot:nth-child(3) { animation-delay: 0.3s; }
+    @keyframes mika-bounce {
+        0%, 80%, 100% { transform: translateY(0); }
+        40% { transform: translateY(-4px); }
+    }
+
+    /* Input bar */
+    .mika-drawer-input-bar {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.5rem 0.75rem;
+        border-top: 1px solid var(--border-color, #e5e7eb);
+        flex-shrink: 0;
+    }
+    [data-theme="dark"] .mika-drawer-input-bar {
+        border-color: rgba(255, 255, 255, 0.08);
+    }
+    #mika-drawer-input {
+        flex: 1;
+        border: none;
+        background: transparent;
+        font-size: 0.82rem;
+        color: var(--main-text, #1f2937);
+        outline: none;
+        min-width: 0;
+    }
+    #mika-drawer-input::placeholder { color: #9ca3af; }
+    [data-theme="dark"] #mika-drawer-input { color: #fff; }
+    #mika-drawer-send {
+        border: none;
+        background: transparent;
+        color: var(--main-orange, #ff4500);
+        cursor: pointer;
+        padding: 0.2rem;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    #mika-drawer-send:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+    }
+
+    /* Welcome state */
+    .mika-drawer-welcome {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: var(--secondary-text, #9ca3af);
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+    .mika-drawer-welcome strong {
+        color: var(--main-orange, #ff4500);
+        font-size: 0.95rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+    .mika-drawer-full-link {
+        display: block;
+        margin-top: 0.8rem;
+        color: var(--main-orange, #ff4500);
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: inherit;
+        transition: opacity 0.15s;
+    }
+    .mika-drawer-full-link:hover {
+        text-decoration: underline;
+        opacity: 0.85;
+    }
+    .mika-drawer-full-link::after {
+        content: ' \2192';
+    }
+</style>
+
+<script>
+(function () {
+    var fab = document.getElementById('mika-fab');
+    var drawer = document.getElementById('mika-drawer');
+    var closeBtn = document.getElementById('mika-drawer-close');
+    var input = document.getElementById('mika-drawer-input');
+    var sendBtn = document.getElementById('mika-drawer-send');
+    var messagesEl = document.getElementById('mika-drawer-messages');
+    var STORAGE_KEY = 'mika-chat-history';
+    var history = [];
+    var isOpen = false;
+    var isSending = false;
+
+    // Restore any previous conversation
+    try {
+        var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        if (Array.isArray(saved) && saved.length > 0) {
+            history = saved;
+        }
+    } catch (e) {}
+
+    // Page context for priming searches
+    var pageContext = document.title || '';
+    var pagePath = window.location.pathname || '';
+
+    function saveHistory() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(-20))); } catch (e) {}
+    }
+
+    // Render restored messages or show welcome
+    if (history.length > 0) {
+        history.forEach(function (msg) { addMessage(msg.role, msg.content); });
+    } else {
+        showWelcome();
+    }
+
+    function showWelcome() {
+        messagesEl.innerHTML =
+            '<div class="mika-drawer-welcome">' +
+            '<strong>MIKA</strong>' +
+            'Ask me anything about Android Enterprise, device management, or the bayton.org docs.' +
+            '<a href="/mika/" class="mika-drawer-full-link">Open the full experience with voice support</a>' +
+            '</div>';
+    }
+
+    function toggleDrawer(open) {
+        isOpen = open;
+        if (open) {
+            drawer.classList.remove('mika-drawer-hidden');
+            fab.classList.add('mika-fab-hidden');
+            input.focus();
+        } else {
+            drawer.classList.add('mika-drawer-hidden');
+            fab.classList.remove('mika-fab-hidden');
+        }
+    }
+
+    fab.addEventListener('click', function () { toggleDrawer(true); });
+    closeBtn.addEventListener('click', function () { toggleDrawer(false); });
+
+    // Close on Escape
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && isOpen) toggleDrawer(false);
+    });
+
+    input.addEventListener('input', function () {
+        sendBtn.disabled = !input.value.trim();
+    });
+    input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && !e.shiftKey && input.value.trim()) {
+            e.preventDefault();
+            send();
+        }
+    });
+    sendBtn.addEventListener('click', function () {
+        if (input.value.trim()) send();
+    });
+
+    function renderMarkdown(text) {
+        var html = text
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        html = html.replace(/```(\w*)\n([\s\S]*?)```/g, function (m, lang, code) {
+            return '<pre><code>' + code.replace(/\n$/, '') + '</code></pre>';
+        });
+        html = html.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+        html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+        html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function (m, t, url) {
+            if (/^(https?:\/\/|\/)/i.test(url)) {
+                var safe = url.replace(/"/g, '&quot;');
+                return '<a href="' + safe + '" target="_blank" rel="noopener noreferrer">' + t + '</a>';
+            }
+            return t;
+        });
+        html = html.replace(/(^|\n)(- .+(\n- .+)*)/g, function (m, pre, block) {
+            var items = block.split('\n').map(function (l) {
+                return '<li>' + l.replace(/^- /, '') + '</li>';
+            }).join('');
+            return pre + '<ul>' + items + '</ul>';
+        });
+        html = html.replace(/\n/g, '<br>');
+        html = html.replace(/<\/(pre|ul|ol|li)><br>/g, '</$1>');
+        html = html.replace(/<br><(pre|ul|ol)/g, '<$1');
+        return html;
+    }
+
+    function addMessage(role, content) {
+        // Remove welcome on first message
+        var welcome = messagesEl.querySelector('.mika-drawer-welcome');
+        if (welcome) welcome.remove();
+
+        var wrapper = document.createElement('div');
+        wrapper.className = 'mika-drawer-msg mika-drawer-msg-' + role;
+        var bubble = document.createElement('div');
+        bubble.className = 'mika-drawer-bubble mika-drawer-bubble-' + role;
+        if (role === 'assistant') {
+            bubble.innerHTML = renderMarkdown(content);
+        } else {
+            bubble.textContent = content;
+        }
+        wrapper.appendChild(bubble);
+        messagesEl.appendChild(wrapper);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return wrapper;
+    }
+
+    function showTyping() {
+        var welcome = messagesEl.querySelector('.mika-drawer-welcome');
+        if (welcome) welcome.remove();
+        var wrapper = document.createElement('div');
+        wrapper.className = 'mika-drawer-msg mika-drawer-msg-assistant';
+        wrapper.id = 'mika-typing';
+        wrapper.innerHTML = '<div class="mika-drawer-bubble mika-drawer-bubble-assistant">' +
+            '<span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span></div>';
+        messagesEl.appendChild(wrapper);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function removeTyping() {
+        var el = document.getElementById('mika-typing');
+        if (el) el.remove();
+    }
+
+    function send() {
+        if (isSending) return;
+        var text = input.value.trim();
+        if (!text) return;
+
+        input.value = '';
+        sendBtn.disabled = true;
+        isSending = true;
+
+        addMessage('user', text);
+        showTyping();
+
+        // Include page context as a hint (not a hard constraint)
+        var contextHint = '';
+        if (pagePath && pagePath !== '/' && pagePath !== '/mika/') {
+            contextHint = ' [User is currently viewing: ' + pageContext + ' (' + pagePath + ')]';
+        }
+
+        history.push({ role: 'user', content: text + contextHint });
+        saveHistory();
+
+        fetch('/api/orb-chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: text + contextHint, history: history.slice(-10) }),
+        })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+            removeTyping();
+            var reply = data.reply || 'Sorry, something went wrong.';
+            addMessage('assistant', reply);
+            history.push({ role: 'assistant', content: reply });
+            saveHistory();
+        })
+        .catch(function () {
+            removeTyping();
+            addMessage('assistant', 'Something went wrong - please try again or use the [full MIKA experience](/mika/).');
+        })
+        .finally(function () {
+            isSending = false;
+            sendBtn.disabled = !input.value.trim();
+        });
+    }
+})();
+</script>

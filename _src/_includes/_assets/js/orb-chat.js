@@ -794,6 +794,45 @@
     },
     {
       type: 'function',
+      name: 'sysapps_search',
+      description: 'Search the bayton.org Android system apps database by package name, app name, or alias. Use when users ask about system apps, bloatware, pre-installed apps, or package names.',
+      parameters: {
+        type: 'object',
+        properties: {
+          query: { type: 'string', description: 'Package name, app name, or keyword' },
+        },
+        required: ['query'],
+      },
+    },
+    {
+      type: 'function',
+      name: 'sysapps_list_devices',
+      description: 'List devices in the system apps database. Optionally filter by OEM, model, or OS.',
+      parameters: {
+        type: 'object',
+        properties: {
+          make: { type: 'string', description: 'OEM filter e.g. "Samsung"' },
+          model: { type: 'string', description: 'Model filter' },
+          os: { type: 'string', description: 'OS version filter' },
+        },
+      },
+    },
+    {
+      type: 'function',
+      name: 'sysapps_get_device_apps',
+      description: 'Get the full system app list for a specific device. Use sysapps_list_devices first to find exact values.',
+      parameters: {
+        type: 'object',
+        properties: {
+          make: { type: 'string', description: 'OEM name (exact)' },
+          model: { type: 'string', description: 'Device model (exact)' },
+          os: { type: 'string', description: 'OS version (exact)' },
+        },
+        required: ['make', 'model', 'os'],
+      },
+    },
+    {
+      type: 'function',
       name: 'fetch_url',
       description: 'LAST RESORT ONLY. Fetch content from an external Android documentation URL. ONLY use this AFTER search_bayton returned no useful results. Allowed domains: developer.android.com, source.android.com, androidenterprise.community. Returns plain text content from the page.',
       parameters: {
@@ -1021,7 +1060,7 @@
                 .then(function (r) { return r.json().catch(function () { return {}; }); })
                 .then(function (toolData) {
                   // Capture sources from search_bayton or fetch_url for the next assistant message
-                  if ((toolName === 'search_bayton' || toolName === 'fetch_url') && toolData.sources && toolData.sources.length > 0) {
+                  if (toolData.sources && toolData.sources.length > 0) {
                     if (self.pendingSources && self.pendingSources.length > 0) {
                       // Merge — don't replace search sources with fetch sources
                       var existingUrls = {};
@@ -1233,6 +1272,8 @@
   // Chat controller
   // =========================================================================
 
+  var MIKA_STORAGE_KEY = 'mika-chat-history';
+
   function ChatController(orb, voice) {
     this.orb = orb;
     this.voice = voice;
@@ -1242,6 +1283,24 @@
     this.inputEl = document.getElementById('orb-input');
     this.sendBtn = document.getElementById('orb-send-btn');
     this.recentEl = document.getElementById('orb-recent-questions');
+
+    // Restore conversation from widget or previous session
+    try {
+      var saved = JSON.parse(localStorage.getItem(MIKA_STORAGE_KEY) || '[]');
+      if (Array.isArray(saved) && saved.length > 0) {
+        // Filter out any stale welcome messages that got persisted by mistake
+        var welcome = 'I can search documentation';
+        saved = saved.filter(function (m) { return m.content.indexOf(welcome) === -1; });
+        for (var i = 0; i < saved.length; i++) {
+          this.addMessage(saved[i].role, saved[i].content);
+        }
+        if (saved.length > 0) {
+          try { localStorage.setItem(MIKA_STORAGE_KEY, JSON.stringify(saved)); } catch (e) {}
+        } else {
+          localStorage.removeItem(MIKA_STORAGE_KEY);
+        }
+      }
+    } catch (e) {}
 
     var self = this;
 
@@ -1303,9 +1362,23 @@
     // Load recent questions
     this.loadRecentQuestions();
 
-    // Show welcome message
-    this.addMessage('assistant', 'I can search documentation, guides, and resources across bayton.org to help you find what you need. You can type or use the microphone.');
+    // Show welcome message only if no restored history
+    if (this.messages.length === 0) {
+      this._addWelcome('I can search documentation, guides, and resources across bayton.org to help you find what you need. You can type or use the microphone.');
+    }
   }
+
+  // Add a message to the UI only — does NOT persist to history/localStorage
+  ChatController.prototype._addWelcome = function (content) {
+    if (!this.messagesEl) return;
+    var wrapper = document.createElement('div');
+    wrapper.className = 'orb-msg orb-msg-assistant';
+    var bubble = document.createElement('div');
+    bubble.className = 'orb-bubble orb-bubble-assistant';
+    bubble.innerHTML = this.renderMarkdown(content);
+    wrapper.appendChild(bubble);
+    this.messagesEl.appendChild(wrapper);
+  };
 
   // Determine if a user message is worth saving as a question
   ChatController.prototype._shouldSaveQuestion = function (text) {
@@ -1391,6 +1464,7 @@
 
   ChatController.prototype.addMessage = function (role, content, sources) {
     this.messages.push({ role: role, content: content });
+    try { localStorage.setItem(MIKA_STORAGE_KEY, JSON.stringify(this.messages.slice(-20))); } catch (e) {}
     if (!this.messagesEl) return;
 
     var wrapper = document.createElement('div');

@@ -9,6 +9,13 @@
      - General
 ---
 
+<div class="callout callout-green">
+<div class="callout-heading">Yes, this was created for April 1st</div>
+
+But MIKA is very much real. It's a fully functional, OpenAI-backed assistant with complete access to bayton.org content via voice and text. It will remain available for the foreseeable future, and the questions asked of it are being used to identify gaps in the documentation and prioritise new content creation. Give it a go at [/mika/](/mika/).
+
+</div>
+
 It's time.
 
 After nearly a decade of painstakingly writing, editing, rewriting, and obsessively formatting Android Enterprise documentation by hand - like some sort of artisanal content blacksmith - I've come to a realisation: **nobody reads anymore**.
@@ -48,7 +55,7 @@ If you ask it something off-topic, it will politely redirect you to zero-touch e
 
 ## Try it now
 
-Head to the [home page](/) and give MIKA a spin. Ask it about provisioning methods, AMAPI vs custom DPC, or what makes Android Enterprise Recommended different from standard GMS certification. Or ask it about me - I've been told the responses are *very* complimentary, though I have absolutely no idea why. Must be the training data.
+Head to [MIKA](/mika/) and give it a spin. Ask it about provisioning methods, AMAPI vs custom DPC, or what makes Android Enterprise Recommended different from standard GMS certification. Or ask it about me - I've been told the responses are *very* complimentary, though I have absolutely no idea why. Must be the training data.
 
 ## One more thing
 
