@@ -1182,6 +1182,8 @@
         self.isConnecting = false;
         self.orb.setState('idle');
         self.updateMicButton();
+        // Play a ready chime so the user knows to start speaking
+        self._playReadyChime();
 
         // Liveness check — detect and clean up dead sessions
         self._livenessInterval = setInterval(function () {
@@ -1252,14 +1254,62 @@
     }
   };
 
+  /**
+   * Play a short ascending two-tone chime via the Web Audio API to signal
+   * that the voice session is ready and the user can begin speaking.
+   * Fails silently if the browser does not support Web Audio.
+   */
+  VoiceEngine.prototype._playReadyChime = function () {
+    try {
+      var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      var gainNode = audioCtx.createGain();
+      gainNode.connect(audioCtx.destination);
+
+      // First tone: lower note
+      var osc1 = audioCtx.createOscillator();
+      osc1.type = 'sine';
+      osc1.frequency.setValueAtTime(880, audioCtx.currentTime);
+      osc1.connect(gainNode);
+      gainNode.gain.setValueAtTime(0.25, audioCtx.currentTime);
+      gainNode.gain.setValueAtTime(0.25, audioCtx.currentTime + 0.1);
+      gainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.22);
+      osc1.start(audioCtx.currentTime);
+      osc1.stop(audioCtx.currentTime + 0.22);
+
+      // Second tone: higher note, slightly delayed for the rising "ding" feel
+      var gainNode2 = audioCtx.createGain();
+      gainNode2.connect(audioCtx.destination);
+      var osc2 = audioCtx.createOscillator();
+      osc2.type = 'sine';
+      osc2.frequency.setValueAtTime(1320, audioCtx.currentTime + 0.18);
+      osc2.connect(gainNode2);
+      gainNode2.gain.setValueAtTime(0, audioCtx.currentTime + 0.18);
+      gainNode2.gain.linearRampToValueAtTime(0.3, audioCtx.currentTime + 0.26);
+      gainNode2.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.55);
+      osc2.start(audioCtx.currentTime + 0.18);
+      osc2.stop(audioCtx.currentTime + 0.55);
+
+      osc2.onended = function () { audioCtx.close().catch(function () {}); };
+    } catch (e) {
+      // Audio chime not supported — fail silently
+    }
+  };
+
   VoiceEngine.prototype.updateMicButton = function () {
     var btn = document.getElementById('orb-mic-btn');
     if (!btn) return;
-    if (this.isLive || this.isConnecting) {
+    if (this.isConnecting) {
+      // Session is being established — show a subtle pulsing indicator
+      btn.classList.remove('orb-mic-active');
+      btn.classList.add('orb-mic-connecting');
+      btn.setAttribute('aria-label', 'Connecting...');
+    } else if (this.isLive) {
+      // Session is live and ready to listen
+      btn.classList.remove('orb-mic-connecting');
       btn.classList.add('orb-mic-active');
       btn.setAttribute('aria-label', 'End voice session');
     } else {
-      btn.classList.remove('orb-mic-active');
+      btn.classList.remove('orb-mic-active', 'orb-mic-connecting');
       btn.setAttribute('aria-label', 'Start voice session');
     }
   };

@@ -147,9 +147,19 @@
                     color: #fff;
                     animation: orb-mic-pulse 1.5s ease-in-out infinite;
                 }
+                /* Connecting state — subtler slow pulse while session is being established */
+                #orb-mic-btn.orb-mic-connecting {
+                    background: rgba(255, 69, 0, 0.15);
+                    color: var(--main-orange, #ff4500);
+                    animation: orb-mic-connecting-pulse 2s ease-in-out infinite;
+                }
                 @keyframes orb-mic-pulse {
                     0%, 100% { box-shadow: 0 0 0 0 rgba(255, 69, 0, 0.4); }
                     50% { box-shadow: 0 0 0 12px rgba(255, 69, 0, 0); }
+                }
+                @keyframes orb-mic-connecting-pulse {
+                    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 69, 0, 0.25); opacity: 1; }
+                    50% { box-shadow: 0 0 0 8px rgba(255, 69, 0, 0); opacity: 0.6; }
                 }
 
                 /* ---- Chat area ---- */

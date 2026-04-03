@@ -169,8 +169,9 @@
             transform: translateX(-50%);
             width: calc(100vw - 2rem);
             max-width: calc(100vw - 2rem);
-            height: calc(100vh - 3rem);
-            max-height: calc(100vh - 3rem);
+            /* Cover only the bottom ~65% of the viewport so the top ~35% remains visible */
+            height: 65vh;
+            max-height: 65vh;
             border-radius: 1rem 1rem 0 0;
         }
         .mika-drawer-hidden {
