@@ -51,8 +51,3 @@ If KSP policies are not applying as expected:
 - Check for policy overlap with standard Android Enterprise settings
 
 For more on OEMConfig generally, see [What is OEMConfig?](/android/what-is-oemconfig/).
-
-**Sources:**
-- [Samsung Knox Documentation: Knox Service Plugin managed configurations](https://docs.samsungknox.com/dev/managed-configurations/knox-service-plugin/)
-- [Samsung Knox: Knox Platform and Android Enterprise](https://www.samsungknox.com/en/blog/knox-platform-and-android-enterprise)
-- [Android Enterprise Customer Community: OEM Config Policy with Samsung Knox Service Plugin](https://www.androidenterprise.community/discussions/conversations/oem-config-policy-with-samsung-knox-service-plugin/1793)
