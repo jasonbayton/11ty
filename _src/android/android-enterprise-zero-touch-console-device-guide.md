@@ -26,6 +26,8 @@ There are two scenarios for which the zero-touch console is used, as an organisa
 
 Furthermore, with the redesign in 2024, GIFs will by default show the new interface, with the old interface available behind a dropdown.
 
+In early 2026, Google rolled out a further redesign with improvements to search, CSV handling, and account management. The changes are noted in the relevant sections below.
+
 </div>
 
 ## Prerequisites
@@ -109,7 +111,7 @@ Simply click the arrow to the right of **Select a configuration** and choose one
 
 ## Applying configurations manually
 
-Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. Devices can be searched for based on IMEI, MEID or Serial number, or simply located by scrolling down the list.
+Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. As of the 2026 portal update, the search supports any device identifier — IMEI, MEID, serial number, or manufacturer serial number — without needing to select the identifier type first. Previously, administrators had to specify the search field before entering a value.
 
 <details open>
 <summary class="orange">New console UI</summary>
@@ -177,9 +179,9 @@ Should a device no longer require management, be that due to it being a parting 
 
 You’ll need to confirm this action, and please be aware **this is not easily reversible**! Once unregistered, you’ll need to contact your reseller to re-add the device back into your console manually; not an action to be taken on a whim.
 
-## Adding admins/owners
+## Adding and managing users
 
-The zero-touch console offers the ability to add additional "users" for easier management. There are two roles available when adding a new user, **Owner** and **Admin**. The only real difference between the roles is admins cannot add/delete other admins/owners, these roles can be changed at any time. 
+The zero-touch console supports granular role-based access. As of 2026, five roles are available: **Owner**, **Admin**, **Manager**, **Assigner**, and **Viewer** — replacing the previous two-role (Owner/Admin) model. Roles can be changed at any time and should be granted with least privilege in mind; Owner and Admin roles in particular should only go to trusted IT staff.
 
 <details open>
 <summary class="orange">New console UI</summary>
@@ -214,7 +216,7 @@ Input the **Email Address**, **Role** and click **APPLY.**
 
 </details>
 
-## Removing admins
+## Removing users
 
 <details open>
 <summary class="orange">New console UI</summary>
@@ -285,3 +287,15 @@ Scroll through the list of **Active Resellers** to locate the one you wish to re
 Click **Remove/CONFIRM** on the pop-up.
 
 This will prevent the now-removed reseller from adding (or re-adding) devices to your console.
+
+## CSV export and import
+
+When exporting device lists from the portal, the downloaded CSV now includes all device data fields plus the reseller name and reseller ID. The CSV format is unified between upload and download, making it straightforward to export a device list, modify configurations or assignments in a spreadsheet, and re-import the file. This is the easiest path for bulk device updates without using the API.
+
+## Account deletion
+
+As of 2026, deleted zero-touch customer accounts can no longer be undeleted by the customer directly. If an account is deleted in error, recovery must go through the reseller that originally created the account. Take care before confirming account deletion.
+
+## Audit logs
+
+The zero-touch portal now provides audit logs covering all actions that impact the customer account — user changes, device assignments, configuration updates, and so on. Logs are retained for a maximum of one year, and only actions from March 2025 onward are available.
