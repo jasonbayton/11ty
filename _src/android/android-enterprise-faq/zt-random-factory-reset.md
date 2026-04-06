@@ -22,10 +22,10 @@ This is a commonly reported issue, particularly with devices enrolled via [zero-
 
 ### The most common cause: provisioning method mismatch
 
-The most frequent root cause is a device configured for zero-touch enrolment being provisioned through a different method — such as a QR code, NFC bump, or manual setup. When this happens, the device enrols successfully through the alternative method, but the zero-touch configuration still applies in the background. The mismatch between the two provisioning methods causes a conflict, and the device resets to attempt zero-touch provisioning as intended.
+The most frequent root cause is a device configured for zero-touch enrolment being provisioned through a different method - such as a QR code, NFC bump, or manual setup. When this happens, the device enrols successfully through the alternative method, but the zero-touch configuration still applies in the background. The mismatch between the two provisioning methods causes a conflict, and the device resets to attempt zero-touch provisioning as intended.
 
 **To resolve this:**
-- If the device is assigned a zero-touch configuration, allow it to provision via zero-touch — do not use an alternative provisioning method
+- If the device is assigned a zero-touch configuration, allow it to provision via zero-touch - do not use an alternative provisioning method
 - If you need to use a different provisioning method, remove the device's zero-touch configuration from the portal first
 - Ensure DPC extras in the zero-touch configuration match the enrolment token your EMM expects
 
@@ -37,7 +37,7 @@ On Samsung devices, Knox Mobile Enrolment (KME) and Google's zero-touch can conf
 
 **Incomplete provisioning**
 
-If the setup wizard does not complete fully — for example, due to network connectivity loss or Google Play Services failing to update — the device may reset as a recovery mechanism. Ensure devices have stable, unrestricted network connectivity throughout the entire setup process (see [network requirements](/android/android-enterprise-faq/network-requirements-android-enterprise/)).
+If the setup wizard does not complete fully - for example, due to network connectivity loss or Google Play Services failing to update - the device may reset as a recovery mechanism. Ensure devices have stable, unrestricted network connectivity throughout the entire setup process (see [network requirements](/android/android-enterprise-faq/network-requirements-android-enterprise/)).
 
 **Outdated firmware**
 

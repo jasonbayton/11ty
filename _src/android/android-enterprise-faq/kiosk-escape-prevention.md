@@ -17,7 +17,7 @@ sources:
   - https://developer.android.com/work/dpc/dedicated-devices/lock-task-mode
 target_file: _src/android/android-enterprise-faq/kiosk-escape-prevention.md
 ---
-Lock task mode (kiosk mode) restricts the device to a set of allowlisted applications. Only apps on the lock task allowlist can be launched — if an allowed app attempts to open another app that is not on the allowlist, it will be blocked. However, allowed apps may still be able to trigger system activities or intents (such as Settings sub-pages) that don't behave as standalone apps, and this is where escape risks arise. Proper hardening requires careful configuration.
+Lock task mode (kiosk mode) restricts the device to a set of allowlisted applications. Only apps on the lock task allowlist can be launched - if an allowed app attempts to open another app that is not on the allowlist, it will be blocked. However, allowed apps may still be able to trigger system activities or intents (such as Settings sub-pages) that don't behave as standalone apps, and this is where escape risks arise. Proper hardening requires careful configuration.
 
 **Audit allowed applications**
 
@@ -36,7 +36,7 @@ Most EMMs expose these as dedicated kiosk policy settings, so do check the vendo
 
 **Block system applications**
 
-Unless specifically needed, do not include system applications (Settings, File Manager, Downloads) in the kiosk allowlist. If an application requires access to a specific system setting (such as Wi-Fi), use AMAPI's managed Settings activities — these expose only the specific setting required (e.g. Wi-Fi or Bluetooth) without granting access to the full Settings app. For a more flexible, enterprise-customisable alternative, [MANAGED SETTINGS](/projects/managed-settings/) provides granular control over which settings intents are accessible to end users via managed configuration.
+Unless specifically needed, do not include system applications (Settings, File Manager, Downloads) in the kiosk allowlist. If an application requires access to a specific system setting (such as Wi-Fi), use AMAPI's managed Settings activities - these expose only the specific setting required (e.g. Wi-Fi or Bluetooth) without granting access to the full Settings app. For a more flexible, enterprise-customisable alternative, [MANAGED SETTINGS](/projects/managed-settings/) provides granular control over which settings intents are accessible to end users via managed configuration.
 
 **Use a dedicated enterprise kiosk launcher**
 

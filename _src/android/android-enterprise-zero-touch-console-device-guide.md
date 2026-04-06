@@ -111,7 +111,7 @@ Simply click the arrow to the right of **Select a configuration** and choose one
 
 ## Applying configurations manually
 
-Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. As of the 2026 portal update, the search supports any device identifier — IMEI, MEID, serial number, or manufacturer serial number — without needing to select the identifier type first. Previously, administrators had to specify the search field before entering a value.
+Click on **Devices** on the left-hand side. Once loaded you’ll be presented with a search area and a list of registered devices. As of the 2026 portal update, the search supports any device identifier - IMEI, MEID, serial number, or manufacturer serial number - without needing to select the identifier type first. Previously, administrators had to specify the search field before entering a value.
 
 <details open>
 <summary class="orange">New console UI</summary>
@@ -181,7 +181,7 @@ You’ll need to confirm this action, and please be aware **this is not easily r
 
 ## Adding and managing users
 
-The zero-touch console supports granular role-based access. As of 2026, five roles are available: **Owner**, **Admin**, **Manager**, **Assigner**, and **Viewer** — replacing the previous two-role (Owner/Admin) model. Roles can be changed at any time and should be granted with least privilege in mind; Owner and Admin roles in particular should only go to trusted IT staff.
+The zero-touch console supports granular role-based access. As of 2026, five roles are available: **Owner**, **Admin**, **Manager**, **Assigner**, and **Viewer** - replacing the previous two-role (Owner/Admin) model. Roles can be changed at any time and should be granted with least privilege in mind; Owner and Admin roles in particular should only go to trusted IT staff.
 
 <details open>
 <summary class="orange">New console UI</summary>
@@ -298,4 +298,4 @@ As of 2026, deleted zero-touch customer accounts can no longer be undeleted by t
 
 ## Audit logs
 
-The zero-touch portal now provides audit logs covering all actions that impact the customer account — user changes, device assignments, configuration updates, and so on. Logs are retained for a maximum of one year, and only actions from March 2025 onward are available.
+The zero-touch portal now provides audit logs covering all actions that impact the customer account - user changes, device assignments, configuration updates, and so on. Logs are retained for a maximum of one year, and only actions from March 2025 onward are available.

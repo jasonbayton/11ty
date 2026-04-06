@@ -24,24 +24,24 @@ The default device quota for new AMAPI projects is **0 devices**. You will need 
 
 ## Create the Cloud project
 
-Head to the [Cloud Console](https://console.cloud.google.com/) and create a new project. The one thing worth dwelling on here is the project **ID**: this is the identifier customers are shown during enterprise signup, so `serious-mdm-company` reads considerably better than the randomly-generated `massive-broccoli-2449822` you'll otherwise be assigned. You can edit both name and ID before confirming — do.
+Head to the [Cloud Console](https://console.cloud.google.com/) and create a new project. The one thing worth dwelling on here is the project **ID**: this is the identifier customers are shown during enterprise signup, so `serious-mdm-company` reads considerably better than the randomly-generated `massive-broccoli-2449822` you'll otherwise be assigned. You can edit both name and ID before confirming - do.
 
 ## Enable the APIs
 
 Inside your new project, enable:
 
-- **Android Management API** — the core API for managing Android Enterprise devices
-- **Cloud Pub/Sub API** — required if you'll receive notifications (you should, see below)
+- **Android Management API** - the core API for managing Android Enterprise devices
+- **Cloud Pub/Sub API** - required if you'll receive notifications (you should, see below)
 
 Google's own setup documentation only mandates the first; Pub/Sub is conditional on whether you want push notifications from AMAPI rather than polling.
 
 ## Create a service account
 
-AMAPI is a server-to-server API, so your EMM will authenticate as a service account rather than an interactive user. Create one under **IAM & Admin > Service Accounts** and grant it the **Android Management User** role. Per Google's [official documentation](https://developers.google.com/android/management/service-account), that is the only role required to access AMAPI — every call your EMM makes will authenticate as this account.
+AMAPI is a server-to-server API, so your EMM will authenticate as a service account rather than an interactive user. Create one under **IAM & Admin > Service Accounts** and grant it the **Android Management User** role. Per Google's [official documentation](https://developers.google.com/android/management/service-account), that is the only role required to access AMAPI - every call your EMM makes will authenticate as this account.
 
-If the same service account will be handling related infrastructure tasks on your behalf you might additionally grant it **Pub/Sub Editor** (to create topics and subscriptions programmatically) or **Project IAM Admin** (to programmatically grant the Android Device Policy publisher permission described below). Both are convenience, not necessity — those tasks can equally be handled manually through the console.
+If the same service account will be handling related infrastructure tasks on your behalf you might additionally grant it **Pub/Sub Editor** (to create topics and subscriptions programmatically) or **Project IAM Admin** (to programmatically grant the Android Device Policy publisher permission described below). Both are convenience, not necessity - those tasks can equally be handled manually through the console.
 
-With the service account created, generate a **JSON key** from its **KEYS** tab (**ADD KEY > Create new key > JSON**). The file downloads once and cannot be retrieved again — treat it like a password.
+With the service account created, generate a **JSON key** from its **KEYS** tab (**ADD KEY > Create new key > JSON**). The file downloads once and cannot be retrieved again - treat it like a password.
 
 <div class="callout callout-red">
 <div class="callout-heading">Keep this key secure</div>
@@ -54,11 +54,11 @@ The JSON key file grants full access to your AMAPI project. Store it securely an
 
 An enterprise binding is what links a specific organisation to your AMAPI project and enables device management. It's created through a two-step handshake between your EMM and Google.
 
-**Step one: request a signup URL.** Call `signupUrls.create` with your `projectId` and a `callbackUrl` — an HTTPS URL you control that the signup wizard will redirect to once the admin finishes. `adminEmail` and `allowedDomains[]` are optional extras. The API returns a `SignupUrl` resource containing a `url` (point your IT admin at this) and a `name` (hold on to this for step two).
+**Step one: request a signup URL.** Call `signupUrls.create` with your `projectId` and a `callbackUrl` - an HTTPS URL you control that the signup wizard will redirect to once the admin finishes. `adminEmail` and `allowedDomains[]` are optional extras. The API returns a `SignupUrl` resource containing a `url` (point your IT admin at this) and a `name` (hold on to this for step two).
 
 **Step two: complete registration.** The IT admin visits the signup URL, signs into a Google account, and works through the enterprise registration flow. On completion they're redirected to your `callbackUrl` with an `enterpriseToken` appended as a query parameter. Your server picks up that token and calls `enterprises.create`, passing both the `enterpriseToken` and the `signupUrlName` (the `name` from step one). At this point you can also set `enterpriseDisplayName`, `logo` (an image shown during device provisioning), and `primaryColor` (an RGB colour used in the device management app UI) for branding.
 
-The response is the newly-created `Enterprise` resource; its `name` field — formatted `enterprises/{enterpriseId}` — is the handle you'll use for every subsequent API call against this organisation.
+The response is the newly-created `Enterprise` resource; its `name` field - formatted `enterprises/{enterpriseId}` - is the handle you'll use for every subsequent API call against this organisation.
 
 <div class="callout callout-blue">
 <div class="callout-heading">Enterprise types</div>
@@ -69,11 +69,11 @@ From mid-2024, the new customer signup flow creates a zero-cost managed Google d
 
 ## Set up Pub/Sub notifications
 
-Notifications let AMAPI push events to you — `ENROLLMENT`, `STATUS_REPORT`, `COMMAND`, `USAGE_LOGS`, and `ENTERPRISE_UPGRADE` — rather than you having to poll for changes. Strongly recommended for any production implementation.
+Notifications let AMAPI push events to you - `ENROLLMENT`, `STATUS_REPORT`, `COMMAND`, `USAGE_LOGS`, and `ENTERPRISE_UPGRADE` - rather than you having to poll for changes. Strongly recommended for any production implementation.
 
 There are three pieces to wire up: a Pub/Sub topic in your project, a subscription against that topic (push or pull, whichever suits your architecture), and a patch on the enterprise resource to tell AMAPI where to deliver.
 
-Before AMAPI can publish, **Android Device Policy** needs permission to write to your topic. ADP's principal is `android-cloud-policy@system.gserviceaccount.com`; grant it the **Pub/Sub Publisher** role, ideally on the topic itself for least privilege, or at project level via the IAM page if you'd rather grant once and forget. If you miss this step, the patch below will appear to succeed but notifications will silently fail to arrive — it's a common trip-up.
+Before AMAPI can publish, **Android Device Policy** needs permission to write to your topic. ADP's principal is `android-cloud-policy@system.gserviceaccount.com`; grant it the **Pub/Sub Publisher** role, ideally on the topic itself for least privilege, or at project level via the IAM page if you'd rather grant once and forget. If you miss this step, the patch below will appear to succeed but notifications will silently fail to arrive - it's a common trip-up.
 
 With the publisher grant in place, patch the enterprise to enable notifications:
 
@@ -92,7 +92,7 @@ There are two distinct quotas to keep in mind: **device quotas** (how many devic
 
 **Device quotas** are covered in the prerequisites callout at the top of this guide: new projects start at 0, initial allocations go up to 500 with business justification, and anything beyond that requires an Android Enterprise application. See Google's [permissible usage](https://developers.google.com/android/management/permissible-usage) page for the full policy.
 
-**Query quotas** default to **1,000 queries per 100 seconds** per project, plus a per-resource limit of **60 queries per minute** — where a resource is the same combination of API action, EMM ID, Enterprise ID, Policy ID or Device ID. For most testing and small deployments these defaults are sufficient. Query quota increases can be requested through the Cloud Console under **APIs & Services > Android Management API > Quotas**.
+**Query quotas** default to **1,000 queries per 100 seconds** per project, plus a per-resource limit of **60 queries per minute** - where a resource is the same combination of API action, EMM ID, Enterprise ID, Policy ID or Device ID. For most testing and small deployments these defaults are sufficient. Query quota increases can be requested through the Cloud Console under **APIs & Services > Android Management API > Quotas**.
 
 ## What's next
 

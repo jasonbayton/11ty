@@ -20,7 +20,7 @@ WearOS does not currently support Android Enterprise work profiles or managed ac
 
 ### What works
 
-**Notifications** — work profile notifications bridge to the watch by default. The WearOS companion app (Pixel Watch, Galaxy Wearable, etc.) uses `NotificationListenerService` to mirror phone notifications to the watch, and as a system app it can read cross-profile notifications. This works the same way as Android Auto's work profile notification support.
+**Notifications** - work profile notifications bridge to the watch by default. The WearOS companion app (Pixel Watch, Galaxy Wearable, etc.) uses `NotificationListenerService` to mirror phone notifications to the watch, and as a system app it can read cross-profile notifications. This works the same way as Android Auto's work profile notification support.
 
 However, an organisation's MDM policy can restrict this using `setPermittedCrossProfileNotificationListeners`, and some EMMs block cross-profile notification listeners by default. If work notifications are not appearing on the watch, check with your IT team whether the watch companion app has been allowlisted.
 
@@ -28,9 +28,9 @@ However, an organisation's MDM policy can restrict this using `setPermittedCross
 
 WearOS has no concept of a work profile, managed account, or enterprise management. This means:
 
-- **Work accounts** cannot be added to the watch — there is no managed Google Play or work account provisioning on WearOS
-- **Work apps** cannot be installed on the watch — apps like Outlook, Teams, or Gmail on the watch cannot access work profile data
-- **Work calendar** does not sync to the watch — calendar sync requires account-level access, not just notification bridging
+- **Work accounts** cannot be added to the watch - there is no managed Google Play or work account provisioning on WearOS
+- **Work apps** cannot be installed on the watch - apps like Outlook, Teams, or Gmail on the watch cannot access work profile data
+- **Work calendar** does not sync to the watch - calendar sync requires account-level access, not just notification bridging
 - **Work contacts** are not available natively on the watch for caller ID or search
 
 ### Are there workarounds?
