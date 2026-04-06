@@ -472,6 +472,11 @@ exports.handler = async (event) => {
       url: 'https://bayton.org' + r.url,
     }));
 
+    // Track elapsed time to bail before Netlify's 30s hard kill
+    const fnStart = Date.now();
+    const BUDGET_MS = 26000; // leave 4s buffer before Netlify's 30s timeout
+    const timeLeft = () => BUDGET_MS - (Date.now() - fnStart);
+
     // Call LLM — can also use search_bayton tool for refinement
     let completion = await openai.chat.completions.create({
       model: 'gpt-5.4-mini',
@@ -485,9 +490,13 @@ exports.handler = async (event) => {
 
     let choice = completion.choices?.[0];
 
-    // Tool call loop — execute tools and feed results back (max 3 rounds)
+    // Tool call loop — execute tools and feed results back (max 2 rounds)
     let rounds = 0;
-    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < 3) {
+    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < 2) {
+      if (timeLeft() < 8000) {
+        console.warn(`[orb-chat] Bailing tool loop — only ${timeLeft()}ms left`);
+        break;
+      }
       rounds++;
       const assistantMsg = choice.message;
       messages.push(assistantMsg);
@@ -523,7 +532,7 @@ exports.handler = async (event) => {
       reply.includes(s.url) || replyLower.includes(s.title.toLowerCase())
     );
 
-    // Auto-save question server-side — belt-and-suspenders, don't rely on LLM tool call
+    // Auto-save question server-side — fire-and-forget, don't block the response
     const trimmed = userMessage.trim();
     const lower = trimmed.toLowerCase();
     const isChitChat = /^(hi|hey|hello|howdy|sup|yo|thanks|thank you|cheers|ok|okay|bye|goodbye|good (morning|afternoon|evening|night)|how are you|what'?s up|nice|cool|great|awesome|brilliant|wow|lol|haha)/i.test(lower);
@@ -532,16 +541,13 @@ exports.handler = async (event) => {
     const shouldSave = trimmed.length >= 10 && !isChitChat && (aeSignal || isQuestion || trimmed.length >= 30);
     if (shouldSave) {
       const isMissing = /don't have information|jason.*draft|no relevant/i.test(reply);
-      try {
-        await executeTool({
-          function: {
-            name: 'save_question',
-            arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : reply }),
-          },
-        });
-      } catch (e) {
-        console.error('[auto-save] Failed:', e);
-      }
+      // Fire-and-forget — don't await, don't block the response
+      executeTool({
+        function: {
+          name: 'save_question',
+          arguments: JSON.stringify({ question: trimmed, answer: isMissing ? 'missing content' : reply }),
+        },
+      }).catch(e => console.error('[auto-save] Failed:', e));
     }
 
     const res = jsonResponse(200, { reply, sources: citedSources });
@@ -550,8 +556,11 @@ exports.handler = async (event) => {
 
   } catch (err) {
     console.error('Orb chat error:', err);
-    const errRes = jsonResponse(500, {
-      reply: 'Something went wrong on my end. Even the greatest orbs have off days.',
+    const isTimeout = err.message?.includes('timeout') || err.code === 'ETIMEDOUT' || err.name === 'AbortError';
+    const errRes = jsonResponse(isTimeout ? 504 : 500, {
+      reply: isTimeout
+        ? 'That took a bit longer than expected and timed out. Give it another go - shorter questions tend to be snappier.'
+        : 'Something went wrong on my end. Even the greatest orbs have off days.',
       sources: [],
     });
     errRes.headers['cache-control'] = 'no-store';

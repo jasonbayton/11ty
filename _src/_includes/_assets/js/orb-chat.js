@@ -1489,14 +1489,15 @@
       body: JSON.stringify({ message: text, history: history }),
     })
       .then(function (res) {
-        if (!res.ok) throw new Error('API returned ' + res.status);
-        return res.json();
+        return res.json().then(function (data) {
+          return { ok: res.ok, data: data };
+        });
       })
-      .then(function (data) {
+      .then(function (result) {
         self.isProcessing = false;
         self.updateProcessingState();
-        if (data && data.reply) {
-          self.addMessage('assistant', toBritishEnglish(data.reply), data.sources);
+        if (result.data && result.data.reply) {
+          self.addMessage('assistant', toBritishEnglish(result.data.reply), result.data.sources);
           self.orb.setState('idle');
         } else {
           self.addMessage('assistant', 'Sorry, something went wrong. Please try again.');
