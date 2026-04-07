@@ -14,26 +14,40 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 4000
 ---
-Android Enterprise support is coming to Android XR devices, though availability is currently limited.
+Yes. Google has published [Android Enterprise for Android XR](https://developers.google.com/android/work/xr-management) documentation, confirming management support for XR headsets and wired glasses. 
 
-### Current status
+### What's available
 
-The Samsung Galaxy XR, the first major Android XR headset, launched in late 2025 built on the Android XR platform. At launch, Android Enterprise device management features were not available. Google has confirmed these will be activated through a future software update.
+Management is based on the **fully managed device** mode only. There is no work profile, COPE, or BYOD support. EMMs may use AMAPI or a custom DPC.
 
-Samsung Knox management is available for the Galaxy XR, meaning some enterprise management capabilities (remote setup, encryption, monitoring) can be used through Knox-compatible EMMs. Full Android Enterprise API support - including work profiles, managed Google Play, and AMAPI policy enforcement - is pending.
+The XR validation requirements are adapted from the standard mobile set:
 
-### What about other XR devices?
+- **Core management is intact** - provisioning (QR, zero-touch, DPC identifier), security (passcode, wipe, compliance, Play Integrity), silent app distribution, managed configurations, Wi-Fi, certificates, and system update policies are all required
+- **Camera and screen capture controls are mandatory** - reflecting the always-on spatial cameras in XR headsets
+- **Dedicated device features are included** - lock task mode, persistent preferred activities, and dedicated device security policies are part of the XR validation, confirming Google expects many XR deployments to be kiosk-style
+- **Some mobile features are relaxed or removed** - NFC provisioning, eSIM, Smart Lock, keyguard features, and advanced IME management are absent. Advanced VPN, store layouts, and several Play management features are recommended rather than required
 
-Other manufacturers including Lenovo are developing Android XR devices for enterprise use. These are expected to support Android Enterprise management once the platform features are activated.
+### XR-specific considerations
+
+- Lock task mode supports a single 3D app only. No status bar means no notifications or Quick Settings in lock task
+- Media Projection (screen casting) must be limited to 2880x2880 resolution
+- Custom DPCs for XR require managed Google Accounts for enrolment
+
+### What devices are available?
+
+- **Samsung Galaxy XR** - the only shipping Android XR headset (launched October 2025). Samsung Knox management is also available
+- **XREAL Project Aura**, **Samsung smart glasses**, and **Google AI glasses** are announced for 2026 but not yet available
 
 ### What should I plan for?
 
-If your organisation is evaluating XR headsets for enterprise deployment:
+- **Fully managed only** - XR devices are company-owned, purpose-deployed hardware under this management model
+- **Confirm EMM support** before purchasing at scale. Not all EMMs will have XR support immediately
+- **Samsung Knox** provides additional management capabilities for Galaxy XR alongside Android Enterprise
+- **Test lock task mode** carefully if planning kiosk-style deployments - the single 3D app limitation and lack of notifications are material constraints
 
-- Confirm Android Enterprise support status with the vendor before purchasing at scale
-- Knox management may bridge the gap for Samsung XR devices until full Android Enterprise support arrives
-- Expect the management experience to be broadly similar to phones and tablets once Android Enterprise is enabled, though XR-specific policies may develop over time
+For a detailed analysis including the full feature comparison with mobile validation, see [Android Enterprise lands on Android XR](/blog/2026/04/android-enterprise-lands-on-android-xr/).
 
 **Sources:**
+- [Android Enterprise for Android XR](https://developers.google.com/android/work/xr-management) - Android Developers
+- [Manage Android XR devices](https://support.google.com/work/android/answer/16998029) - Android Enterprise Help
 - [Android Enterprise coming to Android XR](https://www.androidenterprise.community/blog/news/android-enterprise-coming-to-android-xr/13236) - Android Enterprise Customer Community
-- [Samsung Business Insights: How enterprises are using XR headsets](https://insights.samsung.com/2026/02/05/how-enterprises-are-using-xr-headsets-to-transform-their-operations/)
