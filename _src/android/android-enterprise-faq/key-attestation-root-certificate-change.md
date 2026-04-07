@@ -23,7 +23,7 @@ Google is transitioning the root certificate used in Android hardware key attest
 
 **Timeline:**
 - **February 2026**: New root certificate introduced alongside the existing root
-- **April 2026**: RKP-enabled devices (Remote Key Provisioning) exclusively use the new root certificate
+- **April 10, 2026**: RKP-enabled devices (Remote Key Provisioning) exclusively use the new root certificate. From this date, all attestation chains from RKP-enabled devices are rooted in the new ECDSA P-384 key
 
 **Who is affected?**
 
@@ -42,4 +42,4 @@ Any system that validates Android key attestation certificates needs to update i
 
 The new root certificate is published in Google's [key attestation documentation](https://developer.android.com/privacy-and-security/security-key-attestation).
 
-Failure to update before April 2026 will result in attestation verification failures for devices using Remote Key Provisioning, which includes most modern Android devices.
+Failure to update before April 10, 2026 will result in attestation verification failures for devices using Remote Key Provisioning, which includes most modern Android devices. Both the old and new root certificates are published at `https://android.googleapis.com/attestation/root`. Older devices with factory-provisioned keys that do not support key rotation will continue using the previous root indefinitely.
