@@ -149,12 +149,12 @@ I've been advocating for many more work profiles-per-device for years, so this i
 
 This is a solid foundation. Google hasn't rushed out a half-baked management layer; the fully managed validation is genuinely tailored for XR with sensible adaptations. The inclusion of dedicated device features as required signals Google understands that most enterprise XR deployments will be purpose-built.
 
-But it's early days. Only one device ships today. Work profile isn't available. The custom DPC policy is confusing. And the XR EMM ecosystem needs time to build out support.
+But it's early days. Only one device ships today. Work profile isn't available. The custom DPC policy is confusing. And the XR EMM ecosystem needs time to build out support. Google has also indicated they're working on how XR devices will be represented in the [Android Enterprise Solutions Directory](https://androidenterprisepartners.withgoogle.com/), which will help organisations compare hardware options as the ecosystem grows.
 
 If you're planning XR deployments today, here's where I'd focus:
 
 - **Samsung Galaxy XR with Knox** is your most complete management option right now, regardless of whether your EMM supports the new XR validation
-- **Confirm XR support with your EMM** before purchasing at scale. Not all EMMs will have XR validation on day one
+- **Confirm XR support with your EMM** before purchasing at scale. At launch, the confirmed EMM partners are ArborXR, ManageXR, Microsoft Intune, Omnissa Workspace ONE, Samsung Knox Manage, and SOTI. Google has indicated more will be validated in the coming months
 - **Plan for fully managed** - there's no work profile path, so XR devices need to be treated as company-owned, purpose-deployed hardware
 - **Test lock task mode carefully** - the single 3D app limitation and lack of status bar notifications are material constraints for kiosk deployments
 - **Watch the custom DPC space** - if you're building or using a custom DPC, the form-factor restriction (if that's what it is) could limit your options
