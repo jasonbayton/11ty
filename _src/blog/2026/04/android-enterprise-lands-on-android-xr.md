@@ -38,7 +38,7 @@ For enterprise today, the Galaxy XR is the only game in town. Everything else is
 
 ## What management is available?
 
-The documentation confirms management is based on the **fully managed device** mode. No work profile, no COPE, no BYOD - just fully managed. Given the form factor and the current state of the ecosystem, this makes sense. XR headsets are far more likely to be company-owned, purpose-deployed devices than personal BYOD kit. At least for now (this guy notwithstanding).
+The documentation confirms management is based on the **fully managed device** mode. No work profile, so no COPE _or_ BYOD, just fully managed. Given the form factor and the current state of the ecosystem, this makes sense. XR headsets are far more likely to be company-owned, purpose-deployed devices than personal BYOD kit. At least for now (this guy notwithstanding).
 
 EMMs can use either AMAPI or a custom DPC. The validation requirements are adapted from the standard mobile fully managed set, with some thoughtful changes that reflect the XR form factor.
 
@@ -139,15 +139,15 @@ Either way, if you're a vendor building a custom DPC and considering XR support,
 
 It's also worth noting the requirement for managed Google Accounts specifically for custom DPC enrolment on XR. This may add an additional hurdle for vendors targeting the XR space.
 
-## No BYOD?!
+## But I want BYOD?!
 
-Indeed, in the initial support announcement, no BYOD management option is available. This limits XR to company-owned deployments for now. Understandable given the hardware cost and typical use cases, but worth flagging for organisations thinking about shared or take-home XR devices. 
+As above, today unfortunately no work profile management option is available. This limits XR to company-owned deployments for now. Understandable given the hardware cost and typical use cases, but worth flagging for organisations thinking about shared or take-home XR devices. 
 
 I've been advocating for many more work profiles-per-device for years, so this is not presently a step in the right direction 😅
 
 ## Where does this leave enterprise XR?
 
-This is a solid foundation. Google hasn't rushed out a half-baked management layer; the fully managed validation is genuinely tailored for XR, with sensible changes. The inclusion of dedicated device features as required signals Google understands that most enterprise XR deployments will be purpose-built.
+This is a solid foundation. Google hasn't rushed out a half-baked management layer; the fully managed validation is genuinely tailored for XR with sensible adaptations. The inclusion of dedicated device features as required signals Google understands that most enterprise XR deployments will be purpose-built.
 
 But it's early days. Only one device ships today. Work profile isn't available. The custom DPC policy is confusing. And the XR EMM ecosystem needs time to build out support.
 
