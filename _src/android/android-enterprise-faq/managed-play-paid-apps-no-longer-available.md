@@ -36,7 +36,7 @@ Licenses are non-transferrable across Google accounts though, so this is a one-a
 ### What are the alternatives?
 
 1. **Volume licensing through the app developer** - contact the developer directly to arrange enterprise licensing. A common pattern is for the developer to publish a free version of the app that activates with a licence key pushed via managed configurations
-2. **Private app distribution** - if the app is developed in-house or by a contracted vendor, distribute it as a private app through managed Google Play or via [direct APK installation through AMAPI](/android/android-enterprise-faq/amapi-direct-apk-installation/)
+2. **Private app distribution** - if the app is developed in-house or by a contracted vendor, distribute it as a private app through managed Google Play or via [direct APK installation through AMAPI](/android/android-enterprise-faq/amapi-direct-apk-installation/) or Custom DPC.
 3. **Free alternatives** - evaluate whether a free or freemium alternative exists that meets the same business requirement
 
-This limitation applies specifically to managed Google Play. On unmanaged personal devices, users can still purchase apps through the standard Google Play Store using their personal Google account.
+This limitation applies specifically to managed Google Play. On unmanaged personal profiles - so BYOD, COPE, or indeed no management at all - users can still purchase apps through the standard Google Play Store using their personal Google account.
