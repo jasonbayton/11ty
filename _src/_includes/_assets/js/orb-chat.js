@@ -1323,6 +1323,7 @@
   // =========================================================================
 
   var MIKA_STORAGE_KEY = 'mika-chat-history';
+  var MIKA_QUERY_PARAM_KEYS = ['q', 'question', 'ask'];
 
   function ChatController(orb, voice) {
     this.orb = orb;
@@ -1416,6 +1417,8 @@
     if (this.messages.length === 0) {
       this._addWelcome('I can search documentation, guides, and resources across bayton.org to help you find what you need. You can type or use the microphone.');
     }
+
+    this.sendQuestionFromUrl();
   }
 
   // Add a message to the UI only — does NOT persist to history/localStorage
@@ -1470,6 +1473,80 @@
     }
 
     this.sendMessage(text);
+  };
+
+  ChatController.prototype.getQuestionFromUrl = function () {
+    var params;
+    var i;
+    var value;
+
+    try {
+      params = new URLSearchParams(window.location.search || '');
+    } catch (e) {
+      return '';
+    }
+
+    for (i = 0; i < MIKA_QUERY_PARAM_KEYS.length; i++) {
+      value = params.get(MIKA_QUERY_PARAM_KEYS[i]);
+      if (typeof value === 'string' && value.trim()) {
+        return value.trim();
+      }
+    }
+
+    return '';
+  };
+
+  ChatController.prototype.clearQuestionFromUrl = function () {
+    var params;
+    var i;
+    var changed = false;
+    var cleanUrl;
+
+    if (!window.history || typeof window.history.replaceState !== 'function') {
+      return;
+    }
+
+    try {
+      params = new URLSearchParams(window.location.search || '');
+    } catch (e) {
+      return;
+    }
+
+    for (i = 0; i < MIKA_QUERY_PARAM_KEYS.length; i++) {
+      if (params.has(MIKA_QUERY_PARAM_KEYS[i])) {
+        params.delete(MIKA_QUERY_PARAM_KEYS[i]);
+        changed = true;
+      }
+    }
+
+    if (!changed) {
+      return;
+    }
+
+    cleanUrl = window.location.pathname;
+    if (params.toString()) {
+      cleanUrl += '?' + params.toString();
+    }
+    if (window.location.hash) {
+      cleanUrl += window.location.hash;
+    }
+
+    window.history.replaceState({}, '', cleanUrl);
+  };
+
+  ChatController.prototype.sendQuestionFromUrl = function () {
+    var question = this.getQuestionFromUrl();
+
+    if (!question || this.isProcessing) {
+      return;
+    }
+
+    if (this.inputEl) {
+      this.inputEl.value = question;
+    }
+
+    this.clearQuestionFromUrl();
+    this.sendFromInput();
   };
 
   ChatController.prototype.sendMessage = function (text) {

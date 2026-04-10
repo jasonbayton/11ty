@@ -18,7 +18,7 @@ Yes. Google has published [Android Enterprise for Android XR](https://developers
 
 ### What's available
 
-Management is based on the **fully managed device** mode only. There is no work profile, COPE, or BYOD support. EMMs may use AMAPI or a custom DPC.
+Management is possible on **fully managed** devices only. There is no work profile - COPE or BYOD - support. EMMs may use AMAPI or a custom DPC.
 
 The XR validation requirements are adapted from the standard mobile set:
 
@@ -46,8 +46,3 @@ The XR validation requirements are adapted from the standard mobile set:
 - **Test lock task mode** carefully if planning kiosk-style deployments - the single 3D app limitation and lack of notifications are material constraints
 
 For a detailed analysis including the full feature comparison with mobile validation, see [Android Enterprise lands on Android XR](/blog/2026/04/android-enterprise-lands-on-android-xr/).
-
-**Sources:**
-- [Android Enterprise for Android XR](https://developers.google.com/android/work/xr-management) - Android Developers
-- [Manage Android XR devices](https://support.google.com/work/android/answer/16998029) - Android Enterprise Help
-- [Android Enterprise coming to Android XR](https://www.androidenterprise.community/blog/news/android-enterprise-coming-to-android-xr/13236) - Android Enterprise Customer Community
