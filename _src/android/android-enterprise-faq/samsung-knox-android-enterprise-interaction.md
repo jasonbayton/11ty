@@ -40,7 +40,7 @@ Some policies exist in both Android Enterprise and KSP. If the same policy is se
 
 ### Does KSP work with all management modes?
 
-KSP works with fully managed, dedicated, and personally-owned work profile devices. It does **not** apply to the COPE (work profile on company-owned device) management mode. If KSP policies are applied to a fully managed device and the device is later switched to COPE, previously applied KSP policies may persist unexpectedly.
+KSP supports all Android Enterprise management modes: fully managed, dedicated, personally-owned work profile, and COPE (work profile on company-owned device). All modes require Android 9.0 with Knox 3.2.1 or later. Note that the COPE implementation changed significantly in [Android 11](/android/android-11-cope-changes/) - for Android 9-10 this was "work profile on fully managed device", while Android 11 and later uses "work profile on company-owned device".
 
 ### Troubleshooting
 

@@ -14,7 +14,7 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 28500
 ---
-Microsoft is migrating its Intune personally-owned work profile implementation from a custom Device Policy Controller (the Company Portal app) to Google's Android Management API (AMAPI). This change began rolling out in early 2026.
+Microsoft has migrated its Intune personally-owned work profile implementation from a custom Device Policy Controller (the Company Portal app) to Google's Android Management API (AMAPI). This migration began in early 2026 and is now largely complete, with remaining devices being auto-migrated.
 
 ### What is changing?
 
