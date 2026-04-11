@@ -1060,15 +1060,16 @@ content#home-redesign {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--subtle-bg);
+  background: var(--background);
   border: 1px solid var(--light);
   border-radius: 8px;
   padding: 10px 12px;
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .home-redesign-mika__input-bar:focus-within {
-  border-color: var(--orange);
+  background: var(--subtle-bg);
+  border-color: color-mix(in srgb, var(--text) 18%, var(--light));
 }
 
 .home-redesign-mika__input {
