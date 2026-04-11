@@ -1038,6 +1038,85 @@ content#home-redesign {
   line-height: 1.7;
 }
 
+.home-redesign-section--mika {
+  padding: 0 0 48px;
+}
+
+.home-redesign-mika {
+  background:
+    linear-gradient(135deg, rgba(255, 69, 0, 0.08), rgba(2, 131, 189, 0.05)),
+    var(--subtle-bg);
+  border: 1px solid color-mix(in srgb, var(--orange) 20%, var(--light));
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+}
+
+.home-redesign-mika__intro {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.home-redesign-mika__intro .home-redesign-section__title-small,
+.home-redesign-mika__intro .home-redesign-section__lede {
+  margin: 0;
+}
+
+.home-redesign-mika__form {
+  max-width: 760px;
+}
+
+.home-redesign-mika__input-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--background);
+  border: 1px solid var(--light);
+  border-radius: 14px;
+  padding: 10px 12px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-redesign-mika__input-bar:focus-within {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 4px rgba(255, 69, 0, 0.08);
+}
+
+.home-redesign-mika__input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  color: var(--text);
+  outline: none;
+  min-width: 0;
+}
+
+.home-redesign-mika__input::placeholder {
+  color: color-mix(in srgb, var(--text) 42%, transparent);
+}
+
+.home-redesign-mika__submit {
+  border: none;
+  background: transparent;
+  color: var(--orange);
+  cursor: pointer;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.home-redesign-mika__submit:hover {
+  background: rgba(255, 69, 0, 0.08);
+  color: var(--blood-orange);
+  transform: translateX(1px);
+}
+
 .home-redesign-hero__media {
   display: grid;
   justify-items: center;
@@ -1389,6 +1468,19 @@ content#home-redesign {
   }
   .home-redesign-hero {
     padding: 60px 0 50px;
+  }
+  .home-redesign-section--mika {
+    padding-bottom: 28px;
+  }
+  .home-redesign-mika {
+    padding: 20px;
+    border-radius: 14px;
+  }
+  .home-redesign-mika__input-bar {
+    padding: 8px 10px;
+  }
+  .home-redesign-mika__input {
+    font-size: 16px;
   }
   .home-redesign-hero .home-redesign-container,
   .home-redesign-grid,
