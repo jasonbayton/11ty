@@ -1046,12 +1046,14 @@ content#home-redesign {
   padding: 22px;
 }
 
-.home-redesign-mika__form {
-  max-width: 760px;
+.home-redesign-mika__copy {
+  margin: 0 0 18px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-.home-redesign-section__intro--compact {
-  margin-bottom: 18px;
+.home-redesign-mika__form {
+  max-width: 760px;
 }
 
 .home-redesign-mika__input-bar {
@@ -1458,6 +1460,10 @@ content#home-redesign {
   }
   .home-redesign-mika {
     padding: 20px;
+  }
+  .home-redesign-mika__copy {
+    font-size: 16px;
+    margin-bottom: 16px;
   }
   .home-redesign-mika__input-bar {
     padding: 8px 10px;
