@@ -1078,7 +1078,14 @@ content#home-redesign {
   font-size: 18px;
   color: var(--text);
   outline: none;
+  box-shadow: none;
   min-width: 0;
+}
+
+.home-redesign-mika__input:focus,
+.home-redesign-mika__input:focus-visible {
+  outline: none;
+  box-shadow: none;
 }
 
 .home-redesign-mika__input::placeholder {
