@@ -15,6 +15,16 @@ This document offers definitions and descriptions of commonly referenced acronym
 
 If there are definitions missing or incomplete, please feel free to suggest additions via [email](mailto:jason@bayton.org), [twitter](https://twitter.com/jasonbayton), a comment or use the feedback link at the bottom of the article.
 
+AE (Android Enterprise)
+-----------------------
+
+Shorthand for [Android Enterprise](#android-enterprise). Commonly used in forums, documentation, and conversation. See [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for the full overview.
+
+Android Enterprise
+------------------
+
+Google's set of APIs, tools, and deployment models for managing Android devices in an enterprise context. Android Enterprise replaced [device administrator](#device-administrator) as the recommended management approach and provides standardised deployment scenarios including [fully managed](#work-managed), [work profile](#work-profile), [dedicated](#dedicated-device), and [COPE](#cope). It is supported on all [GMS-certified](#gms-certifiedcertification) devices. See [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for the full guide.
+
 AER (Android Enterprise Recommended)
 -------------------------------------
 
@@ -75,10 +85,20 @@ Direct Boot
 
 A device state available on Android 7.0+ devices using [FBE](#fbe-file-based-encryption) where the device has been powered on but the user has not yet unlocked it with their PIN, pattern, or password. During Direct Boot, only apps explicitly flagged as `directBootAware` can run - this is critical for use cases like alarms, accessibility services, and device management. For Android Enterprise, it means the [DPC](#dpc-device-policy-controller) can receive commands and apply some policies even before the user unlocks. On fully managed devices that enforce a screen lock, the device is in Direct Boot state after every reboot until the user authenticates.
 
+DA (Device Admin/Device Administrator)
+--------------------------------------
+
+Shorthand for [device administrator](#device-administrator). See below.
+
 Device administrator
 --------------------
 
 This is the name for what can be considered the *legacy* method of managing an Android device. It is so called because when using an application that requires control over the device, such as an EMM agent, the application will prompt the user to grant it administrator privileges. Once granted, the application will have unrestricted access to device functionality and information in order to do whatever it needs without hindrance. This access is equally why device admin can be dangerous.
+
+DO (Device Owner)
+-----------------
+
+Shorthand for [device owner](#device-owner). See below.
 
 Device owner
 ------------
@@ -121,6 +141,11 @@ EMM (Enterprise Mobility Management)
 -------------------------------------
 
 Enterprise Mobility Management, the industry term for solutions that manage mobile devices, applications, and data in an enterprise context. EMM platforms (such as Microsoft Intune, Omnissa Workspace ONE, SOTI MobiControl, and others) provide the server-side console and infrastructure that administrators use to configure policies, deploy apps, and monitor devices. An EMM integrates with Android Enterprise either through [AMAPI](#amapi-android-management-api) or the legacy [custom DPC](#custom-dpc) model. Also sometimes referred to as UEM (Unified Endpoint Management) or MDM (Mobile Device Management), though these terms have slightly different scopes.
+
+FM (Fully Managed)
+------------------
+
+Shorthand for a fully managed device deployment, also known as [device owner](#device-owner) or [work-managed](#work-managed). In a fully managed deployment, the EMM controls the entire device. See [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) for more.
 
 FBE (File-based encryption)
 ---------------------------
@@ -237,6 +262,11 @@ Play EMM API
 
 The legacy server-side API that [custom DPCs](#custom-dpc) used for managed Google Play operations - app approval and distribution, managed configurations, managed Google Play account provisioning, entitlements, and app track management. The Play EMM API was deprecated by Google in September 2021, with most methods permanently shut down in September 2025. All deprecated functionality has [AMAPI](#amapi-android-management-api) equivalents.
 
+PO (Profile Owner)
+------------------
+
+Shorthand for [profile owner](#profile-owner). See below.
+
 Profile owner
 -------------
 
@@ -277,6 +307,11 @@ Work challenge
 
 A secondary passcode requirement for BYOD [work profile](#work-profile) devices. Not dissimilar to traditional container solutions which required a PIN in order to access the applications within. Essentially you’ll have one passcode to unlock the device, then another passcode requirement in order to open any work applications.
 
+WP (Work Profile)
+-----------------
+
+Shorthand for [work profile](#work-profile). See below.
+
 Work-managed
 ------------
 
@@ -287,10 +322,15 @@ Work profile
 
 Please see [What is Android Enterprise and why is it used &gt; BYOD and work profile](/android/what-is-android-enterprise-and-why-is-it-used/#byod-and-work-profile) for information on work profile.
 
+WPoFMD (Work Profile on Fully Managed Device)
+-----------------------------------------------
+
+The internal/technical name for the [COPE](#cope) deployment model as it existed before Android 11. In this model, a device was first provisioned as [fully managed](#work-managed), and then a [work profile](#work-profile) was layered on top. This gave organisations near-complete visibility and control over both the personal and work sides of the device - effectively a fully managed device that also happened to have a work profile. Google retired WPoFMD in Android 11, replacing it with [WPCoD](#wpcod-work-profile-on-company-owned-device), which drastically reduced organisational visibility into the personal side. The distinction matters because pre-Android 11 COPE deployments that relied on full device control were significantly impacted by the migration. See [COPE changes in Android 11](/android/android-11-cope-changes/) for details.
+
 WPCoD (Work Profile on Company-Owned Device)
 ---------------------------------------------
 
-The internal/technical name for the [COPE](#cope) deployment model as it exists from Android 11 onwards. In Android 11, Google completely redesigned COPE from a work profile layered on top of a fully managed device to a work profile deployment with slightly elevated company-owned controls. The practical difference is significant - WPCoD gives the organisation less visibility into the personal side of the device compared to the pre-Android 11 COPE model, but offers employees substantially more privacy. The term WPCoD appears frequently in Google documentation and AMAPI policy references (`allowPersonalUsage: ALLOWED` on a company-owned provisioning flow creates a WPCoD deployment).
+The internal/technical name for the [COPE](#cope) deployment model as it exists from Android 11 onwards. In Android 11, Google completely redesigned COPE from [WPoFMD](#wpofmd-work-profile-on-fully-managed-device) (a work profile layered on top of a fully managed device) to a work profile deployment with slightly elevated company-owned controls. The practical difference is significant - WPCoD gives the organisation less visibility into the personal side of the device compared to the pre-Android 11 COPE model, but offers employees substantially more privacy. The term WPCoD appears frequently in Google documentation and AMAPI policy references (`allowPersonalUsage: ALLOWED` on a company-owned provisioning flow creates a WPCoD deployment). Also commonly written as WPoCOD.
 
 Fully managed devices with work profiles
 ----------------------------------------
