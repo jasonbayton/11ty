@@ -35,7 +35,7 @@ The XR validation requirements are adapted from the standard mobile set:
 
 ### What devices are available?
 
-- **Samsung Galaxy XR** - the only shipping Android XR headset (launched October 2025). Samsung Knox management is also available
+- **Samsung Galaxy XR** - the only shipping Android XR headset (launched October 2025). Samsung Knox management is also available. Samsung has committed to five years of software and security updates for Galaxy XR
 - **XREAL Project Aura**, **Samsung smart glasses**, and **Google AI glasses** are announced for 2026 but not yet available
 
 ### What should I plan for?
