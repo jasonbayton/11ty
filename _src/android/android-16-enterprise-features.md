@@ -1,5 +1,5 @@
 ---
-title: 'Android 16: Enterprise features in detail'
+title: 'New in Android 16 for enterprise'
 published: '2025-11-01'
 status: publish
 author: 'Jason Bayton'
@@ -18,7 +18,7 @@ sources:
   - https://developers.google.com/android/management/5g-network-slicing
 ---
 
-Android 16 (API level 36) was released on June 10, 2025. It introduces new enterprise management capabilities and marks a shift in Android's release model — under Google's trunk stable approach, there is one major platform release per year with API and behaviour changes (Q2), and one minor platform release with new APIs but no behaviour changes (Q4). Separately, quarterly feature drops deliver AMAPI, ecosystem, and infrastructure updates independent of the platform release cycle.
+Android 16 (API level 36) was released on June 10, 2025. It introduces new enterprise management capabilities and marks a shift in Android's release model - under Google's trunk stable approach, there is one major platform release per year with API and behaviour changes (Q2), and one minor platform release with new APIs but no behaviour changes (Q4). Separately, quarterly feature drops deliver AMAPI, ecosystem, and infrastructure updates independent of the platform release cycle.
 
 Apps submitted to Google Play must target API 36 from **August 31, 2026**. Privately distributed apps not published to the public Play Store are not immediately affected.
 
@@ -28,7 +28,7 @@ This document covers the Android 16 platform features. For AMAPI and ecosystem a
 
 ### Thread network control
 
-Administrators can block the use of [Thread](https://www.threadgroup.org/) networks on managed devices using the `UserManager.DISALLOW_THREAD_NETWORK` restriction. Thread is a low-power mesh networking protocol used for IoT devices — in enterprise environments where IoT connectivity is tightly controlled, this restriction prevents managed devices from participating in Thread networks.
+Administrators can block the use of [Thread](https://www.threadgroup.org/) networks on managed devices using the `UserManager.DISALLOW_THREAD_NETWORK` restriction. Thread is a low-power mesh networking protocol used for IoT devices - in enterprise environments where IoT connectivity is tightly controlled, this restriction prevents managed devices from participating in Thread networks.
 
 Available across all deployment modes once rolled out, regardless of OEM, EMM, or management mode.
 
@@ -48,7 +48,7 @@ For custom DPCs, these APIs are restricted to Device Owners and Profile Owners o
 
 ### Streamlined setup flow
 
-The enterprise provisioning experience has been simplified. Education screens shown during setup have been removed as dedicated steps — any educational content now appears during loading screens, requiring no additional user interaction. The `EXTRA_PROVISIONING_SKIP_EDUCATION_SCREENS` intent extra is deprecated and ignored.
+The enterprise provisioning experience has been simplified. Education screens shown during setup have been removed as dedicated steps - any educational content now appears during loading screens, requiring no additional user interaction. The `EXTRA_PROVISIONING_SKIP_EDUCATION_SCREENS` intent extra is deprecated and ignored.
 
 This reduces the number of taps required to complete provisioning, which is particularly helpful for large-scale deployments where every extra step adds friction.
 
@@ -56,8 +56,8 @@ This reduces the number of taps required to complete provisioning, which is part
 
 New `DevicePolicyManager` methods allow administrators to control automatic time and timezone synchronisation:
 
-- `setAutoTimePolicy(int)` — controls whether the device obtains time from the network automatically
-- `setAutoTimeZonePolicy(int)` — controls whether the timezone is obtained automatically
+- `setAutoTimePolicy(int)` - controls whether the device obtains time from the network automatically
+- `setAutoTimeZonePolicy(int)` - controls whether the timezone is obtained automatically
 
 Available to DPCs of fully managed devices or work profiles on company-owned devices. For AMAPI, time and timezone management is handled through existing policy fields.
 
@@ -65,7 +65,7 @@ Available to DPCs of fully managed devices or work profiles on company-owned dev
 
 ### AppFunctionManager policy
 
-A new policy controls app functions — pieces of functionality that apps expose to the system for cross-app orchestration (for example, allowing one app to invoke a capability from another):
+A new policy controls app functions - pieces of functionality that apps expose to the system for cross-app orchestration (for example, allowing one app to invoke a capability from another):
 
 - On fully managed devices, administrators can disable app functions entirely
 - On devices with work profiles, administrators can prevent personal profile apps from invoking app functions exposed by work profile apps
@@ -90,12 +90,12 @@ An Advanced Protection API allows third-party apps to check whether the mode is 
 
 <div class="callout callout-orange">
 <div class="callout-heading">User activation required</div>
-Advanced Protection mode must be activated individually by users — it cannot currently be enforced centrally by IT administrators through AMAPI or a custom DPC. However, organisations can recommend or guide users to enable it as part of a security onboarding process.
+Advanced Protection mode must be activated individually by users - it cannot currently be enforced centrally by IT administrators through AMAPI or a custom DPC. However, organisations can recommend or guide users to enable it as part of a security onboarding process.
 </div>
 
 ### Identity Check
 
-Identity Check requires biometric re-authentication for sensitive actions when the device is outside trusted locations. When enabled, actions such as changing passkeys, modifying security settings, or accessing sensitive app data require fingerprint or face authentication — PIN, pattern, or password alone are not sufficient.
+Identity Check requires biometric re-authentication for sensitive actions when the device is outside trusted locations. When enabled, actions such as changing passkeys, modifying security settings, or accessing sensitive app data require fingerprint or face authentication - PIN, pattern, or password alone are not sufficient.
 
 <div class="callout callout-orange">
 <div class="callout-heading">User activation required</div>
@@ -104,7 +104,7 @@ Identity Check must be activated by the user individually. AMAPI policy can be u
 
 ### Remote Key Provisioning (RKP) only
 
-Devices launching with Android 16 support only Remote Key Provisioning for hardware attestation — factory-provisioned keys are no longer used. This means attestation certificates are short-lived and per-application, generated through Google's RKP infrastructure rather than burned into the device at the factory.
+Devices launching with Android 16 support only Remote Key Provisioning for hardware attestation - factory-provisioned keys are no longer used. This means attestation certificates are short-lived and per-application, generated through Google's RKP infrastructure rather than burned into the device at the factory.
 
 This is a continuation of the transition that began with Android 12 (RKP introduced), Android 13 (RKP became mandatory for new device launches), and Android 15 (RKP support was made optional for OEMs, with factory keys as the fallback). In Android 16, RKP is the only supported path.
 
@@ -123,13 +123,13 @@ Apps targeting API 36 can no longer enforce fixed orientation, aspect ratio, or 
 - Aspect ratio declarations (`android:minAspectRatio`, `android:maxAspectRatio`) are ignored
 - `setRequestedOrientation()` has no effect
 
-Apps fill the entire display window regardless of these declarations. This does **not** affect phones (sub-600dp screens), and lock task mode itself is unaffected — the change is in how apps render within a locked context.
+Apps fill the entire display window regardless of these declarations. This does **not** affect phones (sub-600dp screens), and lock task mode itself is unaffected - the change is in how apps render within a locked context.
 
 A temporary opt-out is available via the `android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY` manifest property, but this will not apply from API level 37 onward.
 
 **Enterprise impact**: kiosk and dedicated device deployments on tablets or large-screen hardware should audit apps for fixed orientation or non-resizable declarations. Apps that rely on a specific orientation for their UI layout may need updates. Test on target hardware before rolling out Android 16 to large-screen devices.
 
-### Desktop windowing and connected displays (QPR3 — March 2026)
+### Desktop windowing and connected displays (QPR3 - March 2026)
 
 Android 16 QPR3 brings connected display support to general availability. When a compatible device is connected to an external monitor, it provides a full desktop windowing environment with:
 
@@ -146,7 +146,7 @@ For enterprise deployments, this means Android devices can serve as desktop repl
 
 Android 16 introduces a new permission model for local network access. Previously, any app with the `INTERNET` permission could access LAN resources (mDNS, SSDP, raw sockets to local addresses). Android 16 introduces a new runtime permission that gates LAN access separately.
 
-In Android 16, this is **opt-in only** — apps must declare they want to be subject to the new permission model. Mandatory enforcement begins with **Android 17** (API level 37), where apps targeting API 37 or higher must either request the `ACCESS_LOCAL_NETWORK` runtime permission or use system-mediated device pickers. Enterprise apps that interact with local network devices (printers, IoT hardware, point-of-sale systems) should plan for this change.
+In Android 16, this is **opt-in only** - apps must declare they want to be subject to the new permission model. Mandatory enforcement begins with **Android 17** (API level 37), where apps targeting API 37 or higher must either request the `ACCESS_LOCAL_NETWORK` runtime permission or use system-mediated device pickers. Enterprise apps that interact with local network devices (printers, IoT hardware, point-of-sale systems) should plan for this change.
 
 ### NFC and Bluetooth changes
 
@@ -156,21 +156,21 @@ Android 16 includes Bluetooth stack changes for improved connectivity with perip
 
 The following features shipped via AMAPI updates, Google Play infrastructure, or other ecosystem services around the Android 16 timeframe. They are not Android 16 platform changes but are relevant to the enterprise story.
 
-### APN configuration (AMAPI — May 2025)
+### APN configuration (AMAPI - May 2025)
 
 AMAPI gained `apnPolicy` support (within `deviceConnectivityManagement`), allowing administrators to define and enforce Access Point Names directly through policy. Policy-enforced APNs override any user-configured APNs on the device. This is particularly relevant for organisations using private mobile networks or requiring specific carrier APN settings across a fleet.
 
 Custom DPCs have had APN management through `DevicePolicyManager.addOverrideApn()` since Android 9 (API level 28).
 
-### 5G network slicing (AMAPI — May 2025)
+### 5G network slicing (AMAPI - May 2025)
 
 AMAPI supports [5G network slicing](https://developers.google.com/android/management/5g-network-slicing) configuration, allowing organisations to route business application traffic through dedicated virtual network slices.
 
-5G slicing support in Android is not new to Android 16 — work profile-wide routing has been available since Android 12 via `preferentialNetworkService`, and per-app routing with up to five slices was introduced in Android 13 via `preferentialNetworkServiceSettings`. The May 2025 AMAPI release expanded documentation and policy support for these capabilities.
+5G slicing support in Android is not new to Android 16 - work profile-wide routing has been available since Android 12 via `preferentialNetworkService`, and per-app routing with up to five slices was introduced in Android 13 via `preferentialNetworkServiceSettings`. The May 2025 AMAPI release expanded documentation and policy support for these capabilities.
 
 Requires carrier support and compatible 5G hardware.
 
-### EID retrieval for eSIM management (AMAPI — April 2025)
+### EID retrieval for eSIM management (AMAPI - April 2025)
 
 Administrators can retrieve device EID (Embedded Identity Document) values, which identify the embedded SIM hardware in a device. This supports scalable eSIM provisioning workflows where EID values need to be exported to carrier partners.
 
@@ -186,7 +186,7 @@ The Managed Google Play iFrame now supports [Android App Bundle](https://develop
 
 AAB support enables larger app sizes and the full benefits of app bundles (optimised delivery, reduced download sizes per device). When creating new private apps through the iFrame, a Google-generated signing key is used. Existing apps can be migrated to AAB by uploading the signing key through the Play Console.
 
-### Default application management (AMAPI — October 2025)
+### Default application management (AMAPI - October 2025)
 
 AMAPI supports remotely setting and enforcing [default applications](https://developers.google.com/android/management/default-application-settings) through the `defaultApplicationSettings` policy field. Administrators can provide a prioritised list of applications for each default app type (browser, phone dialler, SMS handler, and others). The system evaluates the list in order and sets the first installed, qualifying app as the default.
 
@@ -198,17 +198,17 @@ For more detail, see [Can I control default applications through AMAPI?](/androi
 
 The zero-touch customer portal received two significant upgrades:
 
-**Audit logging** — all actions in the zero-touch customer account are now logged with comprehensive detail, including who made the change, what changed, and before/after values. Logs are retained for a maximum of one year, with data available from March 2025 onward. Logs can be filtered by date range or searched by IMEI/serial number, and exported to CSV. See Google's [audit log documentation](https://support.google.com/work/android/answer/16042697) for details.
+**Audit logging** - all actions in the zero-touch customer account are now logged with comprehensive detail, including who made the change, what changed, and before/after values. Logs are retained for a maximum of one year, with data available from March 2025 onward. Logs can be filtered by date range or searched by IMEI/serial number, and exported to CSV. See Google's [audit log documentation](https://support.google.com/work/android/answer/16042697) for details.
 
-**Role-based access control** — three new roles have been added alongside the existing Owner and Admin roles:
+**Role-based access control** - three new roles have been added alongside the existing Owner and Admin roles:
 
-- **Manager** — can manage devices and configurations
-- **Assigner** — can assign devices to configurations
-- **Viewer** — read-only access to portal data
+- **Manager** - can manage devices and configurations
+- **Assigner** - can assign devices to configurations
+- **Viewer** - read-only access to portal data
 
 ### Conversational management via MCP (February 2026)
 
-Google launched a Model Context Protocol (MCP) server for the Android Management API, enabling AI assistants to query enterprise device management data through natural language. The initial release is read-only — it retrieves fleet data but cannot modify policies or device state.
+Google launched a Model Context Protocol (MCP) server for the Android Management API, enabling AI assistants to query enterprise device management data through natural language. The initial release is read-only - it retrieves fleet data but cannot modify policies or device state.
 
 For more detail, see [What is the AMAPI MCP server?](/android/android-enterprise-faq/amapi-mcp-server/)
 
