@@ -158,7 +158,7 @@ A technical term for what is now mostly associated with [work-managed](#work-man
 Device Trust
 ------------
 
-A set of verified device signals provided by Google to registered enterprise security and identity partners through the AMAPI SDK (v1.3.0+). Device Trust offers over 20 signals covering device state, configuration, and compliance posture, enabling zero-trust access decisions without requiring full device management. It works across all ownership models — company-owned, BYOD, and even unmanaged devices — and requires a minimum of Android 10. Device Trust is distinct from [Play Integrity](#play-integrity); Play Integrity is a general-purpose API for verifying device and app integrity, while Device Trust provides granular posture data specifically for enterprise security providers. See [What is Device Trust?](/android/android-enterprise-faq/what-is-device-trust/) for more detail.
+A set of verified device signals provided by Google to registered enterprise security and identity partners through the AMAPI SDK (v1.3.0+). Device Trust offers over 20 signals covering device state, configuration, and compliance posture, enabling zero-trust access decisions without requiring full device management. It works across all ownership models - company-owned, BYOD, and even unmanaged devices - and requires a minimum of Android 10. Device Trust is distinct from [Play Integrity](#play-integrity); Play Integrity is a general-purpose API for verifying device and app integrity, while Device Trust provides granular posture data specifically for enterprise security providers. See [What is Device Trust?](/android/android-enterprise-faq/what-is-device-trust/) for more detail.
 
 DPC (Device Policy Controller)
 ------------------------------
@@ -390,7 +390,7 @@ Near Field Communication(s) – NFC is a radio on the device used for close-prox
 OOBE (Out-of-Box Experience)
 ----------------------------
 
-The initial setup flow a user encounters when powering on a new or factory-reset Android device. The OOBE is intercepted by provisioning services that take over the device setup — [zero-touch](#zero-touch), Samsung [KME](#kme-knox-mobile-enrolment), Zebra StageNow, Elo View, and similar [OEM](#oem) or platform services that configure device management automatically.
+The initial setup flow a user encounters when powering on a new or factory-reset Android device. The OOBE is intercepted by provisioning services that take over the device setup - [zero-touch](#zero-touch), Samsung [KME](#kme-knox-mobile-enrolment), Zebra StageNow, Elo View, and similar [OEM](#oem) or platform services that configure device management automatically.
 
 OEM
 ---

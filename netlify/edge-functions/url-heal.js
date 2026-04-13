@@ -52,6 +52,14 @@ export default async (request, context) => {
   }
 
   if (!changed) {
+    // Even without junk, ensure trailing slash for pretty-URL resolution.
+    if (originalPath !== '/' && !originalPath.endsWith('/')) {
+      url.pathname = originalPath + '/';
+      return new Response(null, {
+        status: 301,
+        headers: { Location: url.toString() },
+      });
+    }
     return context.next();
   }
 

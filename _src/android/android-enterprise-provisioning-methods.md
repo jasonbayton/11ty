@@ -23,7 +23,7 @@ Provisioning is the process of turning a device from a fresh, out-of-box (or fac
 
 Android Enterprise supports several provisioning methods. Some are designed for company-owned devices that start from a factory-reset state. Others are intended for personally-owned (BYOD) devices where a work profile is added to an already-configured device. A few work across both scenarios depending on how they are configured.
 
-This guide covers each method in detail, explains when and why to use each one, and highlights the practical differences between [AMAPI](/android/android-enterprise-management-architectures/) and custom DPC implementations.
+This guide covers each method in detail, explains when and why to use each one, and highlights the practical differences between AMAPI and custom DPC implementations.
 
 ## Overview
 

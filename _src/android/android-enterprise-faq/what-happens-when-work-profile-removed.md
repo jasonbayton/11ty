@@ -50,5 +50,3 @@ On **Android 8-10** COPE (legacy WPoFMD), the behaviour was different. Removing 
 ### Fully managed devices
 
 On fully managed devices (no work profile), a wipe command or unenrolment triggers a **full factory reset**. All data on the device is erased. There is no personal/work separation to preserve.
-
-See also: [What can my organisation see on my managed device?](/android/what-can-my-organisation-see/)

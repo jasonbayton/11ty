@@ -41,11 +41,11 @@ As both an[ active proponent of Android Enterprise](/android/) and someone who�
 What does that mean for organisations?
 --------------------------------------
 
-It depends to a degree, but it will sooner or later require a change in the way devices are managed. There’s a good chance many of the devices under management today won’t see an update to Android Q, since OEM’s typically provide only 18 months of support for updates. With Oreo being installed on only[ 0.5% of all Android devices](https://developer.android.com/about/dashboards/index.html), and Android P less than a year away already marking functionality as deprecated, it’s a good time to start[ thinking about a migration](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/).
+It depends to a degree, but it will sooner or later require a change in the way devices are managed. There’s a good chance many of the devices under management today won’t see an update to Android Q, since OEM’s typically provide only 18 months of support for updates. With Oreo being installed on only[ 0.5% of all Android devices](https://developer.android.com/about/dashboards/index.html), and Android P less than a year away already marking functionality as deprecated, it’s a good time to start[ thinking about a migration](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
 
 As you might imagine, Oreo and earlier devices won’t be receiving this change and therefore device admin won’t be going away overnight, but eventually devices will give up or get flagged for renewal and the organisation will need to be able to support Android Enterprise within their chosen EMM platform when that happens.
 
-That won’t be easy; a migration from legacy enrolment to Android Enterprise work-managed enrolment, a deployment scenario most comparable to the device administrator management of today’s devices, will require a factory reset of each device and will therefore be highly disruptive. A better idea, recommended both by Google and [myself](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/) previously, is to tie the migration in with the hardware lifecycle of the organisations Android estate.
+That won’t be easy; a migration from legacy enrolment to Android Enterprise work-managed enrolment, a deployment scenario most comparable to the device administrator management of today’s devices, will require a factory reset of each device and will therefore be highly disruptive. A better idea, recommended both by Google and [myself](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/) previously, is to tie the migration in with the hardware lifecycle of the organisations Android estate.
 
 Naturally that may be difficult or simply not possible for some organisations within the space of two years, so a hybrid management environment on the EMM platform will need to be supported during the migration.
 
@@ -63,7 +63,7 @@ Importantly, EMM vendors are already working on making migrations easier for org
 Getting started
 ---------------
 
-Ultimately the sooner organisations start evaluating Android Enterprise, the better. I’d recommend starting with[ considerations for migrating from device administrator to Android Enterprise](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/) for those familiar with Android Enterprise, or[ what is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for those who are just beginning the journey.
+Ultimately the sooner organisations start evaluating Android Enterprise, the better. I’d recommend starting with[ considerations for migrating from device administrator to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/) for those familiar with Android Enterprise, or[ what is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/) for those who are just beginning the journey.
 
 I’m always happy to hear from organisations managing Android devices, so please feel free to reach out for a chat and/or advice.
 

@@ -26,7 +26,7 @@ Most EMMs require a current version of their management application (such as the
 
 **Existing work profile already present**
 
-A device can only have one work profile at a time. If a previous enrolment attempt partially completed, a residual work profile may exist. Navigate to **Settings > Accounts** (or **Settings > General management > Work profile**) and remove the existing work profile before re-enrolling. See [how to remove a residual work profile](/android/android-enterprise-faq/work-profile-remove-failed-enrolment/) for more guidance.
+A device can only have one work profile at a time. If a previous enrolment attempt partially completed, a partially-configured work profile may exist. Navigate to **Settings > Accounts** (or **Settings > General management > Work profile**) and remove the existing work profile before re-enrolling. See [how to remove a work profile](/android/android-enterprise-faq/enrolment-failed-delete-wp/) for more guidance.
 
 **Google Play Services issues**
 
@@ -34,7 +34,7 @@ Ensure Google Play Services is up to date. An outdated or corrupted Play Service
 
 **Device not supported**
 
-Some older or uncertified devices may not support the work profile. Ensure the device is [GMS certified](/android/android-enterprise-faq/how-to-check-gms-certified/) and running a supported version of Android.
+Some older or uncertified devices may not support the work profile. Ensure the device is [GMS certified](/android/android-enterprise-faq/view-all-certified-devices/) and running a supported version of Android.
 
 **Network connectivity**
 

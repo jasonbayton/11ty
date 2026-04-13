@@ -168,7 +168,7 @@ The following policies will start to throw warnings when used in Android P, and 
 - `USES_POLICY_EXPIRE_PASSWORD`
 - `USES_POLICY_LIMIT_PASSWORD`
 
-It’s definitely time to be thinking about [migrating from legacy Android enrolment to Android Enterprise](/android/considerations-in-migrating-from-device-administrator-to-android-enterprise/).
+It’s definitely time to be thinking about [migrating from legacy Android enrolment to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
 
 Conclusion
 ----------

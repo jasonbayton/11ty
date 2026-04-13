@@ -89,7 +89,7 @@ Doing some rough calculations I came up with a requirement for ~200w to run the 
 
 I had a spare PCIe 4 port SATA card that I bought at one point when it was on sale. It’s a generic card branded as IOCREST and the same card has been working perfectly well in the 2015 build for many months, so it’ll do for Obsidian in order to expand the 4 SATA ports to 8 until I decide on a more permanent solution or a sponsor sends me something to test!
 
-Update: I got my hands on a Dell H200 dual-controller 8-channel SAS card flashed to IT mode and a couple of mini-SAS to SATA breakout cables. See [part 4](/2016/08/part-4-project-obsidian-setting-up-ubuntu-zfs) for more information.
+Update: I got my hands on a Dell H200 dual-controller 8-channel SAS card flashed to IT mode and a couple of mini-SAS to SATA breakout cables. See part 4 for more information.
 
 ### Case (not pictured)
 

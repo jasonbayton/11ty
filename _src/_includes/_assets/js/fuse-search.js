@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     keys: ["title", "content", "url"],
   };
 
-  // Init search worker — fetches and indexes data in the background
+  // Init search worker - fetches and indexes data in the background
   const worker = new Worker("/js/fuse-search-worker.js");
   let workerReady = false;
   let pendingQuery = null;

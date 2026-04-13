@@ -24,7 +24,7 @@ Nothing until the device is factory reset. Zero-touch configurations are only do
 
 ## How zero-touch config changes work
 
-When an administrator changes a zero-touch configuration in the [zero-touch portal](enterprise.google.com/android/zero-touch/customers) or via the [customer API](https://developers.google.com/zero-touch/reference/customer/rest), the change is saved server-side. The enrolled device is not notified. The updated configuration is only fetched the next time the device goes through the setup wizard, which happens after a factory reset or on first boot of a new/reflashed device.
+When an administrator changes a zero-touch configuration in the [zero-touch portal](https://enterprise.google.com/android/zero-touch/customers) or via the [customer API](https://developers.google.com/zero-touch/reference/customer/rest), the change is saved server-side. The enrolled device is not notified. The updated configuration is only fetched the next time the device goes through the setup wizard, which happens after a factory reset or on first boot of a new/reflashed device.
 
 This applies equally regardless of what was changed:
 
