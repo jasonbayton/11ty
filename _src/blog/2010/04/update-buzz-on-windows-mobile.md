@@ -30,7 +30,7 @@ tags:
     - Mobile
     - 'Social Media'
 ---
-A short while ago I wrote an article on forcing [Buzz compatibility for Windows Mobile](/technology/2010/03/buzz-on-unsupported-mobiles/). I’ve continued researching to find a better way that requires less of a work-around and think I’ve cracked it.
+A short while ago I wrote an article on forcing [Buzz compatibility for Windows Mobile](/blog/2010/03/buzz-on-unsupported-mobiles/). I’ve continued researching to find a better way that requires less of a work-around and think I’ve cracked it.
 
 Buzz runs with HTML5, a standard which Windows Mobile does not and will not support according to information currently available (link used is one of a few I found mentioning HTML5. Please tell me if I’m incorrect!). This means that up until now the only way to get the Buzz interface on Windows Mobile was to use the “magic” link I posted in the article linked in the first paragraph, a work-around that forces buzz to run in an unsupported format.
 

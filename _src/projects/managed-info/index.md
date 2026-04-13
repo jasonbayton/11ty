@@ -62,4 +62,4 @@ Head into the MANAGED INFO documentation for support and guidance:
 
 Alternatively, you can submit [feedback](https://docs.google.com/forms/d/e/1FAIpQLSdYQrOPM0dKwCmcSjfxgoK2rQvhQXXyw2pk9nMqYBn0F2IhRw/viewform?usp=sf_link), post to the [Discord community](https://discord.gg/7VzRZWVkht), or tag me on [LinkedIn](https://linkedin.com/in/jasonbayton). 
 
-I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here]([projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
+I can also offer additional priority support for an annual recurring fee, offering faster and more in-depth support, with additional discounts on my [consultancy rate](/support). Details can be found [here](projects/managed-settings/pricing/#support-priority-support) (via MANAGED SETTINGS pricing).
