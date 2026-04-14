@@ -916,8 +916,6 @@ content#home-redesign {
 }
 
 .home-redesign-section-partner-logos {
-  padding: 110px 0px !important;
-
   #vendor_logo_container_scroll {
     padding-top: 60px;
   }
@@ -2387,7 +2385,7 @@ footer {
 }
 
 #partner_logos {
-  padding: 50px 40px 0;
+  /*padding: 50px 40px 0;*/
   overflow: hidden;
 }
 
