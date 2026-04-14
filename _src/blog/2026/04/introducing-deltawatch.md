@@ -1,5 +1,5 @@
 ---
- title: "Introducing DeltaWatch: web change detection, reimagined"
+ title: "Introducing DeltaWatch: web change detection"
  date: '2026-04-10'
  status: publish
  author: 'Jason Bayton'
@@ -20,17 +20,17 @@ So, in the spirit of [Flash](/blog/2026/03/mdm-is-dead-long-live-ace/) and [MIKA
 
 ## Introducing DeltaWatch
 
-**DeltaWatch** is a multi-tenant web change detection platform. You point it at a URL, it fetches the page, extracts the bits you care about, and tells you when something changes. That's the core of it. Everything else is about doing that well at scale, without noise, without fuss, and without having to babysit an installation in a NUC in your cupboard.
+**DeltaWatch** is a multi-tenant web change detection platform. You point it at a URL, it fetches the page, extracts the bits you care about, and tells you when something changes. That's the crux of it.
+
+It has a multitude of pattern matching tools, various format support, and it's really easy to just set-and-forget.
 
 It's live right now at [deltawatch.ing](https://deltawatch.ing), the free tier has no time limit, and you can sign up in about fifteen seconds.
 
 ## Why I built it
 
-I wanted a hosted service priced sensibly, had no time limit on the free tier, gave me the surgical content-extraction controls I need for the long-tail pages I care about, and ran on the stack I'm familiar with for debugging and expansion.
+I wanted a service I had control over, with the specific functionality I wanted for my use cases at its core. I also wanted to be sure it ran on the stack I'm familiar with for debugging and expansion, as I do love to tinker with products.
 
 Existing tools on the market do page monitoring really well, but they're either too costly for the capabilities I'm after, or don't offer what I want.
-
-So I built one.
 
 ## What it does
 
@@ -40,7 +40,7 @@ The feature list is too long for an announcement post, so I'll stick to what I u
 
 Most monitoring tools let you pick a CSS selector and call it a job done. DeltaWatch lets you target the exact content you care about via **CSS selectors, XPath, JSONPath, or regex** - and combine them. Want to watch a specific `<div>` on a page, but only the changes inside the third `<p>`? Done. Want to watch a JSON API response but only specific keys? Done. Want to strip navigation, headers, footers, sidebars, and anything with `display: none` before the diff runs? One checkbox.
 
-JSON responses are auto-detected and formatted with sorted keys, so changes in key ordering never trigger false alerts. PDFs up to 20 MB are text-extracted and diffed like any other content. There's a workspace-level "strip blank lines" toggle for the sites that love to insert random whitespace. All of this is there because I hit every single one of these edge cases within the first week of using the platform on my own pages.
+JSON responses are auto-detected and formatted with sorted keys, so changes in key ordering never trigger false alerts. PDFs up to 20 MB (current limit, it'll increase over time) are text-extracted and diffed like any other content. There's a workspace-level "strip blank lines" toggle for the sites that love to insert random whitespace. All of this is there because I hit every single one of these edge cases within the first week of using the platform on my own pages.
 
 ### Conditions engine
 
@@ -48,7 +48,7 @@ Content extraction handles targeting. The **conditions engine** filters out the 
 
 ### Notifications where you work
 
-Email is built in. Everything else is a URL away: **Slack, Discord, Telegram, and generic webhooks**. Add channels per watch, per tag, or at the workspace level. Every channel is available on every plan, including the free tier, because pay-walling notifications on a monitoring product is absurd.
+Email is built in, but that's table-stakes. I wanted to ensure there was support for webhooks and chat apps, because that's where I like to receive my updates. **Slack, Discord, Telegram, and generic webhooks** are there today, with more potentially based on demand. Add channels per watch, per tag, or at the workspace level. Every channel is available on every plan, including the free tier, because pay-walling notifications on a monitoring product is absurd.
 
 ### Sites (beta)
 
@@ -56,7 +56,9 @@ This solves a real and annoying issue for me - missing new content because inste
 
 **Sites** lets you model an entire domain as a connected graph or table. You point DeltaWatch at a root URL, it crawls the hostname, builds a graph of pages and the links between them, and gives you an interactive network or table view of the whole site. You can see what links to what, which pages have drifted recently, and which pages are orphaned or rarely updated.
 
-From the graph (or a table view, if you prefer rows), you can **convert any discovered page into a watch** with one click - or bulk-promote a dozen at a time. Conversion routes through the standard watch creation flow, so plan limits, duplicate detection, and interval enforcement all still apply. There's also an optional auto-watch toggle that turns every newly discovered page into a watch as the crawler finds it, which is excellent for small focused sites and *absolutely terrifying* for anything the size of a Google developers domain.
+I chose to implement it as a tool for organic discovery or real, present sites. It doesn't fetch a sitemap and allude to the existence of pages, it will slowly and meticulously look at a page in the same way the Watch logic does, locate any links on said page, and queue them for their own crawl. This gradually builds a network of linked pages.
+
+From the graph (or a table view, if you prefer rows), you can **convert any discovered page into a watch** with one click. Conversion routes through the standard watch creation flow, so plan limits, duplicate detection, and interval enforcement all still apply. There's also an optional auto-watch toggle that turns every newly discovered page into a watch as the crawler finds it, which is excellent for small focused sites and *absolutely terrifying* for anything the size of a Google developers domain.
 
 Sites also does **recrawl scheduling**. When a watch detects a change, the parent site queues an automatic re-crawl (debounced at 12 hours site-wide to avoid storms), so the data stays current with the pages you care about. As a fallback, every site gets a scheduled full recrawl roughly every 7 days with ±40% per-site jitter, so sites stay fresh while the platform doesn't all crawl at once.
 
@@ -99,6 +101,12 @@ For those of you who like a peek behind the curtain, here's the architecture.
 
 ## Pricing
 
+I swung between releasing it as a free tool and offering subscriptions wildly. Ultimately I opted for a freemium model, because:
+
+1. VPS instances and cloud resources aren't free
+2. The higher tiers could legitimately hammer the infrastruce, so it's only fair a fee is charged to put directly back into the platform
+3. I don't make much revenue from the other products and services I offer, so subscriptions here can contribute to the wider work I do in the ecosystem (and my Android hardware addiction).
+
 I wanted the pricing to be clear, cheap, and sustainable. Three tiers:
 
 - **Ping** - **free, forever, no time limit.** 5 watches, 3-hour minimum interval, 10 visible snapshots, all notification channels. Enough to monitor the pages you care about without paying a penny. No credit card required to sign up.
@@ -124,6 +132,6 @@ A few things it deliberately isn't:
 
 The docs are at [deltawatch.ing/docs](https://deltawatch.ing/docs), the release notes live at [deltawatch.ing/releases](https://deltawatch.ing/releases), and there's a live status page at [deltawatch.ing/status](https://deltawatch.ing/status) that reads straight from the production health endpoint so you can see what the platform's doing right now.
 
-If you spot a bug, a content extraction edge case, a site that breaks the crawler, or a feature you miss from another tool, I want to hear about it. There's a reply-by-email link below, or [reach out](/contact/) directly.
+If you spot a bug, a content extraction failure, a site that breaks the crawler, or a feature you miss from another tool, I want to hear about it. There's a reply-by-email link below, or [reach out](/contact/) directly.
 
 Happy monitoring!
