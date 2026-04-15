@@ -58,7 +58,7 @@ Android Enterprise (AE) offers a few things:
 - A single-use mode (Android Kiosk, but on a fully managed device) for Kiosk-like applications, referred to as dedicated (previously COSU – Corporately Owned, Single Use).
 - A combined work/personal COPE usecase for company owned devices permitting personal use. Between 8-10 this was a work profile inflated within a fully managed device allowing absolute control and visibility of the entire device, from 11 this transitioned to a variation of a work profile (BYOD) deployment with a little more visibility and control for IT than work profile alone, but offering far more privacy at a cost of management.
 - Out of the box, zero-touch enrolment for Android 8.0 and above (or 7.0 for Pixel).
-- A [managed Google Play](https://play.google.com/work) portal offering an application store for work devices containing only explicitly approved applications, the ability to rapidly deploy internal applications through a fast-track upload process, granular app track management, and web app support.
+- A managed Google Play portal offering an application store for work devices containing only explicitly approved applications, the ability to rapidly deploy internal applications through a fast-track upload process, granular app track management, and web app support.
 - Silent application installation without the need for a user-provided Google account on the device.
 - Managed configs, a way of deploying corporate settings to managed applications (think Exchange profiles, but configurable in Gmail directly. See below).
 - OEMConfig, a means for OEMs to provide additional APIs over and above Android Enterprise easily managed directly through an EMM
