@@ -1,9 +1,9 @@
 ---
-title: 'Deploy app test tracks to managed devices'
+title: 'Using Google Play application tracks with EMM'
 published: '2026-04-16'
 status: publish
 author: 'Jason Bayton'
-excerpt: 'How to expose a closed testing track of a public Google Play app to an Android Enterprise organisation and roll it out through an EMM.'
+excerpt: 'Deploy a test version of an application to an EMM through the public Google Play Console.'
 type: documentation
 tags:
     - App management
