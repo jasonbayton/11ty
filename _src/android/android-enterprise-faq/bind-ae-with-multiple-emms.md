@@ -30,4 +30,4 @@ _Attempting to bind with the same Google account on another EMM will return an e
 
 The only exception to the above is in high availability and/or disaster recovery scenarios where an instance of an EMM may be replicated, but no two EMMs should be generating managed Google Play accounts from the same Google account simultaneously.
 
-Google are expected to support migrations to Google Workspace domains for existing organisations in the future.
+Google now supports migration from consumer-account binds to managed Google domain enterprises. See [What is a managed Google domain, and should I upgrade?](/android/android-enterprise-faq/what-is-managed-google-domain/) for details on the migration process.
