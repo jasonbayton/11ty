@@ -18,7 +18,7 @@ sources:
   - https://bayton.org/blog/2024/01/amapi-migrations/
   - https://developers.google.com/android/management/reference/amapi/com/google/android/managementapi/dpcmigration/model/DpcMigrationRequest
 ---
-Yes, but with important limitations.
+Yes, but with limitations.
 
 Google supports migrating devices from a custom DPC (using the Play EMM API) to the Android Management API (AMAPI) without requiring a factory reset. This is done through the AMAPI SDK's DPC migration functionality.
 
@@ -38,7 +38,5 @@ Google supports migrating devices from a custom DPC (using the Play EMM API) to 
 2. A migration token is created and sent to the custom DPC on the device
 3. The custom DPC calls the migration method in the AMAPI SDK
 4. Android Device Policy takes over management from the custom DPC
-
-Notable example: Microsoft Intune completed its migration of Android personally-owned work profiles to AMAPI, with corporate-owned migrations following.
 
 For more context on how DPC migration works and what to expect, see [AMAPI publicly adds support for DPC migration](/blog/2024/01/amapi-migrations/).
