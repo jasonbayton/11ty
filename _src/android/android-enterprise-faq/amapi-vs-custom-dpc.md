@@ -50,8 +50,8 @@ AMAPI-based EMMs include Google's own management tools, Microsoft Intune (for BY
 
 ### Deprecation and migration
 
-Google is actively steering the ecosystem towards AMAPI. New custom DPC registrations are no longer accepted, and significant portions of the Play EMM API were [deprecated in September 2021](https://developers.google.com/android/work/deprecations) with a final turn-off date of 30 September 2025.
+Google is actively steering the ecosystem towards AMAPI. New custom DPC registrations are no longer accepted, and significant portions of the Play EMM API were [deprecated in September 2021](https://developers.google.com/android/work/deprecations) and permanently turned off on 30 September 2025.
 
-Existing custom DPC EMMs continue to function and are supported, but organisations should be aware that the long-term direction is AMAPI. Many EMMs now offer both architectures during a transition period.
+Existing custom DPC EMMs continue to function where they have migrated affected methods to the AMAPI SDK or alternative APIs, but organisations should be aware that the long-term direction is AMAPI. Many EMMs now offer both architectures during a transition period.
 
 Devices can be [migrated from a custom DPC to AMAPI](/android/android-enterprise-faq/dpc-to-amapi-migration/) without a factory reset, provided the EMM supports it.
