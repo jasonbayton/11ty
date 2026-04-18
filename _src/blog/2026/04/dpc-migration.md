@@ -49,6 +49,21 @@ Eight years on, the industry has revealed its collective answer.
 
 Unfortunately it comes at the direct expense of both customers and the ecosystem as a whole. Android looks harder to deal with, takes more effort, requires more thought.. while Apple shows just how easy it should be.
 
+## What the demo doesn't show
+
+The proof of concept demonstrates that on-device ownership transfer works. What it doesn't address is everything that lives server-side, which is not transferred through this process.
+
+When a device moves from one EMM to another, it's moving between two different Android Enterprise binds. Each bind has its own enterprise ID, its own managed Google Play state, and its own Google Cloud Project on Google's backend. The `transferOwnership()` API handles the DPC handover on the device, but it doesn't touch any of this:
+
+- **Private apps** - published to the original enterprise ID. If the new EMM is bound to a different enterprise, those apps are no longer visible or installable. They'd need to be re-published under different package names, moved through a Google Play support ticket, or shared with the new enterprise from the old.
+- **Play Store layouts** - configured per-enterprise. The new EMM starts with no layout. Any curated app collections, categories, or featured apps need to be rebuilt
+- **App tracks** - developers who shared production or closed testing tracks with the old organisation ID need to add the new enterprise ID as a tester. Until they do, devices on the new EMM won't receive builds
+- **Managed configurations** - stored in the old EMM's backend, not on the device. The new EMM needs equivalent configurations set up before migration or apps lose their settings
+
+None of this is insurmountable, but it means a cross-vendor migration is never just "tap transfer and done." There's meaningful prep work: staging apps, configurations, and approvals in the new EMM before cutting devices over, coordinating with app developers who've shared tracks, and communicating with end users about what to expect. Skipping this prep risks users losing access to apps and services the moment the transfer completes.
+
+This is an area where Google could help. If migration were an ecosystem-level feature rather than a device-level API, Google could handle every aspect of an enterprise to enterprise migration, covering app approvals, private app visibility, and Play configuration across binds. Today, none of that exists.
+
 ## Google's role
 
 Google built the platform capability and then left activation to partner opt-in.
