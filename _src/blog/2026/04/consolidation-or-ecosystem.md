@@ -1,7 +1,7 @@
 ---
 title: "Consolidation or ecosystem: what did partners sign up for, and what did they get?"
 date: '2026-04-18'
-status: publish
+status: draft
 author: 'Jason Bayton'
 excerpt: "Yesterday's post framed Apple's MDM migration as courage. A conversation afterwards pointed out it's also consolidation, which is the more useful angle on the Android side anyway. Eight years into AMAPI, the pitch partners signed up for and the reality on the ground aren't the same thing."
 type: post
