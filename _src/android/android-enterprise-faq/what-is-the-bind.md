@@ -13,22 +13,36 @@ layout: base.njk
 eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 6998
+sources:
+  - https://support.google.com/work/android/answer/7042221
+  - https://developers.google.com/android/management/create-enterprise
+  - https://developers.google.com/android/work/play/emm-api/create-enterprise
 --- 
-Throughout this site and across Google's official documentation and resources there are multiple references to the _bind_, or binding of a Google account to an organisation's EMM/MDM platform of choice in order to use Android Enterprise, but what is it?
+The bind is the process of linking your organisation to an EMM platform through Google, creating an `enterprise` that enables Android Enterprise management. Without it, the EMM has no way to distribute apps through managed Google Play, create managed accounts on devices, or access enterprise features like zero-touch enrolment.
 
-Android Enterprise consists, very simplistically, of three aspects:
-1. the on-device APIs
-2. the advanced account, application, and Play Protect functionality 
-3. the additional solutions, such as zero-touch and many more 3rd party offerings
+Android Enterprise consists, simplistically, of three aspects:
+1. the on-device management APIs
+2. the advanced account, application, and Play Protect functionality
+3. additional solutions such as zero-touch, and many more third-party offerings
 
-In order to leverage 2 and 3, an `enterprise` is required. This enterprise is created when an organisation goes through the process of linking a Google account - either via Google Workspace or with a standard consumer Google account (@gmail.com or under an existing email address) - to their EMM. 
+To leverage 2 and 3, an enterprise is required. The bind creates this enterprise, generates the authentication tokens your EMM needs, and assigns an **enterprise ID** (also called an organisation ID) - an alphanumeric identifier, typically prefixed with `LC`, that uniquely identifies your Android Enterprise tenant. This ID is what links your EMM, your approved apps, and your enrolled devices together.
 
-For the organisation it's a reasonably straightforward sign-in and setup flow (at least for those who don't use Workspace) that'll create an enterprise, which generates the appropriate authentication tokens and assign an enterprise ID to allow the EMM to then handle all account and application management going forward.
+## Enterprise types
 
-What sort of account and application management?
-- The EMM will create, maintain, and delete managed Google Play accounts (for non-Workspace deployments)
-- The EMM will assign the appropriate account to one or more devices, depending on use case (user or device-based)
-- The EMM can import and deploy approved applications
-- etc
+There are two types of enterprise, and they determine how your bind is managed:
 
-This is a very high-level explanation only, and doesn't cover off the intricacies of things like Play EMM API, AMAPI, differences between Google Workspace and Google accounts, and a multitude of other factors that determine the features and functionality associated with binding for device management.
+**Managed Google domain** (recommended) - the enterprise is tied to a domain (e.g. company.com) managed through the [Google Admin console](https://admin.google.com). This provides role-based access, MFA enforcement, SSO integration, and the ability to bind multiple EMMs simultaneously. From 2024, all new organisations completing the bind process are provided with a managed Google domain at no cost by default.
+
+**Managed Google Play Accounts** (legacy) - the standard approach up to 2025, where a personal Google account (a Gmail address or any email set up as a Google account) was used to create and manage the enterprise. Administration is limited to the admin and owner roles available through `play.google.com/work/adminsettings`, without the broader identity governance, SSO integration, or multi-EMM binding that a managed Google domain provides. The managed Google Play Accounts signup method is deprecated in favour of managed Google domains.
+
+Organisations on the older model can [upgrade to a managed Google domain](/android/android-enterprise-faq/what-is-managed-google-domain/) at no cost and without disrupting enrolled devices or approved apps.
+
+## What the bind enables
+
+Once the enterprise exists, the EMM can:
+
+- Create, maintain, and delete managed Google Play accounts for enrolled devices
+- Assign accounts to devices - either [user-based or device-based](/android/android-enterprise-faq/device-based-vs-user-based/) depending on the deployment model
+- Approve and deploy applications through managed Google Play
+- Push [managed configurations](/android/android-glossary/#managed-configurations) to supported apps
+- Register devices for [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/)

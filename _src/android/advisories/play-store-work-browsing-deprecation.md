@@ -11,7 +11,7 @@
 ---
 Google is pulling the plug on the app browsing page within Play Store for Work. If you've been around long enough to remember the old app "Approval" flow, this was the page that supported it - and since that was deprecated back in September 2025, the browsing page has been largely redundant since.
 
-After April 15, visiting `play.google.com/work` will redirect based on your organisation type:
+After May 15 (extended from the original April 15 date), visiting `play.google.com/work` will redirect based on your organisation type:
 
 - **Managed Google Play Accounts enterprises** → the Admin Settings page (`play.google.com/work/adminsettings`)
 - **Managed Google domains** → `admin.google.com`

@@ -19,7 +19,7 @@ This question comes up often and isn’t always simple to answer.
 
 Organisations ideally need to understand the use case for the devices to be selected. This could be normal knowledge worker devices for employees needing a corporate phone, something tough (doesn’t need to be rugged) to withstand harsher environments, or something bespoke such as a kiosk on a reception desk used for checking in or something with an integrated printer/scanner.
 
-After this, consider the minimum Android version required for the features the organisation needs. For example, work profile pausing requires Android 14, Private Space requires Android 15, and the latest provisioning improvements require Android 16. More version-specific comparisons are available in [considerations when migrating from device administrator to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
+After this, consider the minimum Android version required for the features the organisation needs. For example, [credential provider management](/android/android-enterprise-faq/credential-provider-management-android-enterprise/) requires Android 14, [Private Space](/android/what-is-android-15-private-space/) requires Android 15, and the latest provisioning improvements require Android 16. More version-specific comparisons are available in [considerations when migrating from device administrator to Android Enterprise](/android/considerations-when-migrating-from-device-administrator-to-android-enterprise/).
 
 Additionally, consider:
 

@@ -540,7 +540,7 @@ A secondary passcode requirement for BYOD [work profile](#work-profile) devices.
 XR (eXtended Reality)
 ---------------------
 
-An umbrella term covering virtual reality (VR), augmented reality (AR), and mixed reality (MR) devices. In the Android Enterprise context, XR devices like Meta Quest and other Android-based headsets are increasingly being deployed in enterprise environments for training, collaboration, and field service. Android Enterprise management support for XR devices is evolving - see [Android Enterprise on XR devices](/android/android-enterprise-faq/android-enterprise-on-xr-devices/) for the current state.
+An umbrella term covering virtual reality (VR), augmented reality (AR), and mixed reality (MR) devices. [Android XR](https://developer.android.com/xr) is Google's XR platform built on Android, and it supports Android Enterprise management in fully managed mode. The Samsung Galaxy XR (launched October 2025, enterprise support added April 2026) is the first shipping Android XR device. Note that not all XR headsets run Android XR - Meta Quest devices, for example, run Horizon OS and do not support Android Enterprise, but may have their own integrations with EMMs. See [Android Enterprise on XR devices](/android/android-enterprise-faq/android-enterprise-on-xr-devices/) for the current state.
 
 WP (Work Profile)
 -----------------

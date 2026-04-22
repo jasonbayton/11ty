@@ -40,7 +40,7 @@ Google maintains the full and current list of required endpoints in the [Android
 In addition to the Google endpoints above, your EMM vendor will have their own set of required domains and ports. These vary by vendor and should be confirmed with your EMM documentation. Common examples include:
 
 - Microsoft Intune: `*.manage.microsoft.com`, `*.microsoftonline.com`, and several others documented by Microsoft
-- VMware Workspace ONE: device services endpoints specific to your tenant
+- Omnissa Workspace ONE: device services endpoints specific to your tenant
 - Google Endpoint Management: covered by the Google domains above
 
 ## Common pitfalls
