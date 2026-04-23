@@ -60,7 +60,7 @@ Once the iFrame opens, hover the mouse on the left-hand side to display the side
 
 ![](https://cdn.bayton.org/uploads/2018/12/2018-12-27-17.08.01.gif)
 
-You’re now creating a new private app. Add a name and upload the APK:
+You’re now creating a new private app. Add a name and upload the APK (or AAB - see below):
 
 ![](https://cdn.bayton.org/uploads/2018/12/2018-12-27-17.08.34.gif)
 
@@ -76,11 +76,59 @@ If you click the app, you’ll be taken into the details view for it, where you�
 
 Some UEMs will import private apps automatically. Others will not. For the latter, simply add an app as you normally would, switch to the private apps tab in the iFrame, click the app in question and click **Select**. Alternatively if the UEM supports it, run an import from Play to get it.
 
+## AAB support
+
+Since March 2025, the managed Google Play iFrame supports [Android App Bundle](https://developer.android.com/guide/app-bundle) (AAB) uploads for private apps in addition to APKs. AABs offer optimised delivery and smaller download sizes per device, and are the format Google recommends for all Play distribution.
+
+When uploading an AAB through the iFrame, a Google-generated signing key is used automatically. If you need to use your own signing key, upload via the Google Play Console instead (see below). Existing APK-based private apps can be migrated to AAB by uploading the signing key through the Play Console.
+
+For more detail on AAB support in managed Google Play, see [AAB support for private apps in the managed Google Play iFrame](/blog/2025/03/dabbling-with-aab-support-managed-google-play/).
+
 ## The Google Play Console may make more sense
 
-There's a significant drawback with leveraging the iFrame: Applications are bound to your enterprise and may be inaccessible if the bind is deleted.
+There's a significant drawback with leveraging the iFrame: Applications are bound to your enterprise and may become inaccessible if the bind is deleted. There are options for migration, but this is cumbersome.
 
 If your organisation already uses the Google Play Console for application distribution, applications can be made private under **Setup** > **Advanced Settings** > **Managed Google Play**, or via the Publishing API. This allows organisations to centrally manage all public and private applications under one account, and providing access to one or one hundred enterprises (organisation IDs) from the Play Console is a piece of cake. 
+
+Here's an overview of the alternative approaches and when to leverage them:
+
+### Google Play Console (private)
+
+Publishing through the [Google Play Console](https://play.google.com/console) with the app set to private distribution offers considerably more control. You'll need a Google developer account ($25 one-off fee), but in return the app is managed centrally and independently of any specific EMM bind.
+
+Private apps in the Play Console can be shared with multiple organisation IDs the same way as iFrame-uploaded apps. This is particularly useful for:
+
+- **Cross-EMM deployment**: If you manage devices across more than one EMM solution, the same private app can be made available to all of them without re-uploading.
+- **ISVs and developers**: If you're distributing an app to multiple customers privately - say, a bespoke line-of-business application or an agent your customers deploy to their fleets - Play Console private distribution lets you do this without tying the app to any one customer's MDM.
+- **Future-proofing**: Because the app lives in your developer account rather than an enterprise bind, it survives MDM migrations entirely. Switch EMMs, re-bind your organisation, and the app is still there waiting to be assigned.
+
+You also get the full Play Console feature set: release management, staged rollouts, pre-launch reports, Android vitals, and flexible track management.
+
+### Google Play Console (public)
+
+Standard public distribution through Google Play. The app goes through the full review process and is discoverable by anyone on the Play Store.
+
+This is the right approach when the app genuinely needs broad reach - whether that's a customer-facing application, a utility you want available to any organisation, or an open-source tool. Public apps can still be assigned and managed through managed Google Play just like private ones; the difference is simply visibility.
+
+**Best for:** Apps intended for wide distribution, customer-facing applications, or tools that don't contain proprietary business logic.
+
+## Considerations when changing MDMs
+
+One of the most common gotchas with private app distribution is what happens when you migrate between EMM platforms.
+
+### iFrame apps don't automatically travel
+
+If your private apps were uploaded through the iFrame, they're bound to the enterprise ID that was active at the time. When you set up a new EMM and create a new managed Google Play bind, those apps won't carry over by default. You'll need to either re-upload them through the new EMM's iFrame, and they'll get new package names on the backend - effectively becoming different apps as far as managed Google Play is concerned - or apply to transfer them to a new developer account, a process that is often slow and without guarantees.
+
+### Play Console apps are portable
+
+Apps published through the Google Play Console - whether private or public - aren't affected by EMM migrations at all. They live in your developer account. When you set up a new EMM, you simply add the new organisation ID to the app's distribution settings and it's available immediately. No re-uploading, no disruption to devices already running the app.
+
+### Planning ahead
+
+If there's any chance you'll change EMM platforms in the future - and most organisations do eventually - it's worth publishing through the Play Console from the start, even if the iFrame feels easier today. The $25 developer fee is a one-off cost, and the portability it provides can save significant effort down the line.
+
+For apps already deployed via the iFrame, consider republishing them through the Play Console before initiating any migration, or initiating a proactive transfer of ownership. This gives you a clean transition path and ensures devices continue to receive updates throughout the process.
 
 ## Conclusion
 
