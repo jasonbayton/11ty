@@ -163,7 +163,7 @@ A set of verified device signals provided by Google to registered enterprise sec
 DPC (Device Policy Controller)
 ------------------------------
 
-DPC, or Device Policy Controller, is one name for the EMM agent locally installed on a mobile device. Some examples of a DPC include MobileIron Mobile@Work and AirWatch Agent. These applications control and enforce policies on devices sent down from the EMM server.
+DPC, or Device Policy Controller, is one name for the EMM agent locally installed on a mobile device. Some examples of a DPC include Omnissa Intelligent Hub, Ivanti Mobile@Work, and SOTI MobiControl Agent. These applications control and enforce policies on devices sent down from the EMM server.
 
 DPC allowlist
 -------------

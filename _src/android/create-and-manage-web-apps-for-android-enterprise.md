@@ -41,7 +41,7 @@ Web app support is not tied to an Android version and should therefore be applic
 
 ## How it works
 
-The following is demonstrated in VMware Workspace One UEM, but the process is identical in all UEMs supporting the iFrame (those that don’t cannot use this functionality).
+The following is demonstrated in Omnissa Workspace ONE UEM (formerly VMware), but the process is identical in all UEMs supporting the iFrame (those that don’t cannot use this functionality).
 
 Within **Apps &amp; Books &gt; Apps &gt; Public**, add a new app. No name is required, despite it showing the asterisk\*:
 

@@ -42,7 +42,7 @@ To use them, follow the setup wizard on the Android device until a Google accoun
   </div>
   <div class="dpc-vendor">
     <img width="32px" height="32px" src="https://cdn.bayton.org/uploads/2018/10/xenmob.jpg">
-    <b>Citrix XenMobile</b>  
+    <b>Citrix Endpoint Management</b>  
     afw#xenmobile
   </div>
   <div class="dpc-vendor">

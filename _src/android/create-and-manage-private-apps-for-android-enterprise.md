@@ -110,7 +110,19 @@ Standard public distribution through Google Play. The app goes through the full 
 
 This is the right approach when the app genuinely needs broad reach - whether that's a customer-facing application, a utility you want available to any organisation, or an open-source tool. Public apps can still be assigned and managed through managed Google Play just like private ones; the difference is simply visibility.
 
-**Best for:** Apps intended for wide distribution, customer-facing applications, or tools that don't contain proprietary business logic.
+### Direct APK installation
+
+One option lesser-covered that still holds relevance today: [pushing APK files directly to devices](/blog/2025/08/amapi-apk-deployment/) without going through managed Google Play at all.
+
+This is particularly useful in scenarios where Play-based distribution isn't practical:
+
+- **Air-gapped environments**: Devices without reliable internet access or those operating in restricted networks where managed Google Play can't be reached.
+- **Apps that can't be published to Play**: Whether due to compliance constraints, technical limitations, or policies that prevent uploading to Google's infrastructure.
+- **Development and testing**: Rapid iteration where the overhead of publishing to Play - even as a private app - slows things down unnecessarily.
+
+The trade-off is that you lose the benefits of Play's distribution infrastructure. There are no delta updates, no Play Protect scanning at the distribution layer, and no staged rollouts (unless the EMM supports a similar approach). Your EMM handles the heavy lifting instead, which means the experience depends entirely on how well your EMM implements it.
+
+For more detail, see [AMAPI finally supports direct APK installation, this is how it works](/blog/2025/08/amapi-apk-deployment/) and the [FAQ on direct APK installation](/android/android-enterprise-faq/amapi-direct-apk-installation/). Custom DPCs have had this functionality for years, find your vendor documentation for details on that.
 
 ## Considerations when changing MDMs
 

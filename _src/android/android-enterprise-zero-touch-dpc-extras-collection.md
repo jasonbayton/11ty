@@ -20,7 +20,7 @@ The following examples offer a complete DPC extra snippet that can be copied and
 
 To be of value, the ADMIN\_EXTRAS\_BUNDLE should ideally at least include the server URL or identifier (where appropriate), however lines for username, password, and more can optionally be omitted to allow the config to remain generic.
 
-JSON doesn’t leave room for error – the last line within ADMIN\_EXTRAS\_BUNDLE must not have a trailing comma “,”. See “user” in the MobileIron config has a comma, but “quickstart” does not? If you remove “quickstart”, you’d need to remove the comma from “user” as it then becomes the last line, otherwise it could throw up an error.
+JSON doesn’t leave room for error – the last line within ADMIN\_EXTRAS\_BUNDLE must not have a trailing comma “,”. See “user” in the Ivanti config has a comma, but “quickstart” does not? If you remove “quickstart”, you’d need to remove the comma from “user” as it then becomes the last line, otherwise it could throw up an error.
 
 </div><div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Trust but verify</div>
@@ -54,7 +54,7 @@ Reach out to your vendor to ask when this functionality will be available.
 }
 </pre>
 
-## AirWatch / Workspace One UEM
+## Omnissa Workspace ONE UEM
 
 <pre>
 {
