@@ -179,7 +179,7 @@ exports.handler = async (event) => {
         const data = await res.json();
         return jsonResponse(200, {
           result: JSON.stringify(data, null, 2).slice(0, 6000),
-          sources: [{ title: 'Android System Apps Database', url: 'https://bayton.org/android/android-system-app-database/' }],
+          sources: [{ title: 'Android System App Database', url: 'https://bayton.org/android/android-system-app-database/' }],
         });
       } catch (e) {
         return jsonResponse(200, { result: `System apps lookup failed: ${e.message || 'timeout'}`, sources: [] });
