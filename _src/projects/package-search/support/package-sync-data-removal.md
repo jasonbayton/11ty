@@ -17,7 +17,7 @@ eleventyNavigation:
     title: Sync data removal request
 ---
 
-When enabling either [sync & version tracking](/projects/package-search/support/enable-package-sync) or [system apps database contributions](/projects/package-search/support/system-apps-database), the application data of the device is associated with a unique UUID (this can be seen in settings, below the version details of PACKAGE SEARCH), and sent to the PING service for processing. 
+When enabling either [sync & version tracking](/projects/package-search/support/enable-package-sync) or [system app database contributions](/projects/package-search/support/system-apps-database), the application data of the device is associated with a unique UUID (this can be seen in settings, below the version details of PACKAGE SEARCH), and sent to the PING service for processing. 
 
 This data is sent encrypted, and stored securely. It is not sold or provided to 3rd parties actively (though for system apps, these are shown on the website, so could be scraped).
 

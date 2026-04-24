@@ -37,7 +37,7 @@ MIKA doesn't use RAG in the traditional sense - there's no vector database or em
 
 This is the same search infrastructure that powers the [bayton.org MCP server](https://github.com/jasonbayton/11ty), which means the same content is available to MCP-compatible tools like Claude Code. MIKA's Netlify Functions import directly from the shared `content-index.js` module, so ranking improvements benefit both.
 
-MIKA also has access to the [system apps database](/android/android-system-app-database/) via the MCP's sysapps endpoints - so you can ask it things like "what system apps come on a Samsung Galaxy S24?" and it'll query the database directly.
+MIKA also has access to the [system app database](/android/android-system-app-database/) via the MCP's sysapps endpoints - so you can ask it things like "what system apps come on a Samsung Galaxy S24?" and it'll query the database directly.
 
 ### Why not embeddings?
 

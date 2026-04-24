@@ -795,7 +795,7 @@
     {
       type: 'function',
       name: 'sysapps_search',
-      description: 'Search the bayton.org Android system apps database by package name, app name, or alias. Use when users ask about system apps, bloatware, pre-installed apps, or package names.',
+      description: 'Search the bayton.org Android system app database by package name, app name, or alias. Use when users ask about system apps, bloatware, pre-installed apps, or package names.',
       parameters: {
         type: 'object',
         properties: {
@@ -807,7 +807,7 @@
     {
       type: 'function',
       name: 'sysapps_list_devices',
-      description: 'List devices in the system apps database. Optionally filter by OEM, model, or OS.',
+      description: 'List devices in the system app database. Optionally filter by OEM, model, or OS.',
       parameters: {
         type: 'object',
         properties: {

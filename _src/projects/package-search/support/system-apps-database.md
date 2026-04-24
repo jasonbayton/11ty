@@ -17,13 +17,13 @@ eleventyNavigation:
     title: Contribute system apps to the system app database
 ---
 
-As of version [1.0.6.5](/projects/package-search/release-notes/1065) PACKAGE SEARCH offers a feature to enable the synchronisation of system applications with the [system apps database](/android/android-system-app-database).
+As of version [1.0.6.5](/projects/package-search/release-notes/1065) PACKAGE SEARCH offers a feature to enable the synchronisation of system applications with the [system app database](/android/android-system-app-database).
 
-When enabled, PACKAGE SEARCH will send to the PING service all declared **system apps**, along with the device and operating system from which the system apps were found, at most once a day. These applications will then populate in the [system apps database](/android/android-system-app-database), allowing organisations to search for any system apps associated with a device for the purpose of troubleshooting or system apps management within an EMM.
+When enabled, PACKAGE SEARCH will send to the PING service all declared **system apps**, along with the device and operating system from which the system apps were found, at most once a day. These applications will then populate in the [system app database](/android/android-system-app-database), allowing organisations to search for any system apps associated with a device for the purpose of troubleshooting or system apps management within an EMM.
 
 ## How to enable
 
-Simply head to settings (the menu icon, top-right from the PACKAGE SEARCH app list), then toggle the option on: **Contribute to the system apps database**
+Simply head to settings (the menu icon, top-right from the PACKAGE SEARCH app list), then toggle the option on: **Contribute to the system app database**
 
 ![PS sysapp db](https://cdn.bayton.org/assets/package_search/ps_sysappdb.png)
 

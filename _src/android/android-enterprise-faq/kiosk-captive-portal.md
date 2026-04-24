@@ -22,6 +22,6 @@ The common package name for this is:
 
 `com.google.android.captiveportallogin`
 
-<span class="label label-green"><span class="material-symbols-outlined">android</span> Tip</span> _For specific OEM implementations, search `captive portal` in the [Android system apps database](/android/android-system-app-database/)._
+<span class="label label-green"><span class="material-symbols-outlined">android</span> Tip</span> _For specific OEM implementations, search `captive portal` in the [Android system app database](/android/android-system-app-database/)._
 
 What this does is add the package name to the LockTask allowlist, enabling the app to open without triggering a security exception.
