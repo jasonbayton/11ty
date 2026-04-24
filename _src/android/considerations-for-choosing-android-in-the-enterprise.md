@@ -26,7 +26,9 @@ The perception of Android security being subpar has long been proven incorrect. 
 
 Not convinced?
 
-From 2016-2019 Gartner has ranked Android higher than iOS in a number of areas, including kernel security, exploit protection, network security, workspace isolation and more; the results of which can be found in [this report](https://www.gartner.com/doc/3840064/mobile-oss-device-security-comparison) (12/2017) and [this report](https://www.gartner.com/document/3913286?ref=solrAll&refval=221750465&qid=dd391fbb8659244bf) (2019) should you have a Gartner subscription, if not here’s an overview:
+Google publishes an annual [Android Security Paper](https://source.android.com/docs/security/overview/reports) detailing platform protections in depth. The [2026 edition](/blog/2026/03/reviewing-the-2026-security-paper/) highlights the shift from malware-centric defence to behavioural protection, OS-level scam intervention, and hypervisor-based isolation via pKVM - all of which benefit enterprise deployments significantly.
+
+For a historical comparison, Gartner ranked Android higher than iOS in a number of areas between 2016 and 2019, including kernel security, exploit protection, network security, and workspace isolation - the results of which can be found in [this report](https://www.gartner.com/doc/3840064/mobile-oss-device-security-comparison) (12/2017) and [this report](https://www.gartner.com/document/3913286?ref=solrAll&refval=221750465&qid=dd391fbb8659244bf) (2019) should you have a Gartner subscription, if not here’s an overview:
 
 ![](https://cdn.bayton.org/uploads/2019/02/image.png)
 *Source: Gartner, December 2017. Thanks to [Samsung](https://s7d2.scene7.com/is/content/SamsungUS/samsungbusiness/solutions/samsung-knox/pdf/MobileDeviceSecurity-AComparisonofPlatforms-Feb12-2.pdf) for making this available on the public internet!*
@@ -61,21 +63,21 @@ Combined with such capabilities as verified boot, downgrade protection and more,
 
 Android benefits from a monthly security patch cycle to maintain high levels of security against exploits and vulnerabilities discovered in the wild.
 
-In 2017 over a billion devices were receiving security patches, this will only have increased further in 2018 following the introduction of Android Enterprise Recommended; devices in the Android Enterprise Recommended programme are mandated to push these updates within 90 days of Google’s release, with the Android One programme complimenting this further by mandating a security update every 30 days.
+With approximately 3.9 billion active Android devices globally, security patches reach an enormous number of devices every month. Devices in the Android Enterprise Recommended programme are mandated to push these updates within 90 days of Google’s release, and many OEMs now commit to five or more years of security updates for their flagship and enterprise devices.
 
 ### Project mainline (Google Play System Updates)
 
 Since Android 10, Google has been migrating core Android OS components into independently updatable mainline modules. These take aspects of the OS that have previously only been updatable through an OEM-distributed OTA update (as and when that OEM felt like doing one) and allow them to be updated additionally through Google Play, mostly in the background like many other applications.
 
-In Android 10 the number of modules sat at 12, while in Android 13 this has grown to 30 modules, including connectivity, multimedia, and core framework components. 
+In Android 10 the number of modules sat at 12, growing to 30 in Android 13 and 37 in Android 14, covering connectivity, multimedia, and core framework components. The count continues to grow with each release. 
 
 In addition to monthly security updates (SPLs, security patch level, delivered as SMRs, security maintenance releases), Google Play System Updates can be distributed as and when required to tackle component-level security issues or bug fixes. This dramatically improves time to resolution for issues in comparison to other OS platforms.
 
 ### Play Protect
 
-Google’s Play Protect suite of solutions includes the world’s largest antivirus service, analysing 500,000 applications, and scanning over 50 billion on Google Play, on-device and crawling the web every day.
+Google’s Play Protect suite of solutions includes the world’s largest mobile threat detection service, scanning over 340 billion apps daily across approximately 2.8 billion devices. In 2025 alone, Play Protect identified more than 27 million new malicious apps from outside Google Play and prevented 1.75 million policy-violating apps from being published on the store.
 
-Play Protect is always-on, and will take action on any known potentially harmful application (PHA) found on a device, as well as any known bad websites via the Safe Browsing service to proactively warn users of danger.
+Play Protect is always-on, and will take action on any known potentially harmful application (PHA) found on a device, as well as any known bad websites via the Safe Browsing service to proactively warn users of danger. Real-time on-device scanning now leverages AI to detect behavioural anomalies even in apps installed from outside the Play Store.
 
 Play Protect of course isn’t infallible, and I’d support organisations who augment Play Protect’s capabilities with [an MTD solution](/android/mtd-and-android-enterprise/), however it’s an ever-improving service utilising machine learning to evolve over time, and does a pretty good job for most use cases. Combined with options to prevent installation of applications from unknown sources, USB debugging and more, a corporate device can safely and successfully avoid PHAs.
 
@@ -136,17 +138,17 @@ There are a number of [provisioning methods](/android/android-enterprise-provisi
 
 As above, an NFC bump makes sense where many devices are located in close proximity, while QR code and DPC identifier offer a means for remote provisioning in ways that are easy to understand.
 
-For newer devices (8.0+) to be ready to provision straight from the box, zero-touch enrolment provides the ability to pre-configure devices before the box is even opened.
+For devices to be ready to provision straight from the box, zero-touch enrolment provides the ability to pre-configure devices before the box is even opened, and is supported on all GMS-certified devices running Android 8.0 and above.
 
-For Samsung devices running Knox 2.8 or higher, the very same is supported through Knox Mobile Enrolment (without the 8.0 requirement).
+For Samsung devices, Knox Mobile Enrolment (KME) offers the same capability and is deeply integrated with the Knox ecosystem.
 
-More information of provisioning methods can be found in [What is Android Enterprise and why is it used?](/android/what-is-android-enterprise-and-why-is-it-used/#diving-deeper-with-work-managed-devices) and this handy [infographic](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
+More information on provisioning methods can be found in the [provisioning methods guide](/android/android-enterprise-provisioning-methods/) and this handy [infographic](/android/infobyte-did-you-know-android-enterprise-work-managed-provisioning-methods/).
 
 ### Form factor
 
 Are phones and tablets too.. *consumer*? Does your organisation rely on fixed endpoints, smartphone systems, bespoke logistics or warehouse scanners, specialised interactive displays, or something else?
 
-Not only has Android shipped on phones and tablets in screen sizes ranging from the [minute](https://www.palm.com/product) to the [enormous](https://www.samsung.com/uk/tablets/galaxy-view-18-4-t670/), Android can be equally found on rugged devices, smart displays, point-of-sale endpoints, projectors and many other specialised hardware types.
+Not only has Android shipped on phones, tablets and foldables in all shapes and sizes, Android can be equally found on rugged devices, smart displays, point-of-sale endpoints, XR headsets, vehicles, projectors, and many other specialised hardware types.
 
 If a form factor doesn’t exist that suits an organisation's needs, one can be developed with any number of specialist hardware manufacturers.
 
@@ -156,7 +158,7 @@ No matter the application, there is – or can be – a form factor to suit. And
 
 Like Android’s flexibility in form factor, the same is true for budget.
 
-While Apple continues to inflate the prices of their product lines to numbers which far exceed the budgets of many organisations (to their detriment), an Android Enterprise Recommended, GMS certified and *enterprise-suitable* device can be picked up for as little as £[70](https://www.nokia.com/phones/en_int/nokia-3), cheaper still with carrier-arranged hardware funds.
+While Apple continues to inflate the prices of their product lines to numbers which far exceed the budgets of many organisations (to their detriment), an Android Enterprise Recommended, GMS certified and *enterprise-suitable* device can be picked up at a fraction of the cost, cheaper still with carrier-arranged hardware funds.
 
 Organisations can of course opt for flagship handsets and pay the premiums associated with these feature-rich devices, however there’s no obligation to do so.
 
@@ -186,7 +188,7 @@ System update control is critical in enterprise, administrators need the control
 
 Application update control may be just as important, whether to update immediately, over Wi-Fi only, not at all or during a scheduled time slot.
 
-Android does all of this, providing complete, granular control over when and how updates occur for managed devices to ensure devices remain secure, or to offer a little extra time for testing before initiating a corporate roll-out. Samsung’s e-FOTA service takes this a step further, offering the ability to target a particular OS version until such time later versions have been validated by the business.
+Android does all of this, providing complete, granular control over when and how updates occur for managed devices to ensure devices remain secure, or to offer a little extra time for testing before initiating a corporate roll-out. Samsung’s Knox E-FOTA service takes this a step further, offering the ability to target a particular OS version until such time later versions have been validated by the business.
 
 ## Android supports work/life balance
 
@@ -210,7 +212,7 @@ The apps users install, the data users generate, it is all completely invisible 
 
 For end-users, hoping the organisation is opting not to sync personal data up to the EMM console is not good enough. Choose a platform that doesn’t permit this to begin with: Android.
 
-Check out this [dedicated article](https://www.brianmadden.com/opinion/BYOD-privacy-Dont-settle-for-less-than-Android-enterprise-in-2018) about BYOD and privacy for more on this topic.
+Check out [what can employers see on work profile devices?](/android/android-enterprise-faq/what-can-employers-see-work-profile/) for more on this topic.
 
 As Android 11 [relies on the work profile deployment scenario](/2020/02/android-enterprise-in-11-google-reduces-visibility-and-control-with-cope-to-bolster-privacy/) for enabling its work profiles on company owned devices deployment scenario, all of the above equally applies to COPE deployments on anything running Android 11 or later.
 

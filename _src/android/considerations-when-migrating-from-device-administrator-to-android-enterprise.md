@@ -23,7 +23,7 @@ For information regarding Android Enterprise, including what it is, the deployme
 
 </div>
 
-Organisations looking at Android Enterprise for the first time today may very likely already have a mature Android management process in place centred around the legacy *device administrator* enrolment model. With this model being [deprecated partially with Android P and fully in Android Q](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), and Google having a long-standing requirement for Android Enterprise-validated EMMs to [have a plan in place](https://developers.google.com/android/work/requirements#6.-device-admin-deprecation_1) to cease support for Device Admin, now is the time to start thinking about migration.
+Organisations still managing Android devices through the legacy *device administrator* enrolment model need to migrate to Android Enterprise. Device administrator was [deprecated partially with Android 9 and fully in Android 10](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), Google required Android Enterprise-validated EMMs to [have a plan in place](https://developers.google.com/android/work/requirements#6.-device-admin-deprecation_1) to cease support for Device Admin, and major EMM vendors have since ended Device Admin support entirely.
 
 It is important to understand the implications of a migration from a device administrator deployment to one (or more) of the deployment scenarios available with Android Enterprise; depending on the deployment scenario chosen it *could* be very disruptive, but steps can be taken to reduce this.
 
@@ -31,25 +31,25 @@ The key to undertaking any migration is communication, planning and as much test
 
 ## Managed Google (cloud identity) or managed Google Play accounts
 
-<div class="callout callout-success">
+<div class="callout callout-blue">
 
-### This may soon be changing (again)
+### Enterprise account types have changed
 
-As part of Google's Better Together project, the way organisations create, bind, and interface with accounts, not only within Android Enterprise, but across the whole Google Enterprise space, is changing. The below is how it is as of mid-2023
+Since 2025, all new organisations completing the Android Enterprise bind process are provided with a zero-cost managed Google domain by default. The managed Google Play Accounts signup method is still available, but pushed aside in favour of managed Google domains. Existing organisations using managed Google Play Accounts can [upgrade at no cost](/android/android-enterprise-faq/what-is-managed-google-domain/) without disrupting enrolled devices. See [What is the bind?](/android/android-enterprise-faq/what-is-the-bind/) for more.
 
 </div>
 
-Organisations leveraging Google Workspace may find it easier to integrate directly with their EMM platform in order to make use of Google Workspace accounts (managed Google accounts) and authentication when enrolling corporate Android devices. Google Workspace enrolment is like that of the DPC identifier (EMM Token); when putting in the account of a Google Workspace address, the device will become a fully managed device, controlled either by the native Google Workspace EMM or a connected 3rd party. The process for connecting a 3rd party EMM can be somewhat cumbersome, however the benefits of far greater management capabilities outweigh the work required.
+Organisations leveraging Google Workspace will find it easiest to integrate directly with their EMM platform in order to make use of Google Workspace accounts (managed Google accounts) and authentication when enrolling corporate Android devices. When entering a Google Workspace address during device setup, the device can become a fully managed device, controlled either by the native Google Workspace EMM (Google Endpoint Management) or a connected third-party EMM.
 
-Managed Google Play accounts are better suited for all other circumstances, as those without a Google Workspace tenant would otherwise have to go through domain verification and other hoops in order to do what managed Google Play accounts can with only a generic Google account required and a few minutes spare. The process of linking an EMM platform is quick and painless, and offers the ability to provision, manage and deploy applications all without requiring a Google account is added manually to each device.
+For organisations without an existing Google Workspace subscription, the bind process now creates a zero-cost managed Google domain automatically. This provides role-based access, MFA enforcement, and the ability to bind multiple EMMs. Previously, organisations without Google Workspace would use managed Google Play accounts - a simpler setup requiring only a generic Google account - but this path is deprecated in favour of managed Google domains.
 
-For Google Workspace customers, the pertinent question is *do we need Google Workspace identity in the EMM?* If the answer is no, and the organisation is happy to simply push out apps and services users can authenticate with using their Google Workspace accounts, then there’s little benefit to using managed Google accounts and managed Google Play accounts are a better choice.
+The pertinent question for Google Workspace customers remains: *do we need Google Workspace identity in the EMM?* If the answer is no, and the organisation is happy to simply push out apps and services users can authenticate with using their Google Workspace accounts, there is little additional benefit to using managed Google accounts over the standard bind. For AMAPI-based EMMs, consider adopting Google account-based authentication (Authenticate with Google) for stronger user-device association and future feature support.
 
 ## Android OS version
 
-Android Enterprise became mandatory with 6.0, Marshmallow. Although 5.0 *should* support Android Enterprise (work profile, at least), there’s a good chance this will not be the case and for that reason is arguably not worth including in migration plans due to foregoing features and the additional testing required to validate compatibility. Any devices running a version of Android under 5.0 are not natively supported and should not be considered for migration. Of course, whatever version of Android, from 5.0 to 14, must be Google Play Protect (GMS) certified for default support. For AOSP, additional planning will be required to leverage an EMM platform that supports the Device Policy Management through a custom device agent rather than an Android Enterprise-only DPC.
+Android Enterprise became mandatory with 6.0, Marshmallow. Although 5.0 introduced work profile support, compatibility was inconsistent and these devices are now well beyond end of life. Devices must be [GMS certified](/android/android-glossary/#gms-certifiedcertification) for Android Enterprise support. For AOSP devices without GMS, additional planning is required to leverage an EMM platform that supports Device Policy Management through a custom device agent.
 
-With a large enough split between supported and unsupported devices, a hybrid legacy/AE environment may be the best option whilst the unsupported devices are rapidly phased out; many EMM platforms can support a hybrid environment, though this is running on borrowed time. VMware for example will stop support of DA all together in [early 2024](https://kb.vmware.com/s/article/95399). This will naturally result in a mix of [enrolment guides](/android/android-enterprise-provisioning-guides/), additional overhead for support teams and a more complex EMM deployment, though only temporarily. In future, device administrator enrolment [will not be possible at all](/2017/12/google-is-deprecating-device-admin-in-favour-of-android-enterprise/), meaning if legacy enrolment is still being utilised in 2023, a hybrid environment will be a requirement, rather than an option.
+Major EMM vendors have ended Device Admin support - Omnissa (formerly VMware) [blocked new DA enrolments in early 2024](https://kb.omnissa.com/s/article/95399) and subsequently removed DA management entirely, and others have followed. Organisations still running Device Admin enrolments on older devices will find their EMM no longer supports it. Any remaining legacy devices should be replaced and enrolled into Android Enterprise as a priority.
 
 <div class="callout callout-danger">
 
@@ -91,7 +91,7 @@ Android Enterprise launched with NFC for fully managed provisioning. With each m
 
 QR code and zero-touch provisioning methods have in the past been considered optional and may not be supported by all OEMs unless the devices are [Android Enterprise Recommended](/android/what-is-android-enterprise-recommended/), though from the end of 2020 all Android 9 and above devices [support zero-touch by default](/2020/11/google-announce-big-changes-to-zero-touch/). Huawei, for example, did not support QR code enrolment prior to EMUI 5.2 (and today their devices without GMS don’t support AE at all). Furthermore, NFC naturally requires an NFC radio is present on the devices to be migrated; 5.x devices without an NFC radio cannot therefore be supported.
 
-More information about provisioning methods can be found [here](/android/what-is-android-enterprise-and-why-is-it-used/#nfc-provisioning).
+More information about provisioning methods can be found in the [provisioning methods guide](/android/android-enterprise-provisioning-methods/).
 
 ## Deployment scenarios
 
@@ -205,8 +205,8 @@ These three, well-supported applications offer a native experience for end-users
 
 If it isn’t clear already, a migration from a legacy deployment to that of Android Enterprise for anything other than work profile is not to be taken lightly, even a work profile migration requires thought and attention (and a lot of testing) to ensure it can be undertaken with the least amount of disruption.
 
-As DA is removed from mainsteam EMM products over the next year or two, the time for considering a migration is now mostly over. For organisations with deployments comprising majoritively of Android 5.x or lower it still makes far more sense to hold off until the next hardware refresh (which, on Android versions that old, should be considered immediately). As and when the new hardware is ready, a switch to Android Enterprise will then be vastly simpler to undertake as well as undoubtedly benefiting from such options as [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/). 
- 
-For organisations with more modern versions of Android, certified or AOSP, migrations should be undertaken as soon as is required by the vendors deprecating DA support all together. Again, for VMware, this would be April 2024.
+DA has been removed from mainstream EMM products. Omnissa, Microsoft, Ivanti, and others no longer support Device Admin enrolment, and Google's own Android Management API (AMAPI) never offered it. For organisations with any remaining DA-enrolled devices, migration is no longer optional - it is overdue.
 
-Either way, a migration *must be* on the agenda for organisations; while device administrator enrolments may still hold some benefits currently (some functionality being yet to find its way into the Android Enterprise solution set), Google is clearly investing their time and effort into Android Enterprise as the de facto long-term solution for Android management, and migrating sooner rather than later will ensure organisations today benefit from that investment.
+Devices still running Android versions old enough to have been enrolled via DA should be replaced entirely. Modern devices running Android 12+ provisioned through [zero-touch enrolment](/android/what-is-android-zero-touch-enrolment/) or other [provisioning methods](/android/android-enterprise-provisioning-methods/) offer a vastly better experience for both IT and end-users.
+
+Android Enterprise is the only supported management framework for Android devices. Any remaining Device Admin enrolments represent technical debt and a security risk. Now is the time to migrate.
