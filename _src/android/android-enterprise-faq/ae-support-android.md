@@ -22,6 +22,6 @@ With that said, very few OEMs originally supported Android Enterprise in the ear
 If considering support for older versions of Android today, AE compatibility should be only one small factor in the decision. Other considerations should include:
 
 - Android app compatibility for enterprise applications
-- Security update support, for which only Android 12 and above is currently subject to Google's security backport support. Any older versions of Android require manual backporting by the OEM and cannot be guaranteed.
+- Security update support, for which only Android 14 and above is currently subject to Google's security backport support. Any older versions of Android require manual backporting by the OEM and cannot be guaranteed.
 - The OEM and their commitment to security updates and support
 - Management/API support for the Android Enterprise solution set, for example zero-touch is only supported on 8.0 (9.0 mainstream) and later. 
