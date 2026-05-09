@@ -1,0 +1,1282 @@
+---
+title: Layout card builder
+published: '2025-05-09'
+status: publish
+author: 'Jason Bayton'
+excerpt: 'Visually compose MANAGED INFO layout card specs and export the JSON string for your managed configuration.'
+type: page
+layout: base.njk
+tags:
+  - 'Managed Info'
+  - 'bayton-projects'
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<p>Compose a layout card visually and copy the minified JSON into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
+
+<div id="lcg">
+
+  <div id="lcg-toolbar">
+    <div class="lcg-tb-left">
+      <span id="lcg-sample-link">Show a sample</span>
+    </div>
+    <div class="lcg-tb-right">
+      <button id="lcg-import-btn" type="button">Import JSON</button>
+      <label class="lcg-dark-label">
+        <input type="checkbox" id="lcg-dark-toggle"> Dark preview
+      </label>
+    </div>
+  </div>
+
+  <div id="lcg-main">
+
+    <div id="lcg-editor">
+      <div class="lcg-panel-hd">
+        <span>Node tree</span>
+        <span id="lcg-add-root-btn">+ Add root</span>
+      </div>
+      <div id="lcg-tree" class="lcg-scroll"></div>
+
+      <div class="lcg-panel-hd">
+        <span id="lcg-props-title">Properties</span>
+      </div>
+      <div id="lcg-props" class="lcg-scroll"></div>
+    </div>
+
+    <div id="lcg-right">
+      <div id="lcg-preview-controls">
+        <label for="lcg-w-range">Width:</label>
+        <input type="range" id="lcg-w-range" min="280" max="700" value="360" step="4">
+        <input type="number" id="lcg-w-num" min="280" max="700" value="360">
+        <span>dp</span>
+      </div>
+
+      <div id="lcg-preview-scroll">
+        <div id="lcg-phone">
+          <div id="lcg-card" class="lcg-card-wrap"></div>
+        </div>
+      </div>
+
+      <div id="lcg-json-section">
+        <div id="lcg-json-hd">
+          <span id="lcg-counter" class="lcg-cnt-green">0 chars</span>
+          <span id="lcg-cnt-warn"></span>
+          <div class="lcg-json-btns">
+            <button id="lcg-copy-btn" type="button">Copy</button>
+            <button id="lcg-dl-btn" type="button">Download .json</button>
+          </div>
+        </div>
+        <textarea id="lcg-json-out" readonly placeholder="JSON output will appear here…" rows="4" spellcheck="false"></textarea>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="lcg-import-modal" class="lcg-modal-off">
+    <div id="lcg-import-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Import JSON</strong>
+        <button id="lcg-import-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint">Paste a <code>LayoutNodeSpec</code> JSON object. The root must have a <code>type</code> field.</p>
+      <textarea id="lcg-import-ta" rows="10" spellcheck="false" placeholder='{"type":"column",...}'></textarea>
+      <div id="lcg-import-err" class="lcg-err-off"></div>
+      <div class="lcg-modal-ft">
+        <button id="lcg-import-cancel" type="button">Cancel</button>
+        <button id="lcg-import-ok" type="button" class="button button-small">Import</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="lcg-type-menu" class="lcg-menu-off"></div>
+
+</div>
+
+<style>
+/* ── Layout Card Generator ───────────────────────────────── */
+#lcg { font-size: 14px; }
+
+/* Toolbar */
+#lcg-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0 14px; border-bottom: 1px solid var(--light);
+  margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+}
+.lcg-tb-left, .lcg-tb-right { display: flex; align-items: center; gap: 10px; }
+#lcg-sample-link {
+  color: var(--orange); cursor: pointer; text-decoration: underline; font-size: 13px;
+}
+#lcg-sample-link:hover { opacity: .8; }
+#lcg-import-btn {
+  font-size: 12px; padding: 4px 12px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: transparent; color: var(--orange); font-family: inherit; box-shadow: none;
+}
+#lcg-import-btn:hover { background: var(--orange); color: #fff; }
+.lcg-dark-label { font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+
+/* Split pane */
+#lcg-main {
+  display: grid; grid-template-columns: 340px 1fr; gap: 16px; align-items: start;
+}
+
+/* ── Editor (left) ── */
+#lcg-editor {
+  display: flex; flex-direction: column;
+  background: var(--subtle-bg); border-radius: 8px; overflow: hidden;
+  border: 1px solid var(--light);
+}
+.lcg-panel-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 12px; background: var(--light);
+  font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--text);
+}
+[data-theme="dark"] .lcg-panel-hd { background: #1e1e1e; }
+
+#lcg-add-root-btn {
+  font-size: 11px; color: var(--orange); cursor: pointer;
+  padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
+}
+#lcg-add-root-btn:hover { border-color: var(--orange); }
+
+#lcg-tree { min-height: 120px; max-height: 320px; overflow-y: auto; padding: 4px 0; }
+#lcg-props { min-height: 60px; max-height: 480px; overflow-y: auto; }
+
+.lcg-scroll::-webkit-scrollbar { width: 5px; }
+.lcg-scroll::-webkit-scrollbar-thumb { background: var(--light); border-radius: 3px; }
+
+/* Tree nodes */
+.lcg-tree-empty, .lcg-props-empty {
+  padding: 14px 14px; color: var(--text); opacity: .5; font-size: 12px;
+}
+.lcg-tree-node {
+  display: flex; align-items: center; gap: 3px;
+  padding: 3px 8px 3px 0; cursor: pointer;
+  border-left: 2px solid transparent; transition: background .08s;
+  user-select: none; position: relative;
+}
+.lcg-tree-node:hover { background: var(--input); }
+.lcg-sel { background: rgba(255,69,0,.09) !important; border-left-color: var(--orange) !important; }
+.lcg-drag-over { background: rgba(255,69,0,.18) !important; outline: 1px dashed var(--orange); }
+
+.lcg-n-indent { flex-shrink: 0; }
+.lcg-n-tog {
+  width: 14px; height: 14px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; opacity: .45; cursor: pointer;
+}
+.lcg-n-tog:hover { opacity: 1; }
+.lcg-n-type {
+  font-weight: 700; font-size: 11px; color: var(--orange);
+  flex-shrink: 0; min-width: 54px;
+}
+.lcg-n-prev {
+  font-size: 11px; opacity: .55; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap; max-width: 90px;
+}
+.lcg-n-acts {
+  display: none; align-items: center; gap: 1px; margin-left: auto; flex-shrink: 0;
+}
+.lcg-tree-node:hover .lcg-n-acts,
+.lcg-sel .lcg-n-acts { display: flex; }
+.lcg-n-btn {
+  background: none; border: none; padding: 1px 4px; cursor: pointer;
+  font-size: 13px; color: var(--text); border-radius: 3px; box-shadow: none;
+  line-height: 1.4;
+}
+.lcg-n-btn:hover { background: var(--light); }
+.lcg-n-del:hover { color: #c30000; }
+
+/* Properties */
+.lcg-props-form { padding: 0; }
+.lcg-type-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 12px 6px; border-bottom: 1px solid var(--light);
+}
+.lcg-type-row label {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .04em; opacity: .6; white-space: nowrap;
+}
+.lcg-type-row select {
+  flex: 1; font-size: 12px; padding: 3px 6px;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--orange); font-weight: 700;
+  font-family: inherit;
+}
+.lcg-sec { border-bottom: 1px solid var(--light); }
+.lcg-sec-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 6px 12px; cursor: pointer; font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .03em; background: none; user-select: none;
+}
+.lcg-sec-hd:hover { background: var(--input); }
+.lcg-sec-tog { font-size: 9px; opacity: .45; }
+.lcg-sec-body { padding: 4px 12px 10px; }
+
+.lcg-f { margin-bottom: 7px; }
+.lcg-f label {
+  display: block; font-size: 11px; font-weight: 600; opacity: .65; margin-bottom: 2px;
+}
+.lcg-f input[type="text"],
+.lcg-f input[type="number"],
+.lcg-f input[type="url"],
+.lcg-f textarea,
+.lcg-f select {
+  width: 100%; box-sizing: border-box; font-size: 12px; padding: 4px 7px;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--text); font-family: inherit;
+}
+.lcg-f textarea { min-height: 56px; resize: vertical; }
+.lcg-cb-label {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 400; opacity: 1 !important; cursor: pointer;
+}
+.lcg-cb-label input { width: auto; flex-shrink: 0; }
+.lcg-color-row { display: flex; align-items: center; gap: 6px; }
+.lcg-swatch {
+  width: 26px; height: 22px; border-radius: 4px;
+  border: 1px solid var(--light); flex-shrink: 0; background: transparent;
+}
+
+/* ── Right pane ── */
+#lcg-right { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+
+#lcg-preview-controls {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 8px 12px; background: var(--subtle-bg); border-radius: 8px; font-size: 13px;
+  border: 1px solid var(--light);
+}
+#lcg-preview-controls label { font-size: 11px; font-weight: 700; opacity: .7; }
+#lcg-w-range { flex: 1; min-width: 80px; max-width: 200px; }
+#lcg-w-num { width: 58px !important; }
+
+#lcg-preview-scroll {
+  overflow-x: auto; padding: 16px;
+  background: var(--subtle-bg); border-radius: 8px;
+  border: 1px solid var(--light);
+}
+#lcg-phone { margin: 0 auto; transition: width .12s ease; }
+
+.lcg-card-wrap {
+  background: #FFFFFF; border-radius: 12px; padding: 16px;
+  overflow: hidden; box-sizing: border-box; min-height: 32px;
+  font-family: 'Roboto', sans-serif; font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
+}
+.lcg-card-wrap.lcg-dark { background: #252525; }
+
+.lcg-card-wrap .lcg-act { cursor: pointer; }
+.lcg-card-wrap .lcg-act:hover {
+  outline: 2px solid rgba(0,0,0,.15); outline-offset: -2px;
+}
+.lcg-card-wrap.lcg-dark .lcg-act:hover { outline-color: rgba(255,255,255,.2); }
+.lcg-card-wrap .lcg-md p { margin: 0; }
+.lcg-card-wrap .lcg-md p + p { margin-top: 4px; }
+.lcg-card-wrap .lcg-md ul,
+.lcg-card-wrap .lcg-md ol { margin: 2px 0; padding-left: 20px; }
+.lcg-prev-empty {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 80px; color: #aaa; font-size: 13px; font-family: 'Roboto', sans-serif;
+}
+
+/* JSON output */
+#lcg-json-section {
+  background: var(--subtle-bg); border-radius: 8px; padding: 10px 12px;
+  border: 1px solid var(--light);
+}
+#lcg-json-hd {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;
+}
+.lcg-cnt-green { color: #15B007; font-size: 12px; font-weight: 700; }
+.lcg-cnt-amber { color: #d97706; font-size: 12px; font-weight: 700; }
+.lcg-cnt-red   { color: #c30000; font-size: 12px; font-weight: 700; }
+#lcg-cnt-warn  { font-size: 11px; color: #d97706; flex: 1; }
+.lcg-json-btns { display: flex; gap: 6px; margin-left: auto; }
+.lcg-json-btns button {
+  font-size: 12px; padding: 3px 10px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: transparent; color: var(--orange); font-family: inherit; box-shadow: none;
+}
+.lcg-json-btns button:hover { background: var(--orange); color: #fff; }
+#lcg-json-out {
+  width: 100%; box-sizing: border-box;
+  font-family: 'SF Mono', 'Consolas', monospace; font-size: 11px;
+  padding: 7px 9px; border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--text); resize: vertical; min-height: 72px;
+}
+
+/* Import modal */
+#lcg-import-modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.4);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; backdrop-filter: blur(2px);
+}
+#lcg-import-modal.lcg-modal-off { display: none; }
+#lcg-import-dlg {
+  background: var(--background); border-radius: 12px; padding: 20px 24px;
+  width: min(540px, calc(100vw - 32px));
+  box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+.lcg-modal-hd {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;
+}
+.lcg-modal-hd strong { font-size: 15px; }
+#lcg-import-close {
+  background: none; border: none; font-size: 20px; cursor: pointer;
+  padding: 0 4px; color: var(--text); line-height: 1; box-shadow: none;
+}
+.lcg-modal-hint { font-size: 13px; margin: 0 0 8px; opacity: .7; }
+#lcg-import-ta {
+  width: 100%; box-sizing: border-box;
+  font-family: 'SF Mono', 'Consolas', monospace; font-size: 12px;
+  padding: 8px; border: 1px solid var(--light); border-radius: 6px;
+  background: var(--subtle-bg); color: var(--text);
+  resize: vertical; min-height: 130px;
+}
+.lcg-err {
+  font-size: 12px; color: #c30000; margin-top: 6px;
+  padding: 5px 8px; background: rgba(195,0,0,.07);
+  border-radius: 4px; border-left: 3px solid #c30000;
+}
+.lcg-err-off { display: none; }
+.lcg-modal-ft {
+  display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px;
+}
+.lcg-modal-ft button { font-size: 13px; border-radius: 5px; cursor: pointer; font-family: inherit; }
+#lcg-import-cancel {
+  background: none; border: 1px solid var(--light); color: var(--text);
+  box-shadow: none; padding: 6px 16px;
+}
+#lcg-import-cancel:hover { background: var(--subtle-bg); }
+
+/* Type dropdown menu */
+#lcg-type-menu {
+  position: fixed; background: var(--background);
+  border: 1px solid var(--light); border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.15); z-index: 9999;
+  min-width: 120px; padding: 4px 0; overflow: hidden;
+}
+#lcg-type-menu.lcg-menu-off { display: none; }
+.lcg-t-opt {
+  padding: 6px 14px; cursor: pointer; font-size: 13px; color: var(--text);
+}
+.lcg-t-opt:hover { background: rgba(255,69,0,.08); color: var(--orange); }
+
+/* Dark input overrides */
+[data-theme="dark"] .lcg-f input,
+[data-theme="dark"] .lcg-f textarea,
+[data-theme="dark"] .lcg-f select,
+[data-theme="dark"] .lcg-type-row select,
+[data-theme="dark"] #lcg-import-ta,
+[data-theme="dark"] #lcg-json-out {
+  background: var(--input); border-color: #3f3f3f;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  #lcg-main { grid-template-columns: 1fr; }
+  #lcg-tree { max-height: 220px; }
+  #lcg-props { max-height: 300px; }
+}
+</style>
+
+<script>
+(function () {
+'use strict';
+
+/* ── SAMPLE ─────────────────────────────────────────────── */
+const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":24},{"type":"box","fillMaxWidth":true,"fillMaxHeight":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":24},{"type":"column","fillMaxWidth":true,"fillMaxHeight":true,"verticalArrangement":"bottom","paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
+
+/* ── STATE ───────────────────────────────────────────────── */
+const S = {
+  spec: null,
+  sel: null,        // selected path (array) or null
+  dark: false,
+  pw: 360,          // preview width px
+  collapsed: new Set(),   // path keys of collapsed tree nodes
+  secState: {},           // section key -> bool (true=open)
+};
+
+/* ── PATH HELPERS ────────────────────────────────────────── */
+const pk = p => JSON.stringify(p);
+
+function gn(root, path) {
+  let n = root;
+  for (const i of path) {
+    if (!n || !n.children || i >= n.children.length) return null;
+    n = n.children[i];
+  }
+  return n;
+}
+
+function delNode(root, path) {
+  if (!path.length) return null;
+  const par = gn(root, path.slice(0, -1));
+  if (!par || !par.children) return root;
+  par.children.splice(path[path.length - 1], 1);
+  if (!par.children.length) delete par.children;
+  return root;
+}
+
+function addChild(root, pPath, type) {
+  const par = gn(root, pPath);
+  if (!par) return null;
+  if (!par.children) par.children = [];
+  par.children.push({ type });
+  return [...pPath, par.children.length - 1];
+}
+
+function moveNode(root, path, dir) {
+  if (!path.length) return null;
+  const pp = path.slice(0, -1);
+  const par = gn(root, pp);
+  if (!par || !par.children) return null;
+  const i = path[path.length - 1], j = i + dir;
+  if (j < 0 || j >= par.children.length) return null;
+  [par.children[i], par.children[j]] = [par.children[j], par.children[i]];
+  return [...pp, j];
+}
+
+/* ── COLOUR ─────────────────────────────────────────────── */
+function toCSS(hex) {
+  if (!hex || typeof hex !== 'string') return null;
+  const h = hex.replace('#', '');
+  if (h.length === 8) {
+    const a = parseInt(h.slice(0,2), 16) / 255;
+    const r = parseInt(h.slice(2,4), 16);
+    const g = parseInt(h.slice(4,6), 16);
+    const b = parseInt(h.slice(6,8), 16);
+    return 'rgba(' + r + ',' + g + ',' + b + ',' + a.toFixed(3) + ')';
+  }
+  return hex;
+}
+
+/* ── PREVIEW CONSTANTS ───────────────────────────────────── */
+const ARR = {
+  top:'flex-start', start:'flex-start', center:'center', centre:'center',
+  bottom:'flex-end', end:'flex-end', right:'flex-end',
+  space_between:'space-between', space_around:'space-around', space_evenly:'space-evenly',
+};
+const CA = {
+  top_start:'start start', top_center:'start center', top_end:'start end',
+  center_start:'center start', center:'center center', center_end:'center end',
+  bottom_start:'end start', bottom_center:'end center', bottom_end:'end end',
+};
+const SC = {
+  crop:'cover', fit:'contain', fill_bounds:'fill',
+  fill_width:'cover', fill_height:'cover', inside:'scale-down', none:'none',
+};
+const TYP = {
+  displayLarge:  {fs:'57px',fw:'400',ls:'-0.25px',lh:'64px'},
+  displayMedium: {fs:'45px',fw:'400',ls:'0px',    lh:'52px'},
+  displaySmall:  {fs:'36px',fw:'400',ls:'0px',    lh:'44px'},
+  headlineLarge: {fs:'32px',fw:'400',ls:'0px',    lh:'40px'},
+  headlineMedium:{fs:'28px',fw:'400',ls:'0px',    lh:'36px'},
+  headlineSmall: {fs:'24px',fw:'400',ls:'0px',    lh:'32px'},
+  titleLarge:    {fs:'22px',fw:'400',ls:'0px',    lh:'28px'},
+  titleMedium:   {fs:'16px',fw:'500',ls:'0.15px', lh:'24px'},
+  titleSmall:    {fs:'14px',fw:'500',ls:'0.10px', lh:'20px'},
+  bodyLarge:     {fs:'16px',fw:'400',ls:'0.50px', lh:'24px'},
+  bodyMedium:    {fs:'14px',fw:'400',ls:'0.25px', lh:'20px'},
+  bodySmall:     {fs:'12px',fw:'400',ls:'0.40px', lh:'16px'},
+  labelLarge:    {fs:'14px',fw:'500',ls:'0.10px', lh:'20px'},
+  labelMedium:   {fs:'12px',fw:'500',ls:'0.50px', lh:'16px'},
+  labelSmall:    {fs:'11px',fw:'500',ls:'0.50px', lh:'16px'},
+};
+const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
+
+function applyBase(el, n) {
+  if (n.fillMaxWidth) el.style.width = '100%';
+  if (n.fillMaxHeight) el.style.height = '100%';
+  if (n.widthDp != null) el.style.width = n.widthDp + 'px';
+  if (n.heightDp != null) el.style.height = n.heightDp + 'px';
+  if (n.minWidthDp != null) el.style.minWidth = n.minWidthDp + 'px';
+  if (n.maxWidthDp != null) el.style.maxWidth = n.maxWidthDp + 'px';
+  if (n.minHeightDp != null) el.style.minHeight = n.minHeightDp + 'px';
+  const pt = n.paddingTopDp    ?? n.paddingVerticalDp   ?? n.paddingDp ?? 0;
+  const pr = n.paddingEndDp    ?? n.paddingHorizontalDp ?? n.paddingDp ?? 0;
+  const pb = n.paddingBottomDp ?? n.paddingVerticalDp   ?? n.paddingDp ?? 0;
+  const pl = n.paddingStartDp  ?? n.paddingHorizontalDp ?? n.paddingDp ?? 0;
+  if (pt || pr || pb || pl) el.style.padding = pt+'px '+pr+'px '+pb+'px '+pl+'px';
+  const r = n.cornerRadiusDp ?? (n.backgroundColor ? 20 : 0);
+  if (n.backgroundColor) {
+    const c = toCSS(n.backgroundColor);
+    if (c) el.style.backgroundColor = c;
+    el.style.borderRadius = r + 'px';
+    el.style.overflow = 'hidden';
+  } else if (n.cornerRadiusDp != null) {
+    el.style.borderRadius = n.cornerRadiusDp + 'px';
+  }
+  if (n.alpha != null) el.style.opacity = String(Math.max(0, Math.min(1, n.alpha)));
+  if (n.weight != null) { el.style.flex = n.weight + ' 1 0px'; el.style.minWidth = '0'; }
+}
+
+function mkNode(n, dark) {
+  const base = dark ? '#FFFFFF' : '#333333';
+
+  if (n.type === 'image') {
+    const w = document.createElement('div');
+    applyBase(w, n);
+    w.style.overflow = 'hidden';
+    if (n.aspectRatio) w.style.aspectRatio = String(n.aspectRatio);
+    if (n.actionUrl) w.classList.add('lcg-act');
+    const img = document.createElement('img');
+    img.src = n.imageUrl || '';
+    img.alt = n.contentDescription || '';
+    img.style.cssText = 'display:block;width:100%;height:100%';
+    img.style.objectFit = SC[n.contentScale] || 'cover';
+    w.appendChild(img);
+    return w;
+  }
+
+  const el = document.createElement('div');
+  applyBase(el, n);
+  if (n.actionUrl) el.classList.add('lcg-act');
+
+  switch (n.type) {
+    case 'box': {
+      el.style.display = 'grid';
+      el.style.gridTemplateAreas = '"s"';
+      el.style.placeItems = CA[n.contentAlignment] || 'start start';
+      (n.children || []).forEach(c => {
+        const ce = mkNode(c, dark);
+        ce.style.gridArea = 's';
+        if (c.fillMaxHeight) ce.style.alignSelf = 'stretch';
+        if (c.fillMaxWidth) { ce.style.justifySelf = 'stretch'; ce.style.width = '100%'; }
+        el.appendChild(ce);
+      });
+      break;
+    }
+    case 'column': {
+      el.style.cssText += ';display:flex;flex-direction:column;min-width:0';
+      if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
+      el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
+      el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
+      (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      break;
+    }
+    case 'row': {
+      el.style.cssText += ';display:flex;flex-direction:row;min-width:0;flex-wrap:nowrap';
+      if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
+      el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
+      el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
+      (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      el.dataset.row = JSON.stringify({
+        cb: n.collapseBelowDp,
+        sp: n.spacingDp || 0,
+        mw: (n.children || []).map(c => c.minWidthDp || 0),
+      });
+      break;
+    }
+    case 'text': {
+      el.style.minWidth = '0';
+      el.style.wordBreak = 'break-word';
+      el.style.whiteSpace = 'pre-wrap';
+      const t = TYP[n.style] || TYP.bodyMedium;
+      el.style.fontSize = t.fs; el.style.fontWeight = t.fw;
+      el.style.letterSpacing = t.ls; el.style.lineHeight = t.lh;
+      if (n.fontSizeSp) el.style.fontSize = n.fontSizeSp + 'px';
+      if (n.fontWeight) el.style.fontWeight = FW[n.fontWeight] || n.fontWeight;
+      if (n.fontStyle === 'italic') el.style.fontStyle = 'italic';
+      if (n.textAlign) {
+        const ta = n.textAlign === 'centre' ? 'center'
+          : (n.textAlign === 'right' || n.textAlign === 'end') ? 'right' : n.textAlign;
+        el.style.textAlign = ta;
+      }
+      const c = n.color ? toCSS(n.color) : base;
+      if (c) el.style.color = c;
+      el.textContent = n.text || '';
+      break;
+    }
+    case 'spacer': {
+      el.style.display = 'block'; el.style.flexShrink = '0';
+      if (n.widthDp != null && n.heightDp != null) { /* already applied */ }
+      else if (n.spacingDp != null) el.style.height = n.spacingDp + 'px';
+      else { el.style.width = '8px'; el.style.height = '8px'; }
+      break;
+    }
+    case 'divider': {
+      el.style.cssText += ';width:100%;height:1px;border:none';
+      const dc = n.color ? toCSS(n.color) : (dark ? '#49454F' : '#CAC4D0');
+      if (dc) el.style.backgroundColor = dc;
+      break;
+    }
+    case 'markdown': {
+      el.style.minWidth = '0'; el.style.wordBreak = 'break-word';
+      el.classList.add('lcg-md');
+      el.style.color = base;
+      if (typeof marked !== 'undefined') {
+        el.innerHTML = marked.parse(n.text || '');
+      } else {
+        const p = document.createElement('pre');
+        p.style.whiteSpace = 'pre-wrap'; p.textContent = n.text || '';
+        el.appendChild(p);
+      }
+      break;
+    }
+    default: break;
+  }
+  return el;
+}
+
+function collapseRows(container, cw) {
+  container.querySelectorAll('[data-row]').forEach(rowEl => {
+    try {
+      const d = JSON.parse(rowEl.dataset.row);
+      let collapse = false;
+      if (d.cb && cw <= d.cb) { collapse = true; }
+      else if (d.mw.some(v => v > 0)) {
+        const req = d.mw.reduce((a,b) => a+b, 0) + (d.mw.length - 1) * d.sp;
+        if (cw < req) collapse = true;
+      }
+      rowEl.style.flexDirection = collapse ? 'column' : 'row';
+      if (collapse) {
+        rowEl.querySelectorAll(':scope > *').forEach(c => {
+          if (c.style.flex) { c.style.flex = ''; c.style.width = '100%'; }
+        });
+      }
+    } catch (e) {}
+  });
+}
+
+/* ── TREE ────────────────────────────────────────────────── */
+const CONTAINERS = new Set(['box', 'column', 'row']);
+const ALL_TYPES  = ['box', 'column', 'row', 'text', 'image', 'markdown', 'spacer', 'divider'];
+
+function renderTree() {
+  const el = document.getElementById('lcg-tree');
+  const rootBtn = document.getElementById('lcg-add-root-btn');
+  if (!S.spec) {
+    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded — add a root node to start.</div>';
+    rootBtn.style.display = '';
+    return;
+  }
+  rootBtn.style.display = 'none';
+  el.innerHTML = '';
+  walkTree(S.spec, [], el);
+  const sel = el.querySelector('.lcg-sel');
+  if (sel) sel.scrollIntoView({ block: 'nearest' });
+}
+
+function walkTree(n, path, container) {
+  const depth = path.length;
+  const key = pk(path);
+  const isCollapsed = S.collapsed.has(key);
+  const hasKids = !!(n.children && n.children.length);
+  const isSel = S.sel !== null && pk(S.sel) === key;
+
+  const row = document.createElement('div');
+  row.className = 'lcg-tree-node' + (isSel ? ' lcg-sel' : '');
+  row.dataset.path = key;
+  if (depth > 0) { row.draggable = true; row.dataset.draggable = '1'; }
+
+  const ind = document.createElement('span');
+  ind.className = 'lcg-n-indent';
+  ind.style.paddingLeft = (depth * 16 + 6) + 'px';
+  row.appendChild(ind);
+
+  const tog = document.createElement('span');
+  tog.className = 'lcg-n-tog';
+  tog.dataset.tpath = key;
+  tog.textContent = hasKids ? (isCollapsed ? '▶' : '▼') : '·';
+  row.appendChild(tog);
+
+  const type = document.createElement('span');
+  type.className = 'lcg-n-type';
+  type.textContent = n.type;
+  row.appendChild(type);
+
+  const prev = document.createElement('span');
+  prev.className = 'lcg-n-prev';
+  if (n.type === 'text' || n.type === 'markdown') prev.textContent = (n.text || '').slice(0, 22);
+  else if (n.type === 'image') prev.textContent = n.imageUrl ? '↗ image' : '';
+  row.appendChild(prev);
+
+  const acts = document.createElement('span');
+  acts.className = 'lcg-n-acts';
+
+  if (CONTAINERS.has(n.type)) {
+    const ab = btn('+', 'Add child'); ab.dataset.addp = key; acts.appendChild(ab);
+  }
+  if (depth > 0) {
+    const ub = btn('↑', 'Move up');   ub.dataset.mvup = key;  acts.appendChild(ub);
+    const db = btn('↓', 'Move down'); db.dataset.mvdn = key;  acts.appendChild(db);
+  }
+  const xb = btn('✕', depth === 0 ? 'Clear all' : 'Delete');
+  xb.classList.add('lcg-n-del'); xb.dataset.del = key;
+  acts.appendChild(xb);
+
+  row.appendChild(acts);
+  container.appendChild(row);
+
+  if (hasKids && !isCollapsed) {
+    n.children.forEach((c, i) => walkTree(c, [...path, i], container));
+  }
+}
+
+function btn(txt, title) {
+  const b = document.createElement('button');
+  b.className = 'lcg-n-btn'; b.title = title; b.textContent = txt;
+  return b;
+}
+
+/* ── PROPERTIES ─────────────────────────────────────────── */
+const STYLES_OPTS = ['','displayLarge','displayMedium','displaySmall',
+  'headlineLarge','headlineMedium','headlineSmall',
+  'titleLarge','titleMedium','titleSmall',
+  'bodyLarge','bodyMedium','bodySmall',
+  'labelLarge','labelMedium','labelSmall'];
+
+function renderProps() {
+  const el = document.getElementById('lcg-props');
+  const title = document.getElementById('lcg-props-title');
+  if (S.sel === null || !S.spec) {
+    title.textContent = 'Properties';
+    el.innerHTML = '<div class="lcg-props-empty">Select a node to edit its properties.</div>';
+    return;
+  }
+  const n = gn(S.spec, S.sel);
+  if (!n) { el.innerHTML = '<div class="lcg-props-empty">Node not found.</div>'; return; }
+  title.textContent = 'Properties';
+  el.innerHTML = '';
+  const form = document.createElement('div');
+  form.className = 'lcg-props-form';
+
+  // Type selector
+  const tr = document.createElement('div'); tr.className = 'lcg-type-row';
+  tr.innerHTML = '<label>Type</label>';
+  const ts = document.createElement('select'); ts.dataset.field = 'type';
+  ALL_TYPES.forEach(t => {
+    const o = document.createElement('option');
+    o.value = t; o.textContent = t;
+    if (t === n.type) o.selected = true;
+    ts.appendChild(o);
+  });
+  tr.appendChild(ts); form.appendChild(tr);
+
+  // Content fields
+  const cf = contentFields(n);
+  if (cf.length) form.appendChild(mkSec('Content', cf, n, 'content'));
+
+  // Layout fields
+  const lf = layoutFields(n);
+  if (lf.length) form.appendChild(mkSec('Layout', lf, n, 'layout'));
+
+  // Padding
+  form.appendChild(mkSec('Padding', [
+    {f:'paddingDp',         l:'All (dp)',        t:'number'},
+    {f:'paddingHorizontalDp',l:'Horizontal (dp)', t:'number'},
+    {f:'paddingVerticalDp', l:'Vertical (dp)',   t:'number'},
+    {f:'paddingStartDp',    l:'Start (dp)',      t:'number'},
+    {f:'paddingTopDp',      l:'Top (dp)',        t:'number'},
+    {f:'paddingEndDp',      l:'End (dp)',        t:'number'},
+    {f:'paddingBottomDp',   l:'Bottom (dp)',     t:'number'},
+  ], n, 'padding'));
+
+  // Appearance
+  form.appendChild(mkSec('Appearance', [
+    {f:'backgroundColor', l:'Background colour', t:'color'},
+    {f:'cornerRadiusDp',  l:'Corner radius (dp)', t:'number'},
+    {f:'alpha',           l:'Alpha (0–1)',  t:'number', step:'0.01', min:'0', max:'1'},
+    {f:'actionUrl',       l:'Action URL',  t:'url'},
+  ], n, 'appearance'));
+
+  el.appendChild(form);
+}
+
+function contentFields(n) {
+  switch (n.type) {
+    case 'text': return [
+      {f:'text',      l:'Text',        t:'textarea'},
+      {f:'style',     l:'Style',       t:'select', opts: STYLES_OPTS},
+      {f:'fontSizeSp',l:'Font size (sp)', t:'number'},
+      {f:'fontWeight',l:'Font weight', t:'select', opts:['','light','medium','semi_bold','bold']},
+      {f:'fontStyle', l:'Font style',  t:'select', opts:['','italic']},
+      {f:'textAlign', l:'Text align',  t:'select', opts:['','start','center','end','justify']},
+      {f:'color',     l:'Colour',      t:'color'},
+    ];
+    case 'markdown': return [{f:'text', l:'Markdown', t:'textarea'}];
+    case 'image': return [
+      {f:'imageUrl',          l:'Image URL',         t:'text'},
+      {f:'contentDescription',l:'Content description',t:'text'},
+      {f:'aspectRatio',       l:'Aspect ratio',       t:'number', step:'0.01'},
+      {f:'contentScale',      l:'Content scale', t:'select',
+        opts:['','crop','fit','fill_bounds','fill_width','fill_height','inside','none']},
+    ];
+    case 'divider': return [{f:'color', l:'Colour', t:'color'}];
+    default: return [];
+  }
+}
+
+function layoutFields(n) {
+  const base = [
+    {f:'fillMaxWidth', l:'Fill max width',   t:'checkbox'},
+    {f:'fillMaxHeight',l:'Fill max height',  t:'checkbox'},
+    {f:'widthDp',      l:'Width (dp)',        t:'number'},
+    {f:'heightDp',     l:'Height (dp)',       t:'number'},
+    {f:'minWidthDp',   l:'Min width (dp)',    t:'number'},
+    {f:'maxWidthDp',   l:'Max width (dp)',    t:'number'},
+    {f:'minHeightDp',  l:'Min height (dp)',   t:'number'},
+    {f:'weight',       l:'Weight',            t:'number', step:'0.1'},
+  ];
+  if (n.type === 'spacer') return [
+    {f:'widthDp',  l:'Width (dp)',   t:'number'},
+    {f:'heightDp', l:'Height (dp)',  t:'number'},
+    {f:'spacingDp',l:'Spacing (dp)', t:'number'},
+  ];
+  const extras = {
+    box:    [{f:'contentAlignment', l:'Content alignment', t:'select',
+               opts:['','top_start','top_center','top_end','center_start','center','center_end','bottom_start','bottom_center','bottom_end']}],
+    column: [
+      {f:'spacingDp',           l:'Spacing (dp)',          t:'number'},
+      {f:'verticalArrangement', l:'Vertical arrangement',  t:'select',
+        opts:['','top','center','bottom','space_between','space_around','space_evenly']},
+      {f:'horizontalAlignment', l:'Horizontal alignment',  t:'select',
+        opts:['','start','center','end']},
+    ],
+    row: [
+      {f:'spacingDp',             l:'Spacing (dp)',           t:'number'},
+      {f:'horizontalArrangement', l:'Horizontal arrangement', t:'select',
+        opts:['','start','center','end','space_between','space_around','space_evenly']},
+      {f:'verticalAlignment',     l:'Vertical alignment',     t:'select',
+        opts:['','top','center','bottom']},
+      {f:'collapseBelowDp',       l:'Collapse below (dp)',    t:'number'},
+    ],
+  };
+  return [...base, ...(extras[n.type] || [])];
+}
+
+function mkSec(title, fields, n, key) {
+  const sec = document.createElement('div'); sec.className = 'lcg-sec';
+  const isOpen = S.secState[key] !== false;
+
+  const hd = document.createElement('div'); hd.className = 'lcg-sec-hd'; hd.dataset.sec = key;
+  hd.innerHTML = '<span>' + title + '</span><span class="lcg-sec-tog">' + (isOpen ? '▼' : '▶') + '</span>';
+  sec.appendChild(hd);
+
+  const body = document.createElement('div'); body.className = 'lcg-sec-body';
+  if (!isOpen) body.style.display = 'none';
+
+  fields.forEach(fd => {
+    const div = document.createElement('div'); div.className = 'lcg-f';
+
+    if (fd.t === 'checkbox') {
+      const lbl = document.createElement('label'); lbl.className = 'lcg-cb-label';
+      const cb = document.createElement('input'); cb.type = 'checkbox';
+      cb.checked = !!n[fd.f]; cb.dataset.field = fd.f;
+      lbl.appendChild(cb);
+      lbl.appendChild(document.createTextNode(' ' + fd.l));
+      div.appendChild(lbl);
+    } else if (fd.t === 'color') {
+      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      div.appendChild(lbl);
+      const row = document.createElement('div'); row.className = 'lcg-color-row';
+      const sw = document.createElement('span'); sw.className = 'lcg-swatch';
+      sw.style.backgroundColor = toCSS(n[fd.f]) || 'transparent';
+      row.appendChild(sw);
+      const inp = document.createElement('input'); inp.type = 'text';
+      inp.value = n[fd.f] || ''; inp.placeholder = '#AARRGGBB or #RRGGBB';
+      inp.dataset.field = fd.f; inp.dataset.swatch = '1';
+      row.appendChild(inp); div.appendChild(row);
+    } else if (fd.t === 'select') {
+      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      div.appendChild(lbl);
+      const sel = document.createElement('select'); sel.dataset.field = fd.f;
+      (fd.opts || []).forEach(o => {
+        const op = document.createElement('option');
+        op.value = o; op.textContent = o || '— none —';
+        if (o === (n[fd.f] || '')) op.selected = true;
+        sel.appendChild(op);
+      });
+      div.appendChild(sel);
+    } else if (fd.t === 'textarea') {
+      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      div.appendChild(lbl);
+      const ta = document.createElement('textarea'); ta.value = n[fd.f] || '';
+      ta.dataset.field = fd.f; div.appendChild(ta);
+    } else {
+      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      div.appendChild(lbl);
+      const inp = document.createElement('input'); inp.type = fd.t || 'text';
+      inp.value = n[fd.f] != null ? n[fd.f] : '';
+      inp.dataset.field = fd.f;
+      if (fd.step != null) inp.step = fd.step;
+      if (fd.min  != null) inp.min  = fd.min;
+      if (fd.max  != null) inp.max  = fd.max;
+      div.appendChild(inp);
+    }
+    body.appendChild(div);
+  });
+
+  sec.appendChild(body);
+  return sec;
+}
+
+/* ── PREVIEW ─────────────────────────────────────────────── */
+let roObs = null;
+
+function renderPreview() {
+  const card = document.getElementById('lcg-card');
+  if (roObs) { roObs.disconnect(); roObs = null; }
+  card.className = 'lcg-card-wrap' + (S.dark ? ' lcg-dark' : '');
+  card.innerHTML = '';
+
+  if (!S.spec) {
+    card.innerHTML = '<div class="lcg-prev-empty">No spec loaded.</div>';
+    return;
+  }
+  try {
+    card.appendChild(mkNode(S.spec, S.dark));
+    collapseRows(card, S.pw - 32);
+    roObs = new ResizeObserver(entries => {
+      for (const e of entries) collapseRows(card, e.contentRect.width);
+    });
+    roObs.observe(card);
+  } catch (e) {
+    card.innerHTML = '<div style="color:#c30000;font-family:Roboto,sans-serif;font-size:13px">Render error: ' + e.message + '</div>';
+  }
+}
+
+/* ── JSON ────────────────────────────────────────────────── */
+function updateJSON() {
+  const out  = document.getElementById('lcg-json-out');
+  const ctr  = document.getElementById('lcg-counter');
+  const warn = document.getElementById('lcg-cnt-warn');
+  if (!S.spec) {
+    out.value = ''; ctr.textContent = '0 chars';
+    ctr.className = 'lcg-cnt-green'; warn.textContent = '';
+    return;
+  }
+  const json = JSON.stringify(S.spec);
+  out.value = json;
+  const len = json.length;
+  const fmt = len.toLocaleString();
+  if (len <= 9999) {
+    ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-green'; warn.textContent = '';
+  } else if (len <= 20000) {
+    ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-amber';
+    warn.textContent = 'Large spec — may approach delivery limits depending on your EMM.';
+  } else {
+    ctr.textContent = fmt + ' chars — exceeds recommended limit';
+    ctr.className = 'lcg-cnt-red';
+    warn.textContent = 'Specs over 20,000 chars may not deliver reliably.';
+  }
+}
+
+function renderAll() { renderTree(); renderProps(); renderPreview(); updateJSON(); }
+
+/* ── IMPORT ─────────────────────────────────────────────── */
+function parseImport(str) {
+  let p;
+  try { p = JSON.parse(str.trim()); } catch (e) { return { err: 'Invalid JSON: ' + e.message }; }
+  if (!p || typeof p !== 'object' || Array.isArray(p)) return { err: 'Root must be a JSON object.' };
+  if (!p.type || typeof p.type !== 'string') return { err: 'Root must have a "type" field.' };
+  if (!ALL_TYPES.includes(p.type)) return { err: 'Unknown type "' + p.type + '". Must be one of: ' + ALL_TYPES.join(', ') + '.' };
+  return { spec: p };
+}
+
+function closeImportModal() {
+  document.getElementById('lcg-import-modal').classList.add('lcg-modal-off');
+  document.getElementById('lcg-import-ta').value = '';
+  const e = document.getElementById('lcg-import-err');
+  e.className = 'lcg-err-off'; e.textContent = '';
+}
+
+/* ── TYPE MENU ───────────────────────────────────────────── */
+let menuPath = null;
+
+function showMenu(anchor, forPath) {
+  menuPath = forPath;
+  const m = document.getElementById('lcg-type-menu');
+  const r = anchor.getBoundingClientRect();
+  m.style.top  = (r.bottom + window.scrollY + 4) + 'px';
+  m.style.left = (r.left   + window.scrollX)     + 'px';
+  m.innerHTML  = '';
+  ALL_TYPES.forEach(t => {
+    const d = document.createElement('div'); d.className = 'lcg-t-opt';
+    d.textContent = t; d.dataset.mtype = t; m.appendChild(d);
+  });
+  m.classList.remove('lcg-menu-off');
+  setTimeout(() => document.addEventListener('click', closeMenu, { once: true }), 0);
+}
+
+function closeMenu() { document.getElementById('lcg-type-menu').classList.add('lcg-menu-off'); menuPath = null; }
+
+/* ── DRAG-DROP ───────────────────────────────────────────── */
+let dragP = null;
+
+function setupDragDrop() {
+  const tree = document.getElementById('lcg-tree');
+  tree.addEventListener('dragstart', e => {
+    const row = e.target.closest('.lcg-tree-node[data-draggable]');
+    if (!row) return;
+    dragP = JSON.parse(row.dataset.path);
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', row.dataset.path);
+    setTimeout(() => { if (row.isConnected) row.style.opacity = '.4'; }, 0);
+  });
+  tree.addEventListener('dragend', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (row) row.style.opacity = '';
+    tree.querySelectorAll('.lcg-drag-over').forEach(r => r.classList.remove('lcg-drag-over'));
+    dragP = null;
+  });
+  tree.addEventListener('dragover', e => {
+    e.preventDefault(); e.dataTransfer.dropEffect = 'move';
+    tree.querySelectorAll('.lcg-drag-over').forEach(r => r.classList.remove('lcg-drag-over'));
+    const row = e.target.closest('.lcg-tree-node');
+    if (row && dragP) row.classList.add('lcg-drag-over');
+  });
+  tree.addEventListener('dragleave', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (row) row.classList.remove('lcg-drag-over');
+  });
+  tree.addEventListener('drop', e => {
+    e.preventDefault();
+    const row = e.target.closest('.lcg-tree-node');
+    if (!row || !dragP) return;
+    const tPath = JSON.parse(row.dataset.path);
+    const dKey  = pk(dragP), tKey = pk(tPath);
+    if (dKey === tKey) return;
+    // prevent dropping onto own descendant
+    if (tKey.startsWith(dKey.slice(0, -1))) return;
+    const tNode = gn(S.spec, tPath);
+    if (tNode && CONTAINERS.has(tNode.type)) {
+      // Move into container
+      const dragNode = JSON.parse(JSON.stringify(gn(S.spec, dragP)));
+      delNode(S.spec, dragP);
+      const np = addChild(S.spec, tPath, dragNode.type);
+      if (np) { const par = gn(S.spec, tPath); par.children[par.children.length - 1] = dragNode; S.sel = np; }
+    } else {
+      // Reorder within same parent
+      const dp = dragP.slice(0, -1), tp = tPath.slice(0, -1);
+      if (pk(dp) === pk(tp)) {
+        const par = gn(S.spec, dp);
+        if (par && par.children) {
+          const fi = dragP[dragP.length - 1], ti = tPath[tPath.length - 1];
+          const item = par.children.splice(fi, 1)[0];
+          par.children.splice(ti, 0, item);
+          S.sel = [...dp, ti];
+        }
+      }
+    }
+    renderAll();
+  });
+}
+
+/* ── INIT ────────────────────────────────────────────────── */
+function setWidth(w) {
+  S.pw = Math.max(280, Math.min(700, parseInt(w) || 360));
+  document.getElementById('lcg-phone').style.width = S.pw + 'px';
+  document.getElementById('lcg-w-range').value = S.pw;
+  document.getElementById('lcg-w-num').value   = S.pw;
+  renderPreview();
+}
+
+function init() {
+  setWidth(360);
+  renderAll();
+
+  // Sample
+  document.getElementById('lcg-sample-link').addEventListener('click', () => {
+    const r = parseImport(JSON.stringify(SAMPLE));
+    if (r.err) { alert(r.err); return; }
+    S.spec = r.spec; S.sel = null; S.collapsed.clear();
+    renderAll();
+  });
+
+  // Import modal
+  document.getElementById('lcg-import-btn').addEventListener('click', () => {
+    document.getElementById('lcg-import-modal').classList.remove('lcg-modal-off');
+    document.getElementById('lcg-import-ta').focus();
+  });
+  document.getElementById('lcg-import-close').addEventListener('click',  closeImportModal);
+  document.getElementById('lcg-import-cancel').addEventListener('click', closeImportModal);
+  document.getElementById('lcg-import-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-import-modal')) closeImportModal();
+  });
+  document.getElementById('lcg-import-ok').addEventListener('click', () => {
+    const str = document.getElementById('lcg-import-ta').value;
+    const r   = parseImport(str);
+    const err = document.getElementById('lcg-import-err');
+    if (r.err) {
+      err.textContent = r.err; err.className = 'lcg-err';
+    } else {
+      S.spec = r.spec; S.sel = null; S.collapsed.clear();
+      renderAll(); closeImportModal();
+    }
+  });
+
+  // Dark toggle
+  document.getElementById('lcg-dark-toggle').addEventListener('change', e => {
+    S.dark = e.target.checked; renderPreview();
+  });
+
+  // Width
+  document.getElementById('lcg-w-range').addEventListener('input',  e => setWidth(e.target.value));
+  document.getElementById('lcg-w-num').addEventListener('change',   e => setWidth(e.target.value));
+
+  // Add root
+  document.getElementById('lcg-add-root-btn').addEventListener('click', e => showMenu(e.target, []));
+
+  // Type menu
+  document.getElementById('lcg-type-menu').addEventListener('click', e => {
+    const item = e.target.closest('[data-mtype]');
+    if (!item || menuPath === null) return;
+    const type = item.dataset.mtype;
+    const p = menuPath;
+    if (p.length === 0 && !S.spec) {
+      S.spec = { type }; S.sel = [];
+    } else {
+      const np = addChild(S.spec, p, type);
+      if (np) S.sel = np;
+    }
+    renderAll(); closeMenu();
+  });
+
+  // Tree: clicks (delegated)
+  document.getElementById('lcg-tree').addEventListener('click', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (!row) return;
+    const path = JSON.parse(row.dataset.path);
+
+    // Toggle collapse
+    if (e.target.dataset.tpath !== undefined) {
+      const k = e.target.dataset.tpath;
+      S.collapsed.has(k) ? S.collapsed.delete(k) : S.collapsed.add(k);
+      renderTree(); return;
+    }
+    // Add child
+    if (e.target.dataset.addp !== undefined) {
+      e.stopPropagation();
+      showMenu(e.target, JSON.parse(e.target.dataset.addp)); return;
+    }
+    // Move up
+    if (e.target.dataset.mvup !== undefined) {
+      e.stopPropagation();
+      const np = moveNode(S.spec, JSON.parse(e.target.dataset.mvup), -1);
+      if (np) S.sel = np; renderAll(); return;
+    }
+    // Move down
+    if (e.target.dataset.mvdn !== undefined) {
+      e.stopPropagation();
+      const np = moveNode(S.spec, JSON.parse(e.target.dataset.mvdn), 1);
+      if (np) S.sel = np; renderAll(); return;
+    }
+    // Delete
+    if (e.target.dataset.del !== undefined) {
+      e.stopPropagation();
+      const dp = JSON.parse(e.target.dataset.del);
+      if (dp.length === 0) {
+        if (!confirm('Clear the entire spec?')) return;
+        S.spec = null; S.sel = null;
+      } else {
+        const dk = pk(dp), sk = S.sel ? pk(S.sel) : null;
+        if (sk && (sk === dk || sk.startsWith(dk.slice(0,-1) + ','))) {
+          S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
+        }
+        delNode(S.spec, dp);
+        if (S.sel && pk(S.sel) === dk) S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
+      }
+      renderAll(); return;
+    }
+    // Select
+    S.sel = path; renderTree(); renderProps();
+  });
+
+  setupDragDrop();
+
+  // Props: change/input (delegated)
+  const propsEl = document.getElementById('lcg-props');
+  function onPropChange(e) {
+    const el = e.target;
+    if (!el.dataset.field || S.sel === null || !S.spec) return;
+    const n = gn(S.spec, S.sel);
+    if (!n) return;
+    const f = el.dataset.field;
+
+    // Type change
+    if (f === 'type') {
+      const v = el.value;
+      if (v === n.type) return;
+      const was = CONTAINERS.has(n.type), is = CONTAINERS.has(v);
+      if (was && !is && n.children && n.children.length) {
+        if (!confirm('Changing to "' + v + '" will remove ' + n.children.length + ' child node(s). Continue?')) {
+          el.value = n.type; return;
+        }
+      }
+      n.type = v;
+      if (!is) delete n.children;
+      renderAll(); return;
+    }
+
+    let v;
+    if (el.type === 'checkbox') {
+      v = el.checked;
+    } else if (el.type === 'number') {
+      v = el.value === '' ? undefined : parseFloat(el.value);
+    } else {
+      v = el.value === '' ? undefined : el.value;
+    }
+    if (v === undefined) delete n[f]; else n[f] = v;
+
+    if (el.dataset.swatch) {
+      const sw = el.closest('.lcg-color-row').querySelector('.lcg-swatch');
+      if (sw) sw.style.backgroundColor = toCSS(v || '') || 'transparent';
+    }
+    renderPreview(); updateJSON();
+  }
+  propsEl.addEventListener('change', onPropChange);
+  propsEl.addEventListener('input', e => {
+    if (e.target.tagName === 'TEXTAREA' || (e.target.tagName === 'INPUT' && e.target.type === 'text'))
+      onPropChange(e);
+  });
+
+  // Section toggle (delegated)
+  propsEl.addEventListener('click', e => {
+    const hd = e.target.closest('[data-sec]');
+    if (!hd) return;
+    const k = hd.dataset.sec;
+    const body = hd.nextElementSibling;
+    if (!body) return;
+    const open = body.style.display !== 'none';
+    body.style.display = open ? 'none' : '';
+    S.secState[k] = !open;
+    hd.querySelector('.lcg-sec-tog').textContent = open ? '▶' : '▼';
+  });
+
+  // JSON buttons
+  document.getElementById('lcg-copy-btn').addEventListener('click', () => {
+    const v = document.getElementById('lcg-json-out').value;
+    if (!v) return;
+    navigator.clipboard.writeText(v).then(() => {
+      const b = document.getElementById('lcg-copy-btn');
+      const o = b.textContent; b.textContent = 'Copied!';
+      setTimeout(() => { b.textContent = o; }, 1600);
+    });
+  });
+  document.getElementById('lcg-dl-btn').addEventListener('click', () => {
+    const v = document.getElementById('lcg-json-out').value;
+    if (!v) return;
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([v], { type: 'application/json' }));
+    a.download = 'layout-card-spec.json';
+    a.click(); URL.revokeObjectURL(a.href);
+  });
+
+  // Keyboard: Escape closes modals/menus
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (!document.getElementById('lcg-import-modal').classList.contains('lcg-modal-off')) closeImportModal();
+    if (!document.getElementById('lcg-type-menu').classList.contains('lcg-menu-off')) closeMenu();
+  });
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+else init();
+
+})();
+</script>
