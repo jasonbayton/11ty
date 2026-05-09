@@ -273,6 +273,9 @@ eleventyNavigation:
   font-family: 'Roboto', sans-serif; font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
 }
+/* Compose dp-based padding adds to a node's measured size; mirror
+   that with border-box so width/height percentages include padding. */
+.lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
 .lcg-card-wrap.lcg-dark { background: #252525; }
 
 .lcg-card-wrap .lcg-act { cursor: pointer; }
@@ -561,7 +564,11 @@ function mkNode(n, dark) {
       break;
     }
     case 'column': {
-      el.style.cssText += ';display:flex;flex-direction:column;min-width:0';
+      // min-height:0 lets the column shrink to its grid track when stacked
+      // inside a Box — without it, intrinsic content height overflows past
+      // the parent and verticalArrangement bottom-anchored content drifts
+      // outside the box.
+      el.style.cssText += ';display:flex;flex-direction:column;min-width:0;min-height:0';
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
@@ -569,7 +576,7 @@ function mkNode(n, dark) {
       break;
     }
     case 'row': {
-      el.style.cssText += ';display:flex;flex-direction:row;min-width:0;flex-wrap:nowrap';
+      el.style.cssText += ';display:flex;flex-direction:row;min-width:0;min-height:0;flex-wrap:nowrap';
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
@@ -637,12 +644,10 @@ function collapseRows(container) {
     try {
       const d = JSON.parse(rowEl.dataset.row);
       const rw = rowEl.clientWidth;
-      let collapse = false;
-      if (d.cb && rw <= d.cb) { collapse = true; }
-      else if (d.mw.some(v => v > 0)) {
-        const req = d.mw.reduce((a,b) => a+b, 0) + (d.mw.length - 1) * d.sp;
-        if (rw < req) collapse = true;
-      }
+      // Only collapse on an explicit collapseBelowDp threshold.
+      // Compose Row never auto-flips direction based on child minWidth —
+      // weighted children just get cramped (or text wraps) when space runs out.
+      const collapse = !!(d.cb && rw <= d.cb);
       const wasCollapsed = rowEl.dataset.collapsed === '1';
       if (collapse && !wasCollapsed) {
         rowEl.style.flexDirection = 'column';
