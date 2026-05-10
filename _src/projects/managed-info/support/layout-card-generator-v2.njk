@@ -3,7 +3,7 @@ title: Layout card builder (v2 preview)
 published: '2026-05-10'
 status: publish
 author: 'Jason Bayton'
-excerpt: 'A friendlier card builder for MANAGED INFO — start from a template, drop in components, and only see the technical fields if you ask for them.'
+excerpt: 'A friendlier card builder for MANAGED INFO - start from a template, drop in components, and only see the technical fields if you ask for them.'
 type: page
 layout: base.njk
 categories:
@@ -24,6 +24,26 @@ eleventyNavigation:
 <p>Build a layout card without touching JSON. Pick a template to start, drop in components, then copy the result into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
 
 <p style="background:rgba(255,69,0,.08);border-left:3px solid var(--orange);padding:8px 12px;font-size:13px;border-radius:4px"><strong>v2 preview.</strong> Plain-English components, starter templates, and an Advanced toggle for the technical primitives. The original is still at <a href="/projects/managed-info/support/layout-card-generator/">layout-card-generator</a>.</p>
+
+<details style="margin:14px 0 18px;border:1px solid var(--light);border-radius:8px;padding:8px 14px;background:var(--subtle-bg)">
+  <summary style="cursor:pointer;font-weight:600;font-size:14px;color:var(--text)">How to apply this card to a device (MANAGED INFO 1.2.0.0 or later)</summary>
+  <div style="font-size:13px;line-height:1.55;padding:10px 0 4px">
+    <p style="margin:0 0 8px">Layout cards are delivered through your EMM as a managed configuration string against the MANAGED INFO app. Devices need MANAGED INFO version <strong>1.2.0.0</strong> or later for the <code>stack_layout_card_spec</code> field to be honoured.</p>
+    <ol style="margin:0 0 8px;padding-left:20px">
+      <li>Build your card in the editor above and click <strong>Copy</strong> in the JSON panel to grab the minified spec.</li>
+      <li>In your EMM (Android Management API console, Intune, Workspace ONE, SOTI, Knox, etc.) open the managed configuration for the MANAGED INFO app.</li>
+      <li>Find the <code>stack_layout_card_spec</code> string field. Paste the JSON in as a single line.</li>
+      <li>Save and push the policy. On the next sync the device will replace its current card with the new layout. No app restart required.</li>
+    </ol>
+    <p style="margin:0 0 6px"><strong>Tips:</strong></p>
+    <ul style="margin:0 0 0;padding-left:20px">
+      <li>Keep the spec under 20,000 characters. The editor's counter goes amber from 10,000 and red above 20,000, where some EMMs start truncating string values.</li>
+      <li>Image URLs must be HTTPS and reachable from the device. Self-hosted images need to be on a host the device can resolve.</li>
+      <li>If a device doesn't pick up the change, confirm it's on 1.2.0.0 or later (Settings, Apps, MANAGED INFO, version) and force a managed config sync from your EMM.</li>
+      <li>To go back to the default card, push an empty string for <code>stack_layout_card_spec</code>.</li>
+    </ul>
+  </div>
+</details>
 
 <div id="lcg" class="lcg-beginner">
 
@@ -65,7 +85,7 @@ eleventyNavigation:
         <label for="lcg-w-range">Width:</label>
         <input type="range" id="lcg-w-range" min="280" max="700" value="416" step="4">
         <input type="number" id="lcg-w-num" min="280" max="700" value="416">
-        <span class="lcg-w-unit">dp <span class="lcg-w-device">— Pixel 9 Pro XL</span></span>
+        <span class="lcg-w-unit">dp <span class="lcg-w-info" title="For reference, Pixel 9 Pro XL uses 416dp in portrait." aria-label="For reference, Pixel 9 Pro XL uses 416dp in portrait.">(i)</span> <span class="lcg-w-device"></span></span>
       </div>
 
       <div id="lcg-preview-scroll">
@@ -111,7 +131,7 @@ eleventyNavigation:
         <strong>Start from a template</strong>
         <button id="lcg-tpl-close" type="button">&times;</button>
       </div>
-      <p class="lcg-modal-hint">Pick a starting point — you can change anything afterwards.</p>
+      <p class="lcg-modal-hint">Pick a starting point - you can change anything afterwards.</p>
       <div id="lcg-tpl-grid"></div>
     </div>
   </div>
@@ -378,6 +398,10 @@ eleventyNavigation:
 #lcg-preview-controls label { font-size: 11px; font-weight: 700; opacity: .7; }
 #lcg-w-range { flex: 1; min-width: 80px; max-width: 200px; }
 #lcg-w-num { width: 58px !important; }
+.lcg-w-unit { font-size: 13px; opacity: .7; display: inline-flex; align-items: center; gap: 4px; }
+.lcg-w-info { cursor: help; opacity: .55; font-size: 11px; font-style: italic; }
+.lcg-w-info:hover { opacity: 1; color: var(--orange); }
+.lcg-w-device { opacity: .65; font-size: 12px; }
 
 #lcg-preview-scroll {
   overflow-x: auto; padding: 16px;
@@ -387,7 +411,7 @@ eleventyNavigation:
 #lcg-phone { margin: 0 auto; transition: width .12s ease; }
 
 .lcg-card-wrap {
-  /* No surrounding chrome — the live MANAGED INFO app renders cards
+  /* No surrounding chrome - the live MANAGED INFO app renders cards
      directly on the device wallpaper, with no extra outer rounded
      container. A wrapping background + radius would compete with the
      card's own corners and read as a layout mismatch. */
@@ -398,7 +422,7 @@ eleventyNavigation:
 /* Compose dp-based padding adds to a node's measured size; mirror
    that with border-box so width/height percentages include padding. */
 .lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
-/* Dark preview keeps the same transparent wrapper — the preview
+/* Dark preview keeps the same transparent wrapper - the preview
    scroll area's background already provides the dark surface. */
 .lcg-card-wrap.lcg-dark { background: transparent; }
 /* In dark preview, push the surrounding scroll area dark so the
@@ -533,7 +557,7 @@ const TEMPLATES = [
     id: 'lowerton',
     icon: '🏞️',
     name: 'Multi-section card (full sample)',
-    desc: 'Hero image with overlay, stats row, and image cards — the Lowerton City Park example.',
+    desc: 'Hero image with overlay, stats row, and image cards - the Lowerton City Park example.',
     spec: () => JSON.parse(JSON.stringify(SAMPLE)),
   },
   {
@@ -599,7 +623,7 @@ const TEMPLATES = [
     id: 'plain',
     icon: '📝',
     name: 'Plain text card',
-    desc: 'A simple card with a heading and body text — no images.',
+    desc: 'A simple card with a heading and body text - no images.',
     spec: () => ({
       type: 'column', backgroundColor: '#F4F7FB', fillMaxWidth: true, paddingDp: 18, spacingDp: 8, children: [
         { type: 'text', text: 'Heads up', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
@@ -643,7 +667,7 @@ const COMPONENTS = [
     advanced: false, spec: () => pillButton('Tap me', '#12422F', '#FFFFFF', 'https://example.com') },
   { id: 'stat', icon: '#', name: 'Stat tile', desc: 'A big number and a short label. Stack a few in a row.',
     advanced: false, spec: () => statTile('42', 'units') },
-  { id: 'imagecard', icon: '🃏', name: 'Image card',  desc: 'Image at top, title and text below — a content tile.',
+  { id: 'imagecard', icon: '🃏', name: 'Image card',  desc: 'Image at top, title and text below - a content tile.',
     advanced: false, spec: () => TEMPLATES.find(t => t.id === 'imagecard').spec() },
   { id: 'twocol', icon: '⫴', name: 'Two-column section', desc: 'A row split into two equal columns. Drop content into each.',
     advanced: false, spec: () => ({ type: 'row', fillMaxWidth: true, spacingDp: 12, children: [
@@ -652,7 +676,7 @@ const COMPONENTS = [
     ]}) },
   { id: 'spacer', icon: '↔', name: 'Spacer', desc: 'Empty space for visual breathing room.',
     advanced: false, spec: () => ({ type: 'spacer', spacingDp: 12 }) },
-  { id: 'divider', icon: '—', name: 'Divider', desc: 'A horizontal line between sections.',
+  { id: 'divider', icon: '─', name: 'Divider', desc: 'A horizontal line between sections.',
     advanced: false, spec: () => ({ type: 'divider', color: '#E0E0E0' }) },
   { id: 'markdown', icon: 'MD', name: 'Markdown text', desc: 'Rich text with **bold**, lists and line breaks.',
     advanced: false, spec: () => ({ type: 'markdown', text: '**Bold,** *italic,* and a list:\\n- one\\n- two' }) },
@@ -796,31 +820,26 @@ const TYP = {
 const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
 
 // When a clipped container (one with backgroundColor / overflow:hidden)
-// stacks children flush against each other, any rounded corners on those
-// children would create visible "cuts" exposing the parent's background
-// at the join. Compose flattens those interior corners — mirror that here.
-// We skip the trim when the container uses spacingDp, because the gap
-// between children already gives each child a clean parent-bg strip and
-// the rounded corners read as intentional.
+// stacks children flush against each other, the children's own
+// border-radius is redundant: the parent's clip already shapes the
+// outer boundary, and any radius on a sibling-facing edge creates a
+// visible "cut" exposing the parent's background. Strip all corners on
+// these children and let the parent's clip do the work, which avoids
+// both the unwanted cuts and the subpixel double-clip artifact that
+// reads as a 1-2px inset on the image inside an image card.
+//
+// Skip the trim when the container uses spacingDp, because the gap
+// between children gives each child a clean parent-bg strip and the
+// rounded corners read as intentional.
 function trimChildCorners(el, n, axis) {
   if (!n.backgroundColor) return;
   if (n.spacingDp && n.spacingDp > 0) return;
   const kids = Array.from(el.children);
   if (kids.length <= 1) return;
-  kids.forEach((child, i) => {
+  kids.forEach(child => {
     const r = child.style.borderRadius;
     if (!r || r === '0' || r === '0px') return;
-    const isFirst = i === 0;
-    const isLast  = i === kids.length - 1;
-    if (axis === 'column') {
-      if (isFirst && !isLast)      child.style.borderRadius = r + ' ' + r + ' 0 0';
-      else if (isLast && !isFirst) child.style.borderRadius = '0 0 ' + r + ' ' + r;
-      else if (!isFirst && !isLast) child.style.borderRadius = '0';
-    } else { // row
-      if (isFirst && !isLast)      child.style.borderRadius = r + ' 0 0 ' + r;
-      else if (isLast && !isFirst) child.style.borderRadius = '0 ' + r + ' ' + r + ' 0';
-      else if (!isFirst && !isLast) child.style.borderRadius = '0';
-    }
+    child.style.borderRadius = '0';
   });
 }
 
@@ -982,7 +1001,7 @@ function collapseRows(container) {
       const d = JSON.parse(rowEl.dataset.row);
       const rw = rowEl.clientWidth;
       // Only collapse on an explicit collapseBelowDp threshold.
-      // Compose Row never auto-flips direction based on child minWidth —
+      // Compose Row never auto-flips direction based on child minWidth -
       // weighted children just get cramped (or text wraps) when space runs out.
       const collapse = !!(d.cb && rw <= d.cb);
       const wasCollapsed = rowEl.dataset.collapsed === '1';
@@ -1023,7 +1042,7 @@ function renderTree() {
   const el = document.getElementById('lcg-tree');
   const rootBtn = document.getElementById('lcg-add-root-btn');
   if (!S.spec) {
-    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded — add a root node to start.</div>';
+    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded - add a root node to start.</div>';
     rootBtn.style.display = '';
     return;
   }
@@ -1143,7 +1162,7 @@ function renderProps() {
   const lf = layoutFields(n);
   if (lf.length) form.appendChild(mkSec('Layout', lf, n, 'layout'));
 
-  // Inner space (was "Padding") — beginner sees only "All sides"; advanced sees the
+  // Inner space (was "Padding") - beginner sees only "All sides"; advanced sees the
   // per-side breakdown.
   form.appendChild(mkSec('Inner space', [
     {f:'paddingDp',          l:'All sides (dp)',   bL:'All sides',         t:'number'},
@@ -1162,7 +1181,7 @@ function renderProps() {
     {f:'alpha',           l:'Alpha (0–1)',  t:'number', step:'0.01', min:'0', max:'1', adv:true},
   ], n, 'appearance'));
 
-  // Action — promoted to its own section so it's discoverable for every
+  // Action - promoted to its own section so it's discoverable for every
   // node type (text, markdown, image, and containers can all be tappable).
   form.appendChild(mkSec('Action', [
     {f:'actionUrl', l:'Action URL (tap target)', bL:'Open this link when tapped', t:'url'},
@@ -1274,7 +1293,7 @@ function mkSec(title, fields, n, key) {
       const sel = document.createElement('select'); sel.dataset.field = fd.f;
       (fd.opts || []).forEach(o => {
         const op = document.createElement('option');
-        op.value = o; op.textContent = o || '— none —';
+        op.value = o; op.textContent = o || '- none -';
         if (o === (n[fd.f] || '')) op.selected = true;
         sel.appendChild(op);
       });
@@ -1362,20 +1381,20 @@ function updateJSON() {
     ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-green'; warn.textContent = '';
   } else if (len <= 20000) {
     ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-amber';
-    warn.textContent = 'Large spec — may approach delivery limits depending on your EMM.';
+    warn.textContent = 'Large spec - may approach delivery limits depending on your EMM.';
   } else {
-    ctr.textContent = fmt + ' chars — exceeds recommended limit';
+    ctr.textContent = fmt + ' chars - exceeds recommended limit';
     ctr.className = 'lcg-cnt-red';
-    warn.textContent = 'Specs over 20,000 chars may not deliver reliably. Copy and download are disabled — trim the spec to continue.';
+    warn.textContent = 'Specs over 20,000 chars may not deliver reliably. Copy and download are disabled - trim the spec to continue.';
     tooBig = true;
   }
   if (copyBtn) {
     copyBtn.disabled = tooBig;
-    copyBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before copying' : '';
+    copyBtn.title = tooBig ? 'Spec exceeds 20,000 chars - trim before copying' : '';
   }
   if (dlBtn) {
     dlBtn.disabled = tooBig;
-    dlBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before downloading' : '';
+    dlBtn.title = tooBig ? 'Spec exceeds 20,000 chars - trim before downloading' : '';
   }
 }
 
@@ -1613,7 +1632,7 @@ function setupDragDrop() {
         S.sel = [...adjTarget, par.children.length - 1];
       }
     } else {
-      // Reorder within same parent (target is a leaf — drop before it).
+      // Reorder within same parent (target is a leaf - drop before it).
       const dp = dragP.slice(0, -1), tp = tPath.slice(0, -1);
       if (pk(dp) === pk(tp)) {
         const par = gn(S.spec, dp);
@@ -1632,7 +1651,7 @@ function setupDragDrop() {
 }
 
 /* ── INIT ────────────────────────────────────────────────── */
-/* Common Android device widths in dp — used to label the width slider
+/* Common Android device widths in dp - used to label the width slider
    so users know what their card looks like on a real screen. 416 is the
    Pixel 9 Pro XL, which is what the live MANAGED INFO app currently
    renders against, so that's the default. */
@@ -1650,7 +1669,7 @@ function deviceLabelFor(dp) {
     const diff = Math.abs(d.dp - dp);
     if (diff < bestDiff) { best = d; bestDiff = diff; }
   }
-  return best && bestDiff <= 6 ? '— ' + best.name : '';
+  return best && bestDiff <= 6 ? '(' + best.name + ')' : '';
 }
 
 function setWidth(w) {
@@ -1681,7 +1700,7 @@ function init() {
     if (e.target === document.getElementById('lcg-cmp-modal')) closeCmpModal();
   });
 
-  // Advanced toggle — switches between beginner UI (templates + plain-English
+  // Advanced toggle - switches between beginner UI (templates + plain-English
   // labels) and the v1-style raw editor (full tree, every dp field exposed).
   const advCb = document.getElementById('lcg-adv-toggle');
   advCb.addEventListener('change', () => {
@@ -1692,7 +1711,7 @@ function init() {
     renderAll();
   });
 
-  // Inline preview clicks — clicking any rendered node selects it in the tree
+  // Inline preview clicks - clicking any rendered node selects it in the tree
   // and focuses the properties panel. Lets users edit by tapping what they
   // see rather than navigating the tree.
   document.getElementById('lcg-card').addEventListener('click', e => {
@@ -1731,7 +1750,7 @@ function init() {
     }
   });
 
-  // Dark toggle — flips the card's text-default colour and darkens the
+  // Dark toggle - flips the card's text-default colour and darkens the
   // surrounding "device surface" so the card visually sits on a dark
   // wallpaper rather than the light one.
   document.getElementById('lcg-dark-toggle').addEventListener('change', e => {
