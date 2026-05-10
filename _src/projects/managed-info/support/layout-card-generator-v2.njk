@@ -403,10 +403,10 @@ eleventyNavigation:
 .lcg-w-info:hover { opacity: 1; color: var(--orange); }
 .lcg-w-device { opacity: .65; font-size: 12px; }
 
-/* The preview scroll area is the "device surface" the card sits on.
+/* The preview scroll area is the "device wallpaper" the card sits on.
    Defaults to a light wallpaper-like grey; dark preview switches to
-   a dark surface. Both are explicit hex (not site CSS variables) so
-   the toggle works regardless of the surrounding page theme. */
+   a dark wallpaper. Both are explicit hex so the toggle works
+   regardless of the surrounding page theme. */
 #lcg-preview-scroll {
   overflow-x: auto; padding: 16px;
   background: #ECECEE; border-radius: 8px;
@@ -416,21 +416,34 @@ eleventyNavigation:
 #lcg-preview-scroll.lcg-dark-surface { background: #1A1A1C; }
 #lcg-phone { margin: 0 auto; transition: width .12s ease; }
 
+/* The card wrapper is the Material 3 surface card the app renders the
+   entire layout spec inside on-device. Everything in the spec sits
+   flush inside this card, with no padding from the card to the
+   content (the spec's own root node controls inner spacing). The
+   wrapper's rounded corners match the typical hero corner radius so
+   image-to-card edges align, and overflow-hidden clips any top-level
+   child's corners to the card's rounded shape. */
 .lcg-card-wrap {
-  /* No surrounding chrome - the live MANAGED INFO app renders cards
-     directly on the device wallpaper, with no extra outer rounded
-     container. A wrapping background + radius would compete with the
-     card's own corners and read as a layout mismatch. */
-  background: transparent; padding: 0;
+  background: #FFFFFF; padding: 0;
+  border-radius: 24px; overflow: hidden;
   box-sizing: border-box; min-height: 32px;
   font-family: 'Roboto', sans-serif; font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
 }
 /* Compose dp-based padding adds to a node's measured size; mirror
    that with border-box so width/height percentages include padding. */
 .lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
-/* Dark preview keeps the wrapper transparent - the preview scroll
-   area's background does the surface colour switch instead. */
-.lcg-card-wrap.lcg-dark { background: transparent; }
+/* Dark preview gives the surface card a dark Material 3 colour. */
+.lcg-card-wrap.lcg-dark {
+  background: #1F1F22;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+}
+/* The root spec node already has its own backgroundColor (it IS the
+   visible card), so the wrapper hides to avoid a second surface. */
+.lcg-card-wrap.lcg-surface-off {
+  background: transparent; box-shadow: none; border-radius: 0;
+  overflow: visible;
+}
 
 .lcg-card-wrap .lcg-act { cursor: pointer; }
 .lcg-card-wrap .lcg-act:hover {
@@ -552,7 +565,7 @@ eleventyNavigation:
 'use strict';
 
 /* ── SAMPLE ─────────────────────────────────────────────── */
-const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":24},{"type":"column","fillMaxWidth":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":24,"paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
+const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop"},{"type":"column","fillMaxWidth":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":0,"paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
 
 /* ── TEMPLATES (full starting points) ─────────────────────── */
 const TEMPLATES = [
@@ -1330,7 +1343,15 @@ let roObs = null;
 function renderPreview() {
   const card = document.getElementById('lcg-card');
   if (roObs) { roObs.disconnect(); roObs = null; }
-  card.className = 'lcg-card-wrap' + (S.dark ? ' lcg-dark' : '');
+  // The wrapper acts as the Material 3 surface card the live app
+  // renders the spec inside. If the root spec node already has its
+  // own backgroundColor it IS the visible card and the wrapper hides
+  // (no second visible surface). Otherwise the wrapper provides the
+  // surface so a multi-section spec reads as one card.
+  const rootHasOwnSurface = !!(S.spec && S.spec.backgroundColor);
+  card.className = 'lcg-card-wrap'
+    + (S.dark ? ' lcg-dark' : '')
+    + (rootHasOwnSurface ? ' lcg-surface-off' : '');
   card.innerHTML = '';
 
   if (!S.spec) {
