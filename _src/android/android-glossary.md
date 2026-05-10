@@ -270,7 +270,7 @@ A platform layer in Android that provides a standard interface between the OS fr
 GMS certified/certification
 ---------------------------
 
-Not to be confused with the GMS license, which is simply permission for a company to use/distribute the Google suite of applications, GMS certification provides Google’s stamp of approval that a device meets Google’s recommended specifications and requirements. It is not a requirement for devices to be GMS certified in order to be made and sold – a notable example being the Amazon Fire line of tablets – however Android Enterprise is officially only supported on GMS certified devices and therefore purchasing non-GMS certified devices, such as low-cost options from China, is almost certainly going to result in difficulty managing them.
+Not to be confused with the GMS license, which is simply permission for a company to use/distribute the Google suite of applications, GMS certification provides Google’s stamp of approval that a device meets Google’s recommended specifications and requirements. It is not a requirement for devices to be GMS certified in order to be made and sold - a notable example being the Amazon Fire line of tablets - however Android Enterprise is officially only supported on GMS certified devices and therefore purchasing non-GMS certified devices, such as low-cost options from China, is almost certainly going to result in difficulty managing them.
 
 IAM (Identity and Access Management)
 ------------------------------------
@@ -385,7 +385,7 @@ The more common enterprise type for Android Enterprise. A managed Google Play Ac
 NFC
 ---
 
-Near Field Communication(s) – NFC is a radio on the device used for close-proximity data transmission. Android Pay utilises NFC for contactless payments, however it is also widely used in the EMM industry for device enrolment/provisioning, supporting the transmission of EMM server or Android Enterprise data from a host device to the target with a simple bump.
+Near Field Communication(s) - NFC is a radio on the device used for close-proximity data transmission. Android Pay utilises NFC for contactless payments, however it is also widely used in the EMM industry for device enrolment/provisioning, supporting the transmission of EMM server or Android Enterprise data from a host device to the target with a simple bump.
 
 OOBE (Out-of-Box Experience)
 ----------------------------
@@ -525,7 +525,7 @@ A technology that creates an encrypted tunnel between a device and a corporate n
 Unknown sources
 ---------------
 
-This is a setting on most Android devices to permit the installation of applications via means external to the official Play Store. If you’ve ever tried to install an APK file on a device, you will have been prompted to enable unknown sources. Installation of applications via unknown sources however contributes to well over 60% of all malware and other threats, and is therefore strongly discouraged – in fact, it’s disabled in Android Enterprise by default.
+A setting on Android devices to permit the installation of applications from outside the official Play Store. From Android 8.0, this is a per-app permission rather than a global toggle. Installation via unknown sources remains the primary vector for potentially harmful applications (PHAs) on Android, and is disabled by default in Android Enterprise. On fully managed devices, the EMM blocks unknown sources device-wide. On work profile deployments, additional configuration is needed to extend the block beyond the work profile to the personal side of the device. See [Feature spotlight: Block unknown sources on work profile deployments](/android/feature-spotlight-block-unknown-sources-on-work-profile-deployments/) for implementation details.
 
 Vital apps
 ----------
