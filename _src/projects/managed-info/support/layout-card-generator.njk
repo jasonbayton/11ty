@@ -1,11 +1,11 @@
 ---
 title: Layout card builder
+parent: MANAGED INFO support
 published: '2026-05-10'
 status: publish
 author: 'Jason Bayton'
 excerpt: 'A friendly card builder for MANAGED INFO - start from a template, drop in components, and only see the technical fields if you ask for them.'
 type: page
-parent: MANAGED INFO support
 layout: base.njk
 categories:
     - Managed Info Setup
@@ -19,8 +19,12 @@ eleventyNavigation:
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@16.3.0/marked.min.js"
+        integrity="sha384-tkjnnf9Tzhv5ZFrDroGvUExw9C3EVFo0RFRkzKR8ZX4b5Psoec4yb1PlD8Jh4j4H"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.7/dist/purify.min.js"
+        integrity="sha384-qJNkHwhlYywDHfyoEe1np+1lYvX/8x+3gHCKFhSSBMQyCFlvFnn+zXmaebXl21rV"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <p>Build a layout card without touching JSON. Pick a template to start, drop in components, then copy the result into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
 
@@ -68,7 +72,7 @@ eleventyNavigation:
       <div class="lcg-tree-section">
         <div class="lcg-panel-hd">
           <span>Node tree</span>
-          <span id="lcg-add-root-btn">+ Add root</span>
+          <button id="lcg-add-root-btn" type="button">+ Add root</button>
         </div>
         <div id="lcg-tree" class="lcg-scroll"></div>
       </div>
@@ -111,10 +115,10 @@ eleventyNavigation:
   </div>
 
   <div id="lcg-import-modal" class="lcg-modal-off">
-    <div id="lcg-import-dlg">
+    <div id="lcg-import-dlg" role="dialog" aria-modal="true" aria-labelledby="lcg-import-title">
       <div class="lcg-modal-hd">
-        <strong>Import JSON</strong>
-        <button id="lcg-import-close" type="button">&times;</button>
+        <strong id="lcg-import-title">Import JSON</strong>
+        <button id="lcg-import-close" type="button" aria-label="Close import dialog">&times;</button>
       </div>
       <p class="lcg-modal-hint"><label for="lcg-import-ta">Paste a <code>LayoutNodeSpec</code> JSON object.</label> The root must have a <code>type</code> field.</p>
       <textarea id="lcg-import-ta" name="lcg-import-ta" rows="10" spellcheck="false" placeholder='{"type":"column",...}'></textarea>
@@ -127,10 +131,10 @@ eleventyNavigation:
   </div>
 
   <div id="lcg-tpl-modal" class="lcg-modal-off">
-    <div id="lcg-tpl-dlg">
+    <div id="lcg-tpl-dlg" role="dialog" aria-modal="true" aria-labelledby="lcg-tpl-title">
       <div class="lcg-modal-hd">
-        <strong>Start from a template</strong>
-        <button id="lcg-tpl-close" type="button">&times;</button>
+        <strong id="lcg-tpl-title">Start from a template</strong>
+        <button id="lcg-tpl-close" type="button" aria-label="Close templates dialog">&times;</button>
       </div>
       <p class="lcg-modal-hint">Pick a starting point - you can change anything afterwards.</p>
       <div id="lcg-tpl-grid"></div>
@@ -138,17 +142,17 @@ eleventyNavigation:
   </div>
 
   <div id="lcg-cmp-modal" class="lcg-modal-off">
-    <div id="lcg-cmp-dlg">
+    <div id="lcg-cmp-dlg" role="dialog" aria-modal="true" aria-labelledby="lcg-cmp-title">
       <div class="lcg-modal-hd">
-        <strong>Add a component</strong>
-        <button id="lcg-cmp-close" type="button">&times;</button>
+        <strong id="lcg-cmp-title">Add a component</strong>
+        <button id="lcg-cmp-close" type="button" aria-label="Close component picker dialog">&times;</button>
       </div>
       <p class="lcg-modal-hint" id="lcg-cmp-hint">Choose what to add.</p>
       <div id="lcg-cmp-grid"></div>
     </div>
   </div>
 
-  <div id="lcg-type-menu" class="lcg-menu-off"></div>
+  <div id="lcg-type-menu" class="lcg-menu-off" role="menu"></div>
 
 </div>
 
@@ -291,8 +295,9 @@ eleventyNavigation:
 [data-theme="dark"] .lcg-panel-hd { background: #1e1e1e; }
 
 #lcg-add-root-btn {
-  font-size: 11px; color: var(--orange); cursor: pointer;
+  font-size: 11px; color: var(--orange); cursor: pointer; font-family: inherit;
   padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
+  background: transparent; box-shadow: none;
 }
 #lcg-add-root-btn:hover { border-color: var(--orange); }
 
@@ -1149,7 +1154,12 @@ function walkTree(n, path, container) {
 
 function btn(txt, title) {
   const b = document.createElement('button');
-  b.className = 'lcg-n-btn'; b.title = title; b.textContent = txt;
+  b.type = 'button'; b.className = 'lcg-n-btn';
+  // title alone is not a reliable accessible name; mirror it as aria-label
+  // so screen readers announce the action even though the visible content
+  // is just the +/-/up/down/x glyph.
+  b.title = title; b.setAttribute('aria-label', title);
+  b.textContent = txt;
   return b;
 }
 
@@ -1412,8 +1422,19 @@ function renderPreview() {
   try {
     card.appendChild(mkNode(S.spec, S.dark, []));
     collapseRows(card);
-    roObs = new ResizeObserver(() => collapseRows(card));
-    roObs.observe(card);
+    // ResizeObserver is in every evergreen browser since 2020 but guard
+    // anyway so older browsers fall back to a one-shot collapse + a
+    // window-resize listener instead of throwing during renderPreview.
+    if (typeof ResizeObserver !== 'undefined') {
+      roObs = new ResizeObserver(() => collapseRows(card));
+      roObs.observe(card);
+    } else if (!renderPreview._winResizeBound) {
+      window.addEventListener('resize', () => {
+        const c = document.getElementById('lcg-card');
+        if (c && S.spec) collapseRows(c);
+      });
+      renderPreview._winResizeBound = true;
+    }
   } catch (e) {
     card.innerHTML = '';
     const errDiv = document.createElement('div');
@@ -1489,8 +1510,11 @@ const ENUM_OPTIONS = {
 // and rendered through to the JSON output even though the editor's
 // number controls present these as non-negative ranges. Reject on
 // import so the form never holds an internally inconsistent state.
+// maxHeightDp is intentionally absent: it isn't surfaced in layoutFields()
+// or applied in applyBase(), so listing it here would suggest a field the
+// editor knows how to handle when it doesn't.
 const NON_NEG_NUMERIC = new Set([
-  'widthDp','heightDp','minWidthDp','maxWidthDp','minHeightDp','maxHeightDp',
+  'widthDp','heightDp','minWidthDp','maxWidthDp','minHeightDp',
   'paddingDp','paddingHorizontalDp','paddingVerticalDp',
   'paddingStartDp','paddingTopDp','paddingEndDp','paddingBottomDp',
   'cornerRadiusDp','spacingDp','collapseBelowDp','fontSizeSp','aspectRatio',
@@ -2039,14 +2063,39 @@ function init() {
     hd.querySelector('.lcg-sec-tog').textContent = open ? '▶' : '▼';
   });
 
-  // JSON buttons
+  // JSON buttons. Use the async Clipboard API where available; fall back
+  // to a hidden textarea + execCommand so the button still works in
+  // older browsers and contexts where the API is blocked or unavailable
+  // (eg. insecure origins, certain managed browsers).
+  function copyJSON(v) {
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+      return navigator.clipboard.writeText(v);
+    }
+    return new Promise((resolve, reject) => {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = v;
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;';
+        document.body.appendChild(ta);
+        ta.select();
+        const ok = document.execCommand && document.execCommand('copy');
+        document.body.removeChild(ta);
+        ok ? resolve() : reject(new Error('execCommand copy failed'));
+      } catch (e) { reject(e); }
+    });
+  }
   document.getElementById('lcg-copy-btn').addEventListener('click', () => {
     const v = document.getElementById('lcg-json-out').value;
     if (!v || v.length > 20000) return;
-    navigator.clipboard.writeText(v).then(() => {
-      const b = document.getElementById('lcg-copy-btn');
-      const o = b.textContent; b.textContent = 'Copied!';
-      setTimeout(() => { b.textContent = o; }, 1600);
+    const b = document.getElementById('lcg-copy-btn');
+    const orig = b.textContent;
+    copyJSON(v).then(() => {
+      b.textContent = 'Copied!';
+      setTimeout(() => { b.textContent = orig; }, 1600);
+    }).catch(() => {
+      b.textContent = 'Copy failed';
+      b.title = 'Copy failed - select the JSON text and copy manually.';
+      setTimeout(() => { b.textContent = orig; b.title = ''; }, 2400);
     });
   });
   document.getElementById('lcg-dl-btn').addEventListener('click', () => {
