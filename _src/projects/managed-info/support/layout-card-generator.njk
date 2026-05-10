@@ -499,6 +499,11 @@ const TYP = {
 const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
 
 function applyBase(el, n) {
+  // Default min-width/height to 0 so flex/grid children don't force their
+  // parent to grow to fit their min-content. Explicit minWidthDp/minHeightDp
+  // below override these defaults.
+  el.style.minWidth = '0';
+  el.style.minHeight = '0';
   if (n.fillMaxWidth) el.style.width = '100%';
   if (n.fillMaxHeight) el.style.height = '100%';
   if (n.widthDp != null) el.style.width = n.widthDp + 'px';
@@ -522,8 +527,9 @@ function applyBase(el, n) {
   }
   if (n.alpha != null) el.style.opacity = String(Math.max(0, Math.min(1, n.alpha)));
   if (n.weight != null) {
+    // min-width was already set above (to 0 or to minWidthDp), so weighted
+    // siblings can shrink past their min-content to share space evenly.
     el.style.flex = n.weight + ' 1 0px';
-    if (n.minWidthDp == null) el.style.minWidth = '0';
   }
 }
 
@@ -564,11 +570,11 @@ function mkNode(n, dark) {
       break;
     }
     case 'column': {
-      // min-height:0 lets the column shrink to its grid track when stacked
-      // inside a Box — without it, intrinsic content height overflows past
-      // the parent and verticalArrangement bottom-anchored content drifts
-      // outside the box.
-      el.style.cssText += ';display:flex;flex-direction:column;min-width:0;min-height:0';
+      // applyBase already sets min-width/min-height to 0 (or to explicit
+      // minWidthDp/minHeightDp), so the column shrinks to its grid track
+      // when stacked inside a Box and verticalArrangement-bottom content
+      // stays inside the parent rather than overflowing.
+      el.style.cssText += ';display:flex;flex-direction:column';
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
@@ -576,7 +582,7 @@ function mkNode(n, dark) {
       break;
     }
     case 'row': {
-      el.style.cssText += ';display:flex;flex-direction:row;min-width:0;min-height:0;flex-wrap:nowrap';
+      el.style.cssText += ';display:flex;flex-direction:row;flex-wrap:nowrap';
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
