@@ -81,8 +81,9 @@ eleventyNavigation:
     <div id="lcg-right">
       <div id="lcg-preview-controls">
         <label for="lcg-w-range">Width:</label>
-        <input type="range" id="lcg-w-range" min="280" max="700" value="416" step="4">
-        <input type="number" id="lcg-w-num" min="280" max="700" value="416">
+        <input type="range" id="lcg-w-range" name="lcg-w-range" min="280" max="700" value="416" step="4">
+        <label for="lcg-w-num" class="lcg-sr-only">Width (dp, exact value)</label>
+        <input type="number" id="lcg-w-num" name="lcg-w-num" min="280" max="700" value="416">
         <span class="lcg-w-unit">dp <span class="lcg-w-info" title="For reference, Pixel 9 Pro XL uses 416dp in portrait." aria-label="For reference, Pixel 9 Pro XL uses 416dp in portrait.">(i)</span> <span class="lcg-w-device"></span></span>
       </div>
 
@@ -101,7 +102,8 @@ eleventyNavigation:
             <button id="lcg-dl-btn" type="button">Download .json</button>
           </div>
         </div>
-        <textarea id="lcg-json-out" readonly placeholder="JSON output will appear here…" rows="4" spellcheck="false"></textarea>
+        <label for="lcg-json-out" class="lcg-sr-only">JSON output</label>
+        <textarea id="lcg-json-out" name="lcg-json-out" readonly placeholder="JSON output will appear here…" rows="4" spellcheck="false"></textarea>
       </div>
     </div>
 
@@ -113,8 +115,8 @@ eleventyNavigation:
         <strong>Import JSON</strong>
         <button id="lcg-import-close" type="button">&times;</button>
       </div>
-      <p class="lcg-modal-hint">Paste a <code>LayoutNodeSpec</code> JSON object. The root must have a <code>type</code> field.</p>
-      <textarea id="lcg-import-ta" rows="10" spellcheck="false" placeholder='{"type":"column",...}'></textarea>
+      <p class="lcg-modal-hint"><label for="lcg-import-ta">Paste a <code>LayoutNodeSpec</code> JSON object.</label> The root must have a <code>type</code> field.</p>
+      <textarea id="lcg-import-ta" name="lcg-import-ta" rows="10" spellcheck="false" placeholder='{"type":"column",...}'></textarea>
       <div id="lcg-import-err" class="lcg-err-off"></div>
       <div class="lcg-modal-ft">
         <button id="lcg-import-cancel" type="button">Cancel</button>
@@ -152,6 +154,15 @@ eleventyNavigation:
 <style>
 /* ── Layout Card Generator ───────────────────────────────── */
 #lcg { font-size: 14px; }
+/* Visually-hidden label utility for inputs that already have an
+   adjacent visible cue (eg. the +/- width slider has a number input
+   beside it whose purpose is obvious by sight, but assistive tech
+   still needs an associated label). */
+.lcg-sr-only {
+  position: absolute !important; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
 
 /* Toolbar */
 #lcg-toolbar {
@@ -1165,8 +1176,10 @@ function renderProps() {
 
   // Type selector
   const tr = document.createElement('div'); tr.className = 'lcg-type-row';
-  tr.innerHTML = '<label>Type</label>';
-  const ts = document.createElement('select'); ts.dataset.field = 'type';
+  const tlbl = document.createElement('label'); tlbl.htmlFor = 'lcg-pf-type'; tlbl.textContent = 'Type';
+  tr.appendChild(tlbl);
+  const ts = document.createElement('select');
+  ts.id = 'lcg-pf-type'; ts.name = 'type'; ts.dataset.field = 'type';
   ALL_TYPES.forEach(t => {
     const o = document.createElement('option');
     o.value = t; o.textContent = t;
@@ -1289,29 +1302,39 @@ function mkSec(title, fields, n, key) {
     div.className = 'lcg-f' + (fd.adv ? ' lcg-f-advanced' : '');
     // Plain-English label for beginner mode if provided, else the existing label
     const labelText = (!S.advanced && fd.bL) ? fd.bL : fd.l;
+    // Unique form-field id per section + field, so the visible label can
+    // bind via for/id (a11y) and the field has both id and name attributes
+    // for assistive tech and DevTools form-field validation.
+    const fieldId = 'lcg-pf-' + key + '-' + fd.f;
 
     if (fd.t === 'checkbox') {
       const lbl = document.createElement('label'); lbl.className = 'lcg-cb-label';
+      lbl.htmlFor = fieldId;
       const cb = document.createElement('input'); cb.type = 'checkbox';
+      cb.id = fieldId; cb.name = fd.f;
       cb.checked = !!n[fd.f]; cb.dataset.field = fd.f;
       lbl.appendChild(cb);
       lbl.appendChild(document.createTextNode(' ' + labelText));
       div.appendChild(lbl);
     } else if (fd.t === 'color') {
-      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      const lbl = document.createElement('label');
+      lbl.htmlFor = fieldId; lbl.textContent = labelText;
       div.appendChild(lbl);
       const row = document.createElement('div'); row.className = 'lcg-color-row';
       const sw = document.createElement('span'); sw.className = 'lcg-swatch';
       sw.style.backgroundColor = toCSS(n[fd.f]) || 'transparent';
       row.appendChild(sw);
       const inp = document.createElement('input'); inp.type = 'text';
+      inp.id = fieldId; inp.name = fd.f;
       inp.value = n[fd.f] || ''; inp.placeholder = '#AARRGGBB or #RRGGBB';
       inp.dataset.field = fd.f; inp.dataset.swatch = '1';
       row.appendChild(inp); div.appendChild(row);
     } else if (fd.t === 'select') {
-      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      const lbl = document.createElement('label');
+      lbl.htmlFor = fieldId; lbl.textContent = labelText;
       div.appendChild(lbl);
-      const sel = document.createElement('select'); sel.dataset.field = fd.f;
+      const sel = document.createElement('select');
+      sel.id = fieldId; sel.name = fd.f; sel.dataset.field = fd.f;
       (fd.opts || []).forEach(o => {
         const op = document.createElement('option');
         op.value = o; op.textContent = o || '- none -';
@@ -1320,14 +1343,18 @@ function mkSec(title, fields, n, key) {
       });
       div.appendChild(sel);
     } else if (fd.t === 'textarea') {
-      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      const lbl = document.createElement('label');
+      lbl.htmlFor = fieldId; lbl.textContent = labelText;
       div.appendChild(lbl);
-      const ta = document.createElement('textarea'); ta.value = n[fd.f] || '';
+      const ta = document.createElement('textarea');
+      ta.id = fieldId; ta.name = fd.f; ta.value = n[fd.f] || '';
       ta.dataset.field = fd.f; div.appendChild(ta);
     } else {
-      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      const lbl = document.createElement('label');
+      lbl.htmlFor = fieldId; lbl.textContent = labelText;
       div.appendChild(lbl);
       const inp = document.createElement('input'); inp.type = fd.t || 'text';
+      inp.id = fieldId; inp.name = fd.f;
       inp.value = n[fd.f] != null ? n[fd.f] : '';
       inp.dataset.field = fd.f;
       if (fd.step != null) inp.step = fd.step;
