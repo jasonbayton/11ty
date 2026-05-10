@@ -82,6 +82,7 @@ eleventyNavigation:
         <span class="lcg-props-actions">
           <button id="lcg-props-up-btn" type="button" hidden aria-label="Move up">↑</button>
           <button id="lcg-props-down-btn" type="button" hidden aria-label="Move down">↓</button>
+          <button id="lcg-props-out-btn" type="button" hidden aria-label="Move out of group">↰</button>
           <button id="lcg-props-delete-btn" type="button" hidden aria-label="Delete the selected node">Delete</button>
         </span>
       </div>
@@ -302,7 +303,8 @@ eleventyNavigation:
 #lcg-add-root-btn,
 #lcg-props-delete-btn,
 #lcg-props-up-btn,
-#lcg-props-down-btn {
+#lcg-props-down-btn,
+#lcg-props-out-btn {
   font-size: 11px; color: var(--orange); cursor: pointer; font-family: inherit;
   padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
   background: transparent; box-shadow: none;
@@ -310,11 +312,14 @@ eleventyNavigation:
 #lcg-add-root-btn:hover,
 #lcg-props-delete-btn:hover,
 #lcg-props-up-btn:hover,
-#lcg-props-down-btn:hover { border-color: var(--orange); }
+#lcg-props-down-btn:hover,
+#lcg-props-out-btn:hover { border-color: var(--orange); }
 #lcg-props-up-btn,
-#lcg-props-down-btn { padding: 1px 7px; line-height: 1; }
+#lcg-props-down-btn,
+#lcg-props-out-btn { padding: 1px 7px; line-height: 1; font-size: 13px; }
 #lcg-props-up-btn:disabled,
-#lcg-props-down-btn:disabled {
+#lcg-props-down-btn:disabled,
+#lcg-props-out-btn:disabled {
   opacity: .25; cursor: not-allowed; border-color: transparent;
   background: transparent;
 }
@@ -842,6 +847,31 @@ function deleteNodeAtPath(dp) {
   renderAll();
 }
 
+// Move the node at `path` out of its immediate parent and place it as a
+// sibling of that parent, right after it. Mirrors the "outdent" action
+// in list editors. Useful when the user wants to take a child out of a
+// row / column / box without using drag-and-drop.
+function outdentNodeAtPath(path) {
+  if (!S.spec || path.length < 2) return;
+  const node = gn(S.spec, path);
+  if (!node) return;
+  const parPath = path.slice(0, -1);
+  const grandPath = path.slice(0, -2);
+  const par = gn(S.spec, parPath);
+  const grand = gn(S.spec, grandPath);
+  if (!par || !grand || !par.children || !grand.children) return;
+  const childIdx = path[path.length - 1];
+  const parIdx = path[path.length - 2];
+  // Take the node out of its parent first (clone via JSON to be safe).
+  const clone = JSON.parse(JSON.stringify(node));
+  par.children.splice(childIdx, 1);
+  if (!par.children.length) delete par.children;
+  // Insert it into the grandparent right after the parent.
+  grand.children.splice(parIdx + 1, 0, clone);
+  S.sel = [...grandPath, parIdx + 1];
+  renderAll();
+}
+
 /* ── COLOUR ─────────────────────────────────────────────── */
 function toCSS(hex) {
   if (!hex || typeof hex !== 'string') return null;
@@ -1218,10 +1248,12 @@ function renderProps() {
   const delBtn = document.getElementById('lcg-props-delete-btn');
   const upBtn  = document.getElementById('lcg-props-up-btn');
   const dnBtn  = document.getElementById('lcg-props-down-btn');
+  const outBtn = document.getElementById('lcg-props-out-btn');
   const hideActions = () => {
     if (delBtn) delBtn.hidden = true;
     if (upBtn)  upBtn.hidden  = true;
     if (dnBtn)  dnBtn.hidden  = true;
+    if (outBtn) outBtn.hidden = true;
   };
   if (S.sel === null || !S.spec) {
     title.textContent = 'Properties';
@@ -1264,6 +1296,22 @@ function renderProps() {
       dnBtn.title = dnBtn.disabled ? 'Already last in its group'  : 'Move down among siblings';
       upBtn.setAttribute('aria-label', upBtn.title);
       dnBtn.setAttribute('aria-label', dnBtn.title);
+    }
+  }
+  // Outdent ("move out of group") only applies when the node has at
+  // least one ancestor above its immediate parent, i.e. depth >= 2.
+  // Lifts the node out of its current container to sit as a sibling
+  // of that container.
+  if (outBtn) {
+    if (S.sel.length < 2) {
+      outBtn.hidden = true;
+    } else {
+      outBtn.hidden = false;
+      const parPath = S.sel.slice(0, -1);
+      const par = gn(S.spec, parPath);
+      const parName = par ? friendlyName(par).toLowerCase() : 'group';
+      outBtn.title = 'Move out of ' + parName + ' (one level up)';
+      outBtn.setAttribute('aria-label', outBtn.title);
     }
   }
   el.innerHTML = '';
@@ -1865,7 +1913,11 @@ function setupDragDrop() {
         S.sel = [...adjTarget, par.children.length - 1];
       }
     } else {
-      // Reorder within same parent (target is a leaf - drop before it).
+      // Leaf target. Drop "before" the target.
+      // Same parent: in-place reorder via splice math.
+      // Different parent: cross-container move (used to be silently
+      // ignored, leaving no way to drag a child out of one group into
+      // another).
       const dp = dragP.slice(0, -1), tp = tPath.slice(0, -1);
       if (pk(dp) === pk(tp)) {
         const par = gn(S.spec, dp);
@@ -1876,6 +1928,23 @@ function setupDragDrop() {
           const ti = tiOrig > fi ? tiOrig - 1 : tiOrig;
           par.children.splice(ti, 0, item);
           S.sel = [...dp, ti];
+        }
+      } else {
+        // Cross-parent: lift the dragged node out of its current
+        // parent, then insert it before the target in the target's
+        // parent. adjustPathAfterDelete handles the index shift if
+        // the source is a sibling of the target's parent.
+        delNode(S.spec, dragP);
+        const adjTarget = adjustPathAfterDelete(tPath, dragP);
+        if (adjTarget && adjTarget.length > 0) {
+          const newParPath = adjTarget.slice(0, -1);
+          const newPar = gn(S.spec, newParPath);
+          if (newPar && CONTAINERS.has(newPar.type)) {
+            if (!newPar.children) newPar.children = [];
+            const ti = adjTarget[adjTarget.length - 1];
+            newPar.children.splice(ti, 0, dragNode);
+            S.sel = [...newParPath, ti];
+          }
         }
       }
     }
@@ -2077,6 +2146,10 @@ function init() {
     if (S.sel === null || !S.spec || S.sel.length === 0) return;
     const np = moveNode(S.spec, S.sel, 1);
     if (np) { S.sel = np; renderAll(); }
+  });
+  document.getElementById('lcg-props-out-btn').addEventListener('click', () => {
+    if (S.sel === null || !S.spec || S.sel.length < 2) return;
+    outdentNodeAtPath(S.sel);
   });
 
   setupDragDrop();
