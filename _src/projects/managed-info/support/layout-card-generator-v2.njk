@@ -1,0 +1,1882 @@
+---
+title: Layout card builder (v2 preview)
+published: '2026-05-10'
+status: publish
+author: 'Jason Bayton'
+excerpt: 'A friendlier card builder for MANAGED INFO — start from a template, drop in components, and only see the technical fields if you ask for them.'
+type: page
+layout: base.njk
+categories:
+    - Managed Info Setup
+tags:
+  - 'Managed Info'
+  - 'bayton-projects'
+eleventyNavigation:
+  order: 10
+  title: Layout card builder (v2)
+
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+
+<p>Build a layout card without touching JSON. Pick a template to start, drop in components, then copy the result into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
+
+<p style="background:rgba(255,69,0,.08);border-left:3px solid var(--orange);padding:8px 12px;font-size:13px;border-radius:4px"><strong>v2 preview.</strong> Plain-English components, starter templates, and an Advanced toggle for the technical primitives. The original is still at <a href="/projects/managed-info/support/layout-card-generator/">layout-card-generator</a>.</p>
+
+<div id="lcg" class="lcg-beginner">
+
+  <div id="lcg-toolbar">
+    <div class="lcg-tb-left">
+      <button id="lcg-tpl-btn" type="button" class="lcg-primary-btn">Start from a template</button>
+      <button id="lcg-add-cmp-btn" type="button" class="lcg-secondary-btn">+ Add component</button>
+    </div>
+    <div class="lcg-tb-right">
+      <label class="lcg-dark-label" title="Toggle the technical primitive editor (box / column / row, raw dp values, every alignment enum)">
+        <input type="checkbox" id="lcg-adv-toggle"> Advanced
+      </label>
+      <button id="lcg-import-btn" type="button">Import JSON</button>
+      <label class="lcg-dark-label">
+        <input type="checkbox" id="lcg-dark-toggle"> Dark preview
+      </label>
+    </div>
+  </div>
+
+  <div id="lcg-main">
+
+    <div id="lcg-editor">
+      <div class="lcg-tree-section">
+        <div class="lcg-panel-hd">
+          <span>Node tree</span>
+          <span id="lcg-add-root-btn">+ Add root</span>
+        </div>
+        <div id="lcg-tree" class="lcg-scroll"></div>
+      </div>
+
+      <div class="lcg-panel-hd">
+        <span id="lcg-props-title">Properties</span>
+      </div>
+      <div id="lcg-props" class="lcg-scroll"></div>
+    </div>
+
+    <div id="lcg-right">
+      <div id="lcg-preview-controls">
+        <label for="lcg-w-range">Width:</label>
+        <input type="range" id="lcg-w-range" min="280" max="700" value="360" step="4">
+        <input type="number" id="lcg-w-num" min="280" max="700" value="360">
+        <span>dp</span>
+      </div>
+
+      <div id="lcg-preview-scroll">
+        <div id="lcg-phone">
+          <div id="lcg-card" class="lcg-card-wrap"></div>
+        </div>
+      </div>
+
+      <div id="lcg-json-section">
+        <div id="lcg-json-hd">
+          <span id="lcg-counter" class="lcg-cnt-green">0 chars</span>
+          <span id="lcg-cnt-warn"></span>
+          <div class="lcg-json-btns">
+            <button id="lcg-copy-btn" type="button">Copy</button>
+            <button id="lcg-dl-btn" type="button">Download .json</button>
+          </div>
+        </div>
+        <textarea id="lcg-json-out" readonly placeholder="JSON output will appear here…" rows="4" spellcheck="false"></textarea>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="lcg-import-modal" class="lcg-modal-off">
+    <div id="lcg-import-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Import JSON</strong>
+        <button id="lcg-import-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint">Paste a <code>LayoutNodeSpec</code> JSON object. The root must have a <code>type</code> field.</p>
+      <textarea id="lcg-import-ta" rows="10" spellcheck="false" placeholder='{"type":"column",...}'></textarea>
+      <div id="lcg-import-err" class="lcg-err-off"></div>
+      <div class="lcg-modal-ft">
+        <button id="lcg-import-cancel" type="button">Cancel</button>
+        <button id="lcg-import-ok" type="button" class="button button-small">Import</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="lcg-tpl-modal" class="lcg-modal-off">
+    <div id="lcg-tpl-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Start from a template</strong>
+        <button id="lcg-tpl-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint">Pick a starting point — you can change anything afterwards.</p>
+      <div id="lcg-tpl-grid"></div>
+    </div>
+  </div>
+
+  <div id="lcg-cmp-modal" class="lcg-modal-off">
+    <div id="lcg-cmp-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Add a component</strong>
+        <button id="lcg-cmp-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint" id="lcg-cmp-hint">Choose what to add.</p>
+      <div id="lcg-cmp-grid"></div>
+    </div>
+  </div>
+
+  <div id="lcg-type-menu" class="lcg-menu-off"></div>
+
+</div>
+
+<style>
+/* ── Layout Card Generator ───────────────────────────────── */
+#lcg { font-size: 14px; }
+
+/* Toolbar */
+#lcg-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0 14px; border-bottom: 1px solid var(--light);
+  margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+}
+.lcg-tb-left, .lcg-tb-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.lcg-primary-btn {
+  font-size: 13px; padding: 6px 16px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: var(--orange); color: #fff; font-family: inherit;
+  box-shadow: none; font-weight: 600;
+}
+.lcg-primary-btn:hover { opacity: .9; }
+.lcg-secondary-btn {
+  font-size: 13px; padding: 6px 14px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: transparent; color: var(--orange); font-family: inherit;
+  box-shadow: none;
+}
+.lcg-secondary-btn:hover { background: rgba(255,69,0,.08); }
+#lcg-import-btn {
+  font-size: 12px; padding: 4px 12px; cursor: pointer;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: transparent; color: var(--text); font-family: inherit; box-shadow: none;
+  opacity: .8;
+}
+#lcg-import-btn:hover { background: var(--input); opacity: 1; }
+.lcg-dark-label { font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+.lcg-dark-label input { width: auto; }
+
+/* Hide the tree panel in beginner mode unless there's a spec */
+#lcg.lcg-beginner #lcg-editor .lcg-tree-section { display: none; }
+
+/* Empty state */
+.lcg-empty-state {
+  text-align: center; padding: 40px 20px;
+  color: var(--text); font-family: 'Roboto', sans-serif;
+}
+.lcg-empty-state h3 { margin: 0 0 8px; font-size: 18px; font-weight: 500; opacity: .8; }
+.lcg-empty-state p { margin: 0 0 16px; font-size: 13px; opacity: .6; }
+.lcg-empty-state-buttons { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+/* Template & Component modals */
+#lcg-tpl-modal, #lcg-cmp-modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.4);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; backdrop-filter: blur(2px);
+}
+#lcg-tpl-modal.lcg-modal-off, #lcg-cmp-modal.lcg-modal-off { display: none; }
+#lcg-tpl-dlg, #lcg-cmp-dlg {
+  background: var(--background); border-radius: 12px; padding: 20px 24px;
+  width: min(720px, calc(100vw - 32px)); max-height: calc(100vh - 60px); overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+#lcg-tpl-grid, #lcg-cmp-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;
+  margin-top: 12px;
+}
+.lcg-tpl-card, .lcg-cmp-card {
+  border: 1px solid var(--light); border-radius: 8px; padding: 14px;
+  cursor: pointer; transition: all .12s;
+  background: var(--subtle-bg); text-align: left;
+  display: flex; flex-direction: column; gap: 6px;
+  font-family: inherit;
+}
+.lcg-tpl-card:hover, .lcg-cmp-card:hover {
+  border-color: var(--orange); transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.lcg-tpl-icon, .lcg-cmp-icon {
+  font-size: 22px; line-height: 1; opacity: .7;
+}
+.lcg-tpl-name, .lcg-cmp-name {
+  font-size: 13px; font-weight: 700; color: var(--text);
+}
+.lcg-tpl-desc, .lcg-cmp-desc {
+  font-size: 11px; opacity: .6; color: var(--text); line-height: 1.4;
+}
+.lcg-cmp-card[data-advanced="1"] { opacity: .55; }
+#lcg.lcg-advanced .lcg-cmp-card[data-advanced="1"] { opacity: 1; }
+
+/* Friendly type label badges in tree */
+.lcg-n-friendly {
+  font-size: 10px; opacity: .5; font-weight: 400; margin-left: 4px;
+}
+
+/* Hide raw-type tree in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-n-type { display: none; }
+#lcg:not(.lcg-advanced) .lcg-n-friendly {
+  font-size: 11px; opacity: 1; font-weight: 700; color: var(--orange); margin-left: 0; min-width: 80px;
+}
+
+/* Hide advanced fields in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-f-advanced { display: none; }
+#lcg:not(.lcg-advanced) .lcg-sec-hd[data-sec="padding-detail"] { display: none; }
+
+/* Hide type selector and certain raw fields in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-type-row { display: none; }
+
+/* Inline preview affordances */
+.lcg-card-wrap [data-prevpath] { position: relative; }
+#lcg.lcg-beginner .lcg-card-wrap [data-prevpath]:hover {
+  outline: 2px dashed var(--orange); outline-offset: 2px; cursor: pointer;
+}
+
+/* Split pane */
+#lcg-main {
+  display: grid; grid-template-columns: 340px 1fr; gap: 16px; align-items: start;
+}
+
+/* ── Editor (left) ── */
+#lcg-editor {
+  display: flex; flex-direction: column;
+  background: var(--subtle-bg); border-radius: 8px; overflow: hidden;
+  border: 1px solid var(--light);
+}
+.lcg-panel-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 12px; background: var(--light);
+  font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--text);
+}
+[data-theme="dark"] .lcg-panel-hd { background: #1e1e1e; }
+
+#lcg-add-root-btn {
+  font-size: 11px; color: var(--orange); cursor: pointer;
+  padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
+}
+#lcg-add-root-btn:hover { border-color: var(--orange); }
+
+#lcg-tree { min-height: 120px; max-height: 320px; overflow-y: auto; padding: 4px 0; }
+#lcg-props { min-height: 60px; max-height: 480px; overflow-y: auto; }
+
+.lcg-scroll::-webkit-scrollbar { width: 5px; }
+.lcg-scroll::-webkit-scrollbar-thumb { background: var(--light); border-radius: 3px; }
+
+/* Tree nodes */
+.lcg-tree-empty, .lcg-props-empty {
+  padding: 14px 14px; color: var(--text); opacity: .5; font-size: 12px;
+}
+.lcg-tree-node {
+  display: flex; align-items: center; gap: 3px;
+  padding: 3px 8px 3px 0; cursor: pointer;
+  border-left: 2px solid transparent; transition: background .08s;
+  user-select: none; position: relative;
+}
+.lcg-tree-node:hover { background: var(--input); }
+.lcg-sel { background: rgba(255,69,0,.09) !important; border-left-color: var(--orange) !important; }
+.lcg-drag-over { background: rgba(255,69,0,.18) !important; outline: 1px dashed var(--orange); }
+
+.lcg-n-indent { flex-shrink: 0; }
+.lcg-n-tog {
+  width: 14px; height: 14px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; opacity: .45; cursor: pointer;
+}
+.lcg-n-tog:hover { opacity: 1; }
+.lcg-n-type {
+  font-weight: 700; font-size: 11px; color: var(--orange);
+  flex-shrink: 0; min-width: 54px;
+}
+.lcg-n-prev {
+  font-size: 11px; opacity: .55; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap; max-width: 90px;
+}
+.lcg-n-acts {
+  display: none; align-items: center; gap: 1px; margin-left: auto; flex-shrink: 0;
+}
+.lcg-tree-node:hover .lcg-n-acts,
+.lcg-sel .lcg-n-acts { display: flex; }
+.lcg-n-btn {
+  background: none; border: none; padding: 1px 4px; cursor: pointer;
+  font-size: 13px; color: var(--text); border-radius: 3px; box-shadow: none;
+  line-height: 1.4;
+}
+.lcg-n-btn:hover { background: var(--light); }
+.lcg-n-del:hover { color: #c30000; }
+
+/* Properties */
+.lcg-props-form { padding: 0; }
+.lcg-type-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 12px 6px; border-bottom: 1px solid var(--light);
+}
+.lcg-type-row label {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .04em; opacity: .6; white-space: nowrap;
+}
+.lcg-type-row select {
+  flex: 1; font-size: 12px; padding: 3px 6px;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--orange); font-weight: 700;
+  font-family: inherit;
+}
+.lcg-sec { border-bottom: 1px solid var(--light); }
+.lcg-sec-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 6px 12px; cursor: pointer; font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .03em; background: none; user-select: none;
+}
+.lcg-sec-hd:hover { background: var(--input); }
+.lcg-sec-tog { font-size: 9px; opacity: .45; }
+.lcg-sec-body { padding: 4px 12px 10px; }
+
+.lcg-f { margin-bottom: 7px; }
+.lcg-f label {
+  display: block; font-size: 11px; font-weight: 600; opacity: .65; margin-bottom: 2px;
+}
+.lcg-f input[type="text"],
+.lcg-f input[type="number"],
+.lcg-f input[type="url"],
+.lcg-f textarea,
+.lcg-f select {
+  width: 100%; box-sizing: border-box; font-size: 12px; padding: 4px 7px;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--text); font-family: inherit;
+}
+.lcg-f textarea { min-height: 56px; resize: vertical; }
+.lcg-cb-label {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 400; opacity: 1 !important; cursor: pointer;
+}
+.lcg-cb-label input { width: auto; flex-shrink: 0; }
+.lcg-color-row { position: relative; }
+.lcg-color-row input { padding-left: 30px !important; }
+.lcg-swatch {
+  position: absolute; left: 5px; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px; border-radius: 3px;
+  border: 1px solid var(--light); background: transparent; pointer-events: none;
+}
+
+/* ── Right pane ── */
+#lcg-right { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+
+#lcg-preview-controls {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 8px 12px; background: var(--subtle-bg); border-radius: 8px; font-size: 13px;
+  border: 1px solid var(--light);
+}
+#lcg-preview-controls label { font-size: 11px; font-weight: 700; opacity: .7; }
+#lcg-w-range { flex: 1; min-width: 80px; max-width: 200px; }
+#lcg-w-num { width: 58px !important; }
+
+#lcg-preview-scroll {
+  overflow-x: auto; padding: 16px;
+  background: var(--subtle-bg); border-radius: 8px;
+  border: 1px solid var(--light);
+}
+#lcg-phone { margin: 0 auto; transition: width .12s ease; }
+
+.lcg-card-wrap {
+  background: #FFFFFF; border-radius: 12px; padding: 16px;
+  overflow: hidden; box-sizing: border-box; min-height: 32px;
+  font-family: 'Roboto', sans-serif; font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
+}
+/* Compose dp-based padding adds to a node's measured size; mirror
+   that with border-box so width/height percentages include padding. */
+.lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
+.lcg-card-wrap.lcg-dark { background: #252525; }
+
+.lcg-card-wrap .lcg-act { cursor: pointer; }
+.lcg-card-wrap .lcg-act:hover {
+  outline: 2px solid rgba(0,0,0,.15); outline-offset: -2px;
+}
+.lcg-card-wrap.lcg-dark .lcg-act:hover { outline-color: rgba(255,255,255,.2); }
+.lcg-card-wrap .lcg-md p { margin: 0; }
+.lcg-card-wrap .lcg-md p + p { margin-top: 4px; }
+.lcg-card-wrap .lcg-md ul,
+.lcg-card-wrap .lcg-md ol { margin: 2px 0; padding-left: 20px; }
+.lcg-prev-empty {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 80px; color: #aaa; font-size: 13px; font-family: 'Roboto', sans-serif;
+}
+
+/* JSON output */
+#lcg-json-section {
+  background: var(--subtle-bg); border-radius: 8px; padding: 10px 12px;
+  border: 1px solid var(--light);
+}
+#lcg-json-hd {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap;
+}
+.lcg-cnt-green { color: #15B007; font-size: 12px; font-weight: 700; }
+.lcg-cnt-amber { color: #d97706; font-size: 12px; font-weight: 700; }
+.lcg-cnt-red   { color: #c30000; font-size: 12px; font-weight: 700; }
+#lcg-cnt-warn  { font-size: 11px; color: #d97706; flex: 1; }
+.lcg-json-btns { display: flex; gap: 6px; margin-left: auto; }
+.lcg-json-btns button {
+  font-size: 12px; padding: 3px 10px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: transparent; color: var(--orange); font-family: inherit; box-shadow: none;
+}
+.lcg-json-btns button:hover { background: var(--orange); color: #fff; }
+#lcg-json-out {
+  width: 100%; box-sizing: border-box;
+  font-family: 'SF Mono', 'Consolas', monospace; font-size: 11px;
+  padding: 7px 9px; border: 1px solid var(--light); border-radius: 4px;
+  background: var(--background); color: var(--text); resize: vertical; min-height: 72px;
+}
+
+/* Import modal */
+#lcg-import-modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.4);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; backdrop-filter: blur(2px);
+}
+#lcg-import-modal.lcg-modal-off { display: none; }
+#lcg-import-dlg {
+  background: var(--background); border-radius: 12px; padding: 20px 24px;
+  width: min(540px, calc(100vw - 32px));
+  box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+.lcg-modal-hd {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;
+}
+.lcg-modal-hd strong { font-size: 15px; }
+#lcg-import-close {
+  background: none; border: none; font-size: 20px; cursor: pointer;
+  padding: 0 4px; color: var(--text); line-height: 1; box-shadow: none;
+}
+.lcg-modal-hint { font-size: 13px; margin: 0 0 8px; opacity: .7; }
+#lcg-import-ta {
+  width: 100%; box-sizing: border-box;
+  font-family: 'SF Mono', 'Consolas', monospace; font-size: 12px;
+  padding: 8px; border: 1px solid var(--light); border-radius: 6px;
+  background: var(--subtle-bg); color: var(--text);
+  resize: vertical; min-height: 130px;
+}
+.lcg-err {
+  font-size: 12px; color: #c30000; margin-top: 6px;
+  padding: 5px 8px; background: rgba(195,0,0,.07);
+  border-radius: 4px; border-left: 3px solid #c30000;
+}
+.lcg-err-off { display: none; }
+.lcg-modal-ft {
+  display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px;
+}
+.lcg-modal-ft button { font-size: 13px; border-radius: 5px; cursor: pointer; font-family: inherit; }
+#lcg-import-cancel {
+  background: none; border: 1px solid var(--light); color: var(--text);
+  box-shadow: none; padding: 6px 16px;
+}
+#lcg-import-cancel:hover { background: var(--subtle-bg); }
+
+/* Type dropdown menu */
+#lcg-type-menu {
+  position: fixed; background: var(--background);
+  border: 1px solid var(--light); border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.15); z-index: 9999;
+  min-width: 120px; padding: 4px 0; overflow: hidden;
+}
+#lcg-type-menu.lcg-menu-off { display: none; }
+.lcg-t-opt {
+  padding: 6px 14px; cursor: pointer; font-size: 13px; color: var(--text);
+}
+.lcg-t-opt:hover { background: rgba(255,69,0,.08); color: var(--orange); }
+
+/* Dark input overrides */
+[data-theme="dark"] .lcg-f input,
+[data-theme="dark"] .lcg-f textarea,
+[data-theme="dark"] .lcg-f select,
+[data-theme="dark"] .lcg-type-row select,
+[data-theme="dark"] #lcg-import-ta,
+[data-theme="dark"] #lcg-json-out {
+  background: var(--input); border-color: #3f3f3f;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  #lcg-main { grid-template-columns: 1fr; }
+  #lcg-tree { max-height: 220px; }
+  #lcg-props { max-height: 300px; }
+}
+</style>
+
+<script>
+(function () {
+'use strict';
+
+/* ── SAMPLE ─────────────────────────────────────────────── */
+const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":24},{"type":"box","fillMaxWidth":true,"fillMaxHeight":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":24},{"type":"column","fillMaxWidth":true,"fillMaxHeight":true,"paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
+
+/* ── TEMPLATES (full starting points) ─────────────────────── */
+const TEMPLATES = [
+  {
+    id: 'lowerton',
+    icon: '🏞️',
+    name: 'Multi-section card (full sample)',
+    desc: 'Hero image with overlay, stats row, and image cards — the Lowerton City Park example.',
+    spec: () => JSON.parse(JSON.stringify(SAMPLE)),
+  },
+  {
+    id: 'hero',
+    icon: '🖼️',
+    name: 'Hero card',
+    desc: 'Big background image with a title and short description on top.',
+    spec: () => ({
+      type: 'box', fillMaxWidth: true, children: [
+        { type: 'image', imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80',
+          contentDescription: 'Hero image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 20 },
+        { type: 'box', fillMaxWidth: true, fillMaxHeight: true, backgroundColor: '#66000000', cornerRadiusDp: 20 },
+        { type: 'column', fillMaxWidth: true, fillMaxHeight: true, paddingDp: 20, spacingDp: 8, children: [
+          { type: 'text', text: 'Your headline', style: 'headlineLarge', fontWeight: 'semi_bold', color: '#FFFFFF' },
+          { type: 'text', text: 'A short description that sits over the image.', style: 'bodyMedium', color: '#F4F8F6' },
+        ]},
+      ],
+    }),
+  },
+  {
+    id: 'imagecard',
+    icon: '🃏',
+    name: 'Image card with text',
+    desc: 'Image at top, title and description below. Great for content tiles.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#FFFFFF', fillMaxWidth: true, children: [
+        { type: 'image', imageUrl: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+          contentDescription: 'Image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 20 },
+        { type: 'column', paddingDp: 16, spacingDp: 8, children: [
+          { type: 'text', text: 'Card title', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+          { type: 'text', text: 'A line or two of supporting copy explaining what this card is about.', style: 'bodySmall', color: '#566979' },
+        ]},
+      ],
+    }),
+  },
+  {
+    id: 'stats',
+    icon: '📊',
+    name: 'Stats row',
+    desc: 'Three side-by-side tiles, each showing a number and a short label.',
+    spec: () => ({
+      type: 'row', fillMaxWidth: true, spacingDp: 12, children: [
+        statTile('6', 'attractions'),
+        statTile('40+', 'food vendors'),
+        statTile('1,200', 'parking'),
+      ],
+    }),
+  },
+  {
+    id: 'action',
+    icon: '🔘',
+    name: 'Card with a button',
+    desc: 'A simple card with a title, body text, and a tappable button at the end.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#FFFFFF', fillMaxWidth: true, paddingDp: 18, spacingDp: 12, children: [
+        { type: 'text', text: 'Quick start', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+        { type: 'text', text: 'Tell users what they can do, then give them a clear button to do it.', style: 'bodySmall', color: '#566979' },
+        pillButton('Get started', '#12422F', '#FFFFFF', 'https://example.com/start'),
+      ],
+    }),
+  },
+  {
+    id: 'plain',
+    icon: '📝',
+    name: 'Plain text card',
+    desc: 'A simple card with a heading and body text — no images.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#F4F7FB', fillMaxWidth: true, paddingDp: 18, spacingDp: 8, children: [
+        { type: 'text', text: 'Heads up', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+        { type: 'text', text: 'A short message in calm, plain text. Use this for tips, notices, or short updates.', style: 'bodyMedium', color: '#566979' },
+      ],
+    }),
+  },
+  {
+    id: 'blank',
+    icon: '➕',
+    name: 'Blank card',
+    desc: 'Start from an empty card and build it up component by component.',
+    spec: () => ({ type: 'column', fillMaxWidth: true, spacingDp: 12, children: [] }),
+  },
+];
+
+function statTile(num, label) {
+  return { type: 'column', weight: 1, minWidthDp: 100, backgroundColor: '#F4F7FB', paddingDp: 14, spacingDp: 4, children: [
+    { type: 'text', text: num, style: 'headlineMedium', fontWeight: 'semi_bold', color: '#182833' },
+    { type: 'text', text: label, style: 'bodySmall', color: '#5A6B7C' },
+  ]};
+}
+
+function pillButton(text, bg, fg, url) {
+  return { type: 'box', fillMaxWidth: true, backgroundColor: bg, cornerRadiusDp: 18,
+    paddingHorizontalDp: 16, paddingVerticalDp: 12, actionUrl: url || '', children: [
+      { type: 'text', text: text, style: 'labelLarge', fontWeight: 'semi_bold', textAlign: 'center', color: fg },
+  ]};
+}
+
+/* ── COMPONENT PALETTE (single building blocks) ──────────── */
+const COMPONENTS = [
+  { id: 'heading', icon: '𝐇', name: 'Heading',  desc: 'A large title. Use one near the top of a card.',
+    advanced: false, spec: () => ({ type: 'text', text: 'Heading', style: 'titleLarge', fontWeight: 'semi_bold', color: '#182833' }) },
+  { id: 'body', icon: '¶', name: 'Body text', desc: 'A line or paragraph of regular reading text.',
+    advanced: false, spec: () => ({ type: 'text', text: 'Some body text.', style: 'bodyMedium', color: '#444' }) },
+  { id: 'image', icon: '🖼', name: 'Image', desc: 'A picture that fits the width of its container.',
+    advanced: false, spec: () => ({ type: 'image', imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80',
+      contentDescription: 'Image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 16 }) },
+  { id: 'pill', icon: '⬬', name: 'Button (pill)', desc: 'A coloured pill that opens a link when tapped.',
+    advanced: false, spec: () => pillButton('Tap me', '#12422F', '#FFFFFF', 'https://example.com') },
+  { id: 'stat', icon: '#', name: 'Stat tile', desc: 'A big number and a short label. Stack a few in a row.',
+    advanced: false, spec: () => statTile('42', 'units') },
+  { id: 'imagecard', icon: '🃏', name: 'Image card',  desc: 'Image at top, title and text below — a content tile.',
+    advanced: false, spec: () => TEMPLATES.find(t => t.id === 'imagecard').spec() },
+  { id: 'twocol', icon: '⫴', name: 'Two-column section', desc: 'A row split into two equal columns. Drop content into each.',
+    advanced: false, spec: () => ({ type: 'row', fillMaxWidth: true, spacingDp: 12, children: [
+      { type: 'column', weight: 1, spacingDp: 8, children: [{ type: 'text', text: 'Left', style: 'titleMedium', fontWeight: 'semi_bold' }] },
+      { type: 'column', weight: 1, spacingDp: 8, children: [{ type: 'text', text: 'Right', style: 'titleMedium', fontWeight: 'semi_bold' }] },
+    ]}) },
+  { id: 'spacer', icon: '↔', name: 'Spacer', desc: 'Empty space for visual breathing room.',
+    advanced: false, spec: () => ({ type: 'spacer', spacingDp: 12 }) },
+  { id: 'divider', icon: '—', name: 'Divider', desc: 'A horizontal line between sections.',
+    advanced: false, spec: () => ({ type: 'divider', color: '#E0E0E0' }) },
+  { id: 'markdown', icon: 'MD', name: 'Markdown text', desc: 'Rich text with **bold**, lists and line breaks.',
+    advanced: false, spec: () => ({ type: 'markdown', text: '**Bold,** *italic,* and a list:\\n- one\\n- two' }) },
+  { id: 'box', icon: '◻', name: 'Box (advanced)', desc: 'Stack children on top of each other (image + overlay text).',
+    advanced: true, spec: () => ({ type: 'box', fillMaxWidth: true, children: [] }) },
+  { id: 'column', icon: '⫯', name: 'Column (advanced)', desc: 'Stack children vertically.',
+    advanced: true, spec: () => ({ type: 'column', fillMaxWidth: true, spacingDp: 8, children: [] }) },
+  { id: 'row', icon: '⫲', name: 'Row (advanced)',  desc: 'Stack children horizontally.',
+    advanced: true, spec: () => ({ type: 'row', fillMaxWidth: true, spacingDp: 8, children: [] }) },
+];
+
+/* Recognise common component patterns inside an existing spec so the
+   tree shows "Image card" rather than "column" for a column whose
+   first child is an image and second is a text column. */
+function friendlyName(n) {
+  if (!n) return '';
+  if (n.type === 'text') return 'Text';
+  if (n.type === 'image') return 'Image';
+  if (n.type === 'markdown') return 'Markdown';
+  if (n.type === 'spacer') return 'Spacer';
+  if (n.type === 'divider') return 'Divider';
+  if (n.type === 'box') {
+    const kids = n.children || [];
+    if (n.actionUrl && kids.length === 1 && kids[0].type === 'text') return 'Button';
+    if (kids.some(c => c.type === 'image') && kids.some(c => c.type === 'column')) return 'Hero card';
+    return 'Stack';
+  }
+  if (n.type === 'column') {
+    const kids = n.children || [];
+    if (kids.length === 2 && kids[0].type === 'image' && kids[1].type === 'column') return 'Image card';
+    if (n.backgroundColor && kids.length >= 2 && kids.every(c => c.type === 'text')) return 'Stat tile';
+    if (n.backgroundColor) return 'Card';
+    return 'Group';
+  }
+  if (n.type === 'row') {
+    const kids = n.children || [];
+    if (kids.length >= 2 && kids.every(c => c.type === 'column')) return 'Tiles row';
+    return 'Row';
+  }
+  return n.type;
+}
+
+/* ── STATE ───────────────────────────────────────────────── */
+const S = {
+  spec: null,
+  sel: null,        // selected path (array) or null
+  dark: false,
+  pw: 360,          // preview width px
+  advanced: false,  // beginner UI hides technical fields and primitives
+  collapsed: new Set(),   // path keys of collapsed tree nodes
+  secState: {},           // section key -> bool (true=open)
+  cmpTarget: null,        // path being inserted into (for component palette)
+};
+
+/* ── PATH HELPERS ────────────────────────────────────────── */
+const pk = p => JSON.stringify(p);
+
+function gn(root, path) {
+  let n = root;
+  for (const i of path) {
+    if (!n || !n.children || i >= n.children.length) return null;
+    n = n.children[i];
+  }
+  return n;
+}
+
+function delNode(root, path) {
+  if (!path.length) return null;
+  const par = gn(root, path.slice(0, -1));
+  if (!par || !par.children) return root;
+  par.children.splice(path[path.length - 1], 1);
+  if (!par.children.length) delete par.children;
+  return root;
+}
+
+function addChild(root, pPath, type) {
+  const par = gn(root, pPath);
+  if (!par) return null;
+  if (!par.children) par.children = [];
+  par.children.push({ type });
+  return [...pPath, par.children.length - 1];
+}
+
+function moveNode(root, path, dir) {
+  if (!path.length) return null;
+  const pp = path.slice(0, -1);
+  const par = gn(root, pp);
+  if (!par || !par.children) return null;
+  const i = path[path.length - 1], j = i + dir;
+  if (j < 0 || j >= par.children.length) return null;
+  [par.children[i], par.children[j]] = [par.children[j], par.children[i]];
+  return [...pp, j];
+}
+
+/* ── COLOUR ─────────────────────────────────────────────── */
+function toCSS(hex) {
+  if (!hex || typeof hex !== 'string') return null;
+  const h = hex.replace('#', '');
+  if (h.length === 8) {
+    const a = parseInt(h.slice(0,2), 16) / 255;
+    const r = parseInt(h.slice(2,4), 16);
+    const g = parseInt(h.slice(4,6), 16);
+    const b = parseInt(h.slice(6,8), 16);
+    return 'rgba(' + r + ',' + g + ',' + b + ',' + a.toFixed(3) + ')';
+  }
+  return hex;
+}
+
+/* ── PREVIEW CONSTANTS ───────────────────────────────────── */
+const ARR = {
+  top:'flex-start', start:'flex-start', center:'center', centre:'center',
+  bottom:'flex-end', end:'flex-end', right:'flex-end',
+  space_between:'space-between', space_around:'space-around', space_evenly:'space-evenly',
+};
+const CA = {
+  top_start:'start start', top_center:'start center', top_end:'start end',
+  center_start:'center start', center:'center center', center_end:'center end',
+  bottom_start:'end start', bottom_center:'end center', bottom_end:'end end',
+};
+const SC = {
+  crop:'cover', fit:'contain', fill_bounds:'fill',
+  fill_width:'cover', fill_height:'cover', inside:'scale-down', none:'none',
+};
+const TYP = {
+  displayLarge:  {fs:'57px',fw:'400',ls:'-0.25px',lh:'64px'},
+  displayMedium: {fs:'45px',fw:'400',ls:'0px',    lh:'52px'},
+  displaySmall:  {fs:'36px',fw:'400',ls:'0px',    lh:'44px'},
+  headlineLarge: {fs:'32px',fw:'400',ls:'0px',    lh:'40px'},
+  headlineMedium:{fs:'28px',fw:'400',ls:'0px',    lh:'36px'},
+  headlineSmall: {fs:'24px',fw:'400',ls:'0px',    lh:'32px'},
+  titleLarge:    {fs:'22px',fw:'400',ls:'0px',    lh:'28px'},
+  titleMedium:   {fs:'16px',fw:'500',ls:'0.15px', lh:'24px'},
+  titleSmall:    {fs:'14px',fw:'500',ls:'0.10px', lh:'20px'},
+  bodyLarge:     {fs:'16px',fw:'400',ls:'0.50px', lh:'24px'},
+  bodyMedium:    {fs:'14px',fw:'400',ls:'0.25px', lh:'20px'},
+  bodySmall:     {fs:'12px',fw:'400',ls:'0.40px', lh:'16px'},
+  labelLarge:    {fs:'14px',fw:'500',ls:'0.10px', lh:'20px'},
+  labelMedium:   {fs:'12px',fw:'500',ls:'0.50px', lh:'16px'},
+  labelSmall:    {fs:'11px',fw:'500',ls:'0.50px', lh:'16px'},
+};
+const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
+
+// When a clipped container (one with backgroundColor / overflow:hidden)
+// stacks children flush against each other, any rounded corners on those
+// children would create visible "cuts" exposing the parent's background
+// at the join. Compose flattens those interior corners — mirror that here.
+// We skip the trim when the container uses spacingDp, because the gap
+// between children already gives each child a clean parent-bg strip and
+// the rounded corners read as intentional.
+function trimChildCorners(el, n, axis) {
+  if (!n.backgroundColor) return;
+  if (n.spacingDp && n.spacingDp > 0) return;
+  const kids = Array.from(el.children);
+  if (kids.length <= 1) return;
+  kids.forEach((child, i) => {
+    const r = child.style.borderRadius;
+    if (!r || r === '0' || r === '0px') return;
+    const isFirst = i === 0;
+    const isLast  = i === kids.length - 1;
+    if (axis === 'column') {
+      if (isFirst && !isLast)      child.style.borderRadius = r + ' ' + r + ' 0 0';
+      else if (isLast && !isFirst) child.style.borderRadius = '0 0 ' + r + ' ' + r;
+      else if (!isFirst && !isLast) child.style.borderRadius = '0';
+    } else { // row
+      if (isFirst && !isLast)      child.style.borderRadius = r + ' 0 0 ' + r;
+      else if (isLast && !isFirst) child.style.borderRadius = '0 ' + r + ' ' + r + ' 0';
+      else if (!isFirst && !isLast) child.style.borderRadius = '0';
+    }
+  });
+}
+
+function applyBase(el, n) {
+  // Default min-width/height to 0 so flex/grid children don't force their
+  // parent to grow to fit their min-content. Explicit minWidthDp/minHeightDp
+  // below override these defaults.
+  el.style.minWidth = '0';
+  el.style.minHeight = '0';
+  if (n.fillMaxWidth) el.style.width = '100%';
+  if (n.fillMaxHeight) el.style.height = '100%';
+  if (n.widthDp != null) el.style.width = n.widthDp + 'px';
+  if (n.heightDp != null) el.style.height = n.heightDp + 'px';
+  if (n.minWidthDp != null) el.style.minWidth = n.minWidthDp + 'px';
+  if (n.maxWidthDp != null) el.style.maxWidth = n.maxWidthDp + 'px';
+  if (n.minHeightDp != null) el.style.minHeight = n.minHeightDp + 'px';
+  const pt = n.paddingTopDp    ?? n.paddingVerticalDp   ?? n.paddingDp ?? 0;
+  const pr = n.paddingEndDp    ?? n.paddingHorizontalDp ?? n.paddingDp ?? 0;
+  const pb = n.paddingBottomDp ?? n.paddingVerticalDp   ?? n.paddingDp ?? 0;
+  const pl = n.paddingStartDp  ?? n.paddingHorizontalDp ?? n.paddingDp ?? 0;
+  if (pt || pr || pb || pl) el.style.padding = pt+'px '+pr+'px '+pb+'px '+pl+'px';
+  const r = n.cornerRadiusDp ?? (n.backgroundColor ? 20 : 0);
+  if (n.backgroundColor) {
+    const c = toCSS(n.backgroundColor);
+    if (c) el.style.backgroundColor = c;
+    el.style.borderRadius = r + 'px';
+    el.style.overflow = 'hidden';
+  } else if (n.cornerRadiusDp != null) {
+    el.style.borderRadius = n.cornerRadiusDp + 'px';
+  }
+  if (n.alpha != null) el.style.opacity = String(Math.max(0, Math.min(1, n.alpha)));
+  if (n.weight != null) {
+    // min-width was already set above (to 0 or to minWidthDp), so weighted
+    // siblings can shrink past their min-content to share space evenly.
+    el.style.flex = n.weight + ' 1 0px';
+  }
+}
+
+function mkNode(n, dark, path) {
+  const base = dark ? '#FFFFFF' : '#333333';
+  if (!path) path = [];
+
+  if (n.type === 'image') {
+    const w = document.createElement('div');
+    applyBase(w, n);
+    w.dataset.prevpath = JSON.stringify(path);
+    w.style.overflow = 'hidden';
+    if (n.aspectRatio) w.style.aspectRatio = String(n.aspectRatio);
+    if (n.actionUrl) w.classList.add('lcg-act');
+    const img = document.createElement('img');
+    img.src = n.imageUrl || '';
+    img.alt = n.contentDescription || '';
+    img.style.cssText = 'display:block;width:100%;height:100%';
+    img.style.objectFit = SC[n.contentScale] || 'cover';
+    w.appendChild(img);
+    return w;
+  }
+
+  const el = document.createElement('div');
+  applyBase(el, n);
+  el.dataset.prevpath = JSON.stringify(path);
+  if (n.actionUrl) el.classList.add('lcg-act');
+
+  switch (n.type) {
+    case 'box': {
+      el.style.display = 'grid';
+      el.style.gridTemplateAreas = '"s"';
+      el.style.placeItems = CA[n.contentAlignment] || 'start start';
+      (n.children || []).forEach((c, i) => {
+        const ce = mkNode(c, dark, path.concat(i));
+        ce.style.gridArea = 's';
+        if (c.fillMaxHeight) ce.style.alignSelf = 'stretch';
+        if (c.fillMaxWidth) { ce.style.justifySelf = 'stretch'; ce.style.width = '100%'; }
+        el.appendChild(ce);
+      });
+      break;
+    }
+    case 'column': {
+      // applyBase already sets min-width/min-height to 0 (or to explicit
+      // minWidthDp/minHeightDp), so the column shrinks to its grid track
+      // when stacked inside a Box and verticalArrangement-bottom content
+      // stays inside the parent rather than overflowing.
+      el.style.cssText += ';display:flex;flex-direction:column';
+      if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
+      el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
+      el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
+      (n.children || []).forEach((c, i) => el.appendChild(mkNode(c, dark, path.concat(i))));
+      trimChildCorners(el, n, 'column');
+      break;
+    }
+    case 'row': {
+      el.style.cssText += ';display:flex;flex-direction:row;flex-wrap:nowrap';
+      if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
+      el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
+      el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
+      (n.children || []).forEach((c, i) => el.appendChild(mkNode(c, dark, path.concat(i))));
+      trimChildCorners(el, n, 'row');
+      el.dataset.row = JSON.stringify({
+        cb: n.collapseBelowDp,
+        sp: n.spacingDp || 0,
+        mw: (n.children || []).map(c => c.minWidthDp || 0),
+      });
+      break;
+    }
+    case 'text': {
+      el.style.minWidth = '0';
+      el.style.wordBreak = 'break-word';
+      el.style.whiteSpace = 'pre-wrap';
+      const t = TYP[n.style] || TYP.bodyMedium;
+      el.style.fontSize = t.fs; el.style.fontWeight = t.fw;
+      el.style.letterSpacing = t.ls; el.style.lineHeight = t.lh;
+      if (n.fontSizeSp) el.style.fontSize = n.fontSizeSp + 'px';
+      if (n.fontWeight) el.style.fontWeight = FW[n.fontWeight] || n.fontWeight;
+      if (n.fontStyle === 'italic') el.style.fontStyle = 'italic';
+      if (n.textAlign) {
+        const ta = n.textAlign === 'centre' ? 'center'
+          : (n.textAlign === 'right' || n.textAlign === 'end') ? 'right' : n.textAlign;
+        el.style.textAlign = ta;
+      }
+      const c = n.color ? toCSS(n.color) : base;
+      if (c) el.style.color = c;
+      el.textContent = n.text || '';
+      break;
+    }
+    case 'spacer': {
+      el.style.display = 'block'; el.style.flexShrink = '0';
+      if (n.widthDp != null && n.heightDp != null) { /* already applied */ }
+      else if (n.spacingDp != null) el.style.height = n.spacingDp + 'px';
+      else { el.style.width = '8px'; el.style.height = '8px'; }
+      break;
+    }
+    case 'divider': {
+      el.style.cssText += ';width:100%;height:1px;border:none';
+      const dc = n.color ? toCSS(n.color) : (dark ? '#49454F' : '#CAC4D0');
+      if (dc) el.style.backgroundColor = dc;
+      break;
+    }
+    case 'markdown': {
+      el.style.minWidth = '0'; el.style.wordBreak = 'break-word';
+      el.classList.add('lcg-md');
+      el.style.color = base;
+      if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+        el.innerHTML = DOMPurify.sanitize(marked.parse(n.text || ''));
+      } else {
+        const p = document.createElement('pre');
+        p.style.whiteSpace = 'pre-wrap'; p.textContent = n.text || '';
+        el.appendChild(p);
+      }
+      break;
+    }
+    default: break;
+  }
+  return el;
+}
+
+function collapseRows(container) {
+  container.querySelectorAll('[data-row]').forEach(rowEl => {
+    try {
+      const d = JSON.parse(rowEl.dataset.row);
+      const rw = rowEl.clientWidth;
+      // Only collapse on an explicit collapseBelowDp threshold.
+      // Compose Row never auto-flips direction based on child minWidth —
+      // weighted children just get cramped (or text wraps) when space runs out.
+      const collapse = !!(d.cb && rw <= d.cb);
+      const wasCollapsed = rowEl.dataset.collapsed === '1';
+      if (collapse && !wasCollapsed) {
+        rowEl.style.flexDirection = 'column';
+        rowEl.querySelectorAll(':scope > *').forEach(c => {
+          if (c.style.flex || c.style.width) {
+            c.dataset.savedFlex = c.style.flex || '';
+            c.dataset.savedWidth = c.style.width || '';
+          }
+          c.style.flex = '';
+          c.style.width = '100%';
+        });
+        rowEl.dataset.collapsed = '1';
+      } else if (!collapse && wasCollapsed) {
+        rowEl.style.flexDirection = 'row';
+        rowEl.querySelectorAll(':scope > *').forEach(c => {
+          if (c.dataset.savedFlex !== undefined) {
+            c.style.flex = c.dataset.savedFlex;
+            c.style.width = c.dataset.savedWidth;
+            delete c.dataset.savedFlex;
+            delete c.dataset.savedWidth;
+          } else {
+            c.style.width = '';
+          }
+        });
+        delete rowEl.dataset.collapsed;
+      }
+    } catch (e) {}
+  });
+}
+
+/* ── TREE ────────────────────────────────────────────────── */
+const CONTAINERS = new Set(['box', 'column', 'row']);
+const ALL_TYPES  = ['box', 'column', 'row', 'text', 'image', 'markdown', 'spacer', 'divider'];
+
+function renderTree() {
+  const el = document.getElementById('lcg-tree');
+  const rootBtn = document.getElementById('lcg-add-root-btn');
+  if (!S.spec) {
+    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded — add a root node to start.</div>';
+    rootBtn.style.display = '';
+    return;
+  }
+  rootBtn.style.display = 'none';
+  el.innerHTML = '';
+  walkTree(S.spec, [], el);
+  const sel = el.querySelector('.lcg-sel');
+  if (sel) sel.scrollIntoView({ block: 'nearest' });
+}
+
+function walkTree(n, path, container) {
+  const depth = path.length;
+  const key = pk(path);
+  const isCollapsed = S.collapsed.has(key);
+  const hasKids = !!(n.children && n.children.length);
+  const isSel = S.sel !== null && pk(S.sel) === key;
+
+  const row = document.createElement('div');
+  row.className = 'lcg-tree-node' + (isSel ? ' lcg-sel' : '');
+  row.dataset.path = key;
+  if (depth > 0) { row.draggable = true; row.dataset.draggable = '1'; }
+
+  const ind = document.createElement('span');
+  ind.className = 'lcg-n-indent';
+  ind.style.paddingLeft = (depth * 16 + 6) + 'px';
+  row.appendChild(ind);
+
+  const tog = document.createElement('span');
+  tog.className = 'lcg-n-tog';
+  tog.dataset.tpath = key;
+  tog.textContent = hasKids ? (isCollapsed ? '▶' : '▼') : '·';
+  row.appendChild(tog);
+
+  const type = document.createElement('span');
+  type.className = 'lcg-n-type';
+  type.textContent = n.type;
+  row.appendChild(type);
+
+  const friendly = document.createElement('span');
+  friendly.className = 'lcg-n-friendly';
+  friendly.textContent = friendlyName(n);
+  row.appendChild(friendly);
+
+  const prev = document.createElement('span');
+  prev.className = 'lcg-n-prev';
+  if (n.type === 'text' || n.type === 'markdown') prev.textContent = (n.text || '').slice(0, 22);
+  else if (n.type === 'image') prev.textContent = n.imageUrl ? '↗ image' : '';
+  row.appendChild(prev);
+
+  const acts = document.createElement('span');
+  acts.className = 'lcg-n-acts';
+
+  if (CONTAINERS.has(n.type)) {
+    const ab = btn('+', 'Add child'); ab.dataset.addp = key; acts.appendChild(ab);
+  }
+  if (depth > 0) {
+    const ub = btn('↑', 'Move up');   ub.dataset.mvup = key;  acts.appendChild(ub);
+    const db = btn('↓', 'Move down'); db.dataset.mvdn = key;  acts.appendChild(db);
+  }
+  const xb = btn('✕', depth === 0 ? 'Clear all' : 'Delete');
+  xb.classList.add('lcg-n-del'); xb.dataset.del = key;
+  acts.appendChild(xb);
+
+  row.appendChild(acts);
+  container.appendChild(row);
+
+  if (hasKids && !isCollapsed) {
+    n.children.forEach((c, i) => walkTree(c, [...path, i], container));
+  }
+}
+
+function btn(txt, title) {
+  const b = document.createElement('button');
+  b.className = 'lcg-n-btn'; b.title = title; b.textContent = txt;
+  return b;
+}
+
+/* ── PROPERTIES ─────────────────────────────────────────── */
+const STYLES_OPTS = ['','displayLarge','displayMedium','displaySmall',
+  'headlineLarge','headlineMedium','headlineSmall',
+  'titleLarge','titleMedium','titleSmall',
+  'bodyLarge','bodyMedium','bodySmall',
+  'labelLarge','labelMedium','labelSmall'];
+
+function renderProps() {
+  const el = document.getElementById('lcg-props');
+  const title = document.getElementById('lcg-props-title');
+  if (S.sel === null || !S.spec) {
+    title.textContent = 'Properties';
+    el.innerHTML = '<div class="lcg-props-empty">Select a node to edit its properties.</div>';
+    return;
+  }
+  const n = gn(S.spec, S.sel);
+  if (!n) { el.innerHTML = '<div class="lcg-props-empty">Node not found.</div>'; return; }
+  title.textContent = 'Properties';
+  el.innerHTML = '';
+  const form = document.createElement('div');
+  form.className = 'lcg-props-form';
+
+  // Type selector
+  const tr = document.createElement('div'); tr.className = 'lcg-type-row';
+  tr.innerHTML = '<label>Type</label>';
+  const ts = document.createElement('select'); ts.dataset.field = 'type';
+  ALL_TYPES.forEach(t => {
+    const o = document.createElement('option');
+    o.value = t; o.textContent = t;
+    if (t === n.type) o.selected = true;
+    ts.appendChild(o);
+  });
+  tr.appendChild(ts); form.appendChild(tr);
+
+  // Content fields
+  const cf = contentFields(n);
+  if (cf.length) form.appendChild(mkSec('Content', cf, n, 'content'));
+
+  // Layout fields
+  const lf = layoutFields(n);
+  if (lf.length) form.appendChild(mkSec('Layout', lf, n, 'layout'));
+
+  // Inner space (was "Padding") — beginner sees only "All sides"; advanced sees the
+  // per-side breakdown.
+  form.appendChild(mkSec('Inner space', [
+    {f:'paddingDp',          l:'All sides (dp)',   bL:'All sides',         t:'number'},
+    {f:'paddingHorizontalDp',l:'Horizontal (dp)',  t:'number', adv:true},
+    {f:'paddingVerticalDp',  l:'Vertical (dp)',    t:'number', adv:true},
+    {f:'paddingStartDp',     l:'Start (dp)',       t:'number', adv:true},
+    {f:'paddingTopDp',       l:'Top (dp)',         t:'number', adv:true},
+    {f:'paddingEndDp',       l:'End (dp)',         t:'number', adv:true},
+    {f:'paddingBottomDp',    l:'Bottom (dp)',      t:'number', adv:true},
+  ], n, 'padding'));
+
+  // Appearance
+  form.appendChild(mkSec('Appearance', [
+    {f:'backgroundColor', l:'Background colour', bL:'Card colour',           t:'color'},
+    {f:'cornerRadiusDp',  l:'Corner radius (dp)', bL:'Rounded corners (dp)', t:'number'},
+    {f:'alpha',           l:'Alpha (0–1)',  t:'number', step:'0.01', min:'0', max:'1', adv:true},
+  ], n, 'appearance'));
+
+  // Action — promoted to its own section so it's discoverable for every
+  // node type (text, markdown, image, and containers can all be tappable).
+  form.appendChild(mkSec('Action', [
+    {f:'actionUrl', l:'Action URL (tap target)', bL:'Open this link when tapped', t:'url'},
+  ], n, 'action'));
+
+  el.appendChild(form);
+}
+
+function contentFields(n) {
+  switch (n.type) {
+    case 'text': return [
+      {f:'text',      l:'Text',        t:'textarea'},
+      {f:'style',     l:'Style',       bL:'Text size',  t:'select', opts: STYLES_OPTS},
+      {f:'color',     l:'Colour',      bL:'Text colour', t:'color'},
+      {f:'textAlign', l:'Text align',  t:'select', opts:['','start','center','end','justify']},
+      {f:'fontWeight',l:'Font weight', t:'select', opts:['','light','medium','semi_bold','bold'], adv:true},
+      {f:'fontStyle', l:'Font style',  t:'select', opts:['','italic'], adv:true},
+      {f:'fontSizeSp',l:'Font size (sp)', t:'number', adv:true},
+    ];
+    case 'markdown': return [{f:'text', l:'Markdown text', t:'textarea'}];
+    case 'image': return [
+      {f:'imageUrl',          l:'Image URL',          bL:'Image URL',           t:'text'},
+      {f:'contentDescription',l:'Content description',bL:'Description (for screen readers)', t:'text'},
+      {f:'aspectRatio',       l:'Aspect ratio',       bL:'Width-to-height ratio', t:'number', step:'0.01'},
+      {f:'contentScale',      l:'Content scale',      bL:'How to fit', t:'select',
+        opts:['','crop','fit','fill_bounds','fill_width','fill_height','inside','none']},
+    ];
+    case 'divider': return [{f:'color', l:'Colour', bL:'Line colour', t:'color'}];
+    default: return [];
+  }
+}
+
+function layoutFields(n) {
+  const base = [
+    {f:'fillMaxWidth', l:'Fill max width',  bL:'Stretch to full width',   t:'checkbox'},
+    {f:'fillMaxHeight',l:'Fill max height', bL:'Stretch to full height',  t:'checkbox'},
+    {f:'widthDp',      l:'Width (dp)',      bL:'Fixed width (dp)',        t:'number', adv:true},
+    {f:'heightDp',     l:'Height (dp)',     bL:'Fixed height (dp)',       t:'number', adv:true},
+    {f:'minWidthDp',   l:'Min width (dp)',   t:'number', adv:true},
+    {f:'maxWidthDp',   l:'Max width (dp)',   t:'number', adv:true},
+    {f:'minHeightDp',  l:'Min height (dp)',  t:'number', adv:true},
+    {f:'weight',       l:'Weight',          bL:'Share of row (1=equal)',  t:'number', step:'0.1'},
+  ];
+  if (n.type === 'spacer') return [
+    {f:'spacingDp',l:'Spacing (dp)', bL:'Size (dp)',  t:'number'},
+    {f:'widthDp',  l:'Width (dp)',   t:'number', adv:true},
+    {f:'heightDp', l:'Height (dp)',  t:'number', adv:true},
+  ];
+  const extras = {
+    box:    [{f:'contentAlignment', l:'Content alignment', bL:'Where to put content', t:'select',
+               opts:['','top_start','top_center','top_end','center_start','center','center_end','bottom_start','bottom_center','bottom_end']}],
+    column: [
+      {f:'spacingDp',           l:'Spacing (dp)',          bL:'Gap between items (dp)', t:'number'},
+      {f:'verticalArrangement', l:'Vertical arrangement',  bL:'Stack from',  t:'select',
+        opts:['','top','center','bottom','space_between','space_around','space_evenly']},
+      {f:'horizontalAlignment', l:'Horizontal alignment',  bL:'Align items', t:'select',
+        opts:['','start','center','end']},
+    ],
+    row: [
+      {f:'spacingDp',             l:'Spacing (dp)',           bL:'Gap between items (dp)', t:'number'},
+      {f:'horizontalArrangement', l:'Horizontal arrangement', bL:'Spread items',  t:'select',
+        opts:['','start','center','end','space_between','space_around','space_evenly']},
+      {f:'verticalAlignment',     l:'Vertical alignment',     bL:'Align items',   t:'select',
+        opts:['','top','center','bottom']},
+      {f:'collapseBelowDp',       l:'Collapse below (dp)',    bL:'Stack vertically below width (dp)', t:'number'},
+    ],
+  };
+  return [...base, ...(extras[n.type] || [])];
+}
+
+function mkSec(title, fields, n, key) {
+  const sec = document.createElement('div'); sec.className = 'lcg-sec';
+  const isOpen = S.secState[key] !== false;
+
+  const hd = document.createElement('div'); hd.className = 'lcg-sec-hd'; hd.dataset.sec = key;
+  hd.innerHTML = '<span>' + title + '</span><span class="lcg-sec-tog">' + (isOpen ? '▼' : '▶') + '</span>';
+  sec.appendChild(hd);
+
+  const body = document.createElement('div'); body.className = 'lcg-sec-body';
+  if (!isOpen) body.style.display = 'none';
+
+  fields.forEach(fd => {
+    const div = document.createElement('div');
+    div.className = 'lcg-f' + (fd.adv ? ' lcg-f-advanced' : '');
+    // Plain-English label for beginner mode if provided, else the existing label
+    const labelText = (!S.advanced && fd.bL) ? fd.bL : fd.l;
+
+    if (fd.t === 'checkbox') {
+      const lbl = document.createElement('label'); lbl.className = 'lcg-cb-label';
+      const cb = document.createElement('input'); cb.type = 'checkbox';
+      cb.checked = !!n[fd.f]; cb.dataset.field = fd.f;
+      lbl.appendChild(cb);
+      lbl.appendChild(document.createTextNode(' ' + labelText));
+      div.appendChild(lbl);
+    } else if (fd.t === 'color') {
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      div.appendChild(lbl);
+      const row = document.createElement('div'); row.className = 'lcg-color-row';
+      const sw = document.createElement('span'); sw.className = 'lcg-swatch';
+      sw.style.backgroundColor = toCSS(n[fd.f]) || 'transparent';
+      row.appendChild(sw);
+      const inp = document.createElement('input'); inp.type = 'text';
+      inp.value = n[fd.f] || ''; inp.placeholder = '#AARRGGBB or #RRGGBB';
+      inp.dataset.field = fd.f; inp.dataset.swatch = '1';
+      row.appendChild(inp); div.appendChild(row);
+    } else if (fd.t === 'select') {
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      div.appendChild(lbl);
+      const sel = document.createElement('select'); sel.dataset.field = fd.f;
+      (fd.opts || []).forEach(o => {
+        const op = document.createElement('option');
+        op.value = o; op.textContent = o || '— none —';
+        if (o === (n[fd.f] || '')) op.selected = true;
+        sel.appendChild(op);
+      });
+      div.appendChild(sel);
+    } else if (fd.t === 'textarea') {
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      div.appendChild(lbl);
+      const ta = document.createElement('textarea'); ta.value = n[fd.f] || '';
+      ta.dataset.field = fd.f; div.appendChild(ta);
+    } else {
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
+      div.appendChild(lbl);
+      const inp = document.createElement('input'); inp.type = fd.t || 'text';
+      inp.value = n[fd.f] != null ? n[fd.f] : '';
+      inp.dataset.field = fd.f;
+      if (fd.step != null) inp.step = fd.step;
+      if (fd.min  != null) inp.min  = fd.min;
+      if (fd.max  != null) inp.max  = fd.max;
+      div.appendChild(inp);
+    }
+    body.appendChild(div);
+  });
+
+  sec.appendChild(body);
+  return sec;
+}
+
+/* ── PREVIEW ─────────────────────────────────────────────── */
+let roObs = null;
+
+function renderPreview() {
+  const card = document.getElementById('lcg-card');
+  if (roObs) { roObs.disconnect(); roObs = null; }
+  card.className = 'lcg-card-wrap' + (S.dark ? ' lcg-dark' : '');
+  card.innerHTML = '';
+
+  if (!S.spec) {
+    const empty = document.createElement('div');
+    empty.className = 'lcg-empty-state';
+    empty.innerHTML = '<h3>Nothing here yet</h3><p>Pick a template to start with, or add a single component.</p>';
+    const btns = document.createElement('div'); btns.className = 'lcg-empty-state-buttons';
+    const tplBtn = document.createElement('button'); tplBtn.className = 'lcg-primary-btn'; tplBtn.type = 'button';
+    tplBtn.textContent = 'Start from a template'; tplBtn.addEventListener('click', () => openTplModal());
+    const cmpBtn = document.createElement('button'); cmpBtn.className = 'lcg-secondary-btn'; cmpBtn.type = 'button';
+    cmpBtn.textContent = '+ Add a component'; cmpBtn.addEventListener('click', () => openCmpModal(null));
+    btns.appendChild(tplBtn); btns.appendChild(cmpBtn);
+    empty.appendChild(btns);
+    card.appendChild(empty);
+    return;
+  }
+  try {
+    card.appendChild(mkNode(S.spec, S.dark, []));
+    collapseRows(card);
+    roObs = new ResizeObserver(() => collapseRows(card));
+    roObs.observe(card);
+  } catch (e) {
+    card.innerHTML = '';
+    const errDiv = document.createElement('div');
+    errDiv.style.cssText = 'color:#c30000;font-family:Roboto,sans-serif;font-size:13px';
+    errDiv.textContent = 'Render error: ' + e.message;
+    card.appendChild(errDiv);
+  }
+}
+
+/* ── JSON ────────────────────────────────────────────────── */
+function updateJSON() {
+  const out  = document.getElementById('lcg-json-out');
+  const ctr  = document.getElementById('lcg-counter');
+  const warn = document.getElementById('lcg-cnt-warn');
+  const copyBtn = document.getElementById('lcg-copy-btn');
+  const dlBtn   = document.getElementById('lcg-dl-btn');
+  if (!S.spec) {
+    out.value = ''; ctr.textContent = '0 chars';
+    ctr.className = 'lcg-cnt-green'; warn.textContent = '';
+    if (copyBtn) { copyBtn.disabled = true; copyBtn.title = 'Nothing to copy'; }
+    if (dlBtn)   { dlBtn.disabled = true;   dlBtn.title   = 'Nothing to download'; }
+    return;
+  }
+  const json = JSON.stringify(S.spec);
+  out.value = json;
+  const len = json.length;
+  const fmt = len.toLocaleString();
+  let tooBig = false;
+  if (len <= 9999) {
+    ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-green'; warn.textContent = '';
+  } else if (len <= 20000) {
+    ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-amber';
+    warn.textContent = 'Large spec — may approach delivery limits depending on your EMM.';
+  } else {
+    ctr.textContent = fmt + ' chars — exceeds recommended limit';
+    ctr.className = 'lcg-cnt-red';
+    warn.textContent = 'Specs over 20,000 chars may not deliver reliably. Copy and download are disabled — trim the spec to continue.';
+    tooBig = true;
+  }
+  if (copyBtn) {
+    copyBtn.disabled = tooBig;
+    copyBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before copying' : '';
+  }
+  if (dlBtn) {
+    dlBtn.disabled = tooBig;
+    dlBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before downloading' : '';
+  }
+}
+
+function renderAll() { renderTree(); renderProps(); renderPreview(); updateJSON(); }
+
+/* ── IMPORT ─────────────────────────────────────────────── */
+function validateNode(n, path) {
+  const where = path.length ? ' at children[' + path.join('][') + ']' : '';
+  if (!n || typeof n !== 'object' || Array.isArray(n)) {
+    return (path.length ? 'Node' : 'Root') + where + ' must be a JSON object.';
+  }
+  if (!n.type || typeof n.type !== 'string') {
+    return (path.length ? 'Node' : 'Root') + where + ' must have a "type" field.';
+  }
+  if (!ALL_TYPES.includes(n.type)) {
+    return 'Unknown type "' + n.type + '"' + where + '. Must be one of: ' + ALL_TYPES.join(', ') + '.';
+  }
+  if (n.children !== undefined) {
+    if (!Array.isArray(n.children)) {
+      return 'Node' + where + ' has non-array "children".';
+    }
+    if (!CONTAINERS.has(n.type)) {
+      return 'Node' + where + ' (type "' + n.type + '") cannot have children.';
+    }
+    for (let i = 0; i < n.children.length; i++) {
+      const e = validateNode(n.children[i], path.concat(i));
+      if (e) return e;
+    }
+  }
+  return null;
+}
+
+function parseImport(str) {
+  let p;
+  try { p = JSON.parse(str.trim()); } catch (e) { return { err: 'Invalid JSON: ' + e.message }; }
+  const err = validateNode(p, []);
+  if (err) return { err };
+  return { spec: p };
+}
+
+function closeImportModal() {
+  document.getElementById('lcg-import-modal').classList.add('lcg-modal-off');
+  document.getElementById('lcg-import-ta').value = '';
+  const e = document.getElementById('lcg-import-err');
+  e.className = 'lcg-err-off'; e.textContent = '';
+}
+
+/* ── TEMPLATE & COMPONENT MODALS ─────────────────────────── */
+function openTplModal() {
+  const grid = document.getElementById('lcg-tpl-grid');
+  grid.innerHTML = '';
+  TEMPLATES.forEach(t => {
+    const card = document.createElement('button'); card.type = 'button'; card.className = 'lcg-tpl-card';
+    card.dataset.tplId = t.id;
+    card.innerHTML =
+      '<div class="lcg-tpl-icon">' + t.icon + '</div>' +
+      '<div class="lcg-tpl-name">' + t.name + '</div>' +
+      '<div class="lcg-tpl-desc">' + t.desc + '</div>';
+    card.addEventListener('click', () => {
+      const spec = t.spec();
+      const r = parseImport(JSON.stringify(spec));
+      if (r.err) { alert(r.err); return; }
+      S.spec = r.spec; S.sel = null; S.collapsed.clear();
+      renderAll(); closeTplModal();
+    });
+    grid.appendChild(card);
+  });
+  document.getElementById('lcg-tpl-modal').classList.remove('lcg-modal-off');
+}
+
+function closeTplModal() {
+  document.getElementById('lcg-tpl-modal').classList.add('lcg-modal-off');
+}
+
+function openCmpModal(targetPath) {
+  // targetPath null means "add to root or replace empty spec"
+  S.cmpTarget = targetPath;
+  const grid = document.getElementById('lcg-cmp-grid');
+  const hint = document.getElementById('lcg-cmp-hint');
+  grid.innerHTML = '';
+  if (!S.spec) {
+    hint.textContent = 'Add your first component. It will become the root of the card.';
+  } else if (targetPath === null || (Array.isArray(targetPath) && targetPath.length === 0)) {
+    hint.textContent = 'Add a new component at the top level of the card.';
+  } else {
+    const parent = gn(S.spec, targetPath);
+    hint.textContent = 'Add a component inside ' + (parent ? friendlyName(parent) : 'this group') + '.';
+  }
+  COMPONENTS.forEach(c => {
+    const card = document.createElement('button'); card.type = 'button'; card.className = 'lcg-cmp-card';
+    if (c.advanced) card.dataset.advanced = '1';
+    card.innerHTML =
+      '<div class="lcg-cmp-icon">' + c.icon + '</div>' +
+      '<div class="lcg-cmp-name">' + c.name + '</div>' +
+      '<div class="lcg-cmp-desc">' + c.desc + '</div>';
+    card.addEventListener('click', () => insertComponent(c));
+    grid.appendChild(card);
+  });
+  document.getElementById('lcg-cmp-modal').classList.remove('lcg-modal-off');
+}
+
+function closeCmpModal() {
+  document.getElementById('lcg-cmp-modal').classList.add('lcg-modal-off');
+  S.cmpTarget = null;
+}
+
+function insertComponent(cmp) {
+  const node = cmp.spec();
+  // No spec yet: this becomes the root, wrapped in a column if it's a leaf
+  if (!S.spec) {
+    if (CONTAINERS.has(node.type)) {
+      S.spec = node;
+    } else {
+      S.spec = { type: 'column', fillMaxWidth: true, spacingDp: 12, children: [node] };
+    }
+    S.sel = [];
+    closeCmpModal(); renderAll(); return;
+  }
+  // Spec exists. If we have a target path that's a container, append.
+  // If target is null or the root isn't a container, append to root if root is a container,
+  // otherwise wrap root in a column.
+  const target = S.cmpTarget;
+  let parentPath;
+  if (target && Array.isArray(target)) {
+    const tNode = gn(S.spec, target);
+    if (tNode && CONTAINERS.has(tNode.type)) parentPath = target;
+  }
+  if (!parentPath) {
+    // Default: append to root
+    if (CONTAINERS.has(S.spec.type)) {
+      parentPath = [];
+    } else {
+      // Wrap existing root in a column
+      S.spec = { type: 'column', fillMaxWidth: true, spacingDp: 12, children: [S.spec] };
+      parentPath = [];
+    }
+  }
+  const par = gn(S.spec, parentPath);
+  if (!par.children) par.children = [];
+  par.children.push(node);
+  S.sel = parentPath.concat(par.children.length - 1);
+  closeCmpModal(); renderAll();
+}
+
+/* ── TYPE MENU ───────────────────────────────────────────── */
+let menuPath = null;
+
+function showMenu(anchor, forPath) {
+  menuPath = forPath;
+  const m = document.getElementById('lcg-type-menu');
+  const r = anchor.getBoundingClientRect();
+  m.style.top  = (r.bottom + window.scrollY + 4) + 'px';
+  m.style.left = (r.left   + window.scrollX)     + 'px';
+  m.innerHTML  = '';
+  ALL_TYPES.forEach(t => {
+    const d = document.createElement('div'); d.className = 'lcg-t-opt';
+    d.textContent = t; d.dataset.mtype = t; m.appendChild(d);
+  });
+  m.classList.remove('lcg-menu-off');
+  setTimeout(() => document.addEventListener('click', closeMenu, { once: true }), 0);
+}
+
+function closeMenu() { document.getElementById('lcg-type-menu').classList.add('lcg-menu-off'); menuPath = null; }
+
+/* ── DRAG-DROP ───────────────────────────────────────────── */
+let dragP = null;
+
+function isAncestorPath(anc, desc) {
+  if (anc.length >= desc.length) return false;
+  for (let i = 0; i < anc.length; i++) if (anc[i] !== desc[i]) return false;
+  return true;
+}
+
+function adjustPathAfterDelete(target, deleted) {
+  if (deleted.length === 0) return target;
+  const d = deleted.length - 1;
+  if (target.length <= d) return target;
+  for (let i = 0; i < d; i++) if (target[i] !== deleted[i]) return target;
+  if (deleted[d] < target[d]) {
+    const adj = target.slice();
+    adj[d] = adj[d] - 1;
+    return adj;
+  }
+  return target;
+}
+
+function setupDragDrop() {
+  const tree = document.getElementById('lcg-tree');
+  tree.addEventListener('dragstart', e => {
+    const row = e.target.closest('.lcg-tree-node[data-draggable]');
+    if (!row) return;
+    dragP = JSON.parse(row.dataset.path);
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', row.dataset.path);
+    setTimeout(() => { if (row.isConnected) row.style.opacity = '.4'; }, 0);
+  });
+  tree.addEventListener('dragend', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (row) row.style.opacity = '';
+    tree.querySelectorAll('.lcg-drag-over').forEach(r => r.classList.remove('lcg-drag-over'));
+    dragP = null;
+  });
+  tree.addEventListener('dragover', e => {
+    e.preventDefault(); e.dataTransfer.dropEffect = 'move';
+    tree.querySelectorAll('.lcg-drag-over').forEach(r => r.classList.remove('lcg-drag-over'));
+    const row = e.target.closest('.lcg-tree-node');
+    if (row && dragP) row.classList.add('lcg-drag-over');
+  });
+  tree.addEventListener('dragleave', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (row) row.classList.remove('lcg-drag-over');
+  });
+  tree.addEventListener('drop', e => {
+    e.preventDefault();
+    const row = e.target.closest('.lcg-tree-node');
+    if (!row || !dragP) return;
+    const tPath = JSON.parse(row.dataset.path);
+    if (pk(dragP) === pk(tPath)) return;
+    // prevent dropping onto own descendant
+    if (isAncestorPath(dragP, tPath)) return;
+
+    const tNode = gn(S.spec, tPath);
+    if (!tNode) return;
+    const dragNode = JSON.parse(JSON.stringify(gn(S.spec, dragP)));
+    if (!dragNode) return;
+
+    if (CONTAINERS.has(tNode.type)) {
+      // Move into target container as last child.
+      delNode(S.spec, dragP);
+      const adjTarget = adjustPathAfterDelete(tPath, dragP);
+      const par = gn(S.spec, adjTarget);
+      if (par && CONTAINERS.has(par.type)) {
+        if (!par.children) par.children = [];
+        par.children.push(dragNode);
+        S.sel = [...adjTarget, par.children.length - 1];
+      }
+    } else {
+      // Reorder within same parent (target is a leaf — drop before it).
+      const dp = dragP.slice(0, -1), tp = tPath.slice(0, -1);
+      if (pk(dp) === pk(tp)) {
+        const par = gn(S.spec, dp);
+        if (par && par.children) {
+          const fi = dragP[dragP.length - 1];
+          const tiOrig = tPath[tPath.length - 1];
+          const item = par.children.splice(fi, 1)[0];
+          const ti = tiOrig > fi ? tiOrig - 1 : tiOrig;
+          par.children.splice(ti, 0, item);
+          S.sel = [...dp, ti];
+        }
+      }
+    }
+    renderAll();
+  });
+}
+
+/* ── INIT ────────────────────────────────────────────────── */
+function setWidth(w) {
+  S.pw = Math.max(280, Math.min(700, parseInt(w) || 360));
+  document.getElementById('lcg-phone').style.width = S.pw + 'px';
+  document.getElementById('lcg-w-range').value = S.pw;
+  document.getElementById('lcg-w-num').value   = S.pw;
+  renderPreview();
+}
+
+function init() {
+  setWidth(360);
+  renderAll();
+
+  // Templates modal
+  document.getElementById('lcg-tpl-btn').addEventListener('click', openTplModal);
+  document.getElementById('lcg-tpl-close').addEventListener('click', closeTplModal);
+  document.getElementById('lcg-tpl-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-tpl-modal')) closeTplModal();
+  });
+
+  // Components modal
+  document.getElementById('lcg-add-cmp-btn').addEventListener('click', () => openCmpModal(null));
+  document.getElementById('lcg-cmp-close').addEventListener('click', closeCmpModal);
+  document.getElementById('lcg-cmp-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-cmp-modal')) closeCmpModal();
+  });
+
+  // Advanced toggle — switches between beginner UI (templates + plain-English
+  // labels) and the v1-style raw editor (full tree, every dp field exposed).
+  const advCb = document.getElementById('lcg-adv-toggle');
+  advCb.addEventListener('change', () => {
+    S.advanced = advCb.checked;
+    const root = document.getElementById('lcg');
+    root.classList.toggle('lcg-advanced', S.advanced);
+    root.classList.toggle('lcg-beginner', !S.advanced);
+    renderAll();
+  });
+
+  // Inline preview clicks — clicking any rendered node selects it in the tree
+  // and focuses the properties panel. Lets users edit by tapping what they
+  // see rather than navigating the tree.
+  document.getElementById('lcg-card').addEventListener('click', e => {
+    // Don't intercept clicks on the empty-state buttons
+    if (e.target.closest('.lcg-empty-state')) return;
+    const target = e.target.closest('[data-prevpath]');
+    if (!target) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const path = JSON.parse(target.dataset.prevpath);
+    S.sel = path;
+    renderTree();
+    renderProps();
+    document.getElementById('lcg-props').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  });
+
+  // Import modal
+  document.getElementById('lcg-import-btn').addEventListener('click', () => {
+    document.getElementById('lcg-import-modal').classList.remove('lcg-modal-off');
+    document.getElementById('lcg-import-ta').focus();
+  });
+  document.getElementById('lcg-import-close').addEventListener('click',  closeImportModal);
+  document.getElementById('lcg-import-cancel').addEventListener('click', closeImportModal);
+  document.getElementById('lcg-import-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-import-modal')) closeImportModal();
+  });
+  document.getElementById('lcg-import-ok').addEventListener('click', () => {
+    const str = document.getElementById('lcg-import-ta').value;
+    const r   = parseImport(str);
+    const err = document.getElementById('lcg-import-err');
+    if (r.err) {
+      err.textContent = r.err; err.className = 'lcg-err';
+    } else {
+      S.spec = r.spec; S.sel = null; S.collapsed.clear();
+      renderAll(); closeImportModal();
+    }
+  });
+
+  // Dark toggle
+  document.getElementById('lcg-dark-toggle').addEventListener('change', e => {
+    S.dark = e.target.checked; renderPreview();
+  });
+
+  // Width
+  document.getElementById('lcg-w-range').addEventListener('input',  e => setWidth(e.target.value));
+  document.getElementById('lcg-w-num').addEventListener('change',   e => setWidth(e.target.value));
+
+  // Add root
+  document.getElementById('lcg-add-root-btn').addEventListener('click', e => {
+    if (S.advanced) showMenu(e.target, []); else openCmpModal(null);
+  });
+
+  // Type menu
+  document.getElementById('lcg-type-menu').addEventListener('click', e => {
+    const item = e.target.closest('[data-mtype]');
+    if (!item || menuPath === null) return;
+    const type = item.dataset.mtype;
+    const p = menuPath;
+    if (p.length === 0 && !S.spec) {
+      S.spec = { type }; S.sel = [];
+    } else {
+      const np = addChild(S.spec, p, type);
+      if (np) S.sel = np;
+    }
+    renderAll(); closeMenu();
+  });
+
+  // Tree: clicks (delegated)
+  document.getElementById('lcg-tree').addEventListener('click', e => {
+    const row = e.target.closest('.lcg-tree-node');
+    if (!row) return;
+    const path = JSON.parse(row.dataset.path);
+
+    // Toggle collapse
+    if (e.target.dataset.tpath !== undefined) {
+      const k = e.target.dataset.tpath;
+      S.collapsed.has(k) ? S.collapsed.delete(k) : S.collapsed.add(k);
+      renderTree(); return;
+    }
+    // Add child
+    if (e.target.dataset.addp !== undefined) {
+      e.stopPropagation();
+      const addPath = JSON.parse(e.target.dataset.addp);
+      if (S.advanced) {
+        showMenu(e.target, addPath);
+      } else {
+        openCmpModal(addPath);
+      }
+      return;
+    }
+    // Move up
+    if (e.target.dataset.mvup !== undefined) {
+      e.stopPropagation();
+      const np = moveNode(S.spec, JSON.parse(e.target.dataset.mvup), -1);
+      if (np) S.sel = np; renderAll(); return;
+    }
+    // Move down
+    if (e.target.dataset.mvdn !== undefined) {
+      e.stopPropagation();
+      const np = moveNode(S.spec, JSON.parse(e.target.dataset.mvdn), 1);
+      if (np) S.sel = np; renderAll(); return;
+    }
+    // Delete
+    if (e.target.dataset.del !== undefined) {
+      e.stopPropagation();
+      const dp = JSON.parse(e.target.dataset.del);
+      if (dp.length === 0) {
+        if (!confirm('Clear the entire spec?')) return;
+        S.spec = null; S.sel = null;
+      } else {
+        const dk = pk(dp), sk = S.sel ? pk(S.sel) : null;
+        if (sk && (sk === dk || sk.startsWith(dk.slice(0,-1) + ','))) {
+          S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
+        }
+        delNode(S.spec, dp);
+        if (S.sel && pk(S.sel) === dk) S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
+      }
+      renderAll(); return;
+    }
+    // Select
+    S.sel = path; renderTree(); renderProps();
+  });
+
+  setupDragDrop();
+
+  // Props: change/input (delegated)
+  const propsEl = document.getElementById('lcg-props');
+  function onPropChange(e) {
+    const el = e.target;
+    if (!el.dataset.field || S.sel === null || !S.spec) return;
+    const n = gn(S.spec, S.sel);
+    if (!n) return;
+    const f = el.dataset.field;
+
+    // Type change
+    if (f === 'type') {
+      const v = el.value;
+      if (v === n.type) return;
+      const was = CONTAINERS.has(n.type), is = CONTAINERS.has(v);
+      if (was && !is && n.children && n.children.length) {
+        if (!confirm('Changing to "' + v + '" will remove ' + n.children.length + ' child node(s). Continue?')) {
+          el.value = n.type; return;
+        }
+      }
+      n.type = v;
+      if (!is) delete n.children;
+      renderAll(); return;
+    }
+
+    let v;
+    if (el.type === 'checkbox') {
+      v = el.checked;
+    } else if (el.type === 'number') {
+      v = el.value === '' ? undefined : parseFloat(el.value);
+    } else {
+      v = el.value === '' ? undefined : el.value;
+    }
+    if (v === undefined) delete n[f]; else n[f] = v;
+
+    if (el.dataset.swatch) {
+      const sw = el.closest('.lcg-color-row').querySelector('.lcg-swatch');
+      if (sw) sw.style.backgroundColor = toCSS(v || '') || 'transparent';
+    }
+    renderPreview(); updateJSON();
+  }
+  propsEl.addEventListener('change', onPropChange);
+  propsEl.addEventListener('input', e => {
+    if (e.target.tagName === 'TEXTAREA' || (e.target.tagName === 'INPUT' && e.target.type === 'text'))
+      onPropChange(e);
+  });
+
+  // Section toggle (delegated)
+  propsEl.addEventListener('click', e => {
+    const hd = e.target.closest('[data-sec]');
+    if (!hd) return;
+    const k = hd.dataset.sec;
+    const body = hd.nextElementSibling;
+    if (!body) return;
+    const open = body.style.display !== 'none';
+    body.style.display = open ? 'none' : '';
+    S.secState[k] = !open;
+    hd.querySelector('.lcg-sec-tog').textContent = open ? '▶' : '▼';
+  });
+
+  // JSON buttons
+  document.getElementById('lcg-copy-btn').addEventListener('click', () => {
+    const v = document.getElementById('lcg-json-out').value;
+    if (!v || v.length > 20000) return;
+    navigator.clipboard.writeText(v).then(() => {
+      const b = document.getElementById('lcg-copy-btn');
+      const o = b.textContent; b.textContent = 'Copied!';
+      setTimeout(() => { b.textContent = o; }, 1600);
+    });
+  });
+  document.getElementById('lcg-dl-btn').addEventListener('click', () => {
+    const v = document.getElementById('lcg-json-out').value;
+    if (!v || v.length > 20000) return;
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([v], { type: 'application/json' }));
+    a.download = 'layout-card-spec.json';
+    a.click(); URL.revokeObjectURL(a.href);
+  });
+
+  // Keyboard: Escape closes modals/menus
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (!document.getElementById('lcg-import-modal').classList.contains('lcg-modal-off')) closeImportModal();
+    if (!document.getElementById('lcg-tpl-modal').classList.contains('lcg-modal-off')) closeTplModal();
+    if (!document.getElementById('lcg-cmp-modal').classList.contains('lcg-modal-off')) closeCmpModal();
+    if (!document.getElementById('lcg-type-menu').classList.contains('lcg-menu-off')) closeMenu();
+  });
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+else init();
+
+})();
+</script>
