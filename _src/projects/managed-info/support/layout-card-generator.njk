@@ -499,6 +499,35 @@ const TYP = {
 };
 const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
 
+// When a clipped container (one with backgroundColor / overflow:hidden)
+// stacks children flush against each other, any rounded corners on those
+// children would create visible "cuts" exposing the parent's background
+// at the join. Compose flattens those interior corners — mirror that here.
+// We skip the trim when the container uses spacingDp, because the gap
+// between children already gives each child a clean parent-bg strip and
+// the rounded corners read as intentional.
+function trimChildCorners(el, n, axis) {
+  if (!n.backgroundColor) return;
+  if (n.spacingDp && n.spacingDp > 0) return;
+  const kids = Array.from(el.children);
+  if (kids.length <= 1) return;
+  kids.forEach((child, i) => {
+    const r = child.style.borderRadius;
+    if (!r || r === '0' || r === '0px') return;
+    const isFirst = i === 0;
+    const isLast  = i === kids.length - 1;
+    if (axis === 'column') {
+      if (isFirst && !isLast)      child.style.borderRadius = r + ' ' + r + ' 0 0';
+      else if (isLast && !isFirst) child.style.borderRadius = '0 0 ' + r + ' ' + r;
+      else if (!isFirst && !isLast) child.style.borderRadius = '0';
+    } else { // row
+      if (isFirst && !isLast)      child.style.borderRadius = r + ' 0 0 ' + r;
+      else if (isLast && !isFirst) child.style.borderRadius = '0 ' + r + ' ' + r + ' 0';
+      else if (!isFirst && !isLast) child.style.borderRadius = '0';
+    }
+  });
+}
+
 function applyBase(el, n) {
   // Default min-width/height to 0 so flex/grid children don't force their
   // parent to grow to fit their min-content. Explicit minWidthDp/minHeightDp
@@ -580,6 +609,7 @@ function mkNode(n, dark) {
       el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
       (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      trimChildCorners(el, n, 'column');
       break;
     }
     case 'row': {
@@ -588,6 +618,7 @@ function mkNode(n, dark) {
       el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
       (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      trimChildCorners(el, n, 'row');
       el.dataset.row = JSON.stringify({
         cb: n.collapseBelowDp,
         sp: n.spacingDp || 0,
