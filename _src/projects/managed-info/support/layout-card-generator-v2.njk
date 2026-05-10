@@ -63,9 +63,9 @@ eleventyNavigation:
     <div id="lcg-right">
       <div id="lcg-preview-controls">
         <label for="lcg-w-range">Width:</label>
-        <input type="range" id="lcg-w-range" min="280" max="700" value="360" step="4">
-        <input type="number" id="lcg-w-num" min="280" max="700" value="360">
-        <span>dp</span>
+        <input type="range" id="lcg-w-range" min="280" max="700" value="416" step="4">
+        <input type="number" id="lcg-w-num" min="280" max="700" value="416">
+        <span class="lcg-w-unit">dp <span class="lcg-w-device">— Pixel 9 Pro XL</span></span>
       </div>
 
       <div id="lcg-preview-scroll">
@@ -387,15 +387,23 @@ eleventyNavigation:
 #lcg-phone { margin: 0 auto; transition: width .12s ease; }
 
 .lcg-card-wrap {
-  background: #FFFFFF; border-radius: 12px; padding: 16px;
-  overflow: hidden; box-sizing: border-box; min-height: 32px;
+  /* No surrounding chrome — the live MANAGED INFO app renders cards
+     directly on the device wallpaper, with no extra outer rounded
+     container. A wrapping background + radius would compete with the
+     card's own corners and read as a layout mismatch. */
+  background: transparent; padding: 0;
+  box-sizing: border-box; min-height: 32px;
   font-family: 'Roboto', sans-serif; font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
 }
 /* Compose dp-based padding adds to a node's measured size; mirror
    that with border-box so width/height percentages include padding. */
 .lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
-.lcg-card-wrap.lcg-dark { background: #252525; }
+/* Dark preview keeps the same transparent wrapper — the preview
+   scroll area's background already provides the dark surface. */
+.lcg-card-wrap.lcg-dark { background: transparent; }
+/* In dark preview, push the surrounding scroll area dark so the
+   "device surface" reads as dark. */
+#lcg-preview-scroll.lcg-dark-surface { background: #1a1a1a; }
 
 .lcg-card-wrap .lcg-act { cursor: pointer; }
 .lcg-card-wrap .lcg-act:hover {
@@ -1624,16 +1632,39 @@ function setupDragDrop() {
 }
 
 /* ── INIT ────────────────────────────────────────────────── */
+/* Common Android device widths in dp — used to label the width slider
+   so users know what their card looks like on a real screen. 416 is the
+   Pixel 9 Pro XL, which is what the live MANAGED INFO app currently
+   renders against, so that's the default. */
+const DEVICE_WIDTHS = [
+  { dp: 360, name: 'Pixel 9' },
+  { dp: 384, name: 'Pixel 9 Pro' },
+  { dp: 412, name: 'Galaxy / Pixel 9 Pro Fold (front)' },
+  { dp: 416, name: 'Pixel 9 Pro XL' },
+  { dp: 600, name: 'small tablet' },
+];
+
+function deviceLabelFor(dp) {
+  let best = null, bestDiff = Infinity;
+  for (const d of DEVICE_WIDTHS) {
+    const diff = Math.abs(d.dp - dp);
+    if (diff < bestDiff) { best = d; bestDiff = diff; }
+  }
+  return best && bestDiff <= 6 ? '— ' + best.name : '';
+}
+
 function setWidth(w) {
-  S.pw = Math.max(280, Math.min(700, parseInt(w) || 360));
+  S.pw = Math.max(280, Math.min(700, parseInt(w) || 416));
   document.getElementById('lcg-phone').style.width = S.pw + 'px';
   document.getElementById('lcg-w-range').value = S.pw;
   document.getElementById('lcg-w-num').value   = S.pw;
+  const dev = document.querySelector('.lcg-w-device');
+  if (dev) dev.textContent = deviceLabelFor(S.pw);
   renderPreview();
 }
 
 function init() {
-  setWidth(360);
+  setWidth(416);
   renderAll();
 
   // Templates modal
@@ -1700,9 +1731,13 @@ function init() {
     }
   });
 
-  // Dark toggle
+  // Dark toggle — flips the card's text-default colour and darkens the
+  // surrounding "device surface" so the card visually sits on a dark
+  // wallpaper rather than the light one.
   document.getElementById('lcg-dark-toggle').addEventListener('change', e => {
-    S.dark = e.target.checked; renderPreview();
+    S.dark = e.target.checked;
+    document.getElementById('lcg-preview-scroll').classList.toggle('lcg-dark-surface', S.dark);
+    renderPreview();
   });
 
   // Width
