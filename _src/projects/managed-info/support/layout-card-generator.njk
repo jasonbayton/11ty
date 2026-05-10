@@ -1,17 +1,17 @@
 ---
 title: Layout card builder
-published: '2026-05-09'
+published: '2026-05-10'
 status: publish
 author: 'Jason Bayton'
-excerpt: 'Visually compose MANAGED INFO layout card specs and export the JSON string for your managed configuration.'
+excerpt: 'A friendly card builder for MANAGED INFO - start from a template, drop in components, and only see the technical fields if you ask for them.'
 type: page
 layout: base.njk
-categories: 
+categories:
     - Managed Info Setup
 tags:
   - 'Managed Info'
   - 'bayton-projects'
-eleventyNavigation: 
+eleventyNavigation:
   order: 9
   title: Layout card builder
 
@@ -21,15 +21,39 @@ eleventyNavigation:
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
 
-<p>Compose a layout card visually and copy the minified JSON into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
+<p>Build a layout card without touching JSON. Pick a template to start, drop in components, then copy the result into the <code>stack_layout_card_spec</code> field of your managed configuration. <a href="/projects/managed-info/support/customising-managed-info/">Learn more about layout cards.</a></p>
 
-<div id="lcg">
+<details style="margin:14px 0 18px;border:1px solid var(--light);border-radius:8px;padding:8px 14px;background:var(--subtle-bg)">
+  <summary style="cursor:pointer;font-weight:600;font-size:14px;color:var(--text)">How to apply this card to a device (MANAGED INFO 1.2.0.0 or later)</summary>
+  <div style="font-size:13px;line-height:1.55;padding:10px 0 4px">
+    <p style="margin:0 0 8px">Layout cards are delivered through your EMM as a managed configuration string against the MANAGED INFO app. Devices need MANAGED INFO version <strong>1.2.0.0</strong> or later for the <code>stack_layout_card_spec</code> field to be honoured.</p>
+    <ol style="margin:0 0 8px;padding-left:20px">
+      <li>Build your card in the editor above and click <strong>Copy</strong> in the JSON panel to grab the minified spec.</li>
+      <li>In your EMM (Android Management API console, Intune, Workspace ONE, SOTI, Knox, etc.) open the managed configuration for the MANAGED INFO app.</li>
+      <li>Find the <code>stack_layout_card_spec</code> string field. Paste the JSON in as a single line.</li>
+      <li>Save and push the policy. On the next sync the device will replace its current card with the new layout. No app restart required.</li>
+    </ol>
+    <p style="margin:0 0 6px"><strong>Tips:</strong></p>
+    <ul style="margin:0 0 0;padding-left:20px">
+      <li>Keep the spec under 20,000 characters. The editor's counter goes amber from 10,000 and red above 20,000, where some EMMs start truncating string values.</li>
+      <li>Image URLs must be HTTPS and reachable from the device. Self-hosted images need to be on a host the device can resolve.</li>
+      <li>If a device doesn't pick up the change, confirm it's on 1.2.0.0 or later (Settings, Apps, MANAGED INFO, version) and force a managed config sync from your EMM.</li>
+      <li>To go back to the default card, push an empty string for <code>stack_layout_card_spec</code>.</li>
+    </ul>
+  </div>
+</details>
+
+<div id="lcg" class="lcg-beginner">
 
   <div id="lcg-toolbar">
     <div class="lcg-tb-left">
-      <span id="lcg-sample-link">Show a sample</span>
+      <button id="lcg-tpl-btn" type="button" class="lcg-primary-btn">Start from a template</button>
+      <button id="lcg-add-cmp-btn" type="button" class="lcg-secondary-btn">+ Add component</button>
     </div>
     <div class="lcg-tb-right">
+      <label class="lcg-dark-label" title="Toggle the technical primitive editor (box / column / row, raw dp values, every alignment enum)">
+        <input type="checkbox" id="lcg-adv-toggle"> Advanced
+      </label>
       <button id="lcg-import-btn" type="button">Import JSON</button>
       <label class="lcg-dark-label">
         <input type="checkbox" id="lcg-dark-toggle"> Dark preview
@@ -40,11 +64,13 @@ eleventyNavigation:
   <div id="lcg-main">
 
     <div id="lcg-editor">
-      <div class="lcg-panel-hd">
-        <span>Node tree</span>
-        <span id="lcg-add-root-btn">+ Add root</span>
+      <div class="lcg-tree-section">
+        <div class="lcg-panel-hd">
+          <span>Node tree</span>
+          <span id="lcg-add-root-btn">+ Add root</span>
+        </div>
+        <div id="lcg-tree" class="lcg-scroll"></div>
       </div>
-      <div id="lcg-tree" class="lcg-scroll"></div>
 
       <div class="lcg-panel-hd">
         <span id="lcg-props-title">Properties</span>
@@ -55,9 +81,9 @@ eleventyNavigation:
     <div id="lcg-right">
       <div id="lcg-preview-controls">
         <label for="lcg-w-range">Width:</label>
-        <input type="range" id="lcg-w-range" min="280" max="700" value="360" step="4">
-        <input type="number" id="lcg-w-num" min="280" max="700" value="360">
-        <span>dp</span>
+        <input type="range" id="lcg-w-range" min="280" max="700" value="416" step="4">
+        <input type="number" id="lcg-w-num" min="280" max="700" value="416">
+        <span class="lcg-w-unit">dp <span class="lcg-w-info" title="For reference, Pixel 9 Pro XL uses 416dp in portrait." aria-label="For reference, Pixel 9 Pro XL uses 416dp in portrait.">(i)</span> <span class="lcg-w-device"></span></span>
       </div>
 
       <div id="lcg-preview-scroll">
@@ -97,6 +123,28 @@ eleventyNavigation:
     </div>
   </div>
 
+  <div id="lcg-tpl-modal" class="lcg-modal-off">
+    <div id="lcg-tpl-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Start from a template</strong>
+        <button id="lcg-tpl-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint">Pick a starting point - you can change anything afterwards.</p>
+      <div id="lcg-tpl-grid"></div>
+    </div>
+  </div>
+
+  <div id="lcg-cmp-modal" class="lcg-modal-off">
+    <div id="lcg-cmp-dlg">
+      <div class="lcg-modal-hd">
+        <strong>Add a component</strong>
+        <button id="lcg-cmp-close" type="button">&times;</button>
+      </div>
+      <p class="lcg-modal-hint" id="lcg-cmp-hint">Choose what to add.</p>
+      <div id="lcg-cmp-grid"></div>
+    </div>
+  </div>
+
   <div id="lcg-type-menu" class="lcg-menu-off"></div>
 
 </div>
@@ -111,18 +159,105 @@ eleventyNavigation:
   padding: 8px 0 14px; border-bottom: 1px solid var(--light);
   margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
 }
-.lcg-tb-left, .lcg-tb-right { display: flex; align-items: center; gap: 10px; }
-#lcg-sample-link {
-  color: var(--orange); cursor: pointer; text-decoration: underline; font-size: 13px;
+.lcg-tb-left, .lcg-tb-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.lcg-primary-btn {
+  font-size: 13px; padding: 6px 16px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: var(--orange); color: #fff; font-family: inherit;
+  box-shadow: none; font-weight: 600;
 }
-#lcg-sample-link:hover { opacity: .8; }
+.lcg-primary-btn:hover { opacity: .9; }
+.lcg-secondary-btn {
+  font-size: 13px; padding: 6px 14px; cursor: pointer;
+  border: 1px solid var(--orange); border-radius: 4px;
+  background: transparent; color: var(--orange); font-family: inherit;
+  box-shadow: none;
+}
+.lcg-secondary-btn:hover { background: rgba(255,69,0,.08); }
 #lcg-import-btn {
   font-size: 12px; padding: 4px 12px; cursor: pointer;
-  border: 1px solid var(--orange); border-radius: 4px;
-  background: transparent; color: var(--orange); font-family: inherit; box-shadow: none;
+  border: 1px solid var(--light); border-radius: 4px;
+  background: transparent; color: var(--text); font-family: inherit; box-shadow: none;
+  opacity: .8;
 }
-#lcg-import-btn:hover { background: var(--orange); color: #fff; }
+#lcg-import-btn:hover { background: var(--input); opacity: 1; }
 .lcg-dark-label { font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+.lcg-dark-label input { width: auto; }
+
+/* Hide the tree panel in beginner mode unless there's a spec */
+#lcg.lcg-beginner #lcg-editor .lcg-tree-section { display: none; }
+
+/* Empty state */
+.lcg-empty-state {
+  text-align: center; padding: 40px 20px;
+  color: var(--text); font-family: 'Roboto', sans-serif;
+}
+.lcg-empty-state h3 { margin: 0 0 8px; font-size: 18px; font-weight: 500; opacity: .8; }
+.lcg-empty-state p { margin: 0 0 16px; font-size: 13px; opacity: .6; }
+.lcg-empty-state-buttons { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+/* Template & Component modals */
+#lcg-tpl-modal, #lcg-cmp-modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.4);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; backdrop-filter: blur(2px);
+}
+#lcg-tpl-modal.lcg-modal-off, #lcg-cmp-modal.lcg-modal-off { display: none; }
+#lcg-tpl-dlg, #lcg-cmp-dlg {
+  background: var(--background); border-radius: 12px; padding: 20px 24px;
+  width: min(720px, calc(100vw - 32px)); max-height: calc(100vh - 60px); overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+#lcg-tpl-grid, #lcg-cmp-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;
+  margin-top: 12px;
+}
+.lcg-tpl-card, .lcg-cmp-card {
+  border: 1px solid var(--light); border-radius: 8px; padding: 14px;
+  cursor: pointer; transition: all .12s;
+  background: var(--subtle-bg); text-align: left;
+  display: flex; flex-direction: column; gap: 6px;
+  font-family: inherit;
+}
+.lcg-tpl-card:hover, .lcg-cmp-card:hover {
+  border-color: var(--orange); transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.lcg-tpl-icon, .lcg-cmp-icon {
+  font-size: 22px; line-height: 1; opacity: .7;
+}
+.lcg-tpl-name, .lcg-cmp-name {
+  font-size: 13px; font-weight: 700; color: var(--text);
+}
+.lcg-tpl-desc, .lcg-cmp-desc {
+  font-size: 11px; opacity: .6; color: var(--text); line-height: 1.4;
+}
+.lcg-cmp-card[data-advanced="1"] { opacity: .55; }
+#lcg.lcg-advanced .lcg-cmp-card[data-advanced="1"] { opacity: 1; }
+
+/* Friendly type label badges in tree */
+.lcg-n-friendly {
+  font-size: 10px; opacity: .5; font-weight: 400; margin-left: 4px;
+}
+
+/* Hide raw-type tree in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-n-type { display: none; }
+#lcg:not(.lcg-advanced) .lcg-n-friendly {
+  font-size: 11px; opacity: 1; font-weight: 700; color: var(--orange); margin-left: 0; min-width: 80px;
+}
+
+/* Hide advanced fields in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-f-advanced { display: none; }
+#lcg:not(.lcg-advanced) .lcg-sec-hd[data-sec="padding-detail"] { display: none; }
+
+/* Hide type selector and certain raw fields in beginner mode */
+#lcg:not(.lcg-advanced) .lcg-type-row { display: none; }
+
+/* Inline preview affordances */
+.lcg-card-wrap [data-prevpath] { position: relative; }
+#lcg.lcg-beginner .lcg-card-wrap [data-prevpath]:hover {
+  outline: 2px dashed var(--orange); outline-offset: 2px; cursor: pointer;
+}
 
 /* Split pane */
 #lcg-main {
@@ -261,24 +396,50 @@ eleventyNavigation:
 #lcg-preview-controls label { font-size: 11px; font-weight: 700; opacity: .7; }
 #lcg-w-range { flex: 1; min-width: 80px; max-width: 200px; }
 #lcg-w-num { width: 58px !important; }
+.lcg-w-unit { font-size: 13px; opacity: .7; display: inline-flex; align-items: center; gap: 4px; }
+.lcg-w-info { cursor: help; opacity: .55; font-size: 11px; font-style: italic; }
+.lcg-w-info:hover { opacity: 1; color: var(--orange); }
+.lcg-w-device { opacity: .65; font-size: 12px; }
 
+/* The preview scroll area is the "device wallpaper" the card sits on.
+   Defaults to a light wallpaper-like grey; dark preview switches to
+   a dark wallpaper. Both are explicit hex so the toggle works
+   regardless of the surrounding page theme. */
 #lcg-preview-scroll {
   overflow-x: auto; padding: 16px;
-  background: var(--subtle-bg); border-radius: 8px;
+  background: #ECECEE; border-radius: 8px;
   border: 1px solid var(--light);
+  transition: background .15s ease;
 }
+#lcg-preview-scroll.lcg-dark-surface { background: #1A1A1C; }
 #lcg-phone { margin: 0 auto; transition: width .12s ease; }
 
+/* The card wrapper is the Material 3 surface card the app renders the
+   entire layout spec inside on-device. The live app insets every
+   element inside the card by ~16dp so content doesn't touch the
+   rounded edges - matched here with 16px padding. */
 .lcg-card-wrap {
-  background: #FFFFFF; border-radius: 12px; padding: 16px;
-  overflow: hidden; box-sizing: border-box; min-height: 32px;
+  background: #FFFFFF; padding: 16px;
+  border-radius: 24px; overflow: hidden;
+  box-sizing: border-box; min-height: 32px;
   font-family: 'Roboto', sans-serif; font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.08);
+  box-shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
 }
 /* Compose dp-based padding adds to a node's measured size; mirror
    that with border-box so width/height percentages include padding. */
 .lcg-card-wrap, .lcg-card-wrap * { box-sizing: border-box; }
-.lcg-card-wrap.lcg-dark { background: #252525; }
+/* Dark preview gives the surface card a dark Material 3 colour. */
+.lcg-card-wrap.lcg-dark {
+  background: #1F1F22;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+}
+/* The root spec node already has its own backgroundColor (it IS the
+   visible card), so the wrapper hides to avoid a second surface and
+   drops its own padding so the spec's root takes the full width. */
+.lcg-card-wrap.lcg-surface-off {
+  background: transparent; box-shadow: none; border-radius: 0;
+  overflow: visible; padding: 0;
+}
 
 .lcg-card-wrap .lcg-act { cursor: pointer; }
 .lcg-card-wrap .lcg-act:hover {
@@ -400,7 +561,175 @@ eleventyNavigation:
 'use strict';
 
 /* ── SAMPLE ─────────────────────────────────────────────── */
-const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":24},{"type":"box","fillMaxWidth":true,"fillMaxHeight":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":24},{"type":"column","fillMaxWidth":true,"fillMaxHeight":true,"paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
+const SAMPLE = {"type":"column","fillMaxWidth":true,"spacingDp":18,"children":[{"type":"box","fillMaxWidth":true,"actionUrl":"https://example.com/parks/lowerton-city-park","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80","contentDescription":"City park hero image","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop"},{"type":"column","fillMaxWidth":true,"backgroundColor":"#661C3B2B","cornerRadiusDp":0,"paddingDp":20,"spacingDp":10,"children":[{"type":"box","backgroundColor":"#F4B942","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":6,"children":[{"type":"text","text":"Grand opening weekend","style":"labelMedium","fontWeight":"semi_bold","color":"#182833"}]},{"type":"text","text":"Lowerton City Park","style":"headlineLarge","fontWeight":"semi_bold","color":"#FFFFFF"},{"type":"text","text":"Trails, play gardens, lakeside food, open-air concerts, and flexible event spaces in one new downtown park.","style":"bodyMedium","color":"#F4F8F6"},{"type":"row","fillMaxWidth":true,"spacingDp":8,"children":[{"type":"box","backgroundColor":"#D7F0E0","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Free entry","style":"labelMedium","fontWeight":"semi_bold","color":"#18543A"}]},{"type":"box","backgroundColor":"#E4EEFF","cornerRadiusDp":18,"paddingHorizontalDp":12,"paddingVerticalDp":7,"children":[{"type":"text","text":"Opening 24 May","style":"labelMedium","fontWeight":"semi_bold","color":"#21476B"}]}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":12,"children":[{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"6","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"attraction zones","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"40+","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"food vendors","style":"bodySmall","color":"#5A6B7C"}]},{"type":"column","weight":1,"minWidthDp":110,"backgroundColor":"#F4F7FB","paddingDp":16,"spacingDp":4,"children":[{"type":"text","text":"1,200","style":"headlineMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"parking spaces","style":"bodySmall","color":"#5A6B7C"}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/attractions","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","contentDescription":"Play gardens and climbing spaces","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Attractions","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Play gardens, water features, climbing frames, and a lakeside boardwalk for all-day family traffic.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/food","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80","contentDescription":"Street food and dining","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Food","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"Street food kiosks, picnic lawns, coffee bars, and sunset dining with broad terrace seating.","style":"bodySmall","color":"#566979"}]}]}]},{"type":"row","fillMaxWidth":true,"spacingDp":14,"children":[{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#FFFFFF","actionUrl":"https://example.com/parks/lowerton-city-park/music","children":[{"type":"image","imageUrl":"https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80","contentDescription":"Live music performance","fillMaxWidth":true,"aspectRatio":1.15,"contentScale":"crop","cornerRadiusDp":20},{"type":"column","paddingDp":16,"spacingDp":8,"children":[{"type":"text","text":"Live music","style":"titleMedium","fontWeight":"semi_bold","color":"#182833"},{"type":"text","text":"A weekend launch stage with local artists, evening headline sets, and space for community performances.","style":"bodySmall","color":"#566979"}]}]},{"type":"column","weight":1,"minWidthDp":160,"backgroundColor":"#E8F4EE","paddingDp":18,"spacingDp":10,"children":[{"type":"text","text":"Plan your day","style":"titleMedium","fontWeight":"semi_bold","color":"#12422F"},{"type":"markdown","text":"**Parking:** 1,200-space east garage  \n**Venue hire:** pavilions and lawn decks  \n**Seasons:** blossom markets, summer cinema, autumn food fairs, winter lights"},{"type":"box","fillMaxWidth":true,"backgroundColor":"#12422F","cornerRadiusDp":18,"paddingHorizontalDp":16,"paddingVerticalDp":12,"actionUrl":"https://example.com/parks/lowerton-city-park/venue-hire","children":[{"type":"text","text":"Book venue hire","style":"labelLarge","fontWeight":"semi_bold","textAlign":"center","color":"#FFFFFF"}]}]}]}]};
+
+/* ── TEMPLATES (full starting points) ─────────────────────── */
+const TEMPLATES = [
+  {
+    id: 'lowerton',
+    icon: '🏞️',
+    name: 'Multi-section card (full sample)',
+    desc: 'Hero image with overlay, stats row, and image cards - the Lowerton City Park example.',
+    spec: () => JSON.parse(JSON.stringify(SAMPLE)),
+  },
+  {
+    id: 'hero',
+    icon: '🖼️',
+    name: 'Hero card',
+    desc: 'Big background image with a title and short description on top.',
+    spec: () => ({
+      type: 'box', fillMaxWidth: true, children: [
+        { type: 'image', imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80',
+          contentDescription: 'Hero image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 20 },
+        { type: 'box', fillMaxWidth: true, fillMaxHeight: true, backgroundColor: '#66000000', cornerRadiusDp: 20 },
+        { type: 'column', fillMaxWidth: true, fillMaxHeight: true, paddingDp: 20, spacingDp: 8, children: [
+          { type: 'text', text: 'Your headline', style: 'headlineLarge', fontWeight: 'semi_bold', color: '#FFFFFF' },
+          { type: 'text', text: 'A short description that sits over the image.', style: 'bodyMedium', color: '#F4F8F6' },
+        ]},
+      ],
+    }),
+  },
+  {
+    id: 'imagecard',
+    icon: '🃏',
+    name: 'Image card with text',
+    desc: 'Image at top, title and description below. Great for content tiles.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#FFFFFF', fillMaxWidth: true, children: [
+        { type: 'image', imageUrl: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+          contentDescription: 'Image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 20 },
+        { type: 'column', paddingDp: 16, spacingDp: 8, children: [
+          { type: 'text', text: 'Card title', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+          { type: 'text', text: 'A line or two of supporting copy explaining what this card is about.', style: 'bodySmall', color: '#566979' },
+        ]},
+      ],
+    }),
+  },
+  {
+    id: 'stats',
+    icon: '📊',
+    name: 'Stats row',
+    desc: 'Three side-by-side tiles, each showing a number and a short label.',
+    spec: () => ({
+      type: 'row', fillMaxWidth: true, spacingDp: 12, children: [
+        statTile('6', 'attractions'),
+        statTile('40+', 'food vendors'),
+        statTile('1,200', 'parking'),
+      ],
+    }),
+  },
+  {
+    id: 'action',
+    icon: '🔘',
+    name: 'Card with a button',
+    desc: 'A simple card with a title, body text, and a tappable button at the end.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#FFFFFF', fillMaxWidth: true, paddingDp: 18, spacingDp: 12, children: [
+        { type: 'text', text: 'Quick start', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+        { type: 'text', text: 'Tell users what they can do, then give them a clear button to do it.', style: 'bodySmall', color: '#566979' },
+        pillButton('Get started', '#12422F', '#FFFFFF', 'https://example.com/start'),
+      ],
+    }),
+  },
+  {
+    id: 'plain',
+    icon: '📝',
+    name: 'Plain text card',
+    desc: 'A simple card with a heading and body text - no images.',
+    spec: () => ({
+      type: 'column', backgroundColor: '#F4F7FB', fillMaxWidth: true, paddingDp: 18, spacingDp: 8, children: [
+        { type: 'text', text: 'Heads up', style: 'titleMedium', fontWeight: 'semi_bold', color: '#182833' },
+        { type: 'text', text: 'A short message in calm, plain text. Use this for tips, notices, or short updates.', style: 'bodyMedium', color: '#566979' },
+      ],
+    }),
+  },
+  {
+    id: 'blank',
+    icon: '➕',
+    name: 'Blank card',
+    desc: 'Start from an empty card and build it up component by component.',
+    spec: () => ({ type: 'column', fillMaxWidth: true, spacingDp: 12, children: [] }),
+  },
+];
+
+function statTile(num, label) {
+  return { type: 'column', weight: 1, minWidthDp: 100, backgroundColor: '#F4F7FB', paddingDp: 14, spacingDp: 4, children: [
+    { type: 'text', text: num, style: 'headlineMedium', fontWeight: 'semi_bold', color: '#182833' },
+    { type: 'text', text: label, style: 'bodySmall', color: '#5A6B7C' },
+  ]};
+}
+
+function pillButton(text, bg, fg, url) {
+  return { type: 'box', fillMaxWidth: true, backgroundColor: bg, cornerRadiusDp: 18,
+    paddingHorizontalDp: 16, paddingVerticalDp: 12, actionUrl: url || '', children: [
+      { type: 'text', text: text, style: 'labelLarge', fontWeight: 'semi_bold', textAlign: 'center', color: fg },
+  ]};
+}
+
+/* ── COMPONENT PALETTE (single building blocks) ──────────── */
+const COMPONENTS = [
+  { id: 'heading', icon: '𝐇', name: 'Heading',  desc: 'A large title. Use one near the top of a card.',
+    advanced: false, spec: () => ({ type: 'text', text: 'Heading', style: 'titleLarge', fontWeight: 'semi_bold', color: '#182833' }) },
+  { id: 'body', icon: '¶', name: 'Body text', desc: 'A line or paragraph of regular reading text.',
+    advanced: false, spec: () => ({ type: 'text', text: 'Some body text.', style: 'bodyMedium', color: '#444' }) },
+  { id: 'image', icon: '🖼', name: 'Image', desc: 'A picture that fits the width of its container.',
+    advanced: false, spec: () => ({ type: 'image', imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80',
+      contentDescription: 'Image', fillMaxWidth: true, aspectRatio: 1.6, contentScale: 'crop', cornerRadiusDp: 16 }) },
+  { id: 'pill', icon: '⬬', name: 'Button (pill)', desc: 'A coloured pill that opens a link when tapped.',
+    advanced: false, spec: () => pillButton('Tap me', '#12422F', '#FFFFFF', 'https://example.com') },
+  { id: 'stat', icon: '#', name: 'Stat tile', desc: 'A big number and a short label. Stack a few in a row.',
+    advanced: false, spec: () => statTile('42', 'units') },
+  { id: 'imagecard', icon: '🃏', name: 'Image card',  desc: 'Image at top, title and text below - a content tile.',
+    advanced: false, spec: () => TEMPLATES.find(t => t.id === 'imagecard').spec() },
+  { id: 'twocol', icon: '⫴', name: 'Two-column section', desc: 'A row split into two equal columns. Drop content into each.',
+    advanced: false, spec: () => ({ type: 'row', fillMaxWidth: true, spacingDp: 12, children: [
+      { type: 'column', weight: 1, spacingDp: 8, children: [{ type: 'text', text: 'Left', style: 'titleMedium', fontWeight: 'semi_bold' }] },
+      { type: 'column', weight: 1, spacingDp: 8, children: [{ type: 'text', text: 'Right', style: 'titleMedium', fontWeight: 'semi_bold' }] },
+    ]}) },
+  { id: 'spacer', icon: '↔', name: 'Spacer', desc: 'Empty space for visual breathing room.',
+    advanced: false, spec: () => ({ type: 'spacer', spacingDp: 12 }) },
+  { id: 'divider', icon: '─', name: 'Divider', desc: 'A horizontal line between sections.',
+    advanced: false, spec: () => ({ type: 'divider', color: '#E0E0E0' }) },
+  { id: 'markdown', icon: 'MD', name: 'Markdown text', desc: 'Rich text with **bold**, lists and line breaks.',
+    advanced: false, spec: () => ({ type: 'markdown', text: '**Bold,** *italic,* and a list:\\n- one\\n- two' }) },
+  { id: 'box', icon: '◻', name: 'Box (advanced)', desc: 'Stack children on top of each other (image + overlay text).',
+    advanced: true, spec: () => ({ type: 'box', fillMaxWidth: true, children: [] }) },
+  { id: 'column', icon: '⫯', name: 'Column (advanced)', desc: 'Stack children vertically.',
+    advanced: true, spec: () => ({ type: 'column', fillMaxWidth: true, spacingDp: 8, children: [] }) },
+  { id: 'row', icon: '⫲', name: 'Row (advanced)',  desc: 'Stack children horizontally.',
+    advanced: true, spec: () => ({ type: 'row', fillMaxWidth: true, spacingDp: 8, children: [] }) },
+];
+
+/* Recognise common component patterns inside an existing spec so the
+   tree shows "Image card" rather than "column" for a column whose
+   first child is an image and second is a text column. */
+function friendlyName(n) {
+  if (!n) return '';
+  if (n.type === 'text') return 'Text';
+  if (n.type === 'image') return 'Image';
+  if (n.type === 'markdown') return 'Markdown';
+  if (n.type === 'spacer') return 'Spacer';
+  if (n.type === 'divider') return 'Divider';
+  if (n.type === 'box') {
+    const kids = n.children || [];
+    if (n.actionUrl && kids.length === 1 && kids[0].type === 'text') return 'Button';
+    if (kids.some(c => c.type === 'image') && kids.some(c => c.type === 'column')) return 'Hero card';
+    return 'Stack';
+  }
+  if (n.type === 'column') {
+    const kids = n.children || [];
+    if (kids.length === 2 && kids[0].type === 'image' && kids[1].type === 'column') return 'Image card';
+    if (n.backgroundColor && kids.length >= 2 && kids.every(c => c.type === 'text')) return 'Stat tile';
+    if (n.backgroundColor) return 'Card';
+    return 'Group';
+  }
+  if (n.type === 'row') {
+    const kids = n.children || [];
+    if (kids.length >= 2 && kids.every(c => c.type === 'column')) return 'Tiles row';
+    return 'Row';
+  }
+  return n.type;
+}
 
 /* ── STATE ───────────────────────────────────────────────── */
 const S = {
@@ -408,8 +737,10 @@ const S = {
   sel: null,        // selected path (array) or null
   dark: false,
   pw: 360,          // preview width px
+  advanced: false,  // beginner UI hides technical fields and primitives
   collapsed: new Set(),   // path keys of collapsed tree nodes
   secState: {},           // section key -> bool (true=open)
+  cmpTarget: null,        // path being inserted into (for component palette)
 };
 
 /* ── PATH HELPERS ────────────────────────────────────────── */
@@ -501,31 +832,26 @@ const TYP = {
 const FW = {light:'300', medium:'500', semi_bold:'600', semibold:'600', bold:'700'};
 
 // When a clipped container (one with backgroundColor / overflow:hidden)
-// stacks children flush against each other, any rounded corners on those
-// children would create visible "cuts" exposing the parent's background
-// at the join. Compose flattens those interior corners — mirror that here.
-// We skip the trim when the container uses spacingDp, because the gap
-// between children already gives each child a clean parent-bg strip and
-// the rounded corners read as intentional.
+// stacks children flush against each other, the children's own
+// border-radius is redundant: the parent's clip already shapes the
+// outer boundary, and any radius on a sibling-facing edge creates a
+// visible "cut" exposing the parent's background. Strip all corners on
+// these children and let the parent's clip do the work, which avoids
+// both the unwanted cuts and the subpixel double-clip artifact that
+// reads as a 1-2px inset on the image inside an image card.
+//
+// Skip the trim when the container uses spacingDp, because the gap
+// between children gives each child a clean parent-bg strip and the
+// rounded corners read as intentional.
 function trimChildCorners(el, n, axis) {
   if (!n.backgroundColor) return;
   if (n.spacingDp && n.spacingDp > 0) return;
   const kids = Array.from(el.children);
   if (kids.length <= 1) return;
-  kids.forEach((child, i) => {
+  kids.forEach(child => {
     const r = child.style.borderRadius;
     if (!r || r === '0' || r === '0px') return;
-    const isFirst = i === 0;
-    const isLast  = i === kids.length - 1;
-    if (axis === 'column') {
-      if (isFirst && !isLast)      child.style.borderRadius = r + ' ' + r + ' 0 0';
-      else if (isLast && !isFirst) child.style.borderRadius = '0 0 ' + r + ' ' + r;
-      else if (!isFirst && !isLast) child.style.borderRadius = '0';
-    } else { // row
-      if (isFirst && !isLast)      child.style.borderRadius = r + ' 0 0 ' + r;
-      else if (isLast && !isFirst) child.style.borderRadius = '0 ' + r + ' ' + r + ' 0';
-      else if (!isFirst && !isLast) child.style.borderRadius = '0';
-    }
+    child.style.borderRadius = '0';
   });
 }
 
@@ -564,12 +890,14 @@ function applyBase(el, n) {
   }
 }
 
-function mkNode(n, dark) {
+function mkNode(n, dark, path) {
   const base = dark ? '#FFFFFF' : '#333333';
+  if (!path) path = [];
 
   if (n.type === 'image') {
     const w = document.createElement('div');
     applyBase(w, n);
+    w.dataset.prevpath = JSON.stringify(path);
     w.style.overflow = 'hidden';
     if (n.aspectRatio) w.style.aspectRatio = String(n.aspectRatio);
     if (n.actionUrl) w.classList.add('lcg-act');
@@ -584,6 +912,7 @@ function mkNode(n, dark) {
 
   const el = document.createElement('div');
   applyBase(el, n);
+  el.dataset.prevpath = JSON.stringify(path);
   if (n.actionUrl) el.classList.add('lcg-act');
 
   switch (n.type) {
@@ -591,8 +920,8 @@ function mkNode(n, dark) {
       el.style.display = 'grid';
       el.style.gridTemplateAreas = '"s"';
       el.style.placeItems = CA[n.contentAlignment] || 'start start';
-      (n.children || []).forEach(c => {
-        const ce = mkNode(c, dark);
+      (n.children || []).forEach((c, i) => {
+        const ce = mkNode(c, dark, path.concat(i));
         ce.style.gridArea = 's';
         if (c.fillMaxHeight) ce.style.alignSelf = 'stretch';
         if (c.fillMaxWidth) { ce.style.justifySelf = 'stretch'; ce.style.width = '100%'; }
@@ -609,7 +938,7 @@ function mkNode(n, dark) {
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.verticalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.horizontalAlignment] || 'flex-start';
-      (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      (n.children || []).forEach((c, i) => el.appendChild(mkNode(c, dark, path.concat(i))));
       trimChildCorners(el, n, 'column');
       break;
     }
@@ -618,7 +947,7 @@ function mkNode(n, dark) {
       if (n.spacingDp) el.style.gap = n.spacingDp + 'px';
       el.style.justifyContent = ARR[n.horizontalArrangement] || 'flex-start';
       el.style.alignItems = ARR[n.verticalAlignment] || 'flex-start';
-      (n.children || []).forEach(c => el.appendChild(mkNode(c, dark)));
+      (n.children || []).forEach((c, i) => el.appendChild(mkNode(c, dark, path.concat(i))));
       trimChildCorners(el, n, 'row');
       el.dataset.row = JSON.stringify({
         cb: n.collapseBelowDp,
@@ -684,7 +1013,7 @@ function collapseRows(container) {
       const d = JSON.parse(rowEl.dataset.row);
       const rw = rowEl.clientWidth;
       // Only collapse on an explicit collapseBelowDp threshold.
-      // Compose Row never auto-flips direction based on child minWidth —
+      // Compose Row never auto-flips direction based on child minWidth -
       // weighted children just get cramped (or text wraps) when space runs out.
       const collapse = !!(d.cb && rw <= d.cb);
       const wasCollapsed = rowEl.dataset.collapsed === '1';
@@ -725,7 +1054,7 @@ function renderTree() {
   const el = document.getElementById('lcg-tree');
   const rootBtn = document.getElementById('lcg-add-root-btn');
   if (!S.spec) {
-    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded — add a root node to start.</div>';
+    el.innerHTML = '<div class="lcg-tree-empty">No spec loaded - add a root node to start.</div>';
     rootBtn.style.display = '';
     return;
   }
@@ -763,6 +1092,11 @@ function walkTree(n, path, container) {
   type.className = 'lcg-n-type';
   type.textContent = n.type;
   row.appendChild(type);
+
+  const friendly = document.createElement('span');
+  friendly.className = 'lcg-n-friendly';
+  friendly.textContent = friendlyName(n);
+  row.appendChild(friendly);
 
   const prev = document.createElement('span');
   prev.className = 'lcg-n-prev';
@@ -840,28 +1174,29 @@ function renderProps() {
   const lf = layoutFields(n);
   if (lf.length) form.appendChild(mkSec('Layout', lf, n, 'layout'));
 
-  // Padding
-  form.appendChild(mkSec('Padding', [
-    {f:'paddingDp',         l:'All (dp)',        t:'number'},
-    {f:'paddingHorizontalDp',l:'Horizontal (dp)', t:'number'},
-    {f:'paddingVerticalDp', l:'Vertical (dp)',   t:'number'},
-    {f:'paddingStartDp',    l:'Start (dp)',      t:'number'},
-    {f:'paddingTopDp',      l:'Top (dp)',        t:'number'},
-    {f:'paddingEndDp',      l:'End (dp)',        t:'number'},
-    {f:'paddingBottomDp',   l:'Bottom (dp)',     t:'number'},
+  // Inner space (was "Padding") - beginner sees only "All sides"; advanced sees the
+  // per-side breakdown.
+  form.appendChild(mkSec('Inner space', [
+    {f:'paddingDp',          l:'All sides (dp)',   bL:'All sides',         t:'number'},
+    {f:'paddingHorizontalDp',l:'Horizontal (dp)',  t:'number', adv:true},
+    {f:'paddingVerticalDp',  l:'Vertical (dp)',    t:'number', adv:true},
+    {f:'paddingStartDp',     l:'Start (dp)',       t:'number', adv:true},
+    {f:'paddingTopDp',       l:'Top (dp)',         t:'number', adv:true},
+    {f:'paddingEndDp',       l:'End (dp)',         t:'number', adv:true},
+    {f:'paddingBottomDp',    l:'Bottom (dp)',      t:'number', adv:true},
   ], n, 'padding'));
 
   // Appearance
   form.appendChild(mkSec('Appearance', [
-    {f:'backgroundColor', l:'Background colour', t:'color'},
-    {f:'cornerRadiusDp',  l:'Corner radius (dp)', t:'number'},
-    {f:'alpha',           l:'Alpha (0–1)',  t:'number', step:'0.01', min:'0', max:'1'},
+    {f:'backgroundColor', l:'Background colour', bL:'Card colour',           t:'color'},
+    {f:'cornerRadiusDp',  l:'Corner radius (dp)', bL:'Rounded corners (dp)', t:'number'},
+    {f:'alpha',           l:'Alpha (0–1)',  t:'number', step:'0.01', min:'0', max:'1', adv:true},
   ], n, 'appearance'));
 
-  // Action — promoted to its own section so it's discoverable for every
+  // Action - promoted to its own section so it's discoverable for every
   // node type (text, markdown, image, and containers can all be tappable).
   form.appendChild(mkSec('Action', [
-    {f:'actionUrl', l:'Action URL (tap target)', t:'url'},
+    {f:'actionUrl', l:'Action URL (tap target)', bL:'Open this link when tapped', t:'url'},
   ], n, 'action'));
 
   el.appendChild(form);
@@ -871,59 +1206,59 @@ function contentFields(n) {
   switch (n.type) {
     case 'text': return [
       {f:'text',      l:'Text',        t:'textarea'},
-      {f:'style',     l:'Style',       t:'select', opts: STYLES_OPTS},
-      {f:'fontSizeSp',l:'Font size (sp)', t:'number'},
-      {f:'fontWeight',l:'Font weight', t:'select', opts:['','light','medium','semi_bold','bold']},
-      {f:'fontStyle', l:'Font style',  t:'select', opts:['','italic']},
+      {f:'style',     l:'Style',       bL:'Text size',  t:'select', opts: STYLES_OPTS},
+      {f:'color',     l:'Colour',      bL:'Text colour', t:'color'},
       {f:'textAlign', l:'Text align',  t:'select', opts:['','start','center','end','justify']},
-      {f:'color',     l:'Colour',      t:'color'},
+      {f:'fontWeight',l:'Font weight', t:'select', opts:['','light','medium','semi_bold','bold'], adv:true},
+      {f:'fontStyle', l:'Font style',  t:'select', opts:['','italic'], adv:true},
+      {f:'fontSizeSp',l:'Font size (sp)', t:'number', adv:true},
     ];
-    case 'markdown': return [{f:'text', l:'Markdown', t:'textarea'}];
+    case 'markdown': return [{f:'text', l:'Markdown text', t:'textarea'}];
     case 'image': return [
-      {f:'imageUrl',          l:'Image URL',         t:'text'},
-      {f:'contentDescription',l:'Content description',t:'text'},
-      {f:'aspectRatio',       l:'Aspect ratio',       t:'number', step:'0.01'},
-      {f:'contentScale',      l:'Content scale', t:'select',
+      {f:'imageUrl',          l:'Image URL',          bL:'Image URL',           t:'text'},
+      {f:'contentDescription',l:'Content description',bL:'Description (for screen readers)', t:'text'},
+      {f:'aspectRatio',       l:'Aspect ratio',       bL:'Width-to-height ratio', t:'number', step:'0.01'},
+      {f:'contentScale',      l:'Content scale',      bL:'How to fit', t:'select',
         opts:['','crop','fit','fill_bounds','fill_width','fill_height','inside','none']},
     ];
-    case 'divider': return [{f:'color', l:'Colour', t:'color'}];
+    case 'divider': return [{f:'color', l:'Colour', bL:'Line colour', t:'color'}];
     default: return [];
   }
 }
 
 function layoutFields(n) {
   const base = [
-    {f:'fillMaxWidth', l:'Fill max width',   t:'checkbox'},
-    {f:'fillMaxHeight',l:'Fill max height',  t:'checkbox'},
-    {f:'widthDp',      l:'Width (dp)',        t:'number'},
-    {f:'heightDp',     l:'Height (dp)',       t:'number'},
-    {f:'minWidthDp',   l:'Min width (dp)',    t:'number'},
-    {f:'maxWidthDp',   l:'Max width (dp)',    t:'number'},
-    {f:'minHeightDp',  l:'Min height (dp)',   t:'number'},
-    {f:'weight',       l:'Weight',            t:'number', step:'0.1'},
+    {f:'fillMaxWidth', l:'Fill max width',  bL:'Stretch to full width',   t:'checkbox'},
+    {f:'fillMaxHeight',l:'Fill max height', bL:'Stretch to full height',  t:'checkbox'},
+    {f:'widthDp',      l:'Width (dp)',      bL:'Fixed width (dp)',        t:'number', adv:true},
+    {f:'heightDp',     l:'Height (dp)',     bL:'Fixed height (dp)',       t:'number', adv:true},
+    {f:'minWidthDp',   l:'Min width (dp)',   t:'number', adv:true},
+    {f:'maxWidthDp',   l:'Max width (dp)',   t:'number', adv:true},
+    {f:'minHeightDp',  l:'Min height (dp)',  t:'number', adv:true},
+    {f:'weight',       l:'Weight',          bL:'Share of row (1=equal)',  t:'number', step:'0.1'},
   ];
   if (n.type === 'spacer') return [
-    {f:'widthDp',  l:'Width (dp)',   t:'number'},
-    {f:'heightDp', l:'Height (dp)',  t:'number'},
-    {f:'spacingDp',l:'Spacing (dp)', t:'number'},
+    {f:'spacingDp',l:'Spacing (dp)', bL:'Size (dp)',  t:'number'},
+    {f:'widthDp',  l:'Width (dp)',   t:'number', adv:true},
+    {f:'heightDp', l:'Height (dp)',  t:'number', adv:true},
   ];
   const extras = {
-    box:    [{f:'contentAlignment', l:'Content alignment', t:'select',
+    box:    [{f:'contentAlignment', l:'Content alignment', bL:'Where to put content', t:'select',
                opts:['','top_start','top_center','top_end','center_start','center','center_end','bottom_start','bottom_center','bottom_end']}],
     column: [
-      {f:'spacingDp',           l:'Spacing (dp)',          t:'number'},
-      {f:'verticalArrangement', l:'Vertical arrangement',  t:'select',
+      {f:'spacingDp',           l:'Spacing (dp)',          bL:'Gap between items (dp)', t:'number'},
+      {f:'verticalArrangement', l:'Vertical arrangement',  bL:'Stack from',  t:'select',
         opts:['','top','center','bottom','space_between','space_around','space_evenly']},
-      {f:'horizontalAlignment', l:'Horizontal alignment',  t:'select',
+      {f:'horizontalAlignment', l:'Horizontal alignment',  bL:'Align items', t:'select',
         opts:['','start','center','end']},
     ],
     row: [
-      {f:'spacingDp',             l:'Spacing (dp)',           t:'number'},
-      {f:'horizontalArrangement', l:'Horizontal arrangement', t:'select',
+      {f:'spacingDp',             l:'Spacing (dp)',           bL:'Gap between items (dp)', t:'number'},
+      {f:'horizontalArrangement', l:'Horizontal arrangement', bL:'Spread items',  t:'select',
         opts:['','start','center','end','space_between','space_around','space_evenly']},
-      {f:'verticalAlignment',     l:'Vertical alignment',     t:'select',
+      {f:'verticalAlignment',     l:'Vertical alignment',     bL:'Align items',   t:'select',
         opts:['','top','center','bottom']},
-      {f:'collapseBelowDp',       l:'Collapse below (dp)',    t:'number'},
+      {f:'collapseBelowDp',       l:'Collapse below (dp)',    bL:'Stack vertically below width (dp)', t:'number'},
     ],
   };
   return [...base, ...(extras[n.type] || [])];
@@ -941,17 +1276,20 @@ function mkSec(title, fields, n, key) {
   if (!isOpen) body.style.display = 'none';
 
   fields.forEach(fd => {
-    const div = document.createElement('div'); div.className = 'lcg-f';
+    const div = document.createElement('div');
+    div.className = 'lcg-f' + (fd.adv ? ' lcg-f-advanced' : '');
+    // Plain-English label for beginner mode if provided, else the existing label
+    const labelText = (!S.advanced && fd.bL) ? fd.bL : fd.l;
 
     if (fd.t === 'checkbox') {
       const lbl = document.createElement('label'); lbl.className = 'lcg-cb-label';
       const cb = document.createElement('input'); cb.type = 'checkbox';
       cb.checked = !!n[fd.f]; cb.dataset.field = fd.f;
       lbl.appendChild(cb);
-      lbl.appendChild(document.createTextNode(' ' + fd.l));
+      lbl.appendChild(document.createTextNode(' ' + labelText));
       div.appendChild(lbl);
     } else if (fd.t === 'color') {
-      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
       div.appendChild(lbl);
       const row = document.createElement('div'); row.className = 'lcg-color-row';
       const sw = document.createElement('span'); sw.className = 'lcg-swatch';
@@ -962,23 +1300,23 @@ function mkSec(title, fields, n, key) {
       inp.dataset.field = fd.f; inp.dataset.swatch = '1';
       row.appendChild(inp); div.appendChild(row);
     } else if (fd.t === 'select') {
-      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
       div.appendChild(lbl);
       const sel = document.createElement('select'); sel.dataset.field = fd.f;
       (fd.opts || []).forEach(o => {
         const op = document.createElement('option');
-        op.value = o; op.textContent = o || '— none —';
+        op.value = o; op.textContent = o || '- none -';
         if (o === (n[fd.f] || '')) op.selected = true;
         sel.appendChild(op);
       });
       div.appendChild(sel);
     } else if (fd.t === 'textarea') {
-      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
       div.appendChild(lbl);
       const ta = document.createElement('textarea'); ta.value = n[fd.f] || '';
       ta.dataset.field = fd.f; div.appendChild(ta);
     } else {
-      const lbl = document.createElement('label'); lbl.textContent = fd.l;
+      const lbl = document.createElement('label'); lbl.textContent = labelText;
       div.appendChild(lbl);
       const inp = document.createElement('input'); inp.type = fd.t || 'text';
       inp.value = n[fd.f] != null ? n[fd.f] : '';
@@ -1001,15 +1339,33 @@ let roObs = null;
 function renderPreview() {
   const card = document.getElementById('lcg-card');
   if (roObs) { roObs.disconnect(); roObs = null; }
-  card.className = 'lcg-card-wrap' + (S.dark ? ' lcg-dark' : '');
+  // The wrapper acts as the Material 3 surface card the live app
+  // renders the spec inside. If the root spec node already has its
+  // own backgroundColor it IS the visible card and the wrapper hides
+  // (no second visible surface). Otherwise the wrapper provides the
+  // surface so a multi-section spec reads as one card.
+  const rootHasOwnSurface = !!(S.spec && S.spec.backgroundColor);
+  card.className = 'lcg-card-wrap'
+    + (S.dark ? ' lcg-dark' : '')
+    + (rootHasOwnSurface ? ' lcg-surface-off' : '');
   card.innerHTML = '';
 
   if (!S.spec) {
-    card.innerHTML = '<div class="lcg-prev-empty">No spec loaded.</div>';
+    const empty = document.createElement('div');
+    empty.className = 'lcg-empty-state';
+    empty.innerHTML = '<h3>Nothing here yet</h3><p>Pick a template to start with, or add a single component.</p>';
+    const btns = document.createElement('div'); btns.className = 'lcg-empty-state-buttons';
+    const tplBtn = document.createElement('button'); tplBtn.className = 'lcg-primary-btn'; tplBtn.type = 'button';
+    tplBtn.textContent = 'Start from a template'; tplBtn.addEventListener('click', () => openTplModal());
+    const cmpBtn = document.createElement('button'); cmpBtn.className = 'lcg-secondary-btn'; cmpBtn.type = 'button';
+    cmpBtn.textContent = '+ Add a component'; cmpBtn.addEventListener('click', () => openCmpModal(null));
+    btns.appendChild(tplBtn); btns.appendChild(cmpBtn);
+    empty.appendChild(btns);
+    card.appendChild(empty);
     return;
   }
   try {
-    card.appendChild(mkNode(S.spec, S.dark));
+    card.appendChild(mkNode(S.spec, S.dark, []));
     collapseRows(card);
     roObs = new ResizeObserver(() => collapseRows(card));
     roObs.observe(card);
@@ -1045,20 +1401,20 @@ function updateJSON() {
     ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-green'; warn.textContent = '';
   } else if (len <= 20000) {
     ctr.textContent = fmt + ' chars'; ctr.className = 'lcg-cnt-amber';
-    warn.textContent = 'Large spec — may approach delivery limits depending on your EMM.';
+    warn.textContent = 'Large spec - may approach delivery limits depending on your EMM.';
   } else {
-    ctr.textContent = fmt + ' chars — exceeds recommended limit';
+    ctr.textContent = fmt + ' chars - exceeds recommended limit';
     ctr.className = 'lcg-cnt-red';
-    warn.textContent = 'Specs over 20,000 chars may not deliver reliably. Copy and download are disabled — trim the spec to continue.';
+    warn.textContent = 'Specs over 20,000 chars may not deliver reliably. Copy and download are disabled - trim the spec to continue.';
     tooBig = true;
   }
   if (copyBtn) {
     copyBtn.disabled = tooBig;
-    copyBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before copying' : '';
+    copyBtn.title = tooBig ? 'Spec exceeds 20,000 chars - trim before copying' : '';
   }
   if (dlBtn) {
     dlBtn.disabled = tooBig;
-    dlBtn.title = tooBig ? 'Spec exceeds 20,000 chars — trim before downloading' : '';
+    dlBtn.title = tooBig ? 'Spec exceeds 20,000 chars - trim before downloading' : '';
   }
 }
 
@@ -1104,6 +1460,103 @@ function closeImportModal() {
   document.getElementById('lcg-import-ta').value = '';
   const e = document.getElementById('lcg-import-err');
   e.className = 'lcg-err-off'; e.textContent = '';
+}
+
+/* ── TEMPLATE & COMPONENT MODALS ─────────────────────────── */
+function openTplModal() {
+  const grid = document.getElementById('lcg-tpl-grid');
+  grid.innerHTML = '';
+  TEMPLATES.forEach(t => {
+    const card = document.createElement('button'); card.type = 'button'; card.className = 'lcg-tpl-card';
+    card.dataset.tplId = t.id;
+    card.innerHTML =
+      '<div class="lcg-tpl-icon">' + t.icon + '</div>' +
+      '<div class="lcg-tpl-name">' + t.name + '</div>' +
+      '<div class="lcg-tpl-desc">' + t.desc + '</div>';
+    card.addEventListener('click', () => {
+      const spec = t.spec();
+      const r = parseImport(JSON.stringify(spec));
+      if (r.err) { alert(r.err); return; }
+      S.spec = r.spec; S.sel = null; S.collapsed.clear();
+      renderAll(); closeTplModal();
+    });
+    grid.appendChild(card);
+  });
+  document.getElementById('lcg-tpl-modal').classList.remove('lcg-modal-off');
+}
+
+function closeTplModal() {
+  document.getElementById('lcg-tpl-modal').classList.add('lcg-modal-off');
+}
+
+function openCmpModal(targetPath) {
+  // targetPath null means "add to root or replace empty spec"
+  S.cmpTarget = targetPath;
+  const grid = document.getElementById('lcg-cmp-grid');
+  const hint = document.getElementById('lcg-cmp-hint');
+  grid.innerHTML = '';
+  if (!S.spec) {
+    hint.textContent = 'Add your first component. It will become the root of the card.';
+  } else if (targetPath === null || (Array.isArray(targetPath) && targetPath.length === 0)) {
+    hint.textContent = 'Add a new component at the top level of the card.';
+  } else {
+    const parent = gn(S.spec, targetPath);
+    hint.textContent = 'Add a component inside ' + (parent ? friendlyName(parent) : 'this group') + '.';
+  }
+  COMPONENTS.forEach(c => {
+    const card = document.createElement('button'); card.type = 'button'; card.className = 'lcg-cmp-card';
+    if (c.advanced) card.dataset.advanced = '1';
+    card.innerHTML =
+      '<div class="lcg-cmp-icon">' + c.icon + '</div>' +
+      '<div class="lcg-cmp-name">' + c.name + '</div>' +
+      '<div class="lcg-cmp-desc">' + c.desc + '</div>';
+    card.addEventListener('click', () => insertComponent(c));
+    grid.appendChild(card);
+  });
+  document.getElementById('lcg-cmp-modal').classList.remove('lcg-modal-off');
+}
+
+function closeCmpModal() {
+  document.getElementById('lcg-cmp-modal').classList.add('lcg-modal-off');
+  S.cmpTarget = null;
+}
+
+function insertComponent(cmp) {
+  const node = cmp.spec();
+  // No spec yet: this becomes the root, wrapped in a column if it's a leaf
+  if (!S.spec) {
+    if (CONTAINERS.has(node.type)) {
+      S.spec = node;
+    } else {
+      S.spec = { type: 'column', fillMaxWidth: true, spacingDp: 12, children: [node] };
+    }
+    S.sel = [];
+    closeCmpModal(); renderAll(); return;
+  }
+  // Spec exists. If we have a target path that's a container, append.
+  // If target is null or the root isn't a container, append to root if root is a container,
+  // otherwise wrap root in a column.
+  const target = S.cmpTarget;
+  let parentPath;
+  if (target && Array.isArray(target)) {
+    const tNode = gn(S.spec, target);
+    if (tNode && CONTAINERS.has(tNode.type)) parentPath = target;
+  }
+  if (!parentPath) {
+    // Default: append to root
+    if (CONTAINERS.has(S.spec.type)) {
+      parentPath = [];
+    } else {
+      // Wrap existing root in a column
+      S.spec = { type: 'column', fillMaxWidth: true, spacingDp: 12, children: [S.spec] };
+      parentPath = [];
+    }
+  }
+  const par = gn(S.spec, parentPath);
+  if (!par.children) par.children = [];
+  par.children.push(node);
+  S.sel = parentPath.concat(par.children.length - 1);
+  closeCmpModal(); renderAll();
 }
 
 /* ── TYPE MENU ───────────────────────────────────────────── */
@@ -1199,7 +1652,7 @@ function setupDragDrop() {
         S.sel = [...adjTarget, par.children.length - 1];
       }
     } else {
-      // Reorder within same parent (target is a leaf — drop before it).
+      // Reorder within same parent (target is a leaf - drop before it).
       const dp = dragP.slice(0, -1), tp = tPath.slice(0, -1);
       if (pk(dp) === pk(tp)) {
         const par = gn(S.spec, dp);
@@ -1218,24 +1671,81 @@ function setupDragDrop() {
 }
 
 /* ── INIT ────────────────────────────────────────────────── */
+/* Common Android device widths in dp - used to label the width slider
+   so users know what their card looks like on a real screen. 416 is the
+   Pixel 9 Pro XL, which is what the live MANAGED INFO app currently
+   renders against, so that's the default. */
+const DEVICE_WIDTHS = [
+  { dp: 360, name: 'Pixel 9' },
+  { dp: 384, name: 'Pixel 9 Pro' },
+  { dp: 412, name: 'Galaxy / Pixel 9 Pro Fold (front)' },
+  { dp: 416, name: 'Pixel 9 Pro XL' },
+  { dp: 600, name: 'small tablet' },
+];
+
+function deviceLabelFor(dp) {
+  let best = null, bestDiff = Infinity;
+  for (const d of DEVICE_WIDTHS) {
+    const diff = Math.abs(d.dp - dp);
+    if (diff < bestDiff) { best = d; bestDiff = diff; }
+  }
+  return best && bestDiff <= 6 ? '(' + best.name + ')' : '';
+}
+
 function setWidth(w) {
-  S.pw = Math.max(280, Math.min(700, parseInt(w) || 360));
+  S.pw = Math.max(280, Math.min(700, parseInt(w) || 416));
   document.getElementById('lcg-phone').style.width = S.pw + 'px';
   document.getElementById('lcg-w-range').value = S.pw;
   document.getElementById('lcg-w-num').value   = S.pw;
+  const dev = document.querySelector('.lcg-w-device');
+  if (dev) dev.textContent = deviceLabelFor(S.pw);
   renderPreview();
 }
 
 function init() {
-  setWidth(360);
+  setWidth(416);
   renderAll();
 
-  // Sample
-  document.getElementById('lcg-sample-link').addEventListener('click', () => {
-    const r = parseImport(JSON.stringify(SAMPLE));
-    if (r.err) { alert(r.err); return; }
-    S.spec = r.spec; S.sel = null; S.collapsed.clear();
+  // Templates modal
+  document.getElementById('lcg-tpl-btn').addEventListener('click', openTplModal);
+  document.getElementById('lcg-tpl-close').addEventListener('click', closeTplModal);
+  document.getElementById('lcg-tpl-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-tpl-modal')) closeTplModal();
+  });
+
+  // Components modal
+  document.getElementById('lcg-add-cmp-btn').addEventListener('click', () => openCmpModal(null));
+  document.getElementById('lcg-cmp-close').addEventListener('click', closeCmpModal);
+  document.getElementById('lcg-cmp-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('lcg-cmp-modal')) closeCmpModal();
+  });
+
+  // Advanced toggle - switches between beginner UI (templates + plain-English
+  // labels) and the v1-style raw editor (full tree, every dp field exposed).
+  const advCb = document.getElementById('lcg-adv-toggle');
+  advCb.addEventListener('change', () => {
+    S.advanced = advCb.checked;
+    const root = document.getElementById('lcg');
+    root.classList.toggle('lcg-advanced', S.advanced);
+    root.classList.toggle('lcg-beginner', !S.advanced);
     renderAll();
+  });
+
+  // Inline preview clicks - clicking any rendered node selects it in the tree
+  // and focuses the properties panel. Lets users edit by tapping what they
+  // see rather than navigating the tree.
+  document.getElementById('lcg-card').addEventListener('click', e => {
+    // Don't intercept clicks on the empty-state buttons
+    if (e.target.closest('.lcg-empty-state')) return;
+    const target = e.target.closest('[data-prevpath]');
+    if (!target) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const path = JSON.parse(target.dataset.prevpath);
+    S.sel = path;
+    renderTree();
+    renderProps();
+    document.getElementById('lcg-props').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   });
 
   // Import modal
@@ -1260,9 +1770,13 @@ function init() {
     }
   });
 
-  // Dark toggle
+  // Dark toggle - flips the card's text-default colour and darkens the
+  // surrounding "device surface" so the card visually sits on a dark
+  // wallpaper rather than the light one.
   document.getElementById('lcg-dark-toggle').addEventListener('change', e => {
-    S.dark = e.target.checked; renderPreview();
+    S.dark = e.target.checked;
+    document.getElementById('lcg-preview-scroll').classList.toggle('lcg-dark-surface', S.dark);
+    renderPreview();
   });
 
   // Width
@@ -1270,7 +1784,9 @@ function init() {
   document.getElementById('lcg-w-num').addEventListener('change',   e => setWidth(e.target.value));
 
   // Add root
-  document.getElementById('lcg-add-root-btn').addEventListener('click', e => showMenu(e.target, []));
+  document.getElementById('lcg-add-root-btn').addEventListener('click', e => {
+    if (S.advanced) showMenu(e.target, []); else openCmpModal(null);
+  });
 
   // Type menu
   document.getElementById('lcg-type-menu').addEventListener('click', e => {
@@ -1302,7 +1818,13 @@ function init() {
     // Add child
     if (e.target.dataset.addp !== undefined) {
       e.stopPropagation();
-      showMenu(e.target, JSON.parse(e.target.dataset.addp)); return;
+      const addPath = JSON.parse(e.target.dataset.addp);
+      if (S.advanced) {
+        showMenu(e.target, addPath);
+      } else {
+        openCmpModal(addPath);
+      }
+      return;
     }
     // Move up
     if (e.target.dataset.mvup !== undefined) {
@@ -1421,6 +1943,8 @@ function init() {
   document.addEventListener('keydown', e => {
     if (e.key !== 'Escape') return;
     if (!document.getElementById('lcg-import-modal').classList.contains('lcg-modal-off')) closeImportModal();
+    if (!document.getElementById('lcg-tpl-modal').classList.contains('lcg-modal-off')) closeTplModal();
+    if (!document.getElementById('lcg-cmp-modal').classList.contains('lcg-modal-off')) closeCmpModal();
     if (!document.getElementById('lcg-type-menu').classList.contains('lcg-menu-off')) closeMenu();
   });
 }
