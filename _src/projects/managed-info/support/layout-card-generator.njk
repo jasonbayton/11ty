@@ -79,7 +79,11 @@ eleventyNavigation:
 
       <div class="lcg-panel-hd">
         <span id="lcg-props-title">Properties</span>
-        <button id="lcg-props-delete-btn" type="button" hidden aria-label="Delete the selected node">Delete</button>
+        <span class="lcg-props-actions">
+          <button id="lcg-props-up-btn" type="button" hidden aria-label="Move up">↑</button>
+          <button id="lcg-props-down-btn" type="button" hidden aria-label="Move down">↓</button>
+          <button id="lcg-props-delete-btn" type="button" hidden aria-label="Delete the selected node">Delete</button>
+        </span>
       </div>
       <div id="lcg-props" class="lcg-scroll"></div>
     </div>
@@ -296,15 +300,27 @@ eleventyNavigation:
 [data-theme="dark"] .lcg-panel-hd { background: #1e1e1e; }
 
 #lcg-add-root-btn,
-#lcg-props-delete-btn {
+#lcg-props-delete-btn,
+#lcg-props-up-btn,
+#lcg-props-down-btn {
   font-size: 11px; color: var(--orange); cursor: pointer; font-family: inherit;
   padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
   background: transparent; box-shadow: none;
 }
 #lcg-add-root-btn:hover,
-#lcg-props-delete-btn:hover { border-color: var(--orange); }
+#lcg-props-delete-btn:hover,
+#lcg-props-up-btn:hover,
+#lcg-props-down-btn:hover { border-color: var(--orange); }
+#lcg-props-up-btn,
+#lcg-props-down-btn { padding: 1px 7px; line-height: 1; }
+#lcg-props-up-btn:disabled,
+#lcg-props-down-btn:disabled {
+  opacity: .25; cursor: not-allowed; border-color: transparent;
+  background: transparent;
+}
 #lcg-props-delete-btn { color: #c30000; }
 #lcg-props-delete-btn:hover { border-color: #c30000; background: rgba(195,0,0,.06); }
+.lcg-props-actions { display: inline-flex; align-items: center; gap: 4px; }
 
 #lcg-tree { min-height: 120px; max-height: 320px; overflow-y: auto; padding: 4px 0; }
 #lcg-props { min-height: 60px; max-height: 480px; overflow-y: auto; }
@@ -1200,19 +1216,27 @@ function renderProps() {
   const el = document.getElementById('lcg-props');
   const title = document.getElementById('lcg-props-title');
   const delBtn = document.getElementById('lcg-props-delete-btn');
+  const upBtn  = document.getElementById('lcg-props-up-btn');
+  const dnBtn  = document.getElementById('lcg-props-down-btn');
+  const hideActions = () => {
+    if (delBtn) delBtn.hidden = true;
+    if (upBtn)  upBtn.hidden  = true;
+    if (dnBtn)  dnBtn.hidden  = true;
+  };
   if (S.sel === null || !S.spec) {
     title.textContent = 'Properties';
-    if (delBtn) { delBtn.hidden = true; }
+    hideActions();
     el.innerHTML = '<div class="lcg-props-empty">Select a node to edit its properties.</div>';
     return;
   }
   const n = gn(S.spec, S.sel);
   if (!n) {
-    if (delBtn) { delBtn.hidden = true; }
+    hideActions();
     el.innerHTML = '<div class="lcg-props-empty">Node not found.</div>'; return;
   }
-  // Surface a contextual title and a delete button so beginner-mode
-  // users (where the action tree is hidden) can remove the selection.
+  // Surface a contextual title and the move / delete buttons so
+  // beginner-mode users (where the action tree is hidden) can move
+  // and remove the selection from the properties header alone.
   title.textContent = 'Properties - ' + friendlyName(n);
   if (delBtn) {
     delBtn.hidden = false;
@@ -1221,6 +1245,26 @@ function renderProps() {
       ? 'Clear the entire spec'
       : 'Delete this ' + friendlyName(n).toLowerCase();
     delBtn.setAttribute('aria-label', delBtn.title);
+  }
+  // Move buttons only apply to non-root nodes. They render as visible
+  // but disabled when the node is at its parent's first / last index,
+  // so the user always sees what's possible at this position.
+  if (upBtn && dnBtn) {
+    if (S.sel.length === 0) {
+      upBtn.hidden = true; dnBtn.hidden = true;
+    } else {
+      const idx = S.sel[S.sel.length - 1];
+      const par = gn(S.spec, S.sel.slice(0, -1));
+      const sibCount = (par && par.children) ? par.children.length : 0;
+      upBtn.hidden = false;
+      dnBtn.hidden = false;
+      upBtn.disabled = idx <= 0;
+      dnBtn.disabled = idx >= sibCount - 1;
+      upBtn.title = upBtn.disabled ? 'Already first in its group' : 'Move up among siblings';
+      dnBtn.title = dnBtn.disabled ? 'Already last in its group'  : 'Move down among siblings';
+      upBtn.setAttribute('aria-label', upBtn.title);
+      dnBtn.setAttribute('aria-label', dnBtn.title);
+    }
   }
   el.innerHTML = '';
   const form = document.createElement('div');
@@ -2017,12 +2061,22 @@ function init() {
     S.sel = path; renderTree(); renderProps();
   });
 
-  // Properties panel header has a Delete / Clear all button so the
-  // selected node can be removed even in beginner mode where the
-  // tree (and its inline ✕ action) is hidden.
+  // Properties panel header has Delete / Move up / Move down buttons
+  // so the selected node can be removed and reordered in beginner mode
+  // (where the tree and its inline action buttons are hidden).
   document.getElementById('lcg-props-delete-btn').addEventListener('click', () => {
     if (S.sel === null || !S.spec) return;
     deleteNodeAtPath(S.sel);
+  });
+  document.getElementById('lcg-props-up-btn').addEventListener('click', () => {
+    if (S.sel === null || !S.spec || S.sel.length === 0) return;
+    const np = moveNode(S.spec, S.sel, -1);
+    if (np) { S.sel = np; renderAll(); }
+  });
+  document.getElementById('lcg-props-down-btn').addEventListener('click', () => {
+    if (S.sel === null || !S.spec || S.sel.length === 0) return;
+    const np = moveNode(S.spec, S.sel, 1);
+    if (np) { S.sel = np; renderAll(); }
   });
 
   setupDragDrop();
