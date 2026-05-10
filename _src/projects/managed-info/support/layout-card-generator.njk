@@ -79,6 +79,7 @@ eleventyNavigation:
 
       <div class="lcg-panel-hd">
         <span id="lcg-props-title">Properties</span>
+        <button id="lcg-props-delete-btn" type="button" hidden aria-label="Delete the selected node">Delete</button>
       </div>
       <div id="lcg-props" class="lcg-scroll"></div>
     </div>
@@ -294,12 +295,16 @@ eleventyNavigation:
 }
 [data-theme="dark"] .lcg-panel-hd { background: #1e1e1e; }
 
-#lcg-add-root-btn {
+#lcg-add-root-btn,
+#lcg-props-delete-btn {
   font-size: 11px; color: var(--orange); cursor: pointer; font-family: inherit;
   padding: 1px 6px; border-radius: 3px; border: 1px solid transparent;
   background: transparent; box-shadow: none;
 }
-#lcg-add-root-btn:hover { border-color: var(--orange); }
+#lcg-add-root-btn:hover,
+#lcg-props-delete-btn:hover { border-color: var(--orange); }
+#lcg-props-delete-btn { color: #c30000; }
+#lcg-props-delete-btn:hover { border-color: #c30000; background: rgba(195,0,0,.06); }
 
 #lcg-tree { min-height: 120px; max-height: 320px; overflow-y: auto; padding: 4px 0; }
 #lcg-props { min-height: 60px; max-height: 480px; overflow-y: auto; }
@@ -800,6 +805,27 @@ function moveNode(root, path, dir) {
   return [...pp, j];
 }
 
+// Shared delete handler used by the tree's per-row ✕ button and the
+// properties panel's Delete / Clear all button. Deleting the root
+// (path []) wipes the whole spec after a confirm; deleting any other
+// node removes it from its parent and falls the selection back to a
+// safe ancestor.
+function deleteNodeAtPath(dp) {
+  if (!S.spec) return;
+  if (dp.length === 0) {
+    if (!confirm('Clear the entire spec?')) return;
+    S.spec = null; S.sel = null;
+  } else {
+    const dk = pk(dp), sk = S.sel ? pk(S.sel) : null;
+    if (sk && (sk === dk || sk.startsWith(dk.slice(0, -1) + ','))) {
+      S.sel = dp.length > 1 ? dp.slice(0, -1) : [];
+    }
+    delNode(S.spec, dp);
+    if (S.sel && pk(S.sel) === dk) S.sel = dp.length > 1 ? dp.slice(0, -1) : [];
+  }
+  renderAll();
+}
+
 /* ── COLOUR ─────────────────────────────────────────────── */
 function toCSS(hex) {
   if (!hex || typeof hex !== 'string') return null;
@@ -1173,14 +1199,29 @@ const STYLES_OPTS = ['','displayLarge','displayMedium','displaySmall',
 function renderProps() {
   const el = document.getElementById('lcg-props');
   const title = document.getElementById('lcg-props-title');
+  const delBtn = document.getElementById('lcg-props-delete-btn');
   if (S.sel === null || !S.spec) {
     title.textContent = 'Properties';
+    if (delBtn) { delBtn.hidden = true; }
     el.innerHTML = '<div class="lcg-props-empty">Select a node to edit its properties.</div>';
     return;
   }
   const n = gn(S.spec, S.sel);
-  if (!n) { el.innerHTML = '<div class="lcg-props-empty">Node not found.</div>'; return; }
-  title.textContent = 'Properties';
+  if (!n) {
+    if (delBtn) { delBtn.hidden = true; }
+    el.innerHTML = '<div class="lcg-props-empty">Node not found.</div>'; return;
+  }
+  // Surface a contextual title and a delete button so beginner-mode
+  // users (where the action tree is hidden) can remove the selection.
+  title.textContent = 'Properties - ' + friendlyName(n);
+  if (delBtn) {
+    delBtn.hidden = false;
+    delBtn.textContent = S.sel.length === 0 ? 'Clear all' : 'Delete';
+    delBtn.title = S.sel.length === 0
+      ? 'Clear the entire spec'
+      : 'Delete this ' + friendlyName(n).toLowerCase();
+    delBtn.setAttribute('aria-label', delBtn.title);
+  }
   el.innerHTML = '';
   const form = document.createElement('div');
   form.className = 'lcg-props-form';
@@ -1969,22 +2010,19 @@ function init() {
     // Delete
     if (e.target.dataset.del !== undefined) {
       e.stopPropagation();
-      const dp = JSON.parse(e.target.dataset.del);
-      if (dp.length === 0) {
-        if (!confirm('Clear the entire spec?')) return;
-        S.spec = null; S.sel = null;
-      } else {
-        const dk = pk(dp), sk = S.sel ? pk(S.sel) : null;
-        if (sk && (sk === dk || sk.startsWith(dk.slice(0,-1) + ','))) {
-          S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
-        }
-        delNode(S.spec, dp);
-        if (S.sel && pk(S.sel) === dk) S.sel = dp.length > 1 ? dp.slice(0,-1) : [];
-      }
-      renderAll(); return;
+      deleteNodeAtPath(JSON.parse(e.target.dataset.del));
+      return;
     }
     // Select
     S.sel = path; renderTree(); renderProps();
+  });
+
+  // Properties panel header has a Delete / Clear all button so the
+  // selected node can be removed even in beginner mode where the
+  // tree (and its inline ✕ action) is hidden.
+  document.getElementById('lcg-props-delete-btn').addEventListener('click', () => {
+    if (S.sel === null || !S.spec) return;
+    deleteNodeAtPath(S.sel);
   });
 
   setupDragDrop();
