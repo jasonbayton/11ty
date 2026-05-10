@@ -417,14 +417,11 @@ eleventyNavigation:
 #lcg-phone { margin: 0 auto; transition: width .12s ease; }
 
 /* The card wrapper is the Material 3 surface card the app renders the
-   entire layout spec inside on-device. Everything in the spec sits
-   flush inside this card, with no padding from the card to the
-   content (the spec's own root node controls inner spacing). The
-   wrapper's rounded corners match the typical hero corner radius so
-   image-to-card edges align, and overflow-hidden clips any top-level
-   child's corners to the card's rounded shape. */
+   entire layout spec inside on-device. The live app insets every
+   element inside the card by ~16dp so content doesn't touch the
+   rounded edges - matched here with 16px padding. */
 .lcg-card-wrap {
-  background: #FFFFFF; padding: 0;
+  background: #FFFFFF; padding: 16px;
   border-radius: 24px; overflow: hidden;
   box-sizing: border-box; min-height: 32px;
   font-family: 'Roboto', sans-serif; font-size: 14px;
@@ -439,10 +436,11 @@ eleventyNavigation:
   box-shadow: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
 }
 /* The root spec node already has its own backgroundColor (it IS the
-   visible card), so the wrapper hides to avoid a second surface. */
+   visible card), so the wrapper hides to avoid a second surface and
+   drops its own padding so the spec's root takes the full width. */
 .lcg-card-wrap.lcg-surface-off {
   background: transparent; box-shadow: none; border-radius: 0;
-  overflow: visible;
+  overflow: visible; padding: 0;
 }
 
 .lcg-card-wrap .lcg-act { cursor: pointer; }
