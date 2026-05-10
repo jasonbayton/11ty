@@ -884,9 +884,18 @@ function applyBase(el, n) {
   }
   if (n.alpha != null) el.style.opacity = String(Math.max(0, Math.min(1, n.alpha)));
   if (n.weight != null) {
-    // min-width was already set above (to 0 or to minWidthDp), so weighted
-    // siblings can shrink past their min-content to share space evenly.
+    // Compose's Modifier.weight() passes a tight maxWidth to the child and
+    // silently clamps any subsequent widthIn(min=...) to that maxWidth, so
+    // minWidthDp on a weighted child does not actually guarantee a rendered
+    // minimum width on-device - it only feeds shouldCollapseRow(). CSS
+    // flexbox does the opposite: min-width wins over flex distribution and
+    // bumps the weighted child up to minWidthDp, which made the preview look
+    // spacious where the device wraps tightly. Force min-width back to 0 so
+    // the weight share is what gets rendered, matching Compose. The
+    // minWidthDp value is still recorded on the row's dataset.row.mw array
+    // (see the row case in mkNode below) so collapse detection still uses it.
     el.style.flex = n.weight + ' 1 0px';
+    el.style.minWidth = '0';
   }
 }
 
