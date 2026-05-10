@@ -1360,6 +1360,14 @@ function mkSec(title, fields, n, key) {
       if (fd.step != null) inp.step = fd.step;
       if (fd.min  != null) inp.min  = fd.min;
       if (fd.max  != null) inp.max  = fd.max;
+      // Auto-apply min=0 for size / padding / radius / spacing / typography
+      // numeric fields (and weight). Without this, a11y and form-validation
+      // tools see number controls with no declared min, even though the
+      // editor's intent is non-negative.
+      if (fd.t === 'number' && fd.min == null &&
+          (NON_NEG_NUMERIC.has(fd.f) || fd.f === 'weight')) {
+        inp.min = '0';
+      }
       div.appendChild(inp);
     }
     body.appendChild(div);
@@ -1457,6 +1465,36 @@ function updateJSON() {
 function renderAll() { renderTree(); renderProps(); renderPreview(); updateJSON(); }
 
 /* ── IMPORT ─────────────────────────────────────────────── */
+// Enum-valued fields and the exact set of values the editor exposes for
+// each. Anything outside this set would import successfully but then be
+// silently invisible (the dropdown falls back to "- none -" because the
+// stored value matches no option), letting the spec drift away from
+// what the UI shows. Reject on import.
+const ENUM_OPTIONS = {
+  contentAlignment:        ['top_start','top_center','top_end','center_start','center','center_end','bottom_start','bottom_center','bottom_end'],
+  verticalArrangement:     ['top','center','bottom','space_between','space_around','space_evenly'],
+  horizontalAlignment:     ['start','center','end'],
+  horizontalArrangement:   ['start','center','end','space_between','space_around','space_evenly'],
+  verticalAlignment:       ['top','center','bottom'],
+  contentScale:            ['crop','fit','fill_bounds','fill_width','fill_height','inside','none'],
+  style:                   ['displayLarge','displayMedium','displaySmall','headlineLarge','headlineMedium','headlineSmall','titleLarge','titleMedium','titleSmall','bodyLarge','bodyMedium','bodySmall','labelLarge','labelMedium','labelSmall'],
+  fontWeight:              ['light','medium','semi_bold','bold'],
+  fontStyle:               ['italic'],
+  textAlign:               ['start','center','end','justify'],
+};
+
+// Layout / size / radius / padding / spacing / typography numbers that
+// must be >= 0 to be meaningful. Negative values were accepted before
+// and rendered through to the JSON output even though the editor's
+// number controls present these as non-negative ranges. Reject on
+// import so the form never holds an internally inconsistent state.
+const NON_NEG_NUMERIC = new Set([
+  'widthDp','heightDp','minWidthDp','maxWidthDp','minHeightDp','maxHeightDp',
+  'paddingDp','paddingHorizontalDp','paddingVerticalDp',
+  'paddingStartDp','paddingTopDp','paddingEndDp','paddingBottomDp',
+  'cornerRadiusDp','spacingDp','collapseBelowDp','fontSizeSp','aspectRatio',
+]);
+
 function validateNode(n, path) {
   const where = path.length ? ' at children[' + path.join('][') + ']' : '';
   if (!n || typeof n !== 'object' || Array.isArray(n)) {
@@ -1467,6 +1505,35 @@ function validateNode(n, path) {
   }
   if (!ALL_TYPES.includes(n.type)) {
     return 'Unknown type "' + n.type + '"' + where + '. Must be one of: ' + ALL_TYPES.join(', ') + '.';
+  }
+  // Per-field value checks: enums must be one of the editor's options,
+  // size/padding/radius numbers must be >= 0, alpha must be 0..1.
+  for (const k in n) {
+    if (k === 'type' || k === 'children') continue;
+    const v = n[k];
+    if (v == null) continue;
+    if (ENUM_OPTIONS[k] && !ENUM_OPTIONS[k].includes(v)) {
+      return 'Node' + where + ' has unknown value "' + v + '" for "' + k +
+        '". Valid options: ' + ENUM_OPTIONS[k].join(', ') + '.';
+    }
+    if (NON_NEG_NUMERIC.has(k)) {
+      if (typeof v !== 'number' || !isFinite(v) || v < 0) {
+        return 'Node' + where + ' has invalid value "' + v + '" for "' + k +
+          '". Must be a number >= 0.';
+      }
+    }
+    if (k === 'alpha') {
+      if (typeof v !== 'number' || !isFinite(v) || v < 0 || v > 1) {
+        return 'Node' + where + ' has invalid value "' + v + '" for "alpha".' +
+          ' Must be a number between 0 and 1.';
+      }
+    }
+    if (k === 'weight') {
+      if (typeof v !== 'number' || !isFinite(v) || v < 0) {
+        return 'Node' + where + ' has invalid value "' + v + '" for "weight".' +
+          ' Must be a number >= 0.';
+      }
+    }
   }
   if (n.children !== undefined) {
     if (!Array.isArray(n.children)) {
@@ -1926,6 +1993,21 @@ function init() {
       v = el.checked;
     } else if (el.type === 'number') {
       v = el.value === '' ? undefined : parseFloat(el.value);
+      // Reject NaN / Infinity so the spec never holds a non-finite number.
+      if (v != null && !isFinite(v)) v = undefined;
+      // Clamp negatives on size / padding / radius / spacing / typography
+      // fields (and weight) so the editor itself can never produce a value
+      // outside its own declared range. The displayed value is updated to
+      // match the stored one so the form stays internally consistent.
+      if (v != null && v < 0 && (NON_NEG_NUMERIC.has(f) || f === 'weight')) {
+        v = 0;
+        el.value = '0';
+      }
+      // Alpha is special: 0..1 inclusive. Clamp out-of-range values.
+      if (v != null && f === 'alpha' && (v < 0 || v > 1)) {
+        v = Math.max(0, Math.min(1, v));
+        el.value = String(v);
+      }
     } else {
       v = el.value === '' ? undefined : el.value;
     }
