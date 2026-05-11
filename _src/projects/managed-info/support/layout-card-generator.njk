@@ -1827,14 +1827,27 @@ function showMenu(anchor, forPath) {
   menuPath = forPath;
   const m = document.getElementById('lcg-type-menu');
   const r = anchor.getBoundingClientRect();
-  m.style.top  = (r.bottom + window.scrollY + 4) + 'px';
-  m.style.left = (r.left   + window.scrollX)     + 'px';
+  // The menu is position:fixed, so getBoundingClientRect (viewport
+  // coordinates) is exactly what we want. Adding window.scrollY/X
+  // would shift it down/right by the current scroll offset, landing
+  // far from the anchor as the page scrolls.
+  m.style.top  = (r.bottom + 4) + 'px';
+  m.style.left = r.left + 'px';
   m.innerHTML  = '';
   ALL_TYPES.forEach(t => {
     const d = document.createElement('div'); d.className = 'lcg-t-opt';
     d.textContent = t; d.dataset.mtype = t; m.appendChild(d);
   });
   m.classList.remove('lcg-menu-off');
+  // If the menu would overflow the viewport bottom, flip it above the
+  // anchor instead so the user can always see it.
+  const mr = m.getBoundingClientRect();
+  if (mr.bottom > window.innerHeight - 8) {
+    m.style.top = Math.max(8, r.top - mr.height - 4) + 'px';
+  }
+  if (mr.right > window.innerWidth - 8) {
+    m.style.left = Math.max(8, window.innerWidth - mr.width - 8) + 'px';
+  }
   setTimeout(() => document.addEventListener('click', closeMenu, { once: true }), 0);
 }
 
