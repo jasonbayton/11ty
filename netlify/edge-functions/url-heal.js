@@ -67,10 +67,10 @@ export default async (request, context) => {
 
   url.pathname = healedPath;
 
+  console.log(`url-heal: ${originalPath} → ${url.toString()}`);
+
   return new Response(null, {
     status: 301,
     headers: { Location: url.toString() },
   });
 };
-
-export const config = { path: '/*' };

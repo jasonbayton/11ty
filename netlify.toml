@@ -10,10 +10,6 @@
 [functions."orb-realtime-tool"]
   timeout = 30
 
-[[edge_functions]]
-  function = "url-heal"
-  path = "/*"
-
 [[redirects]]
   from = "/mcp"
   to = "/.netlify/functions/mcp"
