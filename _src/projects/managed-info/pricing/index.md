@@ -40,7 +40,6 @@ MANAGED INFO is available at no cost for customisation and layout configuration.
         <h3>Integration licence</h3>
         <p class="price">From £500<br><i><small>or £0.50 per device</small></i></p>
         <ul>
-            
             <li>Sync device metadata to a remote endpoint</li>
             <li>Integrate device trust signals into your application/service</li>
             <li>Use MANAGED INFO as your EMM companion app</li>
