@@ -51,7 +51,9 @@ It also enables USB data lockdown - turning off USB data transfers unless the ph
 
 This is interesting because it's essentially a security posture profile baked into the OS. Right now, EMMs control these kinds of settings individually through user restrictions, network policies, install controls, and Play Protect enforcement. Advanced Protection bundles all of that into a single platform-level switch.
 
-If Google eventually exposes this through Android Enterprise management APIs - which seems very likely given how the paper frames it for enterprise on page 14 - administrators could one day have the option to set something like a "security baseline" without configuring dozens of individual controls. Similar I suppose to what was attempted with password buckets, but actually useful.
+~~If Google eventually exposes this through Android Enterprise management APIs - which seems very likely given how the paper frames it for enterprise on page 14 - administrators could one day have the option to set something like a "security baseline" without configuring dozens of individual controls. Similar I suppose to what was attempted with password buckets, but actually useful.~~
+
+**Update, May 2026:** Google has since confirmed this. Android 17 will bring Android Enterprise support for Advanced Protection, allowing organisations to enable it by policy for managed devices.
 
 ### Identity Check: biometrics for sensitive actions
 
@@ -155,7 +157,7 @@ This is closer to how confidential computing works in the cloud, and it's arguab
 
 The paper doesn't consistently connect the dots explicitly, but there are several implications worth calling out for anyone working with managed Android devices:
 
-**Advanced Protection as a managed policy.** Already mentioned above, if Google exposes Advanced Protection through AMAPI or Android Enterprise management APIs, it could dramatically simplify security baselines. Instead of configuring dozens of individual restrictions, admins could set a single high-security posture. The enterprise framing on page 14 suggests this might not be far away.
+**Advanced Protection as a managed policy.** Already mentioned above, and now confirmed: Google has announced Android Enterprise support for Advanced Protection is coming with Android 17, allowing organisations to enable it by policy for managed devices. This will dramatically simplify security baselines - instead of configuring dozens of individual restrictions, admins will be able to set a single high-security posture.
 
 **OS-level behavioural protection.** The anti-scam protections that block risky actions during suspicious calls are described on page 15 as reducing "the risk of human error by building 'guardrails' directly into the OS." For enterprise, this means the platform itself is now defending against the social engineering attacks that currently bypass most EMM controls.
 
@@ -167,7 +169,7 @@ The paper doesn't consistently connect the dots explicitly, but there are severa
 
 The incremental improvements - scam protection, smart redaction, better theft detection - are useful, and they'll reduce real-world incidents. But they're evolutionary.
 
-The two things that will shape the next few years of Android Enterprise are Advanced Protection potentially becoming an enterprise-manageable policy baseline, and the virtualisation architecture (pKVM + protected VMs) maturing into a production-grade enterprise isolation layer.
+The two things that will shape the next few years of Android Enterprise are Advanced Protection becoming an enterprise-manageable policy baseline - confirmed for Android 17 - and the virtualisation architecture (pKVM + protected VMs) maturing into a production-grade enterprise isolation layer.
 
 The virtualisation work in particular is worth paying close attention to. It's the kind of architectural change that tends to shape a platform for the next decade.
 
