@@ -210,6 +210,45 @@ To further clarify the requirements, you'll need a full developer account. It co
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.31.03.gif)
 
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">If the "opt out" option is not available</div>
+
+Google may not surface an explicit "opt out of Play signing" choice when setting up a new app. Instead, will show the existing 4 options:
+
+1. Let Google manage and protect your app signing key (recommended)
+2. Use the same key as another app in this developer account
+3. Export and upload a key from Java keystore
+4. Export and upload a key (not using Java Keystore)
+
+For this example, we'll pick **option 3** ("Export and upload a key from Java keystore") as I don't wish to use the same key as another app in my developer account. The dialog expands to a five-step wizard:
+
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/Screenshot2026-05-15at08.59.39.png)
+
+1. Click **Download encryption public key** to save the `.pem` file.
+2. Click **Download PEPK tool** to save `pepk.jar`.
+3. Run PEPK against the keystore your APK is signed with. Both passwords are prompted on the command line; if you'd rather not type them, pass `--keystore-pass=` and `--key-pass=` inline:
+
+```
+java -jar pepk.jar \
+  --keystore=release.keystore \
+  --alias=<your-alias> \
+  --output=pepk-output.zip \
+  --include-cert \
+  --rsa-aes-encryption \
+  --encryption-key-path=encryption_public_key.pem
+```
+
+4. Click **Upload generated ZIP** and upload `pepk-output.zip`. The **Save** button activates once the ZIP is accepted.
+5. Click **Save**.
+
+![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/Screenshot2026-05-15at09.07.06.png)
+
+Play now has the signing certificate on file, and the JSON metadata upload that follows is accepted because the `certificate_base64` value in the JSON matches the cert just enrolled. Uploading the JSON before enrolling the key may fail with the error "The APK is externally hosted so it cannot be signed by Play".
+
+Existing apps that opted out before Google removed the option continue to work as before; this only affects newly-created apps.
+
+</div>
+
 5. Upload the JSON metadata file (the file picker is not shown in the GIF), then provide a release name and click **Next**.
 
 ![](https://cdn.bayton.org/uploads/2024/external-apk-hosting/2024-04-13_21.31.36.gif)
