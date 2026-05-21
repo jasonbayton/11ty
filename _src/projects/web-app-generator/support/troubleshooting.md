@@ -1,5 +1,5 @@
 ---
-title: WEB APP GENERATOR troubleshooting
+title: Troubleshooting issues with WEB APP GENERATOR
 parent: WEB APP GENERATOR support
 published: '2026-05-21'
 status: publish
@@ -13,68 +13,66 @@ categories:
     - Web App Generator Troubleshooting
 layout: base.njk
 eleventyNavigation:
-    order: 0
-    title: Troubleshooting
+    order: 4
+    title: Troubleshooting issues
 ---
 
-## Build fails immediately
+If you're having issues building, deploying or running a WEB APP GENERATOR build, the guidance below may help. If not, raise an issue at [github.com/baytonorg/wag/issues](https://github.com/baytonorg/wag/issues) or join the [BAYTON Discord](https://discord.gg/YUY7jAjayr).
 
-Most fast-failures are caused by an invalid signing keystore. Same checklist as KAG:
+## Build-time errors
 
-- Confirm the file is a real JKS or PKCS12.
-- Confirm the **key alias** exists inside the keystore: `keytool -list -keystore <file>`.
-- Confirm both passwords are correct. Store password and key password are independent.
+**Invalid keystore**
+: The uploaded keystore is not a recognisable JKS or PKCS12. Confirm the file extension matches the actual format (a `.pem` renamed to `.jks` won't work), and that the file isn't corrupt. `keytool -list -keystore <file>` will refuse to read a non-keystore.
 
-## Build fails with a Gradle error
+**Key alias not found**
+: The alias entered on the form doesn't exist inside the supplied keystore. `keytool -list -keystore <file>` shows the available aliases.
 
-Gradle build failures log server-side; the form returns a generic "Build failed" message. When raising a support request, quote the **builder version** from the result page and the **job ID** from the URL.
+**Wrong password**
+: Either the store password or the key password is incorrect. These are independent values; many keystores reuse the same value for both, but if yours doesn't, both must be supplied separately.
 
-## App opens but immediately closes / shows a white page
+**Build failed; check server logs for details**
+: A Gradle build step failed server-side. The reason isn't surfaced in the form response. Quote the **builder version** from the result page and the **job ID** from the URL when raising a support request so the failure can be traced.
 
-Common causes:
+## Runtime issues
 
-- The target URL returned a non-2xx HTTP status. WebView renders an empty white page on a server error. Open the URL in a desktop browser to confirm it loads.
-- The target URL is HTTP without `cleartext` being enabled. WAG enables cleartext automatically for HTTP target URLs at build time, so this should not happen for the registered URL - but it _will_ happen for any HTTP _resource_ (script, image) loaded from a different host. Switch any cross-host resources to HTTPS.
-- The site's `Content-Security-Policy` blocks framing inside a WebView. Update the CSP to permit `frame-ancestors *` or the wrapper's origin.
+**App opens to a white screen**
+: The target URL returned a non-2xx status or failed to load. Open the URL in a desktop browser to confirm it loads. If it does, check whether any same-host resources (scripts, images, fonts) are blocked by CSP or by the wrapper's cleartext rules (cross-host HTTP resources are blocked when the target is HTTPS).
 
-## Page loads but `getUserMedia` / Geolocation fails
+**App crashes on launch**
+: Rare. Usually caused by a malformed icon or an unsupported theme colour. Rebuild without the optional fields to confirm.
 
-The corresponding permission toggle was off at build time. Permissions cannot be flipped on after the build; rebuild with the toggle on.
+**Page loads, but `getUserMedia` or Geolocation fails**
+: The corresponding permission toggle was off at build time. Permissions are baked into the manifest and cannot be flipped on after the build. Rebuild with the toggle enabled. If the toggle was on and the call still fails, confirm the user granted the runtime permission when prompted (App info > Permissions on the device), and that the site is served over HTTPS (modern WebViews refuse `getUserMedia` over insecure origins).
 
-If the toggle was on and you're still hitting an error:
+**Login session is forgotten between launches**
+: The wrapper has its own cookie jar, isolated from Chrome's. If the site uses session cookies (no `Expires` or `Max-Age` set), they're lost when the app process is killed. Switch to persistent cookies or longer-lived auth tokens (OAuth refresh tokens, JWTs).
 
-- The user denied the runtime permission the first time the page asked. Long-press the wrapped app, **App info > Permissions**, re-grant.
-- The site is being served over HTTP, not HTTPS. Modern WebViews refuse `getUserMedia` over insecure origins.
+**File downloads don't trigger**
+: WAG handles standard `<a download>` and `Content-Disposition: attachment` responses via Android's `DownloadManager`. Custom blob-URL downloads sometimes don't surface a download notification; supply a direct link instead. `data:` URI downloads are blocked by `DownloadManager` and the WebView cannot work around this.
 
-## File downloads don't trigger
+**`tel:`, `mailto:`, `sms:`, `geo:` links don't open**
+: These do work, but only when a real user gesture taps them in the main frame. Sub-frame and script-initiated openings are blocked silently. Other custom schemes (`intent://`, custom URIs) are blocked entirely. This is intentional and prevents wrapped sites from launching external apps without user action.
 
-Downloads are not a toggle; they work out of the box. If a download isn't triggering:
+## Known limitations
 
-- The download is initiated by JavaScript in an unusual way. WAG handles standard `<a download>` and `Content-Disposition: attachment` responses. Custom blob-URL downloads sometimes don't surface a download notification; consider providing a direct link.
-- The download is to a `data:` URI. These are blocked by Android's `DownloadManager`; the WebView cannot work around it.
+**Web push notifications**
 
-## Login session forgotten between launches
+WAG does not bridge web push to FCM. Push notifications sent by the wrapped site will not arrive. If push is required, run a native companion app alongside the wrapper.
 
-The wrapper has its own cookie jar, isolated from Chrome's. If the site uses session cookies (no `Expires` / `Max-Age` set), they're lost when the app process is killed. Switch the site to persistent cookies or use longer-lived auth tokens (OAuth refresh tokens, JWTs).
+**Custom user-installed CA certificates**
 
-## Update code rejected when rebuilding
+By default, WAG honours the user CA store via the **Trust user CAs** toggle. If your enterprise MITM CA isn't being trusted, confirm that toggle is on and that the CA is installed in the user trust store on the device, not just on a different profile.
 
-Same as KAG: paste rather than retype, confirm you're using a WAG-minted code (not KAG), and check the original build's package name is still registered.
+**Update code rejected when rebuilding**
 
-## tel: / mailto: / sms: / geo: links don't open
-
-These do work, but only when a real user gesture taps them in the main frame. Sub-frames, scripts and other custom schemes (`intent://`, custom URIs) are blocked silently. This is intentional - it prevents wrapped sites from triggering external apps without user action.
-
-## Push notifications don't arrive
-
-Web push notifications do not work in WAG. There is no FCM bridge from the WebView. If you need push, consider supplementing with a native companion app or moving the relevant flows to email.
+The update code is a one-time-issued, hashed-and-stored secret. Paste rather than retype to avoid whitespace contamination. Confirm you're using a WAG-minted code (KAG codes are intentionally rejected by WAG and vice versa). If the original package name has been removed from the registry, raise a support request with the job ID of the original build.
 
 ## Reporting an issue
 
 Include in your support request:
 
-- The job ID from the result page.
-- The builder version (result page or APK manifest meta-data).
-- A short reproduction recipe: target URL, display mode, permissions enabled, Android version of the test device.
+- The **job ID** from the result page (the random ID in the URL).
+- The **builder version** shown on the result page (also baked into the APK manifest as a meta-data tag).
+- A short reproduction: target URL, display mode, permissions enabled, Android version of the test device.
 
 Open issues at [github.com/baytonorg/wag/issues](https://github.com/baytonorg/wag/issues).
