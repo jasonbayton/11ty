@@ -17,43 +17,49 @@ eleventyNavigation:
     title: Quick start
 ---
 
-This page walks through wrapping a URL in a deployable Android APK in under five minutes.
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Head's up</div>
 
-## Before you start
+WEB APP GENERATOR runs entirely in the browser. There is nothing to install locally, no SDK to download, no Android development environment to set up. You'll need a URL to wrap and an EMM (or `adb`) to push the resulting artefact to a device.
 
-You need:
+</div>
 
-- The URL you want to wrap. HTTP and HTTPS are both accepted; HTTPS is strongly preferred and is the default behaviour.
-- An EMM that can push APK / AAB artefacts to managed devices. Android Management API, a Custom DPC, or any third-party MDM that supports managed Google Play uploads will all work. (For personal sideload testing on your own device, no EMM is needed - install with `adb install` or by tapping the downloaded APK.)
+## Prepare
 
-You do **not** need an Android development environment. WAG produces the signed artefact in the browser.
+Before you build, have the following to hand:
 
-## Build a wrapper
+- The **URL** you want to wrap. HTTP and HTTPS are both accepted; HTTPS is strongly preferred and is the default behaviour. HTTP target URLs auto-enable cleartext traffic in the network security config for the target host only.
+- A short, user-visible **application name**. This is what appears in the Android app list, in the splash screen and in your EMM dashboard.
+- An optional **app icon** (PNG, any reasonable size; KAG rescales to standard launcher densities). A generic Bayton mark is used if omitted.
+- If you intend to release-sign, your **JKS or PKCS12 keystore** plus the alias and passwords. Credentials are held in memory for the build and discarded immediately after; nothing is persisted server-side.
+
+## Build the application
 
 1. Open [gen.bayton.org/webapp](https://gen.bayton.org/webapp/).
-2. Enter the **target URL** and a friendly **application name**. The application name is what users see in the Android app list.
-3. Pick a **display mode**:
-   - **Standalone** for the typical native-app feel (system bars visible, no URL chrome).
-   - **Minimal UI** to keep a small toolbar with the URL and a refresh button.
-   - **Full screen** for kiosks and digital signage. Pair with **Keep screen on** to prevent dimming.
-4. Toggle the permissions your site needs. Defaults: **JavaScript** and **cookies** on (almost every web app needs them); **camera**, **microphone**, **geolocation** off (declared only when you opt in, so the manifest is minimal). File downloads work out of the box and are not a toggle: any download triggered by the wrapped site surfaces the standard Android download notification via `DownloadManager`.
-5. Pick a **signing mode**:
-   - **Bayton signed** for the fastest path. Suitable for any EMM.
-   - **Release signed** to ship under your own certificate. Upload a JKS or PKCS12 keystore; credentials are purged after the build.
-   - **Debug** for sideload testing only.
-6. Pick an **output format** - APK for direct EMM push, AAB for Managed Google Play upload.
-7. Submit. Builds typically complete in 30 to 60 seconds.
+2. Enter the URL, application name and (optionally) the icon and theme colour.
+3. Pick the **display mode**: Standalone, Minimal UI or Full screen. See [supported configurations](supported-configurations) for the trade-offs.
+4. Toggle the runtime permissions your site needs (camera, microphone, geolocation, external links). Leave JavaScript and cookies on for almost any modern site.
+5. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
+6. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
+7. Submit. Typical build time is 30 to 60 seconds.
 
 ## After the build
 
-The response page contains:
+The result page contains:
 
-- A download link for the signed APK or AAB. Links expire 5 minutes after first click and build files are purged at that point.
-- A download link for the source archive (post-substitution Kotlin / XML / Gradle) for audit and local rebuild.
-- A one-time **update code**. **Save this.** It is the only way to rebuild this wrapper under the same Android package name later. The server stores only a SHA-256 hash; the raw code cannot be recovered.
+- A **download link** for the signed APK or AAB. Links expire 5 minutes after first click; build artefacts are purged 24 hours after creation regardless.
+- A **download link for the source archive**: the post-substitution Kotlin, XML and Gradle files for audit or local rebuild.
+- A **one-time update code**. Save this. It's the only way to rebuild this wrapper under the same Android package name later. The server stores only a SHA-256 hash; the raw code cannot be recovered.
+
+<div class="callout callout-orange">
+<div class="callout-heading">Save the update code</div>
+
+The update code is required to keep the same Android package name across rebuilds. Without it, the next build is treated as a new app and won't satisfy EMM silent-update flows or re-publish to the same Managed Google Play listing. Store it alongside the keystore credentials for whichever app it belongs to.
+
+</div>
 
 ## Deploy
 
-Push the APK or AAB through your EMM as you would any other app. No special policy entries are required - WAG produces a normal Android app that opens to your URL.
+Push the APK or AAB through your EMM as you would any other app. There are no special policy entries to set: WEB APP GENERATOR produces a normal Android app that opens to your URL.
 
-For kiosk-style deployment (single-app pinning to the WAG wrapper), point your EMM's lock-task / kiosk policy at the WAG-generated package name.
+For kiosk-style deployment (single-app lock-task pinned to the wrapper), point your EMM's lock-task or kiosk policy at the WAG-generated package name. Use the Full screen display mode for the most immersive result, and pair with Keep screen on to prevent the device dimming.
