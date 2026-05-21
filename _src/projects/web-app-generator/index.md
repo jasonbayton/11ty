@@ -10,7 +10,7 @@ type: page
 layout: project.njk
 ---
 
-**WAG (Web App Generator) is a browser-based tool that wraps any website in a signed Android APK using a native WebView.**
+**WAG (Web App Generator) is a browser-based tool that wraps any website in a signed Android APK or AAB using a native WebView.**
 
 ## What does WAG do?
 

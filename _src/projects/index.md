@@ -135,7 +135,7 @@ Aimed at Android Enterprise dedicated fleets but works anywhere a locked-down mu
 
 ## WEB APP GENERATOR
 
-WAG is a browser-based tool that wraps any website in a signed Android APK using a native WebView. Configure display mode, orientation, theme colour and per-app permissions, and download a signed APK or AAB ready for distribution.
+WAG is a browser-based tool that wraps any website in a signed Android APK or AAB using a native WebView. Configure display mode, orientation, theme colour and per-app permissions, and download a signed artefact ready for distribution.
 
 Useful for distributing internal web apps to managed devices via EMM, or anchoring a kiosk to a single web destination without the rest of the browser tagging along.
 
