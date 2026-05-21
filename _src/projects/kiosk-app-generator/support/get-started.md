@@ -51,4 +51,4 @@ The response page contains:
 
 ## Deploy
 
-Push the APK or AAB through your EMM as you would any other app. KAG's launcher needs to be set as the home activity on the target devices; consult your EMM's policy documentation for the exact field name (typically `kioskApps` or `preferentialNetworkService` style policy entries).
+Push the APK or AAB through your EMM as you would any other app. KAG's launcher then needs to be set as the home activity on the target devices, either by configuring it as the kiosk app (Android Management API: `kioskCustomLauncherEnabled` plus a kiosk policy whose `installedApps` includes the launcher; Custom DPC: `setLockTaskPackages` plus designating the launcher activity as `CATEGORY_HOME`), or by setting it as the persistent preferred launcher via your EMM's home-app override policy. Consult your EMM's documentation for the exact field name.

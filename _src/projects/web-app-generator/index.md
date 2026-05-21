@@ -19,7 +19,7 @@ WAG turns a hosted web app into an installable Android app. Configure display mo
 The wrapped app behaves like a native installation: no address bar, no bookmarks, no other tabs - just your URL in a Chromium WebView with the display chrome you chose.
 
 <a class="button" href="https://gen.bayton.org/webapp/">Open WAG</a>
-<a class="button" href="support">Documentation</a>
+<a class="button" href="support/">Documentation</a>
 
 ## Who is WAG for?
 

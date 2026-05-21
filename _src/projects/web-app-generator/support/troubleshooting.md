@@ -48,9 +48,7 @@ If the toggle was on and you're still hitting an error:
 
 ## File downloads don't trigger
 
-Confirm the **Downloads** permission was on at build time.
-
-If on:
+Downloads are not a toggle; they work out of the box. If a download isn't triggering:
 
 - The download is initiated by JavaScript in an unusual way. WAG handles standard `<a download>` and `Content-Disposition: attachment` responses. Custom blob-URL downloads sometimes don't surface a download notification; consider providing a direct link.
 - The download is to a `data:` URI. These are blocked by Android's `DownloadManager`; the WebView cannot work around it.

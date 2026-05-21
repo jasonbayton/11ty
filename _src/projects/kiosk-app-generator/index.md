@@ -19,7 +19,7 @@ KAG replaces the system home screen on a fleet of dedicated Android devices with
 The output is a signed APK or AAB that drops into any EMM (Android Management API, Custom DPC, or third-party MDMs that support managed Google Play uploads).
 
 <a class="button" href="https://gen.bayton.org/kiosk/">Open KAG</a>
-<a class="button" href="support">Documentation</a>
+<a class="button" href="support/">Documentation</a>
 
 ## Who is KAG for?
 

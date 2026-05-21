@@ -36,7 +36,7 @@ You do **not** need an Android development environment. WAG produces the signed 
    - **Standalone** for the typical native-app feel (system bars visible, no URL chrome).
    - **Minimal UI** to keep a small toolbar with the URL and a refresh button.
    - **Full screen** for kiosks and digital signage. Pair with **Keep screen on** to prevent dimming.
-4. Toggle the permissions your site needs: **camera**, **microphone**, **geolocation**, **downloads**, **JavaScript**, **cookies**. Defaults are sensible: JS and cookies on; camera / mic / location off; downloads on.
+4. Toggle the permissions your site needs. Defaults: **JavaScript** and **cookies** on (almost every web app needs them); **camera**, **microphone**, **geolocation** off (declared only when you opt in, so the manifest is minimal). File downloads work out of the box and are not a toggle: any download triggered by the wrapped site surfaces the standard Android download notification via `DownloadManager`.
 5. Pick a **signing mode**:
    - **Bayton signed** for the fastest path. Suitable for any EMM.
    - **Release signed** to ship under your own certificate. Upload a JKS or PKCS12 keystore; credentials are purged after the build.

@@ -78,6 +78,10 @@
                             {% include "./_parts/projects/project-ma-data-right.njk" %}
                             {% elif page.url.includes("beam") %}
                             {% renderFile "./_src/_includes/_parts/projects/beam-grid-right.md" %}
+                            {% elif page.url.includes("kiosk-app-generator") %}
+                            {% renderFile "./_src/_includes/_parts/projects/kag-grid-right.md" %}
+                            {% elif page.url.includes("web-app-generator") %}
+                            {% renderFile "./_src/_includes/_parts/projects/wag-grid-right.md" %}
                             {% endif %}
                             {% if categories %}
                             {% endif %}

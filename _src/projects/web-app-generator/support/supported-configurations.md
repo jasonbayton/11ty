@@ -49,13 +49,14 @@ Hides system bars entirely. Best for kiosks, signage, and immersive content. Inc
 
 ## Permissions
 
-All permissions are **off by default**. When off, the underlying Android permission is not declared, and page calls to the corresponding API fail silently. When on, the runtime permission is requested the first time the page asks. Users can revoke later via Android Settings without breaking the app.
+The opt-in permissions (camera, microphone, geolocation, external links) are **off by default**. When off, the underlying Android permission is not declared at all, and page calls to the corresponding API fail silently. When on, the runtime permission is requested the first time the page asks. Users can revoke later via Android Settings without breaking the app.
 
 - **Camera.** Required for `getUserMedia({ video: true })`.
 - **Microphone.** Required for `getUserMedia({ audio: true })`.
 - **Geolocation.** Required for the HTML5 Geolocation API.
-- **Downloads.** Allows the WebView to surface the standard Android download notification when a download link is tapped.
-- **External links.** Off by default - the wrapper stays locked to the registered URL and its subdomains. When on, the WebView navigates freely within itself, and a user can browse off-site without leaving the app. Use deliberately: in Standalone or Full screen mode there is no URL bar, so the user cannot see what site they're on.
+- **External links.** When off, the wrapper stays locked to the registered URL and its subdomains; any other web link is silently blocked. When on, the WebView navigates freely within itself, and a user can browse off-site without leaving the app. Use deliberately: in Standalone or Full screen mode there is no URL bar, so the user cannot see what site they're on.
+
+File downloads are not a toggle. The WebView surfaces the standard Android download notification via `DownloadManager` whenever the wrapped site triggers a download, with the file saved to the user's Downloads folder.
 
 ## Behaviour
 
