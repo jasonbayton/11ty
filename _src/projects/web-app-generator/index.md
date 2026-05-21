@@ -16,7 +16,7 @@ layout: project.njk
 
 WAG turns a hosted web app into an installable Android app. Configure display mode, orientation, theme colour and per-app permissions in a browser form, and download a signed APK or AAB ready for distribution through your EMM.
 
-The wrapped app behaves like a native installation: no address bar, no bookmarks, no other tabs - just your URL in a Chromium WebView with the display chrome you chose.
+The wrapped app behaves like a native installation, with the display chrome you chose: Standalone for a typical app feel, Minimal UI to keep a slim URL bar and refresh button visible, or Full screen for kiosk and signage scenarios where every pixel matters.
 
 <a class="button" href="https://gen.bayton.org/webapp/">Open WAG</a>
 <a class="button" href="support/">Documentation</a>
