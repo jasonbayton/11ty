@@ -109,23 +109,6 @@ It is a simple alternative to manually editing `JSON` code, allowing rapid custo
 
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/project_placeholder.svg" %}
-
-</div>
-<div class="project-description">
-
-## COMING SOON
-
-Another modern Android management project from BAYTON is in the works. Check back later. 
-
-<a class="button" style="background-color:grey; border-color:grey;" href="#">#soon</a>
-
-</div>
-
-<!--  -->
-
-<div class="project-image">
-
 {% include "../_includes/_assets/img/bayton_logos/kiosk_app_generator_hero.svg" %}
 
 </div>
