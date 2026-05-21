@@ -10,44 +10,82 @@ type: page
 layout: project.njk
 ---
 
-**WAG (Web App Generator) is a browser-based tool that wraps any website in a signed Android APK or AAB using a native WebView.**
+**WEB APP GENERATOR is a browser-based tool that wraps any website in a signed Android APK or AAB using a native Chromium WebView, ready for distribution through your existing EMM.**
 
-## What does WAG do?
+## What does WEB APP GENERATOR do?
 
-WAG turns a hosted web app into an installable Android app. Configure display mode, orientation, theme colour and per-app permissions in a browser form, and download a signed APK or AAB ready for distribution through your EMM.
+WEB APP GENERATOR answers the question: how do we deliver a hosted web app to managed Android devices as something that installs, signs and updates like any other native app, without standing up an Android project to do it?
 
-The wrapped app behaves like a native installation, with the display chrome you chose: Standalone for a typical app feel, Minimal UI to keep a slim URL bar and refresh button visible, or Full screen for kiosk and signage scenarios where every pixel matters.
+The output is a signed APK or AAB whose single activity opens a Chromium WebView pinned to the URL you supplied. You pick the display chrome, the runtime permissions, the orientation, the theme colour, and a few finer behaviours. The artefact is a normal Android installation: it appears in the launcher, holds its own cookies, can be policy-controlled, and updates through your EMM like any other app.
 
 <a class="button" href="https://gen.bayton.org/webapp/">Open WAG</a>
 <a class="button" href="support/">Documentation</a>
 
-## Who is WAG for?
+## How does WEB APP GENERATOR do this?
 
-- **Operators distributing internal web tooling** to managed Android devices outside the Play Store.
-- **Anyone anchoring a kiosk to a single web destination** without the rest of a browser tagging along.
-- **Teams shipping PWAs** that need installable distribution on managed fleets where browser-driven install prompts aren't reliable.
+You fill out a form at [gen.bayton.org/webapp](https://gen.bayton.org/webapp/) and the server substitutes your values into an Android template, compiles, signs and returns the artefact in under a minute. Behind the scenes WAG also:
 
-## What WAG produces
+- Writes a per-host network security config so HTTP target URLs work without flipping the whole app to cleartext.
+- Stamps the AndroidManifest with a meta-data tag recording the WAG server version that produced the build, so support tickets can be tied to an exact release.
+- Emits a source archive alongside the artefact: the post-substitution Kotlin, XML and Gradle files, so you can audit exactly what was compiled or reproduce the build with your own tooling.
 
-- A signed Android APK or AAB containing a single WebView activity pointed at the URL you supplied.
-- A network security config that auto-enables cleartext for HTTP target URLs (HTTPS is otherwise default).
-- A unique package name per build (or reused via an update code for EMM silent updates).
-- An exported source archive alongside the build for auditability and local reproduction.
+## Who is WEB APP GENERATOR for?
+
+- Are you distributing internal web tooling to managed Android devices and want it to install like a real app?
+- Do you need to anchor a kiosk to a single web URL without the rest of a browser tagging along?
+- Do you ship a PWA but find the browser-driven install prompt unreliable on managed fleets?
+
+If you answered yes to any of these, WEB APP GENERATOR was built for you. It's especially useful where the alternative would be writing and maintaining a native wrapper just to ship a WebView, or where Google Play isn't part of your distribution path.
+
+## What can WEB APP GENERATOR pair with?
+
+- [KIOSK APP GENERATOR](/projects/kiosk-app-generator/) builds the launcher. A WAG-wrapped app slots into the launcher's app grid like any other installed app, which is the natural pattern for single-site kiosks.
+- [MANAGED SETTINGS](/projects/managed-settings/) gatekeeps the system Settings surface. If your wrapped app sends users to system intents (Wi-Fi, location, accessibility), MANAGED SETTINGS controls which of those they can actually reach.
+- [MANAGED INFO HUB](/projects/splash/mi) is the right answer when you need more than a single URL but less than a full launcher.
 
 ## Display modes
 
-- **Standalone.** System bars visible; no in-app URL chrome. Closest to a typical native app feel.
-- **Minimal UI.** Shows a small in-app toolbar with the URL and a refresh button. Useful when you want users to be able to verify what site they're on.
-- **Full screen.** Hides system bars entirely. Pairs with **Keep screen on** for kiosk and digital-signage use cases.
+The display mode sets how much system chrome stays visible inside the wrapped app.
 
-## Signing options
+**Standalone** is the default and closest to a typical native app: system bars visible, no in-app URL chrome. Pick this unless you have a specific reason not to.
 
-- **Bayton-signed.** Built with Bayton's certificate. Fastest path; each build receives a unique package name unless you supply an update code.
-- **Release-signed.** Upload your own JKS or PKCS12. Credentials are purged after the build.
-- **Debug-signed.** Auto-signed with a debug key. Test-only; not for production distribution.
+**Minimal UI** keeps a slim in-app toolbar showing the URL and a refresh button. Useful when the wrapped site benefits from a manual refresh affordance, or when you want users to be able to verify the origin at a glance.
 
-## What WAG cannot do
+**Full screen** hides the system bars entirely. Pairs with **Keep screen on** for kiosk and signage. The **Respect insets** sub-toggle controls whether content reserves space around camera notches (on by default) or pushes edge-to-edge (off for notch-less devices where the inset padding would otherwise show as awkward letterboxing).
 
-- **Web push notifications** do not work; there is no FCM bridge from the WebView.
-- **Cookies do not span apps.** The wrapper has its own cookie jar; users logged into the site in Chrome will need to log in again inside the wrapped app.
-- **Native-only platform features** beyond what the WebView exposes (Bluetooth Classic, USB host, etc.) are not available; the wrapper is a WebView, not a Cordova / Capacitor bridge.
+## Signing modes
+
+**Bayton signed** is the fastest path. Built with Bayton's certificate, unique package name per build unless you supply an update code. Suitable for any EMM including Managed Google Play. After your first AAB upload Play App Signing takes over, so the Bayton certificate stops mattering at that point.
+
+**Release signed** uses your own certificate. Upload a JKS or PKCS12 with the alias and passwords; credentials are held in memory for the build and discarded immediately after. Nothing is persisted server-side.
+
+**Debug signed** is auto-signed with an Android debug key. Sideload testing only; not accepted by Managed Google Play or by EMM silent-install flows that require release signing.
+
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Update codes</div>
+
+Every build returns a one-time update code, shown exactly once. Quote it on a future build to keep the same Android package name (required for EMM silent updates and for republishing to the same Managed Google Play listing). Only a SHA-256 hash is kept server-side, so the raw code cannot be recovered. Lose it and the next build receives a new package name.
+
+</div>
+
+## Versioning and provenance
+
+Every build is stamped with the WAG version that produced it. Five ways to read it back:
+
+- The downloaded filename ends `-wag-v<version>.apk` or `.aab`
+- `unzip -p <file> assets/wag-build.txt` returns `builder`, `version`, `build_timestamp`
+- `strings <file> | grep '^builder:'` surfaces the same three lines without extracting
+- `adb shell dumpsys package <pkg> | grep org.bayton.wag` reads the manifest meta-data
+- `GET /api/version` on the live server returns the current release; the per-build `/api/status/<id>` response carries `builder_version`
+
+Quote the version in any support ticket so the issue can be tied to the exact build that produced your artefact.
+
+## What WEB APP GENERATOR cannot do
+
+**Web push notifications** do not work. There is no FCM bridge from the WebView, and no plan to add one. If you need push, run a native companion alongside the wrapper.
+
+**Cookies don't span apps.** The wrapper has its own cookie jar isolated from Chrome's. Users logged into the site in their browser will need to log in again inside the wrapped app.
+
+**Custom URL schemes** other than `tel:`, `mailto:`, `sms:` and `geo:` are silently blocked. Even the supported ones only fire on a real user gesture in the main frame; sub-frame and script-initiated openings won't trigger the system handler. This is intentional and prevents wrapped sites from launching external apps without user action.
+
+**Native-only platform APIs** beyond what the WebView exposes (Bluetooth Classic, USB host, full Bluetooth Low Energy, etc.) are not available. The wrapper is a WebView, not a Cordova or Capacitor bridge.
