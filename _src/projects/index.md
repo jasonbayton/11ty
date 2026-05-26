@@ -109,7 +109,7 @@ It is a simple alternative to manually editing `JSON` code, allowing rapid custo
 
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/kiosk_app_generator_hero.svg" %}
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
 
 </div>
 <div class="project-description">
@@ -128,7 +128,7 @@ Aimed at Android Enterprise dedicated fleets but works anywhere a locked-down mu
 
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/web_app_generator_hero.svg" %}
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
 
 </div>
 <div class="project-description">

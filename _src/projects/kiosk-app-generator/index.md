@@ -1,7 +1,7 @@
 ---
 title: KIOSK APP GENERATOR
 parent: Projects
-titleimage: '/img/bayton_logos/kiosk_app_generator_hero.svg'
+titleimage: '/img/bayton_logos/app_generator_hero.svg'
 date: '2026-05-21'
 status: publish
 author: 'Jason Bayton'

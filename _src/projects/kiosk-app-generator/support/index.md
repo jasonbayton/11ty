@@ -63,6 +63,30 @@ eleventyNavigation:
   </ul>
 </div>
 
+## Release notes
+
+<div class="support-list">
+  <ul>
+  {% set releaseNotes = collections['Kiosk App Generator'] | sort(attribute='fileSlug') | reverse %}
+  {% set releaseCount = 0 %}
+
+  {% for post in releaseNotes %}
+  {% if releaseCount < 10 %}
+  {% for tag in post.data.categories %}
+  {% if tag.includes("Kiosk App Generator Release Notes") %}
+  <li><a href="{{ post.url | url }}">{{ post.data.eleventyNavigation.title }}</a> - {{ post.data.published | dateFull }}</li>
+  {% set releaseCount = releaseCount + 1 %}
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+  </ul>
+
+  <p>
+    <a href="/projects/kiosk-app-generator/release-notes/">View all KIOSK APP GENERATOR release notes</a>
+  </p>
+</div>
+
 </div>
 </div>
 
