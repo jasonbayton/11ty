@@ -24,7 +24,7 @@ The output is a signed APK or AAB whose single activity opens a Chromium WebView
 
 You fill out a form at [gen.bayton.org/webapp](https://gen.bayton.org/webapp/) and the server substitutes your values into an Android template, compiles, signs and returns the artefact in under a minute.
 
-Display mode, runtime permissions, theme colour, orientation and the finer behaviours are all configurable in the form. Signing is your choice: Bayton's certificate for the fastest path, your own keystore for full ownership, or a debug key for sideload testing. The build is accompanied by a source archive of the post-substitution Kotlin, XML and Gradle so you can audit exactly what was compiled or rebuild it locally.
+Display mode, runtime permissions, theme colour, orientation and the finer behaviours are all configurable in the form. Signing is your choice: Bayton's certificate for the fastest path, your own keystore for full ownership, or a debug key for sideload testing. The build is accompanied by a source archive of the post-substitution Kotlin, XML and Gradle, plus an exported `web_app_config.json` so you can audit exactly what was compiled or rebuild it later under the same package name.
 
 ## Who is WEB APP GENERATOR for?
 

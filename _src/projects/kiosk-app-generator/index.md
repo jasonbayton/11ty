@@ -24,7 +24,7 @@ The output is a signed APK or AAB carrying the launcher activity, the list of ap
 
 You fill out a form at [gen.bayton.org/kiosk](https://gen.bayton.org/kiosk/) and the server substitutes your values into an Android template, compiles, signs and returns the artefact in under a minute.
 
-Apps are referenced by package name rather than bundled, so the launcher's job is the surface layer (which tiles, where, with what label) while the apps themselves are deployed separately through your EMM. The build is accompanied by a source archive of the post-substitution Kotlin, XML and Gradle, plus an exported `kiosk_config.json` describing the full configuration so a future build can import the same setup verbatim.
+Apps are referenced by package name rather than bundled, so the launcher's job is the surface layer (which tiles, where, with what label) while the apps themselves are deployed separately through your EMM. The build is accompanied by a source archive of the post-substitution Kotlin, XML and Gradle, plus an exported `kiosk_config.json` describing the full configuration and update code so a future build can import the same setup verbatim.
 
 ## Who is KIOSK APP GENERATOR for?
 
@@ -41,6 +41,8 @@ The secondary use case is **non-dedicated devices that benefit from a controlled
 KIOSK APP GENERATOR does not deploy the apps it launches. It produces the surface; the apps it tiles must be installed independently, typically through the same EMM that deploys the launcher.
 
 It also does not lock the device. Designating the launcher as the home activity, blocking other launchers, and configuring lock-task mode are all your EMM's job. The output is a normal Android app; the locked-down behaviour comes from how you deploy it.
+
+KAG also does not bypass Android's own lock-task allowlist. Every app surfaced as a tile or inside a folder still needs to be installed and allowed by policy before Android will launch it in a dedicated-device session.
 
 ## What does KIOSK APP GENERATOR cost?
 
