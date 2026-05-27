@@ -109,16 +109,37 @@ It is a simple alternative to manually editing `JSON` code, allowing rapid custo
 
 <div class="project-image">
 
-{% include "../_includes/_assets/img/bayton_logos/project_placeholder.svg" %}
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
 
 </div>
 <div class="project-description">
 
-## COMING SOON
+## KIOSK APP GENERATOR
 
-Another modern Android management project from BAYTON is in the works. Check back later. 
+KAG is a browser-based tool that produces signed, deployable multi-app launcher APKs and AABs for managed Android devices. Replace the system home screen on a fleet of dedicated devices with a tiled layout of just the apps your users need, themed and wallpapered to match.
 
-<a class="button" style="background-color:grey; border-color:grey;" href="#">#soon</a>
+Aimed at Android Enterprise dedicated fleets but works anywhere a locked-down multi-app surface is wanted.
+
+<a class="button" href="kiosk-app-generator">Check it out</a>
+
+</div>
+
+<!--  -->
+
+<div class="project-image">
+
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
+
+</div>
+<div class="project-description">
+
+## WEB APP GENERATOR
+
+WAG is a browser-based tool that wraps any website in a signed Android APK or AAB using a native WebView. Configure display mode, orientation, theme colour and per-app permissions, and download a signed artefact ready for distribution.
+
+Useful for distributing internal web apps to managed devices via EMM, or anchoring a kiosk to a single web destination without the rest of the browser tagging along.
+
+<a class="button" href="web-app-generator">Check it out</a>
 
 </div>
 
