@@ -22,7 +22,7 @@ eleventyNavigation:
 Default behaviour heads-up
 </div>
 
-Out of the box, the launcher renders an empty 3x3 grid in auto orientation with no apps and the system Settings surface hidden. If no wallpaper is uploaded and no theme colour is explicitly chosen, KAG ships the default Bayton wallpaper. Apps are not bundled into the launcher; they're referenced by package name and must be installed separately on the target devices, typically by your EMM.
+Out of the box, the launcher renders an empty 3x3 grid in auto orientation with no apps and the system Settings surface hidden. If no wallpaper is uploaded and no theme colour is explicitly chosen, KAG renders a default procedural gradient wallpaper. Apps are not bundled into the launcher; they're referenced by package name and must be installed separately on the target devices, typically by your EMM.
 
 </div>
 
@@ -55,10 +55,13 @@ The following configurations are available for KIOSK APP GENERATOR:
 | Columns | Tile-grid column count. Combined with Rows, sets the fixed grid shape | Integer | `cols` | `3` |
 | Rows | Tile-grid row count. Combined with Columns, sets the fixed grid shape | Integer | `rows` | `3` |
 | Icon size | Tile-icon density preset. Larger sizes suit standoff kiosk and signage scenarios | Enum | `icon_size` | `medium` |
+| Grow icons to fill cell | XL-only toggle that lets icons expand into sparse cells | Boolean | `icon_grow_to_cell` | `false` |
 
 </div>
 
-`orientation` accepts `auto`, `portrait` or `landscape`. `icon_size` accepts `small`, `medium` or `large`.
+`orientation` accepts `auto`, `portrait` or `landscape`. `icon_size` accepts `small`, `medium`, `large` or `xl`. The XL preset is 128dp and is most useful for sparse layouts where the standard sizes look undersized; dense grids still shrink icons to fit.
+
+`icon_grow_to_cell` only applies when `icon_size` is `xl`. When enabled, XL becomes a floor rather than a ceiling and icons can expand into available cell space up to 512dp. This is useful for very sparse grids on large landscape displays, but should be used deliberately: Android app icons are commonly authored around 192-432dp, so growing much beyond that can visibly soften bitmap-backed icons. The folder overlay deliberately does not apply this toggle.
 
 The grid is capped at 20x20 (400 cells total) by the validator. Apps and folders share the same grid, and two tiles cannot occupy the same row and column. The launcher does not create an overflow page or scrollable area; cells are sized to fit the available viewport, and dense grids reduce tile/icon size accordingly.
 
@@ -114,7 +117,7 @@ A wallpaper source can be a bundled image (uploaded with the build, served from 
 
 </div>
 
-If an uploaded wallpaper is supplied, it is bundled into the APK. If a remote URL is supplied, the launcher fetches it on-device and caches it. If neither is supplied and no theme colour was explicitly selected, the default Bayton wallpaper ships in the APK assets. If neither is supplied and a theme colour was selected, KAG uses the colour-only background.
+If an uploaded wallpaper is supplied, it is bundled into the APK. If a remote URL is supplied, the launcher fetches it on-device and caches it. If neither is supplied and no theme colour was explicitly selected, KAG draws the default procedural gradient wallpaper from a vector drawable. If neither is supplied and a theme colour was selected, KAG uses the colour-only background.
 
 ## Settings access
 
@@ -158,8 +161,8 @@ For day-to-day administration, the most useful managed configuration keys are th
 |-----|-------------|-------|
 | `banner_text` | Changes the top-strip banner | Good for site name, device role, short operating instruction or deployment ID. Max 80 characters |
 | `wallpaper_url` | Changes the wallpaper at runtime | HTTPS only. Cached on-device, so change the URL when replacing the image |
-| `theme_color` | Changes the solid-colour background fallback | Affects the post-splash background and system-bar tint. If a wallpaper is visible, the wallpaper wins visually |
-| `rows`, `cols`, `orientation`, `icon_size` | Changes the fixed launcher layout | Invalid values fall back to the generated default per key. Dense grids shrink tiles/icons to fit rather than scrolling |
+| `theme_color` | Changes the solid-colour background fallback | Affects the post-splash background and system-bar tint. If a wallpaper is visible, the wallpaper wins visually. If the only wallpaper is KAG's default gradient, an EMM-pushed theme colour suppresses it and switches to a flat theme-colour background |
+| `rows`, `cols`, `orientation`, `icon_size`, `icon_grow_to_cell` | Changes the fixed launcher layout | Invalid values fall back to the generated default per key. Dense grids shrink tiles/icons to fit rather than scrolling. `icon_grow_to_cell` only has an effect with XL icons |
 | `settings` | Changes the Settings gear behaviour | Can expose KAG's built-in Settings shortcuts or point the gear at MANAGED SETTINGS |
 
 </div>
@@ -264,6 +267,7 @@ These are the service surfaces integration work would build around:
 | `GET /api/source/{id}` | Download the generated Android source archive |
 | `GET /api/kiosk-config/{id}` | Download the exported `kiosk_config.json` |
 | `GET /api/config` | Read service feature flags, such as Bayton signing availability |
+| `GET /api/stats` | Read the public `total_apps` counter, scoped to the active KAG package prefix and cacheable for 60 seconds |
 
 </div>
 

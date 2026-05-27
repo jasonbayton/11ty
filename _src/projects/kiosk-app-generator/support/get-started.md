@@ -39,10 +39,10 @@ Before you build, have the following to hand:
 1. Open [gen.bayton.org/kiosk](https://gen.bayton.org/kiosk/).
 2. If you have a previous `kiosk_config.json`, import it first. The form will pre-populate with the original app name, grid, folders, signing choice, output format and update code. Icons, wallpapers and keystores are not embedded in the JSON, so upload those again if required.
 3. Set the application name, theme colour, optional banner text and optional icon.
-4. Configure the **layout**: orientation, rows and columns, icon size. Presets cover common grids, and custom values can go up to 20x20.
+4. Configure the **layout**: orientation, rows and columns, icon size. Presets cover common grids, and custom values can go up to 20x20. When XL icon size is selected, an optional grow-to-cell toggle can let icons expand into sparse cells on large displays.
 5. Add **apps**: paste the package name of each app you want to tile, choose the row and column, and add a label override if the device's normal app label is not suitable.
 6. Add **folders** if needed. Each folder sits on one grid cell and can contain 2-9 apps, shown in the order you enter them.
-7. Pick the **wallpaper** source: upload an image, supply an HTTPS URL for runtime fetch, or leave blank to ship the default Bayton wallpaper.
+7. Pick the **wallpaper** source: upload an image, supply an HTTPS URL for runtime fetch, or leave blank to use KAG's default procedural gradient wallpaper.
 8. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](supported-configurations) for the full list.
 9. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
 10. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
