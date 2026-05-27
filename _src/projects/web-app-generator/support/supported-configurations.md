@@ -35,7 +35,7 @@ The following configurations are available for WEB APP GENERATOR:
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
 | Target URL | The URL the wrapper opens to. HTTPS preferred; HTTP auto-enables cleartext for the target host only | String | `url` | (required) |
-| Application name | User-visible name in the Android app list and splash screen | String | `app_name` | (required) |
+| Application name | User-visible name in the Android app list and splash screen | String | `app_name` | Hostname, then `Web App` |
 | Application icon | PNG, auto-rescaled to launcher icon densities. Generic Bayton mark if omitted | File | `icon` | (none) |
 | Theme colour | Splash background, status bar, navigation bar, and (in Minimal UI) toolbar. Foreground contrast computed via WCAG luminance | Hex string | `theme_color` | `#ffffff` |
 
@@ -108,7 +108,7 @@ Trust user CAs is on by default for enterprise deployments where MDM-distributed
 
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
-| Sign mode | Which signing path the build uses | Enum | `sign_mode` | `bayton` |
+| Sign mode | Which signing path the build uses | Enum | `sign_mode` | `debug` |
 | Keystore | JKS or PKCS12 keystore. Required for `release` mode | File | `keystore` | (none) |
 | Key alias | Alias inside the keystore. Required for `release` mode | String | `key_alias` | (none) |
 | Store password | Keystore password. Required for `release` mode | String | `store_password` | (none) |
@@ -185,6 +185,9 @@ These are the service surfaces integration work would build around:
 | `GET /api/source/{id}` | Download the generated Android source archive |
 | `GET /api/web-app-config/{id}` | Download the exported `web_app_config.json` |
 | `GET /api/config` | Read service feature flags, such as Bayton signing availability |
+| `GET /api/stats` | Read the public `total_apps` counter, scoped to the active WAG package prefix and cacheable for 60 seconds |
+| `GET /api/version` | Read the current WAG release version |
+| `GET /healthz` | Liveness probe for service monitoring |
 
 </div>
 

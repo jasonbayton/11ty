@@ -52,8 +52,8 @@ The following configurations are available for KIOSK APP GENERATOR:
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
 | Orientation | Locks the launcher activity orientation | Enum | `orientation` | `auto` |
-| Columns | Tile-grid column count. Combined with Rows, sets the fixed grid shape | Integer | `cols` | `3` |
-| Rows | Tile-grid row count. Combined with Columns, sets the fixed grid shape | Integer | `rows` | `3` |
+| Columns | Tile-grid column count. Combined with Rows, sets the fixed grid shape | Integer | `cols` | `4` |
+| Rows | Tile-grid row count. Combined with Columns, sets the fixed grid shape | Integer | `rows` | `5` |
 | Icon size | Tile-icon density preset. Larger sizes suit standoff kiosk and signage scenarios | Enum | `icon_size` | `medium` |
 | Grow icons to fill cell | XL-only toggle that lets icons expand into sparse cells | Boolean | `icon_grow_to_cell` | `false` |
 
@@ -63,7 +63,7 @@ The following configurations are available for KIOSK APP GENERATOR:
 
 `icon_grow_to_cell` only applies when `icon_size` is `xl`. When enabled, XL becomes a floor rather than a ceiling and icons can expand into available cell space up to 512dp. This is useful for very sparse grids on large landscape displays, but should be used deliberately: Android app icons are commonly authored around 192-432dp, so growing much beyond that can visibly soften bitmap-backed icons. The folder overlay deliberately does not apply this toggle.
 
-The grid is capped at 20x20 (400 cells total) by the validator. Apps and folders share the same grid, and two tiles cannot occupy the same row and column. The launcher does not create an overflow page or scrollable area; cells are sized to fit the available viewport, and dense grids reduce tile/icon size accordingly.
+The browser form and scripted API submissions that omit `rows` and `cols` both start at 4x5. The grid is capped at 20x20 (400 cells total) by the validator. Apps and folders share the same grid, and two tiles cannot occupy the same row and column. The launcher does not create an overflow page or scrollable area; cells are sized to fit the available viewport, and dense grids reduce tile/icon size accordingly.
 
 ## Apps
 
@@ -207,7 +207,7 @@ When authoring folder data manually, use the delivered bundle-array shape rather
 
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
-| Sign mode | Which signing path the build uses | Enum | `sign_mode` | `bayton` |
+| Sign mode | Which signing path the build uses | Enum | `sign_mode` | `debug` |
 | Keystore | JKS or PKCS12 keystore. Required for `release` mode | File | `keystore` | (none) |
 | Key alias | Alias inside the keystore. Required for `release` mode | String | `key_alias` | (none) |
 | Store password | Keystore password. Required for `release` mode | String | `store_password` | (none) |
@@ -268,6 +268,8 @@ These are the service surfaces integration work would build around:
 | `GET /api/kiosk-config/{id}` | Download the exported `kiosk_config.json` |
 | `GET /api/config` | Read service feature flags, such as Bayton signing availability |
 | `GET /api/stats` | Read the public `total_apps` counter, scoped to the active KAG package prefix and cacheable for 60 seconds |
+| `GET /api/version` | Read the current KAG release version |
+| `GET /healthz` | Liveness probe for service monitoring |
 
 </div>
 
