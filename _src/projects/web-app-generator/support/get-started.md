@@ -39,7 +39,7 @@ Before you build, have the following to hand:
 1. Open [gen.bayton.org/webapp](https://gen.bayton.org/webapp/).
 2. If you have a previous `web_app_config.json`, import it first. The form will pre-populate with the original URL, display mode, permissions, signing choice, output format and update code. Icons and keystores are not embedded in the JSON, so upload those again if required.
 3. Enter the URL, application name and (optionally) the icon and theme colour.
-4. Pick the **display mode**: Standalone, Minimal UI or Full screen. See [supported configurations](supported-configurations) for the trade-offs.
+4. Pick the **display mode**: Standalone, Minimal UI or Full screen. See [supported configurations](/projects/web-app-generator/support/supported-configurations) for the trade-offs.
 5. Toggle the runtime permissions and behaviours your site needs: camera, microphone, geolocation, external links, pull to refresh, keep screen on, screenshot blocking, JavaScript, cookies and user CA trust.
 6. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
 7. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.

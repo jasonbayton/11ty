@@ -45,6 +45,10 @@ module.exports = function (eleventyConfig) {
     "_src/pwabuilder-sw.js": "pwabuilder-sw.js",
     "_src/image": "image",
     "_src/_data/android_versions.json": "api/android_versions.json",
+    // Self-hosted vendor JS used by the layout card generator. Bumped via
+    // npm install marked / dompurify so Dependabot tracks security updates.
+    "node_modules/marked/lib/marked.umd.js": "js/vendor/marked.umd.js",
+    "node_modules/dompurify/dist/purify.min.js": "js/vendor/purify.min.js",
   });
 
   eleventyConfig.addFilter("dateYear", dates.dateYear);
