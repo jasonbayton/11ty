@@ -30,7 +30,7 @@ Before you build, have the following to hand:
 
 - The **URL** you want to wrap. HTTP and HTTPS are both accepted; HTTPS is strongly preferred and is the default behaviour. HTTP target URLs auto-enable cleartext traffic in the network security config for the target host only.
 - A short, user-visible **application name**. This is what appears in the Android app list, in the splash screen and in your EMM dashboard.
-- An optional **app icon** (PNG, any reasonable size; WAG rescales to standard launcher densities). A generic Bayton mark is used if omitted.
+- An optional **app icon** (PNG, any reasonable size; WAG rescales to standard launcher densities). The default app-gen Bayton mark is used if omitted.
 - If you intend to release-sign, your **JKS or PKCS12 keystore** plus the alias and passwords. Credentials are held in memory for the build and discarded immediately after; nothing is persisted server-side.
 - If you're rebuilding an existing wrapper, the **update code** from the original build. Without it, WAG will mint a new Android package name.
 

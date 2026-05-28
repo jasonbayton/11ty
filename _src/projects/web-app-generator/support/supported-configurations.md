@@ -36,7 +36,7 @@ The following configurations are available for WEB APP GENERATOR:
 |-------|-------------|------|----------|---------|
 | Target URL | The URL the wrapper opens to. HTTPS preferred; HTTP auto-enables cleartext for the target host only | String | `url` | (required) |
 | Application name | User-visible name in the Android app list and splash screen | String | `app_name` | Hostname, then `Web App` |
-| Application icon | PNG, auto-rescaled to launcher icon densities. Generic Bayton mark if omitted | File | `icon` | (none) |
+| Application icon | PNG, auto-rescaled to launcher icon densities. Default app-gen Bayton mark if omitted | File | `icon` | (none) |
 | Theme colour | Splash background, status bar, navigation bar, and (in Minimal UI) toolbar. Foreground contrast computed via WCAG luminance | Hex string | `theme_color` | `#ffffff` |
 
 </div>

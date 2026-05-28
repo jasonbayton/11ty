@@ -22,7 +22,7 @@ eleventyNavigation:
 Default behaviour heads-up
 </div>
 
-Out of the box, the launcher renders an empty 3x3 grid in auto orientation with no apps and the system Settings surface hidden. If no wallpaper is uploaded and no theme colour is explicitly chosen, KAG renders a default procedural gradient wallpaper. Apps are not bundled into the launcher; they're referenced by package name and must be installed separately on the target devices, typically by your EMM.
+Out of the box, the launcher renders an empty 4x5 grid in auto orientation with no apps and the system Settings surface hidden. If no wallpaper is uploaded and no theme colour is explicitly chosen, KAG renders a default procedural gradient wallpaper. Apps are not bundled into the launcher; they're referenced by package name and must be installed separately on the target devices, typically by your EMM.
 
 </div>
 
@@ -35,7 +35,7 @@ The following configurations are available for KIOSK APP GENERATOR:
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
 | Application name | User-visible name in the Android app list and EMM dashboard. Does not appear on the launcher surface itself | String | `app_name` | (required) |
-| Application icon | PNG, auto-rescaled to launcher icon densities. Generic Bayton mark if omitted | File | `icon` | (none) |
+| Application icon | PNG, auto-rescaled to launcher icon densities. Default app-gen Bayton mark if omitted | File | `icon` | (none) |
 | Theme colour | Splash background, status and navigation bar, and the tile accent on the launcher surface. Foreground contrast computed via WCAG luminance | Hex string | `theme_color` | `#ffffff` |
 | Banner text | Optional banner rendered above the tile grid. Useful for site name, deployment ID, or operator instructions | String | `banner_text` | (none) |
 
@@ -83,6 +83,21 @@ The app list is submitted as part of the `config_json` payload (see [Configurati
 Apps must already be installed on the target device for the launcher to launch them. KAG does not bundle the referenced apps, and Android's kiosk policy must allow the target packages to launch in lock task.
 
 The package name validator expects a normal Android package identifier: at least one dot, no leading or trailing dot, ASCII letters, numbers, underscores and dots only, and no more than 255 characters.
+
+## Auto-launch
+
+KAG can optionally launch a target package automatically each time the launcher returns to the foreground. The browser form suggests apps already present in the grid or folders, but the package field also accepts a valid package name typed manually.
+
+<div class="responsive-table-wrapper">
+
+| Field | Description | Type | Form key | Default |
+|-------|-------------|------|----------|---------|
+| Auto-launch app | Android package to launch after the launcher foregrounds | String | `autostart_package` | (none) |
+| Auto-launch grace period | Seconds to wait before showing the countdown dialog | Integer | `autostart_grace_seconds` | `10` |
+
+</div>
+
+`autostart_grace_seconds` accepts values from 1 to 60. Empty, zero or invalid managed-configuration values fall back to the generated default of 10 seconds. The target app must be installed on the device and allowed by the active kiosk or lock-task policy; if Android blocks the launch, KAG returns to the grid and shows an operator-facing warning.
 
 ## Folders
 
@@ -163,6 +178,7 @@ For day-to-day administration, the most useful managed configuration keys are th
 | `wallpaper_url` | Changes the wallpaper at runtime | HTTPS only. Cached on-device, so change the URL when replacing the image |
 | `theme_color` | Changes the solid-colour background fallback | Affects the post-splash background and system-bar tint. If a wallpaper is visible, the wallpaper wins visually. If the only wallpaper is KAG's default gradient, an EMM-pushed theme colour suppresses it and switches to a flat theme-colour background |
 | `rows`, `cols`, `orientation`, `icon_size`, `icon_grow_to_cell` | Changes the fixed launcher layout | Invalid values fall back to the generated default per key. Dense grids shrink tiles/icons to fit rather than scrolling. `icon_grow_to_cell` only has an effect with XL icons |
+| `autostart_enabled`, `autostart_package`, `autostart_grace_seconds` | Changes auto-launch behaviour | `autostart_enabled` can disable fleet auto-launch without clearing the baked package. Grace accepts 1-60 seconds; 0 or unset uses the runtime default of 10 seconds. The target package still needs to be installed and lock-task allowed |
 | `settings` | Changes the Settings gear behaviour | Can expose KAG's built-in Settings shortcuts or point the gear at MANAGED SETTINGS |
 
 </div>
