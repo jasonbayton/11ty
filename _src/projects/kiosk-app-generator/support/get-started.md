@@ -43,7 +43,7 @@ Before you build, have the following to hand:
 5. Add **apps**: paste the package name of each app you want to tile, choose the row and column, and add a label override if the device's normal app label is not suitable.
 6. Add **folders** if needed. Each folder sits on one grid cell and can contain 2-9 apps, shown in the order you enter them.
 7. Pick the **wallpaper** source: upload an image, supply an HTTPS URL for runtime fetch, or leave blank to use KAG's default procedural gradient wallpaper.
-8. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](supported-configurations) for the full list.
+8. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](/projects/kiosk-app-generator/support/supported-configurations) for the full list.
 9. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
 10. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
 11. Submit. The result panel will show whether the build is queued, building, complete or failed. If other builds are ahead of yours, it will show the queue position and an estimated wait.
