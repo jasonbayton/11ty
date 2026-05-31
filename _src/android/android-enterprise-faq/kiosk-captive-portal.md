@@ -18,10 +18,14 @@ If you find networks with captive portals configured simply never launch the por
 
 Captive portals are typically handled through a dedicated application preloaded on all Android devices, and access can be granted by adding the respective package name to the EMM policy as an allowed application.
 
-The common package name for this is:
+The common package names for this are:
 
-`com.google.android.captiveportallogin`
+`com.google.android.captiveportallogin`  
+`com.android.captiveportallogin`  
+`com.google.android.overlay.modules.captiveportallogin.forframework`
 
-<span class="label label-green"><span class="material-symbols-outlined">android</span> Tip</span> _For specific OEM implementations, search `captive portal` in the [Android system app database](/android/android-system-app-database/)._
+On a GMS-certified device, the AOSP version (com.android..) is less likely to be in use. The two Google-branded packages are the captive portal app itself, and an overlay app used by some OEMs to customise the captive portal experience (think Samsung providing their own style/branding). The overlay would only need allowlisting if captive portal fails to work with the primary app allowlisted.
 
-What this does is add the package name to the LockTask allowlist, enabling the app to open without triggering a security exception.
+_More details of each package can be found by searching `captive portal` in the [Android system app database](/android/android-system-app-database/)._
+
+By adding the package name(s) to the EMM application policy allowlist, captive portal will be able to open without triggering a security exception.
