@@ -33,16 +33,16 @@ This is distinct from the existing [Google Advanced Protection Program](https://
 
 ## Enterprise management
 
-As of early 2026, **Advanced Protection cannot be enforced or configured centrally by IT administrators through AMAPI**. There is no policy field in the Android Management API to toggle it on or off, and it must be activated individually by the end user on each device. Google has since confirmed Android Enterprise support for Advanced Protection is coming later in 2026 with Android 17, which will allow organisations to enable it by policy for managed devices.
+As of mid-2026, **Advanced Protection cannot be enforced or configured centrally by IT administrators through AMAPI**. There is no policy field in the Android Management API to toggle it on or off, and it must be activated individually by the end user on each device. Google confirmed at [The Android Show: I/O Edition](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/) (12 May 2026) that Android Enterprise support for Advanced Protection is coming later in 2026 with Android 17, which will allow organisations to enable it by policy for managed devices.
 
 Google does provide the [`AdvancedProtectionManager`](https://developer.android.com/reference/android/security/advancedprotection/AdvancedProtectionManager) API, which allows applications to query whether Advanced Protection is enabled and register callbacks for state changes. This means an EMM or compliance app could detect whether a user has enabled it and take action accordingly - for example, flagging non-compliant devices or gating access to sensitive resources - but it cannot enforce activation.
 
-Many of the individual protections that Advanced Protection bundles are already available as separate AMAPI policies. For example, admins can already block sideloading (`installUnknownSourcesDisabled`), enforce Play Protect, restrict USB access, and manage system updates independently. What Advanced Protection offers is a user-facing shortcut that activates all of these at once, plus protections like MTE and intrusion logging that are not individually exposed through management APIs.
+Many of the individual protections that Advanced Protection bundles are already available as separate AMAPI policies. For example, admins can already block sideloading ([`advancedSecurityOverrides.untrustedAppsPolicy`](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AdvancedSecurityOverrides)), enforce Play Protect, restrict USB access, and manage system updates independently. What Advanced Protection offers is a user-facing shortcut that activates all of these at once, plus protections like MTE and intrusion logging that are not individually exposed through management APIs.
 
-<div class="callout callout-blue">
+<div class="callout callout-green">
 <div class="callout-heading callout-heading-small">Confirmed for Android 17</div>
 
-Google has officially announced Android Enterprise support for Advanced Protection, coming later in 2026 with Android 17. Once available, organisations will be able to enable it by policy for managed devices, providing a single security baseline rather than configuring dozens of individual restrictions. Until then, organisations that want these protections enforced should continue configuring the individual policies available through their EMM.
+Google confirmed Android Enterprise support for Advanced Protection at [The Android Show: I/O Edition](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/) on 12 May 2026. Once available later in 2026, organisations will be able to enable it by policy for managed devices, providing a single security baseline rather than configuring dozens of individual restrictions. The specific policy mechanism - whether through AMAPI, custom DPC APIs, or both - has not yet been published. Until then, organisations that want these protections enforced should continue configuring the individual policies available through their EMM.
 
 </div>
 
@@ -51,3 +51,4 @@ Google has officially announced Android Enterprise support for Advanced Protecti
 - [What's new in the 2026 Android Security Paper?](/blog/2026/03/reviewing-the-2026-security-paper/)
 - [Android developer documentation: Advanced Protection Mode](https://developer.android.com/privacy-and-security/advanced-protection-mode)
 - [Google Security Blog: Advanced Protection](https://security.googleblog.com/2025/05/advanced-protection-mobile-devices.html)
+- [The Android Show: I/O Edition (May 2026)](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/)
