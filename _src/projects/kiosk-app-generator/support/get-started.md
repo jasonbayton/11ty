@@ -42,11 +42,13 @@ Before you build, have the following to hand:
 4. Configure the **layout**: orientation, rows and columns, icon size. Presets cover common grids, and custom values can go up to 20x20. When XL icon size is selected, an optional grow-to-cell toggle can let icons expand into sparse cells on large displays.
 5. Add **apps**: paste the package name of each app you want to tile, choose the row and column, and add a label override if the device's normal app label is not suitable.
 6. Add **folders** if needed. Each folder sits on one grid cell and can contain 2-9 apps, shown in the order you enter them.
-7. Pick the **wallpaper** source: upload an image, supply an HTTPS URL for runtime fetch, or leave blank to use KAG's default procedural gradient wallpaper.
-8. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](/projects/kiosk-app-generator/support/supported-configurations) for the full list.
-9. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
-10. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
-11. Submit. The result panel will show whether the build is queued, building, complete or failed. If other builds are ahead of yours, it will show the queue position and an estimated wait.
+7. Optionally set an **auto-launch** package and grace period if the launcher should return to a primary app after foregrounding.
+8. Pick the **wallpaper** source: upload an image, supply an HTTPS URL for runtime fetch, or leave blank to use KAG's default procedural gradient wallpaper.
+9. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](/projects/kiosk-app-generator/support/supported-configurations) for the full list.
+10. Optionally configure **admin escape** if field techs or admins need a hidden, password-gated drawer of extra apps that are not shown on the main grid.
+11. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
+12. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
+13. Submit. The result panel will show whether the build is queued, building, complete or failed. If other builds are ahead of yours, it will show the queue position and an estimated wait.
 
 ## After the build
 
@@ -55,7 +57,7 @@ The result page contains:
 - A **download link** for the signed APK or AAB. Links expire 5 minutes after first click; build artefacts are purged 24 hours after creation regardless.
 - A **download link for the source archive**: the post-substitution Kotlin, XML and Gradle files for audit or local rebuild.
 - A **download link for the exported `kiosk_config.json`**. This is the full configuration that produced the build; paste it back into the form's Import config field to pre-populate every setting for a future rebuild.
-- A **one-time update code**. Save this. It's the only way to rebuild this launcher under the same Android package name later. The server stores only a SHA-256 hash; the raw code cannot be recovered.
+- A **one-time update code** for new builds. Save this. It's the only way to rebuild this launcher under the same Android package name later. The server stores only a SHA-256 hash; the raw code cannot be recovered.
 - The **builder version** that produced the artefact. This is also stamped into the APK manifest and source archive for later support and audit work.
 
 <div class="callout callout-orange">
@@ -76,6 +78,8 @@ Push the APK or AAB through your EMM as you would any other app. To take over as
 Without that policy step, KAG installs as a regular app and the system launcher continues to be shown.
 
 Every app surfaced by KAG also needs to be allowed by the kiosk policy. KAG can show a tile for `com.example.app`, but Android will still block the launch if that target app is not installed, not force-installed, or not included in the lock-task allowlist.
+
+Admin escape apps follow the same rule. The hidden drawer can expose packages that are not visible on the main grid, but it cannot bypass lock task or launch apps that are missing from the device or policy allowlist.
 
 ## Rebuild or update
 

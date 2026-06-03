@@ -37,7 +37,7 @@ If you're having issues building, deploying or running a KIOSK APP GENERATOR bui
 : Build jobs run through a shared queue. The result panel reports the number of jobs ahead and an estimated wait based on recent build times. If the position is not changing after several minutes, wait before resubmitting; identical in-flight builds are deduplicated so repeated clicks usually return the same job.
 
 **Imported config fails validation**
-: `kiosk_config.json` is strict. Check for row or column values outside the current grid, duplicate app/folder cells, folder entries with fewer than 2 or more than 9 apps, invalid package names, and unknown enum values. If you hand-edited the JSON, import the last known-good export and make the same change through the form first.
+: `kiosk_config.json` is validated against KAG's schema. Check for row or column values outside the current grid, duplicate app/folder cells, folder entries with fewer than 2 or more than 9 apps, invalid package names, and unsupported enum values. If a hand-edited field appears to do nothing, check the key spelling; unknown JSON keys are ignored by the parser. Import the last known-good export and make the same change through the form first.
 
 ## Runtime issues
 
@@ -67,6 +67,12 @@ If you're having issues building, deploying or running a KIOSK APP GENERATOR bui
 
 **MANAGED SETTINGS shows an unavailable message**
 : When **Use MANAGED SETTINGS** is enabled, KAG shows the MANAGED SETTINGS gear even if MANAGED SETTINGS is not yet installed. If the app is missing, disabled, blocked by lock task, or otherwise not launchable, tapping the gear shows an unavailable toast. KAG does not bundle MANAGED SETTINGS or grant policy access to it; deploy MANAGED SETTINGS separately and allow it in lock task if the device is locked down.
+
+**Admin escape doesn't open**
+: Admin escape only becomes active when it is enabled, has a 4-16 character password, and has at least one admin app. Long-press the settings gear, MANAGED SETTINGS gear, or shield icon; a normal tap will not open the drawer. If the password was changed by EMM, use the managed value rather than the build-time value.
+
+**An admin escape app doesn't launch**
+: Admin escape is still subject to Android launch and lock-task rules. The package must be installed, expose a launcher activity, and be allowed by the kiosk policy. KAG can hide the app from the main grid, but it cannot bypass lock task or launch a package the DPC has blocked.
 
 ## Known limitations
 

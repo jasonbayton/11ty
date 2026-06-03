@@ -97,7 +97,23 @@ KAG can optionally launch a target package automatically each time the launcher 
 
 </div>
 
-`autostart_grace_seconds` accepts values from 1 to 60. Empty, zero or invalid managed-configuration values fall back to the generated default of 10 seconds. The target app must be installed on the device and allowed by the active kiosk or lock-task policy; if Android blocks the launch, KAG returns to the grid and shows an operator-facing warning.
+`autostart_grace_seconds` accepts values from 1 to 60. Empty or zero build-time values use the runtime default of 10 seconds. Managed-configuration values outside the valid range fall back to the generated baseline, while a pushed value of `0` explicitly selects the runtime default. The target app must be installed on the device and allowed by the active kiosk or lock-task policy; if Android blocks the launch, KAG returns to the grid and shows an operator-facing warning.
+
+## Admin escape
+
+Admin escape is an optional hidden drawer for field techs or administrators. When enabled, long-pressing the settings slot opens a password prompt; a successful password reveals a scrolling list of configured admin apps. If the normal settings gear is hidden, KAG shows a shield in the same slot so the long-press target still exists.
+
+<div class="responsive-table-wrapper">
+
+| Field | Description | Type | Form key | Default |
+|-------|-------------|------|----------|---------|
+| Enable admin escape | Enables the hidden admin app drawer | Boolean | `admin_escape_enabled` | False |
+| Admin password | Password required to open the drawer. 4-16 characters | String | `admin_escape_password` | (none) |
+| Admin apps | Apps shown in the drawer, in order. Each entry has a package name and optional label override | Array | `admin_app_package[]`, `admin_app_label[]` | (none) |
+
+</div>
+
+Admin escape is not an operating-system escape or policy bypass. The password is a casual-access deterrent, not a strong secret: it is part of the generated configuration and can be rotated later through managed configuration. Every admin app must still be installed and allowed by the active kiosk or lock-task policy, just like normal grid and folder apps. Up to 32 admin apps are supported.
 
 ## Folders
 
@@ -178,7 +194,8 @@ For day-to-day administration, the most useful managed configuration keys are th
 | `wallpaper_url` | Changes the wallpaper at runtime | HTTPS only. Cached on-device, so change the URL when replacing the image |
 | `theme_color` | Changes the solid-colour background fallback | Affects the post-splash background and system-bar tint. If a wallpaper is visible, the wallpaper wins visually. If the only wallpaper is KAG's default gradient, an EMM-pushed theme colour suppresses it and switches to a flat theme-colour background |
 | `rows`, `cols`, `orientation`, `icon_size`, `icon_grow_to_cell` | Changes the fixed launcher layout | Invalid values fall back to the generated default per key. Dense grids shrink tiles/icons to fit rather than scrolling. `icon_grow_to_cell` only has an effect with XL icons |
-| `autostart_enabled`, `autostart_package`, `autostart_grace_seconds` | Changes auto-launch behaviour | `autostart_enabled` can disable fleet auto-launch without clearing the baked package. Grace accepts 1-60 seconds; 0 or unset uses the runtime default of 10 seconds. The target package still needs to be installed and lock-task allowed |
+| `autostart_enabled`, `autostart_package`, `autostart_grace_seconds` | Changes auto-launch behaviour | `autostart_enabled` can disable fleet auto-launch without clearing the baked package. Grace accepts 1-60 seconds; 0 uses the runtime default of 10 seconds, unset uses the generated baseline, and out-of-range values fall back to the generated baseline. The target package still needs to be installed and lock-task allowed |
+| `admin` | Changes admin escape behaviour | Bundle containing `admin_enabled`, `admin_password`, and `admin_apps`. The password can be rotated without rebuilding. A non-empty `admin_apps` push replaces the generated drawer list wholesale; empty keeps the generated list |
 | `settings` | Changes the Settings gear behaviour | Can expose KAG's built-in Settings shortcuts or point the gear at MANAGED SETTINGS |
 
 </div>
@@ -189,7 +206,7 @@ The advanced managed configuration keys are for replacing whole parts of the lau
 
 | Key | Description | Notes |
 |-----|-------------|-------|
-| `kiosk_config_json` | Full exported configuration blob | Becomes the baseline config. Useful for importing a known-good generator export, or for EMM consoles that do not render nested folder arrays cleanly |
+| `kiosk_config_json` | Full exported configuration blob | Becomes the baseline config. Useful for importing a known-good generator export, or for EMM consoles that do not render nested folder or admin-app arrays cleanly |
 | `applications` | Replaces the app tile list | Non-empty pushes replace the generated app grid wholesale. Partial app-list overrides are not supported |
 | `folders` | Replaces the folder list | Non-empty pushes replace the generated folder set wholesale. Some EMM consoles may struggle with the nested `folder_apps` array; use `kiosk_config_json` if so |
 
@@ -199,7 +216,7 @@ Typed managed-configuration overrides sit on top of `kiosk_config_json`. A commo
 
 The `settings` bundle is treated as an override only when it contains at least one enabled value, including `use_managed_settings`. This avoids EMM consoles that auto-save every default value accidentally wiping the generated settings. If the goal is to turn every settings option off, use `kiosk_config_json` and set `"settings": { "enabled": false }` there.
 
-When authoring folder data manually, use the delivered bundle-array shape rather than the manifest wrapper shape. Each folder object carries its fields at the top level:
+When authoring folder or admin-app data manually, use the delivered bundle-array shape rather than the manifest wrapper shape. Each object carries its fields at the top level:
 
 ```json
 {
@@ -214,6 +231,20 @@ When authoring folder data manually, use the delivered bundle-array shape rather
       ]
     }
   ]
+}
+```
+
+The admin-app bundle uses the same pattern:
+
+```json
+{
+  "admin": {
+    "admin_enabled": true,
+    "admin_password": "1234",
+    "admin_apps": [
+      { "admin_app_package": "com.android.settings", "admin_app_label": "Settings" }
+    ]
+  }
 }
 ```
 
@@ -237,7 +268,7 @@ When authoring folder data manually, use the delivered bundle-array shape rather
 <div class="callout callout-blue">
 <div class="callout-heading">Update codes</div>
 
-Every build returns a one-time update code, shown exactly once. Quote it on a future build to keep the same Android package name (required for EMM silent updates and for republishing to the same Managed Google Play listing). Only a SHA-256 hash is kept server-side, so the raw code cannot be recovered.
+Every new build returns a one-time update code, shown exactly once. Quote it on a future build to keep the same Android package name (required for EMM silent updates and for republishing to the same Managed Google Play listing). Only a SHA-256 hash is kept server-side, so the raw code cannot be recovered.
 
 </div>
 
@@ -255,9 +286,9 @@ Every build returns a one-time update code, shown exactly once. Quote it on a fu
 
 ## Configuration import / export
 
-Every build ships an exported `kiosk_config.json` file alongside the APK. This is the complete payload that produced the build, including the update code, useful for auditing the deployment or re-importing into a future build (paste it into the form's **Import config** field to pre-populate every setting).
+Every build ships an exported `kiosk_config.json` file alongside the APK or AAB. This is the complete payload that produced the build, including the update code, useful for auditing the deployment or re-importing into a future build (paste it into the form's **Import config** field to pre-populate every setting).
 
-The schema is documented inline above (each form-field table is the same schema you'll see in the exported file). The file is also available via `/api/kiosk-config/{id}` while the build artefacts are still live.
+The main layout, app, folder, wallpaper, settings, auto-launch and admin-escape keys are documented inline above. The export also carries build-time fields such as `app_name`, `theme_color`, `output_format`, `sign_mode` and `update_code`, and the file is available via `/api/kiosk-config/{id}` while the build artefacts are still live.
 
 Because the export contains the update code, treat it as sensitive. Anyone with that file can rebuild against the same package name while the package registry entry exists.
 

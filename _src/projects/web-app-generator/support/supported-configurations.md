@@ -34,7 +34,7 @@ The following configurations are available for WEB APP GENERATOR:
 
 | Field | Description | Type | Form key | Default |
 |-------|-------------|------|----------|---------|
-| Target URL | The URL the wrapper opens to. HTTPS preferred; HTTP auto-enables cleartext for the target host only | String | `url` | (required) |
+| Target URL | The URL the wrapper opens to. HTTPS preferred; HTTP auto-enables cleartext for the target hostname only. Must be HTTP or HTTPS, use a hostname rather than an IP literal, and contain no embedded credentials | String | `url` | (required) |
 | Application name | User-visible name in the Android app list and splash screen | String | `app_name` | Hostname, then `Web App` |
 | Application icon | PNG, auto-rescaled to launcher icon densities. Default app-gen Bayton mark if omitted | File | `icon` | (none) |
 | Theme colour | Splash background, status bar, navigation bar, and (in Minimal UI) toolbar. Foreground contrast computed via WCAG luminance | Hex string | `theme_color` | `#ffffff` |
@@ -122,7 +122,7 @@ Trust user CAs is on by default for enterprise deployments where MDM-distributed
 <div class="callout callout-blue">
 <div class="callout-heading">Update codes</div>
 
-Every build returns a one-time update code, shown exactly once. Quote it on a future build to keep the same Android package name (required for EMM silent updates and for republishing to the same Managed Google Play listing). Only a SHA-256 hash is kept server-side, so the raw code cannot be recovered.
+Every new build returns a one-time update code, shown exactly once. Quote it on a future build to keep the same Android package name (required for EMM silent updates and for republishing to the same Managed Google Play listing). Only a SHA-256 hash is kept server-side, so the raw code cannot be recovered.
 
 </div>
 
