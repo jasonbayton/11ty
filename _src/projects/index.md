@@ -59,9 +59,9 @@ Ideal for quickly locating and monitoring applications & their metadata. Even sh
 
 ## MANAGED INFO HUB
 
-MANAGED INFO HUB is a flexible kiosk launcher, support tool, and device companion for Android Enterprise fleets.
+MANAGED INFO HUB is a flexible kiosk launcher, support tool, and device companion for Android Enterprise estates.
 
-It adapts to whatever role your fleet needs - from a full home-screen replacement with infinitely-customisable layouts that anchors kiosk deployments, to a lightweight device overview/support tool that keeps essential information and contact details within easy reach. 
+It adapts to whatever role your estate needs - from a full home-screen replacement with infinitely-customisable layouts that anchors kiosk deployments, to a lightweight device overview/support tool that keeps essential information and contact details within easy reach. 
 
 In addition, MANAGED INFO HUB builds in deep, config-driven MDM companion integration, such as APK deployment capabilities, location tracking services, Device Trust from Android Enterprise, and more through AMAPI SDK integration.. it surfaces tailored support, status, and actions right where administrators and users expect them.
 
@@ -114,11 +114,49 @@ It is a simple alternative to manually editing `JSON` code, allowing rapid custo
 </div>
 <div class="project-description">
 
+## CONTACTS APP GENERATOR
+
+CAG produces signed Android managed-contacts apps for enterprise devices. Configure VCF, CSV, or JSON contact sources, sync policy, appearance, and signing, then deploy an app that writes managed contacts into an app-owned Android account.
+
+It is for managed estates that need a practical internal directory without standing up Exchange, LDAP, CardDAV, or another directory service just to get contacts onto devices.
+
+<a class="button" href="contacts-app-generator">Check it out</a>
+
+</div>
+
+<!--  -->
+
+<div class="project-image">
+
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
+
+</div>
+<div class="project-description">
+
+## DOCUMENT APP GENERATOR
+
+DAG produces signed Android document-library apps for managed estates. Build a branded app with embedded or URL-backed PDFs, EPUBs, images, text files, markdown, HTML, JSON, XML, CSV, and source-code documents.
+
+It is for estates that need documents available inside a managed app, stored privately, synced by policy, and updated through EMM managed configuration.
+
+<a class="button" href="document-app-generator">Check it out</a>
+
+</div>
+
+<!--  -->
+
+<div class="project-image">
+
+{% include "../_includes/_assets/img/bayton_logos/app_generator_hero.svg" %}
+
+</div>
+<div class="project-description">
+
 ## KIOSK APP GENERATOR
 
-KAG is a browser-based tool that produces signed, deployable multi-app launcher APKs and AABs for managed Android devices. Replace the system home screen on a fleet of dedicated devices with a tiled layout of just the apps your users need, themed and wallpapered to match.
+KAG is a browser-based tool that produces signed, deployable multi-app launcher APKs and AABs for managed Android devices. Replace the system home screen on an estate of dedicated devices with a tiled layout of just the apps your users need, themed and wallpapered to match.
 
-Aimed at Android Enterprise dedicated fleets but works anywhere a locked-down multi-app surface is wanted.
+Aimed at Android Enterprise dedicated estates but works anywhere a locked-down multi-app surface is wanted.
 
 <a class="button" href="kiosk-app-generator">Check it out</a>
 

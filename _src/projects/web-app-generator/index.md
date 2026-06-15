@@ -30,9 +30,9 @@ Display mode, runtime permissions, theme colour, orientation and the finer behav
 
 - Are you distributing internal web tooling to managed Android devices and want it to install like a real app?
 - Do you need to anchor a kiosk to a single web URL without the rest of a browser tagging along?
-- Do you ship a PWA but find the browser-driven install prompt unreliable on managed fleets?
+- Do you ship a PWA but find the browser-driven install prompt unreliable on managed estates?
 
-The primary use case is **distributing a hosted application** to a managed fleet without Google Play in the loop. Operations and IT teams that maintain an internal web tool _and_ a fleet of managed Android devices get the smallest possible bridge between the two: no native development, no Play Store dance, just a signed artefact pushed through whichever EMM is already in place.
+The primary use case is **distributing a hosted application** to a managed estate without Google Play in the loop. Operations and IT teams that maintain an internal web tool _and_ an estate of managed Android devices get the smallest possible bridge between the two: no native development, no Play Store dance, just a signed artefact pushed through whichever EMM is already in place.
 
 The secondary use case is **kiosk anchoring**. Pair a Full-screen WAG-wrapped APK with a lock-task policy and the device becomes a single-purpose terminal for your URL, with no browser chrome for users to navigate away from. Slot the same artefact into [KIOSK APP GENERATOR](/projects/kiosk-app-generator/) instead and it becomes one tile in a multi-app launcher. Either way, no custom Android work needed to get there.
 
