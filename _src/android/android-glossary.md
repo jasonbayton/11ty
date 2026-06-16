@@ -108,7 +108,7 @@ This term has been deprecated in favour of [Dedicated](#dedicated-device).
 Custom DPC
 ----------
 
-A custom DPC is a [Device Policy Controller](#dpc-device-policy-controller) app built and maintained by an individual EMM vendor, as opposed to Google's [Android Device Policy](#android-device-policy-adp). In the custom DPC model, each EMM developed their own Android app to enforce management policies on devices using the `DevicePolicyManager` framework APIs, paired with the [Play EMM API](#play-emm-api) for server-side app management. Google has deprecated this model in favour of [AMAPI](#amapi-android-management-api), and new custom DPC registrations are no longer accepted.
+A custom DPC is a [Device Policy Controller](#dpc-device-policy-controller) app built and maintained by an individual EMM vendor, as opposed to Google's [Android Device Policy](#android-device-policy-adp). In the custom DPC model, each EMM developed their own Android app to enforce management policies on devices using the `DevicePolicyManager` framework APIs, historically paired with the [Play EMM API](#play-emm-api) for server-side app management. A custom DPC can still be built, but new Google Play EMM API access is no longer available, so new projects cannot rely on managed Google Play app deployment, managed Google Play account provisioning, app approvals, entitlements, or app track management through that legacy API. Custom DPC provisioning is also now subject to the [DPC allowlist](#dpc-allowlist). Google recommends [AMAPI](#amapi-android-management-api) for new full Android Enterprise EMM integrations.
 
 Compliance policy
 -----------------
@@ -168,7 +168,7 @@ DPC, or Device Policy Controller, is one name for the EMM agent locally installe
 DPC allowlist
 -------------
 
-A list of [DPC](#dpc-device-policy-controller) apps approved by Google to provision Android Enterprise devices. Since 2025, Google Play Protect checks this list during provisioning and blocks any DPC that isn't on it. [Android Device Policy](#android-device-policy-adp) is always on the allowlist. Custom DPCs that haven't been explicitly approved will trigger a "Harmful app blocked" warning during provisioning. For more, see [Play Protect blocked my DPC, why?](/android/android-enterprise-faq/play-protect-blocked-my-dpc-why/)
+A list of [DPC](#dpc-device-policy-controller) apps approved by Google to provision Android Enterprise devices. Since 2025, Google Play Protect checks this list during provisioning and blocks any DPC that isn't on it. [Android Device Policy](#android-device-policy-adp) is always on the allowlist. Custom DPCs that haven't been explicitly approved will trigger a "Harmful app blocked" warning during provisioning. For more, see [Play Protect blocked my DPC, why?](/android/android-enterprise-faq/play-protect-blocked-my-dpc-why/) and [The DPC allowlist](/blog/2025/12/the-dpc-allowlist/).
 
 DPC extras
 ----------
