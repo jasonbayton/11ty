@@ -174,7 +174,7 @@ Controls what level of Android Settings exposure end users have from the launche
 <div class="callout callout-blue">
 <div class="callout-heading">When to use MANAGED SETTINGS instead</div>
 
-KAG's per-intent toggles are sufficient for most fleets. For finer-grained control (e.g. exposing _just_ Wi-Fi without any of the related screens an OEM might bundle alongside it), pair KAG with [MANAGED SETTINGS](/projects/managed-settings/) and flip the **Use MANAGED SETTINGS** toggle on. KAG shows the MANAGED SETTINGS gear and end users tap through to MANAGED SETTINGS for the configured intents. If MANAGED SETTINGS is not installed or cannot be launched, the gear remains visible and the tap surfaces an unavailable message.
+KAG's per-intent toggles are sufficient for most estates. For finer-grained control (e.g. exposing _just_ Wi-Fi without any of the related screens an OEM might bundle alongside it), pair KAG with [MANAGED SETTINGS](/projects/managed-settings/) and flip the **Use MANAGED SETTINGS** toggle on. KAG shows the MANAGED SETTINGS gear and end users tap through to MANAGED SETTINGS for the configured intents. If MANAGED SETTINGS is not installed or cannot be launched, the gear remains visible and the tap surfaces an unavailable message.
 
 </div>
 
@@ -194,7 +194,7 @@ For day-to-day administration, the most useful managed configuration keys are th
 | `wallpaper_url` | Changes the wallpaper at runtime | HTTPS only. Cached on-device, so change the URL when replacing the image |
 | `theme_color` | Changes the solid-colour background fallback | Affects the post-splash background and system-bar tint. If a wallpaper is visible, the wallpaper wins visually. If the only wallpaper is KAG's default gradient, an EMM-pushed theme colour suppresses it and switches to a flat theme-colour background |
 | `rows`, `cols`, `orientation`, `icon_size`, `icon_grow_to_cell` | Changes the fixed launcher layout | Invalid values fall back to the generated default per key. Dense grids shrink tiles/icons to fit rather than scrolling. `icon_grow_to_cell` only has an effect with XL icons |
-| `autostart_enabled`, `autostart_package`, `autostart_grace_seconds` | Changes auto-launch behaviour | `autostart_enabled` can disable fleet auto-launch without clearing the baked package. Grace accepts 1-60 seconds; 0 uses the runtime default of 10 seconds, unset uses the generated baseline, and out-of-range values fall back to the generated baseline. The target package still needs to be installed and lock-task allowed |
+| `autostart_enabled`, `autostart_package`, `autostart_grace_seconds` | Changes auto-launch behaviour | `autostart_enabled` can disable estate auto-launch without clearing the baked package. Grace accepts 1-60 seconds; 0 uses the runtime default of 10 seconds, unset uses the generated baseline, and out-of-range values fall back to the generated baseline. The target package still needs to be installed and lock-task allowed |
 | `admin` | Changes admin escape behaviour | Bundle containing `admin_enabled`, `admin_password`, and `admin_apps`. The password can be rotated without rebuilding. A non-empty `admin_apps` push replaces the generated drawer list wholesale; empty keeps the generated list |
 | `settings` | Changes the Settings gear behaviour | Can expose KAG's built-in Settings shortcuts or point the gear at MANAGED SETTINGS |
 

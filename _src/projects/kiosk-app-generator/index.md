@@ -28,7 +28,7 @@ Apps are referenced by package name rather than bundled, so the launcher's job i
 
 ## Who is KIOSK APP GENERATOR for?
 
-- Do you operate a fleet of Android Enterprise dedicated devices that need more than a single pinned app?
+- Do you operate an estate of Android Enterprise dedicated devices that need more than a single pinned app?
 - Are you running a kiosk, signage, retail, hospitality or field-service deployment where the launcher is the only thing the end user should ever see?
 - Have you considered writing your own launcher and decided it wasn't worth the maintenance load?
 

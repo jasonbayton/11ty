@@ -45,7 +45,7 @@ OEM/device support is tracked via [this document](/projects/managed-settings/sup
 
 Particularly prevalent on older Android versions, some devices treat all activity intents as a request to open the Settings application, and provide full access to all device settings. 
 
-If this occurs on a device in your fleet, please follow steps under [submitting to support](#submitting-to-support) to have this investigated.
+If this occurs on a device in your estate, please follow steps under [submitting to support](#submitting-to-support) to have this investigated.
 
 Unfortunately support for this scenario may not be possible, but the OEM/model will be added to the [OEM support list](/projects/managed-settings/support/oem-support/) and I will work to bring it to the attention of any vendor in which this is occurring on a modern Android version.
 

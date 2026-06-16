@@ -4,5 +4,7 @@
     {"name":"PACKAGE SEARCH", "slug":"package-search"},
     {"name":"MANAGED ARCHIVER", "slug":"managed-archiver"},
     {"name":"KIOSK APP GENERATOR", "slug":"kiosk-app-generator"},
-    {"name":"WEB APP GENERATOR", "slug":"web-app-generator"}
+    {"name":"WEB APP GENERATOR", "slug":"web-app-generator"},
+    {"name":"CONTACTS APP GENERATOR", "slug":"contacts-app-generator"},
+    {"name":"DOCUMENT APP GENERATOR", "slug":"document-app-generator"}
 ]
