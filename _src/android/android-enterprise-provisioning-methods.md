@@ -363,7 +363,7 @@ This method is not consistently available across all devices and OEM skins, so i
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small">Custom DPC deprecation</div>
 
-Google is actively transitioning the ecosystem from custom DPCs to AMAPI. New custom DPC registrations are no longer accepted, and several Play EMM API methods used by custom DPC vendors were deprecated in September 2021 with a turn-off date of September 30, 2025. Existing custom DPCs from established vendors continue to function, but organisations starting new Android Enterprise deployments should use an AMAPI-based EMM. 
+Google is actively transitioning the mainstream EMM ecosystem from custom DPCs to AMAPI. New Play EMM API access for custom DPC-style EMM integrations is no longer available, and several Play EMM API methods used by custom DPC vendors were deprecated in September 2021 with a turn-off date of September 30, 2025. It remains possible to build a custom DPC that calls Android's device management APIs directly, but without Play EMM API access it will not have managed Google Play app deployment, managed Google Play account provisioning, app approvals, entitlements, or app track management through that legacy API. Existing custom DPCs from established vendors continue to function, but organisations starting new full Android Enterprise EMM deployments should use an AMAPI-based EMM.
 
 </div>
 
@@ -373,7 +373,7 @@ Since 2025, Google Play Protect enforces a DPC allowlist during provisioning. On
 
 This primarily affects custom DPC vendors. Android Device Policy (used by AMAPI) is always on the allowlist. Major EMM vendors (Omnissa, Ivanti, Microsoft, SOTI, IBM, etc.) are on the list, but smaller or less established DPCs may be blocked.
 
-If you encounter this during provisioning, see [Play Protect blocked my DPC, why?](/android/android-enterprise-faq/play-protect-blocked-my-dpc-why/) for guidance.
+If you encounter this during provisioning, see [Play Protect blocked my DPC, why?](/android/android-enterprise-faq/play-protect-blocked-my-dpc-why/) for guidance. For broader background on the approval requirement, see [The DPC allowlist](/blog/2025/12/the-dpc-allowlist/).
 
 ## Choosing the right method
 

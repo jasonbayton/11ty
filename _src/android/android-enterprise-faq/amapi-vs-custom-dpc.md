@@ -18,6 +18,7 @@ sources:
   - https://developers.google.com/android/work/play/emm-api
   - https://developers.google.com/android/work/deprecations
   - https://developer.android.com/work/dpc/build-dpc
+  - https://support.google.com/work/android/answer/16694822
 ---
 Android Enterprise supports two management architectures, and they are fundamentally different in how the EMM controls the device.
 
@@ -25,9 +26,11 @@ Android Enterprise supports two management architectures, and they are fundament
 
 A custom DPC (Device Policy Controller) is an EMM-developed application that runs on the device and directly calls Android's device management APIs. The EMM builds, maintains, and distributes this app - examples include Omnissa Workspace ONE Intelligent Hub, Ivanti's MDM agent, SOTI MobiControl, and IBM MaaS360.
 
-With a custom DPC, the EMM's own app is the Device Owner or Profile Owner on the device. It receives policy from the EMM server and enforces it locally using [DevicePolicyManager](https://developer.android.com/reference/android/app/admin/DevicePolicyManager) and related platform APIs. App distribution is managed through the [Google Play EMM API](https://developers.google.com/android/work/play/emm-api).
+With a custom DPC, the EMM's own app is the Device Owner or Profile Owner on the device. It receives policy from the EMM server and enforces it locally using [DevicePolicyManager](https://developer.android.com/reference/android/app/admin/DevicePolicyManager) and related platform APIs. Historically, app distribution was managed through the [Google Play EMM API](https://developers.google.com/android/work/play/emm-api).
 
 This gives the EMM direct control over the enforcement layer, but also means they are responsible for keeping up with Android platform changes, handling compatibility across Android versions, and maintaining the DPC app itself.
+
+You can still build a custom DPC. The constraint is not the ability to write an Android app that becomes Device Owner or Profile Owner; the constraint is access to Google's legacy enterprise services around it. New Play EMM API access is no longer available, so a new custom DPC cannot depend on managed Google Play app deployment, managed Google Play account provisioning, app approvals, entitlements, or app track management through that API. Since 2025, provisioning is also subject to Google's DPC allowlist, meaning an unapproved custom DPC may be blocked by Play Protect during enrolment. See [The DPC allowlist](/blog/2025/12/the-dpc-allowlist/) for the practical implications.
 
 ### AMAPI (Android Management API)
 
@@ -45,12 +48,12 @@ AMAPI-based EMMs include Google's own management tools, Microsoft Intune (for BY
 | **Policy enforcement** | DPC calls Android APIs directly | Google's ADP enforces declared policy |
 | **Feature availability** | Depends on EMM's implementation | Google ships features to ADP directly |
 | **OEM features** | Can call OEM SDK APIs (e.g. Knox SDK) directly | Must use [OEMConfig](/android/what-is-oemconfig/) for OEM features |
-| **App management API** | Google Play EMM API | Android Management API |
-| **New registrations** | Closed - Google no longer accepts new custom DPC registrations | Open - the recommended path for new EMM integrations |
+| **App management API** | Google Play EMM API for legacy integrations; unavailable for new access | Android Management API |
+| **New registrations** | New Play EMM API access is closed; custom DPC provisioning is subject to Google's DPC allowlist | Open - the recommended path for new EMM integrations |
 
 ### Deprecation and migration
 
-Google is actively steering the ecosystem towards AMAPI. New custom DPC registrations are no longer accepted, and significant portions of the Play EMM API were [deprecated in September 2021](https://developers.google.com/android/work/deprecations) and permanently turned off on 30 September 2025.
+Google is actively steering the ecosystem towards AMAPI. New Play EMM API access for custom DPC-style EMM integrations is no longer available, and significant portions of the Play EMM API were [deprecated in September 2021](https://developers.google.com/android/work/deprecations) and permanently turned off on 30 September 2025.
 
 Existing custom DPC EMMs continue to function where they have migrated affected methods to the AMAPI SDK or alternative APIs, but organisations should be aware that the long-term direction is AMAPI. Many EMMs now offer both architectures during a transition period.
 
