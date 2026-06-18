@@ -187,6 +187,7 @@ These are the service surfaces integration work would build around:
 | `GET /api/config` | Read service feature flags, such as Bayton signing availability |
 | `GET /api/stats` | Read the public `total_apps` counter, scoped to the active WAG package prefix and cacheable for 60 seconds |
 | `GET /api/version` | Read the current WAG release version |
+| `POST /api/feedback` | Submit product feedback from Studio or the classic form |
 | `GET /healthz` | Liveness probe for service monitoring |
 
 </div>
