@@ -18,6 +18,7 @@ sources:
   - https://www.android.com/enterprise/ai-at-work/
   - https://learn.microsoft.com/en-us/intune/solutions/ai/manage-ai-android
   - https://developers.google.com/android/management/reference/rest/v1/enterprises.policies
+  - https://developer.android.com/work/versions/android-17
 ---
 Generative AI on Android reaches the device through several distinct channels, and "block AI" is rarely a single policy toggle. Administrators typically need to decide what to do about each channel separately: AI apps from Google Play, AI websites in browsers, screen-reading and assistant experiences, on-device AI services, and OEM AI features.
 
@@ -59,6 +60,17 @@ Gemini Nano runs inside the AICore system app. It can be disabled on managed dev
 ### Controlling OEM AI features
 
 Samsung Galaxy AI and similar vendor features may be exposed through the OEM's OEMConfig app rather than AMAPI. For Samsung devices that is Knox Service Plugin. Deploy the OEMConfig app, create an OEMConfig profile in your EMM, and look for AI-related settings in the configuration designer. Available settings differ by OEM and by device generation, so confirm with the vendor which controls are exposed.
+
+### Platform-level AI controls (Android 17+)
+
+Android 17 introduces two device policy controls that operate at the platform level, below the app layer:
+
+- **Agentic automation policy** - `DevicePolicyManager.setNearbyAppStreamingPolicy()` disables AI agent automation on fully managed devices and the personal profile of COPE devices. AI automation is blocked inside work profiles by default on Android 17, regardless of this policy setting
+- **Device state for LLMs** - `DevicePolicyManager.setAppFunctionsPolicy(APP_FUNCTIONS_DISABLED)` prevents authorised assistant apps from consuming device-level data via the App Functions framework. Work profile data is excluded from the App Functions pipeline by default, so this control is most relevant for fully managed devices where all data is corporate
+
+These controls complement the app-level and browser-level approaches above. They do not replace them - an AI app installed from Google Play still runs independently of the App Functions pipeline, so blocking App Functions alone does not prevent a user from pasting corporate data into ChatGPT. A layered approach combining Play Store restrictions, browser URL blocking, cross-profile data policies, and these platform-level controls provides the broadest coverage.
+
+EMM support for these new policies depends on when each vendor surfaces them in their console. Check with your EMM provider for availability.
 
 ### A note on work profile data boundaries
 

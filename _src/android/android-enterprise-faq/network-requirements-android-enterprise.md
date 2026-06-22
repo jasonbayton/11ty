@@ -29,7 +29,7 @@ At minimum, devices need access to:
 - `*.googleapis.com` - API endpoints for device management and app distribution
 - `*.gstatic.com` - static content delivery
 - `*.android.com` - Android-specific services
-- `play.google.com` / `play.google.com/work` - managed Google Play access
+- `play.google.com` - managed Google Play access (note: the `play.google.com/work` browsing page was [deprecated in May 2026](/android/advisories/play-store-work-browsing-deprecation/) and now redirects to admin settings or your EMM's iFrame)
 - `accounts.google.com` - authentication
 - `fcm.googleapis.com` - push notifications for policy delivery
 

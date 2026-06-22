@@ -70,6 +70,12 @@ This is configured through the VPN app itself, not directly through EMM policy. 
 
 If the VPN app does not support per-app VPN, the EMM cannot force it. Check with your VPN vendor for managed configuration support.
 
+### System VPN app exclusion (Android 17+)
+
+Android 17 introduces `ACTION_VPN_APP_EXCLUSION_SETTINGS`, a standardised system intent that VPN apps can invoke to open an OS-managed screen where the user selects apps to bypass the VPN tunnel. Traffic from excluded apps uses the underlying network directly. Changes take effect immediately if the VPN is active, or on the next connection.
+
+This replaces the previous approach where each VPN app implemented its own exclusion UI, giving a consistent experience across vendors. VPN app developers must adopt the new intent for it to appear - it is not automatic. Check with your VPN vendor on their adoption timeline. On managed devices, administrators should evaluate whether users should have access to this exclusion screen, as it could allow bypassing corporate VPN for specific apps.
+
 ## Common pitfalls
 
 - **Assuming device-wide VPN covers the work profile**: On COPE devices, VPN is scoped per profile. A device-level VPN does not protect work profile traffic. Configure VPN in both scopes if needed
