@@ -146,7 +146,7 @@ Examples:
 
 Offload the day-to-day management of your Google estate with confidence - this service is built on years of enterprise experience across NGOs, carriers, and global businesses, with scalable support for any fleet size. I'll handle onboarding, offboarding, BAU activities, and provide a comfortable SLA for all requests.
 
-Device management is available at **£0.60 per device**, per month, billed annually (**£7.20**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android.
+Device management is available at **£0.80 per device**, per month, billed annually (**£9.60**), and decreases by commitment duration (12-60 months). This includes the device management licence for Android.
 
 Optional enhanced support is available on request.
 
