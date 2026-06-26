@@ -42,7 +42,7 @@ Before you build, have the following to hand:
 4. Pick the **display mode**: Standalone, Minimal UI or Full screen. See [supported configurations](/projects/web-app-generator/support/supported-configurations) for the trade-offs.
 5. Toggle the runtime permissions and behaviours your site needs: camera, microphone, geolocation, external links, pull to refresh, keep screen on, screenshot blocking, JavaScript, cookies and user CA trust.
 6. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
-7. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
+7. Pick the **output format**: APK for direct EMM push or managed Google Play iFrame upload, AAB for direct Google Play Console upload.
 8. Submit. The result panel will show whether the build is queued, building, complete or failed. If other builds are ahead of yours, it will show the queue position and an estimated wait.
 
 ## After the build

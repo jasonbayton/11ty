@@ -14,20 +14,31 @@ effort: 4
 ---
 ## Introduction
 
+<div class="callout callout-red">
+<div class="callout-heading">Externally hosted apps are deprecated</div>
+
+Google has announced that externally hosted apps are no longer supported. Customers who previously used private app hosting in Google Play should work with their EMM to distribute those apps another way.
+
+This article is retained as historical reference for how the feature worked. For current private app distribution, use managed Google Play private apps through the iFrame, publish a private app through the Play Console using Android App Bundle (`.aab`) format, or use your EMM's direct APK deployment capability where it is supported.
+
+</div>
+
 In the ever-evolving landscape of enterprise mobile application deployment, organisations have increasingly sought greater flexibility over how their apps are managed and distributed. Historically, businesses were able to deploy APKs directly from EMM solutions, though as the industry migrates over to AMAPI this is becoming increasingly more difficult to achieve without the partnership of OEMs. 
 
 In place, Google wants all organisations leveraging the Play Store for app distribution, which although for the most-part is reasonable, causes headaches for a subset of organisations.
 
-Understanding the desires of organisations, Google introduced an alternative to uploading APKs to Google Play, allowing organisations to host their APKs externally to Google's infrastructure while still leaning on the store for the delivery. This guide delves into the process for setting up external hosting for private apps, allowing organisations greater control of their APK distribution at a cost of _some_ functionality within Play itself. These limitations are, per [Google](https://support.google.com/googleplay/work/answer/6145182?hl=en):
+Understanding the desires of organisations, Google introduced an alternative to uploading APKs to Google Play, allowing organisations to host their APKs externally to Google's infrastructure while still leaning on the store for the delivery. This guide documented the process for setting up external hosting for private apps, allowing organisations greater control of their APK distribution at a cost of _some_ functionality within Play itself. These limitations were, per [Google](https://support.google.com/googleplay/work/answer/6145182?hl=en):
 
 > - Externally hosted apps can only be published to production. Closed releases for externally hosted apps aren't supported.
 > - Publishing externally hosted apps is not available through the Managed Google Play iFrame.
 > - IT admins can't remotely install externally hosted apps on devices with work profiles. Work profile users must install them manually from Managed Google Play.
 > - Android Auto second-screen projection is disabled. This is because all Auto-targeted apps must go through a specific review to ensure that they’re not distracting to drivers.
 
-In addition, applications deployed in this manner are not scanned/vetted by Google Play, however may still succumb to on-device scanning. Anything potentially harmful will be actioned one way or another, but may take longer to detect than for apps distributed through Play directly.
+In addition, applications deployed in this manner were not scanned/vetted by Google Play, however may still have succumbed to on-device scanning. Anything potentially harmful would be actioned one way or another, but may have taken longer to detect than for apps distributed through Play directly.
 
 ## Preparing for External Hosting
+
+**Note: The following setup instructions are retained for historical reference only. They should not be used for new deployments.**
 
 - **Tools Needed**: OpenSSL, JDK, Python 2.x, Android Asset Packaging Tool (AAPT), `ExternallyHosted.py` script from Google.
 - **Infrastructure**: Secure server or cloud environment for hosting the APK file(s). 
@@ -179,17 +190,18 @@ _There's nothing above that can't be extracted from the APK by anyone who pulls 
 
 ## Publishing and managing the App
 
-With the shiny JSON file in hand, publishing can now take place. 
+With the shiny JSON file in hand, publishing could previously take place.
 
 ### Publishing the app
 
 <div class="callout">
 
 Things to keep in mind: 
-- You cannot upload an APK through the managed Google Play iFrame, it must be done through the [Play Console](https://play.google.com/console).
+- Externally hosted apps are deprecated and should not be used for new deployments.
+- When this feature was available, externally hosted APK metadata had to be uploaded through the [Play Console](https://play.google.com/console); it was not available through the managed Google Play iFrame.
 - Google state you must use an account holding an **admin role** with the desired organisation/enterprise ID. Either ensure your developer account [is added to the bind as an administrator](/android/android-enterprise-faq/manage-bind-account/), or log in to Google Play with the same account used to create the bind. 
 
-In my testing, the latter requirement wasn't accurate. I have deployed an externally hosted app to several organisations wherein my developer account **does not** have admin permissions on [the bind](https://play.google.com/work/adminsettings) and the application was easily found within the iFrame of those EMM environments. 
+At the time of testing, the latter requirement wasn't accurate. I deployed an externally hosted app to several organisations wherein my developer account **does not** have admin permissions on [the bind](https://play.google.com/work/adminsettings) and the application was easily found within the iFrame of those EMM environments.
 
 To further clarify the requirements, you'll need a full developer account. It costs $25 as a one-time fee. Do not attempt to use the developer account associated with the organisation itself, identified in the list of developer accounts associated with any logged in account with admin rights to the organisation/enterprise ID, as you will no have permission to upload applications within this account.
 
@@ -275,7 +287,7 @@ And we're done. Congrats! 🎉
 
 ### Updating the app
 
-When making changes to the external APK file, I popped into the Google Play console and created a new release with the updated JSON metadata file. This updated things like version number/code and any target API requirements within the Play Console immediately, and updated the SHA values for the modified APK.
+When making changes to the external APK file, I popped into the Google Play Console and created a new release with the updated JSON metadata file. This updated things like version number/code and any target API requirements within the Play Console immediately, and updated the SHA values for the modified APK.
 
 ## Authenticating downloads
 
@@ -285,7 +297,8 @@ It is not however something I'll be covering off here. See the docs above for in
 
 ## Conclusion
 
-The most time-consuming aspect of this is system setup. Once that's out of the way generating the relevant file and uploading to Play takes just minutes, and the application becomes available to devices shortly after. 
+The most time-consuming aspect of this was system setup. Once that was out of the way, generating the relevant file and uploading to Play took just minutes, and the application became available to devices shortly after.
+
+For current deployments, prefer managed Google Play private apps or your EMM's direct APK deployment option. Direct uploads to the Play Console now require Android App Bundle (`.aab`) format, while APK uploads remain supported when using the managed Google Play iFrame.
 
 If you're interested in learning more, feel free to [get in touch](/support). Thanks for reading!
-

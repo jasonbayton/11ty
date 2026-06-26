@@ -22,6 +22,15 @@ Not a day or so after this article went up, Google [announced](https://www.andro
 
 </div>
 
+<div class="callout callout-blue">
+<div class="callout-heading">
+Play Console vs iFrame
+</div>
+
+Since this article was published, Google has also announced that direct uploads to the Google Play Console must use Android App Bundle (`.aab`) format. APK uploads remain supported when using the managed Google Play iFrame only.
+
+</div>
+
 All the same, I spent some time figuring out what's possible so you don't have to!
 
 ## How AAB and APKs differ
@@ -83,7 +92,7 @@ I can then head into the application, click **Test and release** > **Production*
 
 [![](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.36.59.png)](https://cdn.bayton.org/uploads/2025/dabbling-with-aab/Screenshot_2025-03-22_04.36.59.png)
 
-On any other day, if I were to manage an app update from within the Play Console - which is a perfectly valid approach for organisations with advanced knowledge of developing and distributing applications - I would upload an APK via the upload link.
+On any other day, if I were to manage an app update from within the Play Console - which is a perfectly valid approach for organisations with advanced knowledge of developing and distributing applications - older workflows would have allowed an APK via the upload link. For direct Play Console uploads, AAB is now the expected format.
 
 We're not here for APKs though. To go further, I need to enrol into **Play app signing**.
 
@@ -169,6 +178,8 @@ And we're enrolled:
 ### Upload the AAB
 
 There are two ways to now get the AAB up, via console and via iFrame. To ensure it works as I'd expect it to, I opted first to test it in the console where I am confident AAB uploads would be supported. Not least because there's a draft release still pending.
+
+Note: If you're using the managed Google Play iFrame, APK uploads continue to be supported. If you're uploading directly in the Play Console, prepare an AAB.
 
 I headed back to **Test and release** > **Production**, and clicked the **Releases** tab, allowing me to **Edit release**:
 

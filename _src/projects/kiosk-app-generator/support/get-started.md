@@ -47,7 +47,7 @@ Before you build, have the following to hand:
 9. Configure **settings access**: choose which Android Settings intents end users can reach from inside the launcher, or delegate the gear to [MANAGED SETTINGS](/projects/managed-settings/). See [supported configurations](/projects/kiosk-app-generator/support/supported-configurations) for the full list.
 10. Optionally configure **admin escape** if field techs or admins need a hidden, password-gated drawer of extra apps that are not shown on the main grid.
 11. Pick the **signing mode**: Bayton-signed for the fastest path, Release-signed to use your own certificate, or Debug for sideload testing.
-12. Pick the **output format**: APK for direct EMM push, AAB for upload to Managed Google Play.
+12. Pick the **output format**: APK for direct EMM push or managed Google Play iFrame upload, AAB for direct Google Play Console upload.
 13. Submit. The result panel will show whether the build is queued, building, complete or failed. If other builds are ahead of yours, it will show the queue position and an estimated wait.
 
 ## After the build

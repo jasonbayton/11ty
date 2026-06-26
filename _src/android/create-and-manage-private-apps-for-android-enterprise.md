@@ -17,7 +17,9 @@ In December 2018, Google quietly introduced support for private app upload withi
 
 ## Context
 
-With a switch to Android Enterprise, the recommended means for distributing corporate, in-house applications is through managed Google Play. UEMs *can* support silently pushing uploaded APKs directly to devices from the UEM platform, either UEM-hosted (with appropriate OEM support with AMAPI) or by leveraging the externally hosted app capability Google has previously offered, but this isn’t consistent across UEMs in the way uploading an app directly to Play has been, and so the general recommendation has remained largely unchanged.
+With a switch to Android Enterprise, the recommended means for distributing corporate, in-house applications is through managed Google Play. UEMs *can* support silently pushing uploaded APKs directly to devices from the UEM platform, either UEM-hosted (with appropriate OEM support with AMAPI) or through other EMM-provided deployment paths, but this isn’t consistent across UEMs in the way uploading an app directly to Play has been, and so the general recommendation has remained largely unchanged.
+
+Note: Google has since announced that externally hosted apps are deprecated and no longer supported. Treat externally hosted private app guidance as historical; for current deployments, use managed Google Play private apps, Play Console private apps, or direct APK deployment through an EMM where supported.
 
 Uploading apps to the Google Play Store, however, is not straightforward:
 
@@ -80,6 +82,8 @@ Some UEMs will import private apps automatically. Others will not. For the latte
 
 Since March 2025, the managed Google Play iFrame supports [Android App Bundle](https://developer.android.com/guide/app-bundle) (AAB) uploads for private apps in addition to APKs. AABs offer optimised delivery and smaller download sizes per device, and are the format Google recommends for all Play distribution.
 
+Note: Direct uploads to the Play Console must use Android App Bundle (`.aab`) format. APK uploads remain supported when creating or updating private apps through the managed Google Play iFrame.
+
 When uploading an AAB through the iFrame, a Google-generated signing key is used automatically. If you need to use your own signing key, upload via the Google Play Console instead (see below). Existing APK-based private apps can be migrated to AAB by uploading the signing key through the Play Console.
 
 For more detail on AAB support in managed Google Play, see [AAB support for private apps in the managed Google Play iFrame](/blog/2025/03/dabbling-with-aab-support-managed-google-play/).
@@ -95,6 +99,8 @@ Here's an overview of the alternative approaches and when to leverage them:
 ### Google Play Console (private)
 
 Publishing through the [Google Play Console](https://play.google.com/console) with the app set to private distribution offers considerably more control. You'll need a Google developer account ($25 one-off fee), but in return the app is managed centrally and independently of any specific EMM bind.
+
+Play Console uploads should be prepared as Android App Bundles (`.aab`). If you need to upload an APK, use the managed Google Play iFrame where supported, or use direct APK deployment through your EMM where Play distribution is not suitable.
 
 Private apps in the Play Console can be shared with multiple organisation IDs the same way as iFrame-uploaded apps. This is particularly useful for:
 

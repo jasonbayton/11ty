@@ -18,7 +18,7 @@ If there are definitions missing or incomplete, please feel free to suggest addi
 AAB (Android App Bundle)
 ------------------------
 
-The modern app packaging format for Android, replacing the traditional [APK](#apk-android-package-kit) for Play Store distribution. An AAB is uploaded to Google Play, which then generates optimised APKs for each device configuration (screen density, CPU architecture, language). In Android Enterprise, AABs are relevant when publishing [private apps](#managed-google-play) to Managed Google Play - the Play Console requires AAB uploads. See [Manage private apps](/android/android-enterprise-faq/manage-private-apps/) for more.
+The modern app packaging format for Android, replacing the traditional [APK](#apk-android-package-kit) for Play Store distribution. An AAB is uploaded to Google Play, which then generates optimised APKs for each device configuration (screen density, CPU architecture, language). In Android Enterprise, AABs are relevant when publishing [private apps](#managed-google-play) to Managed Google Play - direct Play Console uploads require AAB, while APK uploads remain supported through the managed Google Play iFrame. See [Manage private apps](/android/android-enterprise-faq/manage-private-apps/) for more.
 
 ADB (Android Debug Bridge)
 --------------------------

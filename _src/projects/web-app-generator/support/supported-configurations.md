@@ -136,7 +136,7 @@ Every new build returns a one-time update code, shown exactly once. Quote it on 
 
 </div>
 
-`output_format` accepts `apk` (direct install via EMM push or sideload) or `aab` (required for upload to Managed Google Play; smaller per-device download after Play handles density and ABI splits).
+`output_format` accepts `apk` (direct install via EMM push, sideload, or managed Google Play iFrame upload) or `aab` (required for direct Google Play Console upload; smaller per-device download after Play handles density and ABI splits).
 
 ## Configuration import / export
 

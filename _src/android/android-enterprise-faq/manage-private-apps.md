@@ -16,6 +16,8 @@ eleventyNavigation:
 --- 
 For all EMMs that support it, the Google Play iFrame supports the simple, few-step process of uploading an APK for distribution to your Enterprise.
 
+Note: APK uploads remain supported when using the managed Google Play iFrame. Direct private app uploads through the Google Play Console should use Android App Bundle (`.aab`) format.
+
 Unlike adding an APK directly into the UEM console, uploading to Google Play is safer, easier to manage and less likely to lead to issues compared with pushing APKs directly. Benefits include:
 
 - Google's extensive Play infrastructure allows faster, lower-bandwidth installations
@@ -26,11 +28,13 @@ Unlike adding an APK directly into the UEM console, uploading to Google Play is 
 
 More information: [Create and manage private apps for Android Enterprise](/android/create-and-manage-private-apps-for-android-enterprise/)
 
-Where the Play iFrame isn’t supported, it’s possible to upload and distribute through the [Google Play Console](https://play.google.com/apps/publish/) but keep in mind there’s a $25 fee to set up a developer account.
+Where the Play iFrame isn’t supported, it’s possible to upload and distribute through the [Google Play Console](https://play.google.com/apps/publish/) using AAB format, but keep in mind there’s a $25 fee to set up a developer account.
 
 As of 2025, managed Google Play supports Android App Bundles (AAB) for private apps, offering smaller downloads and optimised delivery compared to APKs.
 
 For organisations using AMAPI, direct APK installation is also now supported natively through the AMAPI SDK, providing an alternative for scenarios where Play distribution is not suitable - such as air-gapped environments or rapid iteration during development.
+
+Externally hosted private apps are no longer a supported path. Google has announced the externally hosted apps feature is deprecated, and customers previously using private app hosting in Google Play should work with their EMM on an alternative deployment method.
 
 <div class="callout callout-orange">
 <div class="callout-heading">Developer verification</div>

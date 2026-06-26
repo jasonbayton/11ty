@@ -19,7 +19,7 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 - [ADB](/android/how-to-capture-device-logs/)
 - File manager
 - [EMM agent](/android/what-is-android-enterprise-and-why-is-it-used)
-- [Externally hosted](/android/host-apps-externally/)
+- Externally hosted app installs, where already deployed. Google has announced this feature is deprecated and no longer supported for new use.
 - [Any unknown sources-enabled application](/android/why-you-shouldnt-install-apps-from-unknown-sources/)
 
 ## On-device app installation errors
@@ -111,7 +111,7 @@ For clarity, these messages are provided _by Android_, with the exception of `EN
 : The application has been signed with a too-small key size. Use a stronger signing key to sign the application and try again.
 
 `APK size too big`
-: Google Play has a size limitation for uploads. Avoid uploading files in excess of 150MB. If your app really is that large, you should consider switching to AAB and upload it through the Google Play developer console. Where possible try to lean on external resources and on-demand payloads.
+: Google Play has a size limitation for APK uploads. Avoid uploading files in excess of 150MB. If your app really is that large, switch to AAB for Play Console distribution, or upload an APK through the managed Google Play iFrame where that remains suitable. Where possible try to lean on external resources and on-demand payloads.
 
 `APK contains an app restriction schema that failed to parse. Restriction [name_of_bundle] has one or more invalid nested restrictions.`
 : Ensure the XML `app_restrictions` schema is valid and try again.
