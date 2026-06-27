@@ -45,6 +45,28 @@ function parseFrontmatter(content) {
   return { data, body };
 }
 
+function loadDirectoryData(filePath) {
+  const data = {};
+  const relativeDir = path.relative(SRC_DIR, path.dirname(filePath));
+  const parts = relativeDir ? relativeDir.split(path.sep) : [];
+
+  for (let i = 0; i < parts.length; i++) {
+    const dirPath = path.join(SRC_DIR, ...parts.slice(0, i + 1));
+    const dirName = parts[i];
+    const dataPath = path.join(dirPath, `${dirName}.11tydata.json`);
+
+    if (!fs.existsSync(dataPath)) continue;
+
+    try {
+      Object.assign(data, JSON.parse(fs.readFileSync(dataPath, 'utf8')));
+    } catch (error) {
+      throw new Error(`Failed to parse ${path.relative(__dirname, dataPath)}: ${error.message}`);
+    }
+  }
+
+  return data;
+}
+
 function stripMarkdown(md) {
   return md
     .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '')  // frontmatter
@@ -421,7 +443,11 @@ let count = 0;
 
 for (const filePath of files) {
   const content = fs.readFileSync(filePath, 'utf8');
-  const { data, body } = parseFrontmatter(content);
+  const { data: frontmatterData, body } = parseFrontmatter(content);
+  const data = {
+    ...loadDirectoryData(filePath),
+    ...frontmatterData,
+  };
 
   if (data.status !== 'publish') continue;
 
