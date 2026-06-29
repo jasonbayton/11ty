@@ -48,3 +48,5 @@ Apps showing as "pending" indefinitely after enrollment or policy assignment is 
 ### When to escalate
 
 If apps remain stuck after the above steps, the issue may be related to the EMM's app deployment configuration, a Google Play services outage, or a device-specific bug. Raise a support case with your EMM vendor if the problem persists.
+
+For an overview of how app updates are detected, queued, and installed under normal conditions, see [How do app updates work in managed Google Play?](/android/android-enterprise-faq/how-do-app-updates-work/)

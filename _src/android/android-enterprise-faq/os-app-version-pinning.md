@@ -39,6 +39,8 @@ Google Play System Updates (Mainline modules) ignore all of these controls and i
 
 ## App update controls
 
+For a full explanation of how app updates are detected, queued, and installed, see [How do app updates work in managed Google Play?](/android/android-enterprise-faq/how-do-app-updates-work/)
+
 App updates offer similar delay-only controls:
 
 - **Postpone** - pauses app updates for up to 90 days, after which the latest version installs automatically
