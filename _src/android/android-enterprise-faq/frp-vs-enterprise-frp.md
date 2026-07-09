@@ -18,6 +18,7 @@ sources:
   - https://www.androidenterprise.community/blog/resources/enhanced-factory-reset-protection-in-android-15/9493
   - https://bayton.org/android/feature-spotlight-factory-reset-protection/
   - https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#FactoryResetProtectionPolicy
+  - https://developers.google.com/android/management/release-notes
 ---
 
 Factory Reset Protection (FRP) and Enterprise Factory Reset Protection (EFRP) serve similar anti-theft purposes but work differently.
@@ -45,5 +46,9 @@ From Android 15, FRP behaviour has changed significantly:
 - Enterprise FRP is always enforced after a hard reset on managed devices running Android 15+, regardless of OEM unlock status
 
 This makes configuring EFRP more important than ever for organisations managing fully managed devices, as recovery from an unexpected reset without EFRP configured becomes considerably harder.
+
+## COPE FRP handling (May 2026)
+
+From the May 2026 AMAPI release, FRP handling on COPE devices was improved. AMAPI now explicitly disables FRP and clears the account list when no administrator email addresses are configured in the EFRP policy. This prevents unexpected lockouts after device resets on COPE devices where EFRP was never intentionally configured - previously, COPE devices could enter FRP with no recoverable account if the personal-side Google account was removed during the work profile wipe.
 
 For more detail, see [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/).

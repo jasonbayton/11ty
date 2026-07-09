@@ -23,5 +23,7 @@ If so desired, allowlisted Enterprise Factory Reset Protection is available and 
 
 From Android 15, FRP behaviour has changed. OEM unlocking no longer bypasses FRP after a hard reset, and Enterprise FRP is always enforced on managed devices regardless of OEM unlock status. This makes configuring EFRP more important than before, particularly for fully managed devices without zero-touch, as recovery from an unexpected reset without EFRP configured is considerably harder.
 
+For COPE devices specifically, from May 2026 AMAPI explicitly disables FRP and clears the account list when no EFRP admin emails are configured, preventing accidental lockouts. See [What is the difference between FRP and Enterprise FRP?](/android/android-enterprise-faq/frp-vs-enterprise-frp/) for full details.
+
 More: [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/).
 
