@@ -176,12 +176,10 @@ They really do.
   <h2 class="page-subtitle">Fancy one? <span class="highlight">Go on then</span>.</h2>
   <p>Provide your preferences and contact details, once ready to print, further instructions will be provided.</p>
 </div>
-<form name="contact" method="POST" action="https://submit-form.com/UVQaml5dX" class="contact-form">
-  <input
-    type="hidden"
-    name="_redirect"
-    value="https://bayton.org/contact/success"
-  />
+<form name="contact" method="POST" action="https://forms.bayton.org/submit" class="contact-form">
+  <input type="hidden" name="source" value="merch">
+  <input type="hidden" name="_redirect" value="https://bayton.org/contact/success/">
+  <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
   <div class="form-group">
     <label for="name">Name<span class="orange">*</span></label>
     <input type="text" id="name" name="name" required>
@@ -229,8 +227,46 @@ They really do.
     <textarea id="message" name="message"></textarea>
   </div>
   <div class="submit-group">
-    <div class="cf-turnstile" data-sitekey="0x4AAAAAABB0CbFwPsQWKHA6"></div>
     <button type="submit" class="cta-btn">Let's go</button>
   </div>
+  <p class="form-status" role="status" aria-live="polite" style="margin-top:10px"></p>
 </form>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("form.contact-form").forEach(function (form) {
+      var status = form.querySelector(".form-status");
+      var btn = form.querySelector("button[type=submit]");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (btn) btn.disabled = true;
+        if (status) { status.style.color = ""; status.textContent = "Sending..."; }
+        var body = new URLSearchParams(new FormData(form));
+        body.set("ajax", "1");
+        fetch("https://forms.bayton.org/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: body.toString()
+        }).then(function (r) {
+          if (r.ok) {
+            var n = form.querySelector("[name=name]");
+            window.location.href = "/contact/success/" + (n && n.value ? "?name=" + encodeURIComponent(n.value) : "");
+            return;
+          }
+          if (btn) btn.disabled = false;
+          if (status) {
+            status.style.color = "#dc3545";
+            status.textContent = r.status === 429 ? "Please wait a moment and try again." : "Sorry, something went wrong. Please email jason@bayton.org.";
+          }
+        }).catch(function () {
+          if (btn) btn.disabled = false;
+          if (status) {
+            status.style.color = "#dc3545";
+            status.textContent = "Sorry, something went wrong. Please email jason@bayton.org.";
+          }
+        });
+      });
+    });
+  });
+</script>
 </div>
