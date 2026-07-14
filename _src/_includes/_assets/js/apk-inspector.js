@@ -740,25 +740,36 @@
   function render(d) {
     var m = d.manifest || {};
     var c = d.cert;
-    var html = "";
 
-    // Headline: the admin signature checksum.
-    if (c && c.checksum) {
-      html += card(
-        "Device admin signature checksum",
-        '<p>Drop this straight into <code>android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM</code> ' +
-          'for a <a href="/qr-generator-dpc">custom DPC QR code</a>.</p>' +
-          table([["Checksum (SHA-256, base64url)", codeCopy(c.checksum)]])
-      );
+    // Summary chips: signing state, schemes, SDK levels and any warning flags,
+    // all lifted from the detail rows below so the headline reads at a glance.
+    var chips = [];
+    if ((d.schemes || []).length) {
+      chips.push(chip("good", '<span class="material-symbols-outlined">check_circle</span>Signed'));
+    } else {
+      chips.push(chip("warn", '<span class="material-symbols-outlined">gpp_bad</span>Unsigned'));
     }
+    (d.schemes || []).forEach(function (s) {
+      chips.push(chip("good", esc(s)));
+    });
+    if (m.minSdk != null) chips.push(chip("info", '<span class="k">min</span> SDK ' + esc(String(m.minSdk))));
+    if (m.targetSdk != null) chips.push(chip("info", '<span class="k">target</span> SDK ' + esc(String(m.targetSdk))));
+    if (c && c.keyAlg != null) chips.push(chip("", esc(c.keyAlg)));
+    if (c && c.isDebug) chips.push(chip("warn", '<span class="material-symbols-outlined">bug_report</span>debug cert'));
+    else if (c) chips.push(chip("", "release cert"));
+    if (m.debuggable) chips.push(chip("warn", "debuggable"));
+    if (m.testOnly) chips.push(chip("warn", "testOnly"));
+
+    var html = '<div class="apk-chips">' + chips.join("") + "</div>";
+    html += '<div class="apk-grid">';
 
     // Package.
     var pkgRows = [
       ["Package name", m.package ? codeCopy(m.package) : "n/a"],
       ["Version name", val(m.versionName)],
       ["Version code", val(m.versionCode)],
-      ["Min SDK", sdk(m.minSdk)],
-      ["Target SDK", sdk(m.targetSdk)],
+      ["Min SDK", sdk(m.minSdk) + androidLabel(m.minSdk)],
+      ["Target SDK", sdk(m.targetSdk) + androidLabel(m.targetSdk)],
       ["Compile SDK", val(m.compileSdk)]
     ];
     if (m.platformBuildVersionName) pkgRows.push(["Platform build", val(m.platformBuildVersionName)]);
@@ -769,7 +780,18 @@
     if (m.testOnly) flags.push('<span class="label label-orange">testOnly</span>');
     if (flags.length) pkgRows.push(["Flags", flags.join(" ")]);
 
-    html += card("Package", table(pkgRows));
+    html += card("Package", "deployed_code", kv(pkgRows));
+
+    // File / contents. (Kept beside Package so the two narrow cards pair up.)
+    var fileRows = [
+      ["File", esc(d.fileName) + " (" + bytesH(d.fileSize) + ")"],
+      ["File SHA-256", codeCopy(d.fileSha256)],
+      ["File SHA-1", codeCopy(d.fileSha1)],
+      ["ABIs", d.abis.length ? esc(d.abis.join(", ")) : "None"],
+      ["DEX files", String(d.dexCount)],
+      ["Contents", String(d.entryCount) + " files"]
+    ];
+    html += card("File", "folder_zip", kv(fileRows));
 
     // Signing.
     var schemeBadges = (d.schemes || []).length
@@ -785,6 +807,13 @@
       signRows.push(["Cert SHA-256", codeCopy(c.sha256)]);
       if (c.checksumStd)
         signRows.push(["SHA-256 (base64, for AMAPI signingKeyCerts)", codeCopy(c.checksumStd)]);
+      // The device-admin signature checksum: sits with the other cert encodings
+      // rather than as a headline, since most APKs aren't for DPC provisioning.
+      if (c.checksum)
+        signRows.push([
+          'SHA-256 (base64url) <a class="label label-orange" href="/qr-generator-dpc">custom DPC QR checksum</a>',
+          codeCopy(c.checksum)
+        ]);
       signRows.push(["Cert SHA-1", codeCopy(c.sha1)]);
       if (c.md5) signRows.push(["Cert MD5", codeCopy(c.md5)]);
       if (c.subject != null) signRows.push(["Subject", val(c.subject)]);
@@ -802,7 +831,7 @@
       if (c.rotation) {
         signRows.push([
           "Key rotation",
-          "This APK uses signing key rotation. The QR checksum at the top is the <b>original</b> key. For AMAPI <code>signingKeyCerts</code>, here is each signer's SHA-256 (base64) by SDK range:"
+          "This APK uses signing key rotation. The custom DPC QR checksum above is the <b>original</b> key. For AMAPI <code>signingKeyCerts</code>, here is each signer's SHA-256 (base64) by SDK range:"
         ]);
         c.rotation.forEach(function (r) {
           signRows.push([sdkRange(r.minSdk, r.maxSdk), codeCopy(r.checksumStd)]);
@@ -812,52 +841,57 @@
       signRows.push(["Certificate", "Could not recover a signing certificate."]);
     }
 
-    html += card("Signing", table(signRows));
-
-    // File / contents.
-    var fileRows = [
-      ["File", esc(d.fileName) + " (" + bytesH(d.fileSize) + ")"],
-      ["File SHA-256", codeCopy(d.fileSha256)],
-      ["File SHA-1", codeCopy(d.fileSha1)],
-      ["ABIs", d.abis.length ? esc(d.abis.join(", ")) : "None"],
-      ["DEX files", String(d.dexCount)],
-      ["Contents", String(d.entryCount) + " files"]
-    ];
-    html += card("File", table(fileRows));
+    html += card("Signing", "verified_user", kv(signRows), { wide: true });
 
     // Permissions.
     if (m.permissions && m.permissions.length) {
-      html += card(
-        'Permissions <span class="label label-blue">' + m.permissions.length + "</span>",
-        "<details><summary><b>Show " +
-          m.permissions.length +
-          " requested permissions</b></summary><ul>" +
-          m.permissions
-            .map(function (p) {
-              return "<li><code>" + esc(p) + "</code></li>";
-            })
-            .join("") +
-          "</ul></details>"
-      );
+      var perms =
+        '<ul class="apk-perms">' +
+        m.permissions
+          .map(function (p) {
+            return "<li><code>" + esc(p) + "</code></li>";
+          })
+          .join("") +
+        "</ul>";
+      html += card("Permissions", "lock", perms, { wide: true, count: m.permissions.length });
     }
+
+    html += "</div>"; // .apk-grid
 
     resultsEl.innerHTML = html;
   }
 
-  function card(title, body) {
-    return '<div class="generator-bg"><p><b>' + title + "</b></p>" + body + "</div>";
+  // A titled card with a leading Material Symbols icon. opts: {wide, count}.
+  function card(title, icon, body, opts) {
+    opts = opts || {};
+    var count = opts.count != null ? '<span class="apk-card-count">' + esc(String(opts.count)) + "</span>" : "";
+    return (
+      '<section class="apk-card' + (opts.wide ? " apk-card-wide" : "") + '">' +
+      '<div class="apk-card-head">' +
+      '<span class="apk-card-badge material-symbols-outlined" aria-hidden="true">' + icon + "</span>" +
+      "<h2>" + title + "</h2>" + count +
+      "</div>" +
+      body +
+      "</section>"
+    );
   }
 
-  function table(rows) {
+  // Key/value rows as a definition grid. Labels are trusted static markup;
+  // values are already escaped/marked up by the caller.
+  function kv(rows) {
     return (
-      "<table><tbody>" +
+      '<dl class="apk-kv">' +
       rows
         .map(function (r) {
-          return "<tr><td>" + esc(r[0]) + "</td><td>" + r[1] + "</td></tr>";
+          return '<div class="apk-row"><dt>' + r[0] + "</dt><dd>" + r[1] + "</dd></div>";
         })
         .join("") +
-      "</tbody></table>"
+      "</dl>"
     );
+  }
+
+  function chip(kind, inner) {
+    return '<span class="apk-chip' + (kind ? " apk-chip-" + kind : "") + '">' + inner + "</span>";
   }
 
   function codeCopy(text) {
@@ -877,6 +911,23 @@
 
   function sdk(v) {
     return v == null ? "n/a" : esc(String(v));
+  }
+
+  // Map an API level to the site's Android version pill (the same
+  // .label label-green + android glyph markup used on the feature-requests
+  // page), using the build-time map injected from _data/android_versions.json.
+  // Additive: falls back to nothing (the raw level still shows) for unknown
+  // levels or when run outside the page.
+  function androidLabel(apiLevel) {
+    if (apiLevel == null) return "";
+    var map = typeof window !== "undefined" && window.APK_ANDROID_VERSIONS;
+    var v = map ? map[String(apiLevel)] : null;
+    if (!v || v.name == null) return "";
+    var title = v.codename ? ' title="Android ' + esc(v.name) + " " + esc(v.codename) + '"' : "";
+    return (
+      ' <span class="label label-green"' + title +
+      '><span class="material-symbols-outlined">android</span> ' + esc(v.name) + "</span>"
+    );
   }
 
   function sdkRange(min, max) {

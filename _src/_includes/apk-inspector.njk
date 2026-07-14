@@ -85,6 +85,73 @@
                     .apk-copy:hover { color: var(--orange); opacity: 1; }
                     .apk-copy.apk-copied { color: var(--main-green); opacity: 1; }
                     .apk-copy .material-symbols-outlined { font-size: 19px; }
+
+                    /* Summary chips */
+                    .apk-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+                    .apk-chip {
+                        display: inline-flex; align-items: center; gap: 5px;
+                        font-size: .78em; font-weight: 600; line-height: 1.4;
+                        padding: 4px 10px; border-radius: 999px;
+                        border: 1px solid var(--light); background: var(--subtle-bg); color: var(--text);
+                    }
+                    .apk-chip .material-symbols-outlined { font-size: 15px; }
+                    .apk-chip .k { opacity: .6; font-weight: 500; }
+                    .apk-chip-good { color: var(--main-green); background: color-mix(in srgb, var(--main-green) 15%, transparent); border-color: color-mix(in srgb, var(--main-green) 45%, transparent); }
+                    .apk-chip-warn { color: var(--orange); background: color-mix(in srgb, var(--orange) 15%, transparent); border-color: color-mix(in srgb, var(--orange) 48%, transparent); }
+                    .apk-chip-info { color: var(--main-blue); background: color-mix(in srgb, var(--main-blue) 14%, transparent); border-color: color-mix(in srgb, var(--main-blue) 42%, transparent); }
+
+                    /* Card grid */
+                    .apk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+                    .apk-card {
+                        background: var(--subtle-bg); border: 1px solid var(--light);
+                        border-radius: 14px; padding: 2px 18px 10px;
+                    }
+                    .apk-card-wide { grid-column: 1 / -1; }
+                    .apk-card-head {
+                        display: flex; align-items: center; gap: 10px;
+                        padding: 14px 0 12px; border-bottom: 1px solid var(--light);
+                    }
+                    .apk-card-badge {
+                        flex: none; width: 30px; height: 30px; border-radius: 8px;
+                        display: grid; place-items: center; font-size: 19px;
+                        background: color-mix(in srgb, var(--orange) 14%, transparent); color: var(--orange);
+                    }
+                    .apk-card-head h2 { font-size: 1em; font-weight: 700; margin: 0; }
+                    .apk-card-count {
+                        margin-left: auto; font-size: .74em; font-weight: 700; color: #fff;
+                        background: var(--main-blue); padding: 2px 9px; border-radius: 999px;
+                    }
+
+                    /* Key/value rows */
+                    .apk-kv { display: grid; grid-template-columns: minmax(104px, 34%) 1fr; margin: 0; }
+                    .apk-row { display: contents; }
+                    .apk-card .apk-kv dt {
+                        padding: 9px 12px 9px 0; margin: 0; font-size: .82em; opacity: .72;
+                        border-bottom: 1px solid var(--light); align-self: center;
+                    }
+                    .apk-card .apk-kv dd {
+                        margin: 0; padding: 9px 0; border-bottom: 1px solid var(--light);
+                        display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px;
+                        min-width: 0; font-size: .88em;
+                    }
+                    .apk-row:last-child dt, .apk-row:last-child dd { border-bottom: none; }
+                    .apk-kv code { font-family: monospace; font-size: .92em; word-break: break-all; }
+                    .apk-kv a.label { text-decoration: none; }
+
+                    /* Permissions */
+                    .apk-perms {
+                        list-style: none; margin: 12px 0 4px; padding: 0;
+                        display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 18px;
+                    }
+                    .apk-perms li { padding: 5px 0; border-bottom: 1px solid var(--light); }
+                    .apk-perms code { font-family: monospace; font-size: .82em; word-break: break-all; }
+
+                    @media (max-width: 560px) {
+                        .apk-kv { grid-template-columns: 1fr; }
+                        .apk-card .apk-kv dt { padding-bottom: 0; border-bottom: none; }
+                        .apk-card .apk-kv dd { padding-top: 2px; }
+                        .apk-row dt { padding-top: 10px; }
+                    }
                 </style>
 
                 <div class="generator-bg">
@@ -111,6 +178,15 @@
         </content>
         <footer>
             {% include "./_parts/footer.njk" %}
+            <!-- API level -> Android version map, injected from _data/android_versions.json
+                 (same source as /api/android_versions.json) so SDK tags never drift. -->
+            <script>
+                window.APK_ANDROID_VERSIONS = {
+                {%- for v in android_versions.items %}
+                    "{{ v.apiLevel }}": { "name": {{ v.version | dump | safe }}, "codename": {{ v.codename | dump | safe }} }{% if not loop.last %},{% endif %}
+                {%- endfor %}
+                };
+            </script>
             <script src="/js/apk-inspector.js"></script>
         </footer>
         {% include "./_parts/mika-widget.njk" %}
