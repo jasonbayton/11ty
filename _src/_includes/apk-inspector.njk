@@ -107,14 +107,21 @@
                         --apk-shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
                     }
 
+                    /* Dropzone wrapper: spacing only, no solid box, so the dashed
+                       dropzone / loaded bar stand alone (core.css .generator-bg would
+                       otherwise wrap them in a padded subtle-bg panel). */
+                    .apk-dropwrap { margin: 15px 0; }
+
                     /* Loaded-file bar (replaces the dropzone once a file is picked). */
                     .apk-drop-loaded {
                         display: flex; align-items: center; gap: 14px;
                         border: 2px dashed var(--apk-border); border-radius: 14px;
                         background: var(--subtle-bg); padding: 14px 18px; font-size: 16px;
                     }
+                    /* display:flex above would otherwise defeat the hidden attribute. */
+                    .apk-drop[hidden], .apk-drop-loaded[hidden] { display: none; }
                     .apk-loaded-ico {
-                        flex: none; width: 42px; height: 42px; border-radius: 10px;
+                        flex: none; width: 42px; height: 42px; max-width: none; border-radius: 10px;
                         display: grid; place-items: center; font-size: 24px;
                         background: color-mix(in srgb, var(--orange) 14%, transparent); color: var(--orange);
                     }
@@ -149,8 +156,10 @@
                     .apk-chip-warn { color: var(--orange); background: color-mix(in srgb, var(--orange) 15%, transparent); border-color: color-mix(in srgb, var(--orange) 48%, transparent); }
                     .apk-chip-info { color: var(--main-blue); background: color-mix(in srgb, var(--main-blue) 14%, transparent); border-color: color-mix(in srgb, var(--main-blue) 42%, transparent); }
 
-                    /* Card grid */
-                    .apk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+                    /* Card grid: two equal columns that fill the width; wide cards
+                       span both. (auto-fit left empty tracks on wide layouts.) */
+                    .apk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+                    @media (max-width: 640px) { .apk-grid { grid-template-columns: 1fr; } }
                     .apk-card {
                         background: var(--apk-card); border: 1px solid var(--apk-border);
                         border-radius: 14px; padding: 2px 18px 10px; box-shadow: var(--apk-shadow);
@@ -161,7 +170,7 @@
                         padding: 14px 0 12px; border-bottom: 1px solid var(--apk-line);
                     }
                     .apk-card-badge {
-                        flex: none; width: 30px; height: 30px; border-radius: 8px;
+                        flex: none; width: 30px; height: 30px; max-width: none; border-radius: 8px;
                         display: grid; place-items: center; font-size: 19px;
                         background: color-mix(in srgb, var(--orange) 14%, transparent); color: var(--orange);
                     }
@@ -176,13 +185,15 @@
                     .apk-row { display: contents; }
                     .apk-card .apk-kv dt {
                         padding: 9px 12px 9px 0; margin: 0; font-size: .82em; opacity: .72;
-                        border-bottom: 1px solid var(--apk-line); align-self: center;
+                        border-bottom: 1px solid var(--apk-line);
+                        display: flex; align-items: center;
                     }
                     .apk-card .apk-kv dd {
                         margin: 0; padding: 9px 0; border-bottom: 1px solid var(--apk-line);
-                        display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px;
-                        min-width: 0; font-size: .88em;
+                        min-width: 0; font-size: .88em; overflow-wrap: anywhere; line-height: 1.55;
                     }
+                    /* Inline chips/pills/copy sit on the value's baseline row. */
+                    .apk-kv dd .label, .apk-kv dd .apk-chip { vertical-align: middle; }
                     .apk-row:last-child dt, .apk-row:last-child dd { border-bottom: none; }
                     .apk-kv code { font-family: monospace; font-size: .92em; word-break: break-all; }
                     .apk-kv a.label { text-decoration: none; }
@@ -203,14 +214,14 @@
                     }
                 </style>
 
-                <div class="generator-bg">
+                <div class="apk-dropwrap">
                     <label for="apk_file" id="apk_dropzone" class="apk-drop">
                         <span class="material-symbols-outlined apk-drop-icon">upload_file</span>
                         <span class="apk-drop-title">Drop an APK here</span>
                         <span class="apk-drop-sub">or click to choose a file. Read in your browser, nothing is uploaded</span>
                     </label>
                     <div id="apk_loaded" class="apk-drop-loaded" hidden>
-                        <span class="material-symbols-outlined apk-loaded-ico">android</span>
+                        <span class="material-symbols-outlined apk-loaded-ico">upload_file</span>
                         <div class="apk-loaded-text">
                             <span class="apk-loaded-name" id="apk_loaded_name"></span>
                             <span class="apk-loaded-meta" id="apk_loaded_meta"></span>

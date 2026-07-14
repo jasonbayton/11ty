@@ -828,7 +828,7 @@
       // rather than as a headline, since most APKs aren't for DPC provisioning.
       if (c.checksum)
         signRows.push([
-          'SHA-256 (base64url) <a class="label label-orange" href="/qr-generator-dpc">custom DPC QR checksum</a>',
+          'SHA-256 (base64url, for <a href="/qr-generator-dpc">custom DPC QR checksum</a>)',
           codeCopy(c.checksum)
         ]);
       signRows.push(["Cert SHA-1", codeCopy(c.sha1)]);
