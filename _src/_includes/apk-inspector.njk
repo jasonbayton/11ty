@@ -56,12 +56,6 @@
                     .apk-drop-icon { font-size: 52px; color: var(--orange); }
                     .apk-drop-title { font-weight: 600; font-size: 1.15em; }
                     .apk-drop-sub { font-size: .85em; opacity: .7; max-width: 36ch; }
-                    .apk-drop-file {
-                        font-family: monospace;
-                        font-size: .9em;
-                        color: var(--orange);
-                        word-break: break-all;
-                    }
                     .apk-visually-hidden {
                         position: absolute;
                         width: 1px; height: 1px;
@@ -69,22 +63,6 @@
                         overflow: hidden; clip: rect(0 0 0 0);
                         white-space: nowrap; border: 0;
                     }
-                    .apk-copy {
-                        background: none;
-                        border: none;
-                        cursor: pointer;
-                        padding: 2px;
-                        margin-left: 6px;
-                        color: var(--text);
-                        opacity: .55;
-                        vertical-align: middle;
-                        line-height: 1;
-                        border-radius: 4px;
-                        transition: color .15s ease, opacity .15s ease;
-                    }
-                    .apk-copy:hover { color: var(--orange); opacity: 1; }
-                    .apk-copy.apk-copied { color: var(--main-green); opacity: 1; }
-                    .apk-copy .material-symbols-outlined { font-size: 19px; }
 
                     /* Card/chip surface tokens (core.css has no card/shadow tokens;
                        these mirror the redesign mockup and follow the site's theme). */
@@ -142,15 +120,6 @@
                     #apk_results code { color: var(--text); overflow-x: visible; overflow-wrap: anywhere; }
                     .apk-kv .apk-strong, .apk-kv .apk-strong code { font-weight: 600; }
 
-                    /* Click-to-copy values (the value is the control; no icon). */
-                    .apk-copyable {
-                        cursor: pointer; border-radius: 4px; padding: 0 3px; margin: 0 -3px;
-                        transition: background .12s ease, color .12s ease;
-                    }
-                    .apk-copyable:hover { background: color-mix(in srgb, var(--orange) 13%, transparent); }
-                    .apk-copyable:focus-visible { outline: 2px solid var(--orange); outline-offset: 1px; }
-                    /* ID specificity to beat "#apk_results code { color: var(--text) }". */
-                    #apk_results code.apk-copied { color: var(--main-green); }
 
                     /* Summary chips */
                     .apk-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
@@ -222,6 +191,11 @@
                         .apk-card .apk-kv dt { padding-bottom: 0; border-bottom: none; }
                         .apk-card .apk-kv dd { padding-top: 2px; }
                         .apk-row dt { padding-top: 10px; }
+                        /* Loaded bar: let the button drop to its own row so the
+                           filename gets the full width instead of being crushed. */
+                        .apk-drop-loaded { flex-wrap: wrap; }
+                        .apk-loaded-text { flex: 1 1 0; }
+                        .apk-loaded-again { margin-left: 0; flex-basis: 100%; }
                     }
                 </style>
 

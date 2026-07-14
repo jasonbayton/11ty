@@ -75,31 +75,6 @@
     });
   }
 
-  // Click (or Enter/Space) a value to copy it; flashes green + a "Copied!" tip.
-  function copyFrom(el) {
-    if (!el || !navigator.clipboard) return;
-    navigator.clipboard.writeText(el.getAttribute("data-copy")).then(function () {
-      el.classList.add("apk-copied");
-      el.setAttribute("title", "Copied!");
-      setTimeout(function () {
-        el.classList.remove("apk-copied");
-        el.setAttribute("title", "Click to copy");
-      }, 1200);
-    });
-  }
-  if (resultsEl) {
-    resultsEl.addEventListener("click", function (e) {
-      copyFrom(e.target.closest("[data-copy]"));
-    });
-    resultsEl.addEventListener("keydown", function (e) {
-      if (e.key !== "Enter" && e.key !== " ") return;
-      var el = e.target.closest("[data-copy]");
-      if (!el) return;
-      e.preventDefault();
-      copyFrom(el);
-    });
-  }
-
   function handleFile(file) {
     errorEl.textContent = "";
     resultsEl.innerHTML = '<p><span class="material-symbols-outlined">hourglass_top</span> Reading ' + esc(file.name) + "…</p>";
@@ -918,15 +893,9 @@
     return '<span class="apk-chip' + (kind ? " apk-chip-" + kind : "") + '">' + inner + "</span>";
   }
 
-  // The value itself is the copy control: click (or keyboard-activate) to copy.
+  // Plain, selectable monospace value.
   function codeCopy(text) {
-    return (
-      '<code class="apk-copyable" data-copy="' +
-      esc(text) +
-      '" role="button" tabindex="0" title="Click to copy">' +
-      esc(text) +
-      "</code>"
-    );
+    return "<code>" + esc(text) + "</code>";
   }
 
   function val(v) {
