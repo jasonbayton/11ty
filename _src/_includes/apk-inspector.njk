@@ -142,6 +142,16 @@
                     #apk_results code { color: var(--text); overflow-x: visible; overflow-wrap: anywhere; }
                     .apk-kv .apk-strong, .apk-kv .apk-strong code { font-weight: 600; }
 
+                    /* Click-to-copy values (the value is the control; no icon). */
+                    .apk-copyable {
+                        cursor: pointer; border-radius: 4px; padding: 0 3px; margin: 0 -3px;
+                        transition: background .12s ease, color .12s ease;
+                    }
+                    .apk-copyable:hover { background: color-mix(in srgb, var(--orange) 13%, transparent); }
+                    .apk-copyable:focus-visible { outline: 2px solid var(--orange); outline-offset: 1px; }
+                    /* ID specificity to beat "#apk_results code { color: var(--text) }". */
+                    #apk_results code.apk-copied { color: var(--main-green); }
+
                     /* Summary chips */
                     .apk-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
                     .apk-chip {
@@ -181,12 +191,13 @@
                     }
 
                     /* Key/value rows */
-                    .apk-kv { display: grid; grid-template-columns: minmax(104px, 34%) 1fr; margin: 0; }
+                    .apk-kv { display: grid; grid-template-columns: minmax(104px, 34%) minmax(0, 1fr); margin: 0; }
                     .apk-row { display: contents; }
                     .apk-card .apk-kv dt {
                         padding: 9px 12px 9px 0; margin: 0; font-size: .82em; opacity: .72;
                         border-bottom: 1px solid var(--apk-line);
-                        display: flex; align-items: center;
+                        /* plain block: stretches to row height (borders align) while the
+                           label text still flows/wraps inline (flex broke inline links). */
                     }
                     .apk-card .apk-kv dd {
                         margin: 0; padding: 9px 0; border-bottom: 1px solid var(--apk-line);
@@ -206,7 +217,7 @@
                     .apk-perms li { padding: 5px 0; border-bottom: 1px solid var(--apk-line); }
                     .apk-perms code { font-family: monospace; font-size: .82em; word-break: break-all; }
 
-                    @media (max-width: 560px) {
+                    @media (max-width: 640px) {
                         .apk-kv { grid-template-columns: 1fr; }
                         .apk-card .apk-kv dt { padding-bottom: 0; border-bottom: none; }
                         .apk-card .apk-kv dd { padding-top: 2px; }

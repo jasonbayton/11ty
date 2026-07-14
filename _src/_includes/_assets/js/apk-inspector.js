@@ -75,21 +75,28 @@
     });
   }
 
-  // Copy-to-clipboard via delegation; swaps the icon to a tick briefly.
+  // Click (or Enter/Space) a value to copy it; flashes green + a "Copied!" tip.
+  function copyFrom(el) {
+    if (!el || !navigator.clipboard) return;
+    navigator.clipboard.writeText(el.getAttribute("data-copy")).then(function () {
+      el.classList.add("apk-copied");
+      el.setAttribute("title", "Copied!");
+      setTimeout(function () {
+        el.classList.remove("apk-copied");
+        el.setAttribute("title", "Click to copy");
+      }, 1200);
+    });
+  }
   if (resultsEl) {
     resultsEl.addEventListener("click", function (e) {
-      var btn = e.target.closest("[data-copy]");
-      if (!btn) return;
-      navigator.clipboard.writeText(btn.getAttribute("data-copy")).then(function () {
-        var icon = btn.querySelector(".material-symbols-outlined") || btn;
-        var prev = icon.textContent;
-        icon.textContent = "check";
-        btn.classList.add("apk-copied");
-        setTimeout(function () {
-          icon.textContent = prev;
-          btn.classList.remove("apk-copied");
-        }, 1200);
-      });
+      copyFrom(e.target.closest("[data-copy]"));
+    });
+    resultsEl.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      var el = e.target.closest("[data-copy]");
+      if (!el) return;
+      e.preventDefault();
+      copyFrom(el);
     });
   }
 
@@ -911,14 +918,14 @@
     return '<span class="apk-chip' + (kind ? " apk-chip-" + kind : "") + '">' + inner + "</span>";
   }
 
+  // The value itself is the copy control: click (or keyboard-activate) to copy.
   function codeCopy(text) {
     return (
-      "<code>" +
+      '<code class="apk-copyable" data-copy="' +
       esc(text) +
-      "</code>" +
-      '<button type="button" class="apk-copy" data-copy="' +
+      '" role="button" tabindex="0" title="Click to copy">' +
       esc(text) +
-      '" aria-label="Copy" title="Copy"><span class="material-symbols-outlined">content_copy</span></button>'
+      "</code>"
     );
   }
 
