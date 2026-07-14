@@ -1,9 +1,9 @@
 ---
-title: "Does Android Enterprise support WearOS?"
+title: "Does Android Enterprise support Wear OS?"
 published: '2026-03-30'
-status: draft
+status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: 'Work profile account transfer to Wear OS landed in July 2026 via Google Play Services v26.26.'
 type: documentation
 tags:
     - FAQ
@@ -14,29 +14,36 @@ eleventyNavigation:
   parent: 'Android Enterprise FAQ'
   order: 29500
 sources:
+  - https://support.google.com/product-documentation/answer/14343500
   - https://www.androidenterprise.community/discussions/conversations/android-enterprise-work-profile-does-not-support-wearos-yet/4848
 ---
-WearOS does not currently support Android Enterprise work profiles or managed accounts. There is no work profile equivalent on WearOS, and no mechanism to add managed accounts, install work apps, or sync work profile data to the watch.
+Wear OS gained initial work profile support in July 2026. Google Play Services v26.26 introduced the ability to transfer a work profile account from an Android phone to a paired Wear OS watch.
 
-### What works
+### What now works
 
-**Notifications** - work profile notifications bridge to the watch by default. The WearOS companion app (Pixel Watch, Galaxy Wearable, etc.) uses `NotificationListenerService` to mirror phone notifications to the watch, and as a system app it can read cross-profile notifications. This works the same way as Android Auto's work profile notification support.
+**Work profile account transfer** - you can transfer your work profile account to a paired Wear OS watch. This enables work apps on the watch to authenticate with the managed account, giving access to work email, calendar, and contacts on the wrist without needing to sign in with credentials directly on the watch.
+
+**Notifications** - work profile notifications bridge to the watch by default. The Wear OS companion app (Pixel Watch, Galaxy Wearable, etc.) uses `NotificationListenerService` to mirror phone notifications to the watch, and as a system app it can read cross-profile notifications. This works the same way as Android Auto's work profile notification support.
 
 However, an organisation's MDM policy can restrict this using `setPermittedCrossProfileNotificationListeners`, and some EMMs block cross-profile notification listeners by default. If work notifications are not appearing on the watch, check with your IT team whether the watch companion app has been allowlisted.
 
+### What to be aware of
+
+The work profile account transfer is a Google Play Services feature, not a platform-level management framework. This means:
+
+- **No managed profile on the watch** - the watch does not have its own work profile partition. Work data protection on the watch relies on the account-level controls rather than profile-level isolation
+- **No EMM policy enforcement on the watch** - your EMM cannot push policies, restrictions, or app configurations directly to the Wear OS device. The watch is not an independently managed endpoint
+- **App availability varies** - not all work apps have Wear OS counterparts. Transfer of the account does not guarantee all work apps will appear or function on the watch
+- **EMM rollout timing** - this is a Google Play Services change. Whether and how your EMM surfaces this capability in its console will depend on the vendor
+
 ### What doesn't work
 
-WearOS has no concept of a work profile, managed account, or enterprise management. This means:
+- **Direct device management** - there is no Wear OS equivalent of Android Device Policy or a DPC. The watch cannot be enrolled as a managed device
+- **App deployment** - you cannot push apps to the watch through managed Google Play in the same way as a phone
+- **Compliance enforcement** - EMM compliance policies do not extend to the watch
 
-- **Work accounts** cannot be added to the watch - there is no managed Google Play or work account provisioning on WearOS
-- **Work apps** cannot be installed on the watch - apps like Outlook, Teams, or Gmail on the watch cannot access work profile data
-- **Work calendar** does not sync to the watch - calendar sync requires account-level access, not just notification bridging
-- **Work contacts** are not available natively on the watch for caller ID or search
+### Should I allow it?
 
-### Are there workarounds?
+Organisations with strict data protection requirements should evaluate whether work account access on a wearable meets their security posture. The account transfer gives the watch access to work data through account-authenticated apps, and the watch cannot be independently wiped or locked by the EMM if it is lost.
 
-Some users configure their corporate account directly in the personal profile (outside the work profile) to enable watch sync, but this bypasses management policies applied within the work profile and is not recommended for organisations with data protection requirements.
-
-### Will this change?
-
-Google has not announced WearOS support for work profiles. This is a known gap in the ecosystem and has been raised in the [Android Enterprise Customer Community](https://androidenterprise.community). Given the growing adoption of wearables in enterprise environments, it remains a commonly requested feature.
+For organisations comfortable with the trade-off, the feature removes a long-standing gap that previously forced users into workarounds such as adding their work account to the personal profile to get any watch integration at all.

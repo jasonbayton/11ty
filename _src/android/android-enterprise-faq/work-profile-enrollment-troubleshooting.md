@@ -44,4 +44,8 @@ The device needs a stable internet connection throughout enrolment. The process 
 
 If the organisation uses a managed Google domain, ensure the user's Google account is not restricted from enroling. Check for domain-level restrictions in the Google Admin console that may prevent work profile creation.
 
+**Google Play Services version**
+
+Google Play Services v26.26 (July 2026) introduced a new API that improves the reliability of work profile setup. If devices are failing enrolment with unclear errors, ensure Google Play Services is on the latest available version. Older versions are more susceptible to setup failures during the profile provisioning flow.
+
 If none of these resolve the issue, check the EMM admin console for device-specific enrolment logs and error codes.
