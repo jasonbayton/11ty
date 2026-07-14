@@ -20,7 +20,10 @@
   var dropzone = hasDom ? document.getElementById("apk_dropzone") : null;
   var errorEl = hasDom ? document.getElementById("error_message") : null;
   var resultsEl = hasDom ? document.getElementById("apk_results") : null;
-  var filenameEl = hasDom ? document.getElementById("apk_filename") : null;
+  var loadedEl = hasDom ? document.getElementById("apk_loaded") : null;
+  var loadedNameEl = hasDom ? document.getElementById("apk_loaded_name") : null;
+  var loadedMetaEl = hasDom ? document.getElementById("apk_loaded_meta") : null;
+  var againBtn = hasDom ? document.getElementById("apk_inspect_another") : null;
 
   if (fileInput) {
     fileInput.addEventListener("change", function () {
@@ -49,13 +52,27 @@
     });
   }
 
-  // Reflect the chosen file's name in the dropzone, then inspect it.
+  // Swap the dropzone for the compact loaded-file bar, then inspect it.
   function startFile(file) {
-    if (filenameEl) {
-      filenameEl.textContent = file.name;
-      filenameEl.hidden = false;
-    }
+    if (loadedNameEl) loadedNameEl.textContent = file.name;
+    if (loadedMetaEl) loadedMetaEl.textContent = bytesH(file.size) + " · file loaded successfully";
+    if (dropzone) dropzone.hidden = true;
+    if (loadedEl) loadedEl.hidden = false;
     handleFile(file);
+  }
+
+  // "Inspect another": clear everything and return to the empty dropzone.
+  if (againBtn) {
+    againBtn.addEventListener("click", function () {
+      if (loadedEl) loadedEl.hidden = true;
+      if (dropzone) dropzone.hidden = false;
+      if (resultsEl) resultsEl.innerHTML = "";
+      if (errorEl) errorEl.textContent = "";
+      if (fileInput) {
+        fileInput.value = "";
+        fileInput.click();
+      }
+    });
   }
 
   // Copy-to-clipboard via delegation; swaps the icon to a tick briefly.
@@ -765,8 +782,8 @@
 
     // Package.
     var pkgRows = [
-      ["Package name", m.package ? codeCopy(m.package) : "n/a"],
-      ["Version name", val(m.versionName)],
+      ["Package name", m.package ? '<span class="apk-strong">' + codeCopy(m.package) + "</span>" : "n/a"],
+      ["Version name", '<span class="apk-strong">' + val(m.versionName) + "</span>"],
       ["Version code", val(m.versionCode)],
       ["Min SDK", sdk(m.minSdk) + androidLabel(m.minSdk)],
       ["Target SDK", sdk(m.targetSdk) + androidLabel(m.targetSdk)],
@@ -797,10 +814,10 @@
     var schemeBadges = (d.schemes || []).length
       ? d.schemes
           .map(function (s) {
-            return '<span class="label label-green">' + esc(s) + "</span>";
+            return '<span class="apk-chip apk-chip-good">' + esc(s) + "</span>";
           })
           .join(" ")
-      : '<span class="label label-orange">none detected</span>';
+      : '<span class="apk-chip apk-chip-warn">none detected</span>';
 
     var signRows = [["Schemes", schemeBadges]];
     if (c) {

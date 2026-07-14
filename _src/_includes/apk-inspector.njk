@@ -86,13 +86,62 @@
                     .apk-copy.apk-copied { color: var(--main-green); opacity: 1; }
                     .apk-copy .material-symbols-outlined { font-size: 19px; }
 
+                    /* Card/chip surface tokens (core.css has no card/shadow tokens;
+                       these mirror the redesign mockup and follow the site's theme). */
+                    :root {
+                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec;
+                        --apk-shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
+                    }
+                    @media (prefers-color-scheme: dark) {
+                        :root {
+                            --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626;
+                            --apk-shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.55);
+                        }
+                    }
+                    :root[data-theme="dark"] {
+                        --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626;
+                        --apk-shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.55);
+                    }
+                    :root[data-theme="light"] {
+                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec;
+                        --apk-shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
+                    }
+
+                    /* Loaded-file bar (replaces the dropzone once a file is picked). */
+                    .apk-drop-loaded {
+                        display: flex; align-items: center; gap: 14px;
+                        border: 2px dashed var(--apk-border); border-radius: 14px;
+                        background: var(--subtle-bg); padding: 14px 18px; font-size: 16px;
+                    }
+                    .apk-loaded-ico {
+                        flex: none; width: 42px; height: 42px; border-radius: 10px;
+                        display: grid; place-items: center; font-size: 24px;
+                        background: color-mix(in srgb, var(--orange) 14%, transparent); color: var(--orange);
+                    }
+                    .apk-loaded-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+                    .apk-loaded-name { font-family: monospace; font-size: .9em; color: var(--orange); word-break: break-all; }
+                    .apk-loaded-meta { font-size: .8em; opacity: .7; }
+                    .apk-loaded-again {
+                        margin-left: auto; flex: none; font-size: .85em;
+                        color: var(--text); border: 1px solid var(--apk-border); background: var(--apk-card);
+                        padding: 8px 14px; border-radius: 9px; cursor: pointer;
+                        transition: border-color .15s ease, color .15s ease;
+                    }
+                    .apk-loaded-again:hover { border-color: var(--orange); color: var(--orange); }
+
+                    /* Results baseline: reset to 16px so the component scale matches the
+                       redesign (body is 20px), and neutralise core.css's orange <code>. */
+                    #apk_results { font-size: 16px; line-height: 1.5; }
+                    #apk_results code { color: var(--text); overflow-x: visible; overflow-wrap: anywhere; }
+                    .apk-kv .apk-strong, .apk-kv .apk-strong code { font-weight: 600; }
+
                     /* Summary chips */
                     .apk-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
                     .apk-chip {
                         display: inline-flex; align-items: center; gap: 5px;
                         font-size: .78em; font-weight: 600; line-height: 1.4;
                         padding: 4px 10px; border-radius: 999px;
-                        border: 1px solid var(--light); background: var(--subtle-bg); color: var(--text);
+                        border: 1px solid var(--apk-border); background: var(--apk-card); color: var(--text);
                     }
                     .apk-chip .material-symbols-outlined { font-size: 15px; }
                     .apk-chip .k { opacity: .6; font-weight: 500; }
@@ -103,13 +152,13 @@
                     /* Card grid */
                     .apk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
                     .apk-card {
-                        background: var(--subtle-bg); border: 1px solid var(--light);
-                        border-radius: 14px; padding: 2px 18px 10px;
+                        background: var(--apk-card); border: 1px solid var(--apk-border);
+                        border-radius: 14px; padding: 2px 18px 10px; box-shadow: var(--apk-shadow);
                     }
                     .apk-card-wide { grid-column: 1 / -1; }
                     .apk-card-head {
                         display: flex; align-items: center; gap: 10px;
-                        padding: 14px 0 12px; border-bottom: 1px solid var(--light);
+                        padding: 14px 0 12px; border-bottom: 1px solid var(--apk-line);
                     }
                     .apk-card-badge {
                         flex: none; width: 30px; height: 30px; border-radius: 8px;
@@ -127,10 +176,10 @@
                     .apk-row { display: contents; }
                     .apk-card .apk-kv dt {
                         padding: 9px 12px 9px 0; margin: 0; font-size: .82em; opacity: .72;
-                        border-bottom: 1px solid var(--light); align-self: center;
+                        border-bottom: 1px solid var(--apk-line); align-self: center;
                     }
                     .apk-card .apk-kv dd {
-                        margin: 0; padding: 9px 0; border-bottom: 1px solid var(--light);
+                        margin: 0; padding: 9px 0; border-bottom: 1px solid var(--apk-line);
                         display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px;
                         min-width: 0; font-size: .88em;
                     }
@@ -143,7 +192,7 @@
                         list-style: none; margin: 12px 0 4px; padding: 0;
                         display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 18px;
                     }
-                    .apk-perms li { padding: 5px 0; border-bottom: 1px solid var(--light); }
+                    .apk-perms li { padding: 5px 0; border-bottom: 1px solid var(--apk-line); }
                     .apk-perms code { font-family: monospace; font-size: .82em; word-break: break-all; }
 
                     @media (max-width: 560px) {
@@ -159,8 +208,15 @@
                         <span class="material-symbols-outlined apk-drop-icon">upload_file</span>
                         <span class="apk-drop-title">Drop an APK here</span>
                         <span class="apk-drop-sub">or click to choose a file. Read in your browser, nothing is uploaded</span>
-                        <span class="apk-drop-file" id="apk_filename" hidden></span>
                     </label>
+                    <div id="apk_loaded" class="apk-drop-loaded" hidden>
+                        <span class="material-symbols-outlined apk-loaded-ico">android</span>
+                        <div class="apk-loaded-text">
+                            <span class="apk-loaded-name" id="apk_loaded_name"></span>
+                            <span class="apk-loaded-meta" id="apk_loaded_meta"></span>
+                        </div>
+                        <button type="button" class="apk-loaded-again" id="apk_inspect_another">Inspect another</button>
+                    </div>
                     <input type="file" id="apk_file" class="apk-visually-hidden" accept=".apk,application/vnd.android.package-archive">
                 </div>
 
