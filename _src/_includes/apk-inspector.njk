@@ -67,21 +67,21 @@
                     /* Card/chip surface tokens (core.css has no card/shadow tokens;
                        these mirror the redesign mockup and follow the site's theme). */
                     :root {
-                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec;
+                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec; --apk-danger: #c30000;
                         --apk-shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
                     }
                     @media (prefers-color-scheme: dark) {
                         :root {
-                            --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626;
+                            --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626; --apk-danger: #ff6b6b;
                             --apk-shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.55);
                         }
                     }
                     :root[data-theme="dark"] {
-                        --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626;
+                        --apk-card: #161616; --apk-border: #2d2d2d; --apk-line: #262626; --apk-danger: #ff6b6b;
                         --apk-shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 30px rgba(0,0,0,.55);
                     }
                     :root[data-theme="light"] {
-                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec;
+                        --apk-card: #f7f7f7; --apk-border: #e2e2e2; --apk-line: #ececec; --apk-danger: #c30000;
                         --apk-shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
                     }
 
@@ -178,13 +178,92 @@
                     .apk-kv code { font-family: monospace; font-size: .92em; word-break: break-all; }
                     .apk-kv a.label { text-decoration: none; }
 
-                    /* Permissions */
-                    .apk-perms {
-                        list-style: none; margin: 12px 0 4px; padding: 0;
-                        display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 18px;
+                    /* Permissions: Permission | Description | Type table, capped with
+                       an internal scroll (sticky header) once the list gets long. */
+                    .apk-perm-scroll { max-height: 520px; overflow-y: auto; overscroll-behavior: contain; margin: 12px 0 4px; }
+                    .apk-permtable {
+                        display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr) max-content;
+                        font-size: .88em;
                     }
-                    .apk-perms li { padding: 5px 0; border-bottom: 1px solid var(--apk-line); }
-                    .apk-perms code { font-family: monospace; font-size: .82em; word-break: break-all; }
+                    .apk-permtable > div {
+                        padding: 8px 14px 8px 0; border-bottom: 1px solid var(--apk-line);
+                        overflow-wrap: anywhere; min-width: 0;
+                    }
+                    .apk-pt-h {
+                        position: sticky; top: 0; z-index: 1; background: var(--apk-card);
+                        font-size: .78em; font-weight: 600; opacity: .9; text-transform: uppercase;
+                        letter-spacing: .04em; color: color-mix(in srgb, var(--text) 55%, transparent);
+                        border-bottom: 1px solid var(--apk-border);
+                    }
+                    .apk-pt-name code { font-family: monospace; font-size: .88em; }
+                    .apk-pt-desc { font-size: .95em; }
+                    .apk-pt-stock { opacity: .75; }
+                    .apk-pt-none { opacity: .45; }
+                    .apk-pt-type { padding-right: 0; }
+                    .apk-pt-tag {
+                        display: inline-block; font-size: .78em; font-weight: 600; white-space: nowrap;
+                        padding: 1px 8px; border-radius: 999px; background: var(--apk-border); color: var(--text);
+                    }
+                    .apk-pt-danger { background: color-mix(in srgb, var(--apk-danger) 18%, transparent); color: var(--apk-danger); }
+                    .apk-pt-warn { background: color-mix(in srgb, var(--orange) 16%, transparent); color: var(--orange); }
+                    .apk-pt-sig { background: color-mix(in srgb, var(--main-blue) 15%, transparent); color: var(--main-blue); }
+                    .apk-pt-muted { opacity: .65; }
+                    .apk-perm-note { font-size: .74em; opacity: .5; margin: 10px 0 2px; }
+                    @media (max-width: 640px) {
+                        .apk-permtable { grid-template-columns: 1fr; }
+                        .apk-pt-h { display: none; }
+                        .apk-permtable > div { padding: 1px 0; border-bottom: none; }
+                        /* Each permission is a clearly separated block on mobile. */
+                        .apk-pt-name {
+                            border-top: 1px solid var(--apk-border); padding-top: 13px; margin-top: 10px; font-weight: 600;
+                        }
+                        .apk-pt-name:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+                        .apk-pt-type { padding-top: 4px; padding-bottom: 2px; }
+                    }
+
+                    /* Managed configuration: entries flow into two content-packed
+                       columns on desktop (each top-level key + its nested children
+                       kept together), one column on mobile. */
+                    .apk-mc-cap { font-size: .78em; opacity: .55; margin: 6px 0 10px; }
+                    /* Best-effort callout (managed config). */
+                    .apk-callout {
+                        display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 2px;
+                        padding: 10px 14px; border-radius: 10px; font-size: .8em;
+                        background: color-mix(in srgb, var(--main-blue) 9%, transparent);
+                        border: 1px solid color-mix(in srgb, var(--main-blue) 28%, transparent);
+                    }
+                    .apk-callout .material-symbols-outlined { font-size: 17px; color: var(--main-blue); flex: none; margin-top: 1px; }
+                    .apk-callout a { color: var(--main-blue); font-weight: 600; }
+                    /* Scroll wrapper caps very long key sets (Chrome ships 130).
+                       Height lives on the wrapper, not the multicol element, so
+                       the columns still balance on full content height. */
+                    .apk-mc-scroll { max-height: 480px; overflow-y: auto; overscroll-behavior: contain; }
+                    .apk-mc-cols { columns: 2; column-gap: 36px; }
+                    .apk-mc-block { break-inside: avoid; }
+                    .apk-mc-row {
+                        display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 8px;
+                        padding: 5px 0; border-bottom: 1px solid var(--apk-line);
+                        font-size: .9em; overflow-wrap: anywhere;
+                    }
+                    .apk-mc-key { font-family: monospace; font-size: .95em; }
+                    .apk-mc-row code { font-family: monospace; }
+                    .apk-mc-eq { opacity: .35; }
+                    .apk-mc-tag {
+                        display: inline-block; font-size: .72em; font-weight: 600; white-space: nowrap;
+                        padding: 1px 7px; border-radius: 999px;
+                        background: var(--apk-border); color: var(--text);
+                    }
+                    .apk-mc-tag-bundle {
+                        background: color-mix(in srgb, var(--main-blue) 18%, transparent); color: var(--main-blue);
+                    }
+                    .apk-mc-raw { margin-top: 14px; }
+                    .apk-mc-raw summary { cursor: pointer; font-size: .85em; opacity: .75; }
+                    .apk-mc-raw pre {
+                        margin: 10px 0 0; padding: 12px 14px; border-radius: 10px;
+                        background: var(--background); border: 1px solid var(--apk-border);
+                        overflow-x: auto; font-size: .8em; line-height: 1.45; color: var(--text);
+                    }
+                    @media (max-width: 640px) { .apk-mc-cols { columns: 1; } }
 
                     @media (max-width: 640px) {
                         .apk-kv { grid-template-columns: 1fr; }
@@ -238,6 +317,14 @@
                     "{{ v.apiLevel }}": { "name": {{ v.version | dump | safe }}, "codename": {{ v.codename | dump | safe }} }{% if not loop.last %},{% endif %}
                 {%- endfor %}
                 };
+            </script>
+            <!-- Permission -> protection-level codes, injected from _data/android_permissions.json
+                 (same source as /api/permissions.json), generated at build from the AOSP platform
+                 manifest so classification stays current without a hardcoded list. -->
+            <script>
+                window.APK_PERMISSIONS = {{ android_permissions.inspectorMap | dump | safe }};
+                window.APK_PERMISSIONS_TEXT = {{ android_permissions.inspectorText | dump | safe }};
+                window.APK_PERMISSIONS_ANDROID = {{ android_permissions.androidVersion | dump | safe }};
             </script>
             <script src="/js/apk-inspector.js"></script>
         </footer>

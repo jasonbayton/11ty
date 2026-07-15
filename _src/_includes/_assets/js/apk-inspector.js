@@ -114,12 +114,16 @@
       })
     );
 
-    // Manifest.
-    jobs.push(
-      readEntry(bytes, manifestEntry).then(function (raw) {
-        return { manifest: parseAxml(raw) };
-      })
-    );
+    // Manifest, plus a best-effort managed-configuration read that depends on it.
+    var manifestJob = readEntry(bytes, manifestEntry).then(function (raw) {
+      return parseAxml(raw);
+    });
+    jobs.push(manifestJob.then(function (m) {
+      return { manifest: m };
+    }));
+    jobs.push(manifestJob.then(function (m) {
+      return resolveManagedConfig(bytes, entries, m);
+    }));
 
     // Signing - needs the cert DER, then we hash it.
     jobs.push(resolveSigning(bytes, central, entries));
@@ -228,7 +232,22 @@
     0x01010572: "compileSdkVersion",
     0x01010003: "name",
     0x0101000f: "debuggable",
-    0x01010272: "testOnly"
+    0x01010272: "testOnly",
+    0x01010024: "value",
+    0x01010025: "resource",
+    0x01010009: "protectionLevel"
+  };
+
+  // android:restrictionType is compiled as an enum (int); map to its name.
+  var RESTRICTION_TYPES = {
+    0: "hidden",
+    1: "bool",
+    2: "choice",
+    4: "multi-select",
+    5: "integer",
+    6: "string",
+    7: "bundle",
+    8: "bundle_array"
   };
 
   function parseAxml(buf) {
@@ -249,7 +268,10 @@
       debuggable: false,
       testOnly: false,
       permissions: [],
-      features: []
+      features: [],
+      definedPermissions: {},
+      hasManagedConfig: false,
+      appRestrictionsRef: null
     };
 
     var p = 8; // skip XML chunk header (type+headerSize+fileSize)
@@ -319,9 +341,21 @@
       case "uses-feature":
         if (attrs.name != null && result.features.indexOf(attrs.name) < 0) result.features.push(attrs.name);
         break;
+      case "permission":
+        // A permission the app itself DEFINES; its protection level is in the APK.
+        if (attrs.name != null) result.definedPermissions[attrs.name] = protLevelName(attrs.protectionLevel);
+        break;
       case "application":
         if (attrs.debuggable != null) result.debuggable = !!attrs.debuggable;
         if (attrs.testOnly != null) result.testOnly = !!attrs.testOnly;
+        break;
+      case "meta-data":
+        // Managed configuration is declared via this meta-data pointing at an
+        // <restrictions> resource. Presence here is the reliable signal.
+        if (attrs.name === "android.content.APP_RESTRICTIONS") {
+          result.hasManagedConfig = true;
+          if (attrs.resource != null) result.appRestrictionsRef = attrs.resource;
+        }
         break;
     }
   }
@@ -340,6 +374,20 @@
       default:
         return data;
     }
+  }
+
+  // android:protectionLevel is a flags int: low nibble is the base level, higher
+  // bits are modifiers. Used for permissions the app itself defines.
+  function protLevelName(v) {
+    if (v == null) return null;
+    var n = typeof v === "number" ? v : parseInt(String(v), /^0x/i.test(String(v)) ? 16 : 10);
+    if (isNaN(n)) return String(v);
+    var base = ["normal", "dangerous", "signature", "signatureOrSystem"][n & 0xf] || "signature";
+    var flags = [];
+    if (n & 0x10) flags.push("privileged");
+    if (n & 0x40) flags.push("appop");
+    if (n & 0x1000) flags.push("instant");
+    return flags.length ? base + "|" + flags.join("|") : base;
   }
 
   function parseStringPool(buf, dv, p) {
@@ -381,6 +429,331 @@
       byteLen = ((byteLen & 0x7f) << 8) | buf[off++];
     }
     return utf8(buf.subarray(off, off + byteLen));
+  }
+
+  /* ------------------------------------------------------------------ *
+   * Managed configuration (app restrictions)
+   *
+   * Everything here is best-effort and must NEVER throw out of the promise:
+   * a broken or malicious restrictions resource degrades to "declared, keys
+   * unreadable", it does not break the rest of the inspection.
+   * ------------------------------------------------------------------ */
+
+  function resolveManagedConfig(bytes, entries, manifest) {
+    if (!manifest || !manifest.hasManagedConfig) return Promise.resolve({ managedConfig: null });
+    var base = { present: true, ref: manifest.appRestrictionsRef };
+    return findRestrictions(bytes, entries, manifest.appRestrictionsRef)
+      .then(function (keys) {
+        base.keys = keys; // array (possibly empty) or null if not found/unreadable
+        return { managedConfig: base };
+      })
+      .catch(function () {
+        base.keys = null;
+        return { managedConfig: base };
+      });
+  }
+
+  // Locate and parse the restrictions resource. Primary path: resolve the exact
+  // file from resources.arsc using the manifest's resource id (works even for
+  // huge apps like Gmail with thousands of res files). Fallback: a bounded scan.
+  function findRestrictions(bytes, entries, resId) {
+    return resolveResourcePath(bytes, entries, resId)
+      .then(function (path) {
+        if (path && entries[path]) {
+          return readEntry(bytes, entries[path])
+            .then(function (raw) {
+              var r = null;
+              try {
+                r = parseRestrictions(raw);
+              } catch (e) {
+                r = null;
+              }
+              return r || scanRestrictions(bytes, entries);
+            })
+            .catch(function () {
+              return scanRestrictions(bytes, entries);
+            });
+        }
+        return scanRestrictions(bytes, entries);
+      })
+      .catch(function () {
+        return scanRestrictions(bytes, entries);
+      });
+  }
+
+  // Fallback: scan compiled res/*.xml for a <restrictions> root. The ZIP directory
+  // gives each entry's uncompressed size, so we skip large files (layouts, vector
+  // drawables) and scan LARGEST-first within the cap: a restrictions resource has
+  // many <restriction> entries, so it's small in absolute terms but sits among the
+  // larger of the tiny res files (Chrome's is the 2nd-largest of 1890). That makes
+  // this a real backstop even on a 189 MB app, without inflating thousands of files.
+  function scanRestrictions(bytes, entries) {
+    var MAX_SIZE = 256 * 1024;
+    var names = Object.keys(entries).filter(function (n) {
+      if (!/^res\/.*\.xml$/i.test(n)) return false;
+      var sz = entries[n].uncompSize;
+      return !sz || sz <= MAX_SIZE; // skip large files (never a restrictions doc)
+    });
+    names.sort(function (a, b) {
+      return (entries[b].uncompSize || 0) - (entries[a].uncompSize || 0); // largest first
+    });
+    var CAP = 5000;
+    if (names.length > CAP) names = names.slice(0, CAP);
+
+    var idx = 0;
+    function next() {
+      if (idx >= names.length) return Promise.resolve(null);
+      var name = names[idx++];
+      return readEntry(bytes, entries[name])
+        .then(function (raw) {
+          var parsed = null;
+          try {
+            parsed = parseRestrictions(raw);
+          } catch (e) {
+            parsed = null;
+          }
+          if (parsed) return parsed;
+          return next();
+        })
+        .catch(function () {
+          return next();
+        });
+    }
+    return next();
+  }
+
+  // Resolve a resource id (e.g. 0x7f150005) to its file path via resources.arsc.
+  // Returns a Promise of the path string, or null. Never rejects.
+  function resolveResourcePath(bytes, entries, resId) {
+    if (resId == null || typeof resId !== "number") return Promise.resolve(null);
+    var arsc = entries["resources.arsc"];
+    if (!arsc) return Promise.resolve(null);
+    return readEntry(bytes, arsc)
+      .then(function (buf) {
+        try {
+          return arscLookup(buf, resId >>> 0);
+        } catch (e) {
+          return null;
+        }
+      })
+      .catch(function () {
+        return null;
+      });
+  }
+
+  // Minimal, defensive resources.arsc reader: find the single file path for one
+  // resource id. Only walks what it needs; resolves one pool string, not all.
+  function arscLookup(buf, resId) {
+    if (!buf || buf.length < 12) return null;
+    var dv = new DataView(buf.buffer, buf.byteOffset, buf.byteLength);
+    if (dv.getUint16(0, true) !== 0x0002) return null; // RES_TABLE_TYPE
+
+    var wantPkg = (resId >>> 24) & 0xff;
+    var wantType = (resId >>> 16) & 0xff;
+    var wantEntry = resId & 0xffff;
+
+    var globalPoolPos = -1;
+    var p = dv.getUint16(2, true) || 12; // table headerSize
+    var guard = 0;
+
+    while (p + 8 <= buf.length && guard++ < 200000) {
+      var type = dv.getUint16(p, true);
+      var size = dv.getUint32(p + 4, true);
+      if (size < 8 || p + size > buf.length) break;
+      if (type === 0x0001 && globalPoolPos < 0) {
+        globalPoolPos = p; // global value string pool (holds file paths)
+      } else if (type === 0x0200) {
+        var path = arscScanPackage(buf, dv, p, size, wantPkg, wantType, wantEntry, globalPoolPos);
+        if (path != null) return path;
+      }
+      p += size;
+    }
+    return null;
+  }
+
+  function arscScanPackage(buf, dv, start, size, wantPkg, wantType, wantEntry, globalPoolPos) {
+    if ((dv.getUint32(start + 8, true) & 0xff) !== wantPkg) return null;
+    var end = start + size;
+    var q = start + (dv.getUint16(start + 2, true) || 288); // package headerSize
+    var guard = 0;
+    while (q + 8 <= end && guard++ < 500000) {
+      var ctype = dv.getUint16(q, true);
+      var csize = dv.getUint32(q + 4, true);
+      if (csize < 8 || q + csize > end) break;
+      if (ctype === 0x0201) {
+        var path = arscReadType(buf, dv, q, csize, wantType, wantEntry, globalPoolPos);
+        if (path != null) return path;
+      }
+      q += csize;
+    }
+    return null;
+  }
+
+  function arscReadType(buf, dv, q, csize, wantType, wantEntry, globalPoolPos) {
+    if (dv.getUint8(q + 8) !== wantType) return null;
+    var flags = dv.getUint8(q + 9);
+    var entryCount = dv.getUint32(q + 12, true);
+    var entriesStart = dv.getUint32(q + 16, true);
+    var headerSize = dv.getUint16(q + 2, true);
+    if (wantEntry >= entryCount) return null;
+
+    var offBase = q + headerSize;
+    var sparse = (flags & 0x01) !== 0;
+    var off16 = (flags & 0x02) !== 0;
+    var entryOff = -1;
+
+    if (sparse) {
+      for (var i = 0; i < entryCount; i++) {
+        var eo = offBase + i * 4;
+        if (eo + 4 > q + csize) break;
+        if (dv.getUint16(eo, true) === wantEntry) {
+          entryOff = dv.getUint16(eo + 2, true) * 4;
+          break;
+        }
+      }
+    } else if (off16) {
+      var o16 = offBase + wantEntry * 2;
+      if (o16 + 2 <= q + csize) {
+        var v16 = dv.getUint16(o16, true);
+        entryOff = v16 === 0xffff ? -1 : v16 * 4;
+      }
+    } else {
+      var o32 = offBase + wantEntry * 4;
+      if (o32 + 4 <= q + csize) {
+        var v32 = dv.getUint32(o32, true);
+        entryOff = v32 === 0xffffffff ? -1 : v32;
+      }
+    }
+    if (entryOff < 0) return null;
+
+    var pos = q + entriesStart + entryOff;
+    if (pos + 8 > q + csize) return null;
+    var entrySize = dv.getUint16(pos, true);
+    var entryFlags = dv.getUint16(pos + 2, true);
+    if (entryFlags & 0x0001) return null; // complex map, not a file
+
+    var valPos = pos + entrySize;
+    if (valPos + 8 > q + csize) return null;
+    var dataType = dv.getUint8(valPos + 3);
+    var data = dv.getUint32(valPos + 4, true);
+    if (dataType !== 0x03) return null; // TYPE_STRING -> index into global pool
+    if (globalPoolPos < 0) return null;
+    return poolStringAt(buf, dv, globalPoolPos, data);
+  }
+
+  // Extract a single string from a string-pool chunk by index (no full parse).
+  function poolStringAt(buf, dv, p, index) {
+    var stringCount = dv.getUint32(p + 8, true);
+    if (index < 0 || index >= stringCount) return null;
+    var flags = dv.getUint32(p + 16, true);
+    var stringsStart = dv.getUint32(p + 20, true);
+    var isUtf8 = (flags & 0x100) !== 0;
+    var so = p + stringsStart + dv.getUint32(p + 28 + index * 4, true);
+    if (so < 0 || so >= buf.length) return null;
+    return isUtf8 ? readUtf8String(buf, so) : readUtf16String(buf, dv, so);
+  }
+
+  // Parse an AXML buffer; return the nested restriction tree if its root is
+  // <restrictions>, else null. Fully defensive against malformed input.
+  function parseRestrictions(buf) {
+    if (!buf || buf.length < 8) return null;
+    var dv = new DataView(buf.buffer, buf.byteOffset, buf.byteLength);
+    if (dv.getUint16(0, true) !== 0x0003) return null; // not compiled XML
+
+    var pool = null;
+    var resMap = [];
+    var root = { name: "#root", children: [] };
+    var stack = [root];
+    var p = 8;
+    var guard = 0;
+
+    while (p + 8 <= buf.length && guard++ < 200000) {
+      var type = dv.getUint16(p, true);
+      var size = dv.getUint32(p + 4, true);
+      if (size < 8 || p + size > buf.length) break; // malformed chunk -> stop
+
+      if (type === 0x0001) {
+        try {
+          pool = parseStringPool(buf, dv, p);
+        } catch (e) {
+          pool = pool || [];
+        }
+      } else if (type === 0x0180) {
+        var count = (size - 8) / 4;
+        for (var r = 0; r < count && r < 65536; r++) resMap.push(dv.getUint32(p + 8 + r * 4, true));
+      } else if (type === 0x0102) {
+        // start element
+        var node = readRestrictionNode(buf, dv, p, pool);
+        var parent = stack[stack.length - 1] || root;
+        if (parent.children.length < 20000) parent.children.push(node);
+        if (stack.length < 64) stack.push(node);
+      } else if (type === 0x0103) {
+        // end element
+        if (stack.length > 1) stack.pop();
+      }
+      p += size;
+    }
+
+    var top = root.children[0];
+    if (!top || top.name !== "restrictions") return null;
+    return collectRestrictions(top, 0);
+  }
+
+  // Node-level attribute read for a restriction/<restrictions> element.
+  function readRestrictionNode(buf, dv, p, pool) {
+    var node = { name: null, key: null, type: null, def: null, children: [] };
+    try {
+      var nameIdx = dv.getInt32(p + 20, true);
+      node.name = pool && pool[nameIdx] != null ? pool[nameIdx] : null;
+      var attrStart = dv.getUint16(p + 24, true);
+      var attrCount = dv.getUint16(p + 28, true);
+      var baseOff = p + 16 + attrStart;
+      for (var a = 0; a < attrCount && a < 64; a++) {
+        var o = baseOff + a * 20;
+        if (o + 20 > buf.length) break;
+        var aNameIdx = dv.getInt32(o + 4, true);
+        var rawIdx = dv.getInt32(o + 8, true);
+        var dataType = dv.getUint8(o + 15);
+        var data = dv.getUint32(o + 16, true);
+        var k = aNameIdx >= 0 && pool && pool[aNameIdx] ? pool[aNameIdx] : null;
+        if (!k) continue;
+        var val = decodeValue(pool, rawIdx, dataType, data);
+        switch (String(k).toLowerCase()) {
+          case "key":
+            node.key = val;
+            break;
+          case "restrictiontype":
+            node.type = typeof val === "number" ? RESTRICTION_TYPES[val] || String(val) : String(val);
+            break;
+          case "defaultvalue":
+            // A reference-typed default points at a bundled resource we can't
+            // resolve without the resource table; show it honestly, not as a
+            // bare (and misleading) resource id.
+            node.def = dataType === 0x01 ? "@0x" + (data >>> 0).toString(16) : val;
+            break;
+        }
+      }
+    } catch (e) {
+      /* leave whatever parsed */
+    }
+    return node;
+  }
+
+  // Flatten the element tree into restriction entries, preserving nesting.
+  function collectRestrictions(el, depth) {
+    var out = [];
+    if (!el || !el.children || depth > 20) return out;
+    for (var i = 0; i < el.children.length; i++) {
+      var c = el.children[i];
+      if (c.name !== "restriction") continue;
+      out.push({
+        key: c.key != null ? String(c.key) : null,
+        type: c.type != null ? String(c.type) : null,
+        def: c.def,
+        children: collectRestrictions(c, depth + 1)
+      });
+    }
+    return out;
   }
 
   /* ------------------------------------------------------------------ *
@@ -749,15 +1122,17 @@
       chips.push(chip("warn", '<span class="material-symbols-outlined">gpp_bad</span>Unsigned'));
     }
     (d.schemes || []).forEach(function (s) {
-      chips.push(chip("good", esc(s)));
+      chips.push(chip("good", esc(sentence(s))));
     });
-    if (m.minSdk != null) chips.push(chip("info", '<span class="k">min</span> SDK ' + esc(String(m.minSdk))));
-    if (m.targetSdk != null) chips.push(chip("info", '<span class="k">target</span> SDK ' + esc(String(m.targetSdk))));
+    if (m.minSdk != null) chips.push(chip("info", '<span class="k">Min</span> SDK ' + esc(String(m.minSdk))));
+    if (m.targetSdk != null) chips.push(chip("info", '<span class="k">Target</span> SDK ' + esc(String(m.targetSdk))));
     if (c && c.keyAlg != null) chips.push(chip("", esc(c.keyAlg)));
-    if (c && c.isDebug) chips.push(chip("warn", '<span class="material-symbols-outlined">bug_report</span>debug cert'));
-    else if (c) chips.push(chip("", "release cert"));
-    if (m.debuggable) chips.push(chip("warn", "debuggable"));
-    if (m.testOnly) chips.push(chip("warn", "testOnly"));
+    if (c && c.isDebug) chips.push(chip("warn", '<span class="material-symbols-outlined">bug_report</span>Debug cert'));
+    else if (c) chips.push(chip("", "Release cert"));
+    if (m.debuggable) chips.push(chip("warn", "Debuggable"));
+    if (m.testOnly) chips.push(chip("warn", "Test only"));
+    if (d.managedConfig && d.managedConfig.present)
+      chips.push(chip("info", '<span class="material-symbols-outlined">tune</span>Managed config'));
 
     var html = '<div class="apk-chips">' + chips.join("") + "</div>";
     html += '<div class="apk-grid">';
@@ -842,16 +1217,67 @@
 
     html += card("Signing", "verified_user", kv(signRows), { wide: true });
 
-    // Permissions.
-    if (m.permissions && m.permissions.length) {
-      var perms =
-        '<ul class="apk-perms">' +
-        m.permissions
-          .map(function (p) {
-            return "<li><code>" + esc(p) + "</code></li>";
+    // Managed configuration (app restrictions).
+    if (d.managedConfig && d.managedConfig.present) {
+      var mc = d.managedConfig;
+      var mcBody;
+      var mcCount;
+      if (mc.keys && mc.keys.length) {
+        mcCount = countKeys(mc.keys);
+        var blocks = mc.keys
+          .map(function (k) {
+            return '<div class="apk-mc-block">' + mcBlockRows(k, 0) + "</div>";
           })
-          .join("") +
-        "</ul>";
+          .join("");
+        mcBody =
+          '<p class="apk-mc-cap">Each key, its type, and default value.</p>' +
+          '<div class="apk-mc-scroll"><div class="apk-mc-cols">' + blocks + "</div></div>" +
+          '<details class="apk-mc-raw"><summary>Raw restrictions</summary><pre>' +
+          esc(mcRaw(mc.keys)) +
+          "</pre></details>" +
+          mcCallout();
+      } else if (mc.keys) {
+        mcBody = "<p>Declared in the manifest, but the restrictions resource contained no keys.</p>";
+      } else {
+        mcBody =
+          "<p>Declared in the manifest (<code>android.content.APP_RESTRICTIONS</code>), " +
+          "but the restrictions resource couldn't be read from this APK.</p>";
+      }
+      html += card("Managed configuration", "tune", mcBody, { wide: true, count: mcCount });
+    }
+
+    // Permissions - a Permission | Description | Type table. Description is
+    // Android's own published text where one exists; system-level permissions
+    // get a factual stock line; anything else a placeholder. Runtime/special
+    // (admin-grantable) sort first.
+    if (m.permissions && m.permissions.length) {
+      var classified = m.permissions.map(function (p) {
+        return permInfo(p, m.definedPermissions);
+      });
+      classified.sort(function (a, b) {
+        return a.order !== b.order ? a.order - b.order : a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+      });
+      var androidVer = typeof window !== "undefined" && window.APK_PERMISSIONS_ANDROID;
+      var note = androidVer
+        ? '<p class="apk-perm-note">Descriptions and protection levels are Android’s own, as of the Android ' +
+          esc(String(androidVer)) +
+          " platform.</p>"
+        : "";
+      var rows = classified
+        .map(function (c) {
+          return (
+            '<div class="apk-pt-name"><code>' + esc(c.name) + "</code></div>" +
+            '<div class="apk-pt-desc' + (c.descClass ? " " + c.descClass : "") + '">' + c.desc + "</div>" +
+            '<div class="apk-pt-type">' + c.type + "</div>"
+          );
+        })
+        .join("");
+      var perms =
+        '<div class="apk-perm-scroll"><div class="apk-permtable">' +
+        '<div class="apk-pt-h">Permission</div><div class="apk-pt-h">Description</div><div class="apk-pt-h">Type</div>' +
+        rows +
+        "</div></div>" +
+        note;
       html += card("Permissions", "lock", perms, { wide: true, count: m.permissions.length });
     }
 
@@ -893,6 +1319,135 @@
     return '<span class="apk-chip' + (kind ? " apk-chip-" + kind : "") + '">' + inner + "</span>";
   }
 
+  // Permission table row data. Codes come from the injected platform map
+  // (d/n/s/p/i/a/x); see gen_permissions.js. Type + stock descriptions follow
+  // the sysapps database conventions.
+  var PERM_TYPES = {
+    d: { type: "Dangerous (Runtime)", kind: "danger", order: 0 },
+    a: { type: "Special (App-op)", kind: "warn", order: 0 },
+    s: { type: "Signature", kind: "sig", order: 1 },
+    p: { type: "Privileged", kind: "sig", order: 1 },
+    i: { type: "Internal", kind: "sig", order: 1 },
+    n: { type: "Normal", kind: "muted", order: 2 },
+    x: { type: "Other", kind: "muted", order: 2 }
+  };
+  var PERM_STOCK_DESC = {
+    s: "Signature-level system permission, for platform-signed apps.",
+    p: "Signature or privileged system permission.",
+    i: "Internal platform permission, not available to apps."
+  };
+  var PERM_PLACEHOLDER = '<span class="apk-pt-none">Not provided by AOSP source; may be added in future.</span>';
+
+  function permInfo(name, defined) {
+    // A permission the app itself defines: level comes straight from the APK.
+    if (defined && defined[name] != null) {
+      var lvl = String(defined[name]);
+      var base = lvl.split("|")[0];
+      return {
+        name: name,
+        desc: "Defined by this app.",
+        descClass: "apk-pt-stock",
+        type: '<span class="apk-pt-tag">' + esc(base.charAt(0).toUpperCase() + base.slice(1)) + " (app-defined)</span>",
+        order: 3
+      };
+    }
+    var map = typeof window !== "undefined" && window.APK_PERMISSIONS;
+    var texts = (typeof window !== "undefined" && window.APK_PERMISSIONS_TEXT) || {};
+    var short = name.indexOf("android.permission.") === 0 ? name.slice(19) : name;
+    var code = map ? map[short] || map[name] : null;
+    var t = code && PERM_TYPES[code];
+    if (!t) {
+      // Not an AOSP platform permission (vendor/GMS/unknown, or no map loaded).
+      return { name: name, desc: '<span class="apk-pt-none">-</span>', descClass: "", type: '<span class="apk-pt-none">-</span>', order: 4 };
+    }
+    var text = texts[short] || texts[name];
+    var desc = text ? esc(text) : PERM_STOCK_DESC[code] || PERM_PLACEHOLDER;
+    return {
+      name: name,
+      desc: desc,
+      descClass: !text && PERM_STOCK_DESC[code] ? "apk-pt-stock" : "",
+      type: '<span class="apk-pt-tag apk-pt-' + t.kind + '">' + esc(t.type) + "</span>",
+      order: t.order
+    };
+  }
+
+  // Managed-config helpers.
+  function countKeys(keys) {
+    var n = 0;
+    (function walk(a) {
+      if (!a) return;
+      a.forEach(function (k) {
+        n++;
+        if (k.children) walk(k.children);
+      });
+    })(keys);
+    return n;
+  }
+
+  function isBundle(type) {
+    return type === "bundle" || type === "bundle_array";
+  }
+
+  // One top-level key and its nested descendants, as inline rows.
+  function mcBlockRows(k, depth) {
+    if (depth > 20) return "";
+    var html = mcRow(k, depth);
+    if (k.children && k.children.length) {
+      for (var i = 0; i < k.children.length; i++) html += mcBlockRows(k.children[i], depth + 1);
+    }
+    return html;
+  }
+
+  function mcRow(k, depth) {
+    var tag = k.type
+      ? '<span class="apk-mc-tag' + (isBundle(k.type) ? " apk-mc-tag-bundle" : "") + '">' + esc(k.type) + "</span>"
+      : "";
+    return (
+      '<div class="apk-mc-row" style="padding-left:' + depth * 14 + 'px">' +
+      '<code class="apk-mc-key">' + esc(k.key != null ? k.key : "(unnamed)") + "</code>" +
+      tag +
+      mcDefaultInline(k.def) +
+      "</div>"
+    );
+  }
+
+  // Inline "= default"; omitted entirely when there is no meaningful default.
+  function mcDefaultInline(def) {
+    if (def === true) return eqVal("true");
+    if (def === false) return eqVal("false");
+    if (def == null || def === "" || def === "undefined") return "";
+    return eqVal(esc(String(def)));
+  }
+
+  function eqVal(v) {
+    return ' <span class="apk-mc-eq">=</span> <code>' + v + "</code>";
+  }
+
+  // A compact, readable raw dump of the parsed restriction tree.
+  function mcRaw(keys) {
+    function clean(list) {
+      return list.map(function (k) {
+        var o = { key: k.key, type: k.type };
+        if (k.def != null && k.def !== "") o.default = k.def;
+        if (k.children && k.children.length) o.children = clean(k.children);
+        return o;
+      });
+    }
+    try {
+      return JSON.stringify(clean(keys), null, 2);
+    } catch (e) {
+      return "(unavailable)";
+    }
+  }
+
+  function mcCallout() {
+    return (
+      '<p class="apk-callout"><span class="material-symbols-outlined">info</span>' +
+      "Read on a best-effort basis from the APK's compiled resources. For the definitive, " +
+      'on-device managed configuration schema, use <a href="/projects/package-search/">Package Search</a>.</p>'
+    );
+  }
+
   // Plain, selectable monospace value.
   function codeCopy(text) {
     return "<code>" + esc(text) + "</code>";
@@ -904,6 +1459,11 @@
 
   function sdk(v) {
     return v == null ? "n/a" : esc(String(v));
+  }
+
+  function sentence(s) {
+    s = String(s);
+    return s.charAt(0).toUpperCase() + s.slice(1);
   }
 
   // Map an API level to the site's Android version pill (the same
