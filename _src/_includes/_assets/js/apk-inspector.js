@@ -1261,7 +1261,7 @@
       var note = androidVer
         ? '<p class="apk-perm-note">Descriptions and protection levels are sourced from AOSP, aligned with Android ' +
           esc(String(androidVer)) +
-          " platform.</p>"
+          "</p>"
         : "";
       var rows = classified
         .map(function (c) {
