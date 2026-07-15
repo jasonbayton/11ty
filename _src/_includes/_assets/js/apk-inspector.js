@@ -1357,8 +1357,25 @@
     var code = map ? map[short] || map[name] : null;
     var t = code && PERM_TYPES[code];
     if (!t) {
-      // Not an AOSP platform permission (vendor/GMS/unknown, or no map loaded).
-      return { name: name, desc: '<span class="apk-pt-none">-</span>', descClass: "", type: '<span class="apk-pt-none">-</span>', order: 4 };
+      // Not in the AOSP platform manifest. Either the classification data didn't
+      // load, an android.* permission defined by another framework component, or
+      // a vendor / third-party constant. Give each a meaningful fallback.
+      if (!map) {
+        return { name: name, desc: '<span class="apk-pt-none">-</span>', descClass: "", type: '<span class="apk-pt-none">-</span>', order: 5 };
+      }
+      var isAndroid = /^android\./.test(name);
+      return {
+        name: name,
+        desc:
+          '<span class="apk-pt-none">' +
+          (isAndroid
+            ? "Android permission not described in the platform manifest."
+            : "Vendor or third-party permission, defined outside the Android platform.") +
+          "</span>",
+        descClass: "",
+        type: '<span class="apk-pt-tag apk-pt-muted">' + (isAndroid ? "Unknown" : "Third-party") + "</span>",
+        order: isAndroid ? 4 : 5
+      };
     }
     var text = texts[short] || texts[name];
     var desc = text ? esc(text) : PERM_STOCK_DESC[code] || PERM_PLACEHOLDER;
