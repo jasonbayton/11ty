@@ -1259,7 +1259,7 @@
       });
       var androidVer = typeof window !== "undefined" && window.APK_PERMISSIONS_ANDROID;
       var note = androidVer
-        ? '<p class="apk-perm-note">Descriptions and protection levels are Android’s own, as of the Android ' +
+        ? '<p class="apk-perm-note">Descriptions and protection levels are sourced from AOSP, aligned with Android ' +
           esc(String(androidVer)) +
           " platform.</p>"
         : "";
