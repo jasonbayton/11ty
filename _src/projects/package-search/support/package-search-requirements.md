@@ -26,7 +26,7 @@ In order to leverage PACKAGE SEARCH, the following requirements and recommendati
 
 The following endpoints will be occasionally called for analytics and functionality (e.g. fetching additional Google Play information for applications):
 
-1. https://ping.projects.bayton.org:443
+1. https://ping.bayton.org:443
 2. gcm-http.googleapis.com:443/5228-5230
 3. gcm-xmpp.googleapis.com:443/5228-5230
 4. android.googleapis.com:443

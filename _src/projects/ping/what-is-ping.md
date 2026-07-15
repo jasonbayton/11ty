@@ -46,8 +46,6 @@ This is in addition to all analytics data.
 
 **PING hosts**
 
-- `ping.projects.bayton.org:443`
-- `ping-dir.projects.bayton.org:443`
 - `ping.bayton.org:443`
 
 ## Is PING secure? 

@@ -61,7 +61,7 @@ Customisations are sent through managed config, and if a device is not online - 
 
 **No access to the licensing server**
 
-If the device(s) cannot reach `ping.projects.bayton.org`, a valid licence cannot be confirmed, and restrictions will not apply. See [network requirements](/projects/managed-settings/support/managed-settings-requirements/).
+If the device(s) cannot reach `ping.bayton.org`, a valid licence cannot be confirmed, and restrictions will not apply. See [network requirements](/projects/managed-settings/support/managed-settings-requirements/).
 
 **Invalid/unlicensed organisation ID**
 

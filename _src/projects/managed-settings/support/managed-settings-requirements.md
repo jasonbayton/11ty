@@ -30,7 +30,7 @@ Network connectivity is **mandatory** to allow the licensing server to validate 
 
 The following endpoints are required for application functionality:
 
-1. https://ping.projects.bayton.org:443
+1. https://ping.bayton.org:443
 2. gcm-http.googleapis.com:443/5228-5230
 3. gcm-xmpp.googleapis.com:443/5228-5230
 4. android.googleapis.com:443
