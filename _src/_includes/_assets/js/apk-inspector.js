@@ -1457,11 +1457,13 @@
     }
   }
 
+  // The icon and the sentence are the only two flex items: the copy is wrapped in
+  // a span so its inline link flows as text rather than becoming its own item.
   function mcCallout() {
     return (
       '<p class="apk-callout"><span class="material-symbols-outlined">info</span>' +
-      "Read on a best-effort basis from the APK's compiled resources. For the definitive, " +
-      'on-device managed configuration schema, use <a href="/projects/package-search/">Package Search</a>.</p>'
+      "<span>Read on a best-effort basis from the APK's compiled resources. For the definitive, " +
+      'on-device managed configuration schema, use <a href="/projects/package-search/">Package Search</a>.</span></p>'
     );
   }
 
