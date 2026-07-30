@@ -231,6 +231,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -639,11 +644,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -1285,6 +1285,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -1335,11 +1340,6 @@
         "os": "35"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -1380,6 +1380,10 @@
         "name": "Quyền riêng tư trong quảng cáo"
       },
       {
+        "locale": "de-de",
+        "name": "Datenschutz bei Werbung"
+      },
+      {
         "locale": "es-es",
         "name": "Privacidad en la publicidad"
       },
@@ -1402,10 +1406,6 @@
       {
         "locale": "en-mt",
         "name": "Ad privacy"
-      },
-      {
-        "locale": "de-de",
-        "name": "Datenschutz bei Werbung"
       },
       {
         "locale": "fr-fr",
@@ -1570,6 +1570,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -1895,11 +1900,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -2559,6 +2559,33 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-T636B",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A528B",
+        "os": "33"
+      },
+      {
+        "make": "Nothing",
+        "model": "A063",
+        "os": "35"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.pineapple.api34": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -2590,33 +2617,6 @@
         "make": "Xiaomi",
         "model": "M2101K6G",
         "os": "33"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.lahaina.api30": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-T636B",
-        "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A528B",
-        "os": "33"
-      },
-      {
-        "make": "Nothing",
-        "model": "A063",
-        "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -3738,6 +3738,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -3791,11 +3796,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -4126,6 +4126,10 @@
         "name": "Bộ hỗ trợ tiếp cận của Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android für Barrierefreiheit"
+      },
+      {
         "locale": "es-es",
         "name": "Suite de Accesibilidad Android"
       },
@@ -4140,10 +4144,6 @@
       {
         "locale": "th-th",
         "name": "ชุดเครื่องมือช่วยเหลือพิเศษใน Android"
-      },
-      {
-        "locale": "de-de",
-        "name": "Android für Barrierefreiheit"
       },
       {
         "locale": "sv-se",
@@ -4252,6 +4252,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -4549,11 +4554,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -4824,6 +4824,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -5159,11 +5164,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -5695,6 +5695,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -6118,11 +6123,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -6617,6 +6617,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -7047,11 +7052,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -7271,6 +7271,10 @@
         "name": "Thiết lập Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android-Einrichtung"
+      },
+      {
         "locale": "fr-fr",
         "name": "Configuration d'Android"
       },
@@ -7293,10 +7297,6 @@
       {
         "locale": "th-th",
         "name": "การตั้งค่า Android"
-      },
-      {
-        "locale": "de-de",
-        "name": "Android-Einrichtung"
       },
       {
         "locale": "fr-dz",
@@ -7480,6 +7480,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -7900,11 +7905,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -8259,6 +8259,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -8687,11 +8692,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -9106,6 +9106,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -9516,11 +9521,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -9721,6 +9721,10 @@
         "name": "Hệ thống Android"
       },
       {
+        "locale": "de-de",
+        "name": "Android-System"
+      },
+      {
         "locale": "fr-fr",
         "name": "Système Android"
       },
@@ -9747,10 +9751,6 @@
       {
         "locale": "en-mt",
         "name": "Android system"
-      },
-      {
-        "locale": "de-de",
-        "name": "Android-System"
       },
       {
         "locale": "fr-dz",
@@ -9939,6 +9939,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -10374,11 +10379,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -10855,6 +10855,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -11205,11 +11210,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -11530,6 +11530,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -11960,11 +11965,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -13813,6 +13813,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -13886,11 +13891,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -14311,6 +14311,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -14374,11 +14379,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -14471,6 +14471,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -14509,11 +14514,6 @@
         "make": "Zebra Technologies",
         "model": "KC50",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -17408,6 +17408,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -17456,11 +17461,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -22379,6 +22379,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -22802,11 +22807,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -24375,6 +24375,10 @@
         "name": "Lưu số điện thoại bị chặn"
       },
       {
+        "locale": "de-de",
+        "name": "Speicher für blockierte Nummern"
+      },
+      {
         "locale": "fr-fr",
         "name": "Enregistrer les numéros bloqués"
       },
@@ -24397,10 +24401,6 @@
       {
         "locale": "th-th",
         "name": "พื้นที่เก็บหมายเลขที่ถูกบล็อก"
-      },
-      {
-        "locale": "de-de",
-        "name": "Speicher für blockierte Nummern"
       },
       {
         "locale": "fr-dz",
@@ -24584,6 +24584,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -25019,11 +25024,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -25687,6 +25687,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "de-de",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "fr-fr",
         "name": "Bluetooth"
       },
@@ -25736,10 +25740,6 @@
       },
       {
         "locale": "en-mt",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "de-de",
         "name": "Bluetooth"
       },
       {
@@ -25965,6 +25965,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -26372,11 +26377,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -26732,6 +26732,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -27167,11 +27172,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -27646,6 +27646,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -28074,11 +28079,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -28960,6 +28960,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -29115,11 +29120,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -29272,6 +29272,10 @@
         "name": "Calculadora"
       },
       {
+        "locale": "de-de",
+        "name": "Rechner"
+      },
+      {
         "locale": "es-es",
         "name": "Calculadora"
       },
@@ -29286,10 +29290,6 @@
       {
         "locale": "th-th",
         "name": "เครื่องคิดเลข"
-      },
-      {
-        "locale": "de-de",
-        "name": "Rechner"
       },
       {
         "locale": "sv-se",
@@ -29369,6 +29369,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -29604,11 +29609,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -29857,16 +29857,16 @@
         "name": "Lịch"
       },
       {
+        "locale": "de-de",
+        "name": "Kalender"
+      },
+      {
         "locale": "nl-nl",
         "name": "Agenda"
       },
       {
         "locale": "th-th",
         "name": "ปฏิทิน"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kalender"
       },
       {
         "locale": "sv-se",
@@ -29974,6 +29974,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -30269,11 +30274,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -30612,6 +30612,10 @@
         "name": "Lưu trữ Lịch"
       },
       {
+        "locale": "de-de",
+        "name": "Kalenderspeicher"
+      },
+      {
         "locale": "fr-fr",
         "name": "Stockage du calendrier"
       },
@@ -30642,10 +30646,6 @@
       {
         "locale": "en-mt",
         "name": "Calendar storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kalenderspeicher"
       },
       {
         "locale": "fr-dz",
@@ -30850,6 +30850,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -31285,11 +31290,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -32211,6 +32211,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -32629,11 +32634,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -34705,6 +34705,23 @@
       }
     ]
   },
+  "com.ts.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "Kamera"
+      }
+    ],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.hmdglobal.app.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -34857,18 +34874,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      }
-    ]
-  },
-  "com.ts.camera": {
-    "appName": "Camera",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -35389,6 +35394,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -35772,11 +35782,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -36370,6 +36375,10 @@
         "name": "Đăng nhập trang xác thực"
       },
       {
+        "locale": "de-de",
+        "name": "Anmeldung über Captive Portal"
+      },
+      {
         "locale": "fr-fr",
         "name": "Connexion au portail captif"
       },
@@ -36400,10 +36409,6 @@
       {
         "locale": "en-mt",
         "name": "Captive portal login"
-      },
-      {
-        "locale": "de-de",
-        "name": "Anmeldung über Captive Portal"
       },
       {
         "locale": "fr-dz",
@@ -36584,6 +36589,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -36969,11 +36979,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -37462,6 +37467,10 @@
         "name": "Thông báo của nhà mạng"
       },
       {
+        "locale": "de-de",
+        "name": "Kommunikation mit Mobilfunkanbieter"
+      },
+      {
         "locale": "fr-fr",
         "name": "CarrierDefaultApp"
       },
@@ -37536,10 +37545,6 @@
       {
         "locale": "en-pk",
         "name": "Operator communications"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kommunikation mit Mobilfunkanbieter"
       },
       {
         "locale": "en-de",
@@ -37704,6 +37709,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -38094,11 +38104,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -39052,6 +39057,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "Pixel 10 Pro",
         "os": "37"
@@ -39739,6 +39749,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -40102,11 +40117,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -40515,6 +40525,10 @@
         "name": "Trình cài đặt Chứng chỉ"
       },
       {
+        "locale": "de-de",
+        "name": "Zertifikatsinstallationsprogramm"
+      },
+      {
         "locale": "fr-fr",
         "name": "Installation du certificat"
       },
@@ -40545,10 +40559,6 @@
       {
         "locale": "en-mt",
         "name": "Certificate installer"
-      },
-      {
-        "locale": "de-de",
-        "name": "Zertifikatsinstallationsprogramm"
       },
       {
         "locale": "fr-dz",
@@ -40741,6 +40751,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -41176,11 +41191,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -41679,6 +41689,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -42107,11 +42122,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -43701,6 +43711,10 @@
         "name": "Reloj"
       },
       {
+        "locale": "de-de",
+        "name": "Uhr"
+      },
+      {
         "locale": "es-es",
         "name": "Reloj"
       },
@@ -43711,10 +43725,6 @@
       {
         "locale": "nl-nl",
         "name": "Klok"
-      },
-      {
-        "locale": "de-de",
-        "name": "Uhr"
       },
       {
         "locale": "sv-se",
@@ -43809,6 +43819,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -44018,11 +44033,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -45071,6 +45081,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -45163,11 +45178,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -45676,6 +45686,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -46109,11 +46124,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -47782,6 +47792,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -48065,11 +48080,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -49111,6 +49121,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -49544,11 +49559,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -49908,6 +49918,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -50341,11 +50356,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -51252,6 +51262,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -51480,11 +51495,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -51956,6 +51966,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -52364,11 +52379,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -53230,6 +53240,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -53553,11 +53568,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -53924,6 +53934,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -54314,11 +54329,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -56154,6 +56164,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -56226,11 +56241,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -56931,6 +56941,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -57339,11 +57354,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -57772,6 +57782,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -58205,11 +58220,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -59507,6 +59517,18 @@
       }
     ]
   },
+  "com.android.providers.telephony.overlay.common": {
+    "appName": "com.android.providers.telephony.overlay.common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.android.providers.telephony.overlay.grapheneos": {
     "appName": "com.android.providers.telephony.overlay.grapheneos",
     "userFacing": false,
@@ -60415,6 +60437,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -60468,11 +60495,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -61166,6 +61188,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -61234,11 +61261,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -61946,6 +61968,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -62381,11 +62408,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -62695,6 +62717,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -62813,11 +62840,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -63072,6 +63094,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -63279,11 +63306,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -64740,6 +64762,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -64813,11 +64840,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -66175,6 +66197,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -66418,11 +66445,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -66722,6 +66744,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -67159,11 +67186,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -67494,6 +67516,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -67879,11 +67906,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -68289,6 +68311,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
@@ -68447,11 +68474,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -69004,6 +69026,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -69069,11 +69096,6 @@
         "os": "35"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -69128,6 +69150,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -69151,11 +69178,6 @@
         "make": "Zebra Technologies",
         "model": "KC50",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -70965,6 +70987,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "CUBOT",
         "model": "P80",
         "os": "33"
@@ -71268,11 +71295,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -72273,6 +72295,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -72586,11 +72613,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -73369,6 +73391,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -73647,11 +73674,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -74806,6 +74828,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -75084,11 +75111,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -75388,6 +75410,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -75730,11 +75757,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -75964,6 +75986,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -76152,11 +76179,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -76572,6 +76594,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -76887,11 +76914,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -77179,6 +77201,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -77506,11 +77533,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -77754,6 +77776,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -77912,11 +77939,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -78099,6 +78121,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -78386,11 +78413,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -78545,6 +78567,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -78623,11 +78650,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "OUKITEL",
@@ -79497,6 +79519,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -79770,11 +79797,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -80483,6 +80505,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -80803,11 +80830,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -81098,6 +81120,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -81438,11 +81465,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -82081,6 +82103,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -82424,11 +82451,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -82740,6 +82762,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -83083,11 +83110,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -83382,6 +83404,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -83727,11 +83754,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -83921,6 +83943,18 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.overlay.networkstack": {
+    "appName": "com.google.android.overlay.networkstack",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -85113,6 +85147,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -85436,11 +85475,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -87469,6 +87503,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -87512,11 +87551,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "OnePlus",
@@ -88501,6 +88535,42 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.isafemobile.ismpermissionpolicy.overlay": {
+    "appName": "com.isafemobile.ismpermissionpolicy.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "com.isafemobile.networkstack.aosp.overlay": {
+    "appName": "com.isafemobile.networkstack.aosp.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
+  "com.isafemobile.networkstack.gms.overlay": {
+    "appName": "com.isafemobile.networkstack.gms.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       }
     ]
   },
@@ -95871,6 +95941,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -95889,11 +95964,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -95921,6 +95991,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -96018,11 +96093,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -96092,6 +96162,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -96120,11 +96195,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -96162,6 +96232,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -96234,11 +96309,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -96284,6 +96354,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -96373,11 +96448,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -96724,6 +96794,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -96781,11 +96856,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -96910,6 +96980,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -96990,11 +97065,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -97047,6 +97117,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
@@ -97065,11 +97140,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -97087,6 +97157,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -97159,11 +97234,6 @@
         "os": "35"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -97219,6 +97289,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -97313,11 +97388,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -97970,6 +98040,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -98013,11 +98088,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -98079,6 +98149,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -98158,11 +98233,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -98385,6 +98455,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -98465,11 +98540,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -98530,6 +98600,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -98614,11 +98689,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -98711,6 +98781,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -98738,11 +98813,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -98811,6 +98881,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -98976,11 +99051,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -108651,6 +108721,10 @@
         "name": "Trình quản lý thiết bị đồng hành"
       },
       {
+        "locale": "de-de",
+        "name": "Begleitgerät-Manager"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestionnaire d'appareils associés"
       },
@@ -108665,10 +108739,6 @@
       {
         "locale": "it-it",
         "name": "Gestione dispositivi associati"
-      },
-      {
-        "locale": "de-de",
-        "name": "Begleitgerät-Manager"
       },
       {
         "locale": "fr-dz",
@@ -108853,6 +108923,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -109288,11 +109363,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -110363,6 +110433,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -110791,11 +110866,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -112693,6 +112763,10 @@
         "name": "Контакты"
       },
       {
+        "locale": "de-de",
+        "name": "Kontakte"
+      },
+      {
         "locale": "es-es",
         "name": "Contactos"
       },
@@ -112711,10 +112785,6 @@
       {
         "locale": "sv-se",
         "name": "Kontakter"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kontakte"
       },
       {
         "locale": "ja-jp",
@@ -112810,6 +112880,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -113080,11 +113155,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -113708,6 +113778,10 @@
         "name": "Lưu trữ liên hệ"
       },
       {
+        "locale": "de-de",
+        "name": "Kontakte-Speicher"
+      },
+      {
         "locale": "es-es",
         "name": "Almacenamiento de contactos"
       },
@@ -113726,10 +113800,6 @@
       {
         "locale": "en-mt",
         "name": "Contacts storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kontakte-Speicher"
       },
       {
         "locale": "sv-se",
@@ -113858,6 +113928,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -114178,11 +114253,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -115287,6 +115357,10 @@
         "name": "Vết cắt ở góc"
       },
       {
+        "locale": "de-de",
+        "name": "Aussparung in der Ecke"
+      },
+      {
         "locale": "fr-fr",
         "name": "Encoche d'angle"
       },
@@ -115309,10 +115383,6 @@
       {
         "locale": "th-th",
         "name": "คัตเอาท์แบบมุม"
-      },
-      {
-        "locale": "de-de",
-        "name": "Aussparung in der Ecke"
       },
       {
         "locale": "fr-dz",
@@ -115486,6 +115556,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -115901,11 +115976,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -116369,6 +116439,10 @@
         "name": "Trình quản lý thông tin xác thực"
       },
       {
+        "locale": "de-de",
+        "name": "Anmeldedaten-Manager"
+      },
+      {
         "locale": "pl-pl",
         "name": "Menedżer danych logowania"
       },
@@ -116399,10 +116473,6 @@
       {
         "locale": "en-de",
         "name": "Credential manager"
-      },
-      {
-        "locale": "de-de",
-        "name": "Anmeldedaten-Manager"
       },
       {
         "locale": "ja-jp",
@@ -116529,6 +116599,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -116814,11 +116889,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -117326,6 +117396,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
@@ -117468,11 +117543,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -118756,6 +118826,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -118814,11 +118889,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -119260,6 +119330,10 @@
         "name": "Dịch vụ in hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "Standarddruckdienst"
+      },
+      {
         "locale": "fr-fr",
         "name": "Service d'impression par défaut"
       },
@@ -119290,10 +119364,6 @@
       {
         "locale": "en-mt",
         "name": "Default print service"
-      },
-      {
-        "locale": "de-de",
-        "name": "Standarddruckdienst"
       },
       {
         "locale": "fr-dz",
@@ -119480,6 +119550,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -119915,11 +119990,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -121144,6 +121214,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -121452,11 +121527,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -122005,6 +122075,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -123516,6 +123591,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -123673,11 +123753,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -124989,6 +125064,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -125287,11 +125367,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -126148,6 +126223,10 @@
         "name": "Vết cắt kép"
       },
       {
+        "locale": "de-de",
+        "name": "Doppelte Aussparung"
+      },
+      {
         "locale": "fr-fr",
         "name": "Encoche double"
       },
@@ -126170,10 +126249,6 @@
       {
         "locale": "th-th",
         "name": "คัตเอาท์แบบคู่"
-      },
-      {
-        "locale": "de-de",
-        "name": "Doppelte Aussparung"
       },
       {
         "locale": "fr-dz",
@@ -126347,6 +126422,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -126764,11 +126844,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -126966,6 +127041,10 @@
         "name": "Tải xuống"
       },
       {
+        "locale": "de-de",
+        "name": "Download-Manager"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestionnaire de téléchargement"
       },
@@ -126984,10 +127063,6 @@
       {
         "locale": "nl-nl",
         "name": "Downloadbeheer"
-      },
-      {
-        "locale": "de-de",
-        "name": "Download-Manager"
       },
       {
         "locale": "fr-dz",
@@ -127180,6 +127255,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -127617,11 +127697,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -128045,6 +128120,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -128475,11 +128555,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -129211,6 +129286,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -129474,11 +129554,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -130746,6 +130821,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -131154,11 +131234,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -132574,6 +132649,10 @@
         "name": "com.android.emergency"
       },
       {
+        "locale": "de-de",
+        "name": "com.android.emergency"
+      },
+      {
         "locale": "fr-fr",
         "name": "Informations d'urgence"
       },
@@ -132599,10 +132678,6 @@
       },
       {
         "locale": "en-mt",
-        "name": "com.android.emergency"
-      },
-      {
-        "locale": "de-de",
         "name": "com.android.emergency"
       },
       {
@@ -132723,6 +132798,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -133023,11 +133103,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -135487,18 +135562,6 @@
       }
     ]
   },
-  "com.datalogic.euiccoverlayapp": {
-    "appName": "EuiccOverlayApp",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Datalogic",
-        "model": "Memor 35/35X",
-        "os": "35"
-      }
-    ]
-  },
   "com.plum.EuiccOverlayApp": {
     "appName": "EuiccOverlayApp",
     "userFacing": false,
@@ -135508,6 +135571,18 @@
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      }
+    ]
+  },
+  "com.datalogic.euiccoverlayapp": {
+    "appName": "EuiccOverlayApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Datalogic",
+        "model": "Memor 35/35X",
+        "os": "35"
       }
     ]
   },
@@ -135629,6 +135704,10 @@
         "name": "Bộ nhớ ngoài"
       },
       {
+        "locale": "de-de",
+        "name": "Externer Speicher"
+      },
+      {
         "locale": "fr-fr",
         "name": "Stockage externe"
       },
@@ -135655,10 +135734,6 @@
       {
         "locale": "en-mt",
         "name": "External storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Externer Speicher"
       },
       {
         "locale": "fr-dz",
@@ -135847,6 +135922,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -136282,11 +136362,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -139519,6 +139594,10 @@
         "name": "Archivos"
       },
       {
+        "locale": "de-de",
+        "name": "Dateien"
+      },
+      {
         "locale": "fr-fr",
         "name": "Fichiers"
       },
@@ -139537,10 +139616,6 @@
       {
         "locale": "nl-nl",
         "name": "Bestanden"
-      },
-      {
-        "locale": "de-de",
-        "name": "Dateien"
       },
       {
         "locale": "fr-dz",
@@ -139709,6 +139784,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -140099,11 +140179,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -140528,6 +140603,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -140741,11 +140821,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -144228,6 +144303,10 @@
         "name": "Vị trí được hợp nhất"
       },
       {
+        "locale": "de-de",
+        "name": "Kombinierte Standortbest."
+      },
+      {
         "locale": "es-es",
         "name": "Ubicación combinada"
       },
@@ -144238,10 +144317,6 @@
       {
         "locale": "nl-nl",
         "name": "Samengestelde locatie"
-      },
-      {
-        "locale": "de-de",
-        "name": "Kombinierte Standortbest."
       },
       {
         "locale": "es-mx",
@@ -144418,6 +144493,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -144853,11 +144933,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -148515,6 +148590,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -148815,11 +148895,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -149098,6 +149173,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
@@ -149360,6 +149440,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -149553,11 +149638,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -150141,6 +150221,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -150334,11 +150419,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -150810,6 +150890,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -151220,11 +151305,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -151452,6 +151532,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -151645,11 +151730,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -152301,6 +152381,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -152724,11 +152809,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -153225,6 +153305,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -153633,11 +153718,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -154531,6 +154611,10 @@
         "name": "Lịch sử vị trí trên Google"
       },
       {
+        "locale": "de-de",
+        "name": "Google-Standortverlauf"
+      },
+      {
         "locale": "fr-fr",
         "name": "Historique des positions Google"
       },
@@ -154553,10 +154637,6 @@
       {
         "locale": "th-th",
         "name": "Google ประวัติตำแหน่ง"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google-Standortverlauf"
       },
       {
         "locale": "fr-dz",
@@ -154725,6 +154805,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -155120,11 +155205,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -155541,6 +155621,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -155946,11 +156031,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -156291,6 +156371,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -156721,11 +156806,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -157227,6 +157307,10 @@
         "name": "Dịch vụ Google Play"
       },
       {
+        "locale": "de-de",
+        "name": "Google Play-Dienste"
+      },
+      {
         "locale": "fr-fr",
         "name": "Services Google Play"
       },
@@ -157249,10 +157333,6 @@
       {
         "locale": "th-th",
         "name": "บริการ Google Play"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google Play-Dienste"
       },
       {
         "locale": "fr-dz",
@@ -157441,6 +157521,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -157871,11 +157956,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -158643,6 +158723,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -159073,11 +159158,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -159283,6 +159363,10 @@
         "name": "Tài nguyên Trung tâm An toàn của Google"
       },
       {
+        "locale": "de-de",
+        "name": "Google Sicherheitscenter-Ressourcen"
+      },
+      {
         "locale": "fr-fr",
         "name": "Ressources du Centre de sécurité Google"
       },
@@ -159309,10 +159393,6 @@
       {
         "locale": "en-mt",
         "name": "Google Safety Centre resources"
-      },
-      {
-        "locale": "de-de",
-        "name": "Google Sicherheitscenter-Ressourcen"
       },
       {
         "locale": "fr-dz",
@@ -159483,6 +159563,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -159845,11 +159930,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -160042,6 +160122,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -160165,11 +160250,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -160449,6 +160529,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -160877,11 +160962,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -161198,6 +161278,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -161441,11 +161526,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -161756,6 +161836,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A125F",
         "os": "31"
@@ -161999,11 +162084,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -163480,6 +163560,10 @@
         "name": "Health Connect"
       },
       {
+        "locale": "de-de",
+        "name": "Health Connect"
+      },
+      {
         "locale": "pl-pl",
         "name": "Health Connect"
       },
@@ -163494,10 +163578,6 @@
       {
         "locale": "fr-fr",
         "name": "Santé Connect"
-      },
-      {
-        "locale": "de-de",
-        "name": "Health Connect"
       },
       {
         "locale": "ja-jp",
@@ -163619,6 +163699,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -163899,11 +163984,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -165642,11 +165722,21 @@
   "com.android.protips": {
     "appName": "Home screen tips",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "Tipps für den Startbildschirm"
+      }
+    ],
     "devices": [
       {
         "make": "Elo Touch Solutions",
         "model": "15in-I-Series-5",
+        "os": "34"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       },
       {
@@ -165668,11 +165758,6 @@
         "make": "Datalogic",
         "model": "Memor 35/35X",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "SMT_HK",
@@ -166012,6 +166097,10 @@
         "name": "Trình xem HTML"
       },
       {
+        "locale": "de-de",
+        "name": "HTML-Anzeige"
+      },
+      {
         "locale": "fr-fr",
         "name": "Visionneuse HTML"
       },
@@ -166034,10 +166123,6 @@
       {
         "locale": "th-th",
         "name": "โปรแกรมดู HTML"
-      },
-      {
-        "locale": "de-de",
-        "name": "HTML-Anzeige"
       },
       {
         "locale": "fr-dz",
@@ -166226,6 +166311,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -166661,11 +166751,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -167132,7 +167217,12 @@
   "isafemobile.platform": {
     "appName": "i.safe MOBILE Framework Resources",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "i.safe MOBILE-System"
+      }
+    ],
     "devices": [
       {
         "make": "isafemobile",
@@ -167144,7 +167234,12 @@
   "com.isafemobile.isafemobileparts": {
     "appName": "i.safe MOBILE Framework Settings",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "i.safe MOBILE-Einstellungen"
+      }
+    ],
     "devices": [
       {
         "make": "isafemobile",
@@ -167156,7 +167251,12 @@
   "com.isafemobile.isafemobilesettings": {
     "appName": "i.safe MOBILE Framework Settings Provider",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "de-de",
+        "name": "i.safe MOBILE-Einstellungsspeicher"
+      }
+    ],
     "devices": [
       {
         "make": "isafemobile",
@@ -168695,6 +168795,10 @@
         "name": "Thiết bị đầu vào"
       },
       {
+        "locale": "de-de",
+        "name": "Eingabegeräte"
+      },
+      {
         "locale": "es-es",
         "name": "Dispositivos de introducción de datos"
       },
@@ -168717,10 +168821,6 @@
       {
         "locale": "en-mt",
         "name": "Input devices"
-      },
-      {
-        "locale": "de-de",
-        "name": "Eingabegeräte"
       },
       {
         "locale": "sv-se",
@@ -168896,6 +168996,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -169331,11 +169436,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -170026,6 +170126,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -170314,11 +170419,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -171054,6 +171154,18 @@
       }
     ]
   },
+  "android.autoinstalls.config.isafemobile.carrier": {
+    "appName": "ISM Carrier Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "jp.co.omronsoft.openwnn": {
     "appName": "Japanische IME",
     "userFacing": false,
@@ -171189,6 +171301,10 @@
         "name": "Keep notes"
       },
       {
+        "locale": "de-de",
+        "name": "Notizen"
+      },
+      {
         "locale": "es-es",
         "name": "Keep (notas)"
       },
@@ -171211,10 +171327,6 @@
       {
         "locale": "en-sg",
         "name": "Keep notes"
-      },
-      {
-        "locale": "de-de",
-        "name": "Notizen"
       },
       {
         "locale": "en-ph",
@@ -171278,6 +171390,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -171398,11 +171515,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -171712,6 +171824,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -172147,11 +172264,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -177045,6 +177157,10 @@
         "name": "Trình chọn Hình nền Động"
       },
       {
+        "locale": "de-de",
+        "name": "Live-Hintergrund-Auswahl"
+      },
+      {
         "locale": "fr-fr",
         "name": "Sélecteur de fond d'écran animé"
       },
@@ -177067,10 +177183,6 @@
       {
         "locale": "en-mt",
         "name": "Live wallpaper picker"
-      },
-      {
-        "locale": "de-de",
-        "name": "Live-Hintergrund-Auswahl"
       },
       {
         "locale": "fr-dz",
@@ -177253,6 +177365,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -177653,11 +177770,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -178271,6 +178383,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -178389,11 +178506,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -178976,6 +179088,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -179029,11 +179146,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -179720,6 +179832,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -180120,11 +180237,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -180425,6 +180537,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -180750,11 +180867,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -181343,6 +181455,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -181766,11 +181883,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -182172,6 +182284,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -182600,11 +182717,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -183724,6 +183836,10 @@
         "name": "Công cụ chọn nội dung đa phương tiện"
       },
       {
+        "locale": "de-de",
+        "name": "Media-Auswahl"
+      },
+      {
         "locale": "fr-fr",
         "name": "Sélecteur de fichiers multimédias"
       },
@@ -183746,10 +183862,6 @@
       {
         "locale": "en",
         "name": "Media Storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Media-Auswahl"
       },
       {
         "locale": "fr-dz",
@@ -183917,6 +184029,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -184292,11 +184409,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -184925,6 +185037,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -185283,11 +185400,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -185884,6 +185996,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -186232,11 +186349,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -189000,6 +189112,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -189418,11 +189535,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -193510,6 +193622,10 @@
         "name": "Máy chủ MTP"
       },
       {
+        "locale": "de-de",
+        "name": "MTP-Host"
+      },
+      {
         "locale": "fr-fr",
         "name": "Hôte MTP"
       },
@@ -193532,10 +193648,6 @@
       {
         "locale": "th-th",
         "name": "โฮสต์ MTP"
-      },
-      {
-        "locale": "de-de",
-        "name": "MTP-Host"
       },
       {
         "locale": "fr-dz",
@@ -193719,6 +193831,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -194154,11 +194271,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -194904,6 +195016,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Google",
         "model": "GMS on ARM64",
         "os": "34"
@@ -195142,11 +195259,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -197209,6 +197321,10 @@
         "name": "Trình quản lý mạng"
       },
       {
+        "locale": "de-de",
+        "name": "Netzwerkmanager"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestionnaire de réseaux"
       },
@@ -197223,10 +197339,6 @@
       {
         "locale": "nl-nl",
         "name": "Netwerkbeheer"
-      },
-      {
-        "locale": "de-de",
-        "name": "Netzwerkmanager"
       },
       {
         "locale": "fr-dz",
@@ -197390,6 +197502,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -197775,11 +197892,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -199899,6 +200011,10 @@
         "name": "Dịch vụ NFC"
       },
       {
+        "locale": "de-de",
+        "name": "NFC"
+      },
+      {
         "locale": "fr-fr",
         "name": "Service NFC"
       },
@@ -199949,10 +200065,6 @@
       {
         "locale": "en-mt",
         "name": "NFC service"
-      },
-      {
-        "locale": "de-de",
-        "name": "NFC"
       },
       {
         "locale": "en-ph",
@@ -200153,6 +200265,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -200548,11 +200665,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -201264,6 +201376,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -201547,11 +201664,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -202179,6 +202291,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -202572,11 +202689,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -207055,6 +207167,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-de",
+        "name": "org.codeaurora.ims.ImsApp"
+      },
+      {
         "locale": "fr-fr",
         "name": "org.codeaurora.ims.ImsApp"
       },
@@ -207064,10 +207180,6 @@
       },
       {
         "locale": "en-pk",
-        "name": "org.codeaurora.ims.ImsApp"
-      },
-      {
-        "locale": "de-de",
         "name": "org.codeaurora.ims.ImsApp"
       }
     ],
@@ -207086,6 +207198,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -207165,11 +207282,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -207422,6 +207534,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-A125F",
         "os": "31"
@@ -207640,11 +207757,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -208484,6 +208596,10 @@
         "name": "Trình cài đặt gói"
       },
       {
+        "locale": "de-de",
+        "name": "Paketinstallation"
+      },
+      {
         "locale": "fr-fr",
         "name": "Programme installation kit"
       },
@@ -208506,10 +208622,6 @@
       {
         "locale": "th-th",
         "name": "โปรแกรมติดตั้งแพ็กเกจ"
-      },
-      {
-        "locale": "de-de",
-        "name": "Paketinstallation"
       },
       {
         "locale": "fr-dz",
@@ -208693,6 +208805,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -209123,11 +209240,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -209568,6 +209680,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -210001,11 +210118,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -211571,6 +211683,10 @@
         "name": "Trình điều khiển quyền"
       },
       {
+        "locale": "de-de",
+        "name": "Berechtigungssteuerung"
+      },
+      {
         "locale": "fr-fr",
         "name": "Contrôleur d'autorisations"
       },
@@ -211593,10 +211709,6 @@
       {
         "locale": "th-th",
         "name": "ตัวควบคุมสิทธิ์"
-      },
-      {
-        "locale": "de-de",
-        "name": "Berechtigungssteuerung"
       },
       {
         "locale": "fr-dz",
@@ -211770,6 +211882,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -212175,11 +212292,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -212987,6 +213099,10 @@
         "name": "An toàn cá nhân"
       },
       {
+        "locale": "de-de",
+        "name": "Persönliche Sicherheit"
+      },
+      {
         "locale": "es-es",
         "name": "Emergencias"
       },
@@ -212997,10 +213113,6 @@
       {
         "locale": "nl-nl",
         "name": "Persoonlijke veiligheid"
-      },
-      {
-        "locale": "de-de",
-        "name": "Persönliche Sicherheit"
       },
       {
         "locale": "sv-se",
@@ -213076,6 +213188,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -213281,11 +213398,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -214077,6 +214189,10 @@
         "name": "Телефон"
       },
       {
+        "locale": "de-de",
+        "name": "Telefon"
+      },
+      {
         "locale": "es-es",
         "name": "Teléfono"
       },
@@ -214094,10 +214210,6 @@
       },
       {
         "locale": "sv-se",
-        "name": "Telefon"
-      },
-      {
-        "locale": "de-de",
         "name": "Telefon"
       },
       {
@@ -214169,6 +214281,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "CUBOT",
@@ -214384,11 +214501,6 @@
         "make": "Xiaomi",
         "model": "21091116UI",
         "os": "33"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "realme",
@@ -214613,6 +214725,10 @@
         "name": "Bộ nhớ đ.thoại+tin nhắn"
       },
       {
+        "locale": "de-de",
+        "name": "Telefon- und SMS-Speicher"
+      },
+      {
         "locale": "fr-fr",
         "name": "Stock. appels/SMS tél."
       },
@@ -214639,10 +214755,6 @@
       {
         "locale": "en-mt",
         "name": "Phone and messaging storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefon- und SMS-Speicher"
       },
       {
         "locale": "fr-dz",
@@ -214838,6 +214950,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -215268,11 +215385,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -215493,6 +215605,10 @@
         "name": "Quản lý cuộc gọi"
       },
       {
+        "locale": "de-de",
+        "name": "Telefonanrufe"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestion des appels"
       },
@@ -215531,10 +215647,6 @@
       {
         "locale": "en-mt",
         "name": "Phone calls"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefonanrufe"
       },
       {
         "locale": "en-ph",
@@ -215753,6 +215865,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -216188,11 +216305,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -216449,6 +216561,10 @@
         "name": "Dịch vụ điện thoại"
       },
       {
+        "locale": "de-de",
+        "name": "Telefondienste"
+      },
+      {
         "locale": "fr-fr",
         "name": "Services téléphoniques"
       },
@@ -216479,10 +216595,6 @@
       {
         "locale": "en-mt",
         "name": "Phone services"
-      },
-      {
-        "locale": "de-de",
-        "name": "Telefondienste"
       },
       {
         "locale": "fr-dz",
@@ -216670,6 +216782,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -217095,11 +217212,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -218360,6 +218472,10 @@
         "name": "Fotos"
       },
       {
+        "locale": "de-de",
+        "name": "Fotos"
+      },
+      {
         "locale": "es-es",
         "name": "Fotos"
       },
@@ -218370,10 +218486,6 @@
       {
         "locale": "nl-nl",
         "name": "Foto's"
-      },
-      {
-        "locale": "de-de",
-        "name": "Fotos"
       },
       {
         "locale": "sv-se",
@@ -218508,6 +218620,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -218810,11 +218927,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -219041,6 +219153,10 @@
         "name": "Ảnh và video"
       },
       {
+        "locale": "de-de",
+        "name": "Fotos & Videos"
+      },
+      {
         "locale": "es-es",
         "name": "Fotos y vídeos"
       },
@@ -219063,10 +219179,6 @@
       {
         "locale": "en-mt",
         "name": "Photos and videos"
-      },
-      {
-        "locale": "de-de",
-        "name": "Fotos & Videos"
       },
       {
         "locale": "fr-fr",
@@ -219231,6 +219343,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "CUBOT",
@@ -219561,11 +219678,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -222535,6 +222647,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -222963,11 +223080,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -223180,6 +223292,10 @@
         "name": "Cola de impresión"
       },
       {
+        "locale": "de-de",
+        "name": "Druck-Spooler"
+      },
+      {
         "locale": "fr-fr",
         "name": "Service de traitement de l'impression"
       },
@@ -223194,10 +223310,6 @@
       {
         "locale": "nl-nl",
         "name": "Afdrukspooler"
-      },
-      {
-        "locale": "de-de",
-        "name": "Druck-Spooler"
       },
       {
         "locale": "fr-dz",
@@ -223390,6 +223502,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -223825,11 +223942,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -224154,6 +224266,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -224502,11 +224619,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -225123,6 +225235,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -225558,11 +225675,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -225845,6 +225957,10 @@
         "name": "Vết cắt trên Punch Hole"
       },
       {
+        "locale": "de-de",
+        "name": "Ausschnitt für Punch-Hole-Display"
+      },
+      {
         "locale": "fr-fr",
         "name": "Encoche en forme de poinçon"
       },
@@ -225883,10 +225999,6 @@
       {
         "locale": "en-mt",
         "name": "Punch hole cutout"
-      },
-      {
-        "locale": "de-de",
-        "name": "Ausschnitt für Punch-Hole-Display"
       },
       {
         "locale": "en-ph",
@@ -226091,6 +226203,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -226498,11 +226615,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -226761,6 +226873,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
@@ -226853,11 +226970,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -227007,6 +227119,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -227132,11 +227249,6 @@
         "os": "35"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -227206,6 +227318,11 @@
         "os": "34"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -227263,11 +227380,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -227370,6 +227482,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "CipherLab",
         "model": "RK95",
         "os": "28"
@@ -227378,11 +227495,6 @@
         "make": "HMD Global",
         "model": "Nokia 8.3 5G",
         "os": "29"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       }
     ]
   },
@@ -227591,6 +227703,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -227629,11 +227746,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -228594,12 +228706,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "en-au",
-        "name": "Launcher"
-      },
-      {
         "locale": "de-de",
         "name": "Launcher3"
+      },
+      {
+        "locale": "en-au",
+        "name": "Launcher"
       },
       {
         "locale": "es-us",
@@ -228646,6 +228758,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -228796,11 +228913,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -229037,14 +229149,14 @@
     "additionalLocales": [],
     "devices": [
       {
-        "make": "TCL",
-        "model": "6025D_EEA",
-        "os": "30"
-      },
-      {
         "make": "isafemobile",
         "model": "IS540",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "6025D_EEA",
+        "os": "30"
       }
     ]
   },
@@ -230247,6 +230359,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -230425,11 +230542,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -231290,6 +231402,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -231348,11 +231465,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -246227,6 +246339,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -246635,11 +246752,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -249392,6 +249504,10 @@
         "name": "Cài đặt"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungen"
+      },
+      {
         "locale": "fr-fr",
         "name": "Paramètres"
       },
@@ -249414,10 +249530,6 @@
       {
         "locale": "th-th",
         "name": "การตั้งค่า"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungen"
       },
       {
         "locale": "fr-dz",
@@ -249606,6 +249718,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -250041,11 +250158,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -250579,6 +250691,10 @@
         "name": "Lưu trữ bộ nhớ"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungsspeicher"
+      },
+      {
         "locale": "fr-fr",
         "name": "Stockage des paramètres"
       },
@@ -250605,10 +250721,6 @@
       {
         "locale": "en-mt",
         "name": "Settings storage"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungsspeicher"
       },
       {
         "locale": "fr-dz",
@@ -250797,6 +250909,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -251234,11 +251351,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -251590,6 +251702,10 @@
         "name": "Đề xuất tùy chọn cài đặt"
       },
       {
+        "locale": "de-de",
+        "name": "Einstellungsvorschläge"
+      },
+      {
         "locale": "es-es",
         "name": "Sugerencias de ajustes"
       },
@@ -251612,10 +251728,6 @@
       {
         "locale": "en-mt",
         "name": "Settings suggestions"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einstellungsvorschläge"
       },
       {
         "locale": "fr-dz",
@@ -251778,6 +251890,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -252143,11 +252260,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -253446,6 +253558,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -253879,11 +253996,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -254386,6 +254498,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-de",
+        "name": "Unterschrift"
+      },
+      {
         "locale": "nl-nl",
         "name": "Handtekening"
       }
@@ -254399,6 +254515,11 @@
       {
         "make": "OUKITEL",
         "model": "WP28 E",
+        "os": "34"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
         "os": "34"
       },
       {
@@ -254773,6 +254894,10 @@
         "name": "Hộp thoại ứng dụng SIM"
       },
       {
+        "locale": "de-de",
+        "name": "SIM-App-Dialogfeld"
+      },
+      {
         "locale": "fr-fr",
         "name": "Sim App Dialog"
       },
@@ -254799,10 +254924,6 @@
       {
         "locale": "en-mt",
         "name": "Sim app dialogue"
-      },
-      {
-        "locale": "de-de",
-        "name": "SIM-App-Dialogfeld"
       },
       {
         "locale": "en-ph",
@@ -255004,6 +255125,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -255401,11 +255527,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -255616,6 +255737,10 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "de-de",
+        "name": "SIM-Manager"
+      },
+      {
         "locale": "nl-nl",
         "name": "Sim-manager"
       },
@@ -255626,10 +255751,6 @@
       {
         "locale": "sv-se",
         "name": "SIM-hanteraren"
-      },
-      {
-        "locale": "de-de",
-        "name": "SIM-Manager"
       },
       {
         "locale": "it-it",
@@ -255666,6 +255787,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -255776,11 +255902,6 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -256083,6 +256204,10 @@
         "name": "Công cụ SIM"
       },
       {
+        "locale": "de-de",
+        "name": "SIM-Toolkit"
+      },
+      {
         "locale": "fr-fr",
         "name": "Boîte à outils carte SIM"
       },
@@ -256145,10 +256270,6 @@
       {
         "locale": "en-tt",
         "name": "SIM Tool Kit"
-      },
-      {
-        "locale": "de-de",
-        "name": "SIM-Toolkit"
       },
       {
         "locale": "en-za",
@@ -256309,6 +256430,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -256679,11 +256805,6 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -259843,6 +259964,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -259901,11 +260027,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -262734,6 +262855,10 @@
         "name": "Âm thanh"
       },
       {
+        "locale": "de-de",
+        "name": "Töne"
+      },
+      {
         "locale": "es-es",
         "name": "Sonidos"
       },
@@ -262744,10 +262869,6 @@
       {
         "locale": "th-th",
         "name": "เสียง"
-      },
-      {
-        "locale": "de-de",
-        "name": "Töne"
       },
       {
         "locale": "sv-se",
@@ -262853,6 +262974,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -263143,11 +263269,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -263567,6 +263688,10 @@
         "name": "Nhận dạng và tổng hợp giọng nói của Google"
       },
       {
+        "locale": "de-de",
+        "name": "Spracherkennung und -Synthese von Google"
+      },
+      {
         "locale": "fr-fr",
         "name": "Reconnaissance et synthèse vocales de Google"
       },
@@ -263601,10 +263726,6 @@
       {
         "locale": "th-th",
         "name": "Speech Services by Google"
-      },
-      {
-        "locale": "de-de",
-        "name": "Spracherkennung und -Synthese von Google"
       },
       {
         "locale": "en-ph",
@@ -263816,6 +263937,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -264246,11 +264372,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -265272,6 +265393,10 @@
         "name": "Trình quản lý bộ nhớ"
       },
       {
+        "locale": "de-de",
+        "name": "Speichermanager"
+      },
+      {
         "locale": "fr-fr",
         "name": "Gestionnaire d'espace de stockage"
       },
@@ -265290,10 +265415,6 @@
       {
         "locale": "th-th",
         "name": "ตัวจัดการพื้นที่เก็บข้อมูล"
-      },
-      {
-        "locale": "de-de",
-        "name": "Speichermanager"
       },
       {
         "locale": "fr-dz",
@@ -265466,6 +265587,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -265826,11 +265952,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -266666,6 +266787,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -267044,11 +267170,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -267506,6 +267627,10 @@
         "name": "Tiếp cận bằng công tắc"
       },
       {
+        "locale": "de-de",
+        "name": "Schalterzugriff"
+      },
+      {
         "locale": "nl-nl",
         "name": "Toegang via schakelaar"
       },
@@ -267516,10 +267641,6 @@
       {
         "locale": "sv-se",
         "name": "Brytarstyrning"
-      },
-      {
-        "locale": "de-de",
-        "name": "Schalterzugriff"
       },
       {
         "locale": "ja-jp",
@@ -267590,6 +267711,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -267774,11 +267900,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -268112,6 +268233,10 @@
         "name": "Tài nguyên kết nối hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "Systemverbindungsressourcen"
+      },
+      {
         "locale": "fr-fr",
         "name": "Ressources de connectivité système"
       },
@@ -268138,10 +268263,6 @@
       {
         "locale": "en-mt",
         "name": "System connectivity resources"
-      },
-      {
-        "locale": "de-de",
-        "name": "Systemverbindungsressourcen"
       },
       {
         "locale": "fr-dz",
@@ -268312,6 +268433,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -268682,11 +268808,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -269075,6 +269196,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -269183,11 +269309,6 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -269430,6 +269551,10 @@
         "name": "Chế độ kiểm soát của cha mẹ trên hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "Jugendschutzeinstellungen"
+      },
+      {
         "locale": "es-es",
         "name": "Controles parentales de Family Link"
       },
@@ -269448,10 +269573,6 @@
       {
         "locale": "en-us-u-fw-sat",
         "name": "Family Link parental controls"
-      },
-      {
-        "locale": "de-de",
-        "name": "Jugendschutzeinstellungen"
       },
       {
         "locale": "fr-fr",
@@ -269618,6 +269739,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -269943,11 +270069,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -270402,6 +270523,10 @@
         "name": "Theo dõi hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "Ablaufverfolgung"
+      },
+      {
         "locale": "fr-fr",
         "name": "Traçage système"
       },
@@ -270424,10 +270549,6 @@
       {
         "locale": "en-mt",
         "name": "System tracing"
-      },
-      {
-        "locale": "de-de",
-        "name": "Ablaufverfolgung"
       },
       {
         "locale": "fr-dz",
@@ -270601,6 +270722,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -271023,11 +271149,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -271225,6 +271346,10 @@
         "name": "Giao diện người dùng hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "System-UI"
+      },
+      {
         "locale": "fr-fr",
         "name": "Interface"
       },
@@ -271247,10 +271372,6 @@
       {
         "locale": "th-th",
         "name": "ส่วนติดต่อผู้ใช้ของระบบ"
-      },
-      {
-        "locale": "de-de",
-        "name": "System-UI"
       },
       {
         "locale": "fr-dz",
@@ -271439,6 +271560,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -271874,11 +272000,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -272687,6 +272808,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -272875,11 +273001,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -273254,6 +273375,10 @@
         "name": "Các tài nguyên Wi-Fi của hệ thống"
       },
       {
+        "locale": "de-de",
+        "name": "System-WLAN-Ressourcen"
+      },
+      {
         "locale": "fr-fr",
         "name": "Ressources Wi-Fi du système"
       },
@@ -273284,10 +273409,6 @@
       {
         "locale": "th-th",
         "name": "ทรัพยากร Wi-Fi ของระบบ"
-      },
-      {
-        "locale": "de-de",
-        "name": "System-WLAN-Ressourcen"
       },
       {
         "locale": "en-ph",
@@ -273434,6 +273555,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -273654,11 +273780,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -275011,6 +275132,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -275264,11 +275390,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -275601,6 +275722,10 @@
         "name": "Vết cắt cao"
       },
       {
+        "locale": "de-de",
+        "name": "Hohe Aussparung"
+      },
+      {
         "locale": "fr-fr",
         "name": "Encoche haute"
       },
@@ -275623,10 +275748,6 @@
       {
         "locale": "th-th",
         "name": "คัตเอาท์แบบสูง"
-      },
-      {
-        "locale": "de-de",
-        "name": "Hohe Aussparung"
       },
       {
         "locale": "fr-dz",
@@ -275805,6 +275926,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -276220,11 +276346,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -277983,6 +278104,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -278356,11 +278482,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -280242,6 +280363,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
@@ -280280,11 +280406,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "OUKITEL",
@@ -281685,6 +281806,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -281968,11 +282094,6 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "samsung",
@@ -283278,6 +283399,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -283326,11 +283452,6 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -283619,6 +283740,10 @@
         "name": "Từ điển người dùng"
       },
       {
+        "locale": "de-de",
+        "name": "Mein Wörterbuch"
+      },
+      {
         "locale": "fr-fr",
         "name": "Dictionnaire personnel"
       },
@@ -283641,10 +283766,6 @@
       {
         "locale": "th-th",
         "name": "พจนานุกรมผู้ใช้"
-      },
-      {
-        "locale": "de-de",
-        "name": "Mein Wörterbuch"
       },
       {
         "locale": "fr-dz",
@@ -283833,6 +283954,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -284268,11 +284394,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -285324,6 +285445,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -285374,11 +285500,6 @@
         "os": "35"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -285424,6 +285545,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -285506,11 +285632,6 @@
         "os": "34"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -285566,6 +285687,11 @@
         "make": "Xiaomi",
         "model": "M2012K11AG",
         "os": "33"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -285660,11 +285786,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -288414,6 +288535,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -288847,11 +288973,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -289402,6 +289523,10 @@
         "name": "Обои и стиль"
       },
       {
+        "locale": "de-de",
+        "name": "Hintergrund und Stil"
+      },
+      {
         "locale": "es-es",
         "name": "Fondo de pantalla y estilo"
       },
@@ -289452,6 +289577,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "CUBOT",
@@ -289557,11 +289687,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "realme",
@@ -290435,6 +290560,10 @@
         "name": "Vết cắt thác nước"
       },
       {
+        "locale": "de-de",
+        "name": "Aussparung für Wasserfall-Display"
+      },
+      {
         "locale": "fr-fr",
         "name": "Encoche en cascade"
       },
@@ -290457,10 +290586,6 @@
       {
         "locale": "th-th",
         "name": "ขอบจอโค้ง"
-      },
-      {
-        "locale": "de-de",
-        "name": "Aussparung für Wasserfall-Display"
       },
       {
         "locale": "fr-dz",
@@ -290629,6 +290754,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -291034,11 +291164,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -292539,6 +292664,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -292631,11 +292761,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -294084,6 +294209,10 @@
         "name": "Cảnh báo khẩn cấp qua mạng không dây"
       },
       {
+        "locale": "de-de",
+        "name": "Notfallbenachrichtigungen an Mobilgeräte"
+      },
+      {
         "locale": "fr-fr",
         "name": "Alertes d'urgence sans fil"
       },
@@ -294102,10 +294231,6 @@
       {
         "locale": "nl-nl",
         "name": "Mobiele noodmeldingen"
-      },
-      {
-        "locale": "de-de",
-        "name": "Notfallbenachrichtigungen an Mobilgeräte"
       },
       {
         "locale": "en-us-u-fw-mon-ms-ussystem-mu-fahrenhe",
@@ -294277,6 +294402,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -294642,11 +294772,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -295526,6 +295651,10 @@
         "name": "Thiết lập hồ sơ công việc"
       },
       {
+        "locale": "de-de",
+        "name": "Einrichtung des Arbeitsprofils"
+      },
+      {
         "locale": "fr-fr",
         "name": "Configuration du profil professionnel"
       },
@@ -295548,10 +295677,6 @@
       {
         "locale": "th-th",
         "name": "โปรไฟล์งาน"
-      },
-      {
-        "locale": "de-de",
-        "name": "Einrichtung des Arbeitsprofils"
       },
       {
         "locale": "fr-dz",
@@ -295735,6 +295860,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -296170,11 +296300,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
@@ -297226,6 +297351,11 @@
         "os": "33"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -297303,11 +297433,6 @@
       {
         "make": "motorola",
         "model": "moto g85 5G",
-        "os": "34"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
         "os": "34"
       },
       {
@@ -297931,6 +298056,11 @@
         "os": "35"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -298356,11 +298486,6 @@
         "os": "32"
       },
       {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
-      },
-      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
@@ -298625,6 +298750,11 @@
         "os": "36"
       },
       {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      },
+      {
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "34"
@@ -298868,11 +298998,6 @@
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
-      },
-      {
-        "make": "isafemobile",
-        "model": "IS540",
-        "os": "34"
       },
       {
         "make": "Crosscall",
