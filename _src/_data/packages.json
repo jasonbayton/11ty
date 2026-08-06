@@ -786,6 +786,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -1437,6 +1442,10 @@
         "name": "広告のプライバシー"
       },
       {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Ad privacy"
+      },
+      {
         "locale": "es-mx",
         "name": "Privacidad en los anuncios"
       },
@@ -2030,6 +2039,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4684,6 +4698,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -5284,6 +5303,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -6295,6 +6319,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -7227,6 +7256,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -8087,6 +8121,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -8877,6 +8916,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -9704,6 +9748,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -10576,6 +10625,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -11385,6 +11439,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -12170,6 +12229,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -13037,6 +13101,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -15487,6 +15556,30 @@
       }
     ]
   },
+  "ant.com.android.mmitest": {
+    "appName": "AntHardWareTest",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.antai.server": {
+    "appName": "AntSystemServer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "aon.frameworkres.overlay.display.product": {
     "appName": "aon.frameworkres.overlay.display.product",
     "userFacing": false,
@@ -15535,6 +15628,18 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      }
+    ]
+  },
+  "com.mediatek.aovtestapp": {
+    "appName": "AOVTestApp",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -18142,6 +18247,18 @@
       }
     ]
   },
+  "com.mediatek.mt6781.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.vivo.globaldragdrop": {
     "appName": "Arrastrar y acceder",
     "userFacing": false,
@@ -18421,6 +18538,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       },
       {
@@ -21693,6 +21815,10 @@
         "name": "DuraSpeed"
       },
       {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "DuraSpeed"
+      },
+      {
         "locale": "",
         "name": "DuraSpeed"
       }
@@ -21787,6 +21913,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -23017,6 +23148,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -25256,6 +25392,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -25873,6 +26014,10 @@
       },
       {
         "locale": "en-za",
+        "name": "Bluetooth"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Bluetooth"
       },
       {
@@ -26605,6 +26750,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -27412,6 +27562,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -28324,6 +28479,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -29781,6 +29941,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -30484,6 +30649,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -31550,6 +31720,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -32901,6 +33076,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -33083,6 +33263,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -34812,6 +34997,11 @@
         "os": "36"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -35303,6 +35493,18 @@
       {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.camera.overlay": {
+    "appName": "camera_overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       }
     ]
@@ -36044,6 +36246,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -36563,6 +36770,10 @@
       {
         "locale": "ja-jp",
         "name": "キャプティブ ポータル ログイン"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Captive portal login"
       },
       {
         "locale": "es-mx",
@@ -37241,6 +37452,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -37688,6 +37904,10 @@
       {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Operator communications"
       },
       {
         "locale": "es-mx",
@@ -38374,6 +38594,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -40394,6 +40619,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -41488,6 +41718,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -42422,6 +42657,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -44259,6 +44499,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "motorola",
@@ -46448,6 +46693,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -47390,6 +47640,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -49898,6 +50153,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -50700,6 +50960,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -51236,6 +51501,18 @@
       {
         "make": "HONOR",
         "model": "LLY-LX3",
+        "os": "34"
+      }
+    ]
+  },
+  "com.android.frameworkres.aiuioverlay": {
+    "appName": "com.android.frameworkres.aiuioverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       }
     ]
@@ -51801,6 +52078,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -52750,6 +53032,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -53941,6 +54228,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -54715,6 +55007,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -57747,6 +58044,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -58626,6 +58928,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -62819,6 +63126,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -63652,6 +63964,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       },
       {
@@ -66813,6 +67130,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -67612,6 +67934,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -68309,6 +68636,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -68503,6 +68835,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -69079,6 +69416,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -69308,6 +69650,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -70269,6 +70616,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -70468,6 +70820,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -71733,6 +72090,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -73068,6 +73430,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -74119,6 +74486,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -74379,6 +74751,18 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      }
+    ]
+  },
+  "com.google.android.networkstack.aiuioverlay": {
+    "appName": "com.google.android.networkstack.aiuioverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -75576,6 +75960,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -76240,6 +76629,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -76622,6 +77016,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -77377,6 +77776,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -78021,6 +78425,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -78382,6 +78791,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -78886,6 +79300,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -79078,6 +79497,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -79425,6 +79849,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -80305,6 +80734,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -81353,6 +81787,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -81998,6 +82437,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -82996,6 +83440,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -83660,6 +84109,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -84305,6 +84759,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -86033,6 +86492,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -87895,6 +88359,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -87915,6 +88384,18 @@
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
+      }
+    ]
+  },
+  "com.google.android.wifi.resources.aiuioverlay": {
+    "appName": "com.google.android.wifi.resources.aiuioverlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -89561,6 +90042,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -89592,7 +90078,12 @@
   "com.mediatek.batterywarning": {
     "appName": "com.mediatek.batterywarning",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "com.mediatek.batterywarning.BatteryWarningApplication"
+      }
+    ],
     "devices": [
       {
         "make": "motorola",
@@ -89743,6 +90234,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -89922,6 +90418,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -90229,6 +90730,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -90431,6 +90937,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -90616,6 +91127,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -90854,6 +91370,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -90939,6 +91460,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -91224,6 +91750,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -91359,6 +91890,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -91499,6 +92035,11 @@
       {
         "make": "LENOVO",
         "model": "TB132FU",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       }
     ]
@@ -108238,6 +108779,18 @@
       }
     ]
   },
+  "com.antaiui": {
+    "appName": "com.widget2",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.wing.wtsarcontrol": {
     "appName": "com.wing.wtsarcontrol",
     "userFacing": false,
@@ -110202,6 +110755,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -111713,6 +112271,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -113959,6 +114522,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -115076,6 +115644,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -116836,6 +117409,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -117195,6 +117773,10 @@
       {
         "locale": "ja-jp",
         "name": "認証情報マネージャー"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Credential manager"
       }
     ],
     "devices": [
@@ -117707,6 +118289,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -119509,6 +120096,18 @@
       }
     ]
   },
+  "com.android.data.manager": {
+    "appName": "DataManger",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.symbol.datawedge": {
     "appName": "DataWedge",
     "userFacing": true,
@@ -119929,6 +120528,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -120122,6 +120726,10 @@
       {
         "locale": "ja-jp",
         "name": "デフォルトの印刷サービス"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Default print service"
       },
       {
         "locale": "es-mx",
@@ -120873,6 +121481,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -124579,6 +125192,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -126242,6 +126860,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -127752,6 +128375,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -128615,6 +129243,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -129473,6 +130106,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -130422,6 +131060,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -132159,6 +132802,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -133479,6 +134127,10 @@
       {
         "locale": "ja-jp",
         "name": "com.android.emergency"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "com.android.emergency"
       }
     ],
     "devices": [
@@ -133991,6 +134643,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -135089,6 +135746,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -137307,6 +137969,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -138135,6 +138802,18 @@
         "make": "Google",
         "model": "Pixel 7",
         "os": "33"
+      }
+    ]
+  },
+  "com.antaiui.facelock": {
+    "appName": "Face ID",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -138988,6 +139667,18 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      }
+    ]
+  },
+  "com.aidroid.factorytests": {
+    "appName": "Factory Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -141121,6 +141812,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -141741,6 +142437,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -143187,6 +143888,10 @@
       {
         "locale": "ja-jp",
         "name": "Find Hub"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Find Hub"
       }
     ],
     "devices": [
@@ -143299,6 +144004,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -144086,6 +144796,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -144787,6 +145502,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -145913,6 +146633,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -149845,6 +150570,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -150557,6 +151287,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       },
       {
@@ -151338,6 +152073,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       },
       {
@@ -152290,6 +153030,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -152654,6 +153399,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
         "os": "34"
       },
       {
@@ -153801,6 +154551,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -154713,6 +155468,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -156207,6 +156967,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -157041,6 +157806,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -157826,6 +158596,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -158986,6 +159761,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -160193,6 +160973,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -160307,6 +161092,10 @@
       {
         "locale": "ja-jp",
         "name": "Google セーフティ センターのリソース"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Google Safety Centre resources"
       },
       {
         "locale": "es-mx",
@@ -160955,6 +161744,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -161190,6 +161984,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -162014,6 +162813,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -162516,6 +163320,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -165011,6 +165820,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -167835,6 +168649,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -168563,6 +169382,18 @@
       }
     ]
   },
+  "com.aidroid.fb.community": {
+    "appName": "IIIF150",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.vivo.vivo3rdalgoservice": {
     "appName": "ImageAlgoService",
     "userFacing": false,
@@ -169286,6 +170117,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -170530,6 +171366,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -171483,6 +172324,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -172315,6 +173161,10 @@
       {
         "locale": "en-za",
         "name": "Keep notes"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Keep notes"
       }
     ],
     "devices": [
@@ -172522,6 +173372,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -173371,6 +174226,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -178864,6 +179724,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -179279,6 +180144,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -180031,6 +180901,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -181339,6 +182214,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -181964,6 +182844,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -183002,6 +183887,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -183851,6 +184741,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -184534,6 +185429,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -184686,6 +185586,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -185541,6 +186446,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -186524,6 +187434,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -187501,6 +188416,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -189668,6 +190588,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -190702,6 +191627,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -194078,6 +195008,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -195455,6 +196390,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -196366,6 +197306,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -199066,6 +200011,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -199992,6 +200942,11 @@
         "os": "36"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -200274,6 +201229,10 @@
         "name": "NetworkStackOverlayGsi"
       },
       {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "NetworkStackResOverlay"
+      },
+      {
         "locale": "es-mx",
         "name": "NetworkStackResOverlay"
       }
@@ -200525,6 +201484,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -200579,6 +201543,10 @@
       },
       {
         "locale": "es-us",
+        "name": "GoogleNetworkStackResOverlay"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "GoogleNetworkStackResOverlay"
       },
       {
@@ -200756,6 +201724,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -201170,6 +202143,10 @@
       },
       {
         "locale": "en-za",
+        "name": "Nfc Service"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Nfc Service"
       },
       {
@@ -201857,6 +202834,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -202838,6 +203820,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -203903,6 +204890,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -205866,6 +206858,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -209265,6 +210262,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -210491,6 +211493,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -211372,6 +212379,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -213543,6 +214555,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -214582,6 +215599,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -215707,6 +216729,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -216661,6 +217688,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -216828,6 +217860,10 @@
       {
         "locale": "en-za",
         "name": "Call Management"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Phone calls"
       },
       {
         "locale": "es-mx",
@@ -217584,6 +218620,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -218496,6 +219537,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -220176,6 +221222,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -220356,6 +221407,10 @@
       {
         "locale": "ja-jp",
         "name": "写真と動画"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Photos and videos"
       },
       {
         "locale": "es-mx",
@@ -220942,6 +221997,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -223285,6 +224345,18 @@
       }
     ]
   },
+  "com.aidroid.powersaver.launcher": {
+    "appName": "Power Laucher",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.transsion.batterylab": {
     "appName": "Power Marathon",
     "userFacing": false,
@@ -224386,6 +225458,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -225253,6 +226330,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -225908,6 +226990,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -226994,6 +228081,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -227220,6 +228312,10 @@
       },
       {
         "locale": "en-za",
+        "name": "Punch hole cutout"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Punch hole cutout"
       },
       {
@@ -227917,6 +229013,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -230164,6 +231265,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -231783,6 +232889,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
@@ -232861,6 +233972,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -245503,6 +246619,10 @@
       {
         "locale": "en-de",
         "name": "Search engine selector"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Search engine selector"
       }
     ],
     "devices": [
@@ -245945,6 +247065,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -248091,6 +249216,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -251514,6 +252644,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -252710,6 +253845,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -252958,6 +254098,10 @@
       {
         "locale": "ja-jp",
         "name": "推奨設定"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Settings suggestions"
       },
       {
         "locale": "es-mx",
@@ -253604,6 +254748,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -255367,6 +256516,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -255780,6 +256934,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -256196,6 +257355,10 @@
       },
       {
         "locale": "en-za",
+        "name": "Sim app dialogue"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Sim app dialogue"
       }
     ],
@@ -256906,6 +258069,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -257512,6 +258680,10 @@
       },
       {
         "locale": "en-za",
+        "name": "SIM Tool Kit"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "SIM Tool Kit"
       },
       {
@@ -258171,6 +259343,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -258579,6 +259756,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -261858,6 +263040,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -264053,6 +265240,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -264613,6 +265805,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -265786,6 +266983,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -267343,6 +268545,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -267388,6 +268595,18 @@
         "make": "Blackview",
         "model": "VARG",
         "os": "30"
+      }
+    ]
+  },
+  "com.aiui.settings.providers": {
+    "appName": "Storage Settings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -268571,6 +269790,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -269247,6 +270471,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -269566,6 +270795,10 @@
       {
         "locale": "ja-jp",
         "name": "システム接続リソース"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "System connectivity resources"
       },
       {
         "locale": "es-mx",
@@ -270224,6 +271457,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -270794,6 +272032,18 @@
       }
     ]
   },
+  "com.aidroid.softmanager": {
+    "appName": "System Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      }
+    ]
+  },
   "com.yhk.qeota": {
     "appName": "System OTA",
     "userFacing": false,
@@ -270877,6 +272127,10 @@
       {
         "locale": "ja-jp",
         "name": "保護者による使用制限（システム）"
+      },
+      {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Family Link parental controls"
       },
       {
         "locale": "es-mx",
@@ -271483,6 +272737,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -272583,6 +273842,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -273444,6 +274708,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -274639,6 +275908,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -275246,6 +276520,10 @@
         "name": "システム Wi-Fi リソース"
       },
       {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "System Wi-Fi resources"
+      },
+      {
         "locale": "es-mx",
         "name": "Recursos Wi‑Fi del sistema"
       }
@@ -275565,6 +276843,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -277819,6 +279102,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -278833,6 +280121,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -279033,6 +280326,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -279960,6 +281258,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -280850,6 +282153,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -281240,6 +282548,11 @@
         "os": "31"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
@@ -281404,6 +282717,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -281792,6 +283110,11 @@
         "make": "OUKITEL",
         "model": "C59 Pro",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -282226,6 +283549,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      }
+    ]
+  },
+  "com.antaiui.toolbag": {
+    "appName": "ToolBag",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -283550,6 +284885,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "OPPO",
@@ -285910,6 +287250,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -289414,6 +290759,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       }
     ]
   },
@@ -290496,6 +291846,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -290919,6 +292274,10 @@
         "name": "壁紙とスタイル"
       },
       {
+        "locale": "en-za-u-fw-mon-mu-celsius",
+        "name": "Wallpaper and style"
+      },
+      {
         "locale": "en-au",
         "name": "Wallpaper and style"
       }
@@ -291108,6 +292467,11 @@
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -291863,6 +293227,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
@@ -292680,6 +294049,11 @@
         "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -296300,6 +297674,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -297853,6 +299232,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -299221,6 +300605,11 @@
         "os": "33"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -300032,6 +301421,11 @@
         "os": "35"
       },
       {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
@@ -300504,6 +301898,11 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      },
+      {
+        "make": "ANT DAO TECHNOLOGY LIMITED",
+        "model": "B3",
+        "os": "34"
       },
       {
         "make": "RHINO",
