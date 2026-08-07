@@ -19,7 +19,7 @@ sources:
   - https://developer.android.com/about/versions/17/behavior-changes-17
   - https://developer.android.com/about/versions/17/features
 ---
-Android 17 (API level 37) was released to Pixel devices on June 16, 2026. Apps submitted to Google Play will be required to target API 37 from mid-2027 (exact date TBC). Other OEMs are expected to begin rollouts from late Q3 2026.
+Android 17 (API level 37) was released to Pixel devices on June 16, 2026. Samsung launched the Galaxy Z Fold 8 and Z Flip 8 with One UI 9 (Android 17) in July 2026, and is rolling out One UI 9 to existing flagships through Q3-Q4 2026. Other OEMs are expected to follow from late Q3 2026 onward. Apps submitted to Google Play will be required to target API 37 from mid-2027 (exact date TBC).
 
 ### AI and automation controls
 
