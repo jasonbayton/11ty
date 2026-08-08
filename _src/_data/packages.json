@@ -766,6 +766,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -919,6 +924,10 @@
       {
         "locale": "de-de",
         "name": "Eingabehilfe"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Usnadnění"
       }
     ],
     "devices": [
@@ -1121,6 +1130,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -1450,6 +1464,10 @@
       {
         "locale": "ja-jp",
         "name": "広告のプライバシー"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Ochrana soukromí v reklamách"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -2034,6 +2052,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -5315,6 +5338,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -6324,6 +6352,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -7266,6 +7299,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -7408,6 +7446,10 @@
       {
         "locale": "ja-jp",
         "name": "Android の設定"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nastavení Androidu"
       },
       {
         "locale": "es-mx",
@@ -8134,6 +8176,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -8936,6 +8983,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -9775,6 +9827,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -9907,6 +9964,10 @@
       {
         "locale": "ja-jp",
         "name": "Android システム"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Systém Android"
       },
       {
         "locale": "es-mx",
@@ -10653,6 +10714,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -11479,6 +11545,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -12269,6 +12340,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -13148,6 +13224,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -13553,6 +13634,11 @@
         "make": "Google",
         "model": "Pixel 7",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -16442,6 +16528,10 @@
       {
         "locale": "de-de",
         "name": "App-Update"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace aplikací"
       }
     ],
     "devices": [
@@ -16642,6 +16732,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -16825,6 +16920,10 @@
       {
         "locale": "en-nl",
         "name": "App Recs"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "AppBox"
       }
     ],
     "devices": [
@@ -16882,6 +16981,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -17200,6 +17304,10 @@
       {
         "locale": "de-de",
         "name": "Anwendungsempfehlungen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Doporučení k aplikaci"
       }
     ],
     "devices": [
@@ -17377,6 +17485,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -17832,6 +17945,10 @@
       {
         "locale": "de-de",
         "name": "Galaxy-Avatar"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Galaxy avatar"
       }
     ],
     "devices": [
@@ -18004,6 +18121,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -19454,6 +19576,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -20017,6 +20144,10 @@
       {
         "locale": "de-de",
         "name": "Automatisch zeichnen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Automatická kresba"
       }
     ],
     "devices": [
@@ -20197,6 +20328,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -20256,6 +20392,10 @@
       {
         "locale": "de-de",
         "name": "Auto-Hotspot"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Automatický hotspot"
       }
     ],
     "devices": [
@@ -20456,6 +20596,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -20479,8 +20624,18 @@
   "com.fingerprints.fpctest": {
     "appName": "Auto test",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Auto Test"
+      }
+    ],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
       {
         "make": "motorola",
         "model": "moto g14",
@@ -22390,6 +22545,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -22562,6 +22722,10 @@
       {
         "locale": "ja-jp",
         "name": "ベーシックスクリーンセーバー"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Základní spořič obrazovky"
       },
       {
         "locale": "es-mx",
@@ -23273,6 +23437,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -24801,6 +24970,10 @@
         "name": "ブロックした電話番号用ストレージ"
       },
       {
+        "locale": "cs-cz",
+        "name": "Úložiště blokovaných čísel"
+      },
+      {
         "locale": "es-mx",
         "name": "Guardar números bloqueados"
       }
@@ -25542,6 +25715,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -25925,6 +26103,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -26194,6 +26377,10 @@
       },
       {
         "locale": "en-za",
+        "name": "Bluetooth"
+      },
+      {
+        "locale": "cs-cz",
         "name": "Bluetooth"
       },
       {
@@ -26910,6 +27097,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -27727,6 +27919,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -28649,6 +28846,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -29628,6 +29830,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -31161,6 +31368,10 @@
         "name": "カレンダーの保存"
       },
       {
+        "locale": "cs-cz",
+        "name": "Úložiště kalendáře"
+      },
+      {
         "locale": "es-mx",
         "name": "Almacenamiento en el calendario"
       }
@@ -31907,6 +32118,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -32048,6 +32264,10 @@
       {
         "locale": "de-de",
         "name": "Anruf"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Volat"
       }
     ],
     "devices": [
@@ -32253,6 +32473,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -32300,6 +32525,10 @@
       {
         "locale": "de-de",
         "name": "Anrufe/SMS auf anderen Geräten"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Volání a zprávy v dalších zařízeních"
       }
     ],
     "devices": [
@@ -32477,6 +32706,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -33276,6 +33510,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -33545,6 +33784,10 @@
         "name": "Servizi di chiamata"
       },
       {
+        "locale": "cs-cz",
+        "name": "Služby při hovoru"
+      },
+      {
         "locale": "de-de",
         "name": "Anrufdienste"
       }
@@ -33702,6 +33945,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -33756,6 +34004,10 @@
       {
         "locale": "de-de",
         "name": "Anrufeinstellungen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nastavení hovorů"
       }
     ],
     "devices": [
@@ -33958,6 +34210,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34180,6 +34437,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -34487,6 +34749,10 @@
       {
         "locale": "de-de",
         "name": "Kamera"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Fotoaparát"
       }
     ],
     "devices": [
@@ -34689,6 +34955,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -36476,6 +36747,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -37025,6 +37301,10 @@
       {
         "locale": "ja-jp",
         "name": "キャプティブ ポータル ログイン"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Přihlášení do captive portálu"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -37687,6 +37967,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -38164,6 +38449,10 @@
       {
         "locale": "en-za",
         "name": "CarrierDefaultApp"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Komunikace s operátorem"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -38834,6 +39123,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -40191,6 +40485,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -40869,6 +41168,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -41225,6 +41529,10 @@
       {
         "locale": "ja-jp",
         "name": "証明書インストーラ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Instalační program certifikátu"
       },
       {
         "locale": "es-mx",
@@ -41971,6 +42279,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -42919,6 +43232,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -43244,6 +43562,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -45240,6 +45563,10 @@
       {
         "locale": "es-es",
         "name": "Estilo de reloj"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Styl hodin"
       }
     ],
     "devices": [
@@ -45306,6 +45633,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
         "os": "35"
       },
       {
@@ -45745,6 +46077,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -45924,6 +46261,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -46978,6 +47320,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -47930,6 +48277,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -49623,6 +49975,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -50453,6 +50810,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -51263,6 +51625,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -53344,6 +53711,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -54553,6 +54925,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -55332,6 +55709,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -56496,6 +56878,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -58379,6 +58766,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -59268,6 +59660,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -60293,6 +60690,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -63474,6 +63876,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -67495,6 +67902,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -68294,6 +68706,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -69001,6 +69418,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -69547,6 +69969,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -71682,6 +72109,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -72475,6 +72907,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -73820,6 +74257,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -74879,6 +75321,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -76355,6 +76802,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -77022,6 +77474,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -78181,6 +78638,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -78828,6 +79290,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -79705,6 +80172,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -80274,6 +80746,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -81156,6 +81633,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -81409,6 +81891,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -81628,6 +82115,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -82215,6 +82707,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -82874,6 +83371,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -83239,6 +83741,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -83883,6 +84390,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -84559,6 +85071,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -85214,6 +85731,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -86959,6 +87481,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -87441,6 +87968,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -90291,6 +90823,30 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      }
+    ]
+  },
+  "com.longcheer.midtest": {
+    "appName": "com.longcheer.midtest.MidTestApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      }
+    ]
+  },
+  "com.longcheer.overlay": {
+    "appName": "com.longcheer.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -97841,6 +98397,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
@@ -99481,6 +100042,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -99568,6 +100134,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Xiaomi",
@@ -100812,6 +101383,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -101186,6 +101762,10 @@
       {
         "locale": "de-de",
         "name": "Biometrische Daten"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Biometrika"
       }
     ],
     "devices": [
@@ -101383,6 +101963,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -102288,6 +102873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -102818,6 +103408,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -103099,6 +103694,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -103276,6 +103876,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -103448,6 +104053,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -103616,6 +104226,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
         "os": "35"
       },
       {
@@ -103954,6 +104569,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -104176,6 +104796,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -104205,6 +104830,11 @@
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -104797,6 +105427,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -105093,6 +105728,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -105384,6 +106024,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -105855,6 +106500,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -106074,6 +106724,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -106303,6 +106958,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -106539,6 +107199,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -110614,6 +111279,10 @@
         "name": "コンパニオン デバイス マネージャー"
       },
       {
+        "locale": "cs-cz",
+        "name": "Správce doprovodných zařízení"
+      },
+      {
         "locale": "es-mx",
         "name": "Administrador de dispositivo complementario"
       }
@@ -111358,6 +112027,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -112130,6 +112804,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -112893,6 +113572,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -113005,6 +113689,10 @@
       {
         "locale": "de-de",
         "name": "Konfigurationsnachricht"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Konfigurační zpráva"
       }
     ],
     "devices": [
@@ -113195,6 +113883,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -113249,6 +113942,10 @@
       {
         "locale": "de-de",
         "name": "Konfigurationsupdate"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace konfigurace"
       }
     ],
     "devices": [
@@ -113446,6 +114143,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -113516,6 +114218,10 @@
       {
         "locale": "de-de",
         "name": "Dienstanbieter­einrichtung"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nastavení poskytovatele služeb"
       }
     ],
     "devices": [
@@ -113713,6 +114419,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -114087,6 +114798,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -114321,6 +115037,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -114462,6 +115183,10 @@
       {
         "locale": "de-de",
         "name": "Kontakte"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kontakty"
       }
     ],
     "devices": [
@@ -114659,6 +115384,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -115479,6 +116209,10 @@
       {
         "locale": "de-de",
         "name": "Kontaktspeicher"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Úložiště kontaktů"
       }
     ],
     "devices": [
@@ -115681,6 +116415,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -116728,6 +117467,11 @@
         "os": "37"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -116958,6 +117702,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -117376,6 +118125,10 @@
       {
         "locale": "ja-jp",
         "name": "画面隅のカットアウト"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Rohový výřez"
       },
       {
         "locale": "es-mx",
@@ -118084,6 +118837,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -118473,6 +119231,10 @@
       {
         "locale": "ja-jp",
         "name": "認証情報マネージャー"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Správce oprávnění"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -118979,6 +119741,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -119915,6 +120682,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -120148,6 +120920,10 @@
       {
         "locale": "de-de",
         "name": "Personalisierter Dienst"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Přizpůsobená služba"
       }
     ],
     "devices": [
@@ -120340,6 +121116,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -121448,6 +122229,10 @@
         "name": "デフォルトの印刷サービス"
       },
       {
+        "locale": "cs-cz",
+        "name": "Výchozí tisková služba"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Default print service"
       },
@@ -122183,6 +122968,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -122447,6 +123237,10 @@
       {
         "locale": "de-de",
         "name": "Gerätewartung"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Péče o zařízení"
       }
     ],
     "devices": [
@@ -122649,6 +123443,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -123695,6 +124494,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -124322,6 +125126,10 @@
       {
         "locale": "de-de",
         "name": "App-Schutz"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Ochrana aplikací"
       }
     ],
     "devices": [
@@ -124504,6 +125312,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -124793,6 +125606,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -124992,6 +125810,10 @@
       {
         "locale": "ja-jp",
         "name": "デバイス診断"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Diagnostika zařízení"
       }
     ],
     "devices": [
@@ -125331,6 +126153,11 @@
         "os": "37"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -125561,6 +126388,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -126433,6 +127265,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -126847,6 +127684,10 @@
       {
         "locale": "de-de",
         "name": "Digitales Wohlbefinden"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Digitální pohoda"
       }
     ],
     "devices": [
@@ -127044,6 +127885,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -128419,6 +129265,10 @@
         "name": "ダブル カットアウト"
       },
       {
+        "locale": "cs-cz",
+        "name": "Dvojitý výřez"
+      },
+      {
         "locale": "es-mx",
         "name": "Corte doble"
       }
@@ -129125,6 +129975,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -129250,6 +130105,10 @@
       {
         "locale": "ja-jp",
         "name": "ダウンロード マネージャー"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Správce stahování"
       },
       {
         "locale": "es-mx",
@@ -129998,6 +130857,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -130135,6 +130999,10 @@
       {
         "locale": "ja-jp",
         "name": "ダウンロード"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Stahování"
       },
       {
         "locale": "es-mx",
@@ -130868,6 +131736,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -131162,6 +132035,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -132216,6 +133094,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -132467,6 +133350,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -132748,6 +133636,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -133592,6 +134485,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -134086,6 +134984,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -134525,6 +135428,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -135535,6 +136443,10 @@
       {
         "locale": "de-de",
         "name": "Notfallfreigabe"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Sdílení informací v tísni"
       }
     ],
     "devices": [
@@ -135730,6 +136642,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -135780,6 +136697,10 @@
       {
         "locale": "de-de",
         "name": "Notfall-SOS"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Tísňové SOS"
       }
     ],
     "devices": [
@@ -135957,6 +136878,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -137452,6 +138378,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -138056,6 +138987,10 @@
       {
         "locale": "ja-jp",
         "name": "外部ストレージ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Externí úložiště"
       },
       {
         "locale": "es-mx",
@@ -138799,6 +139734,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -139065,6 +140005,10 @@
       {
         "locale": "de-de",
         "name": "Augenkomfort"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Pohodlí pro oči"
       }
     ],
     "devices": [
@@ -139267,6 +140211,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -142026,6 +142975,10 @@
         "name": "ファイル"
       },
       {
+        "locale": "cs-cz",
+        "name": "Soubory"
+      },
+      {
         "locale": "es-mx",
         "name": "Archivos"
       }
@@ -142680,6 +143633,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -144947,6 +145905,10 @@
       {
         "locale": "es-es",
         "name": "Buscar mi móvil"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Najít moje mobilní zařízení"
       }
     ],
     "devices": [
@@ -145152,6 +146114,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -145268,6 +146235,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -146375,6 +147347,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -147525,6 +148502,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -148155,6 +149137,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -148206,6 +149193,10 @@
       {
         "locale": "es-es",
         "name": "Configuración de Servicio Galaxy"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nastavení služby Galaxy"
       },
       {
         "locale": "de-de",
@@ -148372,6 +149363,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -148597,6 +149593,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -148804,6 +149805,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -148858,6 +149864,10 @@
       {
         "locale": "de-de",
         "name": "Galaxy Themes-Dienst"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služba Galaxy Themes"
       }
     ],
     "devices": [
@@ -149063,6 +150073,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -149117,6 +150132,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Galerie"
+      },
+      {
+        "locale": "cs-cz",
         "name": "Galerie"
       }
     ],
@@ -149300,6 +150319,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149362,6 +150386,10 @@
       {
         "locale": "de-de",
         "name": "Galerie"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Galerie"
       }
     ],
     "devices": [
@@ -149564,6 +150592,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -149884,6 +150917,10 @@
       {
         "locale": "de-de",
         "name": "Gallery-Storys"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Příběhy z Galerie"
       }
     ],
     "devices": [
@@ -150086,6 +151123,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -150655,6 +151697,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -150940,6 +151987,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -152493,6 +153545,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -152712,6 +153769,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -153286,6 +154348,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -154003,6 +155070,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -155531,6 +156603,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -156455,6 +157532,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -156678,6 +157760,10 @@
       {
         "locale": "de-de",
         "name": "Google Kalender-Synchronisierung"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Synchronizace Kalendáře Google"
       }
     ],
     "devices": [
@@ -156935,6 +158021,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -157284,6 +158375,10 @@
       {
         "locale": "ja-jp",
         "name": "Google ロケーション履歴"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Historie polohy Google"
       },
       {
         "locale": "es-mx",
@@ -157960,6 +159055,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -158806,6 +159906,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -159603,6 +160708,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -160030,6 +161140,10 @@
       {
         "locale": "ja-jp",
         "name": "Google Play 開発者サービス"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služby Google Play"
       },
       {
         "locale": "es-mx",
@@ -160771,6 +161885,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -161252,6 +162371,10 @@
         "name": "Google Play ストア"
       },
       {
+        "locale": "cs-cz",
+        "name": "Obchod Google Play"
+      },
+      {
         "locale": "es-mx",
         "name": "Google Play Store"
       }
@@ -161993,6 +163116,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -162137,6 +163265,10 @@
       {
         "locale": "ja-jp",
         "name": "Google セーフティ センターのリソース"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Zdroje Centra bezpečnosti Google"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -162767,6 +163899,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -163841,6 +164978,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -164925,6 +166067,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -165427,6 +166574,10 @@
       {
         "locale": "de-de",
         "name": "Gruppenfreigabe"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Sdílení skupin"
       }
     ],
     "devices": [
@@ -165629,6 +166780,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -165979,6 +167135,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -166890,6 +168051,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -168118,6 +169284,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -168978,6 +170149,10 @@
         "name": "HTMLビューア"
       },
       {
+        "locale": "cs-cz",
+        "name": "Zobrazovač HTML"
+      },
+      {
         "locale": "es-mx",
         "name": "Visor de HTML"
       }
@@ -169724,6 +170899,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -170313,6 +171493,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -170791,6 +171976,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -171015,6 +172205,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -171462,6 +172657,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -171728,6 +172928,10 @@
       {
         "locale": "sv-se",
         "name": "Indataenheter"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Vstupní zařízení"
       },
       {
         "locale": "es-mx",
@@ -172471,6 +173675,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -172579,7 +173788,7 @@
   },
   "com.instagram.android": {
     "appName": "Instagram",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -172596,6 +173805,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -173442,6 +174656,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -175348,6 +176567,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -176118,6 +177342,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -176395,6 +177624,10 @@
       {
         "locale": "de-de",
         "name": "Enrollment Service"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Enrollment Service"
       }
     ],
     "devices": [
@@ -176597,6 +177830,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -178358,6 +179596,10 @@
       {
         "locale": "de-de",
         "name": "Startprogramm"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Spouštěcí program"
       }
     ],
     "devices": [
@@ -178554,6 +179796,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
         "os": "35"
       },
       {
@@ -180927,6 +182174,11 @@
         "make": "Google",
         "model": "Pixel 7",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -183429,6 +184681,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -184071,6 +185328,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -184398,6 +185660,10 @@
       {
         "locale": "ja-jp",
         "name": "マップ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Mapy"
       }
     ],
     "devices": [
@@ -185110,6 +186376,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -185971,6 +187242,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -186525,6 +187801,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -187036,6 +188317,10 @@
       {
         "locale": "ja-jp",
         "name": "メディアの選択"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nástroj pro výběr médií"
       },
       {
         "locale": "es-mx",
@@ -187686,6 +188971,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -188679,6 +189969,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -188845,6 +190140,10 @@
       {
         "locale": "de-de",
         "name": "Nachrichten"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Zprávy"
       }
     ],
     "devices": [
@@ -188990,6 +190289,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -189040,6 +190344,10 @@
       {
         "locale": "ja-jp",
         "name": "メッセージ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Zprávy"
       },
       {
         "locale": "es-mx",
@@ -189668,6 +190976,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -190117,6 +191430,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -190474,6 +191792,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -190824,6 +192147,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -192889,6 +194217,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -193414,6 +194747,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -193745,6 +195083,10 @@
       {
         "locale": "de-de",
         "name": "Modi und Routinen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Režimy a rutiny"
       }
     ],
     "devices": [
@@ -193932,6 +195274,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -196629,6 +197976,10 @@
       {
         "locale": "de-de",
         "name": "MTP-Anwendung"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aplikace MTP"
       }
     ],
     "devices": [
@@ -196829,6 +198180,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -196932,6 +198288,10 @@
       {
         "locale": "ja-jp",
         "name": "MTP ホスト"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Hostitel MTP"
       },
       {
         "locale": "es-mx",
@@ -197673,6 +199033,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -198826,6 +200191,10 @@
       {
         "locale": "de-de",
         "name": "Eigene Dateien"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Moje soubory"
       }
     ],
     "devices": [
@@ -199028,6 +200397,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -199552,6 +200926,10 @@
       {
         "locale": "de-de",
         "name": "Suche nach Geräten in der Nähe"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Hledání nedalekých zařízení"
       }
     ],
     "devices": [
@@ -199754,6 +201132,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -199828,6 +201211,10 @@
       {
         "locale": "de-de",
         "name": "Geräte in der Nähe suchen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Agent Hledání nedalekých zařízení"
       }
     ],
     "devices": [
@@ -200030,6 +201417,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -200685,6 +202077,10 @@
         "name": "ネットワーク マネージャ"
       },
       {
+        "locale": "cs-cz",
+        "name": "Správce sítí"
+      },
+      {
         "locale": "es-mx",
         "name": "Administrador de redes"
       }
@@ -201336,6 +202732,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -201703,6 +203104,10 @@
       {
         "locale": "de-de",
         "name": "Netzwerkdiagnose"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Diagnostika sítě"
       }
     ],
     "devices": [
@@ -201885,6 +203290,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -202529,6 +203939,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -203511,6 +204926,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "cs-cz",
+        "name": "NFC"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Nfc Service"
       },
@@ -204189,6 +205608,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "motorola",
@@ -205180,6 +206604,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -206247,6 +207676,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -206655,6 +208089,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -208590,6 +210029,10 @@
       {
         "locale": "de-de",
         "name": "One UI-Startbildschirm"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Domovská obrazovka One UI"
       }
     ],
     "devices": [
@@ -208792,6 +210235,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -209021,6 +210469,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -211315,6 +212768,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -212147,6 +213605,10 @@
         "name": "パッケージ インストーラ"
       },
       {
+        "locale": "cs-cz",
+        "name": "Instalátor balíčků"
+      },
+      {
         "locale": "es-mx",
         "name": "Instalador de paquetes"
       }
@@ -212881,6 +214343,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -213776,6 +215243,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -214139,6 +215611,10 @@
         "name": "Controles parentales"
       },
       {
+        "locale": "cs-cz",
+        "name": "Rodičovská kontrola"
+      },
+      {
         "locale": "de-de",
         "name": "Kindersicherungen"
       }
@@ -214303,6 +215779,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -215274,6 +216755,10 @@
         "name": "アクセス権限の管理"
       },
       {
+        "locale": "cs-cz",
+        "name": "Správce oprávnění"
+      },
+      {
         "locale": "es-mx",
         "name": "Controlador de permisos"
       }
@@ -215965,6 +217450,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -216149,6 +217639,10 @@
       {
         "locale": "de-de",
         "name": "Berechtigungsnutzung"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Použití oprávnění"
       }
     ],
     "devices": [
@@ -216349,6 +217843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -216444,6 +217943,10 @@
       {
         "locale": "it-it",
         "name": "Personale"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Přizpůsobení"
       }
     ],
     "devices": [
@@ -216636,6 +218139,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -217457,6 +218965,10 @@
       {
         "locale": "de-de",
         "name": "Telefon"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Telefon"
       }
     ],
     "devices": [
@@ -217659,6 +219171,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -218376,6 +219893,10 @@
       {
         "locale": "ja-jp",
         "name": "電話とSMS用ストレージ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Telefon a úložiště zpráv"
       },
       {
         "locale": "es-mx",
@@ -219118,6 +220639,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -219315,6 +220841,10 @@
       {
         "locale": "en-za",
         "name": "Call Management"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Telefonní hovory"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -220057,6 +221587,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -220242,6 +221777,10 @@
       {
         "locale": "ja-jp",
         "name": "電話サービス"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Telefonní služby"
       },
       {
         "locale": "es-mx",
@@ -220979,6 +222518,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -221225,6 +222769,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -221291,6 +222840,10 @@
       {
         "locale": "de-de",
         "name": "Foto-Editor"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Editor fotografií"
       }
     ],
     "devices": [
@@ -221496,6 +223049,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -221563,6 +223121,10 @@
       {
         "locale": "ja-jp",
         "name": "フォトスクリーンセーバー"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Fotografické spořiče obrazovky"
       }
     ],
     "devices": [
@@ -221910,6 +223472,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -222899,6 +224466,10 @@
         "name": "写真と動画"
       },
       {
+        "locale": "cs-cz",
+        "name": "Fotky a videa"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Photos and videos"
       },
@@ -223472,6 +225043,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -226938,6 +228514,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -227815,6 +229396,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -228485,6 +230071,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -229576,6 +231167,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -229833,6 +231429,10 @@
       {
         "locale": "en-za",
         "name": "Punch hole cutout"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Výřez pomocí děrovačky"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -230515,6 +232115,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -230819,6 +232424,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -231082,6 +232692,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -231938,6 +233553,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -231993,6 +233613,10 @@
       {
         "locale": "es-es",
         "name": "Agente de Quick Share"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Agent Quick Share"
       }
     ],
     "devices": [
@@ -232190,6 +233814,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -232252,6 +233881,10 @@
       {
         "locale": "de-de",
         "name": "Quick Share-Konnektivität"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Připojení Quick Share"
       }
     ],
     "devices": [
@@ -232449,6 +234082,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -233415,6 +235053,10 @@
       {
         "locale": "de-de",
         "name": "Empfohlene Apps"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Doporučené aplikace"
       }
     ],
     "devices": [
@@ -233612,6 +235254,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -234427,6 +236074,11 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -235632,6 +237284,10 @@
       {
         "locale": "de-de",
         "name": "Fehler"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Chyba"
       }
     ],
     "devices": [
@@ -235824,6 +237480,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -236052,6 +237713,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -237104,6 +238770,10 @@
       {
         "locale": "de-de",
         "name": "Sicherheitsinformationen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Bezpečnostní informace"
       }
     ],
     "devices": [
@@ -237306,6 +238976,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -237671,6 +239346,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -237931,6 +239611,10 @@
       {
         "locale": "de-de",
         "name": "Smart-Aufnahme"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kopie Samsung"
       }
     ],
     "devices": [
@@ -238133,6 +239817,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -238355,6 +240044,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -238582,6 +240276,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -238817,6 +240516,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -239026,6 +240730,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -239253,6 +240962,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -239898,6 +241612,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -240158,6 +241877,10 @@
         "name": "Samsung Intelligence Service"
       },
       {
+        "locale": "cs-cz",
+        "name": "Samsung Intelligence Service"
+      },
+      {
         "locale": "de-de",
         "name": "Samsung Intelligence Service"
       }
@@ -240315,6 +242038,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -240423,6 +242151,10 @@
       {
         "locale": "de-de",
         "name": "Samsung-Tastatur"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Klávesnice Samsung"
       }
     ],
     "devices": [
@@ -240623,6 +242355,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -240706,6 +242443,10 @@
       {
         "locale": "de-de",
         "name": "Samsung Kids-Installationsprogramm"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Instalační program Samsung Kids"
       }
     ],
     "devices": [
@@ -240903,6 +242644,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -241197,6 +242943,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -242193,6 +243944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -242264,6 +244020,10 @@
       {
         "locale": "de-de",
         "name": "Samsung Einrichtungsassistent"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Průvodce nastavením Samsung"
       }
     ],
     "devices": [
@@ -242466,6 +244226,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -242669,6 +244434,10 @@
       {
         "locale": "de-de",
         "name": "Samsung Text-zu-Sprache-Engine"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Modul převodu textu na řeč Samsung"
       }
     ],
     "devices": [
@@ -242871,6 +244640,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -243561,6 +245335,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -244398,6 +246177,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -245043,6 +246827,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -245205,6 +246994,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -245349,6 +247143,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -245563,6 +247362,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -245926,6 +247730,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -246113,6 +247922,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -246272,6 +248086,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -246444,6 +248263,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -246603,6 +248427,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -246795,6 +248624,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -246969,6 +248803,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -247116,6 +248955,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -247225,6 +249069,18 @@
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
+      }
+    ]
+  },
+  "com.longcheer.sarauth": {
+    "appName": "SarUI",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       }
     ]
   },
@@ -248416,6 +250272,10 @@
         "name": "Search engine selector"
       },
       {
+        "locale": "cs-cz",
+        "name": "Výběr vyhledávače"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Search engine selector"
       }
@@ -248847,6 +250707,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -248942,6 +250807,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Samsung Media Storage"
+      },
+      {
+        "locale": "cs-cz",
         "name": "Samsung Media Storage"
       }
     ],
@@ -249140,6 +251009,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -249419,6 +251293,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -249603,6 +251482,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -251023,6 +252907,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -251594,6 +253483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -251661,6 +253555,10 @@
       },
       {
         "locale": "de-de",
+        "name": "Samsung Call Media"
+      },
+      {
+        "locale": "cs-cz",
         "name": "Samsung Call Media"
       }
     ],
@@ -251864,6 +253762,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -252375,6 +254278,10 @@
       {
         "locale": "de-de",
         "name": "Separater App-Ton"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Samostatný zvuk aplikace"
       }
     ],
     "devices": [
@@ -252577,6 +254484,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -253078,6 +254990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -253295,6 +255212,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -253504,6 +255426,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -253746,6 +255673,10 @@
       {
         "locale": "ja-jp",
         "name": "設定"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nastavení"
       },
       {
         "locale": "es-mx",
@@ -254492,6 +256423,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -254954,6 +256890,10 @@
         "name": "ストレージの設定"
       },
       {
+        "locale": "cs-cz",
+        "name": "Paměť pro nastavení"
+      },
+      {
         "locale": "es-mx",
         "name": "Almacenamiento de configuración"
       }
@@ -255700,6 +257640,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -255978,6 +257923,10 @@
       {
         "locale": "ja-jp",
         "name": "推奨設定"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Návrhy nastavení"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -256610,6 +258559,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -256911,6 +258865,11 @@
       {
         "make": "samsung",
         "model": "SM-X910",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
         "os": "35"
       },
       {
@@ -257391,6 +259350,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -258391,6 +260355,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -258705,6 +260674,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -259073,6 +261047,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -259276,6 +261255,10 @@
       {
         "locale": "en-za",
         "name": "Sim app dialogue"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Dialogové okno aplikace SIM karty"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -259969,6 +261952,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -260321,6 +262309,10 @@
       {
         "locale": "de-de",
         "name": "SIM-Toolkit"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "SIM Toolkit"
       }
     ],
     "devices": [
@@ -260498,6 +262490,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -261258,6 +263255,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -261532,6 +263534,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -262186,6 +264193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -262434,6 +264446,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -262744,6 +264761,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -263643,6 +265665,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -263685,6 +265712,10 @@
       {
         "locale": "es-es",
         "name": "Agente de Smart Switch"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Agent Smart Switch"
       }
     ],
     "devices": [
@@ -263887,6 +265918,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -265393,6 +267429,10 @@
       {
         "locale": "de-de",
         "name": "Software-Update"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace softwaru"
       }
     ],
     "devices": [
@@ -265598,6 +267638,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -265657,6 +267702,10 @@
       {
         "locale": "de-de",
         "name": "Software-Update"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace softwaru"
       }
     ],
     "devices": [
@@ -265854,6 +267903,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -266505,6 +268559,10 @@
       {
         "locale": "de-de",
         "name": "Sound-Auswahl"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Výběr zvuku"
       }
     ],
     "devices": [
@@ -266707,6 +268765,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -266769,6 +268832,10 @@
       {
         "locale": "de-de",
         "name": "Tonqualität und Effekte"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kvalita zvuku a efekty"
       }
     ],
     "devices": [
@@ -266971,6 +269038,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -268240,6 +270312,10 @@
         "name": "Google Text-to-speech engine"
       },
       {
+        "locale": "cs-cz",
+        "name": "Rozpoznávání a syntéza řeči od Googlu"
+      },
+      {
         "locale": "es-mx",
         "name": "Reconocimiento y síntesis de voz de Google"
       },
@@ -268978,6 +271054,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -269778,6 +271859,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -269927,6 +272013,10 @@
       {
         "locale": "ja-jp",
         "name": "ストレージ マネージャ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Správce úložiště"
       },
       {
         "locale": "es-mx",
@@ -270548,6 +272638,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -271805,6 +273900,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -272842,6 +274942,10 @@
         "name": "システム接続リソース"
       },
       {
+        "locale": "cs-cz",
+        "name": "Zdroje pro připojení systému"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "System connectivity resources"
       },
@@ -273480,6 +275584,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -274184,6 +276293,10 @@
         "name": "保護者による使用制限（システム）"
       },
       {
+        "locale": "cs-cz",
+        "name": "Rodičovská kontrola – systém"
+      },
+      {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Family Link parental controls"
       },
@@ -274779,6 +276892,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -275169,6 +277287,10 @@
       {
         "locale": "ja-jp",
         "name": "システム トレース"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Trasování systému"
       },
       {
         "locale": "es-mx",
@@ -275882,6 +278004,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -276007,6 +278134,10 @@
       {
         "locale": "ja-jp",
         "name": "システム UI"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "UI systému"
       },
       {
         "locale": "es-mx",
@@ -276753,6 +278884,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -277713,6 +279849,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -278118,6 +280259,10 @@
       {
         "locale": "en-za",
         "name": "System Wi-Fi resources"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Systémové zdroje Wi-Fi"
       }
     ],
     "devices": [
@@ -278505,6 +280650,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "Lenovo",
@@ -279414,6 +281564,10 @@
         "name": "Etiquetas"
       },
       {
+        "locale": "cs-cz",
+        "name": "Značky"
+      },
+      {
         "locale": "es-mx",
         "name": "Etiquetas"
       }
@@ -279688,6 +281842,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -280381,6 +282540,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -280464,6 +282628,10 @@
       {
         "locale": "ja-jp",
         "name": "縦長のカットアウト"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Vysoký výřez"
       },
       {
         "locale": "es-mx",
@@ -281175,6 +283343,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -283348,6 +285521,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -283824,6 +286002,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -283894,6 +286077,10 @@
       {
         "locale": "ja-jp",
         "name": "TetheringConfigOverlay"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "com.google.android.networkstack.tethering.overlay"
       }
     ],
     "devices": [
@@ -284251,6 +286438,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -287007,6 +289199,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -288195,6 +290392,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       }
@@ -288545,6 +290747,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -288624,6 +290831,10 @@
       {
         "locale": "ja-jp",
         "name": "単語リスト"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Uživatelský slovník"
       },
       {
         "locale": "es-mx",
@@ -289370,6 +291581,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -291662,6 +293878,10 @@
       {
         "locale": "de-de",
         "name": "Video-Player"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Videopřehrávač"
       }
     ],
     "devices": [
@@ -291864,6 +294084,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -293133,6 +295358,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -294006,6 +296236,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -294704,6 +296939,10 @@
       {
         "locale": "de-de",
         "name": "Hintergrundbild und Stil"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Pozadí a styl"
       }
     ],
     "devices": [
@@ -294901,6 +297140,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -294963,6 +297207,10 @@
       {
         "locale": "de-de",
         "name": "Hintergrundbilddienste"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služby pozadí"
       }
     ],
     "devices": [
@@ -295160,6 +297408,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -295543,6 +297796,10 @@
       {
         "locale": "ja-jp",
         "name": "エッジ スクリーン"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kaskádovitý výřez"
       },
       {
         "locale": "es-mx",
@@ -296226,6 +298483,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -296518,6 +298780,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -296740,6 +299007,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -296799,6 +299071,10 @@
       {
         "locale": "de-de",
         "name": "Wetter"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Počasí"
       }
     ],
     "devices": [
@@ -297001,6 +299277,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -297894,6 +300175,10 @@
       {
         "locale": "de-de",
         "name": "WLAN-Anrufe"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Volání pomocí Wi-Fi"
       }
     ],
     "devices": [
@@ -298081,6 +300366,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "samsung",
@@ -299249,6 +301539,10 @@
         "name": "緊急速報メール"
       },
       {
+        "locale": "cs-cz",
+        "name": "Bezdrátové výstražné zprávy"
+      },
+      {
         "locale": "es-mx",
         "name": "Alertas de emergencia inalámbricas"
       },
@@ -299882,6 +302176,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -300716,6 +303015,10 @@
         "name": "仕事用の設定"
       },
       {
+        "locale": "cs-cz",
+        "name": "Pracovní nastavení"
+      },
+      {
         "locale": "es-mx",
         "name": "Configuración de trabajo"
       }
@@ -301455,6 +303758,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
@@ -303649,6 +305957,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A057G",
+        "os": "35"
       },
       {
         "make": "ALCommon",
