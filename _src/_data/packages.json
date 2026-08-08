@@ -834,6 +834,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -2107,6 +2112,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -4227,6 +4237,10 @@
       {
         "locale": "es-mx",
         "name": "Suite de Accesibilidad Android"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služby dostupnosti pro Android"
       }
     ],
     "devices": [
@@ -4759,6 +4773,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -5391,6 +5410,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -5557,6 +5581,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -6419,6 +6448,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -7362,6 +7396,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -8241,6 +8280,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -9048,6 +9092,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -9890,6 +9939,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -10784,6 +10838,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -11598,6 +11657,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -12405,6 +12469,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -14868,6 +14937,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -14910,6 +14984,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -14954,6 +15033,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -15017,6 +15101,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -15394,6 +15483,42 @@
         "make": "fezawio",
         "model": "F11_V_US",
         "os": "35"
+      }
+    ]
+  },
+  "android.Vinca.OpenMarket_Europe": {
+    "appName": "android.Vinca.OpenMarket_Europe",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
+  "android.Vinca.Telefonica_Spain": {
+    "appName": "android.Vinca.Telefonica_Spain",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
+  "android.Vinca.TIM_Italy": {
+    "appName": "android.Vinca.TIM_Italy",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -15855,7 +15980,12 @@
   "com.tcl.apnhotfix": {
     "appName": "ApnHotfixLib",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "ApnHotfix"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -15866,6 +15996,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -19005,6 +19140,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -19210,6 +19350,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -21497,6 +21642,10 @@
       {
         "locale": "es-us",
         "name": "Elige una imagen"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Vyberte obrázek"
       }
     ],
     "devices": [
@@ -21703,6 +21852,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -23507,6 +23661,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -23793,6 +23952,10 @@
       {
         "locale": "es-es",
         "name": "Aviso de la batería"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Upozornění baterie"
       }
     ],
     "devices": [
@@ -23830,6 +23993,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -25783,6 +25951,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -27172,6 +27345,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -27988,6 +28166,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -28915,6 +29098,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -29974,6 +30162,10 @@
       {
         "locale": "ja-jp",
         "name": "電卓"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kalkulačka"
       }
     ],
     "devices": [
@@ -30366,6 +30558,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -30569,6 +30766,10 @@
       {
         "locale": "es-mx",
         "name": "Calendario"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kalendář"
       }
     ],
     "devices": [
@@ -31086,6 +31287,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -31369,7 +31575,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "Úložiště kalendáře"
+        "name": "Úložiště Kalendáře"
       },
       {
         "locale": "es-mx",
@@ -32185,6 +32391,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -33577,6 +33788,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -35370,6 +35586,10 @@
       {
         "locale": "es-es",
         "name": "Cámara"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Fotoaparát"
       }
     ],
     "devices": [
@@ -35407,6 +35627,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -36805,6 +37030,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -38030,6 +38260,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -39192,6 +39427,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -41226,6 +41466,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -41532,7 +41777,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "Instalační program certifikátu"
+        "name": "Instalátor certifikátů"
       },
       {
         "locale": "es-mx",
@@ -42348,6 +42593,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -43295,6 +43545,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -44200,6 +44455,10 @@
       {
         "locale": "es-es",
         "name": "Eliminar"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Vyčistit"
       }
     ],
     "devices": [
@@ -44217,6 +44476,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -44750,6 +45014,10 @@
       {
         "locale": "ja-jp",
         "name": "時計"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Hodiny"
       }
     ],
     "devices": [
@@ -45127,6 +45395,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -47388,6 +47661,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -48342,6 +48620,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -48706,6 +48989,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -49308,6 +49596,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -50878,6 +51171,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -51695,6 +51993,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -52046,6 +52349,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -52794,6 +53102,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -53779,6 +54092,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -53977,6 +54295,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -54978,6 +55301,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -55778,6 +56106,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -57787,6 +58120,18 @@
       }
     ]
   },
+  "com.android.phone.rro_T517F": {
+    "appName": "com.android.phone.rro_T517F",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.phone.rro_T610K": {
     "appName": "com.android.phone.rro_T610K",
     "userFacing": false,
@@ -58834,6 +59179,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -59730,6 +60080,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -60322,6 +60677,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -60354,6 +60714,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -62444,6 +62809,23 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
+  "com.android.settings.overlay_common": {
+    "appName": "com.android.settings.overlay_common",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -62982,6 +63364,18 @@
         "make": "Zebra Technologies",
         "model": "KC50",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.settings.personalsafety.overlay": {
+    "appName": "com.android.settings.personalsafety.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -63946,6 +64340,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -64343,6 +64742,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -64766,6 +65170,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -66022,6 +66431,18 @@
       }
     ]
   },
+  "com.android.systemui.overlay_vinca": {
+    "appName": "com.android.systemui.overlay_vinca",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.systemui.overlay.all_devices": {
     "appName": "com.android.systemui.overlay.all_devices",
     "userFacing": false,
@@ -66617,6 +67038,18 @@
       }
     ]
   },
+  "com.android.systemui.personalsafety.overlay": {
+    "appName": "com.android.systemui.personalsafety.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.systemui.plugin.globalactions.wallet": {
     "appName": "com.android.systemui.plugin.globalactions.wallet",
     "userFacing": false,
@@ -66830,6 +67263,11 @@
         "make": "TCL",
         "model": "T610K",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -66867,6 +67305,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -67945,6 +68388,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -68774,6 +69222,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -69480,6 +69933,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -70246,6 +70704,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -70482,6 +70945,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -71102,6 +71570,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -72952,6 +73425,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -73060,6 +73538,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -73144,6 +73627,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -73478,6 +73966,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -73616,6 +74109,11 @@
         "make": "TCL",
         "model": "T610K",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -74305,6 +74803,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -75361,6 +75864,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -76042,6 +76550,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -76855,6 +77368,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -77534,6 +78052,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -78686,6 +79209,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -79350,6 +79878,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -79703,6 +80236,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -80215,6 +80753,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -80781,6 +81324,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -81686,6 +82234,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -82772,6 +83325,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -83434,6 +83992,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -83771,6 +84334,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -84455,6 +85023,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -85134,6 +85707,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -85796,6 +86374,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -87534,6 +88117,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -88003,6 +88591,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -88978,6 +89571,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -89389,6 +89987,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -89659,6 +90262,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -90685,6 +91293,42 @@
       }
     ]
   },
+  "com.jrdcom.Elabel.overlay_vinca": {
+    "appName": "com.jrdcom.Elabel.overlay_vinca",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_vinca_T517F": {
+    "appName": "com.jrdcom.Elabel.overlay_vinca_T517F",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
+  "com.jrdcom.Elabel.overlay_vinca_T517FCE": {
+    "appName": "com.jrdcom.Elabel.overlay_vinca_T517FCE",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.jrdcom.Elabel.rro_common": {
     "appName": "com.jrdcom.Elabel.rro_common",
     "userFacing": false,
@@ -90719,6 +91363,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -91096,6 +91745,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -91322,6 +91976,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -91469,6 +92128,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -91784,6 +92448,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -91986,6 +92655,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92178,6 +92852,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92419,6 +93098,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92506,6 +93190,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92799,6 +93488,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92936,6 +93630,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -92958,6 +93657,11 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -93251,6 +93955,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108273,6 +108982,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108315,6 +109029,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108378,6 +109097,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108490,6 +109214,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108520,7 +109249,12 @@
   "com.tcl.google.networkstack.rro": {
     "appName": "com.tcl.google.networkstack.rro",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "TclNetworkStackGoogle_rro_common"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -108546,6 +109280,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108660,6 +109399,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108697,6 +109441,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108734,6 +109483,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108761,6 +109515,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108873,6 +109632,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -108890,6 +109654,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -109041,6 +109810,18 @@
       }
     ]
   },
+  "com.tct.reducesar.rro_T517F": {
+    "appName": "com.tct.reducesar.rro_T517F",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.tct.reducesar.rro_T610K": {
     "appName": "com.tct.reducesar.rro_T610K",
     "userFacing": false,
@@ -109092,6 +109873,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -109165,6 +109951,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -109202,6 +109993,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -109234,6 +110030,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -111279,10 +112080,6 @@
         "name": "コンパニオン デバイス マネージャー"
       },
       {
-        "locale": "cs-cz",
-        "name": "Správce doprovodných zařízení"
-      },
-      {
         "locale": "es-mx",
         "name": "Administrador de dispositivo complementario"
       }
@@ -112097,6 +112894,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -112321,6 +113123,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -113635,6 +114442,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -114450,12 +115262,22 @@
   "com.tct.smart.cota": {
     "appName": "Configuration update",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace konfigurace"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -115463,6 +116285,10 @@
       {
         "locale": "es-mx",
         "name": "Contactos"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Kontakty"
       }
     ],
     "devices": [
@@ -115950,6 +116776,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -116506,6 +117337,10 @@
       {
         "locale": "es-mx",
         "name": "Información de los contactos"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Úložiště kontaktů"
       }
     ],
     "devices": [
@@ -117093,6 +117928,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -117500,6 +118340,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -117744,13 +118589,23 @@
   },
   "com.tct.contentcenter": {
     "appName": "Content centre",
-    "userFacing": false,
-    "additionalLocales": [],
+    "userFacing": true,
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Centrum obsahu"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -118905,6 +119760,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -119786,6 +120646,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -120124,6 +120989,10 @@
       {
         "locale": "es-mx",
         "name": "Servicios multidispositivo"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služby pro více zařízení"
       }
     ],
     "devices": [
@@ -120401,6 +121270,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -121498,6 +122372,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -122037,6 +122916,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -123036,6 +123920,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -123064,7 +123953,12 @@
   "com.tct.retaildemo": {
     "appName": "Demo Mode",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Ukázkový režim"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -123100,6 +123994,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -123748,6 +124647,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -124537,6 +125441,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -125060,6 +125969,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -126181,6 +127095,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -126510,6 +127429,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -127952,6 +128876,10 @@
       {
         "locale": "es-mx",
         "name": "Bienestar digital"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Digitální rovnováha"
       }
     ],
     "devices": [
@@ -128499,6 +129427,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -130043,6 +130976,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -130925,6 +131863,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -131002,7 +131945,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "Stahování"
+        "name": "Stažené položky"
       },
       {
         "locale": "es-mx",
@@ -131803,6 +132746,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -132743,6 +133691,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -134553,6 +135506,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -135864,6 +136822,10 @@
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "com.android.emergency"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "com.android.emergency"
       }
     ],
     "devices": [
@@ -136400,6 +137362,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -137512,6 +138479,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -137684,6 +138656,10 @@
       {
         "locale": "es-es",
         "name": "Servicios del teléfono mejorados"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Rozšířené služby telefonu"
       }
     ],
     "devices": [
@@ -137721,6 +138697,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -139801,6 +140782,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -142486,6 +143472,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -142508,6 +143499,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -143698,6 +144694,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -143893,6 +144894,10 @@
       {
         "locale": "es-mx",
         "name": "Files de Google"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Files od Googlu"
       }
     ],
     "devices": [
@@ -144310,6 +145315,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -145750,6 +146760,10 @@
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Find Hub"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Pátrací centrum"
       }
     ],
     "devices": [
@@ -145867,6 +146881,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -146304,6 +147323,11 @@
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -146868,6 +147892,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -146944,6 +147973,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -147445,6 +148479,10 @@
       {
         "locale": "es-es",
         "name": "Formato libre"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Volný tvar"
       }
     ],
     "devices": [
@@ -147477,6 +148515,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -147665,6 +148708,10 @@
       {
         "locale": "es-es",
         "name": "Pantalla completa"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Celá obrazovka"
       }
     ],
     "devices": [
@@ -147682,6 +148729,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -147724,6 +148776,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -148569,6 +149626,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -152620,6 +153682,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -152679,6 +153746,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -152928,6 +154000,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -155140,6 +156217,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -156666,6 +157748,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -157595,6 +158682,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -159120,6 +160212,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -159197,6 +160294,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -159969,6 +161071,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -160771,6 +161878,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -161950,6 +163062,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -163179,6 +164296,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -163959,6 +165081,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -165043,6 +166170,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -166105,6 +167237,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -168091,6 +169228,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -168297,6 +169439,18 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      }
+    ]
+  },
+  "com.tcl.gamezone": {
+    "appName": "Herní zóna",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -170073,6 +171227,11 @@
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -170966,6 +172125,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -172447,6 +173611,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -173743,6 +174912,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -174701,6 +175875,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -175524,6 +176703,10 @@
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
         "name": "Keep notes"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Poznámky Keep"
       }
     ],
     "devices": [
@@ -175736,6 +176919,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -175819,6 +177007,10 @@
       {
         "locale": "ja-jp",
         "name": "キーチェーン"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Řetězec klíčů"
       },
       {
         "locale": "es-mx",
@@ -176634,6 +177826,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -179832,6 +181029,10 @@
       {
         "locale": "es-es",
         "name": "Pantalla de aplicaciones"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Spouštěč"
       }
     ],
     "devices": [
@@ -179864,6 +181065,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -182244,6 +183450,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -182641,6 +183852,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -183398,6 +184614,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -184744,6 +185965,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -185381,6 +186607,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -186441,6 +187672,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -187305,6 +188541,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -187975,6 +189216,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -188132,6 +189378,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -189031,6 +190282,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -190027,6 +191283,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -191034,6 +192295,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -191463,6 +192729,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -191825,6 +193096,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -192182,6 +193458,11 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -193204,6 +194485,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -193415,6 +194701,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -194284,6 +195575,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -197660,6 +198956,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -197736,6 +199037,10 @@
       {
         "locale": "es-es",
         "name": "Servicio basado en ubicación (LBS) sin marco MTK"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "MTK nerámcová služba určování polohy"
       }
     ],
     "devices": [
@@ -197863,6 +199168,11 @@
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -199102,6 +200412,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -200768,6 +202083,18 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      }
+    ]
+  },
+  "com.tcl.themesettings": {
+    "appName": "Nastavení tématu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -202795,6 +204122,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -204927,7 +206259,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "NFC"
+        "name": "Služba Nfc"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -205667,6 +206999,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -206648,6 +207985,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -207739,6 +209081,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -207845,6 +209192,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -208312,6 +209664,10 @@
       {
         "locale": "en-gb",
         "name": "NXTVISION Service"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "NXTVISION Service"
       }
     ],
     "devices": [
@@ -208359,6 +209715,11 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -208391,6 +209752,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -210776,6 +212142,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -210818,6 +212189,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -210860,6 +212236,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -210921,6 +212302,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -210953,6 +212339,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211172,6 +212563,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211204,6 +212600,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211236,6 +212637,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211300,6 +212706,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211332,6 +212743,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211428,6 +212844,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -211487,6 +212908,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -213143,6 +214569,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -213221,6 +214652,10 @@
       {
         "locale": "es-es",
         "name": "Configuración punto de acceso OTA"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Konfigurace přístupového bodu funkce OTA"
       }
     ],
     "devices": [
@@ -213258,6 +214693,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -214408,6 +215848,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -215310,6 +216755,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -217513,6 +218963,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -218205,6 +219660,10 @@
       {
         "locale": "ja-jp",
         "name": "緊急情報サービス"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nouzové informace"
       }
     ],
     "devices": [
@@ -218567,6 +220026,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -219332,6 +220796,10 @@
       {
         "locale": "es-mx",
         "name": "Teléfono"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Telefon"
       }
     ],
     "devices": [
@@ -219714,6 +221182,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -220707,6 +222180,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -220844,7 +222322,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "Telefonní hovory"
+        "name": "Správa telefonních hovorů"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -221654,6 +223132,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -222585,6 +224068,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -223740,6 +225228,10 @@
       {
         "locale": "es-mx",
         "name": "Fotos"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Fotky"
       }
     ],
     "devices": [
@@ -224302,6 +225794,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -225093,6 +226590,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -227100,6 +228602,18 @@
       }
     ]
   },
+  "com.tct.weather": {
+    "appName": "Počasí",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
+      }
+    ]
+  },
   "com.mi.android.globallauncher": {
     "appName": "POCO Launcher",
     "userFacing": false,
@@ -228577,6 +230091,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -228648,6 +230167,10 @@
       {
         "locale": "ja-jp",
         "name": "印刷スプーラ"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Zařazování tisku"
       },
       {
         "locale": "es-mx",
@@ -229464,6 +230987,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -230126,6 +231654,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -231235,6 +232768,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -232177,6 +233715,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -234496,7 +236039,12 @@
   "com.tcl.fmradio": {
     "appName": "Radio",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Rádio"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -234507,6 +236055,11 @@
         "make": "TCL",
         "model": "T610K",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -235593,6 +237146,10 @@
       {
         "locale": "es-es",
         "name": "Normativa y seguridad"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Regulace a bezpečnost"
       }
     ],
     "devices": [
@@ -235630,6 +237187,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -236403,6 +237965,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -237194,6 +238761,11 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -249448,7 +251020,12 @@
   "com.tcl.camassistant": {
     "appName": "SCAN",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "HLEDAT"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -249459,6 +251036,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -249597,6 +251179,10 @@
       {
         "locale": "es-es",
         "name": "Transmisión de pantalla"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Vysílání obrazovky"
       }
     ],
     "devices": [
@@ -249629,6 +251215,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -249675,6 +251266,10 @@
       {
         "locale": "es-es",
         "name": "Grabación de Pantalla"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Záznamník obrazovky"
       }
     ],
     "devices": [
@@ -249712,6 +251307,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -250750,6 +252350,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -252974,6 +254579,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -256493,6 +258103,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -256567,6 +258182,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -257708,6 +259328,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -257821,6 +259446,10 @@
       {
         "locale": "es-es",
         "name": "Almacenamiento de configuración"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Paměť pro nastavení"
       }
     ],
     "devices": [
@@ -257853,6 +259482,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -258627,6 +260261,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -259009,6 +260648,10 @@
       {
         "locale": "es-es",
         "name": "Asistente instalación"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Průvodce nastavením"
       }
     ],
     "devices": [
@@ -259041,6 +260684,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -260423,6 +262071,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -260717,12 +262370,22 @@
   "com.tct.smart.sidebar": {
     "appName": "Sidebar",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Boční panel"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
         "model": "T951K",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -262020,6 +263683,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -262608,6 +264276,10 @@
       {
         "locale": "en-za",
         "name": "SIM Tool Kit"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Nástroje SIM"
       },
       {
         "locale": "en-za-u-fw-mon-mu-celsius",
@@ -263317,6 +264989,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -264965,7 +266642,12 @@
   "com.tct.onetouchbooster": {
     "appName": "Smart Manager",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Chytrý správce aplikací"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -264986,6 +266668,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -269415,6 +271102,10 @@
       {
         "locale": "ja-jp",
         "name": "サウンド"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Zvuky"
       }
     ],
     "devices": [
@@ -269911,6 +271602,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -271119,6 +272815,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -272708,6 +274409,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -273214,6 +274920,10 @@
       {
         "locale": "es-es",
         "name": "Centro de ayuda"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Centrum podpory"
       }
     ],
     "devices": [
@@ -273246,6 +274956,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -273958,6 +275673,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -274292,6 +276012,10 @@
       {
         "locale": "es-mx",
         "name": "Accesibilidad con interruptores"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Ovládání přepínači"
       }
     ],
     "devices": [
@@ -274629,6 +276353,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -274673,6 +276402,10 @@
       {
         "locale": "es-es",
         "name": "Cambio de teléfono"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aplikace Výměna telefonu"
       }
     ],
     "devices": [
@@ -274695,6 +276428,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -275644,6 +277382,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -276945,6 +278688,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -278072,6 +279820,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -278137,7 +279890,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "UI systému"
+        "name": "Uživatelské rozhraní systému"
       },
       {
         "locale": "es-mx",
@@ -278954,6 +280707,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -279189,6 +280947,10 @@
       {
         "locale": "es-es",
         "name": "Actualización del sistema"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace systému"
       }
     ],
     "devices": [
@@ -279226,6 +280988,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -280129,6 +281896,11 @@
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -280756,6 +282528,10 @@
       {
         "locale": "es-mx",
         "name": "Recursos Wi‑Fi del sistema"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Systémové zdroje Wi-Fi"
       }
     ],
     "devices": [
@@ -281088,6 +282864,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -281565,7 +283346,7 @@
       },
       {
         "locale": "cs-cz",
-        "name": "Značky"
+        "name": "Štítky"
       },
       {
         "locale": "es-mx",
@@ -281876,6 +283657,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -283413,6 +285199,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -283846,6 +285637,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -283897,6 +285693,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -283946,6 +285747,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -283983,6 +285789,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -284000,6 +285811,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -284032,6 +285848,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -284050,7 +285871,12 @@
   "com.tct.systemservice": {
     "appName": "TctSystemService",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Nástroj ke sledování spotřeby energie"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -284086,6 +285912,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -284619,13 +286450,23 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
   "com.tct.telephony.resources": {
     "appName": "Telephony resource",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "cs-cz",
+        "name": "Telefonní prostředek"
+      }
+    ],
     "devices": [
       {
         "make": "TCL",
@@ -284656,6 +286497,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -284707,6 +286553,10 @@
       {
         "locale": "it-it",
         "name": "Terminale"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Terminál"
       }
     ],
     "devices": [
@@ -284818,6 +286668,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -285579,6 +287434,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -286560,6 +288420,11 @@
         "make": "Newland",
         "model": "NLS-MT95",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -286632,6 +288497,11 @@
         "make": "Newland",
         "model": "NLS-MT95",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -287198,6 +289068,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -287227,6 +289102,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -287837,6 +289717,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -289242,6 +291127,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -290295,6 +292185,10 @@
       {
         "locale": "es-es",
         "name": "Actualizaciones del sistema"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Aktualizace"
       }
     ],
     "devices": [
@@ -290332,6 +292226,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -291651,6 +293550,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -292941,6 +294845,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -296304,6 +298213,11 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -296398,6 +298312,11 @@
         "make": "TCL",
         "model": "9566X",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -296700,6 +298619,10 @@
       {
         "locale": "en-au",
         "name": "Wallpaper and style"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Tapety a styly"
       }
     ],
     "devices": [
@@ -296896,6 +298819,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -297633,6 +299561,10 @@
       {
         "locale": "es-mx",
         "name": "Certificado WAPI"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Certifikát WAPI"
       }
     ],
     "devices": [
@@ -297690,6 +299622,11 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -298545,6 +300482,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -299630,6 +301572,10 @@
       {
         "locale": "es-mx",
         "name": "Servicio de cámara web"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Služba webkamery"
       }
     ],
     "devices": [
@@ -299876,6 +301822,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -300443,6 +302394,10 @@
       {
         "locale": "es-es",
         "name": "Llamadas Wi-Fi"
+      },
+      {
+        "locale": "cs-cz",
+        "name": "Volání přes síť Wi-Fi"
       }
     ],
     "devices": [
@@ -300465,6 +302420,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -300492,6 +302452,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -302236,6 +304201,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
@@ -303827,6 +305797,11 @@
       {
         "make": "Google",
         "model": "Pixel 10",
+        "os": "36"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
         "os": "36"
       }
     ]
@@ -306022,6 +307997,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "35"
+      },
+      {
+        "make": "TCL",
+        "model": "T517F",
+        "os": "36"
       }
     ]
   },
