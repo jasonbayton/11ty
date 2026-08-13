@@ -29,19 +29,19 @@ sources:
   - https://refugetechsafety.org/guide-secure-your-phone-basics/
 ---
 
+<div class="callout callout-orange">
+<div class="callout-heading">This is the complete advice I can offer remotely</div>
+
+I cannot remotely inspect a personal phone, identify who may be accessing it, remove an unknown administrator, recover deleted data, or provide individual forensic support. Follow the steps below. Do not send me screenshots, logs, IMEIs, telephone numbers, passwords, or account recovery codes.
+
+</div>
+
 <div class="callout callout-blue">
 <div class="callout-heading">Start here</div>
 
 1. Use a different trusted device to secure your main email account first.
 2. On the phone, search Settings for **Device admin apps** and **Accessibility** and remove unfamiliar access.
 3. Do **not** factory-reset until important data and evidence are safely copied.
-
-</div>
-
-<div class="callout callout-orange">
-<div class="callout-heading">This is the complete advice I can offer remotely</div>
-
-I cannot remotely inspect a personal phone, identify who may be accessing it, remove an unknown administrator, recover deleted data, or provide individual forensic support. Follow the steps below. Do not send me screenshots, logs, IMEIs, telephone numbers, passwords, or account recovery codes.
 
 </div>
 
@@ -61,7 +61,7 @@ Before resetting or deleting anything:
 2. Save copies of important messages, account alerts and transaction records somewhere the other person cannot access.
 3. Recover missing photos before doing anything destructive:
    - Sign in to [Google Photos](https://photos.google.com/) from a trusted device and confirm the correct Google Account is selected.
-   - Open **Trash** and restore anything present. Backed-up items remain there for 60 days; items that were not backed up remain for 30 days.
+   - Open **Trash** (Bin) and restore anything present. Backed-up items remain there for 60 days; items that were not backed up remain for 30 days.
    - Check **Archive**, **Recently added**, **Locked Folder**, the phone's Gallery bin, other Google Accounts, and any removable SD card.
    - Download a separate copy of recovered photos. Google Takeout cannot recover permanently deleted items.
 
@@ -220,7 +220,7 @@ These are **not evidence on their own**:
 - **Evidence for legal action:** stop altering the device and engage law enforcement or a qualified mobile forensic examiner. A phone-repair shop or online commenter cannot reliably attribute an attacker.
 - **Bug reports, APKs, IMEIs and diagnostic files:** share them only through an official manufacturer, carrier, law-enforcement or qualified forensic channel that has asked for them. These files and identifiers can expose private information; do not post them publicly or send them to me.
 
-<div class="callout callout-danger">
+<div class="callout callout-red">
 
 ### Do not let a “helper” take control
 
