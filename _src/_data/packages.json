@@ -91636,6 +91636,18 @@
       }
     ]
   },
+  "com.isafemobile.framework.res.overlay": {
+    "appName": "com.isafemobile.framework.res.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "isafemobile",
+        "model": "IS540",
+        "os": "34"
+      }
+    ]
+  },
   "com.isafemobile.ismpermissionpolicy.overlay": {
     "appName": "com.isafemobile.ismpermissionpolicy.overlay",
     "userFacing": false,
