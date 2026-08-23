@@ -29414,11 +29414,6 @@
         "make": "motorola",
         "model": "moto g - 2025",
         "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       }
     ]
   },
@@ -33207,7 +33202,7 @@
   },
   "com.vzw.ecid": {
     "appName": "Call Filter",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -46297,7 +46292,7 @@
   },
   "com.vcast.mediamanager": {
     "appName": "Cloud",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -115327,11 +115322,6 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -193991,11 +193981,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
-      },
-      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -194368,11 +194353,6 @@
         "os": "34"
       },
       {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
-      },
-      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -194738,11 +194718,6 @@
         "make": "motorola",
         "model": "moto g24",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -197216,11 +197191,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       },
       {
         "make": "HMD Global",
@@ -203477,7 +203447,7 @@
   },
   "com.vzw.hss.myverizon": {
     "appName": "My Verizon",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -245958,11 +245928,6 @@
       },
       {
         "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
         "model": "SM-X200",
         "os": "34"
       },
@@ -255761,11 +255726,6 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "35"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -271751,11 +271711,6 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
-        "os": "36"
       },
       {
         "make": "samsung",
@@ -297366,7 +297321,7 @@
   },
   "com.securityandprivacy.android.verizon.vms": {
     "appName": "Verizon Protect",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -298772,11 +298727,6 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
-        "os": "36"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-S908U",
         "os": "36"
       }
     ]
