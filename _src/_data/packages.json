@@ -3267,6 +3267,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928U1",
         "os": "35"
@@ -52922,11 +52927,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 6",
         "os": "31"
       },
@@ -56507,11 +56507,6 @@
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
         "os": "36"
       },
       {
@@ -58567,6 +58562,10 @@
     "userFacing": true,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Pixel Display Services"
+      },
+      {
         "locale": "en-gb",
         "name": "Pixel display services"
       }
@@ -58581,6 +58580,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -58628,6 +58632,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -60887,6 +60896,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -62363,11 +62377,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
         "make": "HMD Global",
         "model": "Nokia G22",
         "os": "34"
@@ -63012,6 +63021,18 @@
       }
     ]
   },
+  "com.android.settings.blazer": {
+    "appName": "com.android.settings.blazer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.android.settings.bluetooth.rro": {
     "appName": "com.android.settings.bluetooth.rro",
     "userFacing": false,
@@ -63246,8 +63267,8 @@
       }
     ]
   },
-  "com.android.settings.overlay.cheetah": {
-    "appName": "com.android.settings.overlay.cheetah",
+  "com.android.settings.overlay.blazer": {
+    "appName": "com.android.settings.overlay.blazer",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -63255,7 +63276,14 @@
         "make": "Google",
         "model": "Pixel 10 Pro",
         "os": "37"
-      },
+      }
+    ]
+  },
+  "com.android.settings.overlay.cheetah": {
+    "appName": "com.android.settings.overlay.cheetah",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
@@ -63484,11 +63512,6 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
@@ -66868,6 +66891,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 10",
         "os": "36"
       }
@@ -67383,6 +67411,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       },
@@ -67402,6 +67435,18 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      }
+    ]
+  },
+  "com.android.systemui.overlay.spoonoverlay2025": {
+    "appName": "com.android.systemui.overlay.spoonoverlay2025",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       }
     ]
   },
@@ -67747,6 +67792,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 10",
         "os": "36"
       }
@@ -67766,6 +67816,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -68197,6 +68252,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       }
@@ -68261,6 +68321,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 10",
@@ -74075,6 +74140,18 @@
       }
     ]
   },
+  "com.google.android.connectivity.resources.muzel": {
+    "appName": "com.google.android.connectivity.resources.muzel",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.google.android.connectivity.resources.overlay": {
     "appName": "com.google.android.connectivity.resources.overlay",
     "userFacing": false,
@@ -74211,6 +74288,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -74241,6 +74323,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 9a",
@@ -76791,18 +76878,6 @@
       }
     ]
   },
-  "com.google.android.overlay.deprecated.telecom": {
-    "appName": "com.google.android.overlay.deprecated.telecom",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      }
-    ]
-  },
   "com.google.android.overlay.DeviceAsWebcam": {
     "appName": "com.google.android.overlay.DeviceAsWebcam",
     "userFacing": false,
@@ -76981,6 +77056,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 9a",
@@ -82079,6 +82159,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       }
@@ -87065,6 +87150,18 @@
       }
     ]
   },
+  "com.google.android.overlay.personalcontextconfig": {
+    "appName": "com.google.android.overlay.personalcontextconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.google.android.overlay.pixelconfig2018": {
     "appName": "com.google.android.overlay.pixelconfig2018",
     "userFacing": false,
@@ -87675,6 +87772,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       },
@@ -87873,6 +87975,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -87912,6 +88019,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -88690,11 +88802,6 @@
         "os": "34"
       },
       {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
         "make": "HMD Global",
         "model": "Nokia G22",
         "os": "34"
@@ -88862,11 +88969,6 @@
       {
         "make": "Nothing",
         "model": "A015",
-        "os": "35"
-      },
-      {
-        "make": "Nothing",
-        "model": "A063",
         "os": "35"
       },
       {
@@ -89044,11 +89146,6 @@
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
         "os": "36"
       },
       {
@@ -89116,6 +89213,18 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "37"
+      }
+    ]
+  },
+  "com.google.android.settings.overlay.proactiveassistoverlay2026": {
+    "appName": "com.google.android.settings.overlay.proactiveassistoverlay2026",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
         "os": "37"
       }
     ]
@@ -89525,6 +89634,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -89626,6 +89740,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -89643,6 +89762,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -89658,6 +89782,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 9a",
@@ -90811,11 +90940,6 @@
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
         "os": "36"
       },
       {
@@ -90835,6 +90959,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 10",
@@ -99331,11 +99460,6 @@
       {
         "make": "Google",
         "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
         "os": "36"
       },
       {
@@ -107467,6 +107591,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       }
@@ -108580,6 +108709,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 9a",
@@ -115915,11 +116049,20 @@
     "userFacing": false,
     "additionalLocales": [
       {
+        "locale": "nl-nl",
+        "name": "Gekoppelde telefoon- en smartwatch-services"
+      },
+      {
         "locale": "en-gb",
         "name": "Connected phone and watch services"
       }
     ],
     "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
       {
         "make": "Google",
         "model": "Pixel 9a",
@@ -121635,7 +121778,7 @@
       },
       {
         "locale": "sv-se",
-        "name": "Tjänster för flera enheter"
+        "name": "Tjänster på flera enheter"
       },
       {
         "locale": "en-de",
@@ -126432,6 +126575,18 @@
       }
     ]
   },
+  "com.google.android.apps.pixel.psi": {
+    "appName": "Device Intelligence",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.motorola.ccc.devicemanagement": {
     "appName": "Device Management",
     "userFacing": false,
@@ -128083,6 +128238,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -128172,11 +128332,6 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
       },
       {
         "make": "HMD Global",
@@ -147609,6 +147764,10 @@
         "name": "Trova il mio dispositivo"
       },
       {
+        "locale": "nl-nl",
+        "name": "Vind-plek"
+      },
+      {
         "locale": "ja-jp",
         "name": "Find Hub"
       },
@@ -147656,6 +147815,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "DOOGEE",
@@ -154792,6 +154956,11 @@
         "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -169661,11 +169830,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
         "make": "HMD Global",
         "model": "Nokia G22",
         "os": "34"
@@ -171048,12 +171212,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
-        "name": "Verbergen"
-      },
-      {
         "locale": "es-us",
         "name": "Ocultar"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Verbergen"
       }
     ],
     "devices": [
@@ -171071,11 +171235,6 @@
         "make": "motorola",
         "model": "moto g - 2025",
         "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
       },
       {
         "make": "motorola",
@@ -192059,6 +192218,11 @@
         "make": "HOTWAV",
         "model": "TAB R9 Pro",
         "os": "34"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "HMD Global",
@@ -228292,11 +228456,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 6",
         "os": "31"
       },
@@ -228673,6 +228832,11 @@
     "devices": [
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 10",
         "os": "36"
       }
@@ -228687,6 +228851,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -229621,6 +229790,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -229632,6 +229806,18 @@
       {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
+        "os": "37"
+      }
+    ]
+  },
+  "com.google.android.pixel.setupwizard.overlay2025": {
+    "appName": "PixelSetupWizardOverlay2025",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
         "os": "37"
       }
     ]
@@ -237209,6 +237395,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
       },
@@ -239539,11 +239730,6 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 6",
         "os": "31"
       },
@@ -239733,12 +239919,12 @@
         "name": "Retail demo services"
       },
       {
-        "locale": "nl-nl",
-        "name": "Services voor demo voor de detailhandel"
-      },
-      {
         "locale": "en-gb",
         "name": "Retail demo services"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Services voor demo voor de detailhandel"
       },
       {
         "locale": "en-au",
@@ -239755,11 +239941,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
       },
       {
         "make": "Google",
@@ -252476,6 +252657,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       }
@@ -264346,6 +264532,14 @@
       {
         "locale": "de-de",
         "name": "Unterschrift"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Handtekening"
+      },
+      {
+        "locale": "sv-se",
+        "name": "Signatur"
       }
     ],
     "devices": [
@@ -264370,6 +264564,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
@@ -264392,6 +264591,11 @@
       {
         "make": "Zebra Technologies",
         "model": "KC50",
+        "os": "35"
+      },
+      {
+        "make": "Nothing",
+        "model": "A063",
         "os": "35"
       },
       {
@@ -291648,6 +291852,11 @@
       },
       {
         "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
       }
@@ -300542,6 +300751,18 @@
         "make": "RHINO",
         "model": "C10",
         "os": "29"
+      }
+    ]
+  },
+  "com.google.android.apps.credentialmanager": {
+    "appName": "Wachtwoorden",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       }
     ]
   },
