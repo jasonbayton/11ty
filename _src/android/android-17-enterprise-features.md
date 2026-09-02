@@ -5,6 +5,8 @@ status: publish
 author: 'Jason Bayton'
 excerpt: "A comprehensive look at what's new for enterprise in Android 17, including platform changes, behaviour changes, and security improvements."
 type: documentation
+category:
+    - General
 tags:
     - Enterprise
 eleventyNavigation:
