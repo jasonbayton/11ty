@@ -1,16 +1,15 @@
 ---
-title: Android Enterprise Beta Tracker
-published: '2026-08-30'
-date: '2026-08-30T00:00:00'
+title: Android Enterprise build tracker
+published: '2026-09-02'
 status: publish
 author: 'Jason Bayton'
 excerpt: 'A build-by-build breakdown of enterprise-relevant changes across Android 17 betas, QPR releases, and canary builds - translated into plain language.'
-type: project-docs
+type: documentation
 tags:
-    - 'Android'
+    - 'General'
 layout: base.njk
 eleventyNavigation:
-  title: Android Enterprise Beta Tracker
+  title: Android Enterprise build tracker
 ---
 
 Every Android beta and quarterly platform release (QPR) ships changes that affect how organisations manage their devices. Most of the official documentation is aimed at app developers, and the underlying framework changes go entirely undocumented until they surface in a stable release months later.
@@ -37,10 +36,10 @@ These reports are generated with the assistance of AI, AI tears the respective b
 
 <div class="release-list">
 {% set first_item = true %}
-{% set releaseNotes = collections['Android Enterprise Beta Tracker'] | sort(attribute='data.date') | reverse %}
+{% set releaseNotes = collections['Android Enterprise build tracker'] | sort(attribute='data.published') | reverse %}
 {% for post in releaseNotes %}
 {% for tag in post.data.categories %}
-{% if tag.includes("Android Enterprise Beta Tracker") %}
+{% if tag.includes("Android Enterprise build tracker") %}
 
 <details {% if first_item %}open{% set first_item = false %}{% endif %}>
 <summary><h3><a href="{{ post.url }}">{{ post.data.eleventyNavigation.title }}</h3></a> - {{ post.data.published | dateFull }}</summary>

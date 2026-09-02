@@ -1,29 +1,28 @@
 ---
 title: 'QPR1 Beta 6 - CP31.260618.005'
-parent: 'Android Enterprise Beta Tracker'
+parent: 'Android Enterprise build tracker'
 published: '2026-07-08'
-date: '2026-07-08T00:00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
-tags: ['Android Enterprise Beta Tracker', 'Android', 'aebt-release-notes']
-categories: ['Android Enterprise Beta Tracker']
+type: documentation
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
-    title: 'QPR1 Beta 6'
+    title: 'Android 17 QPR1 Beta 6'
 ---
 
 **Track:** QPR1 Beta | **Milestone:** September 2026 stable
 
 Introduces real-time policy change callbacks and scoped key generation.
 
-## DPC capabilities
+**DPC capabilities**
 
 - **Real-time policy change callbacks** - DPC apps can now register to be notified whenever a device-wide policy value changes, enabling reactive monitoring rather than polling. When multiple admins set conflicting policies, the callback reports the resolved (winning) value
 - **Scoped key generation** (provisional) - building on the scoped certificate framework from Beta 5, DPC apps can now generate key pairs scoped to either the user or device level
 
-## Other enterprise changes
+**Other enterprise changes**
 
 - **Subscription policy streamlining** (provisional) - a new flag and permission for managing eSIM subscriptions through the typed policy engine
 - **Network logging policy** (provisional) - network logging is being migrated to the typed policy engine, with metadata registered

@@ -1,24 +1,23 @@
 ---
 title: 'QPR2 Beta 3 - CP41.260731.005.B1'
-parent: 'Android Enterprise Beta Tracker'
+parent: 'Android Enterprise build tracker'
 published: '2026-08-15'
-date: '2026-08-15T00:00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
-tags: ['Android Enterprise Beta Tracker', 'Android', 'aebt-release-notes']
-categories: ['Android Enterprise Beta Tracker']
+type: documentation
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
-    title: 'QPR2 Beta 3'
+    title: 'Android 17 QPR2 Beta 3'
 ---
 
 **Track:** QPR2 Beta | **Milestone:** December 2026 stable
 
 Three enterprise flags graduated to enabled, and the DLP rules framework gained its set/get API.
 
-## Flag graduations
+**Flag graduations**
 
 Three flags moved from provisional to enabled in this build:
 
@@ -26,14 +25,14 @@ Three flags moved from provisional to enabled in this build:
 - **eSIM transfer control** (`managedEsimOutgoingTransferPolicy`) - DPC apps can now query whether an eSIM profile is allowed to be transferred off a managed device
 - **WPA-only Wi-Fi** (`dpmSecurityLevelWpaOnly`) - administrators can enforce WPA as the minimum Wi-Fi security standard, blocking connections to open or WEP networks
 
-## DPC capabilities
+**DPC capabilities**
 
 - **Data leak prevention rules** - DPC apps can now set and retrieve DLP rules directly, mirroring the approach used on ChromeOS. This is the enforcement side of the DLP framework introduced in QPR1 Beta 5
 - **Login attempt logging** (provisional) - DPC apps can report user login attempts (success or failure) to the security log, enabling audit trails for shared and multi-user devices
 - **Per-user policy callbacks** - DPC apps can now register for real-time notifications when a per-user policy value changes, complementing the device-wide callbacks added in QPR1 Beta 6
 - **Stricter sideloading control** - a new user restriction blocks all non-Play app installation including from registered app stores (Samsung Galaxy Store, Amazon Appstore, etc.). Paired with a new registered app store role
 
-## Other enterprise changes
+**Other enterprise changes**
 
 - **Task continuity handoff policy** (provisional) - a new cross-device policy namespace controls whether task handoff between devices is permitted
 - **Short support message policy** (provisional) - the customisable short support message shown to users is now available through the typed policy engine

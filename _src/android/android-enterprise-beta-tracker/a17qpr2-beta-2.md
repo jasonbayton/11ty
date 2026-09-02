@@ -1,30 +1,29 @@
 ---
 title: 'QPR2 Beta 2 - CP41.260717.006'
-parent: 'Android Enterprise Beta Tracker'
+parent: 'Android Enterprise build tracker'
 published: '2026-08-06'
-date: '2026-08-06T00:00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
-tags: ['Android Enterprise Beta Tracker', 'Android', 'aebt-release-notes']
-categories: ['Android Enterprise Beta Tracker']
+type: documentation
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
-    title: 'QPR2 Beta 2'
+    title: 'Android 17 QPR2 Beta 2'
 ---
 
 **Track:** QPR2 Beta | **Milestone:** December 2026 stable
 
 Security logging decomposition, scoped certificate management, and policy engine expansion.
 
-## DPC capabilities
+**DPC capabilities**
 
 - **Scoped certificate management** (provisional) - seven new methods let DPC apps manage certificates with explicit scope (user or device). Admins can grant, revoke, and query certificate access for both apps and Wi-Fi authentication, scoped to either the individual user or the whole device. Previously, certificate operations applied globally
 - **Granular security logging** (provisional) - security logging splits from a single device-wide toggle into separate device-level and user-level policies. DPC apps will be able to enable security logging per user rather than all-or-nothing
 - **User logout tracking** (provisional) - a new security log event captures when users log out, supporting audit requirements on shared devices
 
-## Other enterprise changes
+**Other enterprise changes**
 
 - **Network logging is now user-aware** - network logging moves from tracking a single user to maintaining a set of active users, preparing for proper multi-user network audit
 - **DLP verdict types expanded** - the data leak prevention verdict system gained a polymorphic structure with distinct allow, block, and redact outcomes, enabling more nuanced content-level DLP decisions

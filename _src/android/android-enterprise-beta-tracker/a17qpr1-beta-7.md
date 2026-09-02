@@ -1,30 +1,29 @@
 ---
 title: 'QPR1 Beta 7 - CP31.260623.005'
-parent: 'Android Enterprise Beta Tracker'
+parent: 'Android Enterprise build tracker'
 published: '2026-07-19'
-date: '2026-07-19T00:00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
-tags: ['Android Enterprise Beta Tracker', 'Android', 'aebt-release-notes']
-categories: ['Android Enterprise Beta Tracker']
+type: documentation
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
-    title: 'QPR1 Beta 7'
+    title: 'Android 17 QPR1 Beta 7'
 ---
 
 **Track:** QPR1 Beta | **Milestone:** September 2026 stable
 
 The final QPR1 beta before stable, focusing on physical media, tethering policies, and certificate management improvements.
 
-## DPC capabilities
+**DPC capabilities**
 
 - **Physical media access control** (provisional) - DPC apps will be able to restrict access to USB drives and SD cards through the typed policy engine, mapping to the existing `no_physical_media` restriction with proper multi-admin resolution
 - **Tethering settings policy** (provisional) - DPC apps will be able to control tethering (hotspot) settings through the policy engine, with a dedicated permission
 - **Wi-Fi hotspot security level** (provisional) - administrators will be able to set a minimum security level for Wi-Fi hotspots, with an ordering from any security through WPA2, WPA2/WPA3, to WPA3-only
 
-## Other enterprise changes
+**Other enterprise changes**
 
 - **Branding policy namespace** - the lock screen message policy moved into a dedicated `Branding` namespace, improving organisation for branding-related policies
 - **Safe boot policy namespace move** - safe boot control moved into `AdvancedSecurityOverrides` with proper typed allowed/disallowed constants

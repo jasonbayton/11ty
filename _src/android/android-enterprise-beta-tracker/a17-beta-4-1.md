@@ -1,14 +1,13 @@
 ---
 title: 'Android 17 Beta 4.1 - CP21.260330.011.A1'
-parent: 'Android Enterprise Beta Tracker'
+parent: 'Android Enterprise build tracker'
 published: '2026-06-02'
-date: '2026-06-02T00:00:00'
 status: publish
 author: 'Jason Bayton'
 excerpt: ''
-type: project-docs
-tags: ['Android Enterprise Beta Tracker', 'Android', 'aebt-release-notes']
-categories: ['Android Enterprise Beta Tracker']
+type: documentation
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Beta 4.1'
@@ -18,7 +17,7 @@ eleventyNavigation:
 
 A patch release that rolled back several flags to their safer defaults on the stable track.
 
-## What changed
+**What changed**
 
 - **Three flags rolled back** - `increaseWatchStrongAuthTimeout`, `introduceGenericProvisioningError`, and `useHardenedFrpActiveCheck` were all set back to disabled on the stable track. These remained enabled in the canary and QPR1 tracks, meaning the stable Android 17 release shipped without them while they continue development in quarterly releases
 - **eSIM carrier privileges restored** - the `enterpriseEsimUsingCarrierPrivileges` flag was re-added as enabled after being removed in earlier builds
