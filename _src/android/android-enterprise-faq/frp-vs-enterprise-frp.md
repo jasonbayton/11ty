@@ -51,4 +51,6 @@ This makes configuring EFRP more important than ever for organisations managing 
 
 From the May 2026 AMAPI release, FRP handling on COPE devices was improved. AMAPI now explicitly disables FRP and clears the account list when no administrator email addresses are configured in the EFRP policy. This prevents unexpected lockouts after device resets on COPE devices where EFRP was never intentionally configured - previously, COPE devices could enter FRP with no recoverable account if the personal-side Google account was removed during the work profile wipe.
 
+A follow-up fix in the July 2026 AMAPI release addressed a related issue where consumer FRP could unexpectedly activate on company-owned devices after a factory reset when no FRP admin emails were configured. Together, these changes mean that company-owned devices without explicit EFRP configuration should no longer trigger either consumer or enterprise FRP after a reset.
+
 For more detail, see [Feature spotlight: Factory Reset Protection](/android/feature-spotlight-factory-reset-protection/).

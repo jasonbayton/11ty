@@ -255,7 +255,12 @@ A security feature that requires the previous Google account credentials to be e
 Extensibility framework
 -----------------------
 
-A capability within [AMAPI](#amapi-android-management-api) that allows EMMs to perform on-device operations that require local execution, without building a full [custom DPC](#custom-dpc). EMMs can designate an extension app via the `extensionConfig` field in an application's policy. This extension app communicates directly with [Android Device Policy](#android-device-policy-adp) on the device using the AMAPI SDK, enabling local command execution. At time of writing, the primary supported command is `ClearAppData`, with Google expanding available commands over time. The extensibility framework allows EMMs to differentiate their on-device capabilities while still using Google's standardised DPC.
+A capability within [AMAPI](#amapi-android-management-api) that allows EMMs to perform on-device operations that require local execution, without building a full [custom DPC](#custom-dpc). EMMs designate a companion app that communicates directly with [Android Device Policy](#android-device-policy-adp) on the device using the AMAPI SDK, enabling local command execution and interaction. The extensibility framework allows EMMs to differentiate their on-device capabilities while still using Google's standardised DPC. The original `extensionConfig` field for designating extension apps has been superseded by [application roles](#application-roles) (introduced in AMAPI SDK v1.6.0, September 2025), which generalise the concept to multiple app categories with distinct privilege sets. New implementations should use the `COMPANION_APP` role instead of `extensionConfig`. See [What are AMAPI application roles?](/android/android-enterprise-faq/amapi-application-roles/) for details.
+
+Application roles
+------------------
+
+A system within [AMAPI](#amapi-android-management-api) that grants managed apps specific privileges based on their function. Roles include `COMPANION_APP` (replaces extensionConfig), `KIOSK` (replaces `installType: KIOSK`), `MOBILE_THREAT_DEFENSE_ENDPOINT_DETECTION_RESPONSE`, `SYSTEM_HEALTH_MONITORING`, and others. Each role grants a defined set of protections - such as exemption from power restrictions, suspension, and hibernation (Android 14+), and preventing users from force-stopping or clearing app data (Android 11+). The specific protections vary by role. One app can have multiple roles, but each role can only be assigned to one app. Application roles are AMAPI-only and are not available for custom DPC implementations. See [What are AMAPI application roles?](/android/android-enterprise-faq/amapi-application-roles/).
 
 Freeze period
 -------------
