@@ -32,8 +32,6 @@ These reports are generated with the assistance of AI, AI tears the respective b
 
 </div>
 
-## Builds
-
 <div class="release-list">
 {% set first_item = true %}
 {% set releaseNotes = collections['Android Enterprise build tracker'] | sort(attribute='data.published') | reverse %}
