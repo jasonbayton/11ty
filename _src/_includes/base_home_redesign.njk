@@ -207,7 +207,7 @@
                     <div class="home-redesign-grid home-redesign-grid--three">
                       {% set docsCount = 0 %}
                       {% for doc in collections.all | reverse %}
-                      {% if (doc.data.type and doc.data.type.includes("documentation")) and (not doc.data.type.includes("archive")) %}
+                      {% if (doc.data.type and doc.data.type.includes("documentation")) and (not doc.data.type.includes("archive")) and ("aebt-release-notes" not in doc.data.tags) %}
                       {% if docsCount < 6 %}
                       <article class="home-redesign-card">
                         <div class="home-redesign-card__body">
