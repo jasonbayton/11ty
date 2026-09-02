@@ -42,7 +42,7 @@ These reports are generated with the assistance of AI, AI tears the respective b
 {% if tag.includes("Android Enterprise build tracker") %}
 
 <details {% if first_item %}open{% set first_item = false %}{% endif %}>
-<summary><h3><a href="{{ post.url }}">{{ post.data.eleventyNavigation.title }}</h3></a> - {{ post.data.published | dateFull }}</summary>
+<summary><h3 id="{{ post.data.eleventyNavigation.title | slug }}"><a href="{{ post.url }}">{{ post.data.eleventyNavigation.title }}</a></h3> - {{ post.data.published | dateFull }}</summary>
 
 <div class="release-content">
 {{ post.templateContent | safe }}
