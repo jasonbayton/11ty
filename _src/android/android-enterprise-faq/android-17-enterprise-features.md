@@ -18,6 +18,7 @@ sources:
   - https://developer.android.com/about/versions/17/behavior-changes-all
   - https://developer.android.com/about/versions/17/behavior-changes-17
   - https://developer.android.com/about/versions/17/features
+  - https://www.androidenterprise.community/product-updates/android-17-brings-intelligent-experiences-and-advanced-safeguards-for-enterprise-2705
 ---
 Android 17 (API level 37) was released to Pixel devices on June 16, 2026. Samsung launched the Galaxy Z Fold 8 and Z Flip 8 with One UI 9 (Android 17) in July 2026, and is rolling out One UI 9 to existing flagships through Q3-Q4 2026. Other OEMs are expected to follow from late Q3 2026 onward. Apps submitted to Google Play will be required to target API 37 from mid-2027 (exact date TBC).
 
@@ -43,6 +44,7 @@ Android 17 (API level 37) was released to Pixel devices on June 16, 2026. Samsun
 
 ### App and platform behaviour changes
 
+- **Desktop windowing in kiosk mode** - devices in kiosk (lock task) mode are limited to display mirroring when connected to an external display. The extended desktop windowing mode available on non-kiosk devices does not apply; kiosk devices mirror the internal display only
 - **Large screen orientation mandatory** - Android 17 removes the opt-out for fixed orientation on displays 600dp or wider (introduced as optional in Android 16). All apps targeting API 37 must support free-form orientation on large screens
 - **SMS OTP three-hour delay** - programmatic access to SMS messages containing OTPs is delayed by three hours for most apps. Apps using [SMS Retriever API](https://developers.google.com/identity/sms-retriever/overview) are unaffected. This applies to all apps on Android 17 regardless of target API
 - **Cleartext traffic changes** - `android:usesCleartextTraffic` is planned for deprecation in a future release. Apps targeting API 37 default to blocking cleartext traffic; those relying on HTTP should migrate to network security configuration

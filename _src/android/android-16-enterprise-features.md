@@ -5,8 +5,8 @@ status: publish
 author: 'Jason Bayton'
 excerpt: "A comprehensive look at what's new for enterprise in Android 16, including platform changes, AMAPI additions, and ecosystem updates."
 type: documentation
-tags:
-    - Enterprise
+tags: 
+    - General
 eleventyNavigation:
   order: 3000
 layout: base.njk
