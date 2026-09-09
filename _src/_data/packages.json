@@ -691,6 +691,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -1130,6 +1135,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -2003,6 +2013,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -2373,6 +2388,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -2807,6 +2827,18 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
+      }
+    ]
+  },
+  "com.qualcomm.qti.gpudrivers.canoe.api36": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -3348,6 +3380,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -3521,6 +3558,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -3598,6 +3640,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
       }
@@ -3673,6 +3720,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -4104,6 +4156,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -5355,6 +5412,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -5565,6 +5627,18 @@
       }
     ]
   },
+  "com.google.android.callcore": {
+    "appName": "Android CallCore",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      }
+    ]
+  },
   "com.google.android.verifier": {
     "appName": "Android Developer Verifier",
     "userFacing": false,
@@ -5638,6 +5712,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -6373,6 +6452,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -6614,6 +6698,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -7333,6 +7422,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -8238,6 +8332,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -9058,6 +9157,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -9924,6 +10028,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -10829,6 +10938,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -11683,6 +11797,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -12478,6 +12597,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -13407,6 +13531,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -13852,6 +13981,11 @@
         "make": "realme",
         "model": "RMX3690",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -17036,6 +17170,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -17334,6 +17473,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -18447,6 +18591,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -19227,6 +19376,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -19286,6 +19440,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -19627,6 +19786,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -19914,6 +20078,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -20147,6 +20316,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -20389,6 +20563,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -20944,6 +21123,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -21207,6 +21391,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -21265,6 +21454,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -21458,6 +21652,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -21808,6 +22007,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -22071,6 +22275,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "fezawio",
         "model": "F11_V_US",
         "os": "35"
@@ -22289,6 +22498,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -22937,6 +23151,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -23783,6 +24002,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -24485,6 +24709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -24823,6 +25052,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -25054,6 +25288,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -26102,6 +26341,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -26572,6 +26816,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -27515,6 +27764,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -28345,6 +28599,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -29289,6 +29548,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -29823,6 +30087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -30346,6 +30615,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -32615,6 +32889,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -33055,6 +33334,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -33293,6 +33577,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -34032,6 +34321,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -34557,6 +34851,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -34825,6 +35124,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -35054,6 +35358,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -35577,6 +35886,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -36592,6 +36906,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -37330,6 +37649,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -38571,6 +38895,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -39756,6 +40085,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -41198,6 +41532,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -41257,6 +41596,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -41814,6 +42158,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -42943,6 +43292,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -43909,6 +44263,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -44324,6 +44683,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -45430,6 +45794,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -46906,6 +47275,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -48084,6 +48458,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -49066,6 +49445,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -50844,6 +51228,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -51627,6 +52016,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -52459,6 +52853,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -54580,6 +54979,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -54892,6 +55296,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "fezawio",
@@ -55809,6 +56218,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -56608,6 +57022,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -57842,6 +58261,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -59712,6 +60136,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -60611,6 +61040,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -61741,6 +62175,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -64926,6 +65365,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -68643,6 +69087,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -69059,6 +69508,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -69845,6 +70299,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -70597,6 +71056,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -71188,6 +71652,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "LENOVO",
@@ -74118,6 +74587,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -75491,6 +75965,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -76580,6 +77059,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -78071,6 +78555,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -78753,6 +79242,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -79952,6 +80446,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -80604,6 +81103,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -82987,6 +83491,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -83305,6 +83814,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -83534,6 +84048,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -84076,6 +84595,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -84750,6 +85274,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -85163,6 +85692,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -85261,6 +85795,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -85799,6 +86338,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -86490,6 +87034,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -87160,6 +87709,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -88910,6 +89464,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -89417,6 +89976,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -90481,6 +91045,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -103004,6 +103573,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -103602,6 +104176,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -103766,6 +104345,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -103976,6 +104560,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -104153,6 +104742,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -104312,6 +104906,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -104534,6 +105133,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -104670,6 +105274,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -104849,6 +105458,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -105084,6 +105698,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -105152,6 +105771,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       }
     ]
@@ -105372,6 +105996,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -105739,6 +106368,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -106038,6 +106672,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -106252,6 +106891,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -106487,6 +107131,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -106577,6 +107226,11 @@
       {
         "make": "samsung",
         "model": "SM-S936B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -106775,6 +107429,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -106938,6 +107597,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -107143,6 +107807,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -107265,6 +107934,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -107354,6 +108028,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -107461,6 +108140,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -107578,6 +108262,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -107773,6 +108462,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -107849,6 +108543,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -108094,6 +108793,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -108258,6 +108962,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -108485,6 +109194,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -108732,6 +109446,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -108975,6 +109694,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -111166,6 +111890,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -113827,6 +114556,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -114175,6 +114909,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "fezawio",
@@ -114689,6 +115428,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -115395,6 +116139,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -115796,6 +116545,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -116056,6 +116810,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -116341,6 +117100,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -116740,6 +117504,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -116976,6 +117745,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -117331,6 +118105,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -118388,6 +119167,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -119440,6 +120224,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -119705,6 +120494,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -119997,6 +120791,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -120797,6 +121596,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -121749,6 +122553,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -122060,6 +122869,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -122757,6 +123571,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -123200,6 +124019,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -123918,6 +124742,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -125006,6 +125835,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -125571,6 +126405,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -126597,6 +127436,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -126870,6 +127714,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -127768,6 +128617,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -128305,6 +129159,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -128565,6 +129424,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -129452,6 +130316,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -129837,6 +130706,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -130082,6 +130956,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -130824,6 +131703,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -131181,6 +132065,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -132134,6 +133023,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -133028,6 +133922,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -133933,6 +134832,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -134315,6 +135219,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -134470,6 +135379,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -135126,6 +136040,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -135199,6 +136118,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -135402,6 +136326,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -135666,6 +136595,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -135957,6 +136891,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -136751,6 +137690,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -137330,6 +138274,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -137774,6 +138723,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -139016,6 +139970,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -139257,6 +140216,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -140579,6 +141543,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
       },
@@ -140773,6 +141742,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -140999,6 +141973,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -141133,6 +142112,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -142081,6 +143065,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -142641,6 +143630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -142913,6 +143907,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -143453,6 +144452,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -143696,6 +144700,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -144201,6 +145210,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -144534,6 +145548,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -144895,6 +145914,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -146049,6 +147073,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -148160,6 +149189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -148654,6 +149688,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -149913,6 +150952,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -151027,6 +152071,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -151374,6 +152423,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -151513,6 +152567,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -151757,6 +152816,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -151996,6 +153060,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -152223,6 +153292,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -152442,6 +153516,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -152713,6 +153792,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -152964,6 +154048,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -153242,6 +154331,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -153781,6 +154875,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -154017,6 +155116,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -154359,6 +155463,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -155618,6 +156727,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -156267,6 +157381,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -156496,6 +157615,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -157085,6 +158209,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -157752,6 +158881,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -159295,6 +160429,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -160244,6 +161383,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -160808,6 +161952,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -161807,6 +162956,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -162671,6 +163825,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -163481,6 +164640,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -164681,6 +165845,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -165145,6 +166314,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -165928,6 +167102,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -166737,6 +167916,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -167830,6 +169014,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -168979,6 +170168,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -169334,6 +170528,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -169745,6 +170944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -170105,6 +171309,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -170399,6 +171608,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -170983,6 +172197,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -171671,6 +172890,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -172273,6 +173497,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -173831,6 +175060,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -174201,6 +175435,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -174512,6 +175751,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -175003,6 +176247,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -175237,6 +176486,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -175696,6 +176950,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -176654,6 +177913,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -177679,6 +178943,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -178092,6 +179361,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -178156,6 +179430,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -178343,6 +179622,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -179644,6 +180928,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -180504,6 +181793,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -180733,6 +182027,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -181009,6 +182308,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -181211,6 +182515,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -181387,6 +182696,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -181572,6 +182886,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -181736,6 +183055,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -181941,6 +183265,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -182115,6 +183444,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -182330,6 +183664,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -182519,6 +183858,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -182731,6 +184075,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -183028,6 +184377,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -183900,6 +185254,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -184145,6 +185504,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -184630,6 +185994,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -185384,6 +186753,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -185649,6 +187023,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -186137,6 +187516,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -187166,6 +188550,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -187257,6 +188646,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -187923,6 +189317,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -188578,6 +189977,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -189630,6 +191034,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -190513,6 +191922,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -191154,6 +192568,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -192279,6 +193698,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -192664,6 +194088,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -193318,6 +194747,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -193542,6 +194976,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -194335,6 +195774,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -194855,6 +196299,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -195227,6 +196676,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -195594,6 +197048,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -195862,6 +197321,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -195971,6 +197435,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -197636,6 +199105,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -197819,6 +199293,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
       }
@@ -197961,6 +199440,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
@@ -197998,6 +199482,11 @@
         "make": "samsung",
         "model": "SM-S721U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -198251,6 +199740,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -198395,6 +199889,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -198791,6 +200290,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -198938,6 +200442,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -199133,6 +200642,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -201723,6 +203237,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -202517,6 +204036,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -202867,6 +204391,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -203977,6 +205506,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -204722,6 +206256,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -205012,6 +206551,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -205212,6 +206756,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -205419,6 +206968,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -206279,6 +207833,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -206721,6 +208280,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -206927,6 +208491,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -207576,6 +209145,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -208384,6 +209958,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -209199,6 +210778,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -210230,6 +211814,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -211302,6 +212891,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -211793,6 +213387,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -211916,6 +213515,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -212386,6 +213990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -212520,6 +214129,11 @@
       {
         "make": "samsung",
         "model": "SM-S928B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -213111,6 +214725,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -213968,6 +215587,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -214204,6 +215828,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -216553,6 +218182,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -218108,6 +219742,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -219021,6 +220660,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -219652,6 +221296,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -220318,6 +221967,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -221263,6 +222917,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -221741,6 +223400,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -222047,6 +223711,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -222651,6 +224320,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -222835,6 +224509,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -223098,6 +224777,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -224524,6 +226208,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -225491,6 +227180,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -226441,6 +228135,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -226787,6 +228486,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -227059,6 +228763,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -227482,6 +229191,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -227711,6 +229425,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -228248,6 +229967,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -229048,6 +230772,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -232524,6 +234253,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -233429,6 +235163,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -234129,6 +235868,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -235225,6 +236969,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -236217,6 +237966,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -236580,6 +238334,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -236872,6 +238631,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -237080,6 +238844,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -237730,6 +239499,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -237996,6 +239770,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -238272,6 +240051,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -238350,6 +240134,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -239461,6 +241250,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -240601,6 +242395,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -241724,6 +243523,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -241959,6 +243763,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -243264,6 +245073,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -243661,6 +245475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -243770,6 +245589,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -243893,6 +245717,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -244150,6 +245979,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -244379,6 +246213,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -244616,6 +246455,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -244861,6 +246705,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -245080,6 +246929,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -245317,6 +247171,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -245962,6 +247821,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -246402,6 +248266,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -246476,6 +248345,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -246716,6 +248590,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -247016,6 +248895,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -247125,6 +249009,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -247322,6 +249211,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -247541,6 +249435,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -247904,6 +249803,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -248118,6 +250022,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -248340,6 +250249,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -248633,6 +250547,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -248816,6 +250735,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.gamedriver.sm8850": {
+    "appName": "Samsung SM8850 GameDriver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -249049,6 +250980,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -249294,6 +251230,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -249425,6 +251366,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -249605,6 +251551,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -249769,6 +251720,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -250003,6 +251959,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -250111,6 +252072,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -250239,6 +252205,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -250411,6 +252382,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -250628,6 +252604,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -250853,6 +252834,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -251002,6 +252988,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -253163,6 +255154,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -253222,6 +255218,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -253835,6 +255836,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -253973,6 +255979,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -255613,6 +257624,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -255899,6 +257915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -256098,6 +258119,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -256395,6 +258421,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -257463,6 +259494,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -258119,6 +260155,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -258407,6 +260448,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -258714,6 +260760,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -259147,6 +261198,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -259371,6 +261427,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -259660,6 +261721,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -259892,6 +261958,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -260106,6 +262177,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -261042,6 +263118,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -262283,6 +264364,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -263246,6 +265332,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -263631,6 +265722,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -263771,6 +265867,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -264116,6 +266217,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -265060,6 +267166,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -265467,6 +267578,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -265517,6 +267633,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
       {
         "make": "samsung",
         "model": "SM-S942B",
@@ -265876,6 +267997,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -265996,6 +268122,11 @@
       {
         "make": "samsung",
         "model": "SM-A536B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -266725,6 +268856,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -267102,6 +269238,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -267363,6 +269504,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -268084,6 +270230,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -268848,6 +270999,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -269091,6 +271247,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -269352,6 +271513,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -269672,6 +271838,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -270403,6 +272574,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -270602,6 +272778,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -270858,6 +273039,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -271303,6 +273489,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -271693,6 +273884,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -271929,6 +274125,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -272229,6 +274430,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -272598,6 +274804,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -272868,6 +275079,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -273237,6 +275453,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -273743,6 +275964,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -274018,6 +276244,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -275998,6 +278229,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -276891,6 +279127,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -277631,6 +279872,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -277926,6 +280172,11 @@
         "make": "samsung",
         "model": "SM-A556B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -278910,6 +281161,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -279276,6 +281532,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -280628,6 +282889,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -281132,6 +283398,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -281942,6 +284213,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -283070,6 +285346,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -283966,6 +286247,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -284269,6 +286555,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -284996,6 +287287,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -285818,6 +288114,11 @@
         "make": "realme",
         "model": "RMX3690",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "LENOVO",
@@ -286727,6 +289028,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -287039,6 +289345,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -287768,6 +290079,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -288520,6 +290836,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -289006,6 +291327,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -290165,6 +292491,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -290805,6 +293136,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -291179,6 +293515,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S731B",
         "os": "36"
       },
@@ -291373,6 +293714,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -291791,6 +294137,11 @@
         "make": "RHINO",
         "model": "T8",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "LENOVO",
@@ -293592,6 +295943,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -294112,6 +296468,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -294599,6 +296960,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -294883,6 +297249,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
       }
@@ -295020,6 +297391,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -296206,6 +298582,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -296981,6 +299362,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -297454,6 +299840,11 @@
         "make": "samsung",
         "model": "SM-S938B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -298763,6 +301154,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -299095,6 +301491,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -299330,6 +301731,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -299628,6 +302034,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -299798,6 +302209,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -299836,6 +302252,11 @@
       {
         "make": "samsung",
         "model": "SM-G766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -299922,6 +302343,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       }
     ]
   },
@@ -300259,6 +302685,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -300588,6 +303019,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -300926,6 +303362,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -301735,6 +304176,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -302743,6 +305189,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -303013,6 +305464,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -304051,6 +306507,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -304418,6 +306879,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -304647,6 +307113,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -304925,6 +307396,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -305513,6 +307989,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
@@ -306053,6 +308534,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -306483,6 +308969,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -306814,6 +309305,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "35"
       },
@@ -306948,6 +309444,11 @@
       {
         "make": "samsung",
         "model": "SM-F766B",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
         "os": "36"
       },
       {
@@ -307821,6 +310322,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
         "make": "OnePlus",
         "model": "KB2005",
         "os": "34"
@@ -308350,6 +310856,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
       },
@@ -308664,6 +311175,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -309434,6 +311950,11 @@
         "make": "OnePlus",
         "model": "CPH2465",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
@@ -311653,6 +314174,11 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
       },
       {
         "make": "OnePlus",
