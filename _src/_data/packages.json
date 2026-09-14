@@ -561,8 +561,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -614,6 +614,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -1090,6 +1095,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -1913,8 +1923,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -1946,6 +1956,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -2343,6 +2358,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -2813,6 +2833,23 @@
       }
     ]
   },
+  "com.qualcomm.qti.gpudrivers.canoe.api36": {
+    "appName": "Adreno Graphics Drivers",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S948U",
+        "os": "36"
+      }
+    ]
+  },
   "com.qualcomm.qti.gpudrivers.lito.api30": {
     "appName": "Adreno Graphics Drivers",
     "userFacing": false,
@@ -2827,18 +2864,6 @@
         "make": "Fairphone",
         "model": "FP4",
         "os": "33"
-      }
-    ]
-  },
-  "com.qualcomm.qti.gpudrivers.canoe.api36": {
-    "appName": "Adreno Graphics Drivers",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S948U",
-        "os": "36"
       }
     ]
   },
@@ -3359,14 +3384,19 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -3538,14 +3568,19 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -4124,6 +4159,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -4690,8 +4730,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -4728,6 +4768,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -5297,8 +5342,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -5345,6 +5390,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -5695,8 +5745,8 @@
         "os": "36"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -5713,6 +5763,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -6317,8 +6372,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -6370,6 +6425,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -6691,8 +6751,8 @@
         "os": "36"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -6704,6 +6764,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -7294,8 +7359,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -7342,6 +7407,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -8197,8 +8267,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -8250,6 +8320,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -9024,8 +9099,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -9077,6 +9152,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -9900,8 +9980,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -9953,6 +10033,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -10803,8 +10888,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -10856,6 +10941,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -11692,8 +11782,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -11730,6 +11820,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -12464,8 +12559,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -12517,6 +12612,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -12997,11 +13097,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -13015,6 +13110,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -13451,8 +13551,8 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -13479,6 +13579,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -13923,8 +14028,8 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -13941,6 +14046,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -17135,6 +17245,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -17911,6 +18026,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -18074,18 +18194,6 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
-      }
-    ]
-  },
-  "com.samsung.android.drivingplus": {
-    "appName": "Approfondimenti sulla guida",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S942B",
-        "os": "37"
       }
     ]
   },
@@ -18553,6 +18661,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -20043,6 +20156,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -20276,6 +20394,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -20528,6 +20651,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -21088,6 +21216,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -21351,6 +21484,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -21455,6 +21593,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -21627,6 +21770,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -21987,6 +22135,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -22255,6 +22408,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -22478,6 +22636,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -23116,6 +23279,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -23877,8 +24045,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -23930,6 +24098,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -24674,6 +24847,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -25022,6 +25200,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -25258,6 +25441,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -26211,8 +26399,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -26264,6 +26452,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -26786,6 +26979,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -27639,6 +27837,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -28471,8 +28674,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -28524,6 +28727,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -29418,8 +29626,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -29471,6 +29679,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -30052,6 +30265,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -30567,6 +30785,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -31039,11 +31262,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -31077,6 +31295,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -31728,11 +31951,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -31771,6 +31989,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -32759,8 +32982,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -32812,6 +33035,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -33299,6 +33527,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -33542,6 +33775,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -34196,8 +34434,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -34249,6 +34487,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -34826,6 +35069,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -35089,6 +35337,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -35328,6 +35581,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -35851,6 +36109,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -36901,6 +37164,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -37536,8 +37804,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -37584,6 +37852,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -38790,8 +39063,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -38833,6 +39106,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -39967,8 +40245,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -40020,6 +40298,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -41113,14 +41396,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -41342,14 +41625,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -41499,6 +41782,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -42055,8 +42343,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -42098,6 +42386,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -43162,8 +43455,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -43215,6 +43508,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -44133,8 +44431,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -44186,6 +44484,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -44648,6 +44951,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -45762,6 +46070,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -46232,11 +46545,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -46265,6 +46573,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -46906,6 +47219,18 @@
       }
     ]
   },
+  "com.samsung.android.cloptimizer": {
+    "appName": "CLOptimizer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      }
+    ]
+  },
   "com.vcast.mediamanager": {
     "appName": "Cloud",
     "userFacing": false,
@@ -47237,6 +47562,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -47776,6 +48106,11 @@
       {
         "make": "Google",
         "model": "Pixel 9a",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -48328,8 +48663,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -48381,6 +48716,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -49325,6 +49665,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "HUAWEI",
@@ -50409,11 +50754,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -50452,6 +50792,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -51178,8 +51523,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -51206,6 +51551,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -51888,8 +52238,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -51941,6 +52291,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -52725,8 +53080,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -52778,6 +53133,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -54000,11 +54360,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -54033,6 +54388,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -54859,8 +55219,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -54912,6 +55272,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -55283,6 +55648,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -55533,14 +55903,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -56128,8 +56498,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -56161,6 +56531,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -56909,8 +57284,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -56962,6 +57337,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -58213,8 +58593,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -58241,6 +58621,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -58505,11 +58890,6 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -58518,6 +58898,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -58682,14 +59067,14 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "realme",
@@ -59489,14 +59874,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -60912,8 +61297,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -60965,6 +61350,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -61499,11 +61889,6 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -61517,6 +61902,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -61661,11 +62051,6 @@
         "os": "36"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -61674,6 +62059,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "realme",
@@ -62127,8 +62517,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -62155,6 +62545,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -63441,6 +63836,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
@@ -63624,11 +64024,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -63637,6 +64032,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -63761,14 +64161,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "realme",
@@ -63899,13 +64299,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -64663,6 +65063,18 @@
       }
     ]
   },
+  "com.android.settings.supervision.overlay": {
+    "appName": "com.android.settings.supervision.overlay",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      }
+    ]
+  },
   "com.android.settings.tegu": {
     "appName": "com.android.settings.tegu",
     "userFacing": false,
@@ -65237,8 +65649,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -65290,6 +65702,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -66253,11 +66670,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -66271,6 +66683,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -66460,14 +66877,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -66667,11 +67084,6 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -66685,6 +67097,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -66874,14 +67291,14 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -68381,11 +68798,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -68409,6 +68821,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -69092,6 +69509,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
       },
@@ -69443,6 +69865,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -70174,8 +70601,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -70227,6 +70654,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -70946,6 +71378,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -71602,6 +72039,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -74507,8 +74949,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -74540,6 +74982,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -75139,13 +75586,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -75176,13 +75623,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -75885,8 +76332,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -75918,6 +76365,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -76289,6 +76741,11 @@
         "make": "revoview",
         "model": "S6518",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "SMT_HK",
@@ -76991,8 +77448,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -77019,6 +77476,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -78075,13 +78537,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -78468,6 +78930,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -79132,6 +79599,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "HUAWEI",
@@ -80352,6 +80824,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -81003,6 +81480,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "HUAWEI",
@@ -82562,6 +83044,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -83412,6 +83899,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -83789,6 +84281,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -84023,6 +84520,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -84505,6 +85007,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "OnePlus",
@@ -85169,6 +85676,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -85647,6 +86159,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -85806,6 +86323,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -86238,6 +86760,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "OnePlus",
@@ -86934,6 +87461,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -87611,6 +88143,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -88076,13 +88613,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -89384,8 +89921,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -89417,6 +89954,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -91048,8 +91590,8 @@
         "os": "36"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -91066,6 +91608,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -91409,11 +91956,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -91422,6 +91964,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -103533,6 +104080,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -104161,6 +104713,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -104340,6 +104897,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -104545,6 +105107,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -104732,6 +105299,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -104891,6 +105463,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -105118,6 +105695,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -105255,6 +105837,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-G766B",
         "os": "36"
       },
@@ -105312,6 +105899,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
       {
         "make": "samsung",
         "model": "SM-S942B",
@@ -105443,6 +106035,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -105678,6 +106275,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -105797,6 +106399,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -105976,6 +106583,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -106358,6 +106970,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -106672,6 +107289,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -106876,6 +107498,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -107116,6 +107743,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -107252,6 +107884,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -107429,6 +108066,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -107597,6 +108239,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -107789,6 +108436,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -108143,6 +108795,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -108444,6 +109101,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -108813,6 +109475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
       },
@@ -108952,6 +109619,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -109179,6 +109851,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -109428,6 +110105,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -109682,6 +110364,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -109857,13 +110544,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -114446,8 +115133,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -114499,6 +115186,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -114914,6 +115606,11 @@
         "make": "Nothing",
         "model": "A015",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "Fairphone",
@@ -115413,6 +116110,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -116029,8 +116731,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -116082,6 +116784,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -116530,6 +117237,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -116800,6 +117512,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -117093,6 +117810,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -117255,13 +117977,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -117491,6 +118213,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -117735,6 +118462,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -118095,6 +118827,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -118561,11 +119298,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -118599,6 +119331,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -118948,6 +119685,11 @@
         "os": "36"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
@@ -119149,6 +119891,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -119697,11 +120444,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -119740,6 +120482,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -120189,8 +120936,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -120217,6 +120964,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -120484,6 +121236,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -120781,6 +121538,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -121493,8 +122255,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -121546,6 +122308,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -122498,8 +123265,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -122526,6 +123293,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -122864,6 +123636,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -123247,14 +124024,19 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -123556,6 +124338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -123738,13 +124525,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -124004,6 +124791,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -124762,6 +125554,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -125725,8 +126522,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -125778,6 +126575,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -126390,6 +127192,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -127376,8 +128183,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -127404,6 +128211,11 @@
         "make": "TCL",
         "model": "6165H",
         "os": "33"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -128069,14 +128881,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "SMT_HK",
@@ -128308,6 +129120,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -128599,6 +129416,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -129134,8 +129956,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -129152,6 +129974,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -129409,6 +130236,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -129780,11 +130612,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -129798,6 +130625,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -130301,6 +131133,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -130716,6 +131553,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -130946,6 +131788,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -131440,11 +132287,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -131483,6 +132325,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -132070,6 +132917,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -132918,8 +133770,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -132971,6 +133823,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -133814,8 +134671,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -133867,6 +134724,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -134722,8 +135584,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -134775,6 +135637,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -135204,6 +136071,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -135394,6 +136266,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -135855,11 +136732,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -135883,6 +136755,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -136006,6 +136883,28 @@
       }
     ]
   },
+  "com.samsung.android.drivingplus": {
+    "appName": "Driving report",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Approfondimenti sulla guida"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S942B",
+        "os": "37"
+      }
+    ]
+  },
   "com.mediatek.providers.drm": {
     "appName": "DRM Protected Content Storage",
     "userFacing": false,
@@ -136057,6 +136956,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -136139,6 +137043,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -136311,6 +137220,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -136580,6 +137494,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -136876,6 +137795,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -137590,8 +138514,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -137643,6 +138567,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -138259,6 +139188,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -138708,6 +139642,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -139581,11 +140520,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -139619,6 +140553,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -139955,6 +140894,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -140206,6 +141150,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -141558,6 +142507,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -141727,6 +142681,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -141963,6 +142922,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -142117,6 +143081,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -142955,8 +143924,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -143008,6 +143977,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -143615,6 +144589,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -143748,6 +144727,11 @@
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -143897,6 +144881,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -144437,6 +145426,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -144690,6 +145684,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -145195,6 +146194,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -145538,6 +146542,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -145899,6 +146908,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -146995,8 +148009,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -147038,6 +148052,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -147725,11 +148744,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -147753,6 +148767,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -149174,6 +150193,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -149673,6 +150697,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -150937,6 +151966,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -151961,8 +152995,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -152014,6 +153048,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -152443,6 +153482,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-G766B",
         "os": "36"
       },
@@ -152562,6 +153606,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -152803,6 +153852,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -153050,6 +154104,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -153277,6 +154336,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -153501,6 +154565,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -153777,6 +154846,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -154038,6 +155112,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -154316,6 +155395,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -154860,6 +155944,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -155101,6 +156190,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -155448,6 +156542,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -156263,11 +157362,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -156306,6 +157400,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "ITEL MOBILE LIMITED",
@@ -156704,6 +157803,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -157371,6 +158475,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -157605,6 +158714,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -158202,6 +159316,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -158783,8 +159902,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -158836,6 +159955,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -160334,8 +161458,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -160387,6 +161511,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -161288,8 +162417,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -161336,6 +162465,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -161927,6 +163061,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -162856,8 +163995,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -162909,6 +164048,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -164532,8 +165676,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -164585,6 +165729,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -165735,8 +166884,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -165788,6 +166937,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -166276,8 +167430,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -166299,6 +167453,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -166994,8 +168153,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -167047,6 +168206,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -167833,8 +168997,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -167876,6 +169040,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -168906,8 +170075,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -168959,6 +170128,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -169565,11 +170739,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -169593,6 +170762,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -170138,8 +171312,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -170156,6 +171330,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -170518,6 +171697,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -170929,6 +172113,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -171294,6 +172483,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -171598,6 +172792,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -172144,8 +173343,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -172172,6 +173371,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -172840,8 +174044,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -172863,6 +174067,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -173482,6 +174691,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -174950,8 +176164,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -175003,6 +176217,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -175420,6 +176639,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -175741,6 +176965,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -176232,6 +177461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -176471,6 +177705,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -176935,6 +178174,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -177805,8 +179049,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -177858,6 +179102,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -178883,8 +180132,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -178911,6 +180160,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -179376,6 +180630,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -179607,6 +180866,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -180818,8 +182082,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -180871,6 +182135,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -181778,6 +183047,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -182012,6 +183286,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -182293,6 +183572,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -182505,6 +183789,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -182694,6 +183983,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -182876,6 +184170,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -183050,6 +184349,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -183255,6 +184559,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -183439,6 +184748,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -183649,6 +184963,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -183848,6 +185167,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -184065,6 +185389,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -185245,6 +186574,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -185499,6 +186833,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -185981,8 +187320,8 @@
         "os": "31"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -185994,6 +187333,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -186658,8 +188002,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -186706,6 +188050,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -187038,6 +188387,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -187496,6 +188850,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "OnePlus",
@@ -188535,6 +189894,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -189222,8 +190586,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -189270,6 +190634,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -189909,8 +191278,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -189942,6 +191311,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -190939,8 +192313,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -190992,6 +192366,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -191812,8 +193191,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -191865,6 +193244,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -192553,6 +193937,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -193613,8 +195002,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -193656,6 +195045,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -194103,6 +195497,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -194667,8 +196066,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -194710,6 +196109,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -195002,6 +196406,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -195684,8 +197093,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -195732,6 +197141,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -196259,6 +197673,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -196636,6 +198055,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -197008,6 +198432,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -197321,6 +198750,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -197455,6 +198889,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -199000,8 +200439,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -199053,6 +200492,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -199735,6 +201179,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -199894,6 +201343,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -200285,6 +201739,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -200470,6 +201929,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -200642,6 +202106,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -203232,6 +204701,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -203931,8 +205405,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -203984,6 +205458,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -204386,6 +205865,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -205029,11 +206513,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -205057,6 +206536,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -205493,6 +206977,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -206246,6 +207735,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -206541,6 +208035,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -206759,6 +208258,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -206958,6 +208462,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -207753,8 +209262,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -207796,6 +209305,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -208484,6 +209998,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -209143,6 +210662,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -209445,11 +210969,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "TCL",
         "model": "6165H",
         "os": "33"
@@ -209463,6 +210982,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -209984,6 +211508,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -210680,8 +212209,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -210733,6 +212262,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -211766,8 +213300,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -211794,6 +213328,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -212806,8 +214345,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -212854,6 +214393,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -213126,13 +214670,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -213377,6 +214921,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -213535,6 +215084,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -213990,6 +215544,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -214160,6 +215719,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -214682,8 +216246,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -214705,6 +216269,11 @@
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -215574,6 +217143,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -218122,6 +219696,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -218544,11 +220123,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -218557,6 +220131,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -219637,8 +221216,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -219690,6 +221269,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -220555,8 +222139,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -220608,6 +222192,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -221294,6 +222883,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -221957,6 +223551,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -222827,8 +224426,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -222875,6 +224474,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -223395,6 +224999,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -223701,6 +225310,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -224080,11 +225694,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -224103,6 +225712,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -224337,6 +225951,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -224767,6 +226386,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -225251,11 +226875,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -225284,6 +226903,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -226103,8 +227727,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -226156,6 +227780,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -227075,8 +228704,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -227128,6 +228757,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -228030,8 +229664,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -228083,6 +229717,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -228491,6 +230130,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -228753,6 +230397,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -229145,6 +230794,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -229425,6 +231079,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -229924,8 +231583,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -229957,6 +231616,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -230704,8 +232368,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -230747,6 +232411,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -232526,13 +234195,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -234148,8 +235817,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -234201,6 +235870,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -235058,8 +236732,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -235111,6 +236785,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -235795,8 +237474,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -235833,6 +237512,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -236864,8 +238548,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -236917,6 +238601,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -237871,8 +239560,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -237924,6 +239613,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -238330,6 +240024,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -238620,6 +240319,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
@@ -238864,6 +240568,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -239494,6 +241203,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -239765,6 +241479,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -240046,6 +241765,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -240157,8 +241881,8 @@
         "os": "37"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -240170,6 +241894,11 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -241248,6 +242977,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -241972,8 +243706,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -241985,6 +243719,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -243513,6 +245252,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -243758,6 +245502,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -244813,14 +246562,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -245063,6 +246812,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -245163,6 +246917,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
       {
         "make": "samsung",
         "model": "SM-S942B",
@@ -245465,6 +247224,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -245612,6 +247376,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -245743,6 +247512,11 @@
         "make": "samsung",
         "model": "SM-G973U",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -245971,6 +247745,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -246208,6 +247987,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -246450,6 +248234,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -246705,6 +248494,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -246929,6 +248723,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -247166,6 +248965,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -247821,6 +249625,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -248266,6 +250075,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -248593,6 +250407,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -248890,6 +250709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -249034,6 +250858,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -249206,6 +251035,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -249435,6 +251269,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -249798,6 +251637,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -250017,6 +251861,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -250244,6 +252093,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -250542,6 +252396,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -250785,6 +252644,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S948U",
         "os": "36"
       }
@@ -250975,6 +252839,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -251394,6 +253263,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -251543,6 +253417,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -251725,6 +253604,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -251979,6 +253863,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -252088,6 +253977,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -252220,6 +254114,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -252382,6 +254281,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -252607,6 +254511,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -252829,6 +254738,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -253001,6 +254915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -253125,6 +255044,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -253302,6 +255226,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -253474,6 +255403,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -253631,6 +255565,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -253730,6 +255669,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -253857,6 +255801,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -254046,6 +255995,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S937B",
         "os": "35"
       },
@@ -254125,6 +256079,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -254237,6 +256196,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -254437,6 +256401,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -254606,6 +256575,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -254788,6 +256762,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -254957,6 +256936,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -255151,6 +257135,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -255353,6 +257342,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
       },
@@ -255507,6 +257501,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -255861,6 +257860,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -256005,6 +258009,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -257240,8 +259249,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -257268,6 +259277,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -257629,6 +259643,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -257920,6 +259939,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -258124,6 +260148,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -258421,6 +260450,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -258835,6 +260869,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -259414,8 +261453,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -259462,6 +261501,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -259849,6 +261893,11 @@
     "devices": [
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
       }
@@ -260155,6 +262204,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -260448,6 +262502,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -260770,6 +262829,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -261198,6 +263262,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -261432,6 +263501,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -261721,6 +263795,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -261958,6 +264037,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -262182,6 +264266,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -262420,18 +264509,6 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
-      }
-    ]
-  },
-  "com.android.webapp.service": {
-    "appName": "Servizio app web",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-S942B",
-        "os": "37"
       }
     ]
   },
@@ -263025,8 +265102,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -263078,6 +265155,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -264269,8 +266351,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -264322,6 +266404,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -265245,6 +267332,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "HUAWEI",
@@ -266220,6 +268312,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -267071,8 +269168,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -267124,6 +269221,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -267578,6 +269680,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -267678,6 +269785,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
       {
         "make": "samsung",
         "model": "SM-S948U",
@@ -267815,14 +269927,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -268002,6 +270114,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -268163,6 +270280,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -268771,8 +270893,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -268824,6 +270946,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -269248,8 +271375,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -269271,6 +271398,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -269519,6 +271651,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -270152,8 +272289,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -270205,6 +272342,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -271019,6 +273161,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -271257,6 +273404,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -271523,6 +273675,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -271848,6 +274005,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -272589,6 +274751,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -272793,6 +274960,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -273049,6 +275221,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -273499,6 +275676,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -273891,6 +276073,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -274448,6 +276635,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -274814,6 +277006,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -275089,6 +277286,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -275473,6 +277675,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -275974,6 +278181,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -276254,6 +278466,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -277053,11 +279270,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -277091,6 +279303,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -278144,8 +280361,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -278197,6 +280414,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -279137,6 +281359,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -279807,6 +282034,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -280200,6 +282432,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -280257,6 +282494,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.agent.storage": {
+    "appName": "StorageAgent",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       }
     ]
   },
@@ -281101,8 +283350,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -281144,6 +283393,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -281545,6 +283799,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -281941,11 +284200,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -281959,6 +284213,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -282829,8 +285088,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -282872,6 +285131,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -283418,6 +285682,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -284170,8 +286439,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -284203,6 +286472,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -285266,8 +287540,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -285319,6 +287593,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -286162,8 +288441,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -286215,6 +288494,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -287275,6 +289559,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -287601,11 +289890,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -287614,6 +289898,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -288074,6 +290363,11 @@
         "make": "Nothing",
         "model": "A063",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "HUAWEI",
@@ -288563,11 +290857,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
@@ -288576,6 +290865,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -289048,6 +291342,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -289335,6 +291634,11 @@
         "make": "samsung",
         "model": "SM-A536B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "OnePlus",
@@ -289807,11 +292111,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -289845,6 +292144,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -290094,6 +292398,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -290756,8 +293065,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -290809,6 +293118,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -291337,6 +293651,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -292531,6 +294850,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9 Pro XL",
         "os": "37"
@@ -293076,8 +295400,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -293119,6 +295443,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -293560,6 +295889,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -293729,6 +296063,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -294132,6 +296471,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -295958,6 +298302,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -296935,8 +299284,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -296963,6 +299312,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -297426,6 +299780,11 @@
         "make": "samsung",
         "model": "SM-X716B",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -298597,6 +300956,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -299282,8 +301646,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -299335,6 +301699,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -299819,13 +302188,13 @@
       },
       {
         "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
+        "model": "Pixel 9a",
+        "os": "36"
       },
       {
         "make": "Google",
-        "model": "Pixel 9a",
-        "os": "36"
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Google",
@@ -299890,6 +302259,11 @@
         "make": "samsung",
         "model": "SM-S936B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -301184,6 +303558,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -301511,6 +303890,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -301751,6 +304135,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -302049,6 +304438,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -302254,6 +304648,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -302308,6 +304707,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -302705,8 +305109,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -302718,6 +305122,11 @@
         "make": "samsung",
         "model": "SM-A346B",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -303044,6 +305453,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -303387,6 +305801,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -304103,8 +306522,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -304156,6 +306575,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -304737,14 +307161,14 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "motorola",
         "model": "motorola edge 50 fusion",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "motorola",
@@ -305214,6 +307638,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -305489,6 +307918,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -305872,6 +308306,18 @@
         "make": "OnePlus",
         "model": "CPH2653",
         "os": "36"
+      }
+    ]
+  },
+  "com.samsung.android.warrantycare": {
+    "appName": "Warranty and care",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       }
     ]
   },
@@ -306442,8 +308888,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -306495,6 +308941,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -306904,6 +309355,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -307133,6 +309589,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -307416,6 +309877,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -307776,6 +310242,28 @@
       }
     ]
   },
+  "com.android.webapp.service": {
+    "appName": "Web app service",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "it-it",
+        "name": "Servizio app web"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S942B",
+        "os": "37"
+      }
+    ]
+  },
   "com.google.android.webapp.service": {
     "appName": "Web App Service",
     "userFacing": false,
@@ -308024,8 +310512,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -308042,6 +310530,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
@@ -308554,6 +311047,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -308989,6 +311487,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -309330,6 +311833,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -309510,6 +312018,11 @@
         "make": "samsung",
         "model": "SM-F766B",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -310277,8 +312790,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -310320,6 +312833,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -310876,6 +313394,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
       },
@@ -311195,6 +313718,11 @@
         "make": "samsung",
         "model": "SM-T976B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -311877,8 +314405,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -311930,6 +314458,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -314116,8 +316649,8 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
+        "make": "samsung",
+        "model": "SM-F971B",
         "os": "37"
       },
       {
@@ -314169,6 +316702,11 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "samsung",
@@ -314720,11 +317258,6 @@
         "os": "35"
       },
       {
-        "make": "Google",
-        "model": "Pixel 9 Pro XL",
-        "os": "37"
-      },
-      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -314748,6 +317281,11 @@
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 9 Pro XL",
+        "os": "37"
       },
       {
         "make": "Xiaomi",
