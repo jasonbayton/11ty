@@ -122,7 +122,7 @@ Before shelving it, I put the obvious question to Gwent Music: now the leak was 
 
 The answer, relayed from Paritor, was a courteous no. The Xperios API is a private interface between Paritor's own applications and the service, not a published integration surface: not documented for external use, changed without notice, no compatibility commitments, so anything built against it would break sooner or later. 
 
-At least, it is _now_ prior to this incident it was open to the internet with a full OpenAPI reference to read from!
+At least, it is _now_, prior to this incident it was open to the internet with a full OpenAPI reference to read from!
 
 On top of that, the data belongs to Gwent Music as the controller, so opening a route for independent apps was not Paritor's to grant on the music service's behalf. As controller that approval was Gwent Music's to give, and they relayed the no without offering it, which I took as them being content to leave it there.
 
