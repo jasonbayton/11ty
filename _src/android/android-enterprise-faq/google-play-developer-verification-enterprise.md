@@ -15,11 +15,12 @@ eleventyNavigation:
   order: 65000
 sources:
   - https://bayton.org/blog/2025/08/google-play-developer-verification/
-  - https://play.google.com/console/about/developer-verification/
-  - https://android-developers.googleblog.com/2026/03/android-developer-verification.html
+  - https://developer.android.com/developer-verification
+  - https://android-developers.googleblog.com/2026/06/android-developer-verification.html
+  - https://support.google.com/android-developer-console/answer/16561738
 ---
 
-Starting in September 2026, Google requires that apps installed on certified Android devices in select regions come from verified developers. This requirement rolls out to additional regions from 2027 onward.
+From 30 September 2026, Google requires that apps installed on certified Android devices in **Brazil, Indonesia, Singapore, and Thailand** come from verified developers. This initial enforcement applies not only to Google Play but also to apps distributed through participating OEM stores (Samsung Galaxy Store, Xiaomi, OPPO, vivo, Honor, and Transsion). Additional regions are expected from 2027 onward, with global coverage planned over subsequent years.
 
 For most enterprise deployments, the impact is minimal:
 
@@ -31,7 +32,7 @@ Where developer verification does matter for enterprise:
 
 1. **User-initiated sideloading** - if users install apps outside of EMM-managed channels on certified devices (for example, downloading APKs from a website), those apps will require a verified developer in affected regions. From August 2026, sideloading apps from unverified developers requires an "Advanced Flow" that includes enabling developer mode, a mandatory 24-hour waiting period, a device restart, and biometric or PIN authentication before the install is permitted. Users can then choose a 7-day or indefinite sideloading window. ADB-based installation remains unaffected.
 
-2. **Third-party dependencies** - if the organisation relies on public Google Play apps from smaller developers or niche vendors, those developers need to complete verification through the Google Play Console. Apps that lose the ability to be installed due to an unverified developer could disrupt workflows after the extension period ends.
+2. **Third-party dependencies** - if the organisation relies on public apps from smaller developers or niche vendors, those developers need to complete verification. Developers distributing through Google Play verify via the Play Console as before. Developers distributing exclusively through other stores or direct download must register through the separate [Android Developer Console](https://android.google.com/developerconsole) (distinct from the Play Console). Apps that lose the ability to be installed due to an unverified developer could disrupt workflows after the extension period ends.
 
 Google also offers free limited distribution accounts for students and hobbyists, allowing app sharing with up to 20 devices without requiring government ID verification or the $25 registration fee.
 

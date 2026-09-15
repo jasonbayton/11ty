@@ -16,6 +16,7 @@ eleventyNavigation:
 sources:
   - https://learn.microsoft.com/en-us/intune/intune-service/protect/compliance-policy-create-android-for-work
   - https://developer.android.com/work/dpc/security
+  - https://developer.android.com/google/play/integrity/verdicts
 ---
 Conditional access allows organisations to gate access to corporate resources based on whether a device meets defined security and compliance requirements. The concept applies across EMM platforms, though the implementation and terminology varies.
 
@@ -28,6 +29,7 @@ The EMM evaluates the device against a compliance policy - checking signals such
 - Minimum OS version and security patch level
 - Device encryption enabled
 - Root/bootloader unlock detection (via Play Integrity or equivalent)
+- Play Integrity verdict (Device Integrity or Strong Integrity)
 - Google Play Protect scanning enabled
 - Device not jailbroken or rooted
 - Minimum EMM agent version
@@ -45,9 +47,16 @@ The EMM evaluates the device against a compliance policy - checking signals such
 
 For organisations wanting compliance signals without full EMM enrollment, [Device Trust from Android Enterprise](/android/android-enterprise-faq/what-is-device-trust/) provides over 20 device signals accessible via the AMAPI SDK. This enables zero-trust architectures where access decisions are made based on device posture without requiring a work profile or full management.
 
+**Play Integrity and Strong Integrity**
+
+Many EMMs use the [Play Integrity API](/android/android-enterprise-faq/faq-play-integrity-strong-integrity-enterprise/) as a compliance signal. The `MEETS_STRONG_INTEGRITY` verdict now requires Android 13+ devices to have security patches within the last 12 months in addition to hardware-backed attestation. Devices running Android 12 or below are not affected by this change.
+
+Organisations should review whether their compliance policies require Strong Integrity or whether Device Integrity is sufficient. Requiring Strong Integrity without also setting explicit minimum patch level requirements can cause unexpected compliance failures on devices with infrequent updates.
+
 **Best practices**
 
 - Start with report-only mode before enforcing conditional access policies, to identify devices that would be blocked
 - Set realistic compliance windows - give users time to update before blocking access
 - Communicate clearly to end users what compliance requirements exist and how to remediate
 - Test across device manufacturers, as OEM-specific behaviours can affect compliance signal reporting
+- Review Play Integrity requirements - ensure Strong Integrity is genuinely needed before requiring it in compliance policies
