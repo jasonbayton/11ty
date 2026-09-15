@@ -24,7 +24,7 @@ The objective I set was small: read my own Gwent Music data on my own phone, wit
 
 The first thing I did was work out how the portal talked to its backend. My early conclusion was pessimistic: there was no obvious public API key, the portal's login token did not look like it was scoped for direct API use, and I assumed I would have to drive the website with a headless browser and scrape it. Sloggish, but doable.
 
-Then I dug properly into the Azure AD B2C tenant behind the sign-in. The portal's own login only ever handed back an identity token, no use for calling the API directly, which was the dead end above. But the same tenant also exposed a public OAuth client, no secret, that would mint an access token genuinely scoped for the API, and it accepted a loopback redirect back to `localhost`. Public clients like that are meant to be driven by an app the user controls, so there was nothing stopping me completing the very same flow from my own: a standard system-browser authorisation-code exchange with PKCE, ending in a real, API-scoped token. No scraping. A real token, from the real identity provider, for the real API.
+Then I dug properly into the Azure AD B2C tenant behind the sign-in. In the portal's own sign-in traffic I only ever saw an identity token handed to the browser, no use for calling the API directly, which was the dead end above. But the same tenant also exposed a public OAuth client, no secret, that would mint an access token genuinely scoped for the API, and it accepted a loopback redirect back to `localhost`. Public clients like that are meant to be driven by an app the user controls, so there was nothing stopping me completing the very same flow from my own: a standard system-browser authorisation-code exchange with PKCE, ending in a real, API-scoped token. No scraping. A real token, from the real identity provider, for the real API.
 
 That API was reachable from the public internet, and so was its OpenAPI document, all 2,600-odd operations of it. Whether that direct reachability was ever meant to be public, I genuinely do not know. It was, though.
 
@@ -35,11 +35,11 @@ The API is supposed to check two things on every request: a system key identifyi
 - **The system key was not a secret.** It is written into the parent portal's own page. Any logged-in parent could read the customer's key straight out of their own session.
 - **The API did not actually enforce the login token.** Requests carrying only that shared key, with no personal token at all, were accepted and returned data.
 
-Put those together and the single value protecting the whole service was a key that every parent could already see. And because access was keyed off identifiers in the request rather than off who you were, changing an identifier changed whose data came back. That is textbook broken object-level authorisation, sitting on top of a shared secret handed to every end user.
+Put those together and the single value protecting the whole service was a key that every parent could already see. And because access was keyed off identifiers in the request rather than off who you were, the data that came back was whatever the identifier pointed at, with nothing tying that identifier to the caller. That is textbook broken object-level authorisation, sitting on top of a shared secret handed to every end user.
 
 I proved it against my own account only. With just the key and no token, I could retrieve my own messages and my own contact record. That's where I stopped, because good grief.
 
-I wasn't about to start actively proving I could manipulate the service as that'd land me in trouble, so everything I say below about the wider blast radius came from my reading of the platform's own published interface, not something I ran directly. It was later confirmed to be accurate.
+I wasn't about to start actively proving I could manipulate the service as that'd land me in trouble, so everything I say below about the wider blast radius came from my reading of the platform's own published interface, not something I ran directly. Part of it was borne out later - Paritor acted on the narrower follow-up about the admin surface - but the full reach I never tested, and nobody confirmed it for me.
 
 That reading was not comforting. The same key could - according to my understanding - reach other families' messages, contacts, pupil records and billing; it could reach endpoints that list every pupil and every staff member; and it could reach an account-management surface that included password resets and removing multi-factor authentication. On paper, one key any parent could copy was enough to walk from "a parent" to "any account, including staff". 
 
@@ -49,7 +49,7 @@ This is children's data. I couldn't rightly let it sit like this.
 
 The sensible, and frankly obvious, thing to do at this point was to stop admiring my clever little app and report the hole. Which I then did. The property that made the app possible up to this point, an API a client could reach directly with a parent's own credentials, was the property that had to be fixed.
 
-My assumption was once Paritor picked up on the issue, they'd simply address the gap - requiring both the API key and the beaerer of the account, limiting retrival of data to the user scope, and just lock down those endpoints a parent is not supposed to access at all.
+My assumption was once Paritor picked up on the issue, they'd simply address the gap - requiring both the API key and the bearer of the account, limiting retrieval of data to the user scope, and just lock down those endpoints a parent is not supposed to access at all.
 
 ## Disclosure
 
@@ -73,7 +73,7 @@ I said so, again through the council, and waited.
 
 ## What they did to close it off
 
-On **10 September** the council relayed Paritor's response: the follow-up was correct, and it had been acted on. The identity and admin endpoints are now gated. Separately, an earlier slowdown I had noticed turned out to be a hosting-capacity issue that had since been fixed. The council closed their security involvement and pointed the remaining "so can my app exist" questions at Gwent Music.
+On **10 September** the council relayed Paritor's response: the follow-up was correct, and it had been acted on. The account lookups and identity functions I rechecked now refused a parent login. Separately, an earlier slowdown I had noticed turned out to be a hosting-capacity issue that had since been fixed. The council closed their security involvement and pointed the remaining "so can my app exist" questions at Gwent Music.
 
 ## The leftover question
 
@@ -85,9 +85,13 @@ So I left that question on the record with the council, along with a request: if
 
 Which brings me to the project, because it did work, and I am quite happy with it!
 
-![Home dashboard showing the next lesson, an upcoming lessons list and an unread messages banner, in the light theme, on seeded mock data](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-light.png)
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
-![The same home dashboard in the dark theme](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-dark.png)
+[![Home dashboard showing the next lesson, an upcoming lessons list and an unread messages banner, in the light theme, on seeded mock data](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-light.png)](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-light.png)
+
+[![The same home dashboard in the dark theme](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-dark.png)](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/home-dark.png)
+
+</div>
 
 It is a native Android app in Kotlin and Jetpack Compose. No WebView, no wrapper around the website, just Compose screens over a repository layer that turns the API into clean screen models. Authentication is a custom loopback flow: a system-browser tab, authorisation code with PKCE, tokens kept in Keystore-backed encrypted storage, silent refresh, and a clean reconnect state when refresh fails. Not AppAuth, not a WebView, no password ever touching the app itself.
 
@@ -98,9 +102,13 @@ A few things I am particularly pleased with:
 - **Self-update.** Because this was never going near a store, it has an optional in-app updater that checks a CDN manifest, verifies the download by hash and signing certificate before handing off to Android's installer, and is trivial to rip out if you do not want it.
 - **Built to be looked at.** Full light and dark theming, a Go mock server so the whole thing builds and runs with seeded fake data and no account at all, and a real test suite with enforced coverage floors wired into CI.
 
-![Lesson schedule grouped by term, with upcoming and past tabs](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/schedule.png)
+<div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 gird-gap-mobile-0">
 
-![Secure messages list with read and unread threads](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/messages.png)
+[![Lesson schedule grouped by term, with upcoming and past tabs](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/schedule.png)](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/schedule.png)
+
+[![Secure messages list with read and unread threads](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/messages.png)](https://cdn.bayton.org/uploads/2026/gwent-music-portal-disclosure/messages.png)
+
+</div>
 
 It is roughly 170 source files, it builds keyless from a clean checkout against the mock, and it is a decent reference for how I would put a modern Android client together in 2026.
 
@@ -112,11 +120,11 @@ Since it can no longer function against the live service, I have open-sourced it
 
 Before shelving it, I put the obvious question to Gwent Music: now the leak was closed, was there any supported way for an app like mine, an authenticated parent reading their own data, to carry on? I offered to maintain it properly, and I said plainly that if they would rather not have a community-built app in the mix, that was entirely understood and it simply ended the road.
 
-The answer, relayed from Paritor, was a courteous no. The Xperios API is a private interface between Paritor's own applications and the service, not a published integration surface: undocumented, changed without notice, no compatibility commitments, so anything built against it would break sooner or later. 
+The answer, relayed from Paritor, was a courteous no. The Xperios API is a private interface between Paritor's own applications and the service, not a published integration surface: not documented for external use, changed without notice, no compatibility commitments, so anything built against it would break sooner or later. 
 
 At least, it is _now_ prior to this incident it was open to the internet with a full OpenAPI reference to read from!
 
-On top of that, the data belongs to Gwent Music as the controller, so opening a route for independent apps was not Paritor's to grant on the music service's behalf. Gwent could have approved it but in passing the information unedited to me, I took that to suggest Gwent did _not_ wish to grant it.
+On top of that, the data belongs to Gwent Music as the controller, so opening a route for independent apps was not Paritor's to grant on the music service's behalf. As controller that approval was Gwent Music's to give, and they relayed the no without offering it, which I took as them being content to leave it there.
 
 They did have a genuinely useful answer to what I actually wanted, though: a Paritor parent app is close to release, a supported and maintained alternative to the web portal, built for exactly the on-the-go access I was after. Which is the right home for this, and honestly a better outcome than a lone parent maintaining an app against an interface that was never meant to be public.
 
