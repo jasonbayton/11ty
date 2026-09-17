@@ -15,10 +15,11 @@ eleventyNavigation:
   order: 62000
 sources:
   - https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setBackupServiceEnabled(android.content.ComponentName,boolean)
+  - https://developers.google.com/android/management/reference/rest/v1/enterprises.policies
   - https://support.google.com/work/android/answer/16713206
   - https://support.google.com/work/android/answer/10384040
 --- 
-Not by default. The Android backup service is disabled on fully managed devices, and AMAPI does not yet expose a policy field to control it.
+Not by default. The Android backup service is disabled on fully managed devices, but administrators can now enable it through both AMAPI and custom DPC.
 
 ## Custom DPC
 
@@ -30,11 +31,17 @@ If your EMM is custom DPC-based, check whether it exposes this setting. Not all 
 
 ## AMAPI
 
-AMAPI does not currently include a backup policy field. The underlying platform API exists, but Android Device Policy does not expose it through the AMAPI REST API, so AMAPI-based EMMs cannot enable backup through the standard policy mechanism.
+AMAPI now includes a [`backupService`](https://developers.google.com/android/management/reference/rest/v1/enterprises.policies) field on the policy resource, added in September 2026. This accepts three values:
 
-AMAPI does log a `BackupServiceToggledEvent` in security logs (added April 2025), which records when the backup service state changes - but this is an audit event, not a policy control.
+| Value | Effect |
+|-------|--------|
+| `BACKUP_SERVICE_STATE_UNSPECIFIED` | No value set (backup remains disabled by default on fully managed devices) |
+| `BACKUP_SERVICE_DISABLED` | Backup service is explicitly disabled |
+| `BACKUP_SERVICE_ENABLED` | Backup service is enabled |
 
-This remains one of the functional gaps between custom DPC and AMAPI. Custom DPC vendors that have implemented `setBackupServiceEnabled()` have a meaningful advantage for organisations that need device data transfer during hardware refreshes or migrations.
+Setting `BACKUP_SERVICE_ENABLED` allows users to back up and restore device data through the Android backup service, including app data, call history, contacts, device settings, SMS messages, and photos/videos (if opted in). This closes a long-standing functional gap between AMAPI and custom DPC.
+
+AMAPI also logs a `BackupServiceToggledEvent` in security logs (added April 2025), which records when the backup service state changes on a device.
 
 ## Work profile
 
