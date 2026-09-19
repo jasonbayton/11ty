@@ -155756,6 +155756,18 @@
       }
     ]
   },
+  "com.samsung.android.agent.storage": {
+    "appName": "Gallery Cloud Sync",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      }
+    ]
+  },
   "com.samsung.storyservice": {
     "appName": "Gallery stories",
     "userFacing": false,
@@ -282494,18 +282506,6 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
-      }
-    ]
-  },
-  "com.samsung.android.agent.storage": {
-    "appName": "StorageAgent",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-F971B",
-        "os": "37"
       }
     ]
   },
