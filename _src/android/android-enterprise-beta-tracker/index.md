@@ -32,6 +32,8 @@ These reports are generated with the assistance of AI, AI tears the respective b
 
 </div>
 
+<a href="/tags/aebt-beta/">Beta track</a> | <a href="/tags/aebt-canary/">Canary track</a> | <a href="/tags/aebt-stable/">Stable</a>
+
 <div class="release-list">
 {% set first_item = true %}
 {% set releaseNotes = collections['Android Enterprise build tracker'] | sort(attribute='data.published') | reverse %}
