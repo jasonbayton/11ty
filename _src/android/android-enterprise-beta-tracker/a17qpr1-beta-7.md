@@ -1,5 +1,5 @@
 ---
-title: 'QPR1 Beta 7 - CP31.260623.005'
+title: 'Android 17 QPR1 Beta 7 - CP31.260623.005'
 parent: 'Android Enterprise build tracker'
 published: '2026-07-19'
 status: publish
