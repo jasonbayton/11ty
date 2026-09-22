@@ -32,7 +32,7 @@ These reports are generated with the assistance of AI, AI tears the respective b
 
 </div>
 
-<a href="/tags/aebt-beta/">Beta track</a> | <a href="/tags/aebt-canary/">Canary track</a> | <a href="/tags/aebt-stable/">Stable</a>
+View a specific channel: <a href="/tags/aebt-beta/">Beta</a> | <a href="/tags/aebt-canary/">Canary</a> | <a href="/tags/aebt-stable/">Stable</a>
 
 <div class="release-list">
 {% set first_item = true %}
