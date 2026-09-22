@@ -1,5 +1,5 @@
 ---
-title: 'Canary 3 - ZP11.260417.009'
+title: 'Canary - ZP11.260417.009'
 parent: 'Android Enterprise build tracker'
 published: '2026-05-18'
 status: publish
@@ -10,7 +10,7 @@ tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aeb
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
-    title: 'Android 17 Canary 3'
+    title: 'Canary - ZP11.260417.009'
 ---
 
 **Track:** Canary | **Predecessor:** [Canary 2](/android/android-enterprise-beta-tracker/a17-canary-2/) | **Note:** canary builds are forward-looking and may not ship in the next stable release
