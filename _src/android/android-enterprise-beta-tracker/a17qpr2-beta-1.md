@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr2', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR2 Beta 1'
 ---
 
-**Track:** QPR2 Beta | **Milestone:** December 2026 stable
+**Track:** QPR2 Beta | **Predecessor:** Android 17 QPR1 stable | **Milestone:** December 2026 stable
 
 The first QPR2 build, with a notable architectural change to the policy engine and several new policy areas.
 

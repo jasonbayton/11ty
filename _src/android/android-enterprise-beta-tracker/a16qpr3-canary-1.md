@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-16', 'aebt-qpr3', 'aebt-canary']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'A16 QPR3 Canary 1'
 ---
 
-**Track:** A16 QPR3 Canary (SDK 36.1) | **Note:** the first build processed by this tracker
+**Track:** A16 QPR3 Canary | **Note:** canary builds are forward-looking and may not ship in the next stable release
 
 The earliest build tracked, running on the Pixel 7 before the tracker switched to the Pixel 10. This canary sits on the Android 16 QPR3 branch and contains forward-looking enterprise plumbing.
 

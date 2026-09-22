@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr1', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR1 Beta 5'
 ---
 
-**Track:** QPR1 Beta | **Milestone:** September 2026 stable
+**Track:** QPR1 Beta | **Predecessor:** [QPR1 Beta 4](/android/android-enterprise-beta-tracker/a17qpr1-beta-4/) | **Milestone:** September 2026 stable
 
 One of the largest enterprise builds tracked so far. Introduces the data leak prevention framework, policy namespace classes, scoped certificate management, and the foundation for policy engine V2.
 

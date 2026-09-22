@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr2', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR2 Beta 5'
 ---
 
-**Track:** QPR2 Beta | **Milestone:** December 2026 stable
+**Track:** QPR2 Beta | **Predecessor:** [QPR2 Beta 4](/android/android-enterprise-beta-tracker/a17qpr2-beta-4/) | **Milestone:** December 2026 stable
 
 The kiosk user type gets a rename with broader semantics, three new typed policies extend the streamlining effort, and device controllers gain scaffolding for programmatic reboots.
 

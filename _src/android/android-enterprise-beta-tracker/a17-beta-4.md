@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Beta 4'
 ---
 
-**Track:** Android 17 Beta | **Milestone:** June 2026 stable
+**Track:** A17 Beta | **Milestone:** June 2026 stable
 
 The near-final Android 17 beta, carrying the typed policy engine (present since earlier betas) and cleaning up legacy APIs.
 

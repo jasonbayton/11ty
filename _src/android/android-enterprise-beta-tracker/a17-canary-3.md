@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-canary']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Canary 3'
 ---
 
-**Track:** Canary | **Note:** canary builds are forward-looking and may not ship in the next stable release
+**Track:** Canary | **Predecessor:** [Canary 2](/android/android-enterprise-beta-tracker/a17-canary-2/) | **Note:** canary builds are forward-looking and may not ship in the next stable release
 
 A lighter build focused on private DNS refactoring and overlay resource improvements.
 
@@ -24,5 +24,5 @@ A lighter build focused on private DNS refactoring and overlay resource improvem
 **Other enterprise changes**
 
 - **Recursive resource resolution** - overlay package lists now support `#import:` directives, allowing one list to reference another. This enables cleaner configuration management for OEMs and enterprise deployments with complex overlay hierarchies
-- **Generic provisioning error** graduated to enabled in the canary track
+- **Generic provisioning error** (enabled) - graduated in the canary track
 - **Assistant settings removed** - the assistant settings activity was removed in this canary build (later restored in QPR1 Beta 6), reflecting ongoing iteration on the app interaction framework

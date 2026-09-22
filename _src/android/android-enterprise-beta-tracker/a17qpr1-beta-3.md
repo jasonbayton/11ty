@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr1', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR1 Beta 3'
 ---
 
-**Track:** QPR1 Beta | **Milestone:** September 2026 stable
+**Track:** QPR1 Beta | **Predecessor:** [QPR1 Beta 2](/android/android-enterprise-beta-tracker/a17qpr1-beta-2/) | **Milestone:** September 2026 stable
 
 Adds typed policy engine flags for several common restrictions and restores features that had been removed in the canary track.
 

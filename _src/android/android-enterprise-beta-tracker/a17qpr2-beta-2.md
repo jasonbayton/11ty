@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr2', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR2 Beta 2'
 ---
 
-**Track:** QPR2 Beta | **Milestone:** December 2026 stable
+**Track:** QPR2 Beta | **Predecessor:** [QPR2 Beta 1](/android/android-enterprise-beta-tracker/a17qpr2-beta-1/) | **Milestone:** December 2026 stable
 
 Security logging decomposition, scoped certificate management, and policy engine expansion.
 

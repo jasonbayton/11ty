@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Beta 4.1'
 ---
 
-**Track:** Android 17 Beta (stable track) | **Milestone:** June 2026 stable
+**Track:** A17 Beta | **Predecessor:** [A17 Beta 4](/android/android-enterprise-beta-tracker/a17-beta-4/) | **Milestone:** June 2026 stable
 
 A patch release that rolled back several flags to their safer defaults on the stable track.
 

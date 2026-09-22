@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr1', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR1 Beta 1'
 ---
 
-**Track:** QPR1 Beta | **Milestone:** September 2026 stable
+**Track:** QPR1 Beta | **Predecessor:** Android 17 stable | **Milestone:** September 2026 stable
 
 The first QPR1 build, laying groundwork for clipboard policy, factory reset protection improvements, and the policy serialisation framework.
 

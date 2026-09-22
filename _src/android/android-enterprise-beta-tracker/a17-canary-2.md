@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-canary']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Canary 2'
 ---
 
-**Track:** Canary | **Note:** canary builds are forward-looking and may not ship in the next stable release
+**Track:** Canary | **Predecessor:** [A16 QPR3 Canary 1](/android/android-enterprise-beta-tracker/a16qpr3-canary-1/) | **Note:** canary builds are forward-looking and may not ship in the next stable release
 
 Establishes the multi-user provisioning state machine and moves supervision APIs to a dedicated manager.
 

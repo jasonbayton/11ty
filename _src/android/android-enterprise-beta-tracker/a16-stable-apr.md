@@ -6,7 +6,7 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-16', 'aebt-stable']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:

@@ -6,22 +6,22 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-canary']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 Canary 5'
 ---
 
-**Track:** Canary | **Note:** canary builds are forward-looking and may not ship in the next stable release
+**Track:** Canary | **Predecessor:** [Canary 4](/android/android-enterprise-beta-tracker/a17-canary-4/) | **Note:** canary builds are forward-looking and may not ship in the next stable release
 
 Introduces the registered app store role and content restriction enforcement.
 
 **DPC capabilities**
 
-- **Registered app store role** - a new non-exclusive, invisible role allows qualifying app stores to install packages as a registered source. This is paired with the new `DISALLOW_INSTALL_UNKNOWN_SOURCES_INCLUDING_REGISTERED_APP_STORES` restriction (landed in QPR2 Beta 3), giving administrators a stricter sideloading option that also blocks registered stores
+- **Registered app store role** (provisional) - a new non-exclusive, invisible role allows qualifying app stores to install packages as a registered source. This is paired with the new `DISALLOW_INSTALL_UNKNOWN_SOURCES_INCLUDING_REGISTERED_APP_STORES` restriction (landed in QPR2 Beta 3), giving administrators a stricter sideloading option that also blocks registered stores
 - **Content restriction enforcement** - the content safety apps policy gained its enforcement path, actually pushing content safety app lists to the restriction manager. This was canary-only here but landed in the QPR2 track in Beta 3
-- **Secure ADB role bypass** enabled in the canary track (later graduated to QPR2 Beta 4)
+- **Secure ADB role bypass** (enabled) in the canary track (later graduated to QPR2 Beta 4)
 
 **Other enterprise changes**
 

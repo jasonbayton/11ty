@@ -6,14 +6,14 @@ status: publish
 author: 'Jason Bayton'
 excerpt: ''
 type: documentation
-tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes']
+tags: ['Android Enterprise build tracker', 'Android', 'aebt-release-notes', 'aebt-android-17', 'aebt-qpr2', 'aebt-beta']
 categories: ['Android Enterprise build tracker']
 layout: base.njk
 eleventyNavigation:
     title: 'Android 17 QPR2 Beta 3'
 ---
 
-**Track:** QPR2 Beta | **Milestone:** December 2026 stable
+**Track:** QPR2 Beta | **Predecessor:** [QPR2 Beta 2](/android/android-enterprise-beta-tracker/a17qpr2-beta-2/) | **Milestone:** December 2026 stable
 
 Three enterprise flags graduated to enabled, and the DLP rules framework gained its set/get API.
 
