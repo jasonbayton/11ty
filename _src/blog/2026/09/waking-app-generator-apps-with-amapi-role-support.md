@@ -47,4 +47,4 @@ It's a small change, but it removes a genuine headache for many EMM admins.
 
 If you manage devices with an AMAPI EMM, generate one with the toggle enabled, assign it a role, and watch the device sort itself out on its own.
 
-As always, [let me know](/contact/) if you run into anything, or if this unlocks a use case I haven't thought of.
+As always, [let me know](/contact/) if you run into anything, or if this unlocks a use case I haven't thought of. Likewise, if you feel there's a usecase for enabling role support on Documents, Kiosk, or Webapp.. I'm open to hearing why.
