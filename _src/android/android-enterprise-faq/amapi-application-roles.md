@@ -21,11 +21,8 @@ sources:
 
 The available roles are:
 
-- **KIOSK** - designates the app for dedicated device (kiosk) experiences
-- **COMPANION_APP** - designates the app as a companion to Android Device Policy, enabling offline command execution and interaction
-- **DEVICE_POLICY_CONTROLLER** - designates the app as a device policy controller (DPC)
-- **IDENTITY_PROVIDER** - designates the app as an identity provider (IDP)
-- **SECURITY_TOOL** - designates the app as a security tool
+- **KIOSK** - designates the app for dedicated device (kiosk) experiences. The app is set as the preferred home intent and allowlisted for lock task mode, and the status bar is automatically disabled. It requires an `installType` of `REQUIRED_FOR_SETUP` or `CUSTOM`, and is the replacement to the now deprecated `KIOSK` `installType`
+- **COMPANION_APP** - designates the app as a companion to Android Device Policy, enabling offline command execution and status updates. This is the recommended approach, superseding the legacy `extensionConfig`
 - **MOBILE_THREAT_DEFENSE_ENDPOINT_DETECTION_RESPONSE** - designates the app as a mobile threat defence (MTD) / endpoint detection and response (EDR) agent
 - **SYSTEM_HEALTH_MONITORING** - designates the app for system health monitoring
 
