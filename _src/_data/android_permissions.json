@@ -1,6 +1,6 @@
 {
   "description": "Android platform permissions parsed from the AOSP platform manifest for the latest published release branch, with each permission's protection level and (where Android defines one) its official user-facing label and description from the platform strings. Maintained for the bayton.org APK inspector and provided as a stable API. inspectorMap collapses each protectionLevel to a single code (d=dangerous, n=normal, s=signature, p=signature|privileged, i=internal, a=appop, x=other); inspectorText carries the official description (or label) where one exists.",
-  "lastReviewed": "2026-07-15",
+  "lastReviewed": "2026-09-26",
   "androidVersion": "17",
   "apiLevel": 37,
   "source": "https://android.googlesource.com/platform/frameworks/base/+/refs/heads/android17-release/core/res/AndroidManifest.xml",
