@@ -3,7 +3,7 @@ title: "How does conditional access work with Android Enterprise?"
 published: '2026-03-28'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "How conditional access works with Android Enterprise - compliance signals, deployment model differences, Device Trust, and Play Integrity considerations."
 type: documentation
 tags:
     - FAQ

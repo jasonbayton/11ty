@@ -3,7 +3,7 @@ title: "What is Google Play developer verification, and how does it affect enter
 published: '2026-03-21'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "How Google's developer verification requirement (enforcing 30 September 2026) affects enterprise app distribution, including the exemptions for EMM-deployed and private apps."
 type: documentation
 tags:
     - FAQ

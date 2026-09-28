@@ -3,7 +3,7 @@ title: "What is the difference between AMAPI and a custom DPC?"
 published: '2026-03-29'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "The key differences between AMAPI (Android Device Policy) and custom DPC management architectures, including the Play EMM API deprecation and migration path."
 type: documentation
 tags:
     - FAQ

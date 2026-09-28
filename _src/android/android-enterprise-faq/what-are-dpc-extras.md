@@ -3,7 +3,7 @@ title: "What are DPC extras?"
 published: '2019-04-26'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "What DPC extras are, how they differ from provisioning extras, and where they appear across QR code, zero-touch, and NFC provisioning."
 type: documentation
 tags:
     - FAQ
@@ -29,7 +29,8 @@ DPC extras are supported across all major fully managed provisioning methods:
 
 - **Zero-touch enrolment** - configured in the zero-touch portal or via the [customer API](https://developers.google.com/zero-touch/reference/customer/rest) as the `dpcExtras` field
 - **QR code provisioning** - embedded directly in the QR code JSON payload
-- **NFC provisioning** - included in the NFC provisioning bundle
+- **NFC provisioning** - included in the NFC provisioning bundle (note: Android Beam was removed in Android 14; NFC provisioning now requires pre-programmed NFC tags rather than device-to-device transfer)
+- **Sign-in URL provisioning** (AMAPI only) - when using a sign-in URL, DPC extras are not manually configured. The sign-in flow generates an enrolment token server-side and the token is passed to Android Device Policy automatically
 
 ### DPC extras vs provisioning extras
 
@@ -75,8 +76,9 @@ While not DPC extras themselves, these standard provisioning extras frequently a
 - `PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED` - keeps all pre-installed system apps enabled rather than disabling non-critical ones (the default behaviour)
 - `PROVISIONING_LOCALE` - sets the device locale (e.g. `en_GB`)
 - `PROVISIONING_TIME_ZONE` - sets the timezone (e.g. `Europe/London`)
-- `PROVISIONING_SKIP_ENCRYPTION` - skips device encryption during setup (not recommended)
+- `PROVISIONING_SKIP_ENCRYPTION` - historically skipped device encryption during setup. On Android 10 and later, file-based encryption (FBE) is mandatory and cannot be skipped, making this extra effectively a no-op on modern devices. Older provisioning templates may still include it
 - `PROVISIONING_WIFI_SSID`, `PROVISIONING_WIFI_PASSWORD`, `PROVISIONING_WIFI_SECURITY_TYPE` - pre-configures Wi-Fi for provisioning
+- `PROVISIONING_ALLOW_OFFLINE` (Android 13+) - permits provisioning without internet connectivity. Without this flag, company-owned provisioning requires a network connection on Android 13 and later
 
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small">Formatting matters</div>
@@ -85,4 +87,11 @@ DPC extras use strict JSON. The last key-value pair within `ADMIN_EXTRAS_BUNDLE`
 </div>
 
 For guidance on what to include for your specific EMM, see [What should I put in DPC extras?](/android/android-enterprise-faq/what-to-put-in-dpc-extras/)
+
+### Related
+
+- [DPC extras collection](/android/android-enterprise-zero-touch-dpc-extras-collection/)
+- [What is the difference between AMAPI and a custom DPC?](/android/android-enterprise-faq/amapi-vs-custom-dpc/)
+- [Why is fully managed provisioning failing?](/android/android-enterprise-faq/fully-managed-provisioning-troubleshooting/)
+- [What's the best provisioning method?](/android/android-enterprise-faq/whats-the-best-provisioning-method/)
 

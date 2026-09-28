@@ -3,7 +3,7 @@ title: "Is it possible to backup & restore device data on a fully managed device
 published: '2024-11-11'
 status: publish
 author: 'Jason Bayton'
-excerpt: ''
+excerpt: "How to enable backup and restore on fully managed Android devices using AMAPI and custom DPC, including the new AMAPI backupService field."
 type: documentation
 tags: 
     - FAQ
