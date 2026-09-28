@@ -11,7 +11,7 @@ tags:
 
 A new opt-in feature has landed across my [wallpaper](https://gen.bayton.org/wallpaper/) and [contacts](https://gen.bayton.org/contacts/) generators, allowing the generated app to be woken by any AMAPI-powered EMM with [application role support](/android/android-enterprise-faq/amapi-application-roles/). 
 
-This now allow applications to initiate immediate background functionality on installation, such as setting the wallpaper or syncing a contact list, without users needing to first manually open the app - as has been the case since the generators were brought online for AMAPI-based EMMs.
+This now allows applications to initiate immediate background functionality upon installation, such as setting the wallpaper or syncing a contact list, without users needing to first manually open the app - as has been the case since the generators were brought online for AMAPI-based EMMs.
 
 ## What's been happening
 
