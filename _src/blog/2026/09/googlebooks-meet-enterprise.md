@@ -9,41 +9,34 @@ tags:
   - Enterprise
 ---
 
-Google has published its [first proper guidance](https://support.google.com/chrome/a/answer/16634428) (that I'm aware of, at least) on what Googlebooks mean for likes of us who manage these things at scale, and the organisations whose ChromeOS estates have spent months feeling like they're in a state of limbo.
+Google has published its [first proper guidance](https://support.google.com/chrome/a/answer/16634428) (that I'm aware of, at least) on what Googlebooks mean for the likes of us who manage these things at scale, and the organisations whose ChromeOS estates have spent months in limbo.
 
-With Google addressing enterprise for [Aluminium](/notes/102), it brings some clarity to questions raised around the consumer announcement: 
+Googlebooks will get enterprise management, but it is a good way off. Existing ChromeOS fleets are not imminently becoming unsupported, either.
 
-- what happens with management, 
-- when can said management be expected, 
-- what happens to the ChromeOS devices already in the field (other than vague promises of attempting to upgrade newer models from ChrOS to BookOS).
+With Google addressing enterprise for [Aluminium](/notes/102), there is at least something concrete to work from. Google has said ChromeOS devices will receive updates and security patches through mid-2034. That does not replace Auto Update Expiration (AUE) dates, which remain per model and already run beyond 2034 for some newer hardware. Google says qualifying devices whose 10-year lifecycle would extend beyond that point will receive transition support, although it has not said what that looks like yet.
 
-While the writing is on the wall for an eventual phase out of ChromeOS, as ever that is not the whole story. 
+So, if you have spent the last few months wondering whether you were managing a dead platform, you can rest easy for the moment. Chromebooks can continue to run ChromeOS after their applicable AUE date, just without the regular updates and support you actually want from a managed estate.
 
-Media coverage isn't helping the situation presently, with "the end of ChromeOS" death knell being rung far and wide and the bubbling assumption Google will do what Google does best - [abandon a product entirely to replace it with something new, shiny, and very similar](https://killedbygoogle.com/). Rather than following the sensationalist headlines, this is my interpretation of what Google has announced.
+There are some models that may be offered an upgrade path to Googlebook OS. It is too soon to understand the implications of that - management headaches, the need for a Powerwash, and so on - but it creates a route to keep newer hardware in use in some cases. I'd quite like to know whether an Aluminium "Flex" is on the cards too for the rest of the obsolete hardware.
 
-
-First and foremost, existing Chromebooks keep running ChromeOS until their forecasted end date, and likely beyond without regular updates.
-
-For some models that'll be ahead of any planned abandonment of ChrOS given the way support works today, but indeed some of them will meet their end of support sooner than perhaps desired. Auto Update Expiration runs per board generation, ten years from a platform's release, so mid-2034 is a cutoff point that catches the newest boards - the ones whose ten years may otherwise run past it. The good news is some devices will be offered an upgrade path for Aluminium. It's too soon to consider implications, management headaches, the need potentially for a powerwash.. etc.. but the hardware will not be wasted (in all cases). Chrome Enterprise and Education licences still cover their management, so no major incoming headaches to handle there, either.
-
-Google has put an end-of-support date of 2034 on ChromeOS updates entirely. I don't see that being wholly new information, given that end date has already been inferred from available data and circulated in the media.. but either way if you run a ChromeOS fleet and you've spent the last few months wondering whether you were managing a dead platform, you can - for the moment - rest easy. 
-
-It would be interesting to understand if there would be an Aluminium "Flex" to add to the mix also.
+Existing Chrome Enterprise and Education licences remain valid for Chromebooks running ChromeOS. Googlebooks, and eligible Chromebooks that move to Googlebook OS, will use a new licensing structure. We do not have the detail on that yet, which is quite an important thing to be left hanging in my opinion.
 
 ## A slow burn for enterprise
 
-I saw signs of [Aluminium gaining enterprise support](/notes/102) months ago and have been watching the enterprise plumbing take shape in the Android Canary builds ever since - multi-user policy being ported into Android Device Policy, the shared-session capability ChromeOS has always had seeping into the Android side. Convergence work has been running at least all the way through Android 17, with signs very [early on](/notes/95) prior. Seeing this, the slow adoption of enterprise capabilities is a frustration.
+I saw signs of [Aluminium gaining enterprise support](/notes/102) months ago and have been watching the enterprise plumbing take shape in the Android Canary builds ever since - multi-user policy being ported into Android Device Policy, the shared-session capability ChromeOS has always had seeping into the Android side. Convergence work has been running at least all the way through Android 17, with signs very [early on](/notes/95) prior. That does not tell us the whole enterprise offering was ready then, of course, but it does make the wait harder to swallow.
 
-The consumer Googlebooks are now live. The enterprise management for them isn't due until the second half of 2027, and Google is being very reserved in stating it's a multi-year build. I've watched this same ordering with [XR](/blog/2026/04/android-enterprise-lands-on-android-xr/), and it wears thinner every time, because the enterprise development has demonstrably been running in parallel the whole way. It hasn't been a standing start.
+The consumer Googlebooks are now available. You can sign in with a managed Workspace account today, and optionally apply Chrome browser cloud management, but domain enrolment and central fleet management are not there yet. Google's first enterprise-management wave begins in the second half of 2027 and rolls out over multiple years. I've watched this same ordering with [XR](/blog/2026/04/android-enterprise-lands-on-android-xr/), and it wears thinner every time.
 
 ## Whose management wins?
 
-The biggest concern for me today is which management model a Googlebook inherits. ChromeOS management and AMAPI already run on Google infrastructure, so a merged OS is the obvious time to merge the management surface too. Whether Google does that fully is another matter, but it certainly seems like things are moving in that direction. I've long found ChromeOS management unappealing next to Android's - the dual licensing needed for consolidated management, how it's gatekept in Google infrastructure (Workspace) and so on, so "a Googlebook is managed like a Chromebook" and "a Googlebook is managed like an Android device" are very different promises to an administrator, and frankly if Googlebook adopted the former in totality I fear my enthusiasm for the product would plummet.
+Google says it will provide Admin console controls for devices, users and browsers, plus APIs for third-party enterprise mobility management (EMM) providers. That is helpful, but it does not answer which management model a Googlebook inherits, and whether the Android Management API (AMAPI) becomes part of the stack.
 
-The announcement doesn't say which one we're getting. Perhaps Google hasn't landed on it yet. It's going to remain flagged as a risk for me.
+ChromeOS management and AMAPI are both Google management surfaces, so I can see the appeal of pulling them together. I've long found ChromeOS management unappealing next to Android's - the licensing questions around consolidated management, how it is gatekept in Google infrastructure (Workspace) and so on. "A Googlebook is managed like a Chromebook" and "a Googlebook is managed like an Android device" are very different promises to an administrator. If Googlebook adopted the former in totality, my enthusiasm for the product would plummet.
+
+The announcement gets us part of the way there. API detail, the remaining policy coverage, licensing and the eventual relationship with AMAPI are still open. I'm keeping that flagged as a risk.
 
 ## Where this leaves you
 
-For now this is an overdue acknowledgement that Googlebooks have an enterprise future. The management to facilitate it won't be available for a year, and the licensing in some ways makes-or-breaks adoption. Your ChromeOS fleet, meanwhile, is fine, and will be for years to come.
+For now this is an overdue acknowledgement that Googlebooks have an enterprise future. The management to facilitate it starts to arrive in 2027, and the licensing in some ways makes-or-breaks adoption. Your ChromeOS fleet is still supported according to its AUE date, and Google has given us a mid-2034 ChromeOS update horizon to plan around.
 
 I'll come back to this once I get a Googlebook in front of me in October. If you're weighing your ChromeOS estate against what's coming, or you've read the same announcement and landed somewhere else, [tell me](/contact).
