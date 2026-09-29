@@ -1,5 +1,5 @@
 ---
-title: "Android Management API application help: what I can and cannot do"
+title: "Android Management API application assistance"
 date: '2026-09-28'
 status: publish
 author: 'Jason Bayton'
