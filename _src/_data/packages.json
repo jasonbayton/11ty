@@ -34090,7 +34090,7 @@
   },
   "com.vzw.ecid": {
     "appName": "Call Filter",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
@@ -305389,7 +305389,7 @@
   },
   "com.securityandprivacy.android.verizon.vms": {
     "appName": "Verizon Protect",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
