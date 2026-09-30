@@ -30,6 +30,9 @@ If you're having issues configuring or using MANAGED INFO, the below guidance ma
 **Licensing server unreachable**
 : The application is unable to communicate with the remote licensing server. See [MANAGED INFO requirements](/projects/managed-info/support/managed-info-requirements/) for network requirements in order to use the application. If this is an issue for your deployment, please reach out.
 
+**Wi-Fi network name: Location services may be disabled**
+: Android treats the connected Wi-Fi network name and BSSID as location-sensitive information. MANAGED INFO needs location permission, but that permission alone is not sufficient: the device-wide **Location** switch must also be enabled in **Settings > Location**. Turn it on, then reopen MANAGED INFO. The device can remain connected to Wi-Fi while Android withholds its name from applications.
+
 ## Known issues
 
 **App cannot be configured on uncertified devices**
