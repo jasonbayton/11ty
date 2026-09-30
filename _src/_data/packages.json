@@ -90980,6 +90980,11 @@
         "os": "35"
       },
       {
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "35"
+      },
+      {
         "make": "samsung",
         "model": "SM-A176U",
         "os": "36"
@@ -124859,7 +124864,7 @@
   },
   "com.crosscall.crosscallfetchagent": {
     "appName": "Crosscall Services",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -221786,10 +221791,6 @@
       {
         "locale": "es-us",
         "name": "Configuración de Punto de Acceso OTA"
-      },
-      {
-        "locale": "en-gb",
-        "name": "OTA access point configuration"
       },
       {
         "locale": "es-es",
