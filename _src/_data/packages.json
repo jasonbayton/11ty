@@ -90980,9 +90980,9 @@
         "os": "35"
       },
       {
-        "make": "samsung",
-        "model": "SM-A176U",
-        "os": "36"
+        "make": "Crosscall",
+        "model": "Stellar-X5",
+        "os": "35"
       },
       {
         "make": "Fairphone",
@@ -124859,7 +124859,7 @@
   },
   "com.crosscall.crosscallfetchagent": {
     "appName": "Crosscall Services",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -221788,10 +221788,6 @@
         "name": "Configuración de Punto de Acceso OTA"
       },
       {
-        "locale": "en-gb",
-        "name": "OTA access point configuration"
-      },
-      {
         "locale": "es-es",
         "name": "Configuración de Punto de Acceso OTA"
       }
@@ -271749,9 +271745,19 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-F971B",
+        "os": "37"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A176U",
+        "os": "36"
       },
       {
         "make": "Google",
