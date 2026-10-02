@@ -30,12 +30,12 @@ This on-device block has incremented as follows:
 | Android 14 | 34 | 23 | Android 6.0 (Marshmallow) |
 | Android 15 | 35 | 24 | Android 7.0 (Nougat) |
 | Android 16 | 36 | 24 (unchanged) | Android 7.0 (Nougat) |
-| Android 17 | TBD | TBD | TBD |
+| Android 17 | 37 | 24 (unchanged) | Android 7.0 (Nougat) |
 
 <div class="callout callout-orange">
 <div class="callout-heading callout-heading-small">Head's up</div>
 
-Notably, Android 16 did not increment the minimum `targetSdkVersion` for on-device installation, keeping it at API 24, the same as Android 15. Whether Android 17 will increment this is not yet confirmed.
+Android 17, like 16 a year before it, has maintained the minimum at API 24. For a security policy introduced as a moving target, this is beginning to look more like a quiet dismissal of the requirement, perhaps conceding to its unpopularity within the community.
 
 </div>
 
@@ -65,11 +65,14 @@ There are two aspects to Google Play's enforcement:
 | 2023 | API 33 - Android 13 | API 31 - Android 12 | August 31, 2023 |
 | 2024 | API 34 - Android 14 | API 33 - Android 13 | August 31, 2024 |
 | 2025 | API 35 - Android 15 | API 34 - Android 14 | August 31, 2025 |
+| 2026 | API 36 - Android 16 | API 35 - Android 15 | August 31, 2026 |
 
 <div class="callout callout-blue">
 <div class="callout-heading callout-heading-small">Note</div>
 
-Wear OS, Android TV, and Android Automotive OS apps have separate, slightly lower `targetSdkVersion` requirements. Developers can also request deadline extensions, typically to November 1st of the same year.
+The 2026 submission requirements differ by device category: Wear OS and Android Automotive OS apps must target at least API 35; Android TV and Android XR apps must target at least API 34. Existing-app visibility thresholds also differ by category, so check [Google Play's current policy](https://support.google.com/googleplay/android-developer/answer/11926878) for those details. Developers can request an extension to November 1, 2026.
+
+Permanently private apps restricted to users in a specific organisation for internal distribution are exempt from Google Play's target API level requirements.
 
 </div>
 
@@ -78,9 +81,9 @@ Wear OS, Android TV, and Android Automotive OS apps have separate, slightly lowe
 For organisations managing devices through an EMM, both mechanisms are relevant:
 
 - **On-device block**: If a managed device is running Android 14 or later, any enterprise app targeting below the minimum API level will fail to install, whether pushed silently via the EMM or installed manually. This is particularly important for legacy line-of-business apps that may not have been updated in some time.
-- **Google Play requirements**: Apps distributed through managed Google Play must meet the submission requirements to be updated, and will gradually lose visibility to users on newer Android versions if left unmaintained.
+- **Google Play requirements**: Public apps distributed through managed Google Play must meet the submission requirements to be updated, and can lose visibility to new users on newer Android versions if left unmaintained. Permanently private apps restricted to one organisation are exempt from this policy.
 
-The practical takeaway is that organisations should ensure all enterprise applications target at least API level 24 (Android 7.0) today to guarantee installation across Android 14-16 devices, and should plan for this minimum to increase in future Android releases.
+For Android 14-17 devices, enterprise apps need to target at least API level 24 (Android 7.0) to clear the on-device installation block on the builds covered above. For public apps on Google Play, new submissions and updates now need API 36, while existing apps need API 35 to remain visible to new users on newer devices.
 
 ## Test APKs
 
@@ -88,6 +91,7 @@ To validate the on-device minimum `targetSdkVersion` behaviour, the following de
 
 | APK | `targetSdkVersion` | Android version |
 |---|---|---|
+| [bayton-sdk-demo-target37-android17.apk](https://cdn.bayton.org/download/min-sdk-validation/bayton-sdk-demo-target37-android17.apk) | 37 | Android 17 |
 | [bayton-sdk-demo-target36-android16.apk](https://cdn.bayton.org/download/min-sdk-validation/bayton-sdk-demo-target36-android16.apk) | 36 | Android 16 |
 | [bayton-sdk-demo-target35-android15.apk](https://cdn.bayton.org/download/min-sdk-validation/bayton-sdk-demo-target35-android15.apk) | 35 | Android 15 |
 | [bayton-sdk-demo-target34-android14.apk](https://cdn.bayton.org/download/min-sdk-validation/bayton-sdk-demo-target34-android14.apk) | 34 | Android 14 |
