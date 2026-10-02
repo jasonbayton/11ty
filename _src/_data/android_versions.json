@@ -1,6 +1,6 @@
 {
-  "lastReviewed": "2025-10-21",
-  "description": "A list of Android versions, their API levels, codenames, release dates, support status, and end-of-life dates. This is maintained primarily for referencing Android OS versions in my projects as an external resource I can update without app updates, bit it also provides a stable API for others to reference. The user-friendly table is available here: (https://bayton.org/android/android-versions).",
+  "lastReviewed": "2026-10-02",
+  "description": "A list of Android versions, their API levels, codenames, release dates, support status, estimated Android OS support end dates, and sourced Google Play services cutoff periods where known. This is maintained primarily for referencing Android OS versions in my projects as an external resource I can update without app updates, but it also provides a stable API for others to reference. The user-friendly table is available here: (https://bayton.org/android/android-versions).",
   "schema": {
     "version": "string",
     "apiLevel": "number",
@@ -8,7 +8,8 @@
     "releaseDate": "YYYY-MM-DD",
     "status": "latest|maintained|end-of-support|end-of-life",
     "supported": "boolean",
-    "eolDate": "YYYY-MM-DD|null"
+    "eolDate": "YYYY-MM-DD|null (estimated OS support end; legacy field name)",
+    "playServicesEnd": "optional YYYY-MM-DD string; day 01 represents a documented month, not a verified cutoff day"
   },
   "items": [
         {
@@ -189,10 +190,11 @@
       "apiLevel": 23,
       "codename": "Marshmallow",
       "releaseDate": "2015-09-29",
-      "status": "end-of-support",
+      "status": "end-of-life",
       "supported": false,
       "productionRelease": true,
       "eolDate": "2018-08-01",
+      "playServicesEnd": "2026-07-01",
       "minorVersions": [
         "6.0.1"
       ]
@@ -206,6 +208,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": "2018-03-05",
+      "playServicesEnd": "2024-07-01",
       "minorVersions": [
         "5.1.1"
       ]
@@ -219,6 +222,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": "2017-11-05",
+      "playServicesEnd": "2024-07-01",
       "minorVersions": [
         "5.0.1",
         "5.0.2"
@@ -233,6 +237,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": null,
+      "playServicesEnd": "2023-08-01",
       "minorVersions": [
         "4.4W.2"
       ]
@@ -246,6 +251,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": "2017-10-01",
+      "playServicesEnd": "2023-08-01",
       "minorVersions": [
         "4.4.1",
         "4.4.2",
@@ -261,7 +267,8 @@
       "status": "end-of-life",
       "supported": false,
       "productionRelease": true,
-      "eolDate": "2016-07-01"
+      "eolDate": "2016-07-01",
+      "playServicesEnd": "2021-08-01"
     },
     {
       "version": "4.2",
@@ -271,7 +278,8 @@
       "status": "end-of-life",
       "supported": false,
       "productionRelease": true,
-      "eolDate": "2016-07-01"
+      "eolDate": "2016-07-01",
+      "playServicesEnd": "2021-08-01"
     },
     {
       "version": "4.1",
@@ -281,7 +289,8 @@
       "status": "end-of-life",
       "supported": false,
       "productionRelease": true,
-      "eolDate": "2016-07-01"
+      "eolDate": "2016-07-01",
+      "playServicesEnd": "2021-08-01"
     },
     {
       "version": "4.0.3",
@@ -292,6 +301,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": "2015-12-01",
+      "playServicesEnd": "2018-12-01",
       "minorVersions": [
         "4.0.4"
       ]
@@ -305,6 +315,7 @@
       "supported": false,
       "productionRelease": true,
       "eolDate": "2015-12-01",
+      "playServicesEnd": "2018-12-01",
       "minorVersions": [
         "4.0.1",
         "4.0.2"

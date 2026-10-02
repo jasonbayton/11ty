@@ -16,12 +16,12 @@ eleventyNavigation:
   {% set androidVersions = android_versions %}
 {% endif %}
 
-<p>The below provides a table of Android versions and their respective API levels, release dates, and end-of-life dates.</p>
+<p>The below provides a table of Android versions and their respective API levels, release dates, estimated OS support end dates, and Google Play services cutoffs where documented.</p>
 <p>Android versions are typically supported for an average of 3 years after their initial release, though this can vary based on manufacturer and device. </p>
 <div class="callout">
-  Note that Google does not provide official end-of-life dates for Android versions, so the dates listed are based on when Google typically ends security update backporting. OEMs may choose to support their devices on an Android release after the EOL date listed. True EOL usually comes with the last supported version of Google Play Services for an Android release, which isn't captured here (yet).</div>
+  <strong>End of support (EOS)</strong> means Google has stopped backporting Android security fixes for that release. The OS support dates below are estimates, and device manufacturers may continue providing updates beyond them. <strong>End of life (EOL)</strong> means <a href="https://support.google.com/googleplay/answer/9037938?hl=en-GB">Google Play services</a> no longer receives updates on that Android version. Play services dates use the first day of the documented month because an exact last-update day is not available for every release. Day <code>01</code> is a placeholder. The month may mark Google's announcement, planned cutoff, or confirmation that support had ended. Sources are listed below the table.</div>
 <p>Looking for minimum <code>targetSdkVersion</code> requirements? See the <a href="/android/android-minimum-targetsdk-matrix/">Android minimum target SDK matrix</a>.</p>
-<p>There's a stable API for this table provided as a JSON schema <a href="/api/android_versions.json">here</a>.</p>
+<p>There's a stable API for this table provided as JSON <a href="/api/android_versions.json">here</a>. The optional <code>playServicesEnd</code> field uses <code>YYYY-MM-01</code>, with day <code>01</code> standing for a documented month.</p>
 <small>Last updated: {{ androidVersions.lastReviewed }}</small>
 
 <div class="responsive-table-wrapper">
@@ -34,7 +34,8 @@ eleventyNavigation:
     <th>API version</th>
     <th>Release date</th>
     <th>Status</th>
-    <th>EOL date</th>
+    <th>OS support ended</th>
+    <th>Play services cutoff</th>
     <th>Minor versions</th>
     </tr>
   </thead>
@@ -74,6 +75,13 @@ eleventyNavigation:
         {% endif %}
       </td>
       <td>
+        {% if item.playServicesEnd %}
+          <time datetime="{{ item.playServicesEnd }}">{{ item.playServicesEnd }}</time>
+        {% else %}
+          -
+        {% endif %}
+      </td>
+      <td>
         {% if item.minorVersions %}
           {{ item.minorVersions | join(", ") }}
         {% else %}
@@ -85,5 +93,7 @@ eleventyNavigation:
   </tbody>
   </table>
 </div>
+
+<p>Google Play services cutoff sources: <a href="https://android-developers.googleblog.com/2018/12/google-play-services-discontinuing.html">Android 4.0</a>, <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">Android 4.1 to 4.3</a>, <a href="https://android-developers.googleblog.com/2023/07/google-play-services-discontinuing-updates-for-kitkat.html">Android 4.4</a>, <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">Android 5</a>, and <a href="https://developers.google.com/android/management/release-notes">Android 6</a>.</p>
 
 <p>Data sourced from <a href="https://developer.android.com/about/versions" target="_blank" rel="noopener">Android Developers</a>, <a href="https://en.wikipedia.org/wiki/Android_version_history" target="_blank" rel="noopener">Wikipedia (Android version history)</a>, and other public resources.</p>
