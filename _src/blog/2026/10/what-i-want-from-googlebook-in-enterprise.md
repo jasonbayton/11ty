@@ -23,6 +23,22 @@ With that enterprise offering still some way off, there's plenty I'd like to see
 
 Google hasn't committed to this list, and I haven't tested a managed Googlebook yet. This is all speculative and more derived from an Android perspective, given that's my bread and butter.
 
+**Jump to a section**
+
+- [Android Enterprise management through a chosen EMM](#android-management-please), using custom DPC or AMAPI, without a separate Google device-management licence.
+- [Existing policies and laptop controls](#bring-the-policies-with-it), including wallpaper management, device trust and clear reporting when a policy can't be enforced.
+- [Work profiles](#a-work-profile-is-mandatory) that separates work across Android apps, the desktop browser and Linux.
+- [Managed devices and managed users](#manage-the-device-and-the-people-using-it), with shared sessions and policies suited to each person's role.
+- [A proper choice over AI](#let-me-turn-gemini-off), including switching Gemini off completely or using an approved alternative.
+- [Linux management](#linux-needs-management-too), from switching it on or off to controlling data sharing, package sources and user access.
+- [Applications and desktop shortcuts](#applications-web-apps-and-putting-things-on-the-desktop), with managed Android apps, browser extensions, web apps and links in the right work context.
+- [Enrolment for named users, shared devices and kiosks](#enrolment-seems-sorted-but), through zero-touch, managed accounts, QR codes or tokens.
+- [Updates we can schedule and account for](#updates-across-the-whole-device), with visibility of software freshness across the OS, apps, browser, firmware and Linux.
+- [Monthly patches and clear support commitments](#monthly-patches), with model-level support dates and detail on major OS upgrades and firmware coverage.
+- [A Googlebook Flex option](#googlebook-flex) for suitable hardware organisations already own.
+- [Commands and support tools](#the-commands-and-support-tools-too), including session controls, eSIM management, lost mode and diagnostics.
+- [A route from existing deployments](#and-a-route-from-what-we-have-today), covering ChromeOS migration, EMM portability and managed testing before rollout.
+
 ## Android management, please
 
 Google is bringing Android and ChromeOS together under Googlebook OS, the product we've been following as Aluminium (which is a far cooler name). I'd like it to bring the management together too.
