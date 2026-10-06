@@ -90890,6 +90890,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-S921B",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 8",
         "os": "36"
@@ -305400,7 +305405,7 @@
   },
   "com.securityandprivacy.android.verizon.vms": {
     "appName": "Verizon Protect",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
