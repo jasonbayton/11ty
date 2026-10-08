@@ -22,6 +22,8 @@ eleventyNavigation:
 
 Custom intents are included in MANAGED SETTINGS [1.0.3.0](/projects/managed-settings/release-notes/1030/) and later. Check the installed app version before deploying a configuration that uses them.
 
+Note! Custom intents provide the capability to call activities, services, and such. It cannot locate them. Work with your app developer(s) to determine what can be launched and how to configure it.
+
 </div>
 
 Custom intents let you add your own actions above the standard [settings shortcuts](/projects/managed-settings/support/supported-configurations/). A button can open an app or deep link, send a broadcast, start an ordinary service, or open an Android or device manufacturer's settings screen.
@@ -56,7 +58,7 @@ An omitted `enabled` value is treated as `false`. Valid, enabled entries appear 
 
 </div>
 
-For direct policy JSON, `customIntents` is an array of these entries inside the application's `managedConfiguration`. The examples on this page show the managed-configuration portion only. They are also useful when preparing a [custom DPC payload](/projects/managed-settings/support/managed-configuration-payload/).
+For direct policy JSON, `customIntents` is an array of these entries inside the application's `managedConfiguration`. The examples on this page show the managed-configuration portion only. They are also useful when preparing a [custom payload](/projects/managed-settings/support/managed-configuration-payload/).
 
 ## Choose the intent type
 
@@ -147,8 +149,6 @@ The actions below are examples, not a complete list:
 </div>
 
 For Application details settings, also provide a `dataUri` such as `package:org.bayton.managedinfo`. You can also target a specific package or component, including an OEM settings activity, using **Package name** and **Class name**.
-
-Versions before 1.0.3.2 also expose a `system` type and a **System action** dropdown with seven common actions. From 1.0.3.2, these fields are removed from the managed-configuration form. Existing `system` entries using `systemAction` remain supported in policy JSON. Use `launch` and `action` for new settings shortcuts.
 
 ```json
 {
