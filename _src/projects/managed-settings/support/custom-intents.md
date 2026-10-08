@@ -50,7 +50,7 @@ An omitted `enabled` value is treated as `false`. Valid, enabled entries appear 
 | Intent type | `intentType` | `launch`, `broadcast`, `service`, or `system`. |
 | Action | `action` | The action string expected by the target activity, receiver, or service. |
 | Package name | `packageName` | Target application ID. Required for services; recommended for broadcasts to a particular app. |
-| Class name | `className` | Optional fully qualified activity, receiver, or service class. An explicit component requires both package and class. From 1.3.1.1, a custom activity or broadcast with a class but no package is rejected, even if an action is supplied. |
+| Class name | `className` | Optional fully qualified activity, receiver, or service class. An explicit component requires both package and class. From 1.0.3.1, a custom activity or broadcast with a class but no package is rejected, even if an action is supplied. |
 | Data URI | `dataUri` | Optional intent data, such as a web URL, deep link, or `package:` URI. |
 | System action | `systemAction` | A predefined settings action, used with the `system` type. |
 | Extras | `extras` | Optional repeatable Key, Type, and Value entries. |
