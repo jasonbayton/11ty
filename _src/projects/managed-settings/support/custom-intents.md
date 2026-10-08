@@ -24,7 +24,7 @@ Custom intents are included in MANAGED SETTINGS [1.0.3.0](/projects/managed-sett
 
 </div>
 
-Custom intents let you add your own actions above the standard [settings shortcuts](/projects/managed-settings/support/supported-configurations/). A button can open an app or deep link, send a broadcast, start an ordinary service, or open one of the predefined Android settings screens.
+Custom intents let you add your own actions above the standard [settings shortcuts](/projects/managed-settings/support/supported-configurations/). A button can open an app or deep link, send a broadcast, start an ordinary service, or open an Android or device manufacturer's settings screen.
 
 You configure these actions through your Enterprise Mobility Management (EMM) platform's managed app configuration, or through a custom Device Policy Controller (DPC). Device users see the buttons; the target and parameters come from the administrator's configuration. Custom intents do not require a licensed organisation ID.
 
@@ -47,12 +47,11 @@ An omitted `enabled` value is treated as `false`. Valid, enabled entries appear 
 | Name | `name` | Required button label. |
 | Description | `description` | Supporting text beneath the label. |
 | Enabled | `enabled` | Off by default (`false`). Turn on to show and allow the action. |
-| Intent type | `intentType` | `launch`, `broadcast`, `service`, or `system`. |
+| Intent type | `intentType` | `launch`, `broadcast`, or `service`. |
 | Action | `action` | The action string expected by the target activity, receiver, or service. |
 | Package name | `packageName` | Target application ID. Required for services; recommended for broadcasts to a particular app. |
 | Class name | `className` | Optional fully qualified activity, receiver, or service class. An explicit component requires both package and class. From 1.0.3.1, a custom activity or broadcast with a class but no package is rejected, even if an action is supplied. |
 | Data URI | `dataUri` | Optional intent data, such as a web URL, deep link, or `package:` URI. |
-| System action | `systemAction` | A predefined settings action, used with the `system` type. |
 | Extras | `extras` | Optional repeatable Key, Type, and Value entries. |
 
 </div>
@@ -127,11 +126,13 @@ A successful request can leave the user on the same page. The service's own impl
 
 ### Open system settings
 
-Use `system` to select one of the predefined settings actions:
+Use `launch` to open a settings screen by its documented action string. Enter the action in **Action**, with any required **Data URI** or **Extras**. The target device must have an activity that handles the request and permits MANAGED SETTINGS to open it.
+
+The actions below are examples, not a complete list:
 
 <div class="responsive-table-wrapper">
 
-| Selection | `systemAction` |
+| Screen | `action` |
 | --- | --- |
 | Settings | `android.settings.SETTINGS` |
 | Wi-Fi settings | `android.settings.WIFI_SETTINGS` |
@@ -140,10 +141,14 @@ Use `system` to select one of the predefined settings actions:
 | Sound settings | `android.settings.SOUND_SETTINGS` |
 | Security settings | `android.settings.SECURITY_SETTINGS` |
 | Application details settings | `android.settings.APPLICATION_DETAILS_SETTINGS` |
+| VPN settings | `android.settings.VPN_SETTINGS` |
+| Notification settings | `android.settings.NOTIFICATION_SETTINGS` |
 
 </div>
 
-For Application details settings, also provide a `dataUri` such as `package:org.bayton.managedinfo`. The system type uses **System action** and **Data URI**; its target is supplied by Android.
+For Application details settings, also provide a `dataUri` such as `package:org.bayton.managedinfo`. You can also target a specific package or component, including an OEM settings activity, using **Package name** and **Class name**.
+
+Versions before 1.0.3.2 also expose a `system` type and a **System action** dropdown with seven common actions. From 1.0.3.2, these fields are removed from the managed-configuration form. Existing `system` entries using `systemAction` remain supported in policy JSON. Use `launch` and `action` for new settings shortcuts.
 
 ```json
 {
@@ -152,8 +157,8 @@ For Application details settings, also provide a `dataUri` such as `package:org.
       "name": "Managed Info app settings",
       "description": "Open Android's settings for MANAGED INFO",
       "enabled": true,
-      "intentType": "system",
-      "systemAction": "android.settings.APPLICATION_DETAILS_SETTINGS",
+      "intentType": "launch",
+      "action": "android.settings.APPLICATION_DETAILS_SETTINGS",
       "dataUri": "package:org.bayton.managedinfo"
     }
   ]

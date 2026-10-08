@@ -30,8 +30,8 @@ MANAGED SETTINGS 1.0.3.0 and later accept an optional `customIntents` array. Cus
       "name": "Managed Info app settings",
       "description": "Open Android's settings for MANAGED INFO",
       "enabled": true,
-      "intentType": "system",
-      "systemAction": "android.settings.APPLICATION_DETAILS_SETTINGS",
+      "intentType": "launch",
+      "action": "android.settings.APPLICATION_DETAILS_SETTINGS",
       "dataUri": "package:org.bayton.managedinfo"
     }
   ]

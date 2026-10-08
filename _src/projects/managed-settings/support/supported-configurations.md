@@ -100,7 +100,6 @@ MANAGED SETTINGS 1.0.3.0 and later include a repeatable **Custom intents** (`cus
 | Launch activity | `launch` | Open an app activity or deep link. |
 | Send broadcast | `broadcast` | Send a request to a target receiver. A screen may not open. |
 | Start service | `service` | Request an ordinary service start. Android background restrictions apply. |
-| Open system settings | `system` | Open one of the predefined settings actions. |
 
 </div>
 
