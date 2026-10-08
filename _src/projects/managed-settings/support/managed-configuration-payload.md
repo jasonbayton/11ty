@@ -21,7 +21,7 @@ Use the EMM's managed configuration editor when available. For a custom DPC or d
 
 ## Custom intents payload
 
-The upcoming custom-intents update accepts an optional `customIntents` array. Custom entries default to disabled; set `"enabled": true` to make an action available. The example below opens MANAGED INFO's Android app settings. [Configure custom intents](/projects/managed-settings/support/custom-intents/) covers all four intent types and optional scalar extras.
+MANAGED SETTINGS 1.0.3.0 and later accept an optional `customIntents` array. Custom entries default to disabled; set `"enabled": true` to make an action available. The example below opens MANAGED INFO's Android app settings. [Configure custom intents](/projects/managed-settings/support/custom-intents/) covers all four intent types and optional scalar extras.
 
 ```json
 {
@@ -42,7 +42,7 @@ Add this alongside the other managed-configuration groups you need. Replacing th
 
 ## Legacy schema reference
 
-The `managedProperties` reference below describes the configuration fields in version `1.0.1.1`. It is a schema description for offline/custom DPC integrations. It does not include the upcoming `customIntents` fields. Use the [custom-intents field reference](/projects/managed-settings/support/custom-intents/#add-an-action) for those additions.
+The `managedProperties` reference below describes the configuration fields in version `1.0.1.1`. It is a schema description for offline/custom DPC integrations. It does not include the `customIntents` fields added in 1.0.3.0. Use the [custom-intents field reference](/projects/managed-settings/support/custom-intents/#add-an-action) for those additions.
 
 ```json
 {

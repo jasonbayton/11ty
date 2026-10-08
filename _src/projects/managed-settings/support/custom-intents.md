@@ -18,9 +18,9 @@ eleventyNavigation:
 ---
 
 <div class="callout callout-orange">
-<div class="callout-heading">Upcoming release</div>
+<div class="callout-heading">Available from version 1.0.3.0</div>
 
-This guide covers the custom-intents update being prepared for MANAGED SETTINGS. The published 1.0.2.2 release does not include these options. Check the [release notes](/projects/managed-settings/release-notes/) before deploying a configuration that uses them.
+Custom intents are included in MANAGED SETTINGS [1.0.3.0](/projects/managed-settings/release-notes/1030/) and later. Check the installed app version before deploying a configuration that uses them.
 
 </div>
 

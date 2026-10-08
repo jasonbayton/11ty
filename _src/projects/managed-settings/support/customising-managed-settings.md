@@ -103,7 +103,7 @@ The in-app title offers a standard alphanumeric input to allow organisations to 
 
 ### Adding a custom intent
 
-The upcoming custom-intents update adds organisation actions for apps, broadcasts, services, and Android settings through managed configuration. These actions do not require a licensed organisation ID.
+MANAGED SETTINGS 1.0.3.0 and later support organisation actions for apps, broadcasts, services, and Android settings through managed configuration. These actions do not require a licensed organisation ID.
 
 See [Configure custom intents](/projects/managed-settings/support/custom-intents/) for the fields, supported extra types, examples, and device behaviour.
 
