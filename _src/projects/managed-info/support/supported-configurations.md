@@ -261,6 +261,23 @@ When configured as a companion application in AMAPI, MANAGED INFO can install AP
 </div>
 
 
+## App actions
+
+The `app_actions` bundle lets other apps request configured sound playback. See [Trigger MANAGED INFO app actions](/projects/managed-info/support/app-actions/) for setup, sound limits and examples for MANAGED SETTINGS, Home Assistant and ADB.
+
+<div class="responsive-table-wrapper">
+
+| Setting | Key | Type | Default | Description |
+| --- | --- | --- | --- | --- |
+| Enable app actions | `app_actions_enabled` | `bool` | `false` | Accept requests for configured actions. |
+| Action token | `app_actions_token` | `string` | Empty | Optional shared token callers must send. |
+| Sound actions | `app_action_sounds` | `bundle_array` | Empty | Sounds available for playback by ID. |
+| Sound ID | `sound_id` | `string` | Empty | Unique 1 to 64 character ID using letters, numbers, hyphens or underscores. |
+| Download URL | `sound_url` | `string` | Empty | HTTPS audio-file URL accessible to the device. |
+| Sound file SHA256 | `sound_sha256` | `string` | Empty | Optional audio-file SHA-256, as hexadecimal or base64. |
+
+</div>
+
 ## Limitations
 
 - Apps must be installed for icons/names to appear.

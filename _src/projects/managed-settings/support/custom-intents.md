@@ -205,7 +205,7 @@ An action can have up to 32 extras. Each key can contain up to 256 characters, e
 
 ### Play a sound through MANAGED INFO
 
-First configure [MANAGED INFO](/projects/managed-info/support/) with app actions enabled and a sound whose ID matches the request. The sound must be cached before it can play. If you have configured an app-action token in MI, include the same token in the request.
+First configure [MANAGED INFO app actions](/projects/managed-info/support/app-actions/) with app actions enabled and a sound whose ID matches the request. The sound must be cached before it can play. If you have configured an app-action token in MI, include the same token in the request.
 
 For reference, the corresponding MI managed configuration is:
 
