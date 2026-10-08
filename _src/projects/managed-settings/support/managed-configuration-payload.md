@@ -21,7 +21,7 @@ Use the EMM's managed configuration editor when available. For a custom DPC or d
 
 ## Custom intents payload
 
-The upcoming custom-intents update accepts an optional `customIntents` array. The example below opens MANAGED INFO's Android app settings. [Configure custom intents](/projects/managed-settings/support/custom-intents/) covers all four intent types and optional scalar extras.
+The upcoming custom-intents update accepts an optional `customIntents` array. Custom entries default to disabled; set `"enabled": true` to make an action available. The example below opens MANAGED INFO's Android app settings. [Configure custom intents](/projects/managed-settings/support/custom-intents/) covers all four intent types and optional scalar extras.
 
 ```json
 {

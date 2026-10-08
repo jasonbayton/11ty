@@ -34,10 +34,11 @@ You configure these actions through your Enterprise Mobility Management (EMM) pl
 2. Find **Custom intents** and add a **Custom intent** entry.
 3. Give it a **Name** and **Description**, then choose the **Intent type**.
 4. Enter the target details for that type. Use the app developer's documented package, component, action, and parameters.
-5. Add any required **Extras**, save the configuration, and send it to a test device.
-6. Tap the action and check that the target app performs the expected operation.
+5. Add any required **Extras**. Custom entries start disabled, so turn **Enabled** on when the action is ready.
+6. Save the configuration and send it to a test device.
+7. Tap the action and check that the target app performs the expected operation.
 
-Valid, enabled entries appear under **Organisation settings**, above **Network & connectivity**, in the order provided by the configuration. Each uses an organisation icon. If the description is empty, MANAGED SETTINGS shows **No description provided**.
+An omitted `enabled` value is treated as `false`. Valid, enabled entries appear under **Organisation settings**, above **Network & connectivity**, in the order provided by the configuration. Each uses an organisation icon. If the description is empty, MANAGED SETTINGS shows **No description provided**.
 
 <div class="responsive-table-wrapper">
 
@@ -45,7 +46,7 @@ Valid, enabled entries appear under **Organisation settings**, above **Network &
 | --- | --- | --- |
 | Name | `name` | Required button label. |
 | Description | `description` | Supporting text beneath the label. |
-| Enabled | `enabled` | Whether to show the action. Defaults to `true`. |
+| Enabled | `enabled` | Off by default (`false`). Turn on to show and allow the action. |
 | Intent type | `intentType` | `launch`, `broadcast`, `service`, or `system`. |
 | Action | `action` | The action string expected by the target activity, receiver, or service. |
 | Package name | `packageName` | Target application ID. Required for services; recommended for broadcasts to a particular app. |
@@ -72,6 +73,7 @@ This example opens bayton.org in Chrome. Change the package name if you deploy a
     {
       "name": "Open support website",
       "description": "Open bayton.org in Chrome",
+      "enabled": true,
       "intentType": "launch",
       "action": "android.intent.action.VIEW",
       "packageName": "com.android.chrome",
@@ -108,6 +110,7 @@ This is an illustrative contract for an enterprise app you control. Replace the 
     {
       "name": "Refresh enterprise agent",
       "description": "Ask the agent to refresh in the background",
+      "enabled": true,
       "intentType": "service",
       "packageName": "com.example.enterpriseagent",
       "className": "com.example.enterpriseagent.RefreshService",
@@ -148,6 +151,7 @@ For Application details settings, also provide a `dataUri` such as `package:org.
     {
       "name": "Managed Info app settings",
       "description": "Open Android's settings for MANAGED INFO",
+      "enabled": true,
       "intentType": "system",
       "systemAction": "android.settings.APPLICATION_DETAILS_SETTINGS",
       "dataUri": "package:org.bayton.managedinfo"
@@ -224,6 +228,7 @@ Replace the example URL with a reachable HTTPS URL for your sound. These setting
     {
       "name": "Play support sound",
       "description": "Play the sound configured in MANAGED INFO",
+      "enabled": true,
       "intentType": "broadcast",
       "packageName": "org.bayton.managedinfo",
       "className": "org.bayton.managedinfo.receivers.AppActionReceiver",

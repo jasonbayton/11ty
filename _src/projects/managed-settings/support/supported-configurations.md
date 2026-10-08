@@ -91,7 +91,7 @@ Please test before deployment, and feed back with findings.
 
 ## Custom intents
 
-The upcoming custom-intents update adds a repeatable **Custom intents** (`customIntents`) group to managed configuration. Each entry becomes an action under **Organisation settings**, above the standard settings shortcuts.
+The upcoming custom-intents update adds a repeatable **Custom intents** (`customIntents`) group to managed configuration. Each entry starts disabled. Turn its **Enabled** switch on to show it under **Organisation settings**, above the standard settings shortcuts.
 
 <div class="responsive-table-wrapper">
 
