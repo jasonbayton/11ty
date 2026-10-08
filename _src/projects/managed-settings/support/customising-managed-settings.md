@@ -46,9 +46,6 @@ MANAGED SETTINGS offers the following customisations:
 **Theme**
 : This will allow selection of a colour scheme to match an organisation's brand. It includes **Background colour**, **Card colour**, **Text colour**, and **Accent colour**.
 
-**Custom intents**
-: This will allow organisations to define their own intents, including those to other applications.
-
 If you'd like to see more customisation options, or general features, [raise a feature request](https://github.com/baytonorg/managed_settings_tracker/issues/) or discuss your requirements on the [MANAGED SETTINGS Discord channel](https://discord.gg/YUY7jAjayr).
 
 ## Enter your organisation ID
@@ -106,23 +103,9 @@ The in-app title offers a standard alphanumeric input to allow organisations to 
 
 ### Adding a custom intent
 
-<div class="callout callout-small">
+The upcoming custom-intents update adds organisation actions for apps, broadcasts, services, and Android settings through managed configuration. These actions do not require a licensed organisation ID.
 
-Custom intent support is planned for an upcoming release. Please vote on it [here](https://github.com/baytonorg/managed_settings_tracker/issues/2).
-
-</div>
-
-To support settings intents not currently provided by MANAGED SETTINGS, custom intents are supported within the managed app configuration. The managed config consists of:
-
-- Title
-- Description
-- Intent
-
-Intents generated will fall under the category **Your organisation** and sit at the very top of the intents list, above Network & connectivity
-
-Custom intents will show an organisation icon (this will not be customisable).
-
-The intent may be for Settings, or it may be for a custom application, MANAGED SETTINGS will not validate it.
+See [Configure custom intents](/projects/managed-settings/support/custom-intents/) for the fields, supported extra types, examples, and device behaviour.
 
 ## Customised example
 

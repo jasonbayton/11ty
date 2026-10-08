@@ -89,6 +89,25 @@ Please test before deployment, and feed back with findings.
 
 </div>
 
+## Custom intents
+
+The upcoming custom-intents update adds a repeatable **Custom intents** (`customIntents`) group to managed configuration. Each entry becomes an action under **Organisation settings**, above the standard settings shortcuts.
+
+<div class="responsive-table-wrapper">
+
+| Intent type | Configuration value | Behaviour |
+| --- | --- | --- |
+| Launch activity | `launch` | Open an app activity or deep link. |
+| Send broadcast | `broadcast` | Send a request to a target receiver. A screen may not open. |
+| Start service | `service` | Request an ordinary service start. Android background restrictions apply. |
+| Open system settings | `system` | Open one of the predefined settings actions. |
+
+</div>
+
+Each action has a name, optional description, enabled state, target details, and optional extras. Extras use **Key**, **Type**, and **Value** rows, with String, Boolean, Integer, and Long supported. Invalid extra configuration makes that action unavailable.
+
+Read [Configure custom intents](/projects/managed-settings/support/custom-intents/) for the complete field reference, examples, acknowledgements, and validation guidance.
+
 ## Support
 
 Options configured for the applications settings screen, accessible through the menu icon ( <span class="material-symbols-outlined">

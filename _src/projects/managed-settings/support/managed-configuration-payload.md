@@ -17,12 +17,36 @@ eleventyNavigation:
     title: Managed configuration JSON payload
 ---
 
-The managed configuration payload, for offline/custom DPC use.
+Use the EMM's managed configuration editor when available. For a custom DPC or direct policy JSON, values are supplied inside the application's `managedConfiguration`.
 
-Version: `1.0.1.1`
+## Custom intents payload
+
+The upcoming custom-intents update accepts an optional `customIntents` array. The example below opens MANAGED INFO's Android app settings. [Configure custom intents](/projects/managed-settings/support/custom-intents/) covers all four intent types and optional scalar extras.
 
 ```json
-"managedProperties": [
+{
+  "customIntents": [
+    {
+      "name": "Managed Info app settings",
+      "description": "Open Android's settings for MANAGED INFO",
+      "enabled": true,
+      "intentType": "system",
+      "systemAction": "android.settings.APPLICATION_DETAILS_SETTINGS",
+      "dataUri": "package:org.bayton.managedinfo"
+    }
+  ]
+}
+```
+
+Add this alongside the other managed-configuration groups you need. Replacing the entire configuration with only this example can remove previously configured settings.
+
+## Legacy schema reference
+
+The `managedProperties` reference below describes the configuration fields in version `1.0.1.1`. It is a schema description for offline/custom DPC integrations. It does not include the upcoming `customIntents` fields. Use the [custom-intents field reference](/projects/managed-settings/support/custom-intents/#add-an-action) for those additions.
+
+```json
+{
+  "managedProperties": [
     {
       "key": "connectivity_configuration_bundle",
       "type": "BUNDLE",
@@ -247,5 +271,6 @@ Version: `1.0.1.1`
         }
       ]
     }
-  ],
-  ```
+  ]
+}
+```
