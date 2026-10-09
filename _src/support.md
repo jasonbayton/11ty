@@ -135,7 +135,7 @@ Examples:
 </div>
 
 <!-- Service 5: Image left, text right -->
-<div id="cmm"class="service-item callout callout-blue grid grid-column-1-2 grid-column-mobile-1 grid-gap-20 padding-top-20 padding-bottom-40 margin-top-40 margin-bottom-40">
+<div id="cmm"class="service-item callout callout-blue callout-filled grid grid-column-1-2 grid-column-mobile-1 grid-gap-20 padding-top-20 padding-bottom-40 margin-top-40 margin-bottom-40">
 <div class="service-image mobile-hidden">
     <img src="/img/bayton_mobility.png" alt="Activities">
   </div>   

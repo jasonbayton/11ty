@@ -2432,6 +2432,7 @@ footer {
 
 
   &.callout-orange {
+      --callout-colour: var(--orange);
       border-color: var(--orange);
 
     & .callout-heading {
@@ -2452,6 +2453,7 @@ footer {
   }
 
   &.callout-blue {
+    --callout-colour: var(--main-blue);
     border-color: var(--main-blue);
 
     & .callout-heading {
@@ -2470,6 +2472,7 @@ footer {
   }
 
   &.callout-red {
+    --callout-colour: var(--main-red);
     border-color: var(--main-red);
 
     & .callout-heading {
@@ -2490,6 +2493,7 @@ footer {
   }
 
   &.callout-green {
+    --callout-colour: var(--main-green);
     border-color: var(--main-green);
 
     & .callout-heading {
@@ -2551,6 +2555,24 @@ footer {
       background-color: var(--text);
       border-radius: 5px;
       margin-top: 6px;
+    }
+  }
+
+  /* Add alongside a colour class to use a solid background. Defaults to blue. */
+  &.callout-filled {
+    background-color: var(--callout-colour, var(--main-blue));
+    border-color: var(--callout-colour, var(--main-blue));
+    color: #ffffff;
+
+    & .callout-heading,
+    & .callout-heading-small,
+    & code {
+      color: #ffffff;
+    }
+
+    & .callout-heading::after,
+    & .callout-heading-small::after {
+      background-color: #ffffff;
     }
   }
 
