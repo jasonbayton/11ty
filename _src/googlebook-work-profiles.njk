@@ -1,0 +1,105 @@
+---
+title: "Does Googlebook support work profiles yet?"
+permalink: /googlebook-work-profiles/
+layout: base.njk
+type: page
+date: 2026-10-09
+excerpt: "Counting the days waiting for Android Enterprise work profiles on Googlebook, and why an Android laptop ought to have them."
+---
+<link rel="stylesheet" href="/css/googlebook-work-profiles.css">
+{% set tracker = googlebookWorkProfiles %}
+
+<div class="googlebook-tracker" data-googlebook-tracker data-started-at="{{ tracker.startedAt }}" data-supported-at="{{ tracker.supportedAt or '' }}">
+  <section class="gb-verdict service-text text-align-center padding-tb-30" aria-labelledby="gb-verdict">
+      <h2 id="gb-verdict">{% if tracker.supportedOn %}Yes. Finally. It took:{% else %}No, not yet. It has been:{% endif %}</h2>
+    <div class="gb-clock padding-tb-20" role="timer" aria-live="off" aria-label="{{ tracker.timerLabel }}" data-wait-timer>
+      {% for pair in tracker.timeParts | batch(2) %}
+      <div class="gb-time-pair">
+        {% for part in pair %}
+        <div class="gb-time-part">
+          <span class="gb-count-number{% if part.key == 'days' or part.key == 'minutes' %} orange{% endif %}" data-wait-value="{{ part.key }}">{{ part.value }}</span>
+          <span class="gb-time-unit" data-wait-unit="{{ part.key }}">{{ part.label }}</span>
+        </div>
+        {% if not loop.last %}<span class="gb-clock-colon" aria-hidden="true">:</span>{% endif %}
+        {% endfor %}
+      </div>
+      {% if not loop.last %}<span class="gb-clock-colon mobile-hidden" aria-hidden="true">:</span>{% endif %}
+      {% endfor %}
+    </div>
+    <p>{% if tracker.supportedOn %}<strong>we waited</strong>{% else %}<span id="dynamic_word" aria-live="off" data-wait-caption>dancing with DLP</span>{% endif %}<small class="gb-since padding-top-20">Since <a href="{{ tracker.launchSource }}"><time datetime="{{ tracker.startedAt }}">{{ tracker.startedLabel }}</time></a></small></p>
+  </section>
+
+  <noscript><p><small>JavaScript is off. The count above was calculated on <time datetime="{{ tracker.builtOn }}">{{ tracker.builtLabel }}</time>.</small></p></noscript>
+
+  <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-40 padding-tb-20">
+    <section class="service-text" aria-labelledby="what-is-googlebook">
+      <h2 id="what-is-googlebook">What is Googlebook?</h2>
+      <p>Googlebook is Google's new laptop range, running Googlebook OS. It brings the Android technology stack together with desktop foundations from ChromeOS: native Android apps, desktop Chrome with extensions, phone integration, an isolated Linux environment, and plenty of Gemini.</p>
+      <p>It's the platform we've been following as Aluminium. Google's <a href="{{ tracker.launchSource }}">launch announcement</a> put the first devices on sale on 4 October 2026 in the US, followed by the UK and several other markets on 5 October.</p>
+      <p>I've been writing about <a href="/blog/2026/09/googlebooks-meet-enterprise/">what that means for enterprise</a>, and <a href="/blog/2026/10/what-i-want-from-googlebook-in-enterprise/">what I'd like from it</a>. Work profiles are fairly near the top of that list. Hence the counter (I've <a href="/amapi-tracker.html">done this before</a>).</p>
+    </section>
+
+    <section class="service-text" aria-labelledby="what-is-missing">
+      <h2 id="what-is-missing">{% if tracker.supportedOn %}Work-profile support has arrived{% else %}What can it do for work today?{% endif %}</h2>
+      {% if tracker.supportedOn %}
+      <p>Supported Android Enterprise work-profile enrolment became available on <time datetime="{{ tracker.supportedOn }}">{{ tracker.supportedLabel }}</time>. The timer is now frozen at midnight UK time on that date.</p>
+      <p>See <a href="{{ tracker.supportSource }}">Google's guidance</a> for the supported setup and requirements. Work-profile availability doesn't, by itself, mean every request in my enterprise wishlist has been delivered.</p>
+      {% else %}
+      <p>As of <time datetime="{{ tracker.lastCheckedOn }}">{{ tracker.lastCheckedLabel }}</time>, Google's <a href="{{ tracker.supportSource }}">account guidance</a> says separate work profiles and device management aren't supported. You can add a work or school Google account if your organisation permits it, or create a separate device user. Chrome browser policies can also apply.</p>
+      <p>That leaves the device unmanaged, and doesn't provide managed Google Play. Google also says accounts requiring a third-party Enterprise Mobility Management (EMM) platform are blocked from signing in. For an organisation already managing Android through its EMM, that's a fairly substantial catch.</p>
+      <p>Google's <a href="{{ tracker.roadmapSource }}">published roadmap</a> puts the first wave of core management capabilities in <strong>H2 2027</strong>, with a phased rollout. It doesn't give a specific work-profile release date.</p>
+      {% endif %}
+    </section>
+  </div>
+
+  <section class="service-text padding-tb-20" aria-labelledby="why-work-profiles">
+    <div>
+      <h2 id="why-work-profiles">Why I'd like a work profile on my laptop</h2>
+      <p>An <a href="/android/what-is-android-work-profile/">Android work profile</a> gives work its own applications, accounts and data alongside personal apps in the same user's session. On a personal device, the organisation manages that work area while my personal apps and data stay private. I can use both without switching to another device user.</p>
+    </div>
+    <div class="grid grid-column-2 grid-column-mobile-1 grid-gap-30 padding-tb-20">
+      <section class="home-redesign-card" aria-labelledby="work-apps">
+        <h3 class="home-redesign-card__title" id="work-apps">Work apps, appropriately managed</h3>
+        <p class="home-redesign-card__copy">The EMM can deploy approved apps through managed Google Play, configure them and apply work security policies. No more running work apps alongside personal apps in the same profile, a DLP nightmare.</p>
+      </section>
+      <section class="home-redesign-card" aria-labelledby="personal-privacy">
+        <h3 class="home-redesign-card__title" id="personal-privacy">Personal data remains private</h3>
+        <p class="home-redesign-card__copy">Work data has its own managed space. On a personally owned device, the employer doesn't get visibility into personal apps and data. <a href="/android/android-enterprise-faq/what-can-employers-see-work-profile/">Here's what an employer can see</a>.</p>
+      </section>
+      <section class="home-redesign-card" aria-labelledby="pause-work">
+        <h3 class="home-redesign-card__title" id="pause-work">Work apps can be paused</h3>
+        <p class="home-redesign-card__copy">Employees can <a href="/android/android-enterprise-faq/work-profile-pausing/">pause the work profile</a> at the end of the working day, stopping work apps and their notifications.</p>
+      </section>
+      <section class="home-redesign-card" aria-labelledby="remove-work">
+        <h3 class="home-redesign-card__title" id="remove-work">Work data can be removed</h3>
+        <p class="home-redesign-card__copy">When an employee leaves an organisation, the work profile can be removed from their personal device, taking the local work apps and data with it. Personal files remain intact. <a href="/android/android-enterprise-faq/what-happens-when-work-profile-removed/">More on removing a work profile</a>.</p>
+      </section>
+    </div>
+    <p>Android has had work profiles since Android 5.0. Google's <a href="https://support.google.com/work/android/answer/6191949?hl=en">own explanation</a> describes the separation and privacy they provide. For a laptop built on Android, I'd have liked that to come across from the start.</p>
+    <p>There is more to do for a desktop, of course. Browser windows, file pickers, clipboard, phone integration, Linux and assistant access all need to respect the work boundary. I've covered those requests in the <a href="/blog/2026/10/what-i-want-from-googlebook-in-enterprise/#a-work-profile-is-mandatory">enterprise wishlist</a>. For this counter, I'm starting with supported Android Enterprise work-profile enrolment.</p>
+  </section>
+
+  <section class="service-text padding-tb-20" aria-labelledby="request-work-profiles">
+    <h2 id="request-work-profiles">How to accelerate work profile support from Google</h2>
+    {% if tracker.supportedOn %}
+    <p>Work-profile support is available. If you're having trouble using it, report the problem through the Feedback app on your Googlebook, including the steps that failed and any error messages.</p>
+    {% else %}
+    <p>If you'd like work profiles on your Googlebook, tell Google through the Feedback app on the device. Explain which work apps and accounts you need to keep separate, and how the missing support affects what you can do with it.</p>
+    {% endif %}
+    <ol>
+      <li><strong>Open Feedback.</strong> Find the app in your launcher, or press <kbd>Action</kbd> + <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>. The Action key has Google's G icon. You can also hold the power button for 3 seconds and select Feedback.</li>
+      <li><strong>Describe your use case.</strong> {% if tracker.supportedOn %}Explain what you're trying to do with the work profile and what happens when you try.{% else %}Ask for Android Enterprise work profiles, with work apps, accounts and data available alongside your personal apps in the same user's session.{% endif %} Say whether it's your own laptop or one supplied by your organisation.</li>
+      <li><strong>Include the details.</strong> Add your Googlebook model, OS version and any enrolment error. If your organisation already uses an EMM, name it and explain what you need to enrol or access.</li>
+      <li><strong>Review and send.</strong> {% if tracker.supportedOn %}Choose the category that matches the problem{% else %}Search for <strong>work profile</strong> in the category field and choose <strong>Account &gt; Can't add work profile</strong>{% endif %}, then select Next. You can opt in to email follow-up and attach a screenshot where it helps. Review the report, including any diagnostic information, then select Submit.</li>
+    </ol>
+    {% if not tracker.supportedOn %}
+    <p>For example, adapt this to your own situation:</p>
+    <blockquote>
+      <p>Please add Android Enterprise work profile support to Googlebook. I'd like to enrol a work profile through my organisation's EMM and use separately managed work apps and accounts alongside my personal apps, without switching device users. At the moment, I'm unable to keep my work apps and data in a managed work profile on this laptop.</p>
+    </blockquote>
+    {% endif %}
+    <p><a href="https://support.google.com/googlebook/answer/18116526?hl=en">Google's feedback instructions</a> cover the available options. Guest users and accounts belonging to minors can't submit feedback through the app.</p>
+  </section>
+</div>
+
+<script src="/js/googlebook-work-profiles.js" defer></script>

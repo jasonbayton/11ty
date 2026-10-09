@@ -11,7 +11,8 @@
     "build": "npm run refresh:data && npx @11ty/eleventy && npm run check:urls -- --include-output",
     "serve": "npm run refresh:data && npx @11ty/eleventy --serve",
     "incremental": "npm run refresh:data && npx @11ty/eleventy --serve --incremental",
-    "test": "npm run check:urls && npm run test:mcp-smoke",
+    "test": "npm run check:urls && npm run test:mcp-smoke && npm run test:googlebook",
+    "test:googlebook": "node --test scripts/googlebook-work-profiles.test.cjs",
     "test:mcp-smoke": "node api/mcp/mcp-smoke-test.js"
   },
   "keywords": [],

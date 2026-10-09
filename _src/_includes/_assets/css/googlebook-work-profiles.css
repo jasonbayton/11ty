@@ -1,0 +1,77 @@
+/* Cards, text rotation and typography use core.css; content grids use
+   styleguide.css. The clock scales to the hero's width, with two mobile rows. */
+.gb-verdict {
+  container-type: inline-size;
+}
+
+.gb-clock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.08em;
+  font-size: clamp(24px, 9vw, 140px);
+  font-size: min(140px, calc(100cqi / var(--gb-clock-width, 8)));
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+}
+
+.gb-time-part {
+  min-width: 0;
+}
+
+.gb-time-pair {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.08em;
+}
+
+.gb-since {
+  display: block;
+}
+
+.gb-count-number {
+  display: block;
+  white-space: nowrap;
+}
+
+.gb-time-unit {
+  display: block;
+  font-size: clamp(12px, 1.2vw, 18px);
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.googlebook-tracker [data-wait-caption] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-inline-size: 100%;
+  min-block-size: 1.25em;
+  font-size: clamp(22px, 3cqi, 36px);
+  line-height: 1.25;
+}
+
+@media (max-width: 900px) {
+  .gb-clock {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: clamp(60px, 18vw, 120px);
+    font-size: min(120px, calc(100cqi / var(--gb-pair-width, 4)));
+  }
+
+  .gb-time-unit {
+    font-size: 16px;
+  }
+
+  .googlebook-tracker [data-wait-caption] {
+    min-block-size: 2.5em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .googlebook-tracker #dynamic_word {
+    transition: none;
+  }
+}
