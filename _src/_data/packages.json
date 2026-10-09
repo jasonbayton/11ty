@@ -91783,11 +91783,6 @@
         "os": "35"
       },
       {
-        "make": "Crosscall",
-        "model": "Stellar-X5",
-        "os": "35"
-      },
-      {
         "make": "Fairphone",
         "model": "Fairphone 6",
         "os": "35"
@@ -125885,7 +125880,7 @@
   },
   "com.crosscall.crosscallfetchagent": {
     "appName": "Crosscall Services",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
