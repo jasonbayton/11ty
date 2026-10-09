@@ -72,6 +72,11 @@
         "make": "realme",
         "model": "RMX3690",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -802,6 +807,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -1185,6 +1195,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -2463,6 +2478,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -3820,6 +3840,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       }
@@ -4292,6 +4317,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -5624,6 +5654,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -6729,6 +6764,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -7721,6 +7761,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -8644,6 +8689,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -9483,6 +9533,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -10364,6 +10419,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -11295,6 +11355,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -12154,6 +12219,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -12983,6 +13053,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -14332,6 +14407,11 @@
         "make": "Google",
         "model": "Pixel 7",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -16388,24 +16468,57 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
+  "com.dsi.ant.service.socket": {
+    "appName": "ANT Radio Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N986B",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G973U",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-A515F",
+        "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
   "com.dsi.ant.server": {
-    "appName": "ANT HAL Service",
+    "appName": "ANT+ HAL service",
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "",
-        "name": "ANT+ HAL service"
-      },
-      {
-        "locale": "en-gb",
-        "name": "ANT+ HAL service"
-      },
-      {
         "locale": "es-us",
         "name": "Servicio ANT+ HAL"
+      },
+      {
+        "locale": "de-de",
+        "name": "ANT HAL Service"
       }
     ],
     "devices": [
@@ -16443,33 +16556,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
-      }
-    ]
-  },
-  "com.dsi.ant.service.socket": {
-    "appName": "ANT Radio Service",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N986B",
-        "os": "33"
       },
       {
         "make": "samsung",
-        "model": "SM-G973U",
-        "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-N950U1",
-        "os": "28"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-A515F",
-        "os": "33"
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -16497,6 +16588,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -18083,6 +18179,18 @@
       }
     ]
   },
+  "com.monotype.android.font.applemint": {
+    "appName": "AppleMint",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
   "com.sec.android.preloadinstaller": {
     "appName": "Application Installer",
     "userFacing": false,
@@ -18092,6 +18200,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -18405,6 +18518,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -18512,6 +18630,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -18739,6 +18862,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -18986,6 +19114,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -19067,6 +19200,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -19709,6 +19847,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -20739,6 +20882,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -21563,6 +21711,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -21838,6 +21991,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -22199,6 +22357,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -23674,6 +23837,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -24608,6 +24776,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -25254,6 +25427,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -25602,6 +25780,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -25641,6 +25824,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -25846,6 +26034,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -25875,6 +26068,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -26114,6 +26312,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -26989,6 +27192,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -28435,6 +28643,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -29292,6 +29505,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -29408,6 +29626,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -30254,6 +30477,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -30432,6 +30660,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -30507,6 +30740,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -30719,6 +30957,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -32693,6 +32936,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -33635,6 +33883,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -34009,6 +34262,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -34262,6 +34520,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -35097,6 +35360,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -35836,6 +36104,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -36621,6 +36894,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -37517,6 +37795,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -39926,6 +40209,11 @@
         "os": "28"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
@@ -40040,6 +40328,18 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.drivelink.stub": {
+    "appName": "CarmodeStub",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -40947,6 +41247,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -44210,6 +44515,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -44335,6 +44645,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -45201,6 +45516,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -45553,6 +45873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -45742,6 +46067,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -45874,6 +46204,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -45924,6 +46259,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -45978,6 +46318,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -46030,6 +46375,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -46080,6 +46430,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -46691,6 +47046,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -46758,6 +47118,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
       }
@@ -46772,6 +47137,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -47503,6 +47873,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -48198,6 +48573,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -49490,6 +49870,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -50476,6 +50861,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -53100,6 +53490,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -53949,6 +54344,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -56141,6 +56541,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -58225,6 +58630,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -61370,6 +61780,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -62310,6 +62725,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -64154,6 +64574,11 @@
         "make": "realme",
         "model": "RMX3690",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -66721,6 +67146,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -71783,6 +72213,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -72527,6 +72962,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -79727,6 +80167,11 @@
         "os": "29"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -84446,6 +84891,11 @@
         "os": "29"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -87094,6 +87544,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -88899,6 +89354,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -89583,6 +90043,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -106257,6 +106722,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -106658,6 +107128,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -107859,6 +108334,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -108172,6 +108652,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -111012,6 +111497,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-G780F",
         "os": "33"
       }
@@ -111503,6 +111993,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -111537,6 +112032,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -111757,6 +112257,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -111786,6 +112291,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -111798,6 +112308,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -112015,6 +112530,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -116983,6 +117503,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -117797,6 +118322,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -118601,6 +119131,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -118931,6 +119466,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -119211,6 +119751,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -119514,6 +120059,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -119558,6 +120108,18 @@
         "make": "TCL",
         "model": "T517F",
         "os": "36"
+      }
+    ]
+  },
+  "com.samsung.android.providers.carrier": {
+    "appName": "Configuration update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -120549,6 +121111,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -121289,7 +121856,7 @@
     ]
   },
   "com.samsung.android.contacts": {
-    "appName": "Contacts",
+    "appName": "Contacts Migrator",
     "userFacing": true,
     "additionalLocales": [],
     "devices": [
@@ -121297,6 +121864,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -121630,6 +122202,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -122993,6 +123570,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -124200,6 +124782,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -124532,6 +125119,23 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.app.highlightplayer": {
+    "appName": "Create movie",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -125430,6 +126034,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -126149,6 +126758,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -126607,6 +127221,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -127575,6 +128194,11 @@
         "make": "samsung",
         "model": "SM-M315F",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -128524,6 +129148,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -129076,6 +129705,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -130158,6 +130792,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -131012,6 +131651,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -131320,6 +131964,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -132158,6 +132807,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -132773,6 +133427,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -132832,6 +133491,11 @@
         "make": "samsung",
         "model": "SM-S921U",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -133059,6 +133723,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -133322,6 +133991,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -133471,7 +134145,7 @@
   },
   "com.samsung.android.forest": {
     "appName": "Digital Wellbeing",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "ru-ru",
@@ -133729,6 +134403,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -134598,6 +135277,18 @@
         "make": "realme",
         "model": "RMX2001",
         "os": "30"
+      }
+    ]
+  },
+  "com.samsung.android.app.dtv.dmb": {
+    "appName": "DMB",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -135902,6 +136593,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -136823,6 +137519,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -137741,6 +138442,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -138059,6 +138765,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -139234,6 +139945,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -139510,6 +140226,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -139816,6 +140537,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -140701,6 +141427,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -141219,6 +141950,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -141358,6 +142094,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -141683,6 +142424,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -142646,6 +143392,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "ALCommon",
         "model": "ALCommon",
         "os": "35"
@@ -142937,6 +143688,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -143296,6 +144052,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -143343,6 +144104,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -143466,6 +144232,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -144294,6 +145065,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -144737,6 +145513,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -146176,6 +146957,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -146675,6 +147461,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -147021,6 +147812,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -147532,6 +148328,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -147790,6 +148591,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -148307,6 +149113,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -149029,6 +149840,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -150465,6 +151281,11 @@
         "os": "28"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
@@ -151029,6 +151850,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -151079,6 +151905,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -151133,6 +151964,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -151185,6 +152021,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -151235,6 +152076,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -152346,6 +153192,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -152858,6 +153709,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -152932,6 +153788,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -154126,6 +154987,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -155344,6 +156210,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -155796,6 +156667,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -156529,6 +157405,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -156758,6 +157639,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -157046,6 +157932,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -157608,6 +158499,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -158174,6 +159070,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -158425,6 +159326,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -158797,6 +159703,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -159104,6 +160015,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -159838,6 +160754,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -160484,6 +161405,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -160742,6 +161668,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -160986,6 +161917,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -161335,6 +162271,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -161590,6 +162531,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -162350,6 +163296,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -162741,6 +163692,11 @@
         "os": "33"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "motorola",
         "model": "moto g14",
         "os": "33"
@@ -162773,6 +163729,42 @@
       {
         "make": "RHINO",
         "model": "C10",
+        "os": "29"
+      }
+    ]
+  },
+  "com.samsung.internal.systemui.navbar.gestural_no_hint_wide_back": {
+    "appName": "Gestural Navigation Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
+  "com.samsung.internal.systemui.navbar.gestural_no_hint_extra_wide_back": {
+    "appName": "Gestural Navigation Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
+  "com.samsung.internal.systemui.navbar.gestural_no_hint_narrow_back": {
+    "appName": "Gestural Navigation Bar",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
         "os": "29"
       }
     ]
@@ -163055,6 +164047,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -163930,6 +164927,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -164897,6 +165899,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -165408,6 +166415,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -165647,6 +166659,11 @@
         "make": "unknown",
         "model": "GCE x86 phone",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "Lenovo",
@@ -166487,6 +167504,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -167374,6 +168396,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -168208,6 +169235,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -169434,6 +170466,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -169867,6 +170904,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -170715,6 +171757,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -172660,6 +173707,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -174298,6 +175350,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -174570,6 +175627,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -174945,6 +176007,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -176002,6 +177069,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -176597,6 +177669,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -176682,6 +177759,18 @@
         "make": "realme",
         "model": "RMX3627",
         "os": "31"
+      }
+    ]
+  },
+  "com.samsung.hiddennetworksetting": {
+    "appName": "Hidden Network Setting",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -176893,6 +177982,23 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
+  "com.samsung.systemui.hidenotch.withoutcornerround": {
+    "appName": "HideNotchWithoutCornerRound",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -178852,6 +179958,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -179153,6 +180264,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -179761,6 +180877,18 @@
       }
     ]
   },
+  "com.ims.dm": {
+    "appName": "IMS DM",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
   "com.sec.imsservice": {
     "appName": "IMS Service",
     "userFacing": false,
@@ -179985,6 +181113,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -180237,6 +181370,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -180711,6 +181849,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -181772,6 +182915,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -181909,6 +183057,18 @@
       }
     ]
   },
+  "com.samsung.preloadapp": {
+    "appName": "Install app",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
   "com.lenovo.styluspen": {
     "appName": "Instant Memo",
     "userFacing": true,
@@ -181979,6 +183139,18 @@
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.android.biometrics.service": {
+    "appName": "Intelligent Scan",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -182215,6 +183387,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "Xiaomi",
@@ -183436,6 +184613,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -183477,6 +184659,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -184840,6 +186027,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -184929,6 +186121,18 @@
         "make": "Zebra Technologies",
         "model": "KC50",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.icecone": {
+    "appName": "Keyboard Content Center",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -185066,6 +186270,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -185634,6 +186843,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -185878,6 +187092,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -186169,6 +187388,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -186191,6 +187415,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.knox.keychain": {
+    "appName": "Knox Key Chain",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -187595,6 +188831,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -188331,6 +189572,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -188519,6 +189765,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       }
@@ -188533,6 +189784,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -188984,6 +190240,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -189248,6 +190509,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -189485,6 +190751,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -189514,6 +190785,18 @@
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.app.siofviewer": {
+    "appName": "Live focus picture",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -189634,6 +190917,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -190824,6 +192112,11 @@
         "make": "Google",
         "model": "Pixel 7",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -192597,6 +193890,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -192683,6 +193981,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -193445,6 +194748,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -194181,6 +195489,18 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      }
+    ]
+  },
+  "com.samsung.android.visionarapps": {
+    "appName": "Makeup, Home Décor, and Sunglass Shack",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -195197,6 +196517,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -196095,6 +197420,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -196673,6 +198003,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -197105,6 +198440,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -198945,6 +200285,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -199291,6 +200636,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -200496,6 +201846,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -200883,6 +202238,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -201262,6 +202622,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -202475,6 +203840,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -203413,6 +204783,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -204004,6 +205379,18 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.server.wifi.mobilewips.client": {
+    "appName": "MobileWips",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -204740,6 +206127,23 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
+  "com.samsung.android.motionphoto.viewer": {
+    "appName": "Motion photo viewer",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -204752,6 +206156,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -207558,6 +208967,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -208416,6 +209830,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -209833,6 +211252,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -210605,6 +212029,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -210907,6 +212336,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -211347,6 +212781,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -212358,56 +213797,6 @@
       }
     ]
   },
-  "com.android.networkstack.inprocess": {
-    "appName": "Network manager",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "NetworkStack"
-      },
-      {
-        "locale": "th-th",
-        "name": "ตัวจัดการเครือข่าย"
-      },
-      {
-        "locale": "ru-ru",
-        "name": "Менеджер сетей"
-      }
-    ],
-    "devices": [
-      {
-        "make": "Google",
-        "model": "brya",
-        "os": "33"
-      },
-      {
-        "make": "LENOVO",
-        "model": "Lenovo TB-7306F",
-        "os": "30"
-      },
-      {
-        "make": "revoview",
-        "model": "S6518",
-        "os": "30"
-      },
-      {
-        "make": "HMD Global",
-        "model": "Nokia 8.3 5G",
-        "os": "29"
-      },
-      {
-        "make": "SMT_HK",
-        "model": "Helium Pro",
-        "os": "31"
-      },
-      {
-        "make": "realme",
-        "model": "RMX3690",
-        "os": "31"
-      }
-    ]
-  },
   "com.android.networkstack": {
     "appName": "Network manager",
     "userFacing": false,
@@ -212898,6 +214287,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -213015,6 +214409,57 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
+      }
+    ]
+  },
+  "com.android.networkstack.inprocess": {
+    "appName": "NetworkStack",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "th-th",
+        "name": "ตัวจัดการเครือข่าย"
+      },
+      {
+        "locale": "ru-ru",
+        "name": "Менеджер сетей"
+      }
+    ],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "brya",
+        "os": "33"
+      },
+      {
+        "make": "LENOVO",
+        "model": "Lenovo TB-7306F",
+        "os": "30"
+      },
+      {
+        "make": "revoview",
+        "model": "S6518",
+        "os": "30"
+      },
+      {
+        "make": "HMD Global",
+        "model": "Nokia 8.3 5G",
+        "os": "29"
+      },
+      {
+        "make": "SMT_HK",
+        "model": "Helium Pro",
+        "os": "31"
+      },
+      {
+        "make": "realme",
+        "model": "RMX3690",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -215307,6 +216752,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -217443,6 +218893,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -217883,6 +219338,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -218301,6 +219761,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -218316,6 +219781,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -219274,6 +220744,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -220118,6 +221593,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -220907,6 +222387,18 @@
         "make": "OUKITEL",
         "model": "WP100 TITAN",
         "os": "34"
+      }
+    ]
+  },
+  "com.samsung.hidden.OPENMarket": {
+    "appName": "OPEN Market Hidden Menu",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -221974,6 +223466,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -223149,6 +224646,11 @@
       {
         "make": "HMD Global",
         "model": "Nokia 8.3 5G",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
         "os": "29"
       },
       {
@@ -224385,6 +225887,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -225315,6 +226822,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -226567,6 +228079,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -227600,6 +229117,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -228338,6 +229860,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -229429,6 +230956,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -230956,6 +232488,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -231943,6 +233480,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -232913,6 +234455,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -233483,6 +235030,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -233935,6 +235487,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -237919,6 +239476,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -239153,6 +240715,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -240075,6 +241642,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -241919,6 +243491,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -243034,6 +244611,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -243785,6 +245367,18 @@
       }
     ]
   },
+  "com.sec.android.QRreader": {
+    "appName": "QRreader",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      }
+    ]
+  },
   "com.qualcomm.qti.server.qtiwifi": {
     "appName": "QtiWifiService",
     "userFacing": false,
@@ -244413,6 +246007,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -244694,6 +246293,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -244982,6 +246586,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -245449,6 +247058,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -246202,6 +247816,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -246688,6 +248307,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -248521,6 +250145,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -248550,6 +250179,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -249084,6 +250718,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -249136,6 +250775,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -249186,6 +250830,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -249280,6 +250929,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "RHINO",
@@ -249400,6 +251054,11 @@
         "make": "motorola",
         "model": "ThinkPhone by motorola",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "Lenovo",
@@ -250101,6 +251760,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -250518,6 +252182,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -250669,6 +252338,11 @@
         "make": "samsung",
         "model": "SM-A236B",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -251047,6 +252721,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -251291,6 +252970,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -251543,6 +253227,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -252292,6 +253981,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -252421,6 +254115,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -252576,6 +254275,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -252707,6 +254411,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -252946,6 +254655,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -253189,6 +254903,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -253480,6 +255199,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -253746,6 +255470,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -253772,7 +255501,7 @@
     ]
   },
   "com.sec.android.inputmethod": {
-    "appName": "Samsung Keyboard",
+    "appName": "Samsung Keyboard (deprecated)",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -253780,6 +255509,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -254055,6 +255789,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -254392,6 +256131,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -254626,6 +256370,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -254740,6 +256489,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -254779,6 +256533,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -254998,6 +256757,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -255470,6 +257234,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -255772,6 +257541,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -256226,6 +258000,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -256272,6 +258051,18 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      }
+    ]
+  },
+  "com.samsung.android.timezone.data_Q": {
+    "appName": "Samsung Time Zone Data",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -256804,6 +258595,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-S906B",
         "os": "35"
       },
@@ -257075,6 +258871,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -258144,6 +259945,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -261590,6 +263396,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -263072,6 +264883,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -263370,6 +265186,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -263899,6 +265720,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -265073,6 +266899,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -265417,6 +267248,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -265670,6 +267506,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -265979,6 +267820,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -266037,6 +267883,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -266283,6 +268134,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -266738,6 +268594,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -267284,6 +269145,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -267523,6 +269389,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -268811,6 +270682,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -269111,6 +270987,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -270075,6 +271956,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -271033,6 +272919,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -271167,6 +273058,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -271880,6 +273776,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -272075,6 +273976,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -272927,6 +274833,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -273265,6 +275176,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -273719,6 +275635,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -274684,6 +276605,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -276078,6 +278004,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -276356,6 +278287,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -276789,6 +278725,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -277047,6 +278988,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -277331,6 +279277,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -277365,6 +279316,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -277663,6 +279619,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -278892,6 +280853,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -279349,6 +281315,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -279475,6 +281446,18 @@
         "make": "Xiaomi",
         "model": "220333QNY",
         "os": "33"
+      }
+    ]
+  },
+  "com.sktelecom.smartcard.SmartcardService": {
+    "appName": "Smartcard Service",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -279754,6 +281737,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -279783,6 +281771,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -280699,6 +282692,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -280987,6 +282985,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -281182,6 +283185,18 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "35"
+      }
+    ]
+  },
+  "com.skt.skaf.OA00412131": {
+    "appName": "Software Update",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -281618,6 +283633,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -281886,6 +283906,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -282179,6 +284204,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -283251,6 +285281,11 @@
         "os": "30"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -284282,6 +286317,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -284400,6 +286440,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -284489,6 +286534,11 @@
         "os": "35"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "RHINO",
         "model": "C10",
         "os": "29"
@@ -284564,6 +286614,11 @@
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "Lenovo",
@@ -285106,6 +287161,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -285930,6 +287990,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -286194,18 +288259,6 @@
       }
     ]
   },
-  "com.samsung.app.highlightplayer": {
-    "appName": "Story Video Editor",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-N950U1",
-        "os": "28"
-      }
-    ]
-  },
   "com.wtk.stresstest": {
     "appName": "StressTest",
     "userFacing": false,
@@ -286324,6 +288377,18 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.opencalendar": {
+    "appName": "Subscription calendars",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -287320,6 +289385,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -287554,6 +289624,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -291511,6 +293586,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -292429,6 +294509,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -294788,6 +296873,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -295546,6 +297636,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -297123,6 +299218,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -297560,6 +299660,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -298064,6 +300169,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
@@ -298278,6 +300388,11 @@
         "make": "vivo",
         "model": "V2550",
         "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "ALCommon",
@@ -300002,6 +302117,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -301745,6 +303865,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -301757,6 +303882,18 @@
         "make": "COMMBOX",
         "model": "CommBox_Classic_S5",
         "os": "34"
+      }
+    ]
+  },
+  "com.monotype.android.font.tinkerbell": {
+    "appName": "Tinker",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -301823,6 +303960,18 @@
         "make": "Lenovo",
         "model": "TB328FU",
         "os": "31"
+      }
+    ]
+  },
+  "com.samsung.android.app.tips": {
+    "appName": "Tips",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -302265,6 +304414,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -302775,6 +304929,11 @@
         "make": "samsung",
         "model": "SM-X910",
         "os": "35"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -304108,6 +306267,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -304291,6 +306455,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -304944,6 +307113,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -305823,6 +307997,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -306043,6 +308222,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -306136,6 +308320,18 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      }
+    ]
+  },
+  "com.sec.android.UsimRegistrationKOR": {
+    "appName": "UsimDownload",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -308144,6 +310340,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -308451,6 +310652,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -309214,6 +311420,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -309501,6 +311712,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -310766,6 +312982,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -311711,6 +313932,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -311999,6 +314225,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -312119,6 +314350,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -313707,6 +315943,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -313997,6 +316238,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -314885,6 +317131,11 @@
         "make": "samsung",
         "model": "SM-N950U1",
         "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -315177,6 +317428,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -315366,6 +317622,11 @@
         "make": "samsung",
         "model": "SM-A515F",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -315619,6 +317880,11 @@
         "make": "samsung",
         "model": "SM-S942B",
         "os": "37"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
@@ -317544,6 +319810,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -317876,6 +320147,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X910",
         "os": "34"
       },
@@ -317893,6 +320169,42 @@
         "make": "samsung",
         "model": "SM-S931B",
         "os": "35"
+      }
+    ]
+  },
+  "com.samsung.android.knox.containeragent": {
+    "appName": "Work profile",
+    "userFacing": false,
+    "additionalLocales": [
+      {
+        "locale": "fr-fr",
+        "name": "Profil professionnel"
+      },
+      {
+        "locale": "es-us",
+        "name": "Perfil de trabajo"
+      }
+    ],
+    "devices": [
+      {
+        "make": "samsung",
+        "model": "SM-A125F",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-G973U",
+        "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N950U1",
+        "os": "28"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       }
     ]
   },
@@ -318746,6 +321058,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
+      },
+      {
+        "make": "samsung",
         "model": "SM-A057G",
         "os": "35"
       },
@@ -318825,37 +321142,6 @@
         "make": "OnePlus",
         "model": "HD1903",
         "os": "31"
-      }
-    ]
-  },
-  "com.samsung.android.knox.containeragent": {
-    "appName": "Workspace",
-    "userFacing": false,
-    "additionalLocales": [
-      {
-        "locale": "fr-fr",
-        "name": "Profil professionnel"
-      },
-      {
-        "locale": "es-us",
-        "name": "Perfil de trabajo"
-      }
-    ],
-    "devices": [
-      {
-        "make": "samsung",
-        "model": "SM-A125F",
-        "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-G973U",
-        "os": "31"
-      },
-      {
-        "make": "samsung",
-        "model": "SM-N950U1",
-        "os": "28"
       }
     ]
   },
@@ -320982,6 +323268,11 @@
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-N960N",
+        "os": "29"
       },
       {
         "make": "samsung",
