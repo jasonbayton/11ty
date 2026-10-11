@@ -126116,7 +126116,7 @@
   },
   "com.google.ambient.streaming": {
     "appName": "Cross-Device Services",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "es-us",
