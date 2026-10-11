@@ -35,7 +35,7 @@ I've been less impressed with how Googlebook chooses the applications I'll use. 
 
 Gmail opens into the web interface. I'd much rather have the Android tablet experience there, which is what I expected when opening Gmail on an Android laptop. I can get at my mail, of course, but it's not the experience I want. I haven't yet looked into replacing the installed version with the one I'd prefer.
 
-![Gmail PWA](https://cdn.bayton.org/uploads/2026/googlebook-hands-on/Screenshot_20261011-225413.png)
+![Gmail PWA](https://cdn.bayton.org/uploads/2026/googlebook-hands-on/Screenshot_20261011-225306.png)
 
 LinkedIn is the opposite. Its Android application does a terrible job of using the larger display, and I'd choose the website for that. Google can't fix every developer's layout, but those applications are part of what people will judge the Googlebook on, and some of them aren't doing it any favours.
 
