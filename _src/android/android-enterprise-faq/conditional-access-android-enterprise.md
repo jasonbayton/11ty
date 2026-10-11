@@ -49,7 +49,7 @@ For organisations wanting compliance signals without full EMM enrollment, [Devic
 
 **Play Integrity and Strong Integrity**
 
-Many EMMs use the [Play Integrity API](/android/android-enterprise-faq/faq-play-integrity-strong-integrity-enterprise/) as a compliance signal. The `MEETS_STRONG_INTEGRITY` verdict now requires Android 13+ devices to have security patches within the last 12 months in addition to hardware-backed attestation. Devices running Android 12 or below are not affected by this change.
+Many EMMs use the [Play Integrity API](/android/android-enterprise-faq/play-integrity-strong-integrity-enterprise/) as a compliance signal. The `MEETS_STRONG_INTEGRITY` verdict now requires Android 13+ devices to have security patches within the last 12 months in addition to hardware-backed attestation. Devices running Android 12 or below are not affected by this change.
 
 Organisations should review whether their compliance policies require Strong Integrity or whether Device Integrity is sufficient. Requiring Strong Integrity without also setting explicit minimum patch level requirements can cause unexpected compliance failures on devices with infrequent updates.
 
