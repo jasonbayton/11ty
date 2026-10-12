@@ -9,13 +9,22 @@ tags:
   - Enterprise
 ---
 
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">An update, after hands-on</div>
+
+I've recently [gotten myself a Googlebook](/blog/2026/10/a-week-with-googlebook), and have adapted the wishlist a little accordingly as of 12th October. Earlier revisions can be seen on Github.
+
+In a nutshell, the below is more of a feature request list for Android on laptops, with some ChrOS functionality pulled in. My earlier assumptions of a true hybrid, after use, are far more subdued.
+
+</div>
+
 Earlier this week I covered [Google's first proper acknowledgement of Googlebooks in enterprise](/blog/2026/09/googlebooks-meet-enterprise/), the wait until the second half of 2027 for the first management capabilities, and the licensing questions Google has left unaddressed. 
 
 I've been writing variations on these wishlists since [2019](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/), followed by [2023](/blog/2022/12/android-features-2023/) and [last Christmas](/blog/2025/12/12-ae-requests-of-christmas/). Several requests are still on the [list](/android/android-enterprise-feature-requests/), and apparently it hasn't put me off asking again.. this time for a laptop!
 
 I've already made my preference for management fairly clear, but to summarise:
 
-_I'd like Googlebook to support Android Enterprise management through either an EMM's own [device policy controller (custom DPC)](/android/android-enterprise-faq/amapi-vs-custom-dpc/) or Android Management API (AMAPI), without a separate licence to unlock device management._ 
+_I'd like Googlebook to support Android Enterprise management through either an EMM's own [device policy controller (custom DPC)](/android/android-enterprise-faq/amapi-vs-custom-dpc/) or Android Management API (AMAPI), without a separate licence to unlock device management._
 
 For timing, Google's [21 September launch post](https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/) puts devices on shelves from 4 October in the US and 5 October here in the UK and several other markets, following pre-orders. The [enterprise guidance](https://support.google.com/chrome/a/answer/16634428), last updated on 23 September as of publishing, still describes a consumer launch, managed Workspace account sign-in and optional Chrome browser management today, with central device management coming in phases from H2 2027.
 
@@ -41,6 +50,12 @@ Google hasn't committed to this list, and I haven't tested a managed Googlebook 
 
 ## Android management, please
 
+<div class="text-blue">
+
+Update: Going hands-on has shown the Googlebook is very much an Android device, so while the below is still relevant, the line in the sand with ChrOS vs Android is now very much more defined for me. These should absolutely be traditionally Android-managed.
+
+</div>
+
 Google is bringing Android and ChromeOS together under Googlebook OS, the product we've been following as Aluminium (which is a far cooler name). I'd like it to bring the management together too.
 
 An organisation already managing Android phones, tablets and [XR](/blog/2026/04/android-enterprise-lands-on-android-xr/) through an EMM supporting Android should be able to add Googlebooks to the same environment. The policies, application catalogue, reporting and command workflows should extend to the laptop form factor. The EMM can decide how to present the laptop-specific bits, as it does for other device types.
@@ -48,6 +63,12 @@ An organisation already managing Android phones, tablets and [XR](/blog/2026/04/
 Google has said third-party EMM APIs are coming, but hasn't yet explained how those fit with Android Enterprise. Supporting existing custom DPC and AMAPI integrations would let partners extend the inventory, policy and application management they already have working for Android, which - as an EMM partner - is far easier than spinning up a whole new policy contract.
 
 ChromeOS' device and user policies, shared sessions, desktop browser configuration and support operations all need a home in Android Enterprise. I'd like those laptop capabilities accessible through both management routes, so an EMM can support the whole machine using its existing approach. I've written plenty about [gaps between AMAPI and custom DPC management](/blog/2025/12/12-ae-requests-of-christmas/), and it would be good to see that work close some of them. Existing Android customers would benefit too.
+
+<div class="text-blue">
+
+Update: Early indications show Chrome for Android is gaining desktop features, rather than the ChrOS Linux-based Chrome browser porting over. I could ultimately be wrong, of course.
+
+</div>
 
 The licensing is the aspect that needs the biggest shakeup though. Its guidance already says a new structure will apply to Googlebooks and eligible Chromebooks that migrate. Device management (read: everything that exists, or is equivalent to what exists in Android today) could be included with the platform, as we expect it to be for Android. Organisations will still pay their EMM provider, and Google can offer paid support or additional services if it wants to.
 
@@ -69,7 +90,7 @@ If a policy can't be enforced, the administrator needs to know which one and why
 
 There are laptop-specific settings to account for too: login-screen restrictions, allowed users, lid-close and idle behaviour, external displays, docks, printers, removable storage, browser extensions, and control over developer access. An organisation using a Googlebook as a shared desk terminal is going to care about different settings to one issuing it to a developer, and both need to be manageable.
 
-I'm explicitly going to also call out wallpaper managmenet - I've been [asking for wallpaper management since 2019](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#wallpaper-management), and more recently working around the gaps with my [wallpaper tools](/blog/2026/09/waking-app-generator-apps-with-amapi-role-support/). Managed desktop and lock-screen images, with policy determining whether users can change them, are tablestakes for a laptop. On a shared device, the right image could follow the user or session just like the rest of their settings.
+I'm explicitly going to also call out wallpaper management - I've been [asking for wallpaper management since 2019](/blog/2019/01/what-id-like-to-see-from-android-enterprise-in-2019/#wallpaper-management), and more recently working around the gaps with my [wallpaper tools](/blog/2026/09/waking-app-generator-apps-with-amapi-role-support/). Managed desktop and lock-screen images, with policy determining whether users can change them, are tablestakes for a laptop. On a shared device, the right image could follow the user or session just like the rest of their settings.
 
 I'd also like hardware-backed device identity, boot integrity, encryption and current security state available to the EMM and access providers, with policy to keep developer mode or bootloader changes from undermining the organisation's requirements. I've covered [Device Trust](/blog/2025/10/device-trust-android-enterprise/) on Android before; Googlebook should support the same sort of conditional-access workflows, including an honest account of what a repurposed Flex device can attest. On personally owned devices, those signals would need to stay within the appropriate management scope.
 
@@ -82,6 +103,14 @@ Personally owned Googlebooks should be able to enrol a work profile without bein
 That means the actual separation of applications, data, credentials and management scope, selective removal of work data, and a clear way to [pause work](/android/android-enterprise-faq/work-profile-pausing/). On a laptop I'd expect the desktop to make it obvious which profile an app, browser window or file belongs to. Someone with six overlapping windows and a file picker open needs more to go on than a briefcase on the launcher icon.
 
 If that was too subtle, yes, the work profile experience should expand to full browser and Linux separation too, with all of the appropriate in-profile and cross-profile controls.
+
+<div class="text-blue">
+
+Update: Since the browser experience is Android's Chrome, the browser side of things is far clearer, the callout above assumed Chrome from ChrOS being ported over as a standalone Linux browser. This is now of little concern and should just be handled with a work profile.
+
+The Linux experience stands, though Linux for Android is a mile off Linux for ChrOS, so needs a lot more work to gain feature parity before having to worry too much about Linux app separation.
+
+</div>
 
 I've written about [cross-profile sharing](/android/android-enterprise-faq/cross-profile-data-sharing/) often enough to know how quickly an otherwise good implementation can become a DLP nightmare. Clipboard, drag and drop, screenshots, printing, open-with, shared folders and assistant access all need defined behaviour. The same applies to phone integration, task handoff and file access across devices; pairing with a personal phone shouldn't bypass the laptop's work-data policy. Administrators could allow a workflow where it makes sense, and block it where it doesn't, with the direction of the transfer made explicit.
 
@@ -99,7 +128,7 @@ It would need to be clear which policy wins when a user's requirements conflict 
 
 The platform would need to enforce those device, user and session scopes, with the relationships exposed through the relevant management APIs. For AMAPI, today's [policy model](https://developers.google.com/android/management/create-policy) associates a device with one policy at a time, so that may need extending. An EMM using its own DPC would need the platform APIs to apply the same scoped controls, but it's much easier for custom DPC to determine scope locally vs AMAPI today.
 
-For shared deployments, it would be useful to support persistent user sessions where appropriate, ephemeral sessions for shift workers, managed guest sessions, user creation and removal, assignment and unassignment, switching, logout, and restrictions on who can sign in. Applications can be cached to make the next login quick, while the previous person's tokens, downloads and other session data are cleared according to policy. Effectively **everything we've had since Android 9.0 AMAPI still doesn't support**. 
+For shared deployments, it would be useful to support persistent user sessions where appropriate, ephemeral sessions for shift workers, managed guest sessions, user creation and removal, assignment and unassignment, switching, logout, and restrictions on who can sign in. Applications can be cached to make the next login quick, while the previous person's tokens, downloads and other session data are cleared according to policy. Effectively **everything we've had since Android 9.0 AMAPI still doesn't support**.
 
 A user leaving an organisation, a device being reassigned and an employee finishing a shift are three different events. Separate commands and policies would make it easier to handle each appropriately, without a factory reset being the answer to all three.
 
@@ -109,13 +138,13 @@ Completely.
 
 Googlebook is being sold around Gemini Intelligence, with Magic Pointer, Rambler and generated widgets among the features in the [launch announcement](https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/). Google says the user can switch Magic Pointer off. I'd like the administrator to be able to disable Gemini across the managed device, covering every system integration as well as the app.
 
-No assistant entry points left in the launcher, no context gathering for an assistant we've disabled, no background agent actions, and no new Gemini surface quietly re-enabled by an OS update. Normal browser, keyboard, file and accessibility functionality should keep working - essentially like a normal Android device does today. 
+No assistant entry points left in the launcher, no context gathering for an assistant we've disabled, no background agent actions, and no new risk of an update quietly turning Gemini features back on. Normal browser, keyboard, file and accessibility functionality should keep working - essentially like a normal Android device does today.
 
-If an organisation has decided it doesn't want Gemini processing its data, disabling the package and hoping that catches everything is a poor way to honour that decision.
+If an organisation has decided it doesn't want Gemini processing its data, disabling the package and hoping that catches everything is a poor way to handle it, though it could work in a pinch.
 
-On a personally owned device, that authority belongs within the work profile and its data boundary. The owner can use their own assistant in their personal space. On a company-owned device, I'd like the option to switch it off everywhere.
+On a personally owned device, that authority belongs within the work profile and its data boundary. The owner can use their own assistant in their personal space. On a company-owned device, I'd like the option to switch it off.
 
-For organisations that do want AI, it would be good to have a choice of provider: Claude, ChatGPT, Gemini, a self-hosted model, whatever fits their requirements. In a [recent Googlebook video](https://youtu.be/QChxpOUxLDY?t=295), Dieter Bohn points to the Linux terminal as a way to run tools such as Claude CLI. That's welcome, and I'd like that openness to extend across the Android side and the system assistant too.
+For organisations that do want AI, it would be good to have a choice of provider: Claude, ChatGPT, Gemini, Grok, a self-hosted model, whatever fits their requirements. In a [recent Googlebook video](https://youtu.be/QChxpOUxLDY?t=295), Dieter Bohn points to the Linux terminal as a way to run tools such as Claude CLI. That's welcome, and I'd like that openness to extend across the Android side and the system assistant too.
 
 That means a supported way to configure the assistant integration, its enterprise identity and approved service endpoints, with policy controlling which applications and data it can access. An approved provider should also be able to use the desktop integration points offered to Gemini, within those same management boundaries.
 
@@ -129,13 +158,19 @@ I [build with AI myself](/blog/2026/04/how-mika-was-built/), so this is hardly a
 
 ## Linux needs management too
 
-Google's [launch post](https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/) describes an isolated Linux environment with terminal access, and names Claude Code among the tools it can run. I'd use that. An administrator issuing the same machine needs to know what they can manage within it.
+Google's [launch post](https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/) describes an isolated Linux environment with terminal access, and names Claude Code among the tools it can run (as above). I'd use that. An administrator issuing the same machine needs to know what they can manage within it.
 
-At minimum, policy should enable or disable the environment at device and user scope. That includes defining what disablement does to an environment that's already running, its stored data, and any processes using shared resources. ChromeOS already has [controls for Linux VMs, backup and restore, and port forwarding](https://support.google.com/chrome/a/answer/2657289). Those would be a good starting point.
+At minimum, policy should enable or disable the environment at device and user scope. That includes defining what disabling does to an environment that's already running, its stored data, and any processes using shared resources. ChromeOS already has [controls for Linux VMs, backup and restore, and port forwarding](https://support.google.com/chrome/a/answer/2657289). Those would be a good starting point.
 
 I'd like Linux to follow a familiar cross-profile policy approach, with explicit rules for moving data between a work Linux environment, work Android apps, personal apps and the desktop browser. The VM doesn't have to be a literal Android work profile to achieve that separation.
 
 Shared folders, clipboard, drag and drop, file pickers, USB passthrough, camera and microphone access, host services, local sockets and forwarded ports all need consideration. A VM can be isolated while a deliberately shared directory still gives its applications access to corporate files. An AI coding agent running inside it should inherit the permissions of that environment, including restrictions on exporting data.
+
+<div class="text-blue">
+
+Update: Given the differences between ChrOS' Linux, which the above is loosely based on, and where Android Linux sits, a lot of these requests depend on a significant investment in Linux feature parity landing on Android. Presently it's not possible to even access Linux apps in their own windows from my testing; instead relying on a terminal tab instead.
+
+</div>
 
 I'd like to be able to one day also configure repositories and package sources, inventory installed software, report patch state, and decide whether users can install additional packages or gain root within the guest (which is a different permission from root on the host). Backup, restore, export and deletion need policy too, especially on a shared computer.
 
@@ -208,6 +243,12 @@ If a device can't provide the same hardware-backed trust as a new Googlebook, re
 I'm not aware of an announced Googlebook Flex product in the material Google has published so far. I'd very much like to see one.
 
 ## The commands and support tools, too
+
+<div class="text-blue">
+
+Update: Given the Android environment of Googlebook, I feel pretty confident anything already in Android today will be supported by default, but I'll leave everything untouched below to drive the desire home.
+
+</div>
 
 Reboot, lock, wipe, selective work-data removal, disable a device, retire or release it from management, assign or remove a user, end a session, clear local user data, set volume, manage eSIMs, lost mode. I'd like the relevant command capabilities from both platforms to carry over, with their management scopes intact.
 

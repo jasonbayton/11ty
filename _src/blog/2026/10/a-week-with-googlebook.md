@@ -69,6 +69,8 @@ Text editing has been more disruptive than I would have imagined. In several app
 
 With a secondary display connected, I've had applications change size, including their fonts, as I interact with them. I've also had the desktop wallpaper on the secondary display randomly vanish.
 
+![I'm so tiny](https://cdn.bayton.org/uploads/2026/googlebook-hands-on/Screenshot_20261012-093418-display-2.png)
+
 Some applications have come back from sleep in an offline or error state, although I've been able to recover them, it's not a super great experience to resume to "Aw, snap!" messages - one of those is Gmail, reinforcing my desire for the native app instead of a PWA.
 
 When playing anything media-rich - video, DroidDeck - the displays and/or the open windows flicker. For DroidDeck trying to load up Steam through a Linux env it sent both the integrated and the USB-C attached monitor on an adventure of colours, static, and immense visual crashes.
