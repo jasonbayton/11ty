@@ -87,11 +87,3 @@ DPC extras use strict JSON. The last key-value pair within `ADMIN_EXTRAS_BUNDLE`
 </div>
 
 For guidance on what to include for your specific EMM, see [What should I put in DPC extras?](/android/android-enterprise-faq/what-to-put-in-dpc-extras/)
-
-### Related
-
-- [DPC extras collection](/android/android-enterprise-zero-touch-dpc-extras-collection/)
-- [What is the difference between AMAPI and a custom DPC?](/android/android-enterprise-faq/amapi-vs-custom-dpc/)
-- [Why is fully managed provisioning failing?](/android/android-enterprise-faq/fully-managed-provisioning-troubleshooting/)
-- [What's the best provisioning method?](/android/android-enterprise-faq/whats-the-best-provisioning-method/)
-
