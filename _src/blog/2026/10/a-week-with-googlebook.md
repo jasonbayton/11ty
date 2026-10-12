@@ -123,7 +123,13 @@ The first thing setup wanted was an update. I accepted it, and the normal update
 
 Once set up and sorted, I noticed a few more Chrome extensions synced over after sign-in than I saw on the HP. One notable issue I had there was the ChatGPT extension trying to open a desktop application that isn't available on Googlebook, and it doesn't try to open the Android app instead. That extension isn't usable here as it stands. That's naturally a developer issue on OpenAIs side, though I'm surprised it wasn't considered as a potential user experience to attempt to assist with.
 
-I'm still unsure about the Intel choice. I'm concerned about the overhead of running Android applications that ship Arm-only native code, and would have preferred more choice of hardware.
+On the subject of ChatGPT, when trying to use the camera to authenticate, it just gave up. I got as far as a _Pairing failed_ screen, where it said the camera was unavailable and suggested closing other apps using it before trying again.
+
+![ChatGPT pairing failed because the camera was unavailable](https://cdn.bayton.org/uploads/2026/googlebook-hands-on/Screenshot_20261011-172543.png)
+
+The camera wasn't being used elsewhere, so that was an odd experience.
+
+I'm still unsure about the Intel choice. I'm concerned about the overhead of running Android applications that ship Arm-only native code, and would have preferred more choice of hardware. I also have historic experiences with Intel that just aren't that great in power management, performance, thermal control.. you name it.
 
 Android [supports x86 and x86-64](https://developer.android.com/ndk/guides/abis) as well as Arm, and [ART handles application bytecode for the device's processor](https://source.android.com/docs/core/architecture). An Android application isn't necessarily an Arm binary. Where it includes native libraries, however, the architectures supplied by the developer determine whether translation is needed. My concern is with those Arm-only libraries and what translating them costs in performance and battery life.
 
@@ -131,6 +137,28 @@ Google [told Android Authority](https://www.androidauthority.com/googlebooks-and
 
 Since Google hasn't named the apps known to be troublesome (yet), we can't know what to avoid (or badger the developers about).
 
-I'll carry on with it and see how it gets on. If you're using a Googlebook too, [give me a ping](/contact/). I'd be interested to hear how you're finding your own applications, particularly if you've been using an Intel model for longer than I have.
+Zoom has given me another reason to be uncomfortable with the Intel choice. Opening its Android app brings up a warning that future updates will require an Arm device and this machine will no longer be supported. There's a _Continue to use_ button, but I can't reasonably rely on it for work while it's telling me updates won't support the laptop longer term.
+
+![Zoom Workplace warning that future Android updates require an Arm device](https://cdn.bayton.org/uploads/2026/googlebook-hands-on/Screenshot_20261012-172944.png)
+
+Even with work profile/enterprise support, an experience like this in the first week kills a product for me.
+
+## Update, 12 October: performance on the ASUS
+
+After a full day working on the ASUS, performance has been significantly worse than on the HP with even minimal work spinning up the fans to maintain thermal performance. I've been getting stuttering during ordinary use, including while typing, and taking screenshots makes it particularly unhappy. The HP had those occasional Chrome ANRs I mentioned above, but otherwise felt fast and comfortable to work on. I didn't feel the need to spend a day collecting bug reports to find out why it was struggling.
+
+I've since done that on the ASUS, and Chrome and Terminal both show rendering delays, while even Settings managed to stop responding due to memory exhaustion running nothing more than what the HP was handling without issue.
+
+The traces showed waits for graphics buffers, and substantial memory pressure around the Settings freeze. Driving the external 4K display also appears to add to the load, which isn't unexpected, but to the point of it being noticeable absolutely is.
+
+I don't know what's responsible, or whether these stalls all share the same cause, but the only on-paper difference is Arm vs Intel so far.
+
+I'd expected to be getting on with work by now, and I've spent rather more of today troubleshooting than I'd have liked.
+
+I'm afraid the Asus will also be going back to whence it came. For a device costing over £1000, the experience is immensely sub-par.
+
+That leaves only the Dell XPS to review next, but given delivery will take 20+ days, there won't be much to talk about until November.
+
+If you're using a Googlebook too, [give me a ping](/contact/). I'd be interested to hear how you're finding your own applications, particularly if you've been using an Intel model for longer than I have.
 
 That's all for now.. I'll aim to check back in after a month or so of use (or when Google adds work profile support. Whichever comes first!).
