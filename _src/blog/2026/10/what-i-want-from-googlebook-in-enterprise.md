@@ -50,7 +50,7 @@ Google hasn't committed to this list, and I haven't tested a managed Googlebook 
 
 ## Android management, please
 
-<div class="text-blue">
+<div class="text-main-blue">
 
 Update: Going hands-on has shown the Googlebook is very much an Android device, so while the below is still relevant, the line in the sand with ChrOS vs Android is now very much more defined for me. These should absolutely be traditionally Android-managed.
 
@@ -64,7 +64,7 @@ Google has said third-party EMM APIs are coming, but hasn't yet explained how th
 
 ChromeOS' device and user policies, shared sessions, desktop browser configuration and support operations all need a home in Android Enterprise. I'd like those laptop capabilities accessible through both management routes, so an EMM can support the whole machine using its existing approach. I've written plenty about [gaps between AMAPI and custom DPC management](/blog/2025/12/12-ae-requests-of-christmas/), and it would be good to see that work close some of them. Existing Android customers would benefit too.
 
-<div class="text-blue">
+<div class="text-main-blue">
 
 Update: Early indications show Chrome for Android is gaining desktop features, rather than the ChrOS Linux-based Chrome browser porting over. I could ultimately be wrong, of course.
 
@@ -104,7 +104,7 @@ That means the actual separation of applications, data, credentials and manageme
 
 If that was too subtle, yes, the work profile experience should expand to full browser and Linux separation too, with all of the appropriate in-profile and cross-profile controls.
 
-<div class="text-blue">
+<div class="text-main-blue">
 
 Update: Since the browser experience is Android's Chrome, the browser side of things is far clearer, the callout above assumed Chrome from ChrOS being ported over as a standalone Linux browser. This is now of little concern and should just be handled with a work profile.
 
@@ -166,7 +166,7 @@ I'd like Linux to follow a familiar cross-profile policy approach, with explicit
 
 Shared folders, clipboard, drag and drop, file pickers, USB passthrough, camera and microphone access, host services, local sockets and forwarded ports all need consideration. A VM can be isolated while a deliberately shared directory still gives its applications access to corporate files. An AI coding agent running inside it should inherit the permissions of that environment, including restrictions on exporting data.
 
-<div class="text-blue">
+<div class="text-main-blue">
 
 Update: Given the differences between ChrOS' Linux, which the above is loosely based on, and where Android Linux sits, a lot of these requests depend on a significant investment in Linux feature parity landing on Android. Presently it's not possible to even access Linux apps in their own windows from my testing; instead relying on a terminal tab instead.
 
@@ -244,7 +244,7 @@ I'm not aware of an announced Googlebook Flex product in the material Google has
 
 ## The commands and support tools, too
 
-<div class="text-blue">
+<div class="text-main-blue">
 
 Update: Given the Android environment of Googlebook, I feel pretty confident anything already in Android today will be supported by default, but I'll leave everything untouched below to drive the desire home.
 

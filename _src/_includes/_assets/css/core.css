@@ -312,6 +312,10 @@ a:hover {
   color: var(--blue);
 }
 
+.text-main-blue {
+  color: var(--main-blue);
+}
+
 .text-green {
   color: var(--main-green);
 }
