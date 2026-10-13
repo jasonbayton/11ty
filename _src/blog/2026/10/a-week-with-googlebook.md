@@ -13,7 +13,7 @@ I said in [my first Googlebook post](/blog/2026/09/googlebooks-meet-enterprise/)
 
 For those who missed the launch, Googlebook is Google's new Android laptop platform, with Android and web applications, a Linux environment, and Gemini deeply integrated throughout. Googlebook OS (Aluminium) is built on Android, while the Chromebooks (those Googlebooks will eventually replace) run ChromeOS - it's a brand new operating system.
 
-I came into this a perception, based on the marketing and hype leading up to release. Buying one doesn't, however, get you everything you may already be using on a Chromebook, as I've been finding out.
+I came into this with a perception, based on the marketing and hype leading up to release. Buying one doesn't, however, get you everything you may already be using on a Chromebook, as I've been finding out.
 
 When I put together [my enterprise wishlist](/blog/2026/10/what-i-want-from-googlebook-in-enterprise/), I'd assumed more of the existing ChromeOS experience would come across. Google had already been clear about the wait for enterprise support, but I hadn't expected to miss browser profile switching or find Linux GUI applications quite so awkward to use alongside everything else. Those omissions have made it harder to replace both my Chromebook or my other daily drivers, even before getting into limitations around Android Enterprise.
 
@@ -21,7 +21,7 @@ Since much of my work is app or web based, getting started was fairly straightfo
 
 ## The HP Googlebook 14
 
-I've liked working on the HP. The keyboard was comfortable, with decent travel and a decent backlight, and the trackpad was a good size and responsive. The screen was clear and responsive, and battery life was excellent in my use too. I don't have a measured runtime to offer, but I had very little to complain about there since it'd last a full day without any fuss.
+I've liked working on the HP. The keyboard was comfortable, with decent travel and a decent backlight, and the trackpad was a good size and responsive. The screen was clear and bright, and battery life was excellent in my use too. I don't have a measured runtime to offer, but I had very little to complain about there since it'd last a full day without any fuss.
 
 Initially, automatic brightness kept the display rather dim. An update seemed to improve that; looking through the OTA archive, it did appear that a brightness configuration patch was included. I haven't checked the rest of that build's changes in depth, but it didn't seem to fix much more visibly than that.
 
@@ -45,7 +45,7 @@ I _do_ appreciate having more of the desktop Chrome experience than I get on my 
 
 A semi-related read if interested: Ben Schoon's [look at the app situation](https://9to5google.com/2026/10/09/googlebook-app-situation-messy/) goes into the desktop labels in Play and and the ambiguity associated.
 
-That hasn't been much of a concern here, I would like more indication of if apps will launch natively or spin up a PWA though.
+That hasn't been much of a concern here, I would like more indication of if apps will launch natively or spin up a PWA though, including _on the launcher itself_, not dissimilar to how work apps are badged perhaps.
 
 ## A few features I'm missing
 
@@ -53,7 +53,7 @@ Chrome profile switching has been a particularly awkward omission. I use it on m
 
 Proper browser profiles are [on the way, according to Mishaal](https://www.reddit.com/r/Googlebook/comments/1x1ma1z/i_want_to_get_a_googlebook_but_ive_heard_its/). There's no date yet, so I'm keeping multiple Chrome channels installed for now, though I wouldn't suggest it as a satisfactory replacement for the profile switching Chrome elsewhere already has.. it also may not solve the multiple system Google accounts integrated, but we'll see what comes of it.
 
-Linux was another disappointment, mainly because I'd assumed it would behave much as it does on my Chromebook. There, I can launch a graphical Linux application and use its window alongside everything else. On Googlebook, my GUI applications opened in the graphics view _inside Terminal_, which wasn't at all what I was trying to achieve. Google's [Terminal documentation](https://support.google.com/googlebook/answer/18119222) describes a Debian virtual machine with that graphics screen for GUI applications. There's file integration and folder sharing with the host, so the environment isn't cut off from the rest of the machine. I'd like launcher entries and individual windows for those applications, much as I already have on ChromeOS.
+Linux is another disappointment, mainly because I'd assumed it would behave much as it does on my Chromebook. There, I can launch a graphical Linux application and use its window alongside everything else. On Googlebook, my GUI applications opened in the graphics view _inside Terminal_, which wasn't at all what I was trying to achieve. Google's [Terminal documentation](https://support.google.com/googlebook/answer/18119222) describes a Debian virtual machine with that graphics screen for GUI applications. There's file integration and folder sharing with the host, so the environment isn't cut off from the rest of the machine. I'd like launcher entries and individual windows for those applications, much as I already have on ChromeOS.
 
 The Verge's [roundtable](https://www.theverge.com/tech/1008563/googlebook-software-impressions-thoughts-roundtable) describes similar frustration with the launcher and taskbar behaviour.
 
@@ -65,7 +65,7 @@ Elsewhere, swiping between desktops is ingrained from using a Mac. Googlebook do
 
 ## Some issues I'm seeing
 
-I'll be browsing in Chrome, then randomly get an application-not-responding prompt. When choosing _Wait_, it just pops back up again moments later. If you know Android you'll likely already know that behaviour and the eventual succumbing to Android's unshakable need to just close the app because they don't self-recover. Other applications did it too, and there was no obvious reason from what I was doing at the time. Android's [ANR documentation](https://developer.android.com/topic/performance/issues/anr) covers several possibilities, none of which I've explored so far because there's too much else to focus on.
+I'll be browsing in Chrome, then randomly get an application-not-responding prompt. When choosing _Wait_, it just pops back up again moments later. If you know Android you'll likely already know that behaviour and the eventual succumbing to Android's unshakable need to just close the app because they don't reliably self-recover. Other applications did it too, and there was no obvious reason from what I was doing at the time. Android's [ANR documentation](https://developer.android.com/topic/performance/issues/anr) covers several possibilities, none of which I've explored so far because there's too much else to focus on.
 
 Text editing has been more disruptive than I would have imagined. In several applications, selecting text and typing to replace it clears the selection but loses the first character. Highlighting _morning_ and typing _afternoon_, for example, should insert the **a** as it replaces the selection. Instead I have to press **a** again after the text disappears or the word ends up coming out _fternoon_. It's such a basic interaction that I don't normally think about it, and I don't enjoy having to check whether the first letter made it into what I've just written.
 
@@ -87,13 +87,13 @@ An extra Chrome flavour can't give me a managed work copy of an Android applicat
 
 Googlebook supports separate device users, as the [account guidance explains](https://support.google.com/googlebook/answer/18178630). Switching the whole desktop session whenever I need to answer a work message or do something personal is far too cumbersome for me (ignoring the fact that notifications and such wouldn't be possible). I need both available while I'm working, without continually leaving one session to enter another. An [Android work profile](/android/what-is-android-work-profile/) already provides that. It is a managed profile associated with the parent user, with separate application data and a defined management scope, while both personal and work applications remain available within the same signed-in desktop session. The EMM can deploy and configure its work applications without those being mixed into the personal copies.
 
-Google's current guidance explicitly rules out work profiles and device management, blocks sign-in for accounts requiring third-party EMM management, and says managed Google Play is unavailable. Some Chrome browser policies can apply, but they don't provide management of the Android applications I need for work. I'd like to be able to enrol a work profile through my chosen EMM. That would let me use more of my work applications on the laptop I've already bought, with the management and separation I'd normally have on my phone.
+Google's current guidance explicitly rules out work profiles and device management, blocks sign-in for accounts requiring third-party EMM management, and says managed Google Play is unavailable. Some Chrome browser policies can apply, but they don't provide management of the Android applications I need for work. I'd like to be able to enrol a work profile through my chosen EMM. That would let me use more of my work applications on the laptop I've already bought, with the management and separation I'd normally have on my phone (or tablets, which reasonably match a desktop experience on multiple OEMs to what Googlebook is today, in my opinion).
 
 I've put together a [work-profile tracker](/googlebook-work-profiles/) with guidance on submitting feedback if you're running into the same limitation. There's more in the enterprise wishlist, but this is the one I'm missing every day.. and I do love a good tracker to gently remind Google I'm waiting for something :)
 
 ## Phone integration and the other additions
 
-Cross-device services on my Galaxy Z Fold 8 started working over the weekend. My Pixel had worked earlier, but the Samsung is the phone I currently actively carry, so I can finally get app streaming without swapping phones. Mishaal Rahman has [posted about the setup and Samsung rollout](https://www.threads.com/@mishaal_rahman/post/DeU_KclEqZe).
+Cross-device services on my Galaxy Z Fold 8 started working over the weekend. My Pixel had worked earlier, but the Samsung is the phone I currently actively carry, so I can finally get app streaming without swapping phones. Mishaal [posted about the setup and Samsung rollout](https://www.threads.com/@mishaal_rahman/post/DeU_KclEqZe).
 
 I've switched off notification sync in cross-device services because it was becoming noise. Samsung system notifications were coming over as well as ordinary app notifications, including alerts when the Fold's edge panel did something. I'm signed into the same services on both devices too, so I was getting a lot of duplicate notifications on top of that.
 
