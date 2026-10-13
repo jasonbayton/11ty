@@ -51,13 +51,15 @@ That hasn't been much of a concern here, I would like more indication of if apps
 
 Chrome profile switching has been a particularly awkward omission. I use it on my Chromebook and every other machine I have to keep account contexts separate while leaving everything available on the same desktop. Here I've been using different Chrome release channels instead, presently beta alongside stable, to get separate browser installations. That gets me some separation, but adding a Google account still takes me through Android's system account manager (something of a blessing and a curse for the years I've been dealing with Android). The account I wanted confined to a work browser then appears in account choices across the Googlebook. I don't particularly want to be checking which identity I'm being offered every time I open something elsewhere.. but that's a minor quibble.
 
-I'd much prefer proper browser profiles. Keeping multiple Chrome channels installed is a workaround I can use for now, though I wouldn't suggest it as a satisfactory replacement for the profile switching Chrome elsewhere already has.
+Proper browser profiles are [on the way, according to Mishaal](https://www.reddit.com/r/Googlebook/comments/1x1ma1z/i_want_to_get_a_googlebook_but_ive_heard_its/). There's no date yet, so I'm keeping multiple Chrome channels installed for now, though I wouldn't suggest it as a satisfactory replacement for the profile switching Chrome elsewhere already has.. it also may not solve the multiple system Google accounts integrated, but we'll see what comes of it.
 
 Linux was another disappointment, mainly because I'd assumed it would behave much as it does on my Chromebook. There, I can launch a graphical Linux application and use its window alongside everything else. On Googlebook, my GUI applications opened in the graphics view _inside Terminal_, which wasn't at all what I was trying to achieve. Google's [Terminal documentation](https://support.google.com/googlebook/answer/18119222) describes a Debian virtual machine with that graphics screen for GUI applications. There's file integration and folder sharing with the host, so the environment isn't cut off from the rest of the machine. I'd like launcher entries and individual windows for those applications, much as I already have on ChromeOS.
 
 The Verge's [roundtable](https://www.theverge.com/tech/1008563/googlebook-software-impressions-thoughts-roundtable) describes similar frustration with the launcher and taskbar behaviour.
 
 I'd been trying to bring over graphical work applications (and Android Studio!), and stopped doing that for the moment. I already have a Chromebook that handles those better, which makes this a difficult feature to give up in the switch to Googlebook.
+
+Google's [Linux roadmap, published on 12 October](https://android-developers.googleblog.com/2026/10/googlebook-linux-terminal-preview-vm.html), includes GUI applications integrated into the launcher, VM persistence independent of the Terminal window, and USB passthrough with ADB support. I'd be pleased to have those, particularly when trying to bring Android development onto the machine, but there's no delivery date yet.
 
 Elsewhere, swiping between desktops is ingrained from using a Mac. Googlebook doesn't have the gesture I keep trying to use, and Gemini's suggestion that a four-finger swipe would do it was incorrect. I found myself accidentally sending myself back in the current application instead.
 
@@ -94,6 +96,13 @@ I've put together a [work-profile tracker](/googlebook-work-profiles/) with guid
 Cross-device services on my Galaxy Z Fold 8 started working over the weekend. My Pixel had worked earlier, but the Samsung is the phone I currently actively carry, so I can finally get app streaming without swapping phones. Mishaal Rahman has [posted about the setup and Samsung rollout](https://www.threads.com/@mishaal_rahman/post/DeU_KclEqZe).
 
 I've switched off notification sync in cross-device services because it was becoming noise. Samsung system notifications were coming over as well as ordinary app notifications, including alerts when the Fold's edge panel did something. I'm signed into the same services on both devices too, so I was getting a lot of duplicate notifications on top of that.
+
+<div class="callout callout-blue">
+<div class="callout-heading callout-heading-small">Filtering phone notifications</div>
+
+Thanks to [u/d1863's tip](https://www.reddit.com/r/Googlebook/comments/1x2lcu9/comment/pf38kdt/) for pointing me towards **Settings > Notifications > Notification read, reply and control > Cross-Device Services > See all apps** on the Googlebook. There are per-app controls there, but configuring them is cumbersome. I'm not prepared to sift through 300+ apps to find the ones to turn off, so notification sync is staying off for now.
+
+</div>
 
 Some apps won't stream at all as they're marked secure - Authenticator, banking apps, so on. For those that work, some UI elements don't render properly in the streamed applications, and copying a link in one hasn't copied it to the Googlebook clipboard. I'd expected to be able to paste it into the browser on the laptop, but it stays on the phone. That makes it rather less convenient when the reason for opening the streamed application was to get something out of it. In his [PCMag impressions](https://www.pcmag.com/opinions/ive-been-testing-googlebooks-for-a-week-so-far-theyre-just-for-android), Joe Osborne describes needing troubleshooting and restarts to get pairing and Continue On working, and questions casting apps that Googlebook can run locally. I've only just got the Samsung working, so I'll see how much use I get from it over the next few days.. but I can say already so far work profile apps from the Samsung aren't coming across, and that sucks.
 
@@ -145,17 +154,19 @@ Even with work profile/enterprise support, an experience like this in the first 
 
 ## Update, 12 October: performance on the ASUS
 
-After a full day working on the ASUS, performance has been significantly worse than on the HP with even minimal work spinning up the fans to maintain thermal performance. I've been getting stuttering during ordinary use, including while typing, and taking screenshots makes it particularly unhappy. The HP had those occasional Chrome ANRs I mentioned above, but otherwise felt fast and comfortable to work on. I didn't feel the need to spend a day collecting bug reports to find out why it was struggling.
+After a full day working on the ASUS, performance has been significantly worse than on the HP with even minimal work spinning up the fans to maintain thermal performance. I've been getting stuttering during ordinary use, including while typing, and for some reason taking screenshots makes it particularly unhappy. The HP had those occasional Chrome ANRs I mentioned above, but otherwise felt fast and comfortable to work on. I didn't feel the need to spend a day collecting bug reports to find out why it was struggling.
 
-I've since done that on the ASUS, and Chrome and Terminal both show rendering delays, while even Settings managed to stop responding due to memory exhaustion running nothing more than what the HP was handling without issue.
+That is however what I've done on the ASUS, and Chrome and Terminal both show rendering delays, while even Settings managed to stop responding due to memory pressure running nothing more than what the HP was handling without issue.
 
 The traces showed waits for graphics buffers, and substantial memory pressure around the Settings freeze. Driving the external 4K display also appears to add to the load, which isn't unexpected, but to the point of it being noticeable absolutely is.
 
-I don't know what's responsible, or whether these stalls all share the same cause, but the only on-paper difference is Arm vs Intel so far.
+I don't know what's responsible, or whether these stalls all share the same cause, but the only on-paper difference is Arm vs Intel so far, given I've been relying on integrated graphics in both cases.
 
-I'd expected to be getting on with work by now, and I've spent rather more of today troubleshooting than I'd have liked.
+What I didn't test, since the ASUS supports it, is routing to the 4k monitor over HDMI instead of USB C, and I'm not going to; my monitor hooks up via USB C on everything and there's no reason it shouldn't work fine here, too.
 
-I'm afraid the Asus will also be going back to whence it came. For a device costing over £1000, the experience is immensely sub-par.
+While I'd expected to be getting on with work by now, I've spent rather more of the first day troubleshooting than I'd have liked.
+
+I'm afraid the ASUS will also be going back to whence it came. For a device costing over £1000, the experience is immensely sub-par.
 
 That leaves only the Dell XPS to review next, but given delivery will take 20+ days, there won't be much to talk about until November.
 
