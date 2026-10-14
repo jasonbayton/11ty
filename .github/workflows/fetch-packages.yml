@@ -38,8 +38,8 @@ jobs:
           git add ./_src/_data/latest-device.txt
 
           # Check if there are any changes to commit
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+          if git diff --cached --quiet -- ./_src/_data/packages.json; then
+            echo "No package data changes to commit."
             exit 0
           fi
 
