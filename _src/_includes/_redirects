@@ -23,6 +23,8 @@
 /docs/enterprise-mobility/ /android/ 301!
 /android/android-enterprise-zero-touch-faq/ /android/android-enterprise-faq/ 301!
 /feed /feed.xml 301!
+/blog/feed /blog/feed.xml 301!
+/blog/feed/ /blog/feed.xml 301!
 /wp-content/uploads/* https://cdn.bayton.org/uploads/:splat 301!
 /download/* https://cdn.bayton.org/download/:splat 301!
 /docs/enterprise-mobility/android/* /android/:splat 301!

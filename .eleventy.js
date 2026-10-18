@@ -10,6 +10,7 @@ const embedYouTube = require("eleventy-plugin-youtube-embed");
 const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const contentFeedEntries = require("./scripts/feed-entries.cjs");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
@@ -22,6 +23,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addFilter("contentFeedEntries", contentFeedEntries);
+  eleventyConfig.addFilter("renderFeedEntries", contentFeedEntries.renderFeedEntries);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(embedYouTube);
@@ -75,7 +78,9 @@ module.exports = function (eleventyConfig) {
             item.data.tags.map( tag => tagsList.add(tag))
         }
     });
-    return tagsList;
+    return [...tagsList].sort((a, b) =>
+      a.localeCompare(b, "en", { sensitivity: "base" }) || a.localeCompare(b, "en")
+    );
 });
 
 // Options for the `markdown-it` library
