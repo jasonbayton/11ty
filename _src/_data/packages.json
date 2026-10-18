@@ -561,6 +561,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -4101,6 +4106,18 @@
       }
     ]
   },
+  "com.softwinner.theme.color": {
+    "appName": "Allwinner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
   "com.allwinnertech.packageoverride": {
     "appName": "Allwinner Package Override Application",
     "userFacing": false,
@@ -4110,6 +4127,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -4958,6 +4980,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -6656,6 +6683,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -7678,6 +7710,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -8625,6 +8662,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -9489,6 +9531,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -10409,6 +10456,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -11356,6 +11408,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -13095,6 +13152,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -14641,6 +14703,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -23825,6 +23892,18 @@
       }
     ]
   },
+  "com.softwinner.awlogsettings": {
+    "appName": "AwlogSettings",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
   "com.softwinner.awpadfeature": {
     "appName": "AwPadFeature",
     "userFacing": false,
@@ -23864,12 +23943,22 @@
   "com.softwinner.awsysteminfo": {
     "appName": "AwSystemInfo1.1.0",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "AwSystemInfo0.9.0"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -24013,6 +24102,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -25052,6 +25146,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -27508,6 +27607,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -28995,6 +29099,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -29864,6 +29973,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -30864,6 +30978,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -31263,6 +31382,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "fezawio",
@@ -32747,6 +32871,11 @@
         "os": "28"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "ITEL MOBILE LIMITED",
         "model": "itel A16 Plus",
         "os": "27"
@@ -33277,6 +33406,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -34335,6 +34469,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -38420,6 +38559,18 @@
       }
     ]
   },
+  "com.softwinner.camera": {
+    "appName": "Camera",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
   "com.nothing.camera": {
     "appName": "Camera",
     "userFacing": true,
@@ -39356,6 +39507,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -40981,8 +41137,18 @@
   "com.google.android.go.captiveportallogin": {
     "appName": "Captive Portal Login",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "CaptivePortalLogin"
+      }
+    ],
     "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
       {
         "make": "INFINIX",
         "model": "Infinix X6525B",
@@ -42842,6 +43008,11 @@
         "os": "31"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "HUAWEI",
         "model": "HRY-LX1T",
         "os": "30"
@@ -44023,6 +44194,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -45159,6 +45335,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -46190,6 +46371,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -47113,6 +47299,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -48473,6 +48664,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -50688,6 +50884,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -51709,6 +51910,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -53825,6 +54031,18 @@
       }
     ]
   },
+  "com.android.connectivity.resourcesconfig": {
+    "appName": "com.android.connectivity.resourcesconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.crossdevicesync.auto_generated_characteristics_rro": {
     "appName": "com.android.crossdevicesync.auto_generated_characteristics_rro",
     "userFacing": false,
@@ -54360,6 +54578,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -55237,6 +55460,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -57536,6 +57764,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -58869,6 +59102,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -62835,6 +63073,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -63790,6 +64033,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -68278,6 +68526,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -73515,6 +73768,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -74322,6 +74580,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -75017,6 +75280,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -76511,6 +76779,18 @@
       }
     ]
   },
+  "com.android.wifi.resourcesconfig": {
+    "appName": "com.android.wifi.resourcesconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
   "com.android.wifi.system.mainline.resources.overlay": {
     "appName": "com.android.wifi.system.mainline.resources.overlay",
     "userFacing": false,
@@ -77589,6 +77869,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -79566,6 +79851,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -80157,6 +80447,18 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.go.networkstackconfig": {
+    "appName": "com.google.android.go.networkstackconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -81289,6 +81591,11 @@
         "os": "34"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "OV2219",
         "os": "32"
@@ -81483,6 +81790,30 @@
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
+      }
+    ]
+  },
+  "com.google.android.networkstack.tetheringconfig": {
+    "appName": "com.google.android.networkstack.tetheringconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      }
+    ]
+  },
+  "com.google.android.networkstackconfig": {
+    "appName": "com.google.android.networkstackconfig",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -83027,6 +83358,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -83546,6 +83882,11 @@
         "os": "31"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -83883,6 +84224,11 @@
         "make": "revoview",
         "model": "S6518",
         "os": "30"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -84264,6 +84610,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -84544,6 +84895,11 @@
         "make": "revoview",
         "model": "S6518",
         "os": "30"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -85456,6 +85812,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -86129,6 +86490,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
       {
         "make": "SMT_HK",
         "model": "Helium Pro",
@@ -87439,6 +87805,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -88585,6 +88956,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -89264,6 +89640,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -90393,6 +90774,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -91107,6 +91493,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -91806,6 +92197,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -93076,6 +93472,11 @@
         "os": "36"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "HONOR",
         "model": "LLY-LX3",
         "os": "34"
@@ -93740,6 +94141,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -115229,6 +115635,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -119726,6 +120137,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -121391,6 +121807,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -124141,6 +124562,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -125344,6 +125770,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -127233,6 +127664,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -131680,6 +132116,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -137887,6 +138328,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -139416,6 +139862,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -140353,6 +140804,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -141304,6 +141760,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -141960,6 +142421,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -142526,6 +142992,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -144387,6 +144858,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -146489,6 +146965,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -148443,6 +148924,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
@@ -149998,6 +150484,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -154782,6 +155273,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -155059,6 +155555,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -156850,6 +157351,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "OUKITEL",
@@ -159412,6 +159918,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -162271,12 +162782,7 @@
   "com.google.android.apps.photosgo": {
     "appName": "Gallery",
     "userFacing": true,
-    "additionalLocales": [
-      {
-        "locale": "en-gb",
-        "name": "Gallery Go"
-      }
-    ],
+    "additionalLocales": [],
     "devices": [
       {
         "make": "LENOVO",
@@ -162287,6 +162793,11 @@
         "make": "revoview",
         "model": "S6518",
         "os": "30"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -164068,6 +164579,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -164935,6 +165451,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -165826,6 +166347,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -166728,6 +167254,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -167282,6 +167813,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -168394,6 +168930,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -169744,10 +170285,6 @@
     "userFacing": true,
     "additionalLocales": [
       {
-        "locale": "en-gb",
-        "name": "Google Assistant Go"
-      },
-      {
         "locale": "th-th",
         "name": "Google Assistant Go"
       },
@@ -169766,6 +170303,11 @@
         "make": "revoview",
         "model": "S6518",
         "os": "30"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "SMT_HK",
@@ -170486,6 +171028,11 @@
         "os": "30"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "SMT_HK",
         "model": "Helium Pro",
         "os": "31"
@@ -171043,6 +171590,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -171940,6 +172492,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -172784,6 +173341,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -174046,6 +174608,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -175377,6 +175944,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -176260,6 +176832,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -176705,6 +177282,11 @@
         "make": "Crosscall",
         "model": "Stellar-X5",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Zebra Technologies",
@@ -177369,6 +177951,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -178064,6 +178651,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -183771,6 +184363,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -186797,6 +187394,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -187480,6 +188082,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "HUAWEI",
@@ -189366,12 +189973,22 @@
   "com.clock.pt1.keeptesting": {
     "appName": "KeepTesting2.9.51",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "KeepTesting2.9.13"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -189970,6 +190587,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -196783,6 +197405,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -199946,6 +200573,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -200730,6 +201362,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -201632,6 +202269,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -203519,6 +204161,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -204619,6 +205266,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -209151,6 +209803,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -214289,6 +214946,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -215450,6 +216112,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -218717,6 +219384,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -221391,6 +222063,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -223584,6 +224261,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -229064,6 +229746,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Zebra Technologies",
         "model": "KC50",
         "os": "35"
@@ -230629,6 +231316,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -231584,6 +232276,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -233952,6 +234649,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -235287,6 +235989,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -237374,6 +238081,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -238385,6 +239097,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -239386,6 +240103,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -245800,6 +246522,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -246751,6 +247478,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -248650,6 +249382,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -249698,6 +250435,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -250860,6 +251602,18 @@
         "make": "samsung",
         "model": "SM-N960N",
         "os": "29"
+      }
+    ]
+  },
+  "com.softwinner.qrscanner": {
+    "appName": "QRScanner",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -252387,6 +253141,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-X6C6NBF",
         "os": "31"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Zebra Technologies",
@@ -254561,6 +255320,11 @@
       {
         "make": "Dahua",
         "model": "MC480-U",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -269788,12 +270552,22 @@
   "com.softwinner.screenshot": {
     "appName": "Screenshot",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "com.softwinner.screenshot"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -270363,6 +271137,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -272673,6 +273452,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -276561,6 +277345,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -277869,6 +278658,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -278873,6 +279667,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -280810,6 +281609,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -282641,6 +283445,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -290908,6 +291717,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Fairphone",
         "model": "FP4",
         "os": "35"
@@ -291448,6 +292262,11 @@
         "make": "Google",
         "model": "Pixel 8a",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Nothing",
@@ -292575,6 +293394,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -293059,6 +293883,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -293185,6 +294014,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -294314,6 +295148,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -295963,6 +296802,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "INFINIX",
         "model": "Infinix X6525B",
         "os": "33"
@@ -297470,6 +298314,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -297908,12 +298757,22 @@
   "com.yhk.devicenewtest": {
     "appName": "System DeviceNewTest",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "DeviceNewTest"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -298370,12 +299229,22 @@
   "com.yhk.qeota": {
     "appName": "System OTA",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "ABYHKOTA"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -298871,6 +299740,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -299155,12 +300029,22 @@
   "com.softwinner.runin": {
     "appName": "System Runin",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Runin"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -299993,6 +300877,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -300933,6 +301822,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -302083,6 +302977,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -302539,12 +303438,22 @@
   "com.yhk.rabbit.yhkages": {
     "appName": "System Video Time",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Aging monitor"
+      }
+    ],
     "devices": [
       {
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -302916,6 +303825,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -304779,6 +305693,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -305759,6 +306678,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -307043,6 +307967,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -308210,6 +309139,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -310785,6 +311719,18 @@
         "make": "COMMBOX",
         "model": "CommBox_Classic_S5",
         "os": "34"
+      }
+    ]
+  },
+  "com.softwinner.timerswitch": {
+    "appName": "TimerSwitch",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -314692,6 +315638,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -317710,6 +318661,11 @@
         "make": "URAO",
         "model": "X108",
         "os": "36"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       }
     ]
   },
@@ -319787,6 +320743,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -320687,6 +321648,11 @@
         "make": "Datalogic",
         "model": "Memor 35/35X",
         "os": "35"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "Fairphone",
@@ -322279,6 +323245,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -326356,6 +327327,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -328081,6 +329057,11 @@
       {
         "make": "samsung",
         "model": "SM-T976B",
+        "os": "33"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
         "os": "33"
       },
       {
@@ -330369,6 +331350,11 @@
         "os": "33"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -331018,6 +332004,11 @@
         "os": "35"
       },
       {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
+      },
+      {
         "make": "Nothing",
         "model": "A015",
         "os": "35"
@@ -331225,6 +332216,11 @@
         "make": "TCL",
         "model": "9491G",
         "os": "34"
+      },
+      {
+        "make": "skythtek",
+        "model": "TPC1013_EEA",
+        "os": "33"
       },
       {
         "make": "fezawio",
