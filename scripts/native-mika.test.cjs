@@ -31,7 +31,7 @@ function fixture(options = {}) {
   const index = {
     jsonResponse: (statusCode, body) => ({ statusCode, headers: { 'cache-control': 'no-store' }, body: JSON.stringify(body) }),
     noContentResponse: () => ({ statusCode: 204, body: '' }),
-    loadSearchView: async () => [],
+    loadSearchView: async () => options.docs || [],
     extractKeywords: () => ['android'],
     searchDocs: () => ({ results: [{ title: 'Android Enterprise', url: '/android/', snippet: 'Established public source.' }] }),
   };
@@ -39,6 +39,10 @@ function fixture(options = {}) {
   vm.runInNewContext(options.source || fs.readFileSync(handlerFile, 'utf8'), { ...common, module: mod, exports: mod.exports, require: name => {
     if (name === 'openai') return { OpenAI };
     if (name.endsWith('content-index')) return index;
+    if (name.endsWith('content-lookup')) {
+      const actual = require('../netlify/functions/_shared/content-lookup');
+      return { lookupContent: (docs, params) => actual.lookupContent(docs, params, fetcher) };
+    }
     if (name.endsWith('native-mika')) return helper.exports;
     throw Error(`Unexpected dependency ${name}`);
   } });
@@ -153,4 +157,30 @@ test('native access requires explicit enablement and false remains a kill switch
   const invalid = fixture({ unsetGate: true });
   assert.equal((await invalid.handler(event(envelope({ version: 2 })))).statusCode, 400);
   assert.equal(invalid.model.length, 0); assert.equal(invalid.http.length, 0);
+});
+
+test('external documentation is not truncated at 4000 characters', async () => {
+ const body='Public Android documentation. '.repeat(300)+' END_OF_COMPLETE_DOCUMENT';
+ const f=fixture({fetch:async()=>new Response('<main><p>'+body+'</p></main>'),replies:[
+  {choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id:'external',type:'function',function:{name:'fetch_url',arguments:JSON.stringify({url:'https://developer.android.com/work/'})}}]}}]},
+  {choices:[{finish_reason:'stop',message:{content:'Complete public answer'}}]},
+ ]});
+ assert.equal((await f.handler(event(envelope()))).statusCode,200);
+ const tool=f.model[1].params.messages.find(m=>m.role==='tool');
+ assert.ok(tool.content.length>4000);assert.ok(tool.content.endsWith('END_OF_COMPLETE_DOCUMENT'));
+});
+
+test('MIKA can read complete Markdown after searching while keeping canonical citations and native privacy', async () => {
+ const article={title:'Android guide',url:'/android/guide/',content:'Plain indexed content'};
+ const f=fixture({docs:[article],fetch:async()=>new Response('---\ntitle: Guide\n---\n# Full guide\n\n**Bold** documentation tail'),replies:[
+  {choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id:'search',type:'function',function:{name:'search_bayton',arguments:'{"query":"android"}'}}]}}]},
+  {choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id:'article',type:'function',function:{name:'get_content_by_url',arguments:'{"url":"/android/guide/"}'}}]}}]},
+  {choices:[{finish_reason:'stop',message:{content:'Android guide https://bayton.org/android/guide/'}}]},
+ ]});
+ const response=await f.handler(event(envelope()));assert.equal(response.statusCode,200);
+ const tool=f.model[2].params.messages.find(m=>m.tool_call_id==='article');
+ assert.match(tool.content,/# Full guide/);assert.match(tool.content,/\*\*Bold\*\*/);
+ assert.deepEqual(JSON.parse(response.body).sources,[{title:'Android guide',url:'https://bayton.org/android/guide/'}]);
+ assert.ok(f.model.every(m=>m.params.store===false));
+ assert.ok(!JSON.stringify(f.http.filter(h=>h.url.startsWith('https://ping'))).includes('synthetic-payload-canary'));
 });

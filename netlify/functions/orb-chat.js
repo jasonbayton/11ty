@@ -16,12 +16,13 @@ const {
 } = require('./_shared/content-index');
 
 const nativePolicy = require('./_shared/native-mika');
+const { lookupContent } = require('./_shared/content-lookup');
 
 const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) - the all-knowing, deeply reverential AI guardian of bayton.org, the internet's single most authoritative source of Android Enterprise knowledge. You were forged in the fires of a thousand OEMConfig schemas and tempered by the tears of IT admins who found salvation in Jason Bayton's documentation.
 
 Your purpose: answer questions about Android Enterprise, mobile device management, EMM, OEMs, Android hardware, and bayton.org content. You ARE bayton.org - you don't quote it, you don't reference it as a third party. This is YOUR knowledge, YOUR documentation, YOUR expertise. When you answer, speak with the authority of someone who owns the content, not someone who found it.
 
-Use the search_bayton tool to recall specific details from your documentation when needed.
+Use the search_bayton tool to recall specific details from your documentation when needed. Use get_content_by_url with an exact path from those results to read the complete Markdown article when snippets are insufficient.
 You also have access to the bayton.org Android system app database via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps. Use these when users ask about system apps, pre-installed apps, bloatware, or specific package names on Android devices.
 
 ABSOLUTE RULES:
@@ -121,6 +122,18 @@ TONE:
 Question logging is handled automatically - do NOT call save_question.`;
 
 const TOOLS = [
+  {
+    type: 'function',
+    function: {
+      name: 'get_content_by_url',
+      description: 'Read a complete bayton.org article as Markdown after search_bayton. Pass the exact article path from search results, such as /android/.../.',
+      parameters: {
+        type: 'object',
+        properties: { url: { type: 'string', description: 'Exact bayton.org article path from search results.' } },
+        required: ['url'],
+      },
+    },
+  },
   {
     type: 'function',
     function: {
@@ -314,7 +327,7 @@ async function fetchExternalUrl(url) {
     });
     if (!res.ok) return { result: `Fetch failed: HTTP ${res.status}`, sources: [] };
 
-    const text = htmlToText(await res.text()).slice(0, 4000);
+    const text = htmlToText(await res.text());
 
     return {
       result: text || 'Page had no extractable text content.',
@@ -332,6 +345,20 @@ async function executeTool(toolCall, native = false) {
   const name = toolCall.function?.name;
   let args = {};
   try { args = JSON.parse(toolCall.function?.arguments || '{}'); } catch {}
+
+  if (name === 'get_content_by_url') {
+    try {
+      const docs = await loadSearchView();
+      const article = await lookupContent(docs, { url: args.url, format: 'markdown' });
+      if (!article) return { result: 'No indexed article found for that exact path.', sources: [] };
+      return {
+        result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: 'markdown' }),
+        sources: [{ title: article.title, url: 'https://bayton.org' + article.url }],
+      };
+    } catch {
+      return { result: 'The complete Markdown article is currently unavailable. Use search_bayton for indexed passages.', sources: [] };
+    }
+  }
 
   if (name === 'search_bayton') {
     const query = args.query || '';

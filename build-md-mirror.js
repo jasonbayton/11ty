@@ -458,6 +458,8 @@ for (const filePath of files) {
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, html);
+  // Machine-readable source alongside the existing highlighted mirror page.
+  fs.writeFileSync(path.join(path.dirname(outPath), 'index.md'), content);
 
   pages.push({
     title,

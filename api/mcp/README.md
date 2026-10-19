@@ -279,3 +279,23 @@ Existing queries with no `from` or `to` keep their original validation, relevanc
 An explicit `from` or `to` enables inclusive `YYYY-MM-DD` indexed content date filtering. These are the dates in the existing index; Docs can use modification dates. The indexed membership is unchanged. Optional `section` is `Blog`, `Docs` or `Notes`; `sort` is `relevance`, `newest` or `oldest`; `offset` pages the filtered results. `limit` remains 1 to 30. Date-only browsing defaults to newest; a keyword query defaults to relevance unless ordering is explicitly selected.
 
 For example, call `search_content` with `{"from":"2026-10-01","to":"2026-10-31","section":"Blog","sort":"newest","limit":10}`. HTTP clients use `/api/mcp/search-content?from=2026-10-01&to=2026-10-31&section=Blog&sort=newest&limit=10`. Dated results add ISO dates and paging metadata, retain snippets, and omit full article bodies. Fetch a selected item with the existing `get_content_by_url` tool or HTTP adapter. No separate index generator or new tool is needed.
+
+
+### Complete articles as Markdown
+
+`get_content_by_url` accepts an optional `format`: `text` (the unchanged default)
+or `markdown`. Markdown requests return the raw published source from bayton.md,
+with opening YAML frontmatter removed, plus `format` and `sourceUrl` metadata.
+The body preserves headings, links, tables, code, entities and whitespace. It can
+contain Eleventy directives because it is source Markdown, not rendered HTML.
+
+HTTP example: `/api/mcp/get-content-by-url?url=/android/guide/&format=markdown`.
+Only exact URLs already present in the existing content index can be fetched.
+Missing or unavailable mirror source returns an error rather than silently
+substituting plain text. Mirror deployment can lag the site deployment.
+Default article lookups and all existing search responses remain unchanged.
+
+Each published mirror page also exposes its source at `https://bayton.md/<path>/index.md`.
+MIKA can retrieve complete Markdown articles after search through the same lookup.
+Its external Android documentation fetch no longer truncates extracted text at
+4,000 characters; the existing domain restrictions and timeout still apply.

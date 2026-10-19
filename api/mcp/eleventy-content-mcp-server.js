@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { lookupContent, validateLookupParams } = require('../../netlify/functions/_shared/content-lookup');
 
 /**
  * MCP server exposing Eleventy-generated content.
@@ -75,14 +76,15 @@ async function main() {
     'get_content_by_url',
     {
       title: 'Get content by URL',
-      description: 'Return title and content for an exact site URL.',
+      description: 'Return the complete indexed article. Default text preserves the existing response; format markdown retrieves the original article body from bayton.md.',
         inputSchema: {
+          format: z.enum(['text', 'markdown']).optional().describe('Default text, or original Markdown article body.'),
           url: z.string().min(1).describe('Path such as /docs/linux/ubuntu/...'),
         },
     },
     async params => {
-      const { url } = validateUrlParams(params);
-      const found = docs.find(doc => doc.url === url);
+      const { url } = validateLookupParams(params);
+      const found = await lookupContent(docs, params);
 
       if (!found) {
         return {

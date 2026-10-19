@@ -1,3 +1,4 @@
+const { lookupContent, validateLookupParams, MarkdownUnavailableError } = require('./_shared/content-lookup');
 /**
  * Netlify Function adapter for MCP-style URL lookup.
  *
@@ -40,6 +41,7 @@ function parseParams(event) {
 
   return {
     url: event.queryStringParameters?.url,
+    format: event.queryStringParameters?.format,
   };
 }
 
@@ -66,10 +68,10 @@ exports.handler = async event => {
 
   try {
     const params = parseParams(event);
-    const { url } = validateUrlParams(params);
+    const { url } = validateLookupParams(params);
 
     const docs = await loadIndex();
-    const found = docs.find(doc => doc.url === url);
+    const found = await lookupContent(docs, params);
 
     if (!found) {
       return jsonResponse(404, {
@@ -86,7 +88,7 @@ exports.handler = async event => {
       message.includes('Request body must be valid JSON') ||
       message.includes('POST requests must include a JSON body');
 
-    const isServiceUnavailable = message.includes('Search index is unavailable');
+    const isServiceUnavailable = message.includes('Search index is unavailable') || error instanceof MarkdownUnavailableError;
 
     const statusCode = isClientError ? 400 : isServiceUnavailable ? 503 : 500;
 

@@ -1,3 +1,4 @@
+const { lookupContent, validateLookupParams } = require('./_shared/content-lookup');
 /**
  * Netlify Function exposing a Streamable HTTP MCP endpoint.
  *
@@ -69,14 +70,15 @@ async function createServer() {
     'get_content_by_url',
     {
       title: 'Get content by URL',
-      description: 'Return title and content for an exact site URL.',
+      description: 'Return the complete indexed article. Default text preserves the existing response; format markdown retrieves the original article body from bayton.md.',
         inputSchema: {
+          format: z.enum(['text', 'markdown']).optional().describe('Default text, or original Markdown article body.'),
           url: z.string().min(1).describe('Path such as /android/...'),
         },
     },
     async params => {
-      const { url } = validateUrlParams(params);
-      const found = docs.find(doc => doc.url === url);
+      const { url } = validateLookupParams(params);
+      const found = await lookupContent(docs, params);
 
       if (!found) {
         return {
