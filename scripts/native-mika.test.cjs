@@ -1,0 +1,137 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const path = require('node:path');
+const helperFile = path.resolve('netlify/functions/_shared/native-mika.js');
+const handlerFile = path.resolve('netlify/functions/orb-chat.js');
+function fixture(options = {}) {
+  const model = [], http = [], logs = [], constructors = [];
+  const env = { OPENAI_API_KEY: 'synthetic-provider-key', ORB_DIRECTUS_API_KEY: 'synthetic-analytics-key', MIKA_NATIVE_ENABLED: options.enabled === false ? 'false' : 'true' };
+  const fetcher = async (url, init = {}) => {
+    http.push({ url: String(url), ...init });
+    if (String(url).startsWith('https://ping.bayton.org/')) return Response.json({ data: [] });
+    if (options.fetch) return options.fetch(url, init);
+    return new Response('<p>Public documentation</p>');
+  };
+  const common = { Buffer, URL, AbortSignal, Response, process: { env }, fetch: fetcher, console: { error: (...x) => logs.push(x), warn: (...x) => logs.push(x) } };
+  const helper = { exports: {} };
+  vm.runInNewContext(fs.readFileSync(helperFile, 'utf8'), { ...common, module: helper, exports: helper.exports });
+  class OpenAI {
+    constructor(opts) {
+      constructors.push(opts);
+      this.chat = { completions: { create: async (params, requestOptions) => {
+        model.push({ params: JSON.parse(JSON.stringify(params)), requestOptions });
+        if (options.providerError) throw new Error('synthetic-payload-canary');
+        return options.replies?.shift() || { choices: [{ message: { content: 'Android Enterprise answer synthetic-payload-canary' }, finish_reason: 'stop' }] };
+      } } };
+    }
+  }
+  const index = {
+    jsonResponse: (statusCode, body) => ({ statusCode, headers: { 'cache-control': 'no-store' }, body: JSON.stringify(body) }),
+    noContentResponse: () => ({ statusCode: 204, body: '' }),
+    loadSearchView: async () => [],
+    extractKeywords: () => ['android'],
+    searchDocs: () => ({ results: [{ title: 'Android Enterprise', url: '/android/', snippet: 'Established public source.' }] }),
+  };
+  const mod = { exports: {} };
+  vm.runInNewContext(options.source || fs.readFileSync(handlerFile, 'utf8'), { ...common, module: mod, exports: mod.exports, require: name => {
+    if (name === 'openai') return { OpenAI };
+    if (name.endsWith('content-index')) return index;
+    if (name.endsWith('native-mika')) return helper.exports;
+    throw Error(`Unexpected dependency ${name}`);
+  } });
+  return { ...mod.exports, helper: helper.exports, model, http, logs, constructors };
+}
+const envelope = (extra = {}) => ({ version: 1, retention: 'topics_only', message: 'Why does enterprise Wi-Fi provisioning fail? synthetic-payload-canary', history: [], ...extra });
+const event = data => ({ httpMethod: 'POST', body: JSON.stringify(data) });
+
+test('native turns use established guidance/tools and persist only server vocabulary, including follow-ups', async () => {
+  const f = fixture();
+  const first = envelope({ context: { kind: 'provisioning QR', title: 'synthetic-payload-canary', content: { password: 'synthetic-payload-canary' } } });
+  assert.equal((await f.handler(event(first))).statusCode, 200);
+  assert.equal((await f.handler(event(envelope({ message: 'Explain that again', history: [{ role: 'user', content: 'synthetic-payload-canary' }, { role: 'assistant', content: 'synthetic-payload-canary' }] })))).statusCode, 200);
+  assert.equal(f.model.length, 2);
+  const params = f.model[0].params;
+  assert.match(params.messages[0].content, /ABSOLUTE RULES/);
+  assert.match(params.messages[0].content, /ANDROID ENTERPRISE FACTUAL GUARDRAILS/);
+  assert.ok(params.tools.some(t => t.function.name === 'sysapps_search'));
+  assert.ok(params.tools.some(t => t.function.name === 'fetch_url'));
+  assert.match(params.messages.at(-1).content, /synthetic-payload-canary/);
+  assert.equal(params.store, false);
+  assert.equal(f.constructors[0].maxRetries, undefined);
+  assert.equal(f.model[0].requestOptions, undefined);
+  assert.ok(f.http.length >= 4);
+  assert.ok(f.http.every(r => r.url.startsWith('https://ping.bayton.org/items/orb_questions')));
+  assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+  assert.match(f.http.find(r => r.method === 'POST').body, /\[Native MIKA\]/);
+  assert.ok(!JSON.stringify(f.logs).includes('synthetic-payload-canary'));
+});
+
+test('invalid native data and kill switch reject before paid work or analytics', async () => {
+  for (const data of [envelope({ version: 2 }), envelope({ retention: 'none' }), envelope({ history: [{ role: 'system', content: 'instruction' }] }), envelope({ message: [] }), envelope({ context: [] }), envelope({ message: 'x'.repeat(6001) }), envelope({ history: Array(11).fill({ role: 'user', content: 'x' }) }), envelope({ extra: 'unknown' })]) {
+    const f = fixture(); assert.equal((await f.handler(event(data))).statusCode, 400); assert.equal(f.model.length, 0); assert.equal(f.http.length, 0);
+  }
+  const f = fixture({ enabled: false }); assert.equal((await f.handler(event(envelope()))).statusCode, 503); assert.equal(f.model.length, 0);
+  assert.equal((await f.handler(event(envelope({ history: [{ role: 'user', content: '日'.repeat(20000) }] })))).statusCode, 413);
+});
+
+test('taxonomy never emits any user-controlled value, title, kind or proposed summary', async () => {
+  const f = fixture();
+  const summary = f.helper.classifyTopic('email person@example.com secret private canary', 'synthetic-payload-canary');
+  assert.equal(summary.topic, 'general'); assert.equal(summary.tool, 'general chat');
+  await f.helper.saveTopic({ topic: 'synthetic-payload-canary', intent: 'synthetic-payload-canary', tool: 'synthetic-payload-canary', question: 'synthetic-payload-canary' });
+  assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+});
+
+test('provider errors never persist or log request or answer bodies', async () => {
+  const f = fixture({ providerError: true });
+  assert.equal((await f.handler(event(envelope()))).statusCode, 500);
+  assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+  assert.ok(!JSON.stringify(f.logs).includes('synthetic-payload-canary'));
+});
+
+test('native tools retain the existing loop but cannot save raw questions', async () => {
+  const replies = [{ choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls: [
+    { id: 'search', type: 'function', function: { name: 'search_bayton', arguments: JSON.stringify({ query: 'android' }) } },
+    { id: 'save', type: 'function', function: { name: 'save_question', arguments: JSON.stringify({ question: 'synthetic-payload-canary', answer: 'synthetic-payload-canary' }) } },
+  ] } }] }];
+  const f = fixture({ replies });
+  assert.equal((await f.handler(event(envelope()))).statusCode, 200);
+  assert.equal(f.model.length, 2);
+  assert.match(f.model[1].params.messages.find(m => m.tool_call_id === 'search').content, /Established public source/);
+  assert.match(f.model[1].params.messages.find(m => m.tool_call_id === 'save').content, /logging is unavailable/);
+  assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+});
+
+test('explicit Android marker keeps malformed JSON out of error logs', async () => {
+  const f = fixture();
+  const result = await f.handler({ httpMethod: 'POST', headers: { 'X-Bayton-Client': 'android' }, body: '{synthetic-payload-canary' });
+  assert.equal(result.statusCode, 500);
+  assert.equal(f.model.length, 0);
+  assert.ok(!JSON.stringify(f.logs).includes('synthetic-payload-canary'));
+});
+
+test('website keeps original provider options, raw logging, tools and large request behaviour', async () => {
+  const f = fixture();
+  assert.equal((await f.handler(event({ message: 'Android Enterprise question? synthetic-payload-canary' }))).statusCode, 200);
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(f.model[0].params.store, undefined);
+  assert.equal(f.model[0].requestOptions, undefined);
+  assert.deepEqual(Object.keys(f.constructors[0]), ['apiKey']);
+  assert.ok(f.http.some(r => r.method === 'POST' && r.body.includes('synthetic-payload-canary')));
+  assert.equal(f.config, undefined);
+  const large = fixture();
+  assert.equal((await large.handler(event({ message: 'Android '.repeat(7000) }))).statusCode, 200);
+  const error = fixture({ providerError: true });
+  assert.equal((await error.handler(event({ message: 'Android question?' }))).statusCode, 500);
+  assert.equal(error.logs[0][0], 'Orb chat error:');
+  assert.equal(error.logs[0][1].message, 'synthetic-payload-canary');
+});
+
+test('native analytics reader stops oversized analytics responses', async () => {
+  const f = fixture();
+  await assert.rejects(f.helper.readTextBounded(new Response('x'.repeat(2000)), 1000), /response_too_large/);
+});
+
+module.exports = { fixture, event };
