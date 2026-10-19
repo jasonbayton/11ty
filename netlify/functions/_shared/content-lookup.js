@@ -9,11 +9,6 @@ function validateLookupParams(params) {
   return { url, format };
 }
 
-/** The mirror publishes the original source. Frontmatter is metadata, not article text. */
-function markdownBody(source) {
-  return source.replace(/^\uFEFF/, '').replace(/^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/, '');
-}
-
 async function lookupContent(docs, params, fetcher = fetch) {
   const { url, format } = validateLookupParams(params);
   const found = docs.find(doc => doc.url === url);
@@ -33,11 +28,11 @@ async function lookupContent(docs, params, fetcher = fetch) {
     const raw = await response.text();
     // A missing-file HTML response must never be labelled as Markdown.
     if (/^\s*(?:<!doctype\s+html|<html\b)/i.test(raw)) throw Error('Mirror returned HTML.');
-    const content = markdownBody(raw);
+    const content = raw;
     if (!content.trim()) throw Error('Mirror article is empty.');
     return { ...found, content, format: 'markdown', sourceUrl: source.href };
   } catch {
     throw new MarkdownUnavailableError('Markdown source is temporarily unavailable.');
   }
 }
-module.exports = { lookupContent, validateLookupParams, markdownBody, MarkdownUnavailableError };
+module.exports = { lookupContent, validateLookupParams, MarkdownUnavailableError };

@@ -179,7 +179,7 @@ test('MIKA can read complete Markdown after searching while keeping canonical ci
  ]});
  const response=await f.handler(event(envelope()));assert.equal(response.statusCode,200);
  const tool=f.model[2].params.messages.find(m=>m.tool_call_id==='article');
- assert.match(tool.content,/# Full guide/);assert.match(tool.content,/\*\*Bold\*\*/);
+ assert.match(tool.content,/title: Guide/);assert.match(tool.content,/# Full guide/);assert.match(tool.content,/\*\*Bold\*\*/);
  assert.deepEqual(JSON.parse(response.body).sources,[{title:'Android guide',url:'https://bayton.org/android/guide/'}]);
  assert.ok(f.model.every(m=>m.params.store===false));
  assert.ok(!JSON.stringify(f.http.filter(h=>h.url.startsWith('https://ping'))).includes('synthetic-payload-canary'));

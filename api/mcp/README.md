@@ -285,7 +285,7 @@ For example, call `search_content` with `{"from":"2026-10-01","to":"2026-10-31",
 
 `get_content_by_url` accepts an optional `format`: `text` (the unchanged default)
 or `markdown`. Markdown requests return the raw published source from bayton.md,
-with opening YAML frontmatter removed, plus `format` and `sourceUrl` metadata.
+including YAML frontmatter, plus `format` and `sourceUrl` metadata.
 The body preserves headings, links, tables, code, entities and whitespace. It can
 contain Eleventy directives because it is source Markdown, not rendered HTML.
 
@@ -299,3 +299,5 @@ Each published mirror page also exposes its source at `https://bayton.md/<path>/
 MIKA can retrieve complete Markdown articles after search through the same lookup.
 Its external Android documentation fetch no longer truncates extracted text at
 4,000 characters; the existing domain restrictions and timeout still apply.
+
+Consumers rendering a content preview should remove an opening YAML frontmatter block locally; retrieval preserves the source unchanged.

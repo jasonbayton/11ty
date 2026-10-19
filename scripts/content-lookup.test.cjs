@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { lookupContent, markdownBody, MarkdownUnavailableError } = require('../netlify/functions/_shared/content-lookup');
+const { lookupContent, MarkdownUnavailableError } = require('../netlify/functions/_shared/content-lookup');
 const doc = { title: 'Guide', url: '/android/guide/', date: '2026-10-19', content: 'Legacy plain content' };
 test('default and explicit text preserve exact response and never fetch', async () => {
  for (const format of [undefined, 'text']) {
@@ -9,15 +9,13 @@ test('default and explicit text preserve exact response and never fetch', async 
  }
  assert.equal(await lookupContent([doc],{url:'/missing/',format:'markdown'},()=>{throw Error('No fetch for unknown path');}),null);
 });
-test('Markdown is complete, preserves structure/entities/whitespace and strips opening metadata only', async () => {
+test('Markdown is complete, preserves structure/entities/whitespace including source frontmatter', async () => {
  const body='\n# Heading\n\n**Bold** and [link](/android/) &amp;\n\n```json\n{"a":1}\n```\n'+ 'long documentation '.repeat(500)+'AFTER_4000\n';
  const raw='---\r\ntitle: Guide\r\nstatus: publish\r\n---\r\n'+body;
  const result=await lookupContent([doc],{url:doc.url,format:'markdown'},async(url,init)=>{
   assert.equal(url,'https://bayton.md/android/guide/index.md'); assert.equal(init.redirect,'error'); return new Response(raw);
  });
- assert.equal(result.content,body); assert.equal(result.format,'markdown'); assert.equal(result.sourceUrl,'https://bayton.md/android/guide/index.md');
- assert.equal(markdownBody('---\ntitle: incomplete\n'), '---\ntitle: incomplete\n');
- assert.equal(markdownBody('    indented code\n'), '    indented code\n');
+ assert.equal(result.content,raw); assert.equal(result.format,'markdown'); assert.equal(result.sourceUrl,'https://bayton.md/android/guide/index.md');
 });
 test('missing or invalid mirrors fail explicitly and foreign URLs never fetch', async () => {
  for(const fetcher of [async()=>new Response('missing',{status:404}),async()=>new Response('<!doctype html><html>Not found</html>'),async()=>{throw Error('Timeout');}])
