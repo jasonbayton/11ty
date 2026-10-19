@@ -78,6 +78,7 @@ function parseIndex(raw) {
       url: String(item.url),
       date: item.date ? String(item.date) : '',
       content: item.content == null ? '' : String(item.content),
+      richSummary: item.richSummary,
     }));
 }
 
@@ -488,7 +489,14 @@ function searchDocs(searchableDocs, query, limit) {
   };
 }
 
+// Keep all existing URL-lookup response fields and ordering unchanged.
+function legacyDocument({ title, url, date, content }) {
+  return { title, url, date, content };
+}
+
 module.exports = {
+  parseIndex,
+  legacyDocument,
   buildSearchView,
   createSearchMatcher,
   extractKeywords,

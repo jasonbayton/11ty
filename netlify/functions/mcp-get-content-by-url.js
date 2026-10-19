@@ -9,6 +9,7 @@ const {
   isDevelopment,
   jsonResponse,
   loadIndex,
+  legacyDocument,
   noContentResponse,
   safeMessage,
   validateUrlParams,
@@ -78,7 +79,7 @@ exports.handler = async event => {
       });
     }
 
-    return jsonResponse(200, found);
+    return jsonResponse(200, legacyDocument(found));
   } catch (error) {
     const message = error && typeof error.message === 'string' ? error.message : '';
     const isClientError =
