@@ -13,7 +13,6 @@ const z = require('zod/v4');
 const { validateContentQuery, queryContent, contentSearchSchema } = require('../../netlify/functions/_shared/content-query');
 const {
   loadIndex,
-  legacyDocument,
   loadSearchView,
   searchDocs,
   validateSearchParams,
@@ -96,7 +95,7 @@ async function main() {
         content: [
           {
             type: 'text',
-            text: JSON.stringify(legacyDocument(found), null, 2),
+            text: JSON.stringify(found, null, 2),
           },
         ],
       };

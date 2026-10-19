@@ -23,7 +23,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addFilter("richSummaryJson", content => JSON.stringify(require("./scripts/rich-summary.cjs")(content)));
   eleventyConfig.addFilter("contentFeedEntries", contentFeedEntries);
   eleventyConfig.addFilter("renderFeedEntries", contentFeedEntries.renderFeedEntries);
   eleventyConfig.addPlugin(syntaxHighlight);
