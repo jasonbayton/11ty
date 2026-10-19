@@ -1,5 +1,5 @@
 {
-  "lastReviewed": "2026-10-02",
+  "lastReviewed": "2026-10-19",
   "description": "A list of Android versions, their API levels, codenames, release dates, support status, estimated Android OS support end dates, and sourced Google Play services cutoff periods where known. This is maintained primarily for referencing Android OS versions in my projects as an external resource I can update without app updates, but it also provides a stable API for others to reference. The user-friendly table is available here: (https://bayton.org/android/android-versions).",
   "schema": {
     "version": "string",
@@ -12,15 +12,15 @@
     "playServicesEnd": "optional YYYY-MM-DD string; day 01 represents a documented month, not a verified cutoff day"
   },
   "items": [
-        {
+    {
       "version": "17",
       "apiLevel": 37,
       "codename": "Cinnamon Bun",
-      "releaseDate": "2026-02-13",
+      "releaseDate": "2026-06-16",
       "icon": "https://cdn.bayton.org/assets/android_version_icons/android_17.svg",
       "status": "latest",
       "supported": true,
-      "productionRelease": false,
+      "productionRelease": true,
       "eolDate": null
     },
     {
