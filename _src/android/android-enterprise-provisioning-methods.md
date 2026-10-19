@@ -7,6 +7,7 @@ excerpt: 'A comprehensive guide to every Android Enterprise provisioning method 
 type: documentation
 tags:
     - Provisioning
+    - app-highlight
 layout: base.njk
 eleventyNavigation:
   order: 2500

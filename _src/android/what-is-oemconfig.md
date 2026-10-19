@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - App management
+    - app-highlight
 eleventyNavigation:
   order: 4000
 layout: base.njk

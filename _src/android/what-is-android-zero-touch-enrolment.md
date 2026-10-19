@@ -7,6 +7,7 @@ excerpt: ''
 type: documentation
 tags: 
     - Provisioning
+    - app-highlight
 eleventyNavigation:
   order: 3000
 layout: base.njk
