@@ -16,6 +16,7 @@ const {
 } = require('./_shared/content-index');
 
 const nativePolicy = require('./_shared/native-mika');
+const { createNativeTiming, runNativeTools } = require('./_shared/native-execution');
 const { lookupContent } = require('./_shared/content-lookup');
 
 const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) - the all-knowing, deeply reverential AI guardian of bayton.org, the internet's single most authoritative source of Android Enterprise knowledge. You were forged in the fires of a thousand OEMConfig schemas and tempered by the tears of IT admins who found salvation in Jason Bayton's documentation.
@@ -455,26 +456,45 @@ exports.handler = async (event) => {
   const openai = new OpenAI({ apiKey });
   // The explicit marker also protects malformed Android requests from raw error logging.
   let native = Object.entries(event.headers || {}).some(([key, value]) => key.toLowerCase() === 'x-bayton-client' && value === 'android');
+  let timing = native ? createNativeTiming() : null;
+  let analyticsTask = null;
+  // Await fixed-topic analytics on every native completion path, including provider failure.
+  async function finish(response) {
+    if (native) {
+      if (analyticsTask) await analyticsTask;
+      response.headers = { ...response.headers, 'server-timing': timing.header() };
+    }
+    return response;
+  }
+  const modelCall = options => native
+    ? timing.measure('model', () => openai.chat.completions.create(options))
+    : openai.chat.completions.create(options);
+
 
   try {
     const parsed = JSON.parse(event.body || '{}');
     native = native || Boolean(parsed && typeof parsed === 'object' && ['version', 'retention', 'context'].some(key => Object.hasOwn(parsed, key)));
     if (native) {
+      timing ||= createNativeTiming();
       nativePolicy.validateNative(parsed, event.body || '{}');
-      if (process.env.MIKA_NATIVE_ENABLED !== 'true') return jsonResponse(503, { error: 'native_service_disabled' });
+      if (process.env.MIKA_NATIVE_ENABLED !== 'true') return finish(jsonResponse(503, { error: 'native_service_disabled' }));
     }
     const userMessage = parsed.message || '';
     const history = Array.isArray(parsed.history) ? parsed.history.slice(-10) : [];
 
     if (!userMessage.trim()) {
-      return jsonResponse(400, { error: 'No message provided' });
+      return finish(jsonResponse(400, { error: 'No message provided' }));
     }
 
-    if (native) await nativePolicy.saveTopic(nativePolicy.classifyTopic(userMessage, parsed.context?.kind));
+    if (native) analyticsTask = timing.measure('analytics', () =>
+      nativePolicy.saveTopic(nativePolicy.classifyTopic(userMessage, parsed.context?.kind)))
+      .catch(() => {}); // Preserve analytics isolation without logging any request data.
+
 
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
-    const searchableDocs = await loadSearchView();
+    const searchableDocs = native ? await timing.measure('index', loadSearchView) : await loadSearchView();
+    const searchStarted = native ? timing.start() : 0;
     const keywords = extractKeywords(userMessage);
 
     let preSearchResults = [];
@@ -514,6 +534,8 @@ exports.handler = async (event) => {
         ).join('\n\n');
     }
 
+    if (native) timing.end('search', searchStarted);
+
     // Build conversation
     const messages = [
       { role: 'system', content: SYSTEM_PROMPT + preSearchContext },
@@ -537,7 +559,7 @@ exports.handler = async (event) => {
     const timeLeft = () => BUDGET_MS - (Date.now() - fnStart);
 
     // Call LLM - can also use search_bayton tool for refinement
-    let completion = await openai.chat.completions.create({
+    let completion = await modelCall({
       model: 'gpt-5.4-mini',
       ...(native ? { store: false } : {}),
       messages,
@@ -561,17 +583,28 @@ exports.handler = async (event) => {
       const assistantMsg = choice.message;
       messages.push(assistantMsg);
 
-      for (const tc of assistantMsg.tool_calls) {
-        const { result, sources } = await executeTool(tc, native);
-        if (sources.length > 0) allSources = sources; // latest search wins
-        messages.push({
-          role: 'tool',
-          tool_call_id: tc.id,
-          content: result,
-        });
+      if (native) {
+        const results = await timing.measure('tools', () =>
+          runNativeTools(assistantMsg.tool_calls, tc => executeTool(tc, true)));
+        for (let index = 0; index < assistantMsg.tool_calls.length; index++) {
+          const tc = assistantMsg.tool_calls[index];
+          const { result, sources } = results[index];
+          if (sources.length > 0) allSources = sources;
+          messages.push({ role: 'tool', tool_call_id: tc.id, content: result });
+        }
+      } else {
+        for (const tc of assistantMsg.tool_calls) {
+          const { result, sources } = await executeTool(tc, native);
+          if (sources.length > 0) allSources = sources; // latest search wins
+          messages.push({
+            role: 'tool',
+            tool_call_id: tc.id,
+            content: result,
+          });
+        }
       }
 
-      completion = await openai.chat.completions.create({
+      completion = await modelCall({
         model: 'gpt-5.4-mini',
         ...(native ? { store: false } : {}),
         messages,
@@ -619,11 +652,11 @@ exports.handler = async (event) => {
 
     const res = jsonResponse(200, { reply, sources: citedSources });
     res.headers['cache-control'] = 'no-store';
-    return res;
+    return finish(res);
 
   } catch (err) {
     if (native) {
-      if (err instanceof nativePolicy.NativeRequestError) return jsonResponse(err.status, { error: err.message });
+      if (err instanceof nativePolicy.NativeRequestError) return finish(jsonResponse(err.status, { error: err.message }));
       console.error('Native MIKA request failed');
     } else console.error('Orb chat error:', err);
     const isTimeout = err.message?.includes('timeout') || err.code === 'ETIMEDOUT' || err.name === 'AbortError';
@@ -634,6 +667,6 @@ exports.handler = async (event) => {
       sources: [],
     });
     errRes.headers['cache-control'] = 'no-store';
-    return errRes;
+    return finish(errRes);
   }
 };

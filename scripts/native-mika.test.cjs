@@ -11,7 +11,7 @@ function fixture(options = {}) {
   if (options.unsetGate) delete env.MIKA_NATIVE_ENABLED;
   const fetcher = async (url, init = {}) => {
     http.push({ url: String(url), ...init });
-    if (String(url).startsWith('https://ping.bayton.org/')) return Response.json({ data: [] });
+    if (String(url).startsWith('https://ping.bayton.org/')) { if (options.analyticsBarrier) await options.analyticsBarrier; return Response.json({ data: [] }); }
     if (options.fetch) return options.fetch(url, init);
     return new Response('<p>Public documentation</p>');
   };
@@ -23,6 +23,7 @@ function fixture(options = {}) {
       constructors.push(opts);
       this.chat = { completions: { create: async (params, requestOptions) => {
         model.push({ params: JSON.parse(JSON.stringify(params)), requestOptions });
+        if (options.modelBarrier) await options.modelBarrier;
         if (options.providerError) throw new Error('synthetic-payload-canary');
         return options.replies?.shift() || { choices: [{ message: { content: 'Android Enterprise answer synthetic-payload-canary' }, finish_reason: 'stop' }] };
       } } };
@@ -31,7 +32,7 @@ function fixture(options = {}) {
   const index = {
     jsonResponse: (statusCode, body) => ({ statusCode, headers: { 'cache-control': 'no-store' }, body: JSON.stringify(body) }),
     noContentResponse: () => ({ statusCode: 204, body: '' }),
-    loadSearchView: async () => options.docs || [],
+    loadSearchView: async () => { if (options.indexBarrier) await options.indexBarrier; return options.docs || []; },
     extractKeywords: () => ['android'],
     searchDocs: () => ({ results: [{ title: 'Android Enterprise', url: '/android/', snippet: 'Established public source.' }] }),
   };
@@ -44,6 +45,7 @@ function fixture(options = {}) {
       return { lookupContent: (docs, params) => actual.lookupContent(docs, params, fetcher) };
     }
     if (name.endsWith('native-mika')) return helper.exports;
+    if (name.endsWith('native-execution')) return require('../netlify/functions/_shared/native-execution');
     throw Error(`Unexpected dependency ${name}`);
   } });
   return { ...mod.exports, helper: helper.exports, model, http, logs, constructors };
@@ -183,4 +185,117 @@ test('MIKA can read complete Markdown after searching while keeping canonical ci
  assert.deepEqual(JSON.parse(response.body).sources,[{title:'Android guide',url:'https://bayton.org/android/guide/'}]);
  assert.ok(f.model.every(m=>m.params.store===false));
  assert.ok(!JSON.stringify(f.http.filter(h=>h.url.startsWith('https://ping'))).includes('synthetic-payload-canary'));
+});
+
+function deferred() {
+  let resolve, reject;
+  const promise = new Promise((yes, no) => { resolve = yes; reject = no; });
+  return { promise, resolve, reject };
+}
+const tick = () => new Promise(resolve => setImmediate(resolve));
+
+test('native timing headers contain only fixed numeric phases, including probes and errors; website has none', async () => {
+  for (const options of [{}, { providerError: true }]) {
+    const f = fixture(options);
+    const result = await f.handler(event(envelope()));
+    assert.match(result.headers['server-timing'], /^analytics;dur=\d+\.\d, index;dur=\d+\.\d, search;dur=\d+\.\d, model;dur=\d+\.\d, tools;dur=\d+\.\d, total;dur=\d+\.\d$/);
+    assert.ok(!JSON.stringify(result.headers).includes('synthetic-payload-canary'));
+  }
+  const probe = await fixture().handler(event(envelope({ version: 2 })));
+  assert.equal(probe.statusCode, 400);
+  assert.ok(probe.headers['server-timing']);
+  const website = await fixture().handler(event({ message: 'Android question?' }));
+  assert.equal(website.headers['server-timing'], undefined);
+});
+
+test('native tool workers bound concurrency at three and return original order', async () => {
+  const { runNativeTools } = require('../netlify/functions/_shared/native-execution');
+  const barriers = Array.from({ length: 5 }, deferred);
+  const started = [];
+  let active = 0, highest = 0;
+  const pending = runNativeTools([0, 1, 2, 3, 4], async index => {
+    started.push(index); highest = Math.max(highest, ++active);
+    await barriers[index].promise;
+    active--; return index;
+  });
+  assert.deepEqual(started, [0, 1, 2]);
+  barriers[2].resolve(); await tick();
+  assert.deepEqual(started, [0, 1, 2, 3]);
+  barriers[1].resolve(); await tick();
+  assert.deepEqual(started, [0, 1, 2, 3, 4]);
+  barriers[4].resolve(); barriers[3].resolve(); barriers[0].resolve();
+  assert.deepEqual(await pending, [0, 1, 2, 3, 4]);
+  assert.equal(highest, 3);
+});
+
+test('native tool failure drains in-flight work and starts no further calls', async () => {
+  const { runNativeTools } = require('../netlify/functions/_shared/native-execution');
+  const barriers = Array.from({ length: 4 }, deferred);
+  const started = [];
+  let finished = false;
+  const pending = runNativeTools([0, 1, 2, 3], async index => {
+    started.push(index); await barriers[index].promise;
+    if (index === 1) throw new Error('Synthetic tool failure');
+    return index;
+  });
+  // Attach rejection handling immediately; no background rejection may escape the handler.
+  const observed = pending.then(() => { finished = true; }, error => { finished = true; return error; });
+  barriers[1].resolve(); await tick();
+  assert.equal(finished, false); assert.deepEqual(started, [0, 1, 2]);
+  barriers[0].resolve(); barriers[2].resolve();
+  assert.match((await observed).message, /Synthetic tool failure/);
+  assert.deepEqual(started, [0, 1, 2]);
+});
+
+function externalRound() {
+  return { choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls:
+    ['first', 'second'].map(id => ({ id, type: 'function', function: { name: 'fetch_url', arguments: JSON.stringify({ url: `https://developer.android.com/work/${id}/` }) } }))
+  } }] };
+}
+
+test('native parallel completion preserves original tool-message and latest-source ordering', async () => {
+  const first = deferred(), second = deferred(), started = [];
+  const f = fixture({ replies: [externalRound(), { choices: [{ finish_reason: 'stop', message: { content: 'https://developer.android.com/work/second/' } }] }], fetch: async url => {
+    const id = String(url).includes('/first/') ? 'first' : 'second'; started.push(id);
+    await (id === 'first' ? first.promise : second.promise);
+    return new Response(`<main>${id}</main>`);
+  } });
+  const pending = f.handler(event(envelope()));
+  await tick(); assert.deepEqual(started, ['first', 'second']);
+  second.resolve(); await tick(); first.resolve();
+  const result = await pending;
+  const tools = f.model[1].params.messages.filter(m => m.role === 'tool');
+  assert.deepEqual(tools.map(m => m.tool_call_id), ['first', 'second']);
+  assert.deepEqual(JSON.parse(result.body).sources, [{ title: 'developer.android.com/work/second/', url: 'https://developer.android.com/work/second/' }]);
+});
+
+test('website tools retain sequential execution and original provider behaviour', async () => {
+  const first = deferred(), second = deferred(), started = [];
+  const f = fixture({ replies: [externalRound()], fetch: async url => {
+    const id = String(url).includes('/first/') ? 'first' : 'second'; started.push(id);
+    await (id === 'first' ? first.promise : second.promise);
+    return new Response('<main>Public documentation</main>');
+  } });
+  const pending = f.handler(event({ message: 'Android Enterprise?' }));
+  await tick(); assert.deepEqual(started, ['first']);
+  first.resolve(); await tick(); assert.deepEqual(started, ['first', 'second']);
+  second.resolve(); const result = await pending;
+  assert.equal(result.statusCode, 200); assert.equal(result.headers['server-timing'], undefined);
+  assert.ok(f.model.every(call => call.params.store === undefined));
+});
+
+test('native topic persistence overlaps paid work but is awaited on success and provider failure', async () => {
+  for (const providerError of [false, true]) {
+    const barrier = deferred();
+    const f = fixture({ analyticsBarrier: barrier.promise, providerError });
+    let finished = false;
+    const pending = f.handler(event(envelope())).then(result => { finished = true; return result; });
+    await tick();
+    assert.equal(f.model.length, 1, 'Analytics must not serialise index/model work');
+    assert.equal(finished, false, 'The handler must still wait for topic persistence');
+    barrier.resolve();
+    assert.equal((await pending).statusCode, providerError ? 500 : 200);
+    assert.ok(f.http.some(call => call.url.startsWith('https://ping.bayton.org/') && call.method === 'POST'));
+    assert.ok(!JSON.stringify(f.http.filter(call => call.url.startsWith('https://ping.bayton.org/'))).includes('synthetic-payload-canary'));
+  }
 });
