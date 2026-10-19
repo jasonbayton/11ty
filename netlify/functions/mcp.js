@@ -15,7 +15,6 @@ const {
 } = require('@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js');
 const {
   loadIndex,
-  legacyDocument,
   loadSearchView,
   noContentResponse,
   searchDocs,
@@ -87,7 +86,7 @@ async function createServer() {
       }
 
       return {
-        content: [{ type: 'text', text: JSON.stringify(legacyDocument(found), null, 2) }],
+        content: [{ type: 'text', text: JSON.stringify(found, null, 2) }],
       };
     }
   );

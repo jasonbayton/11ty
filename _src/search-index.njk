@@ -8,7 +8,6 @@ eleventyExcludeFromCollections: yes
       "title": {{ post.data.title | jsonString | safe }},
       "url": {{ post.url | jsonString | safe }},
       "date": {{ post.date | jsonString | safe }},
-      "richSummary": {{ post.templateContent | richSummaryJson | safe }},
       "content": {{ post.templateContent | parseContent | jsonString | safe }}
     }{% if not loop.last %},{% endif %}
   {% endfor %}
