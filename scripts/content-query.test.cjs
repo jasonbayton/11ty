@@ -57,3 +57,15 @@ test('exact tag browsing is paginated across all page types and never changes or
   assert.throws(()=>validateContentQuery({tag:''}));
   assert.deepEqual(queryContent(tagged,validateContentQuery({query:'page'})),searchDocs(tagged,'page',20));
 });
+
+test('legacy comma-joined and array tags both support exact tag discovery', () => {
+  const { parseIndex } = require('../netlify/functions/_shared/content-index');
+  const entries = parseIndex(JSON.stringify([
+    { title: 'String tags', url: '/android/string/', date: '2026-10-19', tags: 'android-docs,General,app-highlight', content: 'Guide' },
+    { title: 'Array tags', url: '/projects/array/', date: '2026-10-19', tags: ['android-docs', 'app-highlight'], content: 'Guide' },
+    { title: 'Nonmember', url: '/android/other/', date: '2026-10-19', tags: ['app-highlight-extra'], content: 'Guide' }
+  ]));
+  const listing = queryContent(buildSearchView(entries), validateContentQuery({tag: 'app-highlight'}));
+  assert.equal(listing.totalMatches, 2);
+  assert.deepEqual(new Set(listing.results.map(row => row.url)), new Set(['/android/string/', '/projects/array/']));
+});

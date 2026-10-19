@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: yes
     {
       "title": {{ post.data.title | jsonString | safe }},
       "url": {{ post.url | jsonString | safe }},
-      "tags": {{ post.data.tags | default([]) | jsonString | safe }},
+      "tags": {{ post.data.tags | default([]) | dump | safe }},
       "date": {{ post.date | jsonString | safe }},
       "content": {{ post.templateContent | parseContent | jsonString | safe }}
     }{% if not loop.last %},{% endif %}

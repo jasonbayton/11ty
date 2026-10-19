@@ -77,7 +77,7 @@ function parseIndex(raw) {
       title: String(item.title),
       url: String(item.url),
       date: item.date ? String(item.date) : '',
-      tags: (Array.isArray(item.tags) ? item.tags : typeof item.tags === 'string' ? [item.tags] : []).filter(tag => typeof tag === 'string'),
+      tags: (Array.isArray(item.tags) ? item.tags : typeof item.tags === 'string' ? [item.tags] : []).filter(tag => typeof tag === 'string').flatMap(tag => tag.split(',')).map(tag => tag.trim()).filter(Boolean),
       content: item.content == null ? '' : String(item.content),
     }));
 }
@@ -490,6 +490,7 @@ function searchDocs(searchableDocs, query, limit) {
 }
 
 module.exports = {
+  parseIndex,
   buildSearchView,
   createSearchMatcher,
   extractKeywords,
