@@ -44,3 +44,16 @@ test('MCP schema preserves ignored extension fields on undated legacy queries', 
     assert.deepEqual(queryContent(docs, validateContentQuery(params)), searchDocs(docs, 'android', 20));
   }
 });
+
+test('exact tag browsing is paginated across all page types and never changes ordinary search', () => {
+  const tagged = buildSearchView(Array.from({length: 35}, (_, n) => ({
+    title: `Page ${n}`, url: `/projects/page-${n}/`, content: 'A page', date: '2026-10-19', tags: ['app-highlight']
+  })).concat([{title: 'Keyword only app-highlight', url: '/android/other/', content: 'app-highlight', date: '2026-10-19', tags: ['other']} ]));
+  const first = queryContent(tagged, validateContentQuery({tag: 'app-highlight',limit:30}));
+  assert.equal(first.tag, 'app-highlight'); assert.equal(first.totalMatches,35); assert.equal(first.results.length,30); assert.equal(first.hasMore,true);
+  const second = queryContent(tagged, validateContentQuery({tag: 'app-highlight',offset:30,limit:30}));
+  assert.equal(second.results.length,5); assert.equal(second.hasMore,false);
+  assert.equal(new Set([...first.results,...second.results].map(row=>row.url)).size,35);
+  assert.throws(()=>validateContentQuery({tag:''}));
+  assert.deepEqual(queryContent(tagged,validateContentQuery({query:'page'})),searchDocs(tagged,'page',20));
+});

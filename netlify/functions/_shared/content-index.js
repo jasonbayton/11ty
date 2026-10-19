@@ -77,6 +77,7 @@ function parseIndex(raw) {
       title: String(item.title),
       url: String(item.url),
       date: item.date ? String(item.date) : '',
+      tags: (Array.isArray(item.tags) ? item.tags : typeof item.tags === 'string' ? [item.tags] : []).filter(tag => typeof tag === 'string'),
       content: item.content == null ? '' : String(item.content),
     }));
 }
