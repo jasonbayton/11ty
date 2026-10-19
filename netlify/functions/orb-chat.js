@@ -434,7 +434,8 @@ exports.handler = async (event) => {
     native = native || Boolean(parsed && typeof parsed === 'object' && ['version', 'retention', 'context'].some(key => Object.hasOwn(parsed, key)));
     if (native) {
       nativePolicy.validateNative(parsed, event.body || '{}');
-      if (process.env.MIKA_NATIVE_ENABLED !== 'true') return jsonResponse(503, { error: 'native_service_disabled' });
+      const nativeEnabled = process.env.MIKA_NATIVE_ENABLED ?? (process.env.CONTEXT === 'production' ? 'true' : 'false');
+      if (nativeEnabled !== 'true') return jsonResponse(503, { error: 'native_service_disabled' });
     }
     const userMessage = parsed.message || '';
     const history = Array.isArray(parsed.history) ? parsed.history.slice(-10) : [];

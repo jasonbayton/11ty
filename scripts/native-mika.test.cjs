@@ -7,7 +7,8 @@ const helperFile = path.resolve('netlify/functions/_shared/native-mika.js');
 const handlerFile = path.resolve('netlify/functions/orb-chat.js');
 function fixture(options = {}) {
   const model = [], http = [], logs = [], constructors = [];
-  const env = { OPENAI_API_KEY: 'synthetic-provider-key', ORB_DIRECTUS_API_KEY: 'synthetic-analytics-key', MIKA_NATIVE_ENABLED: options.enabled === false ? 'false' : 'true' };
+  const env = { OPENAI_API_KEY: 'synthetic-provider-key', ORB_DIRECTUS_API_KEY: 'synthetic-analytics-key', MIKA_NATIVE_ENABLED: options.enabled === false ? 'false' : 'true', CONTEXT: options.context || 'production' };
+  if (options.unsetGate) delete env.MIKA_NATIVE_ENABLED;
   const fetcher = async (url, init = {}) => {
     http.push({ url: String(url), ...init });
     if (String(url).startsWith('https://ping.bayton.org/')) return Response.json({ data: [] });
@@ -135,3 +136,18 @@ test('native analytics reader stops oversized analytics responses', async () => 
 });
 
 module.exports = { fixture, event };
+
+test('production is enabled after approval while previews default off and false stays a kill switch', async () => {
+  const production = fixture({ unsetGate: true });
+  assert.equal((await production.handler(event(envelope()))).statusCode, 200);
+  assert.equal(production.model.length, 1);
+  const preview = fixture({ unsetGate: true, context: 'deploy-preview' });
+  assert.equal((await preview.handler(event(envelope()))).statusCode, 503);
+  assert.equal(preview.model.length, 0); assert.equal(preview.http.length, 0);
+  const disabled = fixture({ enabled: false });
+  assert.equal((await disabled.handler(event(envelope()))).statusCode, 503);
+  assert.equal(disabled.model.length, 0); assert.equal(disabled.http.length, 0);
+  const invalid = fixture({ unsetGate: true });
+  assert.equal((await invalid.handler(event(envelope({ version: 2 })))).statusCode, 400);
+  assert.equal(invalid.model.length, 0); assert.equal(invalid.http.length, 0);
+});
