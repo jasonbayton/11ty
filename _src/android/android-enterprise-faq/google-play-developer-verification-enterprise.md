@@ -3,7 +3,7 @@ title: "What is Google Play developer verification, and how does it affect enter
 published: '2026-03-21'
 status: publish
 author: 'Jason Bayton'
-excerpt: "How Google's developer verification requirement (enforcing 30 September 2026) affects enterprise app distribution, including the exemptions for EMM-deployed and private apps."
+excerpt: "How Google's developer verification requirement (enforced from 30 September 2026) affects enterprise app distribution, including the exemptions for EMM-deployed and private apps."
 type: documentation
 tags:
     - FAQ
@@ -20,7 +20,7 @@ sources:
   - https://support.google.com/android-developer-console/answer/16561738
 ---
 
-From 30 September 2026, Google requires that apps installed on certified Android devices in **Brazil, Indonesia, Singapore, and Thailand** come from verified developers. This initial enforcement applies not only to Google Play but also to apps distributed through participating OEM stores (Samsung Galaxy Store, Xiaomi, OPPO, vivo, Honor, and Transsion). Additional regions are expected from 2027 onward, with global coverage planned over subsequent years.
+Since 30 September 2026, Google requires that apps installed on certified Android devices in **Brazil, Indonesia, Singapore, and Thailand** come from verified developers. This enforcement applies not only to Google Play but also to apps distributed through participating OEM stores (Samsung Galaxy Store, Xiaomi, OPPO, vivo, Honor, and Transsion). Additional regions are expected from 2027 onward, with global coverage planned over subsequent years.
 
 For most enterprise deployments, the impact is minimal:
 
