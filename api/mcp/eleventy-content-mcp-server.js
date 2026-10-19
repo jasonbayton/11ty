@@ -10,6 +10,7 @@
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
 const z = require('zod/v4');
+const { validateContentQuery, queryContent, contentSearchSchema } = require('../../netlify/functions/_shared/content-query');
 const {
   loadIndex,
   loadSearchView,
@@ -45,21 +46,22 @@ async function main() {
     'search_content',
     {
       title: 'Search site content',
-      description: 'Keyword search across titles and body text from search-index.json.',
-        inputSchema: {
-          query: z.string().min(2).describe('Search query in plain text.'),
-          limit: z.number().int().min(1).max(30).default(20).describe('Maximum number of results to return.'),
-        },
+      description: 'Search titles and text, or browse chronologically by section and inclusive indexed content date range. Returns compact snippets; fetch selected articles with get_content_by_url.',
+      inputSchema: contentSearchSchema,
     },
     async params => {
-      const { query, limit } = validateSearchParams(params);
-      const { totalMatches, results } = searchDocs(searchableDocs, query, limit);
+      const filters = validateContentQuery(params);
+      const listing = queryContent(searchableDocs, filters);
+      const { totalMatches, results } = listing;
+      const payload = filters.extended
+        ? { totalIndexed: searchableDocs.length, ...listing, returned: results.length }
+        : { totalIndexed: searchableDocs.length, totalMatches, returned: results.length, results };
 
       return {
         content: [
           {
             type: 'text',
-            text: JSON.stringify({ totalIndexed: searchableDocs.length, totalMatches, returned: results.length, results }, null, 2),
+            text: JSON.stringify(payload, null, 2),
           },
         ],
       };

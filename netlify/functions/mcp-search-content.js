@@ -14,6 +14,7 @@ const {
   safeMessage,
   validateSearchParams,
 } = require('./_shared/content-index');
+const { validateContentQuery, queryContent } = require('./_shared/content-query');
 
 /**
  * Parse request parameters from either query string or JSON body.
@@ -39,10 +40,7 @@ function parseParams(event) {
     }
   }
 
-  return {
-    query: event.queryStringParameters?.query,
-    limit: event.queryStringParameters?.limit,
-  };
+  return event.queryStringParameters || {};
 }
 
 /**
@@ -68,17 +66,15 @@ exports.handler = async event => {
 
   try {
     const params = parseParams(event);
-    const { query, limit } = validateSearchParams(params);
+    const filters = validateContentQuery(params);
 
     const searchableDocs = await loadSearchView();
-    const { totalMatches, results } = searchDocs(searchableDocs, query, limit);
+    const listing = queryContent(searchableDocs, filters);
+    const { results } = listing;
 
-    return jsonResponse(200, {
-      totalIndexed: searchableDocs.length,
-      totalMatches,
-      returned: results.length,
-      results,
-    });
+    return jsonResponse(200, filters.extended
+      ? { totalIndexed: searchableDocs.length, ...listing, returned: results.length }
+      : { totalIndexed: searchableDocs.length, totalMatches: listing.totalMatches, returned: results.length, results });
   } catch (error) {
     const message = error && typeof error.message === 'string' ? error.message : '';
     const isClientError =

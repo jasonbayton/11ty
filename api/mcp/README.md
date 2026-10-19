@@ -11,7 +11,7 @@ This repository exposes Bayton.org content through MCP and HTTP adapters so AI c
 1. Eleventy builds `/search-index.json` from `collections.all`, emitting `title`, `url`, `date`, and parsed `content` for each document.
 2. Runtime loaders read `_public/search-index.json` and `_src/_data/packages.json`.
 3. MCP endpoint exposes:
-   - `search_content(query, limit)`
+   - `search_content(query?, limit?, from?, to?, section?, sort?, offset?)`
    - `get_content_by_url(url)`
    - `sysapps_list_devices(make?, model?, os?, offset?, limit?)`
    - `sysapps_get_device_apps(make, model, os, offset?, limit?)`
@@ -270,3 +270,12 @@ curl "http://localhost:8888/api/mcp/get-content-by-url?url=/android/"
 - Gemini function calling + MCP section: https://ai.google.dev/gemini-api/docs/function-calling
 - Anthropic MCP connector (Messages API): https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector
 - Anthropic Claude Code/Desktop MCP config docs: https://docs.anthropic.com/en/docs/claude-code/mcp
+
+
+### Date-filtered browsing and lazy article retrieval
+
+Existing queries with no `from` or `to` keep their original validation, relevance ordering and response shape. Extra section/order/pagination fields are ignored on those undated calls, as unknown fields were previously. All other tools keep their existing behaviour.
+
+An explicit `from` or `to` enables inclusive `YYYY-MM-DD` indexed content date filtering. These are the dates in the existing index; Docs can use modification dates. The indexed membership is unchanged. Optional `section` is `Blog`, `Docs` or `Notes`; `sort` is `relevance`, `newest` or `oldest`; `offset` pages the filtered results. `limit` remains 1 to 30. Date-only browsing defaults to newest; a keyword query defaults to relevance unless ordering is explicitly selected.
+
+For example, call `search_content` with `{"from":"2026-10-01","to":"2026-10-31","section":"Blog","sort":"newest","limit":10}`. HTTP clients use `/api/mcp/search-content?from=2026-10-01&to=2026-10-31&section=Blog&sort=newest&limit=10`. Dated results add ISO dates and paging metadata, retain snippets, and omit full article bodies. Fetch a selected item with the existing `get_content_by_url` tool or HTTP adapter. No separate index generator or new tool is needed.
