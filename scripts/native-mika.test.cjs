@@ -137,10 +137,13 @@ test('native analytics reader stops oversized analytics responses', async () => 
 
 module.exports = { fixture, event };
 
-test('production is enabled after approval while previews default off and false stays a kill switch', async () => {
+test('native access requires explicit enablement and false remains a kill switch', async () => {
   const production = fixture({ unsetGate: true });
-  assert.equal((await production.handler(event(envelope()))).statusCode, 200);
-  assert.equal(production.model.length, 1);
+  assert.equal((await production.handler(event(envelope()))).statusCode, 503);
+  assert.equal(production.model.length, 0); assert.equal(production.http.length, 0);
+  const enabled = fixture();
+  assert.equal((await enabled.handler(event(envelope()))).statusCode, 200);
+  assert.equal(enabled.model.length, 1);
   const preview = fixture({ unsetGate: true, context: 'deploy-preview' });
   assert.equal((await preview.handler(event(envelope()))).statusCode, 503);
   assert.equal(preview.model.length, 0); assert.equal(preview.http.length, 0);
