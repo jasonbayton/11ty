@@ -72050,6 +72050,18 @@
       }
     ]
   },
+  "com.android.systemui.screenrecord.markup": {
+    "appName": "com.android.systemui.screenrecord.markup.MarkupApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.android.systemui.signal.overlay": {
     "appName": "com.android.systemui.signal.overlay",
     "userFacing": false,
@@ -72621,6 +72633,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "ASUS",
@@ -318848,6 +318865,11 @@
         "make": "samsung",
         "model": "SM-S921B",
         "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       },
       {
         "make": "ASUS",
