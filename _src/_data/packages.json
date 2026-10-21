@@ -189673,6 +189673,10 @@
         "name": "Keep notes"
       },
       {
+        "locale": "en-au",
+        "name": "Keep notes"
+      },
+      {
         "locale": "de-de",
         "name": "Notizen"
       },
@@ -189686,10 +189690,6 @@
       },
       {
         "locale": "en-jm",
-        "name": "Keep notes"
-      },
-      {
-        "locale": "en-au",
         "name": "Keep notes"
       },
       {
@@ -252986,12 +252986,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "de-de",
-        "name": "Launcher3"
-      },
-      {
         "locale": "en-au",
         "name": "Launcher"
+      },
+      {
+        "locale": "de-de",
+        "name": "Launcher3"
       },
       {
         "locale": "es-us",
