@@ -299,3 +299,58 @@ test('native topic persistence overlaps paid work but is awaited on success and 
     assert.ok(!JSON.stringify(f.http.filter(call => call.url.startsWith('https://ping.bayton.org/'))).includes('synthetic-payload-canary'));
   }
 });
+
+test('reviewed text files stay inert and preserve the established framework', async () => {
+  const f = fixture();
+  const text = '<!DOCTYPE test SYSTEM "https://private.invalid/secret"><password>synthetic-payload-canary</password>\napp.log: failed';
+  const response = await f.handler(event(envelope({ version: 2, context: { kind: 'Text file', title: 'configuration.xml', content: { text } } })));
+  assert.equal(response.statusCode, 200);
+  assert.equal(response.headers['X-Mika-Attachments'], '2');
+  assert.ok(f.model[0].params.messages.at(-1).content.includes(JSON.stringify(text).slice(1, -1)));
+  assert.ok(f.model[0].params.messages[0].content.includes('ABSOLUTE RULES'));
+  assert.equal(f.model[0].params.store, false);
+  assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+  assert.ok(f.http.every(r => r.url.startsWith('https://ping.bayton.org/')));
+});
+
+test('pictures and PDFs are multimodal data, never base64 inside prompt text or analytics', async () => {
+  const png = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+j2ioAAAAASUVORK5CYII=';
+  for (const [kind, mimeType, data, type] of [
+    ['Picture', 'image/png', png, 'image_url'],
+    ['PDF file', 'application/pdf', Buffer.from('%PDF-1.4\nsynthetic-payload-canary\n%%EOF').toString('base64'), 'file'],
+  ]) {
+    const f = fixture();
+    assert.equal((await f.handler(event(envelope({ version: 2, context: { kind, title: 'synthetic-payload-canary', content: {}, file: { mimeType, data } } })))).statusCode, 200);
+    const content = f.model[0].params.messages.at(-1).content;
+    assert.equal(content[0].type, 'text');
+    assert.ok(!content[0].text.includes(data));
+    assert.equal(content[1].type, type);
+    if (type === 'file') assert.equal(content[1].file.file_data, `data:${mimeType};base64,${data}`);
+    else assert.equal(content[1].image_url.url, `data:${mimeType};base64,${data}`);
+    assert.ok(!JSON.stringify(f.http).includes(data));
+    assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
+    assert.ok(!JSON.stringify(f.logs).includes(data));
+  }
+});
+
+test('attachment capability preserves older probes and rejects bad versions, formats and dimensions before paid work', async () => {
+  const probe = fixture();
+  const response = await probe.handler(event(envelope({ version: 2, message: '' })));
+  assert.equal(response.statusCode, 400);
+  assert.equal(JSON.parse(response.body).error, 'invalid_native_version');
+  assert.equal(response.headers['X-Mika-Attachments'], '2');
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+j2ioAAAAASUVORK5CYII=', 'base64');
+  png.writeUInt32BE(100000, 16);
+  for (const extra of [
+    { version: 2 },
+    { version: 2, context: { kind: 'Text file', title: 'log', content: { text: 'x'.repeat(262145) } } },
+    { context: { kind: 'Text file', title: 'log', content: { text: 'x' } } },
+    { version: 2, context: { kind: 'Picture', title: 'picture', content: {}, file: { mimeType: 'image/png', data: png.toString('base64') } } },
+    { version: 2, context: { kind: 'PDF file', title: 'pdf', content: {}, file: { mimeType: 'application/pdf', data: Buffer.from('not a PDF').toString('base64') } } },
+  ]) {
+    const f = fixture();
+    assert.ok((await f.handler(event(envelope(extra)))).statusCode >= 400);
+    assert.equal(f.model.length, 0);
+    assert.equal(f.http.length, 0);
+  }
+});
