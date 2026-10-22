@@ -58,28 +58,15 @@ The ads were relatively simple, they were set up to:
 
 What I ended up with however were two completely different audience sizes:
 
- <style type="text/css">
-			#gallery-8 {
-				margin: auto;
-			}
-			#gallery-8 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 50%;
-			}
-			#gallery-8 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-8 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-full" id="gallery-8"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2016/10/Edit-campaign3-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign3-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3315"> UK </dd></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2016/10/Edit-campaign2-Twitter-Ads.png)](/2016/10/how-a-promoted-tweet-landed-me-on-finnish-national-news/edit-campaign2-twitter-ads/) </dt> <dd class="wp-caption-text gallery-caption" id="gallery-8-3314"> Finland </dd></dl>  
+<div class="image-gallery image-gallery-2">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/10/Edit-campaign3-Twitter-Ads.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/10/Edit-campaign3-Twitter-Ads.png" alt="" loading="lazy"></a>
+    <figcaption>UK</figcaption>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/10/Edit-campaign2-Twitter-Ads.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/10/Edit-campaign2-Twitter-Ads.png" alt="" loading="lazy"></a>
+    <figcaption>Finland</figcaption>
+  </figure>
 </div>
  
 That’s a dramatic difference at first glance, but when considering the population of each country, and then acknowledging only roughly 5% of the Finnish population use Twitter vs closer to 35% for Brits (stats based on figures for 2015, estimated), it makes more sense.

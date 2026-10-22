@@ -2107,6 +2107,48 @@ section#sponsor_rrjfc {
   margin: 20px 0;
 }
 
+/* Shared gallery layout for photographs and screenshots, preserving full images. */
+.image-gallery {
+  --gallery-columns: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, max(12rem, calc((100% - (var(--gallery-columns) - 1) * 1rem) / var(--gallery-columns)))), 1fr));
+  align-items: start;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.image-gallery-2 { --gallery-columns: 2; }
+.image-gallery-3 { --gallery-columns: 3; }
+.image-gallery-4 { --gallery-columns: 4; }
+.image-gallery-5 { --gallery-columns: 5; }
+
+@supports (display: grid-lanes) {
+  .image-gallery {
+    display: grid-lanes;
+  }
+}
+
+.image-gallery figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.image-gallery a {
+  display: block;
+}
+
+.image-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.image-gallery figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 .post-block dd, .post-block-extra dd, #page_content dd {
   padding-bottom: 20px;
 }

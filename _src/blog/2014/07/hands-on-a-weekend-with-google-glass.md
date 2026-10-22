@@ -39,28 +39,16 @@ And, naturally, photographing food hands-free in all of these locations (if only
 
 ### Out of the box
 
- <style type="text/css">
-			#gallery-24 {
-				margin: auto;
-			}
-			#gallery-24 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-24 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-24 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-24"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg)](https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg) </dt></dl>  
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/06/DSC_0017.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/06/DSC_0018.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/06/DSC_0031.jpg" alt="" loading="lazy"></a>
+  </figure>
 </div>
  
 The packaging is stunning, honestly. For what is essentially a beta device, Google have really put a lot of time and effort into presentation. Upon opening the box you’re greeted with a semi-opaque sheet of paper that keeps the underlying hardware in place. Peeling the sheet back reveals Glass in all its glory and it’s stunning – sleek, smooth and beautifully designed. I ordered the shale option figuring the darker grey-colour would show the least amount of dirt with extended use (this is a corporate device, after all). I later found the colour option probably wouldn’t matter as the material it’s made with seems to pick up dirt pretty easily.
@@ -109,29 +97,23 @@ Glass comes with a limited set of applications out of the box. Using the compani
 
 ### Camera
 
- <style type="text/css">
-			#gallery-25 {
-				margin: auto;
-			}
-			#gallery-25 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-25 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-25 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-25"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160724_521/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154422_662/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145906_591/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160712_545.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160712_545/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150430_765/) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-5">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160712_545.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160712_545.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  I found the 5mp shooter in Glass to be perfectly adequate. Is it on par with the latest slew of flagship smartphones? No, but it holds its own.
 
@@ -183,52 +165,116 @@ I’d love to carry on using Glass, but unfortunately have to return it to the b
 
 Here are a collection of pictures I took while house-hunting over the weekend (and a couple of random shots). No, I won’t be purchasing these properties..
 
- <style type="text/css">
-			#gallery-26 {
-				margin: auto;
-			}
-			#gallery-26 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-26 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-26 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-26"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_150338_283.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150338_283/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145611_060.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145611_060/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145906_591/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150343_127.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150343_127/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160232_129.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160232_129/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_160047_007.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160047_007/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145352_995.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145352_995/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150817_662.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150817_662/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150147_589.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150147_589/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145311_363.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145311_363/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150430_765/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160146_611.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160146_611/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145151_169.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145151_169/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145147_938.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145147_938/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145347_189.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145347_189/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160724_521/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160551_485.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160551_485/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145239_307.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145239_307/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160727_296.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160727_296/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160446_409.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160446_409/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_155905_367.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_155905_367/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140626_170219_159.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140626_170219_159/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154422_662/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150245_675.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150245_675/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160049_749.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160049_749/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_145607_594.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145607_594/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140627_132024_064_x.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140627_132024_064_x/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_145306_799.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_145306_799/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160431_029.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160431_029/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140629_090332_773_x/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_154603_368.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154603_368/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_160740_215.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_160740_215/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x1.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140629_090332_773_x-2/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_154418_670.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154418_670/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2014/07/20140628_150434_355.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_150434_355/) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2014/07/20140628_154812_720.jpg)](/2014/07/hands-on-a-weekend-with-google-glass/20140628_154812_720/) </dt></dl>   
- </div>
+<div class="image-gallery image-gallery-5">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150338_283.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150338_283.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145611_060.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145611_060.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145906_591.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150343_127.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150343_127.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160232_129.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160232_129.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160047_007.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160047_007.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145352_995.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145352_995.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150817_662.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150817_662.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150147_589.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150147_589.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145311_363.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145311_363.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150430_765.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160146_611.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160146_611.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145151_169.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145151_169.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145147_938.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145147_938.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145347_189.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145347_189.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160724_521.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160551_485.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160551_485.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145239_307.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145239_307.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160727_296.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160727_296.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160446_409.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160446_409.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_155905_367.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_155905_367.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140626_170219_159.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140626_170219_159.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_154422_662.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150245_675.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150245_675.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160049_749.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160049_749.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145607_594.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145607_594.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140627_132024_064_x.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140627_132024_064_x.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_145306_799.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_145306_799.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160431_029.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160431_029.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x-e1404198751833.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_154603_368.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_154603_368.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_160740_215.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_160740_215.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x1.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140629_090332_773_x1.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_154418_670.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_154418_670.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_150434_355.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_150434_355.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2014/07/20140628_154812_720.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2014/07/20140628_154812_720.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
 
 Thanks for stopping by! Leave a comment or [join the conversation on Google+](https://plus.google.com/u/0/105616249858609350212/posts/Ar4Eo6J3pAZ)

@@ -53,32 +53,26 @@ On the bottom sits a mono speaker which is quite loud, though by no means the lo
 Software
 --------
 
- <style type="text/css">
-			#gallery-5 {
-				margin: auto;
-			}
-			#gallery-5 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-5 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-5 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-5"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png)](https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093005.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-091243.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-101058.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092916.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-092835.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/03/Screenshot_20170315-093628.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  The V7 ships with 6.0 Marshmallow and a light skin. Besides the hexagonal icons and an additional setting or two, the device is pretty much stock. Given the low-end processor and limited RAM, limiting the skinning was definitely a wise choice.
 

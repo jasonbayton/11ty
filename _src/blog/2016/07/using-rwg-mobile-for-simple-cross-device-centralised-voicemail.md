@@ -62,57 +62,36 @@ The app will then send a verification PIN to the device via SMS.
 
 Once the PIN verification completes, agree to the terms and conditions and skip through the promotional screens.
 
- <style type="text/css">
-			#gallery-9 {
-				margin: auto;
-			}
-			#gallery-9 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 25%;
-			}
-			#gallery-9 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-9 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-medium" id="gallery-9"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-4">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-46.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-56.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-55-58.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-01.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  ### Step 4
 
 Following the promotional screens, select **GET NUMBER**. On the next screen input a profile name, again tap **Get number** and accept the prompt warning your number will expire if you don’t get at least one call forwarded every 30 days.
 
- <style type="text/css">
-			#gallery-10 {
-				margin: auto;
-			}
-			#gallery-10 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-10 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-10 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-10"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-07.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-41.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-14-56-46.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  ### Step 5
 
@@ -127,29 +106,23 @@ Tap **Availability**, then in the new screen tap **Do not disturb**. Tap **OK** 
 
 When you return to the app home screen you’ll be met with a green cross through the voicemail profile. This is normal.
 
- <style type="text/css">
-			#gallery-11 {
-				margin: auto;
-			}
-			#gallery-11 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-11 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-11 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-medium" id="gallery-11"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> ![](https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-5">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-01-57.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-07.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-15.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-02-23.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/Screenshot_2016-07-21-16-03-01.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  ### Step 7
 

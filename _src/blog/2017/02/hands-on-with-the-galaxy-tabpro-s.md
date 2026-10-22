@@ -85,29 +85,14 @@ Unlike other 2-in-1’s the TabPro S comes with a keyboard out of the box. No ad
 
 It’s a little more than a keyboard too as it acts as a folio case, protecting both the front and the back while propping the tablet up in 2 distinctive angles for easy viewing. It attaches to the tab with reasonably strong magnets and stays put quite well.
 
- <style type="text/css">
-			#gallery-6 {
-				margin: auto;
-			}
-			#gallery-6 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 50%;
-			}
-			#gallery-6 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-6 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-large" id="gallery-6"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg)](https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-2">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich-e1486763499640.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_34_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich-e1486763488632.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/02/WP_20170210_21_13_54_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  Admittedly it took me a couple of hours to get used to the compact layout, the Surface keyboard benefits from spacing between keys however this is not the case with the Samsung. All the same once I was used to it there was absolutely no issue. I do find the angles to be slightly too extreme in many circumstances; sitting it upright for example is a little *too* upright on anything but a flat desk, and laying it on the lower angle I’ve found is only really super useful for typing in bed, on a lap or anywhere else I’m not necessarily sat up straight.
 

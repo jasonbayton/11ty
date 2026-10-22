@@ -73,52 +73,26 @@ Over all then it’s not too bad. For the price it could have perhaps benefited 
 Software
 --------
 
- <style type="text/css">
-			#gallery-4 {
-				margin: auto;
-			}
-			#gallery-4 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-4 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-4 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-4"><dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png)
-
-</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png)
-
-</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png)
-
-</dt></dl>
-<dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png)
-
-</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png)
-
-</dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait">
-
-[![](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)](https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png)
-
-</dt></dl>
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141754.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142341.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141749.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141737.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-141942.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/07/Screenshot_20170730-142412.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
 
  The Nokia 3 ships with Android N 7.0 out of the box. Considering the Wileyfox Swift 2x ships with 7.1.2 and Android O 8.0 is just around the corner it’s a little disappointing to see 7.0 being shipped (in the context of HMDG stating they were going to be focusing on updates and security from the get-go, I’d otherwise not complain). I did receive an update to bring the security level up to July 2017 in the first 10 days of ownership which is definitely encouraging, but more can be done.
 

@@ -78,29 +78,14 @@ After a lot of dusting (it’s impossible to get in there when they’re stacked
 
 ![20160713_153441](https://cdn.bayton.org/uploads/2016/07/20160713_153441.jpg)
 
- <style type="text/css">
-			#gallery-12 {
-				margin: auto;
-			}
-			#gallery-12 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-12 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-12 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-full" id="gallery-12"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg)](https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg)](https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg) </dt></dl>   
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/20160713_153448.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/07/20160713_153453-e1485293565424.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  At this point it’s worth pointing out *none of this is very black* and that would be right. I haven’t yet wired up the all-black power cables and given the rather quick turnaround on moving the disks, simply reused the far-too-long SATA cables I already had. As and when the parts come in I’ll publish some updated pictures.
 

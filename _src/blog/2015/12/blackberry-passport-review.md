@@ -104,29 +104,23 @@ I found low-light photos to be grainy and difficult to focus, a familiar problem
 
 Here are a few samples:
 
- <style type="text/css">
-			#gallery-16 {
-				margin: auto;
-			}
-			#gallery-16 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 20%;
-			}
-			#gallery-16 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-16 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-5 gallery-size-thumbnail" id="gallery-16"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg)](https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg)](https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg)](https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg)](https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg)](https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg) </dt></dl>  
- </div>Battery
+<div class="image-gallery image-gallery-5">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/12/IMG_20151003_112017.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/12/IMG_20150924_174112.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/12/IMG_20151114_201249.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/12/IMG_20151206_164926.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/12/IMG_20151115_091936.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>Battery
 -------
 
 BlackBerry tout 30 hours on a single charge and to their credit the Passport is possibly one of the best phones I’ve tested for battery life.

@@ -79,31 +79,31 @@ Overall then the device does feel well-built and substantial in the hand conside
 Software
 --------
 
- <style type="text/css">
-			#gallery-2 {
-				margin: auto;
-			}
-			#gallery-2 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 25%;
-			}
-			#gallery-2 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-2 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-2"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png)](https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png) </dt></dl>  
+<div class="image-gallery image-gallery-4">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133545.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133732.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133606.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133631.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133642.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133334.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133634.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/Screenshot_20171218-133549.png" alt="" loading="lazy"></a>
+  </figure>
 </div>
  
 Sony devices ship with a light skin atop Android which, depending on your own personal preferences, may be a good or bad thing. The XZ1 Compact is no different here, however although I do prefer pure, vanilla Android, Sony’s skin is by no means unattractive and is so lightweight I’ve mostly not even thought about it. It additionally ships with Android 8.0 and was one of the first OEMs to do so!
@@ -119,32 +119,20 @@ Naturally running 8.0 it also benefits from Oreo improvements, like picture-in-p
 Camera
 ------
 
- <style type="text/css">
-			#gallery-3 {
-				margin: auto;
-			}
-			#gallery-3 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 50%;
-			}
-			#gallery-3 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-3 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-2 gallery-size-thumbnail" id="gallery-3"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg)](https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg)](https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg)](https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg)](https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-2">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/DSC_0023.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/DSC_0010.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/DSC_0012.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/12/DSC_0007.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
 The camera is pretty good, though I’ve not put it through its paces in difficult environments (night, macro, etc). Certainly one of the better cameras I’ve used recently. There are plenty of other camera comparisons online, and I’d recommended searching those out, but the samples above give an indication of camera quality.
 

@@ -50,29 +50,17 @@ And condense it down into a simple easy to use interface for mobile devices.
 
 Well, they didn’t.
 
- <style type="text/css">
-			#gallery-17 {
-				margin: auto;
-			}
-			#gallery-17 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-17 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-17 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-17"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-35.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-27.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-02-28-09-33-12.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  What they’ve provided is a console for looking at devices and wiping them. The entire workflow is shown in the pictures above: Log in, select a device, perform an action. There’s no App management, no content management, no user management, no policy management, no back-end management.. I could go on. Their “mobile console” offers admins on mobile devices nothing more than the ability to look at a device and wipe it if necessary (and not even a full wipe), something that in 100% of the time I spend in AirWatch I’ve had to do less than 8%. I’d much rather be able to push out an app or reassign a policy.
 
@@ -88,29 +76,17 @@ And consolidate it down into a useful mobile-optimised application.
 
 Again, they haven’t. Although it has improved over time and is infinitely better than what AirWatch offers.
 
- <style type="text/css">
-			#gallery-18 {
-				margin: auto;
-			}
-			#gallery-18 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-18 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-18 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-18"><dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png)](https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-48.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot_2015-04-17-19-00-54.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2015/04/Screenshot-17-Apr-2015-7_43_53-pm.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
  
  Using the Office 365 administration app I can manage users (assign licences, edit names and addresses, etc) but I can’t manage OneDrive, Exchange, configure permissions in Sharepoint libraries, administer Yammer, etc. Again I could go on.
 

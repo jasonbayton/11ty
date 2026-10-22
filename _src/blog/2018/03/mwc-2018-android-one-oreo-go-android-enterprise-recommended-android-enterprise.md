@@ -105,47 +105,77 @@ Exploring MWC
 
 I’ve popped a few more photos below!
 
- <style type="text/css">
-			#gallery-1 {
-				margin: auto;
-			}
-			#gallery-1 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-1 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-1 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-thumbnail" id="gallery-1"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS2.jpg)](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS2.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS12.jpg)](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS12.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS-1.jpg)](https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS-1.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_124939.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_124939.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125931.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125931.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125947.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125947.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_130118.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_130118.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152206.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152206.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152720.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152720.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_104734.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_104734.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105131.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105131.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105217.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105217.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon portrait"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_110211.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_110211.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_111902.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_111902.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_112239.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_112239.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_163235.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_163235.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164801.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164801.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164916_1.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164916_1.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164941.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164941.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_175523.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_175523.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_180622.jpg)](https://cdn.bayton.org/uploads/2018/03/IMG_20180227_180622.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_153201.jpg)](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_153201.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_154759.jpg)](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_154759.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_181947.jpg)](https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_181947.jpg) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS2.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS2.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS12.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS12.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS-1.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/Image-uploaded-from-iOS-1.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_124939.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_124939.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125931.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125931.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125947.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_125947.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_130118.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_130118.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152206.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152206.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152720.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180226_152720.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_104734.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_104734.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105131.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105131.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105217.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_105217.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_110211.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_110211.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_111902.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_111902.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_112239.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_112239.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_163235.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_163235.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164801.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164801.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164916_1.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164916_1.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164941.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_164941.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_175523.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_175523.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_180622.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/IMG_20180227_180622.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_153201.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_153201.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_154759.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_154759.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_181947.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2018/03/MVIMG_20180226_181947.jpg" alt="" loading="lazy"></a>
+  </figure>
+</div>

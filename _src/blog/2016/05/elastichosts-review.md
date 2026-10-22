@@ -50,29 +50,17 @@ Typically all regions offer the same services, though some regions cost a little
 
 Once a region is selected, signing up for a free, 5-day trial account takes only a couple of minutes before you’re ready to get started. I was surprised to see ElasticHosts generates a password and sends it in two halves; one as an email and the other as a text. I’ve not seen this practice used by other providers and appreciate the security-concious approach.
 
- <style type="text/css">
-			#gallery-15 {
-				margin: auto;
-			}
-			#gallery-15 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-15 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-15 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-3 gallery-size-medium" id="gallery-15"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts.png)](/2016/05/elastichosts-review/dal-a-elastichosts/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png)](/2016/05/elastichosts-review/screenshot_2016-05-07-12-24-23/) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts-1.png)](/2016/05/elastichosts-review/dal-a-elastichosts-1/) </dt></dl>  
- </div>
+<div class="image-gallery image-gallery-3">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/05/Screenshot_2016-05-07-12-24-23-e1462623164860.png" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts-1.png" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2016/05/dal-a-ElasticHosts-1.png" alt="" loading="lazy"></a>
+  </figure>
+</div>
 
 The interface
 -------------

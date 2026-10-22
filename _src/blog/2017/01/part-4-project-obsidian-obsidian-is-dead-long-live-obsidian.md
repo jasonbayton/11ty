@@ -96,34 +96,34 @@ The Fractal Node 804 is available from [Amazon for around £99](https://www.amaz
 The finished product
 --------------------
 
- <style type="text/css">
-			#gallery-7 {
-				margin: auto;
-			}
-			#gallery-7 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 25%;
-			}
-			#gallery-7 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-7 .gallery-caption {
-				margin-left: 0;
-			}
-			/* see gallery_shortcode() in wp-includes/media.php */
-		</style>
-
-<div class="gallery galleryid-0 gallery-columns-4 gallery-size-thumbnail" id="gallery-7"><dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_42_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_42_Rich-e1485260516602.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon portrait"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg) </dt></dl><dl class="gallery-item"> <dt class="gallery-icon landscape"> [![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg) </dt></dl>  
-<dl class="gallery-item"> <dt class="gallery-icon landscape"> 
-
-[![](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg)](https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg) </dt></dl>   
+<div class="image-gallery image-gallery-4">
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_14_59_15_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_32_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_29_Rich-e1484493465508.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_16_Rich-e1484493536396.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_42_Rich-e1485260516602.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_00_42_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_03_07_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_02_38_Rich-e1484493487609.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_35_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
+  <figure>
+    <a href="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg" aria-label="View full-size image"><img src="https://cdn.bayton.org/uploads/2017/01/WP_20170115_15_05_42_Rich.jpg" alt="" loading="lazy"></a>
+  </figure>
 </div>
  
 Now with the build finally out of the way, the next posts in the series will concentrate on software and configuration!
