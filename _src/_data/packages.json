@@ -201,6 +201,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -344,11 +349,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -1692,6 +1692,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -1820,11 +1825,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -4712,6 +4712,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -4810,11 +4815,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -5319,6 +5319,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -5452,11 +5457,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -6138,6 +6138,10 @@
         "name": "Android R Easter Egg"
       },
       {
+        "locale": "en-tt",
+        "name": "Android R Easter Egg"
+      },
+      {
         "locale": "en-be",
         "name": "Android R Easter Egg"
       },
@@ -6180,10 +6184,6 @@
       {
         "locale": "pt-br",
         "name": "Android S Easter Egg"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Android R Easter Egg"
       }
     ],
     "devices": [
@@ -6315,6 +6315,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -6471,11 +6476,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -7340,6 +7340,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -7493,11 +7498,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -9164,6 +9164,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -9317,11 +9322,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -9937,6 +9937,10 @@
         "name": "Android Setup"
       },
       {
+        "locale": "en-tt",
+        "name": "Android Setup"
+      },
+      {
         "locale": "en-be",
         "name": "Android Setup"
       },
@@ -9971,10 +9975,6 @@
       {
         "locale": "pt-br",
         "name": "Mudar para Android"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Android Setup"
       }
     ],
     "devices": [
@@ -10101,6 +10101,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -10247,11 +10252,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -11036,6 +11036,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -11189,11 +11194,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -12035,6 +12035,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -12163,11 +12168,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -12782,6 +12782,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -12935,11 +12940,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -13626,6 +13626,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -13653,11 +13658,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -13954,6 +13954,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -14057,11 +14062,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -14532,6 +14532,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -14584,11 +14589,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -24784,6 +24784,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -24927,11 +24932,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -27232,6 +27232,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -27385,11 +27390,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -28038,6 +28038,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -28055,11 +28060,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -28535,6 +28535,10 @@
         "name": "Bluetooth"
       },
       {
+        "locale": "en-tt",
+        "name": "Bluetooth"
+      },
+      {
         "locale": "nl-nl",
         "name": "Bluetooth"
       },
@@ -28596,10 +28600,6 @@
       },
       {
         "locale": "pt-br",
-        "name": "Bluetooth"
-      },
-      {
-        "locale": "en-tt",
         "name": "Bluetooth"
       },
       {
@@ -28764,6 +28764,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -28907,11 +28912,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -29601,6 +29601,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -29754,11 +29759,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -30614,6 +30614,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -30761,11 +30766,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -33143,6 +33143,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -33241,11 +33246,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -34097,6 +34097,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -34250,11 +34255,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -35643,6 +35643,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -35791,11 +35796,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -37925,6 +37925,11 @@
         "os": "31"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -37948,11 +37953,6 @@
         "make": "DOOGEE",
         "model": "S41 Max",
         "os": "33"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -39175,6 +39175,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -39313,11 +39318,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -40483,6 +40483,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -40626,11 +40631,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -41533,6 +41533,10 @@
         "name": "CarrierDefaultApp"
       },
       {
+        "locale": "en-tt",
+        "name": "CarrierDefaultApp"
+      },
+      {
         "locale": "en-be",
         "name": "CarrierDefaultApp"
       },
@@ -41582,10 +41586,6 @@
       },
       {
         "locale": "pt-br",
-        "name": "CarrierDefaultApp"
-      },
-      {
-        "locale": "en-tt",
         "name": "CarrierDefaultApp"
       },
       {
@@ -41728,6 +41728,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -41874,11 +41879,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -43879,6 +43879,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -44017,11 +44022,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -44960,6 +44960,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -45113,11 +45118,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -45790,6 +45790,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -45802,11 +45807,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -46001,6 +46001,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -46154,11 +46159,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -48461,6 +48461,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -48534,11 +48539,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -50509,6 +50509,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -50662,11 +50667,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -51301,6 +51301,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -51313,11 +51318,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -51633,6 +51633,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -51756,11 +51761,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -52800,6 +52800,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -52903,11 +52908,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -53680,6 +53680,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -53737,11 +53742,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -54206,6 +54206,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -54359,11 +54364,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -55088,6 +55088,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -55241,11 +55246,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -55892,6 +55892,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -55904,11 +55909,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -56617,6 +56617,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -56700,11 +56705,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -57404,6 +57404,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -57547,11 +57552,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -58805,6 +58805,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -58933,11 +58938,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -59576,6 +59576,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -59714,11 +59719,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -61096,6 +61096,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -61153,11 +61158,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -61467,6 +61467,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -61509,11 +61514,6 @@
       {
         "make": "samsung",
         "model": "SM-S926B",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -61690,6 +61690,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -61702,11 +61707,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -62517,6 +62517,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -62529,11 +62534,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -62733,6 +62733,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -62876,11 +62881,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -63661,6 +63661,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -63814,11 +63819,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -64563,6 +64563,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -64611,11 +64616,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -65169,6 +65169,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -65226,11 +65231,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -65506,6 +65506,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -65518,11 +65523,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -66359,6 +66359,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -66391,11 +66396,6 @@
       {
         "make": "samsung",
         "model": "SM-S926B",
-        "os": "36"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -66790,6 +66790,11 @@
         "os": "35"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -66828,11 +66833,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -68154,6 +68154,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -68307,11 +68312,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -68917,6 +68917,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -68929,11 +68934,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -69308,14 +69308,14 @@
         "os": "31"
       },
       {
-        "make": "HMD Global",
-        "model": "Nokia G22",
-        "os": "34"
-      },
-      {
         "make": "Google",
         "model": "sdk_gphone16k_arm64",
         "os": "36"
+      },
+      {
+        "make": "HMD Global",
+        "model": "Nokia G22",
+        "os": "34"
       },
       {
         "make": "Google",
@@ -69377,6 +69377,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -69458,11 +69463,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -69768,6 +69768,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -69780,11 +69785,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -69914,6 +69914,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -69962,11 +69967,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -70167,6 +70167,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -70184,11 +70189,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -71829,6 +71829,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -71846,11 +71851,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -72050,6 +72050,18 @@
       }
     ]
   },
+  "com.android.systemui.screenrecord.markup": {
+    "appName": "com.android.systemui.screenrecord.markup.MarkupApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.android.systemui.signal.overlay": {
     "appName": "com.android.systemui.signal.overlay",
     "userFacing": false,
@@ -72243,6 +72255,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -72260,11 +72277,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -72623,6 +72635,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
@@ -72804,6 +72821,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -72897,11 +72919,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -73393,6 +73410,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -73546,11 +73568,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -74255,6 +74272,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -74393,11 +74415,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -77978,6 +77995,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -78096,11 +78118,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -79561,6 +79578,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -79689,11 +79711,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -80859,6 +80876,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -80967,11 +80989,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -87184,6 +87201,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -87201,11 +87223,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -87301,6 +87318,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -87318,11 +87340,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -92608,6 +92625,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -92620,11 +92642,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -93122,6 +93139,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -93134,11 +93156,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -93844,6 +93861,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -93972,11 +93994,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -94524,6 +94541,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -94596,11 +94618,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -96275,6 +96292,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -96348,11 +96370,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -119762,6 +119779,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -119915,11 +119937,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -121440,6 +121457,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -121593,11 +121615,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -124312,6 +124329,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -124400,11 +124422,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -125482,6 +125499,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -125595,11 +125617,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -126100,6 +126117,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -126167,11 +126189,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -127307,6 +127324,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -127450,11 +127472,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -128474,6 +128491,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -128582,11 +128604,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -131744,6 +131761,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -131897,11 +131919,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -135687,6 +135704,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -135754,11 +135776,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -136407,6 +136424,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -136455,11 +136477,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -138053,6 +138070,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -138161,11 +138183,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -139502,6 +139519,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -139645,11 +139667,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -140432,6 +140449,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -140585,11 +140607,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -141390,6 +141407,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -141538,11 +141560,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -142739,6 +142756,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -142837,11 +142859,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -144501,6 +144518,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -144644,11 +144666,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -146690,6 +146707,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -146803,11 +146825,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -150112,6 +150129,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -150265,11 +150287,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -154437,6 +154454,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -154580,11 +154602,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -159546,6 +159563,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -159699,11 +159721,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -164309,6 +164326,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -164412,11 +164434,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -166894,6 +166911,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -167037,11 +167059,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -168563,6 +168580,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -168716,11 +168738,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -169572,6 +169589,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -169725,11 +169747,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -172157,6 +172174,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -172300,11 +172322,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -172974,6 +172991,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -173127,11 +173149,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -173886,12 +173903,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
-        "name": "Google Play Protect-service"
-      },
-      {
         "locale": "en-gb",
         "name": "Google Play Protect service"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Google Play Protect-service"
       },
       {
         "locale": "en",
@@ -173927,6 +173944,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -173939,11 +173961,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -174241,6 +174258,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -174394,11 +174416,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -175574,6 +175591,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -175727,11 +175749,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -176517,6 +176534,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -176655,11 +176677,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -177584,6 +177601,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -177737,11 +177759,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -181189,6 +181206,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -181297,11 +181319,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -183988,6 +184005,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -184141,11 +184163,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -187019,6 +187036,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -187172,11 +187194,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -188286,6 +188303,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -188399,11 +188421,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -189656,6 +189673,10 @@
         "name": "Keep notes"
       },
       {
+        "locale": "en-au",
+        "name": "Keep notes"
+      },
+      {
         "locale": "de-de",
         "name": "Notizen"
       },
@@ -189672,11 +189693,11 @@
         "name": "Keep notes"
       },
       {
-        "locale": "en-au",
+        "locale": "en-ph",
         "name": "Keep notes"
       },
       {
-        "locale": "en-ph",
+        "locale": "en-tt",
         "name": "Keep notes"
       },
       {
@@ -189713,10 +189734,6 @@
       },
       {
         "locale": "en-za",
-        "name": "Keep notes"
-      },
-      {
-        "locale": "en-tt",
         "name": "Keep notes"
       },
       {
@@ -190215,6 +190232,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -190368,11 +190390,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -196527,6 +196544,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -196680,11 +196702,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -199239,6 +199256,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -199377,11 +199399,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -200006,6 +200023,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -200134,11 +200156,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -201005,6 +201022,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -201158,11 +201180,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -201912,6 +201929,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -202065,11 +202087,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -202650,6 +202667,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -202667,11 +202689,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -203831,6 +203848,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -203969,11 +203991,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -204797,6 +204814,10 @@
         "name": "Duo"
       },
       {
+        "locale": "en-tt",
+        "name": "Duo"
+      },
+      {
         "locale": "en-be",
         "name": "Duo"
       },
@@ -204827,10 +204848,6 @@
       {
         "locale": "pt-br",
         "name": "Duo Installer"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Duo"
       },
       {
         "locale": "",
@@ -206060,6 +206077,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -206188,11 +206210,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -209441,6 +209458,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -209589,11 +209611,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -214571,6 +214588,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -214724,11 +214746,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -215884,6 +215901,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -215962,11 +215984,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -218678,6 +218695,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -218821,11 +218843,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -221521,6 +221538,10 @@
         "name": "Nfc Service"
       },
       {
+        "locale": "en-tt",
+        "name": "Nfc Service"
+      },
+      {
         "locale": "en-be",
         "name": "Nfc Service"
       },
@@ -221570,10 +221591,6 @@
       },
       {
         "locale": "en-in",
-        "name": "Nfc Service"
-      },
-      {
-        "locale": "en-tt",
         "name": "Nfc Service"
       },
       {
@@ -221715,6 +221732,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -221871,11 +221893,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -222394,12 +222411,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "nl-nl",
-        "name": "NFC-service"
-      },
-      {
         "locale": "en-gb",
         "name": "NFC service"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "NFC-service"
       },
       {
         "locale": "en-de",
@@ -222414,6 +222431,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 10 Pro",
         "os": "37"
       },
@@ -222421,11 +222443,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -222934,6 +222951,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -223042,11 +223064,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -223909,6 +223926,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -224047,11 +224069,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -230023,6 +230040,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -230096,11 +230118,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -230952,6 +230969,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -231099,11 +231121,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -231904,6 +231921,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -232057,11 +232079,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -234294,6 +234311,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -234437,11 +234459,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -235796,6 +235813,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -235884,11 +235906,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -237030,6 +237047,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -237108,11 +237130,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -237706,6 +237723,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -237859,11 +237881,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -238511,6 +238528,10 @@
         "name": "Call Management"
       },
       {
+        "locale": "en-tt",
+        "name": "Call Management"
+      },
+      {
         "locale": "en-be",
         "name": "Call Management"
       },
@@ -238561,10 +238582,6 @@
       {
         "locale": "pt-br",
         "name": "Chamadas telefônicas"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Call Management"
       },
       {
         "locale": "en-pk",
@@ -238722,6 +238739,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -238875,11 +238897,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -239736,6 +239753,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -239889,11 +239911,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -241853,6 +241870,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -241951,11 +241973,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -242642,6 +242659,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -242765,11 +242787,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -243583,6 +243600,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -243595,11 +243617,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -244172,6 +244189,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -244199,11 +244221,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -246152,6 +246169,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -246305,11 +246327,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -247106,6 +247123,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -247259,11 +247281,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -247953,6 +247970,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -248081,11 +248103,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -249007,6 +249024,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -249160,11 +249182,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -249886,6 +249903,10 @@
         "name": "Punch hole cutout"
       },
       {
+        "locale": "en-tt",
+        "name": "Punch hole cutout"
+      },
+      {
         "locale": "en-be",
         "name": "Punch hole cutout"
       },
@@ -249936,10 +249957,6 @@
       {
         "locale": "pt-br",
         "name": "Recorte da câmera embutida"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Punch hole cutout"
       },
       {
         "locale": "en-pk",
@@ -250080,6 +250097,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -250226,11 +250248,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -252969,12 +252986,12 @@
     "userFacing": false,
     "additionalLocales": [
       {
-        "locale": "de-de",
-        "name": "Launcher3"
-      },
-      {
         "locale": "en-au",
         "name": "Launcher"
+      },
+      {
+        "locale": "de-de",
+        "name": "Launcher3"
       },
       {
         "locale": "es-us",
@@ -254716,6 +254733,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -254753,11 +254775,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -273095,6 +273112,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -273243,11 +273265,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -276970,6 +276987,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -277123,11 +277145,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -277976,6 +277993,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -277988,11 +278010,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -278283,6 +278300,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -278436,11 +278458,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -281234,6 +281251,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -281387,11 +281409,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -282913,6 +282930,10 @@
         "name": "Sim app dialogue"
       },
       {
+        "locale": "en-tt",
+        "name": "Sim app dialogue"
+      },
+      {
         "locale": "en-be",
         "name": "Sim app dialogue"
       },
@@ -282955,10 +282976,6 @@
       {
         "locale": "pt-br",
         "name": "Caixa de diálogo do app do chip"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Sim app dialogue"
       },
       {
         "locale": "en-pk",
@@ -283100,6 +283117,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -283246,11 +283268,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -284410,6 +284427,10 @@
         "name": "SIM Tool Kit"
       },
       {
+        "locale": "en-tt",
+        "name": "SIM Tool Kit"
+      },
+      {
         "locale": "en-be",
         "name": "SIM Tool Kit"
       },
@@ -284452,10 +284473,6 @@
       {
         "locale": "pt-br",
         "name": "Kit do SIM"
-      },
-      {
-        "locale": "en-tt",
-        "name": "SIM Tool Kit"
       },
       {
         "locale": "cs-cz",
@@ -284589,6 +284606,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -284730,11 +284752,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -291994,6 +292011,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -292097,11 +292119,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -292477,6 +292494,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -292489,11 +292511,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "37"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -292828,6 +292845,10 @@
         "name": "Google Text-to-speech engine"
       },
       {
+        "locale": "en-tt",
+        "name": "Google Text-to-speech engine"
+      },
+      {
         "locale": "en-be",
         "name": "Google Text-to-speech engine"
       },
@@ -292870,10 +292891,6 @@
       {
         "locale": "pt-br",
         "name": "Reconhecimento e síntese de voz do Google"
-      },
-      {
-        "locale": "en-tt",
-        "name": "Google Text-to-speech engine"
       },
       {
         "locale": "ja-jp",
@@ -293021,6 +293038,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
         "os": "36"
       },
       {
@@ -293177,11 +293199,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -294851,6 +294868,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -294974,11 +294996,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -296170,6 +296187,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -296308,11 +296330,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -297220,6 +297237,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -297288,11 +297310,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -297989,6 +298006,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -298127,11 +298149,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -299440,6 +299457,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -299568,11 +299590,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -300515,6 +300532,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -300663,11 +300685,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -301450,6 +301467,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -301603,11 +301625,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -303199,6 +303216,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -303262,11 +303284,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -303518,6 +303535,10 @@
         "name": "System Wi-Fi resources"
       },
       {
+        "locale": "en-tt",
+        "name": "System Wi-Fi resources"
+      },
+      {
         "locale": "nl-nl",
         "name": "Wifi-bronnen systeem"
       },
@@ -303576,10 +303597,6 @@
       {
         "locale": "pt-br",
         "name": "Recursos do Wi-Fi do sistema"
-      },
-      {
-        "locale": "en-tt",
-        "name": "System Wi-Fi resources"
       },
       {
         "locale": "cs-cz",
@@ -304170,6 +304187,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -304243,11 +304265,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -305468,6 +305485,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -305551,11 +305573,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -306321,6 +306338,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -306464,11 +306486,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -308812,6 +308829,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -308950,11 +308972,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -312937,6 +312954,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -313045,11 +313067,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -315263,6 +315280,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -315416,11 +315438,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -318850,6 +318867,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      },
+      {
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
@@ -319171,6 +319193,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -319218,11 +319245,6 @@
         "make": "samsung",
         "model": "SM-F721B",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -320368,6 +320390,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -320521,11 +320548,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -321238,12 +321260,12 @@
         "name": "Fondo de pantalla y estilo"
       },
       {
-        "locale": "nl-nl",
-        "name": "Achtergrond en stijl"
-      },
-      {
         "locale": "en-gb",
         "name": "Wallpaper and style"
+      },
+      {
+        "locale": "nl-nl",
+        "name": "Achtergrond en stijl"
       },
       {
         "locale": "en-bd",
@@ -321308,6 +321330,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -321345,11 +321372,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -321550,6 +321572,11 @@
         "os": "34"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -321593,11 +321620,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "TCL",
@@ -322893,6 +322915,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -323036,11 +323063,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -324857,6 +324879,11 @@
       },
       {
         "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
+        "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
       },
@@ -324899,11 +324926,6 @@
         "make": "Fairphone",
         "model": "FP5",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -327012,6 +327034,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -327150,11 +327177,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -328685,6 +328707,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -328838,11 +328865,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -330980,6 +331002,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -331133,11 +331160,6 @@
         "make": "Sony",
         "model": "I3312",
         "os": "27"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
@@ -331774,6 +331796,11 @@
         "os": "36"
       },
       {
+        "make": "Google",
+        "model": "sdk_gphone16k_arm64",
+        "os": "36"
+      },
+      {
         "make": "OUKITEL",
         "model": "WP28 E",
         "os": "34"
@@ -331867,11 +331894,6 @@
         "make": "motorola",
         "model": "moto g34 5G",
         "os": "34"
-      },
-      {
-        "make": "Google",
-        "model": "sdk_gphone16k_arm64",
-        "os": "36"
       },
       {
         "make": "Google",
