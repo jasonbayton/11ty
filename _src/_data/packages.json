@@ -6047,6 +6047,11 @@
         "os": "36"
       },
       {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
         "make": "samsung",
         "model": "SM-S928B",
         "os": "36"
@@ -76328,6 +76333,18 @@
       }
     ]
   },
+  "com.android.wifi.resources.overlay.trac.storage64.kansas": {
+    "appName": "com.android.wifi.resources.overlay.trac.storage64.kansas",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
+      }
+    ]
+  },
   "com.android.wifi.resources.overlay.vendor": {
     "appName": "com.android.wifi.resources.overlay.vendor",
     "userFacing": false,
@@ -93612,10 +93629,6 @@
       {
         "locale": "",
         "name": "Retail Demo"
-      },
-      {
-        "locale": "en-gb",
-        "name": "Retail Demo"
       }
     ],
     "devices": [
@@ -96078,6 +96091,11 @@
       {
         "make": "TCL",
         "model": "T517F",
+        "os": "36"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
         "os": "36"
       },
       {
@@ -102808,6 +102826,18 @@
   },
   "com.motorola.android.providers.settings.overlay.tmo": {
     "appName": "com.motorola.android.providers.settings.overlay.tmo",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
+      }
+    ]
+  },
+  "com.motorola.android.providers.settings.tracfone.storage64.kansas": {
+    "appName": "com.motorola.android.providers.settings.tracfone.storage64.kansas",
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
@@ -134802,7 +134832,7 @@
   },
   "com.tracfone.preload.accountservices": {
     "appName": "Device Pulse",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -158295,7 +158325,7 @@
   },
   "com.motorola.fmplayer": {
     "appName": "FM Radio",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [
       {
         "locale": "es-us",
@@ -164023,6 +164053,18 @@
         "make": "OPPO",
         "model": "CPH2637",
         "os": "35"
+      }
+    ]
+  },
+  "com.dti.folderlauncher": {
+    "appName": "GamesHub",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
       }
     ]
   },
@@ -183320,6 +183362,11 @@
         "make": "TCL",
         "model": "6025D_EEA",
         "os": "30"
+      },
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
       },
       {
         "make": "TCL",
@@ -210459,6 +210506,18 @@
       }
     ]
   },
+  "com.dti.tracfone": {
+    "appName": "Mobile Services Manager",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
+      }
+    ]
+  },
   "com.dti.samsung": {
     "appName": "Mobile Services Manager",
     "userFacing": false,
@@ -217101,7 +217160,7 @@
   },
   "com.tracfone.generic.mysites": {
     "appName": "MySites",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -243581,7 +243640,12 @@
   "com.google.android.apps.nexuslauncher": {
     "appName": "Pixel Launcher",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Launcher"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -243795,7 +243859,12 @@
   "com.google.android.apps.pixel.agent": {
     "appName": "Pixel Screenshots",
     "userFacing": true,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Screenshots"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
@@ -244164,6 +244233,10 @@
       {
         "locale": "es-us",
         "name": "Temas de Pixel"
+      },
+      {
+        "locale": "en-gb",
+        "name": "Googlebook Themes"
       }
     ],
     "devices": [
@@ -297140,7 +297213,7 @@
   },
   "com.swishme.tracfone": {
     "appName": "Swish",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -311231,7 +311304,7 @@
   },
   "com.huub.tiger": {
     "appName": "TheDaily",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -324748,7 +324821,12 @@
   "com.google.android.webapp.service": {
     "appName": "Web App Service",
     "userFacing": false,
-    "additionalLocales": [],
+    "additionalLocales": [
+      {
+        "locale": "en-gb",
+        "name": "Web app service"
+      }
+    ],
     "devices": [
       {
         "make": "Google",
