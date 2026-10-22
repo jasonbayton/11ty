@@ -2110,8 +2110,9 @@ section#sponsor_rrjfc {
 /* Shared gallery layout for photographs and screenshots, preserving full images. */
 .image-gallery {
   --gallery-columns: 3;
+  --gallery-min-width: 6rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, max(12rem, calc((100% - (var(--gallery-columns) - 1) * 1rem) / var(--gallery-columns)))), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, max(var(--gallery-min-width), calc((100% - (var(--gallery-columns) - 1) * 1rem) / var(--gallery-columns)))), 1fr));
   align-items: start;
   gap: 1rem;
   margin: 2rem 0;
@@ -2126,6 +2127,22 @@ section#sponsor_rrjfc {
   .image-gallery {
     display: grid-lanes;
   }
+}
+
+/* Opt in to a single scrolling row with larger, uncropped images. */
+.image-gallery.image-gallery-scroll {
+  display: grid;
+  grid-template-columns: none;
+  grid-auto-flow: column;
+  grid-auto-columns: min(100%, max(12rem, calc((100% - (var(--gallery-columns) - 1) * 1rem) / var(--gallery-columns))));
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x proximity;
+  padding-bottom: 0.5rem;
+}
+
+.image-gallery-scroll figure {
+  scroll-snap-align: start;
 }
 
 .image-gallery figure {
