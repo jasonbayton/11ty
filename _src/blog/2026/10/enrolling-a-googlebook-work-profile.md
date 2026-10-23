@@ -157,4 +157,4 @@ Back in [the wishlist](/blog/2026/10/what-i-want-from-googlebook-in-enterprise/)
 
 Having now watched a Googlebook enrol a work profile through Android Device Policy, I'm fairly confident it's much closer than previously let on. The management stack is in the OS, it enrols, and although I'm sure there's still much to do, hopefully it's not enough to keep it delayed until late next year.
 
-I've got a [work-profile tracker](/googlebook-work-profiles/) going with guidance on submitting feedback if you'd like to nudge Google along. If you've been poking at the same images, or want to chat about this in general, [get in touch](/contact/).
+I've got a [work profile tracker](/googlebook-work-profiles/) going with guidance on submitting feedback if you'd like to nudge Google along. If you've been poking at the same images, or want to chat about this in general, [get in touch](/contact/).
