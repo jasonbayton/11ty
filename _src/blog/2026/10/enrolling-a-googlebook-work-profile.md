@@ -101,7 +101,8 @@ That's a managed [work profile](/android/what-is-android-work-profile/) on a Goo
 
 ### The caveats
 
-- Given the system has been modified and verified boot turned off, I wouldn't expect banking apps and other apps requiring device integrity to work. - Recompiling an already compiled build is also far less ideal than being able to build from source for stability and reliability.
+- Given the system has been modified and verified boot turned off, I wouldn't expect banking apps and other apps requiring device integrity to work. 
+- Recompiling an already compiled build is also far less ideal than being able to build from source for stability and reliability.
 - I didn't extensively test policy enforcement, and I'm not going to.
 - As a proof of concept it does the job, and I'm happy with that. It isn't anything more.
 
