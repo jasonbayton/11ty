@@ -113,7 +113,7 @@ I did see some interesting screens though:
 
 <div class="image-gallery">
 <figure>
-  <a href="https://cdn.bayton.org/uploads/2026/googlebook-wp/Screenshot%202026-10-23_at_10.31.51.png"><img src="https://cdn.bayton.org/uploads/2026/googlebook-wp/Screenshot%202026-10-23_at_10.31.51.png" alt="The Googlebook OS welcome screen with Work and Personal setup options." loading="lazy"></a>
+  <a href="https://cdn.bayton.org/uploads/2026/googlebook-wp/Screenshot_2026-10-23_at_10.31.51.png"><img src="https://cdn.bayton.org/uploads/2026/googlebook-wp/Screenshot_2026-10-23_at_10.31.51.png" alt="The Googlebook OS welcome screen with Work and Personal setup options." loading="lazy"></a>
   <figcaption>The welcome screen, offering a Chromebook-style work or personal choice right at the beginning.</figcaption>
 </figure>
 </div>
