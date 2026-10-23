@@ -3,7 +3,7 @@ title: "Upcoming work profile support for Googlebook first look"
 date: '2026-10-23'
 status: publish
 author: 'Jason Bayton'
-excerpt: "In my week with the Googlebook I found device management declared unsupported, and wondered whether that was a deliberate switch or a genuine absence. Follow along as I try to figure it out."
+excerpt: "In testing Googlebook enrolment I found device management declared unsupported, but does that mean it's missing? Follow along as I try to figure it out."
 type: post
 tags:
   - Enterprise
