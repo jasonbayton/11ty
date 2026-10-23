@@ -11,6 +11,12 @@ excerpt: "Counting the days waiting for Android Enterprise work profiles on Goog
 
 <div class="googlebook-tracker" data-googlebook-tracker data-started-at="{{ tracker.startedAt }}" data-supported-at="{{ tracker.supportedAt or '' }}">
   <section class="gb-verdict service-text text-align-center padding-tb-30" aria-labelledby="gb-verdict">
+    {% if not tracker.supportedOn %}
+    <figure class="gb-laptops">
+      <img src="/img/site_media/googlebook-work-profiles-no.webp" alt="Three Googlebooks: a sad suited Android with an open briefcase on the HP, the original NO-sign Android on the Dell, and an Android kneeling, clutching his head and screaming upwards on the ASUS." width="2143" height="581" fetchpriority="high" decoding="async">
+      <figcaption><a href="https://github.com/jasonbayton/doesintunesupportaecope.info">Remember him?</a><small>Adapted from <a href="https://www.hp.com/us-en/newsroom/press-releases/2026/hp-googlebook-14-brings-premium-craftsmanship-to-googles-newest-connected-platform.html">HP</a>, <a href="https://www.dell.com/en-us/blog/everything-you-need-to-know-about-dell-s-xps-googlebook/">Dell</a> and <a href="https://press.asus.com/news/press-releases/asus-googlebook-14-gemini-intelligence/">ASUS</a> product imagery.</small></figcaption>
+    </figure>
+    {% endif %}
       <h2 id="gb-verdict">{% if tracker.supportedOn %}Yes. Finally. It took:{% else %}No, not yet. It has been:{% endif %}</h2>
     <div class="gb-clock padding-tb-20" role="timer" aria-live="off" aria-label="{{ tracker.timerLabel }}" data-wait-timer>
       {% for pair in tracker.timeParts | batch(2) %}

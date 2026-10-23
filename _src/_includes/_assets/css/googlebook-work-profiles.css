@@ -4,6 +4,29 @@
   container-type: inline-size;
 }
 
+.gb-laptops {
+  max-inline-size: 1100px;
+  margin: 0 auto 2rem;
+}
+
+.gb-laptops img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.gb-laptops figcaption {
+  margin-block-start: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.gb-laptops figcaption small {
+  display: block;
+  margin-block-start: 0.25rem;
+  font-size: 0.75rem;
+}
+
 .gb-clock {
   display: flex;
   justify-content: center;
