@@ -35459,7 +35459,7 @@
   },
   "com.vzw.ecid": {
     "appName": "Call Filter",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -49407,7 +49407,7 @@
   },
   "com.vcast.mediamanager": {
     "appName": "Cloud",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -282538,6 +282538,11 @@
         "os": "35"
       },
       {
+        "make": "motorola",
+        "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
         "make": "Dell",
         "model": "XPS Googlebook",
         "os": "37"
@@ -317498,7 +317503,7 @@
   },
   "com.securityandprivacy.android.verizon.vms": {
     "appName": "Verizon Protect",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
