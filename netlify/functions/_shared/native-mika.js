@@ -93,6 +93,27 @@ async function saveTopic(summary, { fetch: fetcher = fetch, key = process.env.OR
     }
   } catch (_) { /* Analytics failure must never log request data or fail an answer. */ }
 }
+function publicTopicQuestion(question) {
+  if (typeof question !== 'string' || !question.trim()) return null;
+  if (!question.startsWith('[Native MIKA]')) return question;
+  const prompts = {
+    explain: label => `Can you explain ${label}?`,
+    troubleshoot: label => `How do I troubleshoot ${label}?`,
+    compare: label => `How do I compare options for ${label}?`,
+    configure: label => `How do I configure ${label}?`,
+  };
+  // Recognise only complete summaries from our fixed vocabulary, including old rows.
+  for (const topic of [...TOPICS, ['general', null, 'Android Enterprise']]) {
+    for (const intent of [...INTENTS, ['explain', null, 'Explain']]) {
+      for (const tool of [...Object.values(TOOLS), 'general chat']) {
+        if (question === `[Native MIKA] ${intent[2]} ${topic[2]} (${tool}).`) {
+          return prompts[intent[0]](topic[2]);
+        }
+      }
+    }
+  }
+  return null;
+}
 async function readTextBounded(response, maximum) {
   const reader = response.body?.getReader();
   if (!reader) return '';
@@ -122,4 +143,4 @@ function userContent(parsed) {
       : { type: 'file', file: { filename: 'attachment.pdf', file_data: data } },
   ];
 }
-module.exports = { userContent, validateNative, classifyTopic, saveTopic, readTextBounded, NativeRequestError };
+module.exports = { userContent, validateNative, classifyTopic, saveTopic, publicTopicQuestion, readTextBounded, NativeRequestError };
