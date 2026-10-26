@@ -6,15 +6,16 @@ const { execFileSync } = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const generator = path.join(__dirname, 'create-mika-draft-profiler.cjs');
 const generated = path.join(root, 'netlify/functions/mika-draft-profile.js');
+const streamProbe = path.join(root, 'netlify/functions/mika-draft-stream-probe.mjs');
 function generate(branch, context) {
   execFileSync(process.execPath, [generator], { cwd: root, env: { ...process.env, BRANCH: branch, CONTEXT: context } });
 }
 test('fixed profiler is generated only for the draft branch and removed for production/previews', async () => {
   try {
     for (const [branch, context] of [['main', 'production'], ['draft', 'deploy-preview'], ['feature/test', 'branch-deploy']]) {
-      generate(branch, context); assert.equal(fs.existsSync(generated), false);
+      generate(branch, context); assert.equal(fs.existsSync(generated), false); assert.equal(fs.existsSync(streamProbe), false);
     }
-    generate('draft', 'branch-deploy'); assert.equal(fs.existsSync(generated), true);
+    generate('draft', 'branch-deploy'); assert.equal(fs.existsSync(generated), true); assert.equal(fs.existsSync(streamProbe), true);
     const { handler } = require(generated);
     assert.equal((await handler({ httpMethod: 'GET' })).statusCode, 405);
     if (fs.existsSync(path.join(root, '_public/search-index.json'))) {
@@ -27,5 +28,5 @@ test('fixed profiler is generated only for the draft branch and removed for prod
       assert.ok(first.baselineMs >= 0 && first.candidateMs >= 0);
     }
   } finally { generate('main', 'production'); }
-  assert.equal(fs.existsSync(generated), false);
+  assert.equal(fs.existsSync(generated), false); assert.equal(fs.existsSync(streamProbe), false);
 });

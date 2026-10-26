@@ -4,6 +4,10 @@
 [functions."orb-chat"]
   timeout = 60
 
+[functions."orb-chat-progress"]
+  # V2 tracing cannot see the SDK require inside the bundled legacy handler.
+  included_files = ["node_modules/openai/**"]
+
 [functions."orb-realtime-session"]
   timeout = 30
 

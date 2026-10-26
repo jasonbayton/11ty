@@ -1560,16 +1560,11 @@
       return { role: m.role, content: m.content };
     });
 
-    fetch('/api/orb-chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: text, history: history }),
+    window.mikaTextRequest({ message: text, history: history }, function (stage, details) {
+      var label = self.messagesEl && self.messagesEl.querySelector('.mika-progress-label');
+      window.mikaUpdateProgress(label, stage, details);
+      if (self.messagesEl) self.messagesEl.scrollTop = self.messagesEl.scrollHeight;
     })
-      .then(function (res) {
-        return res.json().then(function (data) {
-          return { ok: res.ok, data: data };
-        });
-      })
       .then(function (result) {
         self.isProcessing = false;
         self.updateProcessingState();
@@ -1643,7 +1638,7 @@
     if (this.isProcessing && !existing) {
       var wrapper = document.createElement('div');
       wrapper.className = 'orb-msg orb-msg-assistant orb-typing';
-      wrapper.innerHTML = '<div class="orb-bubble orb-bubble-assistant"><span class="orb-dot"></span><span class="orb-dot"></span><span class="orb-dot"></span></div>';
+      wrapper.innerHTML = '<div class="orb-bubble orb-bubble-assistant">' + (window.mikaProgressEnabled ? '<span class="mika-progress-label" role="status" aria-live="polite" aria-atomic="true">MIKA is working</span>' : '<span class="orb-dot"></span><span class="orb-dot"></span><span class="orb-dot"></span>') + '</div>';
       this.messagesEl.appendChild(wrapper);
       this.messagesEl.scrollTop = this.messagesEl.scrollHeight;
     } else if (!this.isProcessing && existing) {

@@ -363,7 +363,7 @@ async function executeTool(toolCall, native = false) {
 
   if (name === 'search_bayton') {
     const query = args.query || '';
-    if (!query) return { result: 'No query provided.', sources: [] };
+    if (!query) return { result: 'No query provided.', sources: [], resultCount: 0 };
 
     const searchableDocs = await loadSearchView();
     const { results } = searchDocs(searchableDocs, query, 8);
@@ -380,6 +380,7 @@ async function executeTool(toolCall, native = false) {
     return {
       result: formatted || 'No results found on bayton.org for this query.',
       sources,
+      resultCount: results.length,
     };
   }
 
@@ -440,7 +441,7 @@ async function executeTool(toolCall, native = false) {
   return { result: `Unknown tool: ${name}`, sources: [] };
 }
 
-exports.handler = async (event) => {
+exports.handler = async (event, context = {}) => {
   if (event.httpMethod === 'OPTIONS') {
     return noContentResponse();
   }
@@ -491,9 +492,18 @@ exports.handler = async (event) => {
       .catch(() => {}); // Preserve analytics isolation without logging any request data.
 
 
+    // A trusted server callback, never request data. Progress cannot affect the answer.
+    const progress = (stage, details) => {
+      if (!native && typeof context.mikaProgress === 'function') {
+        try { context.mikaProgress(stage, details); } catch {}
+      }
+    };
+    progress('index');
+
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
     const searchableDocs = native ? await timing.measure('index', loadSearchView) : await loadSearchView();
+    progress('search');
     const searchStarted = native ? timing.start() : 0;
     const keywords = extractKeywords(userMessage);
 
@@ -535,6 +545,7 @@ exports.handler = async (event) => {
     }
 
     if (native) timing.end('search', searchStarted);
+    progress('search_done', { matches: Math.min(preSearchResults.length, 12), titles: preSearchResults.slice(0, 1).map(r => r.title) });
 
     // Build conversation
     const messages = [
@@ -558,6 +569,7 @@ exports.handler = async (event) => {
     const BUDGET_MS = 26000; // leave 4s buffer before Netlify's 30s timeout
     const timeLeft = () => BUDGET_MS - (Date.now() - fnStart);
 
+    progress('review');
     // Call LLM - can also use search_bayton tool for refinement
     let completion = await modelCall({
       model: 'gpt-5.4-mini',
@@ -594,7 +606,11 @@ exports.handler = async (event) => {
         }
       } else {
         for (const tc of assistantMsg.tool_calls) {
-          const { result, sources } = await executeTool(tc, native);
+          const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', fetch_url: 'external' };
+          if (toolStages[tc.function?.name]) progress(toolStages[tc.function.name]);
+          const { result, sources, resultCount } = await executeTool(tc, native);
+          if (tc.function?.name === 'search_bayton') progress('search_done', { matches: resultCount, titles: sources.slice(0, 1).map(s => s.title) });
+          if (tc.function?.name === 'get_content_by_url' && sources.length) progress('read_done', { titles: sources.slice(0, 1).map(s => s.title) });
           if (sources.length > 0) allSources = sources; // latest search wins
           messages.push({
             role: 'tool',
@@ -604,6 +620,7 @@ exports.handler = async (event) => {
         }
       }
 
+      progress('review');
       completion = await modelCall({
         model: 'gpt-5.4-mini',
         ...(native ? { store: false } : {}),

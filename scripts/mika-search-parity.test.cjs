@@ -60,7 +60,7 @@ test('generated full index matches the independent baseline at every query and l
   const old = load(path.join(baseline, 'content-index.cjs'));
   assert.equal(parity(old.parseIndex(fs.readFileSync(indexPath, 'utf8')), 'full index'), queries.length * 8 * 3);
 });
-async function transcript(handlerPath, index, docs, message, native) {
+async function transcript(handlerPath, index, docs, message, native, mikaProgress) {
   const model = [];
   const env = { OPENAI_API_KEY: 'synthetic-provider-key', MIKA_NATIVE_ENABLED: 'true' };
   const nativePolicy = load(path.join(current, '_shared/native-mika.js'), { env });
@@ -90,7 +90,7 @@ async function transcript(handlerPath, index, docs, message, native) {
   });
   const payload = { message, history: [{ role: 'user', content: 'What about Android?' }, { role: 'assistant', content: 'Which deployment scenario?' }] };
   if (native) Object.assign(payload, { version: 1, retention: 'topics_only' });
-  const response = await mod.exports.handler({ httpMethod: 'POST', body: JSON.stringify(payload) });
+  const response = await mod.exports.handler({ httpMethod: 'POST', body: JSON.stringify(payload) }, { mikaProgress });
   return { model, status: response.statusCode, body: response.body };
 }
 test('complete prompts, pre-search ordering, sources and tool transcripts stay identical on both clients', async () => {
@@ -112,4 +112,29 @@ test('optional search diagnostics use fixed labels and numbers without query or 
   assert.deepEqual(Object.keys(data), ['documents', 'phraseMatches', 'totalMatches', 'returned', 'selectionMs', 'snippetMs', 'totalMs']);
   assert.ok(Object.values(data).every(value => typeof value === 'number' && value >= 0));
   assert.ok(!JSON.stringify(logs).includes('314159'));
+});
+
+test('progress is observational only and never runs for native requests', async () => {
+  const next = load(path.join(current, '_shared/content-index.js'));
+  const docs = next.buildSearchView(synthetic);
+  const stages = [];
+  const normal = await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', false);
+  assert.deepEqual(await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', false, stage => stages.push(stage)), normal);
+  assert.deepEqual(stages, ['index', 'search', 'search_done', 'review', 'search', 'search_done', 'review']);
+  assert.deepEqual(await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', false, () => { throw Error('disconnected'); }), normal);
+  stages.length = 0;
+  await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', true, stage => stages.push(stage));
+  assert.deepEqual(stages, []);
+});
+
+test('reported tool result count matches the passages actually loaded rather than capped source links', async () => {
+  const next = load(path.join(current, '_shared/content-index.js'));
+  const docs = next.buildSearchView(Array.from({ length: 10 }, (_, i) => ({ title: 'Android work profile ' + i, url: '/android/example-' + i + '/', content: 'Android work profile management documentation ' + i })));
+  const counts = [];
+  const result = await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', false, (stage, details) => { if (stage === 'search_done') counts.push(details.matches); });
+  const lastCall = result.model.at(-1).params;
+  const toolMessage = lastCall.messages.find(message => message.role === 'tool');
+  const loaded = (toolMessage.content.match(/^\[\d+\]/gm) || []).length;
+  assert.equal(loaded, 8);
+  assert.equal(counts.at(-1), loaded);
 });

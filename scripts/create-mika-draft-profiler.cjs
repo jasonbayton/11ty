@@ -3,8 +3,10 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const destination = path.resolve(__dirname, '../netlify/functions/mika-draft-profile.js');
+const streamProbe = path.resolve(__dirname, '../netlify/functions/mika-draft-stream-probe.mjs');
 if (process.env.BRANCH !== 'draft' || process.env.CONTEXT !== 'branch-deploy') {
   fs.rmSync(destination, { force: true });
+  fs.rmSync(streamProbe, { force: true });
   process.exit(0);
 }
 fs.writeFileSync(destination, `const fs = require('node:fs');
@@ -46,5 +48,18 @@ exports.handler = async event => {
     baselineMs: measured.baseline.ms, candidateMs: measured.candidate.ms,
     indexMs: loaded - started, parity: baselineHash === candidateHash, baselineHash, candidateHash
   }) };
+};
+`);
+
+// Fixed, model-free transport experiment, excluded from production and previews.
+fs.writeFileSync(streamProbe, `import progress from './_shared/mika-progress.js';
+export default (request, context) => {
+  if (request.method !== 'POST') return new Response(null, { status: 405 });
+  const silent = new URL(request.url).searchParams.get('mode') === 'silent';
+  return progress.progressResponse(request, async (_, callbacks) => {
+    callbacks.mikaProgress('system_apps');
+    await new Promise(resolve => setTimeout(resolve, 16000));
+    return { statusCode: 200, headers: { 'content-type': 'application/json' }, body: JSON.stringify({ reply: 'Fixed sixteen-second transport check complete', sources: [] }) };
+  }, context, { heartbeatMs: silent ? 0 : 3000 });
 };
 `);

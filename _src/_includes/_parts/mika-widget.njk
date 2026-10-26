@@ -402,6 +402,7 @@
     }
 </style>
 
+<script data-progress="{{ mikaProgress }}">{% include "../_assets/js/mika-text-request.js" %}</script>
 <script>
 (function () {
     var fab = document.getElementById('mika-fab');
@@ -535,7 +536,7 @@
         wrapper.className = 'mika-drawer-msg mika-drawer-msg-assistant';
         wrapper.id = 'mika-typing';
         wrapper.innerHTML = '<div class="mika-drawer-bubble mika-drawer-bubble-assistant">' +
-            '<span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span></div>';
+            (window.mikaProgressEnabled ? '<span class="mika-progress-label" role="status" aria-live="polite" aria-atomic="true">MIKA is working</span>' : '<span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span><span class="mika-drawer-dot"></span>') + '</div>';
         messagesEl.appendChild(wrapper);
         messagesEl.scrollTop = messagesEl.scrollHeight;
     }
@@ -566,12 +567,12 @@
         history.push({ role: 'user', content: text + contextHint });
         saveHistory();
 
-        fetch('/api/orb-chat', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ message: text + contextHint, history: history.slice(-10) }),
+        window.mikaTextRequest({ message: text + contextHint, history: history.slice(-10) }, function (stage, details) {
+            var label = document.querySelector('#mika-typing .mika-progress-label');
+            window.mikaUpdateProgress(label, stage, details);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
         })
-        .then(function (r) { return r.json(); })
+        .then(function (result) { return result.data; })
         .then(function (data) {
             removeTyping();
             var reply = data.reply || 'Sorry, something went wrong.';
