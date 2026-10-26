@@ -85,6 +85,7 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
       if (name.endsWith('native-mika')) return nativePolicy;
       if (name.endsWith('mika-sysapps')) return require(path.join(current, '_shared/mika-sysapps'));
       if (name.endsWith('native-execution')) return require(path.join(current, '_shared/native-execution'));
+      if (name.endsWith('mika-content-lookup')) return require(path.join(current, '_shared/mika-content-lookup'));
       if (name.endsWith('content-lookup')) return require(path.join(current, '_shared/content-lookup'));
       throw Error(name);
     },

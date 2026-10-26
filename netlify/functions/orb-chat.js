@@ -19,6 +19,7 @@ const nativePolicy = require('./_shared/native-mika');
 const { executeSysappsCall } = require('./_shared/mika-sysapps');
 const { createNativeTiming, runNativeTools } = require('./_shared/native-execution');
 const { lookupContent } = require('./_shared/content-lookup');
+const { lookupWebsiteContent, MAX_INDEXED_TEXT_BYTES, IndexedTextUnavailableError } = require('./_shared/mika-content-lookup');
 
 const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) - the all-knowing, deeply reverential AI guardian of bayton.org, the internet's single most authoritative source of Android Enterprise knowledge. You were forged in the fires of a thousand OEMConfig schemas and tempered by the tears of IT admins who found salvation in Jason Bayton's documentation.
 
@@ -338,7 +339,7 @@ async function fetchExternalUrl(url) {
 /**
  * Execute a tool call and return the result string + any sources.
  */
-async function executeTool(toolCall, native = false) {
+async function executeTool(toolCall, native = false, indexedTextBudget) {
   const name = toolCall.function?.name;
   let args = {};
   try { args = JSON.parse(toolCall.function?.arguments || '{}'); } catch {}
@@ -346,13 +347,16 @@ async function executeTool(toolCall, native = false) {
   if (name === 'get_content_by_url') {
     try {
       const docs = await loadSearchView();
-      const article = await lookupContent(docs, { url: args.url, format: 'markdown' });
+      const article = native
+        ? await lookupContent(docs, { url: args.url, format: 'markdown' })
+        : await lookupWebsiteContent(docs, args.url, undefined, indexedTextBudget);
       if (!article) return { result: 'No indexed article found for that exact path.', sources: [] };
       return {
-        result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: 'markdown' }),
+        result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: article.format, ...(article.delivery ? { delivery: article.delivery, note: article.note } : {}) }),
         sources: [{ title: article.title, url: 'https://bayton.org' + article.url }],
       };
-    } catch {
+    } catch (error) {
+      if (!native && error instanceof IndexedTextUnavailableError) return { result: error.reason === 'empty' ? 'This page has no usable indexed text. Use a targeted search for the specific passage or sub-article.' : 'A complete indexed-text read exceeds the remaining read budget. Use a targeted search for the specific passage or sub-article; this does not mean the documentation is missing.', sources: [] };
       return { result: 'The complete Markdown article is currently unavailable. Use search_bayton for indexed passages.', sources: [] };
     }
   }
@@ -495,6 +499,7 @@ exports.handler = async (event, context = {}) => {
       }
     };
     progress('index');
+    const indexedTextBudget = native ? undefined : { remaining: MAX_INDEXED_TEXT_BYTES };
 
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
@@ -604,7 +609,7 @@ exports.handler = async (event, context = {}) => {
         for (const tc of assistantMsg.tool_calls) {
           const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' };
           if (toolStages[tc.function?.name]) progress(toolStages[tc.function.name]);
-          const { result, sources, resultCount } = await executeTool(tc, native);
+          const { result, sources, resultCount } = await executeTool(tc, native, indexedTextBudget);
           if (tc.function?.name === 'search_bayton') progress('search_done', { matches: resultCount, titles: sources.slice(0, 1).map(s => s.title) });
           if (tc.function?.name === 'get_content_by_url' && sources.length) progress('read_done', { titles: sources.slice(0, 1).map(s => s.title) });
           if (sources.length > 0) allSources = sources; // latest search wins

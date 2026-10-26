@@ -22,6 +22,7 @@ function fixture(options = {}) {
     constructor(opts) {
       constructors.push(opts);
       this.chat = { completions: { create: async (params, requestOptions) => {
+        if (options.beforeModel) options.beforeModel(params);
         model.push({ params: JSON.parse(JSON.stringify(params)), requestOptions });
         if (options.modelBarrier) await options.modelBarrier;
         if (options.providerError) throw new Error('synthetic-payload-canary');
@@ -34,12 +35,16 @@ function fixture(options = {}) {
     noContentResponse: () => ({ statusCode: 204, body: '' }),
     loadSearchView: async () => { if (options.indexBarrier) await options.indexBarrier; return options.docs || []; },
     extractKeywords: () => ['android'],
-    searchDocs: () => ({ results: [{ title: 'Android Enterprise', url: '/android/', snippet: 'Established public source.' }] }),
+    searchDocs: options.searchDocs || (() => ({ results: [{ title: 'Android Enterprise', url: '/android/', snippet: 'Established public source.' }] })),
   };
   const mod = { exports: {} };
   vm.runInNewContext(options.source || fs.readFileSync(handlerFile, 'utf8'), { ...common, module: mod, exports: mod.exports, require: name => {
     if (name === 'openai') return { OpenAI };
     if (name.endsWith('content-index')) return index;
+    if (name.endsWith('mika-content-lookup')) {
+      const actual = require('../netlify/functions/_shared/mika-content-lookup');
+      return { ...actual, lookupWebsiteContent: (docs, url, unused, budget) => actual.lookupWebsiteContent(docs, url, fetcher, budget) };
+    }
     if (name.endsWith('content-lookup')) {
       const actual = require('../netlify/functions/_shared/content-lookup');
       return { lookupContent: (docs, params) => actual.lookupContent(docs, params, fetcher) };
@@ -443,4 +448,65 @@ test('provider ignoring final none cannot execute a third round or expose an unf
   assert.match(JSON.parse(result.body).reply,/could not complete/);
   assert.equal(f.model.length,3);assert.equal(f.model[2].params.tool_choice,'none');
   assert.equal(f.model[2].params.messages.filter(m=>m.role==='tool').length,2);
+});
+
+test('mandatory pre-search remains before the model with the original guard prompt',async()=>{
+  for(const native of [false,true]){
+    let searches=0;
+    const f=fixture({beforeModel:()=>assert.ok(searches>0,'mandatory pre-search must finish before the first model request'),searchDocs:()=>{searches++;return {results:[{title:'A tangential candidate',url:'/projects/example/release-notes/',snippet:'A release, not an answer to this question.'}]};}});
+    const response=await f.handler(event(native?envelope({message:'When did Android Enterprise start?'}):{message:'When did Android Enterprise start?'}));
+    assert.equal(response.statusCode,200);assert.ok(searches>0);
+    const system=f.model[0].params.messages[0].content;
+    assert.match(system,/A tangential candidate/);assert.match(system,/A release, not an answer/);
+    assert.match(system,/PRE-LOADED SEARCH RESULTS FROM BAYTON.ORG \(use these to answer - do NOT ignore them\)/);
+    assert.match(system,/Android 5\.0 \(Lollipop\) in 2014/);
+    assert.match(system,/NEVER fall back on general training knowledge/);
+  }
+});
+
+test('a targeted search then exact article read fit the existing two rounds and retain evidence in the final request',async()=>{
+  const call=(id,name,args)=>({choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[{id,type:'function',function:{name,arguments:JSON.stringify(args)}}]}}]});
+  const queries=[];
+  const f=fixture({docs:[{title:'Introduction',url:'/android/introduction/',content:'A short introduction.'}],
+    searchDocs:(_,query)=>{queries.push(query);return {results:query==='Android Enterprise debut Lollipop'?[
+      {title:'Introduction',url:'/android/introduction/',snippet:'A history section is available in the complete article.'},
+    ]:[{title:'Release notes',url:'/projects/example/release-notes/',snippet:'An unrelated release.'}]};},
+    fetch:async()=>new Response('# Introduction\n\nAndroid Enterprise debuted with Android 5.0 (Lollipop) in 2014.\n'),
+    replies:[call('targeted','search_bayton',{query:'Android Enterprise debut Lollipop'}),call('article','get_content_by_url',{url:'/android/introduction/'}),{choices:[{finish_reason:'stop',message:{content:'Android Enterprise debuted with Lollipop in 2014.'}}]}],
+  });
+  const response=await f.handler(event({message:'Could you tell me when Android Enterprise first came about?',history:[{role:'assistant',content:'It started in 2016.'}]}));
+  assert.equal(response.statusCode,200);assert.equal(f.model.length,3);
+  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
+  assert.ok(queries.indexOf('Android Enterprise debut Lollipop')>0,'mandatory pre-search precedes the targeted tool query');
+  const final=f.model[2].params.messages;
+  assert.match(final[0].content,/An unrelated release/);
+  const article=JSON.parse(final.find(m=>m.tool_call_id==='article').content);
+  assert.match(article.content,/Lollipop\) in 2014/);
+  assert.match(final.at(-1).content,/lookup limit/);
+});
+
+test('zero-result pre-search retains the source-only guard without inventing candidates',async()=>{
+  let searched=false;
+  const f=fixture({beforeModel:()=>assert.ok(searched),searchDocs:()=>{searched=true;return {results:[]};}});
+  const stages=[];
+  const response=await f.handler(event({message:'A question with no matching source'}),{mikaProgress:(stage,details)=>stages.push({stage,...details})});
+  assert.equal(response.statusCode,200);
+  const system=f.model[0].params.messages[0].content;
+  assert.match(system,/Base your answers ENTIRELY on it/);
+  assert.ok(!system.includes('PRE-LOADED SEARCH RESULTS'));
+  assert.equal(stages.find(s=>s.stage==='search_done').matches,0);
+});
+
+test('generated page fallback delivers honestly labelled indexed text only to website calls',async()=>{
+  const doc={title:'Release index',url:'/projects/example/release-notes/',content:'Release 1.0.0.6 fixed an Android 15 edge-to-edge bug.'};
+  const read={choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[{id:'read',type:'function',function:{name:'get_content_by_url',arguments:JSON.stringify({url:doc.url})}}]}}]};
+  for(const native of [false,true]){
+    const stages=[];
+    const f=fixture({docs:[doc],searchDocs:()=>({results:[{title:doc.title,url:doc.url,snippet:'Release index excerpt'}]}),fetch:async()=>new Response('Missing',{status:404}),replies:[read,{choices:[{finish_reason:'stop',message:{content:native?'The complete Markdown source is unavailable.':'Release 1.0.0.6 fixed an Android 15 edge-to-edge bug.'}}]}]});
+    const response=await f.handler(event(native?envelope({message:'What changed in release 1.0.0.6?'}):{message:'What changed in release 1.0.0.6?'}),{mikaProgress:(stage,details)=>stages.push({stage,...details})});
+    assert.equal(response.statusCode,200);assert.equal(f.model.length,2);
+    const tool=f.model[1].params.messages.find(message=>message.tool_call_id==='read').content;
+    if(native){assert.match(tool,/Markdown article is currently unavailable/);assert.ok(!tool.includes('edge-to-edge'));assert.deepEqual(stages,[]);}
+    else{const body=JSON.parse(tool);assert.equal(body.content,doc.content);assert.equal(body.format,'text');assert.equal(body.delivery,'complete_indexed_text');assert.match(body.note,/formatting and links were removed/);assert.equal(body.url,doc.url);assert.deepEqual([...stages.find(s=>s.stage==='read_done').titles],[doc.title]);}
+  }
 });
