@@ -9,3 +9,5 @@ _public_md
 .env
 _src/_data/gitHistory.json
 _ae_worker/
+# Generated only for the draft search experiment.
+netlify/functions/mika-draft-profile.js
