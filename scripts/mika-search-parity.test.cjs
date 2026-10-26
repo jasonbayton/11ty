@@ -81,6 +81,12 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
     process: { env }, console: { warn() {}, error() {} },
     require: name => {
       if (name === 'openai') return { OpenAI };
+      // This suite compares grounding and tool-loop behaviour; the real Responses wire contract has its own tests.
+      if (name.endsWith('mika-responses')) return { createResponsesCompletion: client => options => {
+        assert.equal(options.model, 'gpt-6-luna'); assert.equal(options.reasoning_effort, 'medium');
+        const legacy = { ...options, model: 'gpt-5.4-mini' }; delete legacy.reasoning_effort;
+        return client.chat.completions.create(legacy);
+      } };
       if (name.endsWith('content-index')) return { ...index, loadSearchView: async () => docs };
       if (name.endsWith('native-mika')) return nativePolicy;
       if (name.endsWith('mika-sysapps')) return require(path.join(current, '_shared/mika-sysapps'));

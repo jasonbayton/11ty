@@ -13,3 +13,5 @@ _ae_worker/
 netlify/functions/mika-draft-profile.js
 
 netlify/functions/mika-draft-stream-probe.mjs
+
+netlify/functions/mika-draft-model-probe.js

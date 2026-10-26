@@ -40,6 +40,8 @@ function fixture(options = {}) {
   const mod = { exports: {} };
   vm.runInNewContext(options.source || fs.readFileSync(handlerFile, 'utf8'), { ...common, module: mod, exports: mod.exports, require: name => {
     if (name === 'openai') return { OpenAI };
+    // This fixture isolates handler policy. Responses wire/replay is exercised separately.
+    if (name.endsWith('mika-responses')) return { createResponsesCompletion: client => options => client.chat.completions.create(options) };
     if (name.endsWith('content-index')) return index;
     if (name.endsWith('mika-content-lookup')) {
       const actual = require('../netlify/functions/_shared/mika-content-lookup');
@@ -366,17 +368,18 @@ test('attachment capability preserves older probes and rejects bad versions, for
 });
 
 for (const native of [false,true]) {
-  test(`two-round exhaustion finalises with evidence or clarification without another lookup, native=${native}`, async () => {
+  test(`lookup exhaustion finalises with evidence or clarification without another lookup, native=${native}`, async () => {
     const round = id => ({choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id,type:'function',function:{name:'search_bayton',arguments:'{"query":"Android"}'}}]}}]});
-    const f = fixture({replies:[round('first'),round('second'),{choices:[{finish_reason:'stop',message:{content:'Which Pixel model and Android version should I compare?'}}]}]});
+    const limit = native ? 2 : 5;
+    const f = fixture({replies:[...Array.from({length:limit},(_,n)=>round(String(n))),{choices:[{finish_reason:'stop',message:{content:'Which Pixel model and Android version should I compare?'}}]}]});
     const payload = {message:'Compare Dell XPS Googlebook apps with a Google Pixel?',history:[{role:'user',content:'Samsung gallery app?'},{role:'assistant',content:'Samsung gallery package.'}]};
     const result = await f.handler(event(native ? envelope(payload) : payload));
     assert.match(JSON.parse(result.body).reply,/Which Pixel model/);
-    assert.equal(f.model.length,3);
-    assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
-    assert.equal(f.model[2].params.messages.filter(m=>m.role==='tool').length,2);
-    assert.match(f.model[2].params.messages.at(-1).content,/All original scope and privacy rules still apply/);
-    assert.match(f.model[2].params.messages[0].content,/ABSOLUTE RULES/);
+    assert.equal(f.model.length,limit+1);
+    assert.deepEqual(f.model.map(m=>m.params.tool_choice),[...Array(limit).fill('auto'),'none']);
+    assert.equal(f.model.at(-1).params.messages.filter(m=>m.role==='tool').length,limit);
+    assert.match(f.model.at(-1).params.messages.at(-1).content,/All original scope and privacy rules still apply/);
+    assert.match(f.model.at(-1).params.messages[0].content,/ABSOLUTE RULES/);
     if(native) assert.ok(f.model.every(m=>m.params.store===false));
   });
 }
@@ -441,13 +444,13 @@ test('pre-round deadline bailout never returns an unexecuted tool preamble',asyn
   assert.equal(f.model.length,1);
   assert.ok(!f.http.some(r=>r.url==='https://sysapps.bayton.org/mcp'));
 });
-test('provider ignoring final none cannot execute a third round or expose an unfinished preamble',async()=>{
+test('provider ignoring final none cannot execute a sixth website round or expose an unfinished preamble',async()=>{
   const round=id=>({choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:'I will keep looking.',tool_calls:[{id,type:'function',function:{name:'search_bayton',arguments:'{"query":"Android"}'}}]}}]});
-  const f=fixture({replies:[round('one'),round('two'),round('three')]});
+  const f=fixture({replies:Array.from({length:6},(_,n)=>round(String(n)))});
   const result=await f.handler(event({message:'Android system apps?'}));
   assert.match(JSON.parse(result.body).reply,/could not complete/);
-  assert.equal(f.model.length,3);assert.equal(f.model[2].params.tool_choice,'none');
-  assert.equal(f.model[2].params.messages.filter(m=>m.role==='tool').length,2);
+  assert.equal(f.model.length,6);assert.equal(f.model[5].params.tool_choice,'none');
+  assert.equal(f.model[5].params.messages.filter(m=>m.role==='tool').length,5);
 });
 
 test('mandatory pre-search remains before the model with the original guard prompt',async()=>{
@@ -464,7 +467,7 @@ test('mandatory pre-search remains before the model with the original guard prom
   }
 });
 
-test('a targeted search then exact article read fit the existing two rounds and retain evidence in the final request',async()=>{
+test('website can answer after two lookup rounds without using all five',async()=>{
   const call=(id,name,args)=>({choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[{id,type:'function',function:{name,arguments:JSON.stringify(args)}}]}}]});
   const queries=[];
   const f=fixture({docs:[{title:'Introduction',url:'/android/introduction/',content:'A short introduction.'}],
@@ -476,13 +479,13 @@ test('a targeted search then exact article read fit the existing two rounds and 
   });
   const response=await f.handler(event({message:'Could you tell me when Android Enterprise first came about?',history:[{role:'assistant',content:'It started in 2016.'}]}));
   assert.equal(response.statusCode,200);assert.equal(f.model.length,3);
-  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
+  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','auto']);
   assert.ok(queries.indexOf('Android Enterprise debut Lollipop')>0,'mandatory pre-search precedes the targeted tool query');
   const final=f.model[2].params.messages;
   assert.match(final[0].content,/An unrelated release/);
   const article=JSON.parse(final.find(m=>m.tool_call_id==='article').content);
   assert.match(article.content,/Lollipop\) in 2014/);
-  assert.match(final.at(-1).content,/lookup limit/);
+  assert.ok(!final.some(m=>m.role==='system' && /lookup limit/.test(m.content)));
 });
 
 test('zero-result pre-search retains the source-only guard without inventing candidates',async()=>{

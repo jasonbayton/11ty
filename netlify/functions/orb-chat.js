@@ -7,6 +7,7 @@
  */
 
 const { OpenAI } = require('openai');
+const { createResponsesCompletion } = require('./_shared/mika-responses');
 const {
   jsonResponse,
   noContentResponse,
@@ -455,6 +456,7 @@ exports.handler = async (event, context = {}) => {
   }
 
   const openai = new OpenAI({ apiKey });
+  const websiteCompletion = createResponsesCompletion(openai);
   // The explicit marker also protects malformed Android requests from raw error logging.
   let native = Object.entries(event.headers || {}).some(([key, value]) => key.toLowerCase() === 'x-bayton-client' && value === 'android');
   let timing = native ? createNativeTiming() : null;
@@ -467,9 +469,10 @@ exports.handler = async (event, context = {}) => {
     }
     return response;
   }
+  // Website text uses the validated Luna migration; native keeps its existing API contract.
   const modelCall = options => native
     ? timing.measure('model', () => openai.chat.completions.create(options))
-    : openai.chat.completions.create(options);
+    : websiteCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium' });
 
 
   try {
@@ -585,9 +588,10 @@ exports.handler = async (event, context = {}) => {
 
     let choice = completion.choices?.[0];
 
-    // Tool call loop - execute tools and feed results back (max 2 rounds)
+    // Execute up to five website lookup rounds; retain the validated native limit.
+    const maxToolRounds = native ? 2 : 5;
     let rounds = 0;
-    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < 2) {
+    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < maxToolRounds) {
       if (timeLeft() < 8000) {
         console.warn(`[orb-chat] Bailing tool loop - only ${timeLeft()}ms left`);
         break;
@@ -623,7 +627,7 @@ exports.handler = async (event, context = {}) => {
 
       // The last permitted lookup round must end in a message, not another tool request.
       // This uses the existing model call and does not extend the tool or time budget.
-      const finalTurn = rounds === 2 || timeLeft() < 8000;
+      const finalTurn = rounds === maxToolRounds || timeLeft() < 8000;
       if (timeLeft() < 2500) break; // avoid starting a completion with almost no budget left
       if (finalTurn) messages.push({ role: 'system', content: 'The lookup limit for this turn has been reached. Answer only from evidence already retrieved. If the evidence is incomplete, capped, or the requested devices are ambiguous, explain the limitation and ask for the missing detail. Do not invent an answer or imply that another lookup was performed. All original scope and privacy rules still apply.' });
       progress('review');

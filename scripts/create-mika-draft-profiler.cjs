@@ -3,12 +3,16 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const destination = path.resolve(__dirname, '../netlify/functions/mika-draft-profile.js');
+const generateModelProbe = require('./create-mika-model-probe.cjs');
 const streamProbe = path.resolve(__dirname, '../netlify/functions/mika-draft-stream-probe.mjs');
 if (process.env.BRANCH !== 'draft' || process.env.CONTEXT !== 'branch-deploy') {
+  generateModelProbe(false);
   fs.rmSync(destination, { force: true });
   fs.rmSync(streamProbe, { force: true });
   process.exit(0);
 }
+// Paid diagnostics require an explicit build-time opt-in as well as draft scope.
+generateModelProbe(process.env.MIKA_MODEL_PROBE === '1');
 fs.writeFileSync(destination, `const fs = require('node:fs');
 const crypto = require('node:crypto');
 const { performance } = require('node:perf_hooks');
