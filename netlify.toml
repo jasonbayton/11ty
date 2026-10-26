@@ -77,7 +77,7 @@
 # Keep the build on Node 22. The draft function runtime is set independently
 # through Netlify's draft-only AWS_LAMBDA_JS_RUNTIME environment variable.
 [context.draft]
-  command = "node -p process.version && eleventy && node scripts/create-mika-draft-profiler.cjs"
+  command = "eleventy"
 
 [context.draft.environment]
   NODE_VERSION = "22"

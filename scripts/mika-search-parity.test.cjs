@@ -131,18 +131,6 @@ test('prompts, search ordering, sources and transcripts retain parity except the
     assert.deepEqual(await transcript(path.join(current, 'orb-chat.js'), next, docs, message, native), await transcript(path.join(baseline, 'orb-chat.cjs'), old, docs, message, native), `${message}, native=${native}`);
   }
 });
-test('optional search diagnostics use fixed labels and numbers without query or document content', () => {
-  const logs = [];
-  const next = load(path.join(current, '_shared/content-index.js'), { env: { MIKA_SEARCH_DIAGNOSTICS: 'true' }, logs });
-  next.searchDocs(next.buildSearchView(synthetic), 'synthetic-private-query-314159', 8);
-  assert.equal(logs.length, 1);
-  assert.equal(logs[0][0], '[mika-search]');
-  const data = JSON.parse(logs[0][1]);
-  assert.deepEqual(Object.keys(data), ['documents', 'phraseMatches', 'totalMatches', 'returned', 'selectionMs', 'snippetMs', 'totalMs']);
-  assert.ok(Object.values(data).every(value => typeof value === 'number' && value >= 0));
-  assert.ok(!JSON.stringify(logs).includes('314159'));
-});
-
 test('progress is observational only and never runs for native requests', async () => {
   const next = load(path.join(current, '_shared/content-index.js'));
   const docs = next.buildSearchView(synthetic);

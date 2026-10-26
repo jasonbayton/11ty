@@ -412,7 +412,6 @@ function extractKeywords(query) {
  * @returns {{totalMatches: number, results: Array<{title: string, url: string, snippet: string}>}}
  */
 function searchDocs(searchableDocs, query, limit) {
-  const searchStarted = process.env.MIKA_SEARCH_DIAGNOSTICS === 'true' ? Date.now() : null;
   const matcher = createSearchMatcher(query);
 
   // 1. Phrase match (existing behaviour — works great for short/precise queries)
@@ -488,25 +487,11 @@ function searchDocs(searchableDocs, query, limit) {
 
   // Snippets cannot affect selection. Keep every ranking/fallback decision above intact.
   const selected = all.slice(0, limit);
-  const snippetStarted = searchStarted === null ? null : Date.now();
   const results = selected.map(({ title, url, content, snippetMatcher, contentIndex }) => ({
     title,
     url,
     snippet: buildMatchSnippet(content, snippetMatcher, contentIndex),
   }));
-  if (searchStarted !== null) {
-    const finished = Date.now();
-    // Fixed numeric diagnostics only: no query, URL, snippet, or document content.
-    console.info('[mika-search]', JSON.stringify({
-      documents: searchableDocs.length,
-      phraseMatches: phraseResults.length,
-      totalMatches: all.length,
-      returned: results.length,
-      selectionMs: snippetStarted - searchStarted,
-      snippetMs: finished - snippetStarted,
-      totalMs: finished - searchStarted,
-    }));
-  }
   return { totalMatches: all.length, results };
 }
 
