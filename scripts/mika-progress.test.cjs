@@ -125,3 +125,38 @@ test('browser ignores heartbeat comments without changing progress or final hist
   const stages = []; const result = await client.mikaTextRequest({}, stage => stages.push(stage));
   assert.deepEqual(stages, ['system_apps']); assert.equal(result.data.reply, 'answer');
 });
+
+test('native progress strips titles and private metadata and retains completion capability headers', async () => {
+  for (const marker of ['header', 'body']) {
+    const req = new Request('https://example.test/api/orb-chat-progress',{method:'POST',headers:marker==='header'?{'X-Bayton-Client':'android'}:{},body:JSON.stringify({message:'private-message',...(marker==='body'?{version:1,retention:'topics_only',history:[]}: {})})});
+    const response=await progressResponse(req,async (_,ctx)=>{
+      ctx.mikaProgress('search_done',{matches:3,titles:['private-title'],arguments:'private-args'});
+      ctx.mikaProgress('read_done',{titles:['private-title']});
+      return {...json(200,{reply:'Reviewed',sources:[]}),headers:{'X-Mika-Attachments':'2','server-timing':'model;dur=12','private-header':'private-value'}};
+    });
+    assert.equal(response.headers.get('X-Mika-Attachments'),'2');
+    const text=await response.text();assert.doesNotMatch(text,/private-|titles/);
+    assert.match(text,/"matches":3/);assert.match(text,/"headers":\{"x-mika-attachments":"2","server-timing":"model;dur=12"\}/);
+  }
+});
+test('native validation remains JSON and native stream failure contains no request or error details', async () => {
+  const req=()=>new Request('https://example.test/',{method:'POST',headers:{'X-Bayton-Client':'android'},body:'{"message":"private-message"}'});
+  const invalid=await progressResponse(req(),async()=>({...json(400,{error:'invalid_native_version'}),headers:{'X-Mika-Attachments':'2'}}));
+  assert.equal(invalid.status,400);assert.equal(invalid.headers.get('X-Mika-Attachments'),'2');assert.equal((await invalid.json()).error,'invalid_native_version');
+  const failed=await progressResponse(req(),async(_,ctx)=>{ctx.mikaProgress('review');throw Error('private-error');});
+  const text=await failed.text();assert.match(text,/"ok":false/);assert.match(text,/request_failed/);assert.doesNotMatch(text,/private-/);
+});
+
+test('malformed terminal bodies emit one fixed failure and settle the stream and retained task', async () => {
+  for (const body of ['private-malformed-canary', '', 'null', '[]']) {
+    let retained;
+    const response=await progressResponse(request(),async(_,context)=>{
+      context.mikaProgress('review');return {statusCode:200,headers:{},body};
+    },{waitUntil(task){retained=task;}},{heartbeatMs:1});
+    const text=await response.text();
+    assert.equal((text.match(/event: complete/g)||[]).length,1);
+    assert.match(text,/"ok":false,"data":\{"error":"request_failed"\}/);
+    assert.doesNotMatch(text,/private-malformed-canary/);
+    assert.equal((await retained).statusCode,500);
+  }
+});

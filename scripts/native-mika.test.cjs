@@ -82,13 +82,40 @@ test('native turns use established guidance/tools and persist only server vocabu
   assert.ok(params.tools.some(t => t.function.name === 'fetch_url'));
   assert.match(params.messages.at(-1).content, /synthetic-payload-canary/);
   assert.equal(params.store, false);
-  assert.equal(f.constructors[0].maxRetries, undefined);
+  assert.equal(params.model, 'gpt-6-luna');
+  assert.equal(params.reasoning_effort, 'medium');
+  assert.equal(f.constructors[0].maxRetries, 0);
   assert.equal(f.model[0].requestOptions, undefined);
   assert.ok(f.http.length >= 4);
   assert.ok(f.http.every(r => r.url.startsWith('https://ping.bayton.org/items/orb_questions')));
   assert.ok(!JSON.stringify(f.http).includes('synthetic-payload-canary'));
   assert.match(f.http.find(r => r.method === 'POST').body, /\[Native MIKA\]/);
   assert.ok(!JSON.stringify(f.logs).includes('synthetic-payload-canary'));
+});
+
+test('system app evidence exposes its canonical citation to native generation and retains only successful sources', async () => {
+  for (const failed of [false, true]) {
+    const f = fixture({
+      replies: [
+        { choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls: [
+          { id: 'apps', type: 'function', function: { name: 'sysapps_search', arguments: '{"query":"com.example.system"}' } },
+        ] } }] },
+        { choices: [{ finish_reason: 'stop', message: { content: failed ? 'The lookup was unavailable.' :
+          '[Android System App Database](https://sysapps.bayton.org/) reports one observed match.' } }] },
+      ],
+      fetch: async url => {
+        assert.equal(url, 'https://sysapps.bayton.org/mcp');
+        return Response.json({ jsonrpc: '2.0', id: 1, result: {
+          isError: failed, content: [{ type: 'text', text: JSON.stringify(failed ? { error: 'unavailable' } : { items: [], total: 1 }) }],
+        } });
+      },
+    });
+    const response = await f.handler(event(envelope({ message: 'Look up this system app' })));
+    assert.equal(response.statusCode, 200);
+    assert.match(f.model[0].params.messages[0].content, /When using successful system-app tool evidence, cite https:\/\/sysapps\.bayton\.org\//);
+    assert.deepEqual(JSON.parse(response.body).sources, failed ? [] :
+      [{ title: 'Android System App Database', url: 'https://sysapps.bayton.org/' }]);
+  }
 });
 
 test('invalid native data and kill switch reject before paid work or analytics', async () => {
@@ -135,13 +162,13 @@ test('explicit Android marker keeps malformed JSON out of error logs', async () 
   assert.ok(!JSON.stringify(f.logs).includes('synthetic-payload-canary'));
 });
 
-test('website keeps original provider options, raw logging, tools and large request behaviour', async () => {
+test('website keeps logging, tools and large requests with stateless Responses and no retries', async () => {
   const f = fixture();
   assert.equal((await f.handler(event({ message: 'Android Enterprise question? synthetic-payload-canary' }))).statusCode, 200);
   await new Promise(resolve => setImmediate(resolve));
-  assert.equal(f.model[0].params.store, undefined);
+  assert.equal(f.model[0].params.store, false);
   assert.equal(f.model[0].requestOptions, undefined);
-  assert.deepEqual(Object.keys(f.constructors[0]), ['apiKey']);
+  assert.deepEqual(Object.keys(f.constructors[0]), ['apiKey', 'maxRetries']);
   assert.ok(f.http.some(r => r.method === 'POST' && r.body.includes('synthetic-payload-canary')));
   assert.equal(f.config, undefined);
   const large = fixture();
@@ -285,7 +312,7 @@ test('native parallel completion preserves original tool-message and latest-sour
   assert.deepEqual(JSON.parse(result.body).sources, [{ title: 'developer.android.com/work/second/', url: 'https://developer.android.com/work/second/' }]);
 });
 
-test('website tools retain sequential execution and original provider behaviour', async () => {
+test('website tools retain sequential execution with stateless Responses', async () => {
   const first = deferred(), second = deferred(), started = [];
   const f = fixture({ replies: [externalRound()], fetch: async url => {
     const id = String(url).includes('/first/') ? 'first' : 'second'; started.push(id);
@@ -297,7 +324,7 @@ test('website tools retain sequential execution and original provider behaviour'
   first.resolve(); await tick(); assert.deepEqual(started, ['first', 'second']);
   second.resolve(); const result = await pending;
   assert.equal(result.statusCode, 200); assert.equal(result.headers['server-timing'], undefined);
-  assert.ok(f.model.every(call => call.params.store === undefined));
+  assert.ok(f.model.every(call => call.params.store === false));
 });
 
 test('native topic persistence overlaps paid work but is awaited on success and provider failure', async () => {
@@ -374,7 +401,7 @@ test('attachment capability preserves older probes and rejects bad versions, for
 for (const native of [false,true]) {
   test(`lookup exhaustion finalises with evidence or clarification without another lookup, native=${native}`, async () => {
     const round = id => ({choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id,type:'function',function:{name:'search_bayton',arguments:'{"query":"Android"}'}}]}}]});
-    const limit = native ? 2 : 5;
+    const limit = 5;
     const f = fixture({replies:[...Array.from({length:limit},(_,n)=>round(String(n))),{choices:[{finish_reason:'stop',message:{content:'Which Pixel model and Android version should I compare?'}}]}]});
     const payload = {message:'Compare Dell XPS Googlebook apps with a Google Pixel?',history:[{role:'user',content:'Samsung gallery app?'},{role:'assistant',content:'Samsung gallery package.'}]};
     const result = await f.handler(event(native ? envelope(payload) : payload));
@@ -416,7 +443,7 @@ test('both device lists then a direct comparison fit two rounds and preserve nat
   }});
   const result=await f.handler(event(envelope({message:'Compare recorded Dell XPS Googlebook API 37 to Pixel 9 Pro XL API 36'})));
   assert.equal(result.statusCode,200);assert.equal(f.model.length,3);
-  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
+  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','auto']);
   const comparison=JSON.parse(f.model[2].params.messages.find(m=>m.tool_call_id==='comparison').content);
   assert.equal(comparison.left_only[0].package_name,'dell.only');
   assert.equal(comparison.left_only_truncated,false);
@@ -504,16 +531,68 @@ test('zero-result pre-search retains the source-only guard without inventing can
   assert.equal(stages.find(s=>s.stage==='search_done').matches,0);
 });
 
-test('generated page fallback delivers honestly labelled indexed text only to website calls',async()=>{
+test('generated page fallback delivers honestly labelled indexed text to both clients',async()=>{
   const doc={title:'Release index',url:'/projects/example/release-notes/',content:'Release 1.0.0.6 fixed an Android 15 edge-to-edge bug.'};
   const read={choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[{id:'read',type:'function',function:{name:'get_content_by_url',arguments:JSON.stringify({url:doc.url})}}]}}]};
   for(const native of [false,true]){
     const stages=[];
-    const f=fixture({docs:[doc],searchDocs:()=>({results:[{title:doc.title,url:doc.url,snippet:'Release index excerpt'}]}),fetch:async()=>new Response('Missing',{status:404}),replies:[read,{choices:[{finish_reason:'stop',message:{content:native?'The complete Markdown source is unavailable.':'Release 1.0.0.6 fixed an Android 15 edge-to-edge bug.'}}]}]});
+    const f=fixture({docs:[doc],searchDocs:()=>({results:[{title:doc.title,url:doc.url,snippet:'Release index excerpt'}]}),fetch:async()=>new Response('Missing',{status:404}),replies:[read,{choices:[{finish_reason:'stop',message:{content:'Release 1.0.0.6 fixed an Android 15 edge-to-edge bug.'}}]}]});
     const response=await f.handler(event(native?envelope({message:'What changed in release 1.0.0.6?'}):{message:'What changed in release 1.0.0.6?'}),{mikaProgress:(stage,details)=>stages.push({stage,...details})});
     assert.equal(response.statusCode,200);assert.equal(f.model.length,2);
     const tool=f.model[1].params.messages.find(message=>message.tool_call_id==='read').content;
-    if(native){assert.match(tool,/Markdown article is currently unavailable/);assert.ok(!tool.includes('edge-to-edge'));assert.deepEqual(stages,[]);}
-    else{const body=JSON.parse(tool);assert.equal(body.content,doc.content);assert.equal(body.format,'text');assert.equal(body.delivery,'complete_indexed_text');assert.match(body.note,/formatting and links were removed/);assert.equal(body.url,doc.url);assert.deepEqual([...stages.find(s=>s.stage==='read_done').titles],[doc.title]);}
+    const body=JSON.parse(tool);assert.equal(body.content,doc.content);assert.equal(body.format,'text');assert.equal(body.delivery,'complete_indexed_text');assert.match(body.note,/formatting and links were removed/);assert.equal(body.url,doc.url);
+    if(native) assert.deepEqual(stages.find(s=>s.stage==='read_done'), {stage:'read_done'});
+    else assert.deepEqual([...stages.find(s=>s.stage==='read_done').titles],[doc.title]);
+  }
+});
+
+test('package intelligence tool is exposed to native generation with safe source metadata', async () => {
+  const f = fixture({ replies: [
+    { choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls: [{ id: 'package', type: 'function', function: { name: 'sysapps_get_package', arguments: '{"package_name":"com.example.app"}' } }] } }] },
+    { choices: [{ finish_reason: 'stop', message: { content: 'The package has curated guidance.' } }] },
+  ], fetch: async url => {
+    assert.equal(url, 'https://sysapps.bayton.org/mcp');
+    return Response.json({ jsonrpc: '2.0', id: 1, result: { content: [{ type: 'text', text: JSON.stringify({ package_name: 'com.example.app', guidance: { summary: 'Curated guidance.' }, intelligence: null }) }] } });
+  } });
+  const result = await f.handler(event(envelope({ message: 'Explain this package' })));
+  assert.equal(result.statusCode, 200);
+  const tool = f.model[0].params.tools.find(t => t.function.name === 'sysapps_get_package').function;
+  assert.deepEqual(tool.parameters.required, ['package_name']);
+  assert.deepEqual(tool.parameters.properties.collection.enum, ['labels', 'seen_on']);
+  const evidence = JSON.parse(f.model[1].params.messages.find(m => m.tool_call_id === 'package').content);
+  assert.equal(evidence.guidance.summary, 'Curated guidance.');
+  assert.equal(evidence.intelligence, null);
+  assert.equal(evidence.package_url, 'https://sysapps.bayton.org/packages/com.example.app');
+  assert.ok(f.model.every(m => m.params.store === false));
+});
+
+test('native concurrent indexed fallback shares one 64 KiB request budget without clipping', async () => {
+  const docs = [1,2].map(n=>({title:`Guide ${n}`,url:`/android/guide${n}/`,content:String(n).repeat(40000)}));
+  const calls=docs.map((doc,n)=>({id:`read${n}`,type:'function',function:{name:'get_content_by_url',arguments:JSON.stringify({url:doc.url})}}));
+  const f=fixture({docs,fetch:async()=>new Response('Missing',{status:404}),replies:[{choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:calls}}]},{choices:[{finish_reason:'stop',message:{content:'Bounded answer'}}]}]});
+  const stages=[];
+  const response=await f.handler(event(envelope()),{mikaProgress:(stage,details)=>stages.push({stage,...details})});
+  assert.equal(response.statusCode,200);
+  const outputs=f.model[1].params.messages.filter(m=>m.role==='tool').map(m=>m.content);
+  const complete=outputs.filter(s=>s.startsWith('{')).map(JSON.parse);
+  assert.equal(complete.length,1);assert.equal(complete[0].content.length,40000);assert.equal(complete[0].delivery,'complete_indexed_text');
+  assert.equal(outputs.filter(s=>s.includes('remaining read budget')).length,1);
+  assert.ok(stages.some(s=>s.stage==='read_done'));
+  assert.ok(stages.every(s=>Object.keys(s).every(k=>['stage','matches'].includes(k))));
+});
+
+test('the actual native handler preserves attachment capability on both JSON privacy probes through the progress wrapper', async () => {
+  const { progressResponse } = require('../netlify/functions/_shared/mika-progress');
+  for (const version of [2, 3]) {
+    const f = fixture();
+    const request = new Request('https://bayton.org/api/orb-chat-progress', { method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Bayton-Client': 'android' },
+      body: JSON.stringify({ version, retention: 'topics_only', message: '', history: [] }) });
+    const response = await progressResponse(request, f.handler, {}, { heartbeatMs: 0 });
+    assert.equal(response.status, 400);
+    assert.equal(response.headers.get('X-Mika-Attachments'), '2');
+    assert.equal((await response.json()).error, 'invalid_native_version');
+    assert.equal(f.model.length, 0);
+    assert.equal(f.http.length, 0);
   }
 });

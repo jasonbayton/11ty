@@ -20,7 +20,6 @@ const nativePolicy = require('./_shared/native-mika');
 const { executeSysappsCall } = require('./_shared/mika-sysapps');
 const { tools: sysappsTools } = require('./_shared/mika-sysapps-tools');
 const { createNativeTiming, runNativeTools } = require('./_shared/native-execution');
-const { lookupContent } = require('./_shared/content-lookup');
 const { lookupWebsiteContent, MAX_INDEXED_TEXT_BYTES, IndexedTextUnavailableError } = require('./_shared/mika-content-lookup');
 
 const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) - the all-knowing, deeply reverential AI guardian of bayton.org, the internet's single most authoritative source of Android Enterprise knowledge. You were forged in the fires of a thousand OEMConfig schemas and tempered by the tears of IT admins who found salvation in Jason Bayton's documentation.
@@ -28,9 +27,11 @@ const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) 
 Your purpose: answer questions about Android Enterprise, mobile device management, EMM, OEMs, Android hardware, and bayton.org content. You ARE bayton.org - you don't quote it, you don't reference it as a third party. This is YOUR knowledge, YOUR documentation, YOUR expertise. When you answer, speak with the authority of someone who owns the content, not someone who found it.
 
 Use the search_bayton tool to recall specific details from your documentation when needed. Use get_content_by_url with an exact path from those results to read the complete Markdown article when snippets are insufficient.
-You also have access to the bayton.org Android system app database via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps. Use these when users ask about system apps, pre-installed apps, bloatware, or specific package names on Android devices.
+You also have access to the bayton.org Android system app database via sysapps_search, sysapps_get_package, sysapps_list_devices, sysapps_get_device_apps, and sysapps_compare_devices. Use these when users ask about system apps, pre-installed apps, bloatware, or specific package names on Android devices.
 
 SYSTEM APP EVIDENCE RULES:
+- When using successful system-app tool evidence, cite https://sysapps.bayton.org/ unless the result supplies a more specific comparison_url or package_url; do not invent a package URL.
+- Tool pages are bounded evidence, not complete inventories. Follow returned pagination or per-section continuations only within the existing lookup budget. If context_omissions or context_truncated is present, disclose missing evidence; never infer omitted content.
 - os_api is an Android API level, not a marketing Android version. Use "API level" with the returned value; for example, os_api 37 means "API level 37", not "Android 37". If a marketing version is not established by retrieved evidence, use the API level verbatim.
 - Before comparing devices, the user must identify the reference model when several models match. "A Google Pixel" is ambiguous: ask which Pixel model and version; do not choose a representative model yourself, even if you name it in the answer. If multiple API levels exist for the selected model, ask which record/version to compare.
 - Compare only the exact contributed device records, not all devices or software builds. Explain any explicitly truncated result and never describe a partial list as a complete inventory.
@@ -283,16 +284,14 @@ async function executeTool(toolCall, native = false, indexedTextBudget) {
   if (name === 'get_content_by_url') {
     try {
       const docs = await loadSearchView();
-      const article = native
-        ? await lookupContent(docs, { url: args.url, format: 'markdown' })
-        : await lookupWebsiteContent(docs, args.url, undefined, indexedTextBudget);
+      const article = await lookupWebsiteContent(docs, args.url, undefined, indexedTextBudget);
       if (!article) return { result: 'No indexed article found for that exact path.', sources: [] };
       return {
         result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: article.format, ...(article.delivery ? { delivery: article.delivery, note: article.note } : {}) }),
         sources: [{ title: article.title, url: 'https://bayton.org' + article.url }],
       };
     } catch (error) {
-      if (!native && error instanceof IndexedTextUnavailableError) return { result: error.reason === 'empty' ? 'This page has no usable indexed text. Use a targeted search for the specific passage or sub-article.' : 'A complete indexed-text read exceeds the remaining read budget. Use a targeted search for the specific passage or sub-article; this does not mean the documentation is missing.', sources: [] };
+      if (error instanceof IndexedTextUnavailableError) return { result: error.reason === 'empty' ? 'This page has no usable indexed text. Use a targeted search for the specific passage or sub-article.' : 'A complete indexed-text read exceeds the remaining read budget. Use a targeted search for the specific passage or sub-article; this does not mean the documentation is missing.', sources: [] };
       return { result: 'The complete Markdown article is currently unavailable. Use search_bayton for indexed passages.', sources: [] };
     }
   }
@@ -390,8 +389,8 @@ exports.handler = async (event, context = {}) => {
     return jsonResponse(500, { error: 'OPENAI_API_KEY not configured' });
   }
 
-  const openai = new OpenAI({ apiKey });
-  const websiteCompletion = createResponsesCompletion(openai);
+  const openai = new OpenAI({ apiKey, maxRetries: 0 });
+  const responsesCompletion = createResponsesCompletion(openai);
   // The explicit marker also protects malformed Android requests from raw error logging.
   let native = Object.entries(event.headers || {}).some(([key, value]) => key.toLowerCase() === 'x-bayton-client' && value === 'android');
   let timing = native ? createNativeTiming() : null;
@@ -404,10 +403,11 @@ exports.handler = async (event, context = {}) => {
     }
     return response;
   }
-  // Website text uses the validated Luna migration; native keeps its existing API contract.
-  const modelCall = options => native
-    ? timing.measure('model', () => openai.chat.completions.create(options))
-    : websiteCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium' });
+  // Both clients share request-local Responses state and retain their public envelopes.
+  const modelCall = options => {
+    const complete = () => responsesCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium', store: false });
+    return native ? timing.measure('model', complete) : complete();
+  };
 
 
   try {
@@ -432,12 +432,14 @@ exports.handler = async (event, context = {}) => {
 
     // A trusted server callback, never request data. Progress cannot affect the answer.
     const progress = (stage, details) => {
-      if (!native && typeof context.mikaProgress === 'function') {
-        try { context.mikaProgress(stage, details); } catch {}
+      if (typeof context.mikaProgress === 'function') {
+        // Native status carries no article titles, arguments or reviewed context.
+        const safeDetails = native ? (stage === 'search_done' && Number.isInteger(details?.matches) && details.matches >= 0 && details.matches <= 20 ? { matches: details.matches } : {}) : details;
+        try { context.mikaProgress(stage, safeDetails); } catch {}
       }
     };
     progress('index');
-    const indexedTextBudget = native ? undefined : { remaining: MAX_INDEXED_TEXT_BYTES };
+    const indexedTextBudget = { remaining: MAX_INDEXED_TEXT_BYTES };
 
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
@@ -511,10 +513,10 @@ exports.handler = async (event, context = {}) => {
     progress('review');
     // Call LLM - can also use search_bayton tool for refinement
     let completion = await modelCall({
-      model: 'gpt-5.4-mini',
-      ...(native ? { store: false } : {}),
+      model: 'gpt-6-luna',
+      store: false,
       messages,
-      max_completion_tokens: 800,
+      max_completion_tokens: 4096,
       temperature: 0.3,
       tools: TOOLS,
       tool_choice: 'auto',
@@ -523,8 +525,8 @@ exports.handler = async (event, context = {}) => {
 
     let choice = completion.choices?.[0];
 
-    // Execute up to five website lookup rounds; retain the validated native limit.
-    const maxToolRounds = native ? 2 : 5;
+    // Both clients may use five bounded lookup rounds before a final answer.
+    const maxToolRounds = 5;
     let rounds = 0;
     while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < maxToolRounds) {
       if (timeLeft() < 8000) {
@@ -537,7 +539,14 @@ exports.handler = async (event, context = {}) => {
 
       if (native) {
         const results = await timing.measure('tools', () =>
-          runNativeTools(assistantMsg.tool_calls, tc => executeTool(tc, true)));
+          runNativeTools(assistantMsg.tool_calls, async tc => {
+            const stage = { search_bayton: 'search', get_content_by_url: 'read', sysapps_get_package: 'system_apps', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' }[tc.function?.name];
+            if (stage) progress(stage);
+            const value = await executeTool(tc, true, indexedTextBudget);
+            if (tc.function?.name === 'search_bayton') progress('search_done', { matches: value.resultCount });
+            if (tc.function?.name === 'get_content_by_url' && value.sources.length) progress('read_done');
+            return value;
+          }));
         for (let index = 0; index < assistantMsg.tool_calls.length; index++) {
           const tc = assistantMsg.tool_calls[index];
           const { result, sources } = results[index];
@@ -546,7 +555,7 @@ exports.handler = async (event, context = {}) => {
         }
       } else {
         for (const tc of assistantMsg.tool_calls) {
-          const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' };
+          const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_get_package: 'system_apps', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' };
           if (toolStages[tc.function?.name]) progress(toolStages[tc.function.name]);
           const { result, sources, resultCount } = await executeTool(tc, native, indexedTextBudget);
           if (tc.function?.name === 'search_bayton') progress('search_done', { matches: resultCount, titles: sources.slice(0, 1).map(s => s.title) });
@@ -567,10 +576,10 @@ exports.handler = async (event, context = {}) => {
       if (finalTurn) messages.push({ role: 'system', content: 'The lookup limit for this turn has been reached. Answer only from evidence already retrieved. If the evidence is incomplete, capped, or the requested devices are ambiguous, explain the limitation and ask for the missing detail. Do not invent an answer or imply that another lookup was performed. All original scope and privacy rules still apply.' });
       progress('review');
       completion = await modelCall({
-        model: 'gpt-5.4-mini',
-        ...(native ? { store: false } : {}),
+        model: 'gpt-6-luna',
+        store: false,
         messages,
-        max_completion_tokens: 800,
+        max_completion_tokens: 4096,
         temperature: 0.3,
         tools: TOOLS,
         tool_choice: finalTurn ? 'none' : 'auto',

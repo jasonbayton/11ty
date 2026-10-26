@@ -7,7 +7,12 @@ function createResponsesCompletion(client) {
     for (const message of options.messages.slice(consumed)) {
       if (consumed && message.role === 'assistant') continue;
       if (message.role === 'tool') input.push({ type: 'function_call_output', call_id: message.tool_call_id, output: message.content });
-      else input.push({ role: message.role, content: message.content });
+      else input.push({ role: message.role, content: Array.isArray(message.content) ? message.content.map(part => {
+        if (part.type === 'text') return { type: 'input_text', text: part.text };
+        if (part.type === 'image_url') return { type: 'input_image', image_url: part.image_url.url, ...(part.image_url.detail ? { detail: part.image_url.detail } : {}) };
+        if (part.type === 'file') return { type: 'input_file', filename: part.file.filename, file_data: part.file.file_data };
+        throw new Error('Unsupported input content type');
+      }) : message.content });
     }
     consumed = options.messages.length;
     const raw = await client.responses.create({

@@ -67,7 +67,8 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
   let turn = 0;
   class OpenAI {
     constructor(options) {
-      model.push({ constructor: JSON.parse(JSON.stringify(options)) });
+      if (handlerPath === path.join(current, 'orb-chat.js')) { assert.deepEqual(Object.keys(options), ['apiKey', 'maxRetries']); assert.equal(options.maxRetries, 0); }
+      model.push({ constructor: {apiKey: options.apiKey} });
       this.chat = { completions: { create: async (params, options) => {
         model.push(JSON.parse(JSON.stringify({ params, options })));
         if (turn++ === 0) return { choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls: [{ id: 'search', type: 'function', function: { name: 'search_bayton', arguments: JSON.stringify({ query: 'Android work profile' }) } }] } }] };
@@ -84,7 +85,8 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
       // This suite compares grounding and tool-loop behaviour; the real Responses wire contract has its own tests.
       if (name.endsWith('mika-responses')) return { createResponsesCompletion: client => options => {
         assert.equal(options.model, 'gpt-6-luna'); assert.equal(options.reasoning_effort, 'medium');
-        const legacy = { ...options, model: 'gpt-5.4-mini' }; delete legacy.reasoning_effort;
+        assert.equal(options.max_completion_tokens, 4096);
+        const legacy = { ...options, model: 'gpt-5.4-mini', max_completion_tokens: 800 }; delete legacy.reasoning_effort; if (!native) delete legacy.store;
         return client.chat.completions.create(legacy);
       } };
       if (name.endsWith('content-index')) return { ...index, loadSearchView: async () => docs };
@@ -100,10 +102,10 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
   const payload = { message, history: [{ role: 'user', content: 'What about Android?' }, { role: 'assistant', content: 'Which deployment scenario?' }] };
   if (native) Object.assign(payload, { version: 1, retention: 'topics_only' });
   const response = await mod.exports.handler({ httpMethod: 'POST', body: JSON.stringify(payload) }, { mikaProgress });
-  const approvedEvidenceRules = '\nSYSTEM APP EVIDENCE RULES:\n- os_api is an Android API level, not a marketing Android version. Use "API level" with the returned value; for example, os_api 37 means "API level 37", not "Android 37". If a marketing version is not established by retrieved evidence, use the API level verbatim.\n- Before comparing devices, the user must identify the reference model when several models match. "A Google Pixel" is ambiguous: ask which Pixel model and version; do not choose a representative model yourself, even if you name it in the answer. If multiple API levels exist for the selected model, ask which record/version to compare.\n- Compare only the exact contributed device records, not all devices or software builds. Explain any explicitly truncated result and never describe a partial list as a complete inventory.\n- For device comparison answers, state the exact records and total counts, show at most ten package examples, and link comparison_url when provided. Do not attempt to reproduce an entire returned inventory in the chat response.\n- Search result order and global device counts do not establish frequency within a selected OEM. Describe observed matches without claiming "most common" or "most commonly".\n';
+  const approvedEvidenceRules = '\nSYSTEM APP EVIDENCE RULES:\n- When using successful system-app tool evidence, cite https://sysapps.bayton.org/ unless the result supplies a more specific comparison_url or package_url; do not invent a package URL.\n- Tool pages are bounded evidence, not complete inventories. Follow returned pagination or per-section continuations only within the existing lookup budget. If context_omissions or context_truncated is present, disclose missing evidence; never infer omitted content.\n- os_api is an Android API level, not a marketing Android version. Use "API level" with the returned value; for example, os_api 37 means "API level 37", not "Android 37". If a marketing version is not established by retrieved evidence, use the API level verbatim.\n- Before comparing devices, the user must identify the reference model when several models match. "A Google Pixel" is ambiguous: ask which Pixel model and version; do not choose a representative model yourself, even if you name it in the answer. If multiple API levels exist for the selected model, ask which record/version to compare.\n- Compare only the exact contributed device records, not all devices or software builds. Explain any explicitly truncated result and never describe a partial list as a complete inventory.\n- For device comparison answers, state the exact records and total counts, show at most ten package examples, and link comparison_url when provided. Do not attempt to reproduce an entire returned inventory in the chat response.\n- Search result order and global device counts do not establish frequency within a selected OEM. Describe observed matches without claiming "most common" or "most commonly".\n';
   for (const call of model) if (handlerPath === path.join(current, 'orb-chat.js') && call.params?.messages) {
     assert.ok(call.params.messages[0].content.includes(approvedEvidenceRules));
-    call.params.messages[0].content = call.params.messages[0].content.replace('\n' + approvedEvidenceRules, '');
+    call.params.messages[0].content = call.params.messages[0].content.replace('\n' + approvedEvidenceRules, '').replace('via sysapps_search, sysapps_get_package, sysapps_list_devices, sysapps_get_device_apps, and sysapps_compare_devices.', 'via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps.');
   }
   // The dedicated sysapps API changes three parameter descriptions and adds a comparison tool.
   // Compare all tool schemas and all other descriptions exactly.
@@ -143,7 +145,7 @@ test('prompts, search ordering, sources and transcripts retain parity except the
     assert.deepEqual(await transcript(path.join(current, 'orb-chat.js'), next, docs, message, native), await transcript(path.join(baseline, 'orb-chat.cjs'), old, docs, message, native), `${message}, native=${native}`);
   }
 });
-test('progress is observational only and never runs for native requests', async () => {
+test('progress is observational for both clients and excludes native titles', async () => {
   const next = load(path.join(current, '_shared/content-index.js'));
   const docs = next.buildSearchView(synthetic);
   const stages = [];
@@ -153,7 +155,7 @@ test('progress is observational only and never runs for native requests', async 
   assert.deepEqual(await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', false, () => { throw Error('disconnected'); }), normal);
   stages.length = 0;
   await transcript(path.join(current, 'orb-chat.js'), next, docs, 'Android', true, stage => stages.push(stage));
-  assert.deepEqual(stages, []);
+  assert.deepEqual(stages, ['index', 'search', 'search_done', 'review', 'search', 'search_done', 'review']);
 });
 
 test('reported tool result count matches the passages actually loaded rather than capped source links', async () => {
