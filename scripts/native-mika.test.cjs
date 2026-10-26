@@ -51,9 +51,13 @@ function fixture(options = {}) {
       const actual = require('../netlify/functions/_shared/content-lookup');
       return { lookupContent: (docs, params) => actual.lookupContent(docs, params, fetcher) };
     }
+    if (name.endsWith('mika-sysapps-tools')) return require('../netlify/functions/_shared/mika-sysapps-tools');
     if (name.endsWith('mika-sysapps')) {
       const adapter = { exports: {} };
-      vm.runInNewContext(fs.readFileSync(path.resolve('netlify/functions/_shared/mika-sysapps.js'), 'utf8'), { ...common, exports: adapter.exports });
+      vm.runInNewContext(fs.readFileSync(path.resolve('netlify/functions/_shared/mika-sysapps.js'), 'utf8'), {
+        ...common, exports: adapter.exports,
+        require: name => { assert.equal(name, './mika-sysapps-tools'); return require('../netlify/functions/_shared/mika-sysapps-tools'); },
+      });
       return adapter.exports;
     }
     if (name.endsWith('native-mika')) return helper.exports;
@@ -418,7 +422,7 @@ test('both device lists then a direct comparison fit two rounds and preserve nat
   assert.equal(comparison.left_only_truncated,false);
   const tool=f.model[0].params.tools.find(t=>t.function.name==='sysapps_compare_devices').function;
   assert.deepEqual(tool.parameters.required,Object.keys(args));
-  assert.deepEqual(Object.keys(tool.parameters.properties),Object.keys(args));
+  assert.deepEqual(Object.keys(tool.parameters.properties),['diff_limit','diff_offset','diff_section','diff_after',...Object.keys(args)]);
   assert.match(tool.description,/never silently select/);
   assert.ok(f.model.every(m=>m.params.store===false));
   assert.ok(!JSON.stringify(f.http.filter(h=>h.url.startsWith('https://ping'))).includes('Pixel 9 Pro XL'));

@@ -779,71 +779,6 @@
   // Voice engine (OpenAI Realtime API via WebRTC)
   // =========================================================================
 
-  var REALTIME_TOOLS = [
-    {
-      type: 'function',
-      name: 'search_bayton',
-      description: 'Search bayton.org documentation for Android Enterprise content, guides, and resources.',
-      parameters: {
-        type: 'object',
-        properties: {
-          query: { type: 'string', description: 'The search query' },
-        },
-        required: ['query'],
-      },
-    },
-    {
-      type: 'function',
-      name: 'sysapps_search',
-      description: 'Search the bayton.org Android system app database by package name, app name, or alias. Use when users ask about system apps, bloatware, pre-installed apps, or package names.',
-      parameters: {
-        type: 'object',
-        properties: {
-          query: { type: 'string', description: 'Package name, app name, or keyword' },
-        },
-        required: ['query'],
-      },
-    },
-    {
-      type: 'function',
-      name: 'sysapps_list_devices',
-      description: 'List devices in the system app database. Optionally filter by OEM, model, or OS.',
-      parameters: {
-        type: 'object',
-        properties: {
-          make: { type: 'string', description: 'OEM filter e.g. "Samsung"' },
-          model: { type: 'string', description: 'Model filter' },
-          os: { type: 'string', description: 'OS version filter' },
-        },
-      },
-    },
-    {
-      type: 'function',
-      name: 'sysapps_get_device_apps',
-      description: 'Get the full system app list for a specific device. Use sysapps_list_devices first to find exact values.',
-      parameters: {
-        type: 'object',
-        properties: {
-          make: { type: 'string', description: 'OEM name (exact)' },
-          model: { type: 'string', description: 'Device model (exact)' },
-          os: { type: 'string', description: 'OS version (exact)' },
-        },
-        required: ['make', 'model', 'os'],
-      },
-    },
-    {
-      type: 'function',
-      name: 'fetch_url',
-      description: 'LAST RESORT ONLY. Fetch content from an external Android documentation URL. ONLY use this AFTER search_bayton returned no useful results. Allowed domains: developer.android.com, source.android.com, androidenterprise.community. Returns plain text content from the page.',
-      parameters: {
-        type: 'object',
-        properties: {
-          url: { type: 'string', description: 'The full URL to fetch (must be on an allowed domain)' },
-        },
-        required: ['url'],
-      },
-    },
-  ];
 
   function VoiceEngine(orb) {
     this.orb = orb;
@@ -908,6 +843,9 @@
         if (!sessionRes.ok) throw new Error('Unable to start realtime session.');
         var ephemeralKey = sessionJson && sessionJson.client_secret && sessionJson.client_secret.value;
         if (!ephemeralKey) throw new Error('Realtime session token was not returned.');
+
+        var realtimeTools = sessionJson.tools;
+        if (!Array.isArray(realtimeTools) || !realtimeTools.some(function (tool) { return tool.name === 'search_bayton'; })) throw new Error('Voice tool configuration unavailable.');
 
         // 2. Mic access
         var stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -1082,14 +1020,13 @@
                         output: typeof output === 'string' ? output : JSON.stringify(output),
                       },
                     }));
-                    // Only trigger a new response for search — save_question is fire-and-forget
+                    // Continue with the guarded session instructions; save_question is fire-and-forget
                     if (toolName !== 'save_question') {
                       dc.send(JSON.stringify({
                         type: 'response.create',
                         response: {
                           output_modalities: ['audio'],
                           tool_choice: 'auto',
-                          instructions: 'Use the tool output to answer clearly in concise British English. Summarise rather than reading raw data. Cite sources by article title. The search results are the ONLY source of truth — do NOT use your own training knowledge. Read ALL results before answering. Do NOT confuse deployment scenarios — QR code provisions fully managed devices, NOT work profiles.',
                         },
                       }));
                     }
@@ -1154,7 +1091,7 @@
                 },
                 output: { voice: 'sage' },
               },
-              tools: REALTIME_TOOLS,
+              tools: realtimeTools,
               tool_choice: 'auto',
             },
           }));
@@ -1234,7 +1171,6 @@
         type: 'response.create',
         response: {
           output_modalities: ['audio'],
-          instructions: 'Respond in concise British English. If data lookup is needed, call the appropriate tool.',
         },
       }));
       return true;

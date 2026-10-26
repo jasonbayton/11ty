@@ -18,6 +18,7 @@ const {
 
 const nativePolicy = require('./_shared/native-mika');
 const { executeSysappsCall } = require('./_shared/mika-sysapps');
+const { tools: sysappsTools } = require('./_shared/mika-sysapps-tools');
 const { createNativeTiming, runNativeTools } = require('./_shared/native-execution');
 const { lookupContent } = require('./_shared/content-lookup');
 const { lookupWebsiteContent, MAX_INDEXED_TEXT_BYTES, IndexedTextUnavailableError } = require('./_shared/mika-content-lookup');
@@ -163,73 +164,7 @@ const TOOLS = [
       },
     },
   },
-  {
-    type: 'function',
-    function: {
-      name: 'sysapps_search',
-      description: 'Search the bayton.org Android system app database by package name, app name, or alias. Use this when users ask about system apps, bloatware, pre-installed apps, or specific package names.',
-      parameters: {
-        type: 'object',
-        properties: {
-          query: {
-            type: 'string',
-            description: 'Package name, app name, or keyword. For a named OEM or model, include filters in the same query, e.g. "oem:Oukitel label:camera" or "model:WP60 label:camera". Results describe observed packages, not a safety verdict; device counts are global, not counts for the selected OEM.',
-          },
-        },
-        required: ['query'],
-      },
-    },
-  },
-  {
-    type: 'function',
-    function: {
-      name: 'sysapps_list_devices',
-      description: 'List devices available in the system app database. Optionally filter by OEM make, model, or OS version.',
-      parameters: {
-        type: 'object',
-        properties: {
-          make: { type: 'string', description: 'OEM filter e.g. "Samsung", "Google", "Xiaomi"' },
-          model: { type: 'string', description: 'Model filter e.g. "SM-S926B", "Pixel 8"' },
-          os: { type: 'string', description: 'Android API level filter, e.g. "34" for Android 14 or "35" for Android 15' },
-        },
-      },
-    },
-  },
-  {
-    type: 'function',
-    function: {
-      name: 'sysapps_get_device_apps',
-      description: 'Get the full system app list for a specific device (requires exact make, model, and OS). Use sysapps_list_devices first to find exact values.',
-      parameters: {
-        type: 'object',
-        properties: {
-          make: { type: 'string', description: 'OEM name (exact match)' },
-          model: { type: 'string', description: 'Device model (exact match)' },
-          os: { type: 'string', description: 'Android API level from sysapps_list_devices (exact match)' },
-        },
-        required: ['make', 'model', 'os'],
-      },
-    },
-  },
-  {
-    type: 'function',
-    function: {
-      name: 'sysapps_compare_devices',
-      description: 'Compare observed packages on two exact device/API-level records. Use sysapps_list_devices to obtain both exact tuples, preferably in the same round. If a model or API level is ambiguous, ask the user to choose; never silently select a representative device. For apps on A absent from B, set left=A and right=B and use left_only. Results are a contributed sample, not universal device coverage. Lists may be explicitly truncated; never claim those are complete inventories.',
-      parameters: {
-        type: 'object',
-        properties: {
-          left_make: { type: 'string', description: 'Exact left OEM from sysapps_list_devices' },
-          left_model: { type: 'string', description: 'Exact left model from sysapps_list_devices' },
-          left_os: { type: 'string', description: 'Exact left Android API level from sysapps_list_devices' },
-          right_make: { type: 'string', description: 'Exact right OEM from sysapps_list_devices' },
-          right_model: { type: 'string', description: 'Exact right model from sysapps_list_devices' },
-          right_os: { type: 'string', description: 'Exact right Android API level from sysapps_list_devices' },
-        },
-        required: ['left_make', 'left_model', 'left_os', 'right_make', 'right_model', 'right_os'],
-      },
-    },
-  },
+  ...sysappsTools.map(({ type, ...definition }) => ({ type, function: definition })),
   {
     type: 'function',
     function: {
@@ -431,7 +366,7 @@ async function executeTool(toolCall, native = false, indexedTextBudget) {
     return { result: 'OK', sources: [] };
   }
 
-  if (name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps' || name === 'sysapps_compare_devices') {
+  if (name === 'sysapps_get_package' || name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps' || name === 'sysapps_compare_devices') {
     return executeSysappsCall(name, args);
   }
 
