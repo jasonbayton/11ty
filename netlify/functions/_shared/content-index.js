@@ -319,12 +319,11 @@ function createSearchMatcher(query) {
  * @param {RegExp} matcher
  * @returns {string}
  */
-function buildMatchSnippet(content, matcher) {
+function buildMatchSnippet(content, matcher, index = content ? content.search(matcher) : -1) {
   if (!content) {
     return '';
   }
 
-  const index = content.search(matcher);
   if (index < 0) {
     return content.slice(0, 1000);
   }
@@ -434,7 +433,9 @@ function searchDocs(searchableDocs, query, limit) {
       return {
         title: doc.title,
         url: doc.url,
-        snippet: buildMatchSnippet(doc.content || '', matcher),
+        content: doc.content || '',
+        snippetMatcher: matcher,
+        contentIndex,
         score,
       };
     });
@@ -474,7 +475,8 @@ function searchDocs(searchableDocs, query, limit) {
         return {
           title: r.doc.title,
           url: r.doc.url,
-          snippet: buildMatchSnippet(r.doc.content || '', snippetMatcher),
+          content: r.doc.content || '',
+          snippetMatcher,
           score: (titleHit ? 80 : 0) + r.matchCount * 15 + kwTypeBonus + kwRecency,
         };
       });
@@ -483,10 +485,14 @@ function searchDocs(searchableDocs, query, limit) {
   // Merge, sort by score, deduplicate
   const all = phraseResults.concat(keywordResults).sort((a, b) => b.score - a.score);
 
-  return {
-    totalMatches: all.length,
-    results: all.slice(0, limit).map(({ score, ...result }) => result),
-  };
+  // Snippets cannot affect selection. Keep every ranking/fallback decision above intact.
+  const selected = all.slice(0, limit);
+  const results = selected.map(({ title, url, content, snippetMatcher, contentIndex }) => ({
+    title,
+    url,
+    snippet: buildMatchSnippet(content, snippetMatcher, contentIndex),
+  }));
+  return { totalMatches: all.length, results };
 }
 
 module.exports = {

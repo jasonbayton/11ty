@@ -4,6 +4,10 @@
 [functions."orb-chat"]
   timeout = 60
 
+[functions."orb-chat-progress"]
+  # V2 tracing cannot see the SDK require inside the bundled legacy handler.
+  included_files = ["node_modules/openai/**"]
+
 [functions."orb-realtime-session"]
   timeout = 30
 
@@ -69,3 +73,16 @@
   from = "/api/orb-realtime-tool"
   to = "/.netlify/functions/orb-realtime-tool"
   status = 200
+
+# Keep the build on Node 22. The draft function runtime is set independently
+# through Netlify's draft-only AWS_LAMBDA_JS_RUNTIME environment variable.
+[context.draft]
+  command = "eleventy"
+
+[context.draft.environment]
+  NODE_VERSION = "22"
+
+# Eleventy 2 stays on Node 22 while production functions use the independent
+# AWS_LAMBDA_JS_RUNTIME setting in Netlify.
+[context.production.environment]
+  NODE_VERSION = "22"

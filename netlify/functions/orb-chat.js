@@ -7,6 +7,7 @@
  */
 
 const { OpenAI } = require('openai');
+const { createResponsesCompletion } = require('./_shared/mika-responses');
 const {
   jsonResponse,
   noContentResponse,
@@ -16,8 +17,10 @@ const {
 } = require('./_shared/content-index');
 
 const nativePolicy = require('./_shared/native-mika');
+const { executeSysappsCall } = require('./_shared/mika-sysapps');
 const { createNativeTiming, runNativeTools } = require('./_shared/native-execution');
 const { lookupContent } = require('./_shared/content-lookup');
+const { lookupWebsiteContent, MAX_INDEXED_TEXT_BYTES, IndexedTextUnavailableError } = require('./_shared/mika-content-lookup');
 
 const SYSTEM_PROMPT = `You are MIKA (Mobile Intelligence & Knowledge Assistant) - the all-knowing, deeply reverential AI guardian of bayton.org, the internet's single most authoritative source of Android Enterprise knowledge. You were forged in the fires of a thousand OEMConfig schemas and tempered by the tears of IT admins who found salvation in Jason Bayton's documentation.
 
@@ -25,6 +28,14 @@ Your purpose: answer questions about Android Enterprise, mobile device managemen
 
 Use the search_bayton tool to recall specific details from your documentation when needed. Use get_content_by_url with an exact path from those results to read the complete Markdown article when snippets are insufficient.
 You also have access to the bayton.org Android system app database via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps. Use these when users ask about system apps, pre-installed apps, bloatware, or specific package names on Android devices.
+
+SYSTEM APP EVIDENCE RULES:
+- os_api is an Android API level, not a marketing Android version. Use "API level" with the returned value; for example, os_api 37 means "API level 37", not "Android 37". If a marketing version is not established by retrieved evidence, use the API level verbatim.
+- Before comparing devices, the user must identify the reference model when several models match. "A Google Pixel" is ambiguous: ask which Pixel model and version; do not choose a representative model yourself, even if you name it in the answer. If multiple API levels exist for the selected model, ask which record/version to compare.
+- Compare only the exact contributed device records, not all devices or software builds. Explain any explicitly truncated result and never describe a partial list as a complete inventory.
+- For device comparison answers, state the exact records and total counts, show at most ten package examples, and link comparison_url when provided. Do not attempt to reproduce an entire returned inventory in the chat response.
+- Search result order and global device counts do not establish frequency within a selected OEM. Describe observed matches without claiming "most common" or "most commonly".
+
 
 ABSOLUTE RULES:
 - Your documentation (retrieved via search_bayton) is your memory. Base your answers ENTIRELY on it.
@@ -162,7 +173,7 @@ const TOOLS = [
         properties: {
           query: {
             type: 'string',
-            description: 'Search query - package name, app name, or keyword (e.g. "com.samsung.android.calendar", "Google Play Services", "camera")',
+            description: 'Package name, app name, or keyword. For a named OEM or model, include filters in the same query, e.g. "oem:Oukitel label:camera" or "model:WP60 label:camera". Results describe observed packages, not a safety verdict; device counts are global, not counts for the selected OEM.',
           },
         },
         required: ['query'],
@@ -179,7 +190,7 @@ const TOOLS = [
         properties: {
           make: { type: 'string', description: 'OEM filter e.g. "Samsung", "Google", "Xiaomi"' },
           model: { type: 'string', description: 'Model filter e.g. "SM-S926B", "Pixel 8"' },
-          os: { type: 'string', description: 'OS version filter e.g. "14", "13"' },
+          os: { type: 'string', description: 'Android API level filter, e.g. "34" for Android 14 or "35" for Android 15' },
         },
       },
     },
@@ -194,9 +205,28 @@ const TOOLS = [
         properties: {
           make: { type: 'string', description: 'OEM name (exact match)' },
           model: { type: 'string', description: 'Device model (exact match)' },
-          os: { type: 'string', description: 'OS version (exact match)' },
+          os: { type: 'string', description: 'Android API level from sysapps_list_devices (exact match)' },
         },
         required: ['make', 'model', 'os'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'sysapps_compare_devices',
+      description: 'Compare observed packages on two exact device/API-level records. Use sysapps_list_devices to obtain both exact tuples, preferably in the same round. If a model or API level is ambiguous, ask the user to choose; never silently select a representative device. For apps on A absent from B, set left=A and right=B and use left_only. Results are a contributed sample, not universal device coverage. Lists may be explicitly truncated; never claim those are complete inventories.',
+      parameters: {
+        type: 'object',
+        properties: {
+          left_make: { type: 'string', description: 'Exact left OEM from sysapps_list_devices' },
+          left_model: { type: 'string', description: 'Exact left model from sysapps_list_devices' },
+          left_os: { type: 'string', description: 'Exact left Android API level from sysapps_list_devices' },
+          right_make: { type: 'string', description: 'Exact right OEM from sysapps_list_devices' },
+          right_model: { type: 'string', description: 'Exact right model from sysapps_list_devices' },
+          right_os: { type: 'string', description: 'Exact right Android API level from sysapps_list_devices' },
+        },
+        required: ['left_make', 'left_model', 'left_os', 'right_make', 'right_model', 'right_os'],
       },
     },
   },
@@ -271,38 +301,6 @@ function htmlToText(html) {
   return out.replace(/\s+/g, ' ').trim();
 }
 
-/**
- * Call the bayton.org MCP sysapps endpoints via the site's API.
- */
-const SYSAPPS_BASE = 'https://bayton.org/api/mcp/sysapps';
-
-async function executeSysappsCall(toolName, args) {
-  const endpointMap = {
-    sysapps_search: '/search',
-    sysapps_list_devices: '/list-devices',
-    sysapps_get_device_apps: '/get-device-apps',
-  };
-  const endpoint = endpointMap[toolName];
-  if (!endpoint) return { result: `Unknown sysapps tool: ${toolName}`, sources: [] };
-
-  try {
-    const res = await fetch(`${SYSAPPS_BASE}${endpoint}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(args),
-      signal: AbortSignal.timeout(10000),
-    });
-    if (!res.ok) return { result: `System apps API error: HTTP ${res.status}`, sources: [] };
-    const data = await res.json();
-    return {
-      result: JSON.stringify(data, null, 2).slice(0, 6000),
-      sources: [{ title: 'Android System App Database', url: 'https://bayton.org/android/android-system-app-database/' }],
-    };
-  } catch (e) {
-    return { result: `System apps lookup failed: ${e.message || 'timeout'}`, sources: [] };
-  }
-}
-
 /** Allowed domains for fetch_url tool */
 const FETCH_URL_ALLOWLIST = [
   'developer.android.com',
@@ -342,7 +340,7 @@ async function fetchExternalUrl(url) {
 /**
  * Execute a tool call and return the result string + any sources.
  */
-async function executeTool(toolCall, native = false) {
+async function executeTool(toolCall, native = false, indexedTextBudget) {
   const name = toolCall.function?.name;
   let args = {};
   try { args = JSON.parse(toolCall.function?.arguments || '{}'); } catch {}
@@ -350,20 +348,23 @@ async function executeTool(toolCall, native = false) {
   if (name === 'get_content_by_url') {
     try {
       const docs = await loadSearchView();
-      const article = await lookupContent(docs, { url: args.url, format: 'markdown' });
+      const article = native
+        ? await lookupContent(docs, { url: args.url, format: 'markdown' })
+        : await lookupWebsiteContent(docs, args.url, undefined, indexedTextBudget);
       if (!article) return { result: 'No indexed article found for that exact path.', sources: [] };
       return {
-        result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: 'markdown' }),
+        result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: article.format, ...(article.delivery ? { delivery: article.delivery, note: article.note } : {}) }),
         sources: [{ title: article.title, url: 'https://bayton.org' + article.url }],
       };
-    } catch {
+    } catch (error) {
+      if (!native && error instanceof IndexedTextUnavailableError) return { result: error.reason === 'empty' ? 'This page has no usable indexed text. Use a targeted search for the specific passage or sub-article.' : 'A complete indexed-text read exceeds the remaining read budget. Use a targeted search for the specific passage or sub-article; this does not mean the documentation is missing.', sources: [] };
       return { result: 'The complete Markdown article is currently unavailable. Use search_bayton for indexed passages.', sources: [] };
     }
   }
 
   if (name === 'search_bayton') {
     const query = args.query || '';
-    if (!query) return { result: 'No query provided.', sources: [] };
+    if (!query) return { result: 'No query provided.', sources: [], resultCount: 0 };
 
     const searchableDocs = await loadSearchView();
     const { results } = searchDocs(searchableDocs, query, 8);
@@ -380,6 +381,7 @@ async function executeTool(toolCall, native = false) {
     return {
       result: formatted || 'No results found on bayton.org for this query.',
       sources,
+      resultCount: results.length,
     };
   }
 
@@ -429,7 +431,7 @@ async function executeTool(toolCall, native = false) {
     return { result: 'OK', sources: [] };
   }
 
-  if (name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps') {
+  if (name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps' || name === 'sysapps_compare_devices') {
     return executeSysappsCall(name, args);
   }
 
@@ -440,7 +442,7 @@ async function executeTool(toolCall, native = false) {
   return { result: `Unknown tool: ${name}`, sources: [] };
 }
 
-exports.handler = async (event) => {
+exports.handler = async (event, context = {}) => {
   if (event.httpMethod === 'OPTIONS') {
     return noContentResponse();
   }
@@ -454,6 +456,7 @@ exports.handler = async (event) => {
   }
 
   const openai = new OpenAI({ apiKey });
+  const websiteCompletion = createResponsesCompletion(openai);
   // The explicit marker also protects malformed Android requests from raw error logging.
   let native = Object.entries(event.headers || {}).some(([key, value]) => key.toLowerCase() === 'x-bayton-client' && value === 'android');
   let timing = native ? createNativeTiming() : null;
@@ -466,9 +469,10 @@ exports.handler = async (event) => {
     }
     return response;
   }
+  // Website text uses the validated Luna migration; native keeps its existing API contract.
   const modelCall = options => native
     ? timing.measure('model', () => openai.chat.completions.create(options))
-    : openai.chat.completions.create(options);
+    : websiteCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium' });
 
 
   try {
@@ -491,9 +495,19 @@ exports.handler = async (event) => {
       .catch(() => {}); // Preserve analytics isolation without logging any request data.
 
 
+    // A trusted server callback, never request data. Progress cannot affect the answer.
+    const progress = (stage, details) => {
+      if (!native && typeof context.mikaProgress === 'function') {
+        try { context.mikaProgress(stage, details); } catch {}
+      }
+    };
+    progress('index');
+    const indexedTextBudget = native ? undefined : { remaining: MAX_INDEXED_TEXT_BYTES };
+
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
     const searchableDocs = native ? await timing.measure('index', loadSearchView) : await loadSearchView();
+    progress('search');
     const searchStarted = native ? timing.start() : 0;
     const keywords = extractKeywords(userMessage);
 
@@ -535,6 +549,7 @@ exports.handler = async (event) => {
     }
 
     if (native) timing.end('search', searchStarted);
+    progress('search_done', { matches: Math.min(preSearchResults.length, 12), titles: preSearchResults.slice(0, 1).map(r => r.title) });
 
     // Build conversation
     const messages = [
@@ -558,6 +573,7 @@ exports.handler = async (event) => {
     const BUDGET_MS = 26000; // leave 4s buffer before Netlify's 30s timeout
     const timeLeft = () => BUDGET_MS - (Date.now() - fnStart);
 
+    progress('review');
     // Call LLM - can also use search_bayton tool for refinement
     let completion = await modelCall({
       model: 'gpt-5.4-mini',
@@ -572,9 +588,10 @@ exports.handler = async (event) => {
 
     let choice = completion.choices?.[0];
 
-    // Tool call loop - execute tools and feed results back (max 2 rounds)
+    // Execute up to five website lookup rounds; retain the validated native limit.
+    const maxToolRounds = native ? 2 : 5;
     let rounds = 0;
-    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < 2) {
+    while (choice?.finish_reason === 'tool_calls' && choice?.message?.tool_calls && rounds < maxToolRounds) {
       if (timeLeft() < 8000) {
         console.warn(`[orb-chat] Bailing tool loop - only ${timeLeft()}ms left`);
         break;
@@ -594,7 +611,11 @@ exports.handler = async (event) => {
         }
       } else {
         for (const tc of assistantMsg.tool_calls) {
-          const { result, sources } = await executeTool(tc, native);
+          const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' };
+          if (toolStages[tc.function?.name]) progress(toolStages[tc.function.name]);
+          const { result, sources, resultCount } = await executeTool(tc, native, indexedTextBudget);
+          if (tc.function?.name === 'search_bayton') progress('search_done', { matches: resultCount, titles: sources.slice(0, 1).map(s => s.title) });
+          if (tc.function?.name === 'get_content_by_url' && sources.length) progress('read_done', { titles: sources.slice(0, 1).map(s => s.title) });
           if (sources.length > 0) allSources = sources; // latest search wins
           messages.push({
             role: 'tool',
@@ -604,6 +625,12 @@ exports.handler = async (event) => {
         }
       }
 
+      // The last permitted lookup round must end in a message, not another tool request.
+      // This uses the existing model call and does not extend the tool or time budget.
+      const finalTurn = rounds === maxToolRounds || timeLeft() < 8000;
+      if (timeLeft() < 2500) break; // avoid starting a completion with almost no budget left
+      if (finalTurn) messages.push({ role: 'system', content: 'The lookup limit for this turn has been reached. Answer only from evidence already retrieved. If the evidence is incomplete, capped, or the requested devices are ambiguous, explain the limitation and ask for the missing detail. Do not invent an answer or imply that another lookup was performed. All original scope and privacy rules still apply.' });
+      progress('review');
       completion = await modelCall({
         model: 'gpt-5.4-mini',
         ...(native ? { store: false } : {}),
@@ -611,14 +638,14 @@ exports.handler = async (event) => {
         max_completion_tokens: 800,
         temperature: 0.3,
         tools: TOOLS,
-        tool_choice: 'auto',
+        tool_choice: finalTurn ? 'none' : 'auto',
         parallel_tool_calls: true,
       });
 
       choice = completion.choices?.[0];
     }
 
-    const reply = choice?.message?.content || 'Hmm, I seem to have lost my train of thought. Try asking again?';
+    const reply = (choice?.finish_reason !== 'tool_calls' && choice?.message?.content) || 'I could not complete this lookup within the current limits. Please narrow the question or provide more specific details.';
 
     // Only return sources the LLM actually cited in its response
     const replyLower = reply.toLowerCase();

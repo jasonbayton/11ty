@@ -101,16 +101,19 @@ exports.handler = async (event) => {
   const voice = 'sage';
 
   try {
-    const upstream = await fetch('https://api.openai.com/v1/realtime/sessions', {
+    const upstream = await fetch('https://api.openai.com/v1/realtime/client_secrets', {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model,
-        voice,
-        instructions: SYSTEM_PROMPT,
+        session: {
+          type: 'realtime',
+          model,
+          audio: { output: { voice } },
+          instructions: SYSTEM_PROMPT,
+        },
       }),
     });
 
@@ -125,7 +128,15 @@ exports.handler = async (event) => {
     }
 
     const data = await upstream.json();
-    return jsonResponse(200, data);
+    if (!data || typeof data.value !== 'string' || !data.value) {
+      return jsonResponse(502, { error: 'Realtime session token was not returned' });
+    }
+    // Retain the browser's small token envelope, without returning session
+    // instructions or the rest of the upstream configuration.
+    return jsonResponse(200, {
+      model,
+      client_secret: { value: data.value, expires_at: data.expires_at },
+    });
   } catch (err) {
     console.error('[realtime-session] error:', err);
     return jsonResponse(502, { error: 'Failed to connect to OpenAI' });
