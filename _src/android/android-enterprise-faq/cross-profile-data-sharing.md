@@ -34,6 +34,10 @@ However, administrators can selectively relax this boundary using cross-profile 
 
 On personally-owned work profiles, the default cross-profile restrictions are more permissive toward the user - for example, sharing from personal to work is allowed by default. On company-owned (COPE) devices, administrators have broader control and can lock down both directions.
 
+**Cross-profile loopback traffic blocked (Android 17)**
+
+From Android 17, apps can no longer use localhost (127.0.0.1) to communicate across profiles. This applies to all apps regardless of target API level, and there is no administrator opt-out. Apps that previously relied on loopback calls between the personal and work profile - such as identity providers using local callbacks for authentication - will fail. The most prominent example is Okta Verify FastPass, which uses loopback-based invocation and must now be installed within the same profile as the apps it authenticates. See [What enterprise features are new in Android 17?](/android/android-enterprise-faq/android-17-enterprise-features/) for broader context.
+
 **Best practices**
 
 - Enable contact searching for usability - users expect caller ID to work regardless of profile
