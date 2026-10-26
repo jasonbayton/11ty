@@ -319,12 +319,11 @@ function createSearchMatcher(query) {
  * @param {RegExp} matcher
  * @returns {string}
  */
-function buildMatchSnippet(content, matcher) {
+function buildMatchSnippet(content, matcher, index = content ? content.search(matcher) : -1) {
   if (!content) {
     return '';
   }
 
-  const index = content.search(matcher);
   if (index < 0) {
     return content.slice(0, 1000);
   }
@@ -413,6 +412,7 @@ function extractKeywords(query) {
  * @returns {{totalMatches: number, results: Array<{title: string, url: string, snippet: string}>}}
  */
 function searchDocs(searchableDocs, query, limit) {
+  const searchStarted = process.env.MIKA_SEARCH_DIAGNOSTICS === 'true' ? Date.now() : null;
   const matcher = createSearchMatcher(query);
 
   // 1. Phrase match (existing behaviour — works great for short/precise queries)
@@ -434,7 +434,9 @@ function searchDocs(searchableDocs, query, limit) {
       return {
         title: doc.title,
         url: doc.url,
-        snippet: buildMatchSnippet(doc.content || '', matcher),
+        content: doc.content || '',
+        snippetMatcher: matcher,
+        contentIndex,
         score,
       };
     });
@@ -474,7 +476,8 @@ function searchDocs(searchableDocs, query, limit) {
         return {
           title: r.doc.title,
           url: r.doc.url,
-          snippet: buildMatchSnippet(r.doc.content || '', snippetMatcher),
+          content: r.doc.content || '',
+          snippetMatcher,
           score: (titleHit ? 80 : 0) + r.matchCount * 15 + kwTypeBonus + kwRecency,
         };
       });
@@ -483,10 +486,28 @@ function searchDocs(searchableDocs, query, limit) {
   // Merge, sort by score, deduplicate
   const all = phraseResults.concat(keywordResults).sort((a, b) => b.score - a.score);
 
-  return {
-    totalMatches: all.length,
-    results: all.slice(0, limit).map(({ score, ...result }) => result),
-  };
+  // Snippets cannot affect selection. Keep every ranking/fallback decision above intact.
+  const selected = all.slice(0, limit);
+  const snippetStarted = searchStarted === null ? null : Date.now();
+  const results = selected.map(({ title, url, content, snippetMatcher, contentIndex }) => ({
+    title,
+    url,
+    snippet: buildMatchSnippet(content, snippetMatcher, contentIndex),
+  }));
+  if (searchStarted !== null) {
+    const finished = Date.now();
+    // Fixed numeric diagnostics only: no query, URL, snippet, or document content.
+    console.info('[mika-search]', JSON.stringify({
+      documents: searchableDocs.length,
+      phraseMatches: phraseResults.length,
+      totalMatches: all.length,
+      returned: results.length,
+      selectionMs: snippetStarted - searchStarted,
+      snippetMs: finished - snippetStarted,
+      totalMs: finished - searchStarted,
+    }));
+  }
+  return { totalMatches: all.length, results };
 }
 
 module.exports = {
