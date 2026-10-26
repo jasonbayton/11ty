@@ -5,6 +5,7 @@
  */
 
 const DIRECTUS_URL = 'https://ping.bayton.org';
+const { publicTopicQuestion } = require('./_shared/native-mika');
 
 function headers() {
   return {
@@ -54,7 +55,8 @@ exports.handler = async (event) => {
     }
 
     const data = await res.json();
-    const all = (data.data || []).map(item => item.question);
+    const all = [...new Set((data.data || [])
+      .map(item => publicTopicQuestion(item?.question)).filter(Boolean))];
 
     // Shuffle and pick 5
     for (let i = all.length - 1; i > 0; i--) {
