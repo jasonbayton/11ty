@@ -2,12 +2,14 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
+const { tools, systemAppRules } = require('../netlify/functions/_shared/mika-voice-tools');
 
 function handler(fetcher, key = 'synthetic-api-key') {
   const exports = {};
   vm.runInNewContext(fs.readFileSync('netlify/functions/orb-realtime-session.js', 'utf8'), {
     exports, process: { env: { OPENAI_API_KEY: key } }, fetch: fetcher,
     console: { error() {} }, require: name => {
+      if (name === './_shared/mika-voice-tools') return { tools, systemAppRules };
       assert.equal(name, './_shared/content-index');
       return {
         jsonResponse: (statusCode, data) => ({ statusCode, headers: { 'cache-control': 'no-store' }, body: JSON.stringify(data) }),
@@ -31,7 +33,7 @@ test('voice session uses GA client secrets while retaining model, voice and grou
   const response = await h({ httpMethod: 'POST' });
   assert.equal(response.statusCode, 200);
   assert.equal(response.headers['cache-control'], 'no-store');
-  assert.deepEqual(JSON.parse(response.body), { model: 'gpt-realtime-1.5', client_secret: { value: 'synthetic-ephemeral', expires_at: 123 } });
+  assert.deepEqual(JSON.parse(response.body), { model: 'gpt-realtime-1.5', tools, client_secret: { value: 'synthetic-ephemeral', expires_at: 123 } });
   assert.doesNotMatch(response.body, /synthetic-api-key|must-not-return/);
 });
 test('session failures and method guards retain safe responses', async () => {
@@ -68,7 +70,7 @@ function voiceBrowser(failHandshake = false) {
     console: { warn() {}, error() {} },
     fetch: async (url, options) => {
       requests.push({ url, options });
-      if (url === '/api/orb-realtime-session') return Response.json({ client_secret: { value: 'synthetic-ephemeral' } });
+      if (url === '/api/orb-realtime-session') return Response.json({ tools, client_secret: { value: 'synthetic-ephemeral' } });
       if (url === '/api/orb-realtime-tool') return Response.json({ result: 'grounded output', sources: [] });
       assert.equal(url, 'https://api.openai.com/v1/realtime/calls');
       assert.equal(options.headers.Authorization, 'Bearer synthetic-ephemeral');
@@ -91,6 +93,7 @@ test('browser negotiates GA session and response fields, tool continuation and t
   assert.equal(update.audio.input.transcription.model, 'gpt-4o-mini-transcribe');
   assert.equal(update.audio.output.voice, 'sage');
   assert.ok(update.tools.some(x => x.name === 'search_bayton'));
+  assert.deepEqual(update.tools, tools);
   assert.equal(update.modalities, undefined);
   f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.output_audio_transcript.done', response_id: 'response-test', transcript: 'A concise answer' }) });
   f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.output_item.done', response_id: 'response-test', item: { type: 'message', role: 'assistant', content: [{ transcript: 'A concise answer' }] } }) });
@@ -100,11 +103,73 @@ test('browser negotiates GA session and response fields, tool continuation and t
   await settle();
   const responses = f.sent.filter(x => x.type === 'response.create');
   assert.equal(responses.length, 2);
-  for (const response of responses) { assert.deepEqual(response.response.output_modalities, ['audio']); assert.equal(response.response.modalities, undefined); }
+  for (const response of responses) {
+    assert.deepEqual(response.response.output_modalities, ['audio']); assert.equal(response.response.modalities, undefined);
+    assert.equal(response.response.instructions, undefined, 'All continuations inherit the complete guarded session instructions');
+  }
   f.engine.stopVoice(); assert.equal(f.stops(), 1); assert.equal(f.peers[0].closed, true);
 });
 test('failed SDP negotiation closes the peer and microphone and permits retry', async () => {
   const f = voiceBrowser(true); f.engine.startVoice(); await settle();
   assert.equal(f.engine.isConnecting, false); assert.equal(f.engine.isLive, false);
   assert.equal(f.stops(), 1); assert.equal(f.peers[0].closed, true); assert.equal(f.engine.pc, null);
+});
+
+test('voice retains every original prompt guard with additive current system-app guidance', async () => {
+  let instructions;
+  await handler(async (_, options) => {
+    instructions = JSON.parse(options.body).session.instructions;
+    return Response.json({ value: 'synthetic-ephemeral' });
+  })({ httpMethod: 'POST' });
+  assert.ok(instructions.includes(systemAppRules));
+  const original = instructions.replace(systemAppRules + '\n\n', '')
+    .replace('via sysapps_search, sysapps_get_package, sysapps_list_devices, sysapps_get_device_apps, and sysapps_compare_devices.', 'via sysapps_search, sysapps_list_devices, and sysapps_get_device_apps.');
+  assert.equal(require('node:crypto').createHash('sha256').update(original).digest('hex'), '10ce539747fcc822d021fb8e994b52b85de263e29cbee49bbcb14d05716b1b7f');
+});
+
+test('voice declares the five current system-app tools, paging and exact-record evidence', () => {
+  const sysapps = tools.filter(tool => tool.name.startsWith('sysapps_'));
+  assert.deepEqual(sysapps.map(tool => tool.name).sort(), ['sysapps_compare_devices', 'sysapps_get_device_apps', 'sysapps_get_package', 'sysapps_list_devices', 'sysapps_search']);
+  for (const name of ['sysapps_search', 'sysapps_list_devices', 'sysapps_get_device_apps']) {
+    const params = sysapps.find(tool => tool.name === name).parameters.properties;
+    assert.equal(params.limit.maximum, 100); assert.equal(params.offset.minimum, 0);
+  }
+  const compare = sysapps.find(tool => tool.name === 'sysapps_compare_devices');
+  assert.ok(compare.parameters.properties.diff_after); assert.ok(compare.parameters.properties.diff_section);
+  assert.match(compare.description, /ambiguous/);
+  assert.match(systemAppRules, /API level/); assert.match(systemAppRules, /truncated/);
+});
+
+function toolHandler(execute) {
+  const exports = {};
+  vm.runInNewContext(fs.readFileSync('netlify/functions/orb-realtime-tool.js', 'utf8'), {
+    exports, process: { env: {} }, URL, AbortSignal,
+    fetch: async () => { throw Error('Unexpected legacy endpoint or analytics call'); },
+    console: { error() {} }, require: name => {
+      if (name === './_shared/mika-voice-tools') return { tools, systemAppRules };
+      if (name === './_shared/mika-sysapps') return { executeSysappsCall: execute };
+      assert.equal(name, './_shared/content-index');
+      return { jsonResponse: (statusCode, data) => ({ statusCode, body: JSON.stringify(data) }), noContentResponse: () => ({ statusCode: 204 }) };
+    },
+  });
+  return exports.handler;
+}
+
+test('every declared voice system-app tool uses the shared adapter without reshaping evidence', async () => {
+  const calls = [];
+  const evidence = { result: JSON.stringify({ items: [], total: 100, pagination: { has_more: true, next_offset: 20 } }), sources: [{ title: 'System apps', url: 'https://sysapps.bayton.org/' }] };
+  const h = toolHandler(async (name, args) => { calls.push({ name, args }); return evidence; });
+  for (const tool of tools.filter(tool => tool.name.startsWith('sysapps_'))) {
+    const args = { query: 'synthetic', package_name: 'com.example.app', offset: 20 };
+    const response = await h({ httpMethod: 'POST', body: JSON.stringify({ tool_name: tool.name, arguments: args }), headers: { authorization: 'private-canary' } });
+    assert.equal(response.statusCode, 200); assert.deepEqual(JSON.parse(response.body), evidence);
+    assert.deepEqual(JSON.parse(JSON.stringify(calls.at(-1))), { name: tool.name, args });
+    assert.doesNotMatch(JSON.stringify(calls), /private-canary/);
+  }
+  for (const name of ['sysapps_delete', 'https://example.invalid/']) {
+    const response = await h({ httpMethod: 'POST', body: JSON.stringify({ tool_name: name, arguments: {} }) });
+    assert.equal(response.statusCode, 200);
+    assert.match(JSON.parse(response.body).result, /Unknown tool:/);
+  }
+  assert.equal(calls.length, 5);
 });

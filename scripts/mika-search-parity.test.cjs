@@ -90,6 +90,7 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
       if (name.endsWith('content-index')) return { ...index, loadSearchView: async () => docs };
       if (name.endsWith('native-mika')) return nativePolicy;
       if (name.endsWith('mika-sysapps')) return require(path.join(current, '_shared/mika-sysapps'));
+      if (name.endsWith('mika-sysapps-tools')) return require(path.join(current, '_shared/mika-sysapps-tools'));
       if (name.endsWith('native-execution')) return require(path.join(current, '_shared/native-execution'));
       if (name.endsWith('mika-content-lookup')) return require(path.join(current, '_shared/mika-content-lookup'));
       if (name.endsWith('content-lookup')) return require(path.join(current, '_shared/content-lookup'));
@@ -106,9 +107,20 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
   }
   // The dedicated sysapps API changes three parameter descriptions and adds a comparison tool.
   // Compare all tool schemas and all other descriptions exactly.
-  for (const call of model) if (call.params?.tools) call.params.tools = call.params.tools.filter(tool => tool.function.name !== 'sysapps_compare_devices');
+  for (const call of model) if (call.params?.tools) {
+    if (handlerPath === path.join(current, 'orb-chat.js')) {
+      const canonical = require(path.join(current, '_shared/mika-sysapps-tools')).tools;
+      const actual = call.params.tools.filter(tool => tool.function.name.startsWith('sysapps_')).map(tool => ({ type: tool.type, ...tool.function }));
+      assert.deepEqual(JSON.parse(JSON.stringify(actual)), canonical);
+    }
+    call.params.tools = call.params.tools.filter(tool => !['sysapps_compare_devices', 'sysapps_get_package'].includes(tool.function.name));
+  }
   for (const call of model) for (const tool of call.params?.tools || []) {
     const fn = tool.function;
+    if (fn.name.startsWith('sysapps_')) {
+      delete fn.parameters.properties.limit; delete fn.parameters.properties.offset;
+      if (fn.name === 'sysapps_get_device_apps') fn.description = '[reviewed bounded device inventory description]';
+    }
     const field = { sysapps_search: 'query', sysapps_list_devices: 'os', sysapps_get_device_apps: 'os' }[fn.name];
     if (field) {
       const approved = {
