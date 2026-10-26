@@ -908,7 +908,6 @@
         if (!sessionRes.ok) throw new Error('Unable to start realtime session.');
         var ephemeralKey = sessionJson && sessionJson.client_secret && sessionJson.client_secret.value;
         if (!ephemeralKey) throw new Error('Realtime session token was not returned.');
-        var model = sessionJson.model || 'gpt-realtime-1.5';
 
         // 2. Mic access
         var stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -916,6 +915,7 @@
 
         // 3. RTCPeerConnection
         var pc = new RTCPeerConnection();
+        self.pc = pc;
         stream.getTracks().forEach(function (track) { pc.addTrack(track, stream); });
 
         // 4. Remote audio element
@@ -994,7 +994,7 @@
             }
 
             // Completed assistant audio transcript
-            if (type === 'response.audio_transcript.done' && typeof msg.transcript === 'string') {
+            if ((type === 'response.output_audio_transcript.done' || type === 'response.audio_transcript.done') && typeof msg.transcript === 'string') {
               var text = toBritishEnglish(msg.transcript.trim());
               var responseId = String(msg.response_id || '');
               var dedupKey = responseId ? 'resp:' + responseId : 'text:' + text.slice(0, 200);
@@ -1087,7 +1087,7 @@
                       dc.send(JSON.stringify({
                         type: 'response.create',
                         response: {
-                          modalities: ['text', 'audio'],
+                          output_modalities: ['audio'],
                           tool_choice: 'auto',
                           instructions: 'Use the tool output to answer clearly in concise British English. Summarise rather than reading raw data. Cite sources by article title. The search results are the ONLY source of truth — do NOT use your own training knowledge. Read ALL results before answering. Do NOT confuse deployment scenarios — QR code provisions fully managed devices, NOT work profiles.',
                         },
@@ -1109,7 +1109,7 @@
                       },
                     }));
                     if (toolName !== 'save_question') {
-                      dc.send(JSON.stringify({ type: 'response.create', response: { modalities: ['text', 'audio'] } }));
+                      dc.send(JSON.stringify({ type: 'response.create', response: { output_modalities: ['audio'] } }));
                     }
                   } catch (sendErr) {
                     console.warn('[VoiceEngine] DC send failed (session may have ended):', sendErr.message);
@@ -1136,18 +1136,23 @@
           dc.send(JSON.stringify({
             type: 'session.update',
             session: {
-              modalities: ['text', 'audio'],
-              voice: 'sage',
-              turn_detection: {
-                type: 'server_vad',
-                threshold: 0.4,
-                prefix_padding_ms: 500,
-                silence_duration_ms: 1400,
-                create_response: true,
-              },
-              input_audio_transcription: {
-                model: 'gpt-4o-mini-transcribe',
-                language: 'en',
+              output_modalities: ['audio'],
+              type: 'realtime',
+              audio: {
+                input: {
+                  turn_detection: {
+                    type: 'server_vad',
+                    threshold: 0.4,
+                    prefix_padding_ms: 500,
+                    silence_duration_ms: 1400,
+                    create_response: true,
+                  },
+                  transcription: {
+                    model: 'gpt-4o-mini-transcribe',
+                    language: 'en',
+                  },
+                },
+                output: { voice: 'sage' },
               },
               tools: REALTIME_TOOLS,
               tool_choice: 'auto',
@@ -1160,7 +1165,7 @@
         await pc.setLocalDescription(offer);
 
         var sdpRes = await fetch(
-          'https://api.openai.com/v1/realtime?model=' + encodeURIComponent(model),
+          'https://api.openai.com/v1/realtime/calls',
           {
             method: 'POST',
             headers: {
@@ -1199,14 +1204,8 @@
         }, 5000);
       } catch (e) {
         console.error('[VoiceEngine] start failed:', e);
-        if (self.localStream) {
-          self.localStream.getTracks().forEach(function (t) { t.stop(); });
-          self.localStream = null;
-        }
-        self.isConnecting = false;
-        self.orb.setState('idle');
-        self.updateMicButton();
-        if (self.onError) self.onError('Voice connection failed — try again in a moment.');
+        self.stopVoice();
+        if (self.onError) self.onError('Voice connection failed - try again in a moment.');
       }
     })();
   };
@@ -1234,7 +1233,7 @@
       dc.send(JSON.stringify({
         type: 'response.create',
         response: {
-          modalities: ['text', 'audio'],
+          output_modalities: ['audio'],
           instructions: 'Respond in concise British English. If data lookup is needed, call the appropriate tool.',
         },
       }));
