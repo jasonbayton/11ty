@@ -68,9 +68,9 @@ test('browser retains JSON fallback and never retries an interrupted generation'
   const client = browser(async () => { calls++; return new Response('event: progress\ndata: {"stage":"read"}\n\n', { headers: { 'content-type': 'text/event-stream' } }); });
   await assert.rejects(client.mikaTextRequest({}), /interrupted/); assert.equal(calls, 1);
 });
-test('progress UI is enabled only for the exact draft branch deployment', () => {
+test('progress UI is enabled for production and the exact draft branch deployment', () => {
   const { execFileSync } = require('node:child_process');
-  for (const [branch, context, expected] of [['draft', 'branch-deploy', true], ['main', 'production', false], ['draft', 'deploy-preview', false], ['draft-other', 'branch-deploy', false], ['', '', false]]) {
+  for (const [branch, context, expected] of [['draft', 'branch-deploy', true], ['main', 'production', true], ['draft', 'deploy-preview', false], ['draft-other', 'branch-deploy', false], ['', '', false]]) {
     const output = execFileSync(process.execPath, ['-e', 'console.log(require("./_src/_data/mikaProgress.js"))'], { env: { ...process.env, BRANCH: branch, CONTEXT: context }, encoding: 'utf8' });
     assert.equal(output.trim(), String(expected));
   }
