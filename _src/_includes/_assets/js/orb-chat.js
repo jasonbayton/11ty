@@ -790,6 +790,12 @@
     this.remoteAudio = null;
     this.handledToolCalls = {};
     this.deliveredResponses = {};
+    this.sessionRevision = 0;
+    this.turnRevision = 0;
+    this.responseTurns = {};
+    this.finishedResponses = {};
+    this.toolBatches = {};
+    this.speakingInput = false;
     this.pendingSources = null;     // sources from the last search_bayton tool call
     this.lastUserTranscript = '';   // for client-side question saving
     this.onTranscript = null;       // callback(transcript)
@@ -798,7 +804,89 @@
     this.onLoadingEnd = null;
   }
 
+  // Invalidate authority before aborting fetches. A late result cannot resume a turn.
+  VoiceEngine.prototype.interruptTurn = function (publishCancellation) {
+    this.turnRevision++;
+    var self = this;
+    Object.keys(this.toolBatches).forEach(function (id) {
+      var batch = self.toolBatches[id];
+      batch.cancelled = true;
+      batch.controller.abort();
+      if (publishCancellation && batch.channel === self.dc && self.dc && self.dc.readyState === 'open') {
+        batch.calls.forEach(function (call) {
+          if (batch.delivered[call.call_id]) return;
+          batch.delivered[call.call_id] = true;
+          try { batch.channel.send(JSON.stringify({ type: 'conversation.item.create', item: {
+            type: 'function_call_output', call_id: call.call_id,
+            output: JSON.stringify({ error: 'cancelled', reason: 'The user interrupted this lookup.' }),
+          } })); } catch (e) {}
+        });
+      }
+    });
+    this.toolBatches = {};
+    this.pendingSources = null;
+  };
+
+  VoiceEngine.prototype.runToolBatch = function (response, channel, sessionRevision) {
+    var self = this;
+    if (response.status !== 'completed' || !response.id || self.finishedResponses[response.id]) return false;
+    self.finishedResponses[response.id] = true;
+    var calls = (response.output || []).filter(function (item) {
+      if (item.type !== 'function_call' || item.status !== 'completed' || !item.call_id || !item.name || self.handledToolCalls[item.call_id]) return false;
+      self.handledToolCalls[item.call_id] = true;
+      return true;
+    });
+    if (!calls.length) return false;
+    var batch = { calls: calls, channel: channel, turn: self.turnRevision, controller: new AbortController(), delivered: {}, cancelled: false };
+    self.toolBatches[response.id] = batch;
+    function current() {
+      return !batch.cancelled && self.sessionRevision === sessionRevision && self.turnRevision === batch.turn && self.dc === channel && channel.readyState === 'open';
+    }
+    self.orb.setState('thinking');
+    if (self.onLoadingStart) self.onLoadingStart();
+    Promise.all(calls.map(function (call) {
+      var args;
+      try { args = JSON.parse(call.arguments); if (!args || typeof args !== 'object' || Array.isArray(args)) throw Error(); }
+      catch (e) { return Promise.resolve({ result: 'Tool arguments were invalid.', sources: [] }); }
+      return fetch('/api/orb-realtime-tool', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tool_name: call.name, arguments: args }), signal: batch.controller.signal,
+      }).then(function (r) { if (!r.ok) throw Error(); return r.json(); })
+        .then(function (data) { if (!data || typeof data !== 'object') throw Error(); return data; })
+        .catch(function () { return { result: 'Tool lookup failed.', sources: [] }; });
+    })).then(function (results) {
+      if (!current()) return;
+      results.forEach(function (data, index) {
+        var call = calls[index];
+        if (Array.isArray(data.sources)) {
+          self.pendingSources = self.pendingSources || [];
+          data.sources.forEach(function (source) {
+            if (!self.pendingSources.some(function (existing) { return existing.url === source.url; })) self.pendingSources.push(source);
+          });
+        }
+        var output = data.result || JSON.stringify(data);
+        channel.send(JSON.stringify({ type: 'conversation.item.create', item: {
+          type: 'function_call_output', call_id: call.call_id,
+          output: typeof output === 'string' ? output : JSON.stringify(output),
+        } }));
+        batch.delivered[call.call_id] = true;
+      });
+      if (current() && calls.some(function (call) { return call.name !== 'save_question'; })) {
+        channel.send(JSON.stringify({ type: 'response.create', response: { output_modalities: ['audio'], tool_choice: 'auto', metadata: { mika_session: String(sessionRevision), mika_turn: String(batch.turn) } } }));
+      }
+    }).catch(function () {
+      if (current()) {
+        self.orb.setState('idle');
+        if (self.onLoadingEnd) self.onLoadingEnd();
+        if (self.onError) self.onError('Voice lookup could not be completed. Please ask again.');
+      }
+    }).finally(function () { if (self.toolBatches[response.id] === batch) delete self.toolBatches[response.id]; });
+    return true;
+  };
+
   VoiceEngine.prototype.stopVoice = function () {
+    this.interruptTurn(false);
+    this.sessionRevision++;
     if (this._livenessInterval) { clearInterval(this._livenessInterval); this._livenessInterval = null; }
     if (this.dc) { try { this.dc.close(); } catch (e) {} }
     if (this.pc) { try { this.pc.close(); } catch (e) {} }
@@ -815,6 +903,9 @@
     this.remoteAudio = null;
     this.handledToolCalls = {};
     this.deliveredResponses = {};
+    this.responseTurns = {};
+    this.finishedResponses = {};
+    this.speakingInput = false;
     this.isLive = false;
     this.isConnecting = false;
     this.orb.setState('idle');
@@ -830,6 +921,7 @@
     if (this.pc) this.stopVoice();
 
     this.isConnecting = true;
+    var sessionRevision = ++this.sessionRevision;
     this.updateMicButton();
 
     (async function () {
@@ -844,11 +936,13 @@
         var ephemeralKey = sessionJson && sessionJson.client_secret && sessionJson.client_secret.value;
         if (!ephemeralKey) throw new Error('Realtime session token was not returned.');
 
+        if (self.sessionRevision !== sessionRevision) return;
         var realtimeTools = sessionJson.tools;
         if (!Array.isArray(realtimeTools) || !realtimeTools.some(function (tool) { return tool.name === 'search_bayton'; })) throw new Error('Voice tool configuration unavailable.');
 
         // 2. Mic access
         var stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        if (self.sessionRevision !== sessionRevision) { stream.getTracks().forEach(function (track) { track.stop(); }); return; }
         self.localStream = stream;
 
         // 3. RTCPeerConnection
@@ -861,7 +955,7 @@
         audio.autoplay = true;
         audio.playsInline = true;
         audio.volume = 1;
-        audio.onplaying = function () { self.orb.setState('speaking'); };
+        audio.onplaying = function () { if (self.sessionRevision === sessionRevision) self.orb.setState('speaking'); };
         self.remoteAudio = audio;
 
         // Audio level monitoring for orb animation
@@ -869,6 +963,7 @@
         var analyser = null;
         var levelData = null;
         pc.ontrack = function (event) {
+          if (self.sessionRevision !== sessionRevision) return;
           self.orb.setState('speaking');
           audio.srcObject = event.streams[0];
           audio.play().catch(function () {});
@@ -898,9 +993,25 @@
         var dc = pc.createDataChannel('oai-events');
 
         dc.onmessage = function (event) {
+          if (self.sessionRevision !== sessionRevision) return;
           try {
             var msg = JSON.parse(event.data);
             var type = msg && msg.type;
+            var eventResponseId = msg.response_id || (msg.response && msg.response.id);
+            if (type === 'response.created' && eventResponseId) {
+              var ownership = msg.response.metadata || {};
+              var staleManual = (ownership.mika_session !== undefined || ownership.mika_turn !== undefined) &&
+                (ownership.mika_session !== String(sessionRevision) || ownership.mika_turn !== String(self.turnRevision));
+              if (!Object.prototype.hasOwnProperty.call(self.responseTurns, eventResponseId))
+                self.responseTurns[eventResponseId] = self.speakingInput || staleManual ? -1 : self.turnRevision;
+              if (self.responseTurns[eventResponseId] !== self.turnRevision) {
+                // Also stop remote audio from a late manually requested response.
+                try { dc.send(JSON.stringify({ type: 'response.cancel', response_id: eventResponseId })); } catch (e) {}
+                return;
+              }
+            }
+            if (eventResponseId && self.responseTurns[eventResponseId] !== self.turnRevision) return;
+            if (type === 'input_audio_buffer.speech_stopped') self.speakingInput = false;
 
             // Error events
             if (type === 'error') {
@@ -911,8 +1022,11 @@
 
             // Speech started — cancel current response
             if (type === 'input_audio_buffer.speech_started') {
+              self.speakingInput = true;
+              self.interruptTurn(true);
               try { dc.send(JSON.stringify({ type: 'response.cancel' })); } catch (e) {}
               self.orb.setState('listening');
+              return;
             }
 
             // User transcript
@@ -974,84 +1088,10 @@
               if (self.onLoadingEnd) self.onLoadingEnd();
             }
 
-            // Function call — execute via REST
-            if (type === 'response.output_item.done' && msg.item && msg.item.type === 'function_call') {
-              var item = msg.item;
-              var callId = String(item.call_id || item.id || '').trim();
-              var toolName = String(item.name || '').trim();
-
-              if (!callId || !toolName || self.handledToolCalls[callId]) return;
-              self.handledToolCalls[callId] = true;
-
-              var args = {};
-              try { args = JSON.parse(item.arguments || '{}'); } catch (e) {}
-
-              self.orb.setState('thinking');
-              if (self.onLoadingStart) self.onLoadingStart();
-
-              // Execute tool asynchronously
-              fetch('/api/orb-realtime-tool', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ tool_name: toolName, arguments: args }),
-              })
-                .then(function (r) { return r.json().catch(function () { return {}; }); })
-                .then(function (toolData) {
-                  // Capture sources from search_bayton or fetch_url for the next assistant message
-                  if (toolData.sources && toolData.sources.length > 0) {
-                    if (self.pendingSources && self.pendingSources.length > 0) {
-                      // Merge — don't replace search sources with fetch sources
-                      var existingUrls = {};
-                      self.pendingSources.forEach(function (s) { existingUrls[s.url] = true; });
-                      toolData.sources.forEach(function (s) {
-                        if (!existingUrls[s.url]) self.pendingSources.push(s);
-                      });
-                    } else {
-                      self.pendingSources = toolData.sources;
-                    }
-                  }
-                  var output = toolData.result || JSON.stringify(toolData);
-                  try {
-                    dc.send(JSON.stringify({
-                      type: 'conversation.item.create',
-                      item: {
-                        type: 'function_call_output',
-                        call_id: callId,
-                        output: typeof output === 'string' ? output : JSON.stringify(output),
-                      },
-                    }));
-                    // Continue with the guarded session instructions; save_question is fire-and-forget
-                    if (toolName !== 'save_question') {
-                      dc.send(JSON.stringify({
-                        type: 'response.create',
-                        response: {
-                          output_modalities: ['audio'],
-                          tool_choice: 'auto',
-                        },
-                      }));
-                    }
-                  } catch (sendErr) {
-                    console.warn('[VoiceEngine] DC send failed (session may have ended):', sendErr.message);
-                  }
-                })
-                .catch(function (err) {
-                  console.error('[VoiceEngine] Tool error:', toolName, err);
-                  try {
-                    dc.send(JSON.stringify({
-                      type: 'conversation.item.create',
-                      item: {
-                        type: 'function_call_output',
-                        call_id: callId,
-                        output: JSON.stringify({ error: err.message || 'Tool execution failed.' }),
-                      },
-                    }));
-                    if (toolName !== 'save_question') {
-                      dc.send(JSON.stringify({ type: 'response.create', response: { output_modalities: ['audio'] } }));
-                    }
-                  } catch (sendErr) {
-                    console.warn('[VoiceEngine] DC send failed (session may have ended):', sendErr.message);
-                  }
-                });
+            // Only the completed response supplies a complete, authoritative tool batch.
+            if (type === 'response.done' && msg.response) {
+              if (self.finishedResponses[msg.response.id]) return;
+              if (self.runToolBatch(msg.response, dc, sessionRevision)) return;
             }
 
             // Response lifecycle
@@ -1070,6 +1110,7 @@
 
         // 6. Session update on data channel open
         dc.onopen = function () {
+          if (self.sessionRevision !== sessionRevision) return;
           dc.send(JSON.stringify({
             type: 'session.update',
             session: {
@@ -1100,6 +1141,7 @@
         // 7. SDP offer
         var offer = await pc.createOffer();
         await pc.setLocalDescription(offer);
+        if (self.sessionRevision !== sessionRevision) return;
 
         var sdpRes = await fetch(
           'https://api.openai.com/v1/realtime/calls',
@@ -1113,10 +1155,12 @@
           }
         );
         var answerSdp = await sdpRes.text();
+        if (self.sessionRevision !== sessionRevision) return;
         if (!sdpRes.ok) throw new Error(answerSdp || 'Realtime connection failed.');
 
         // 8. Set remote description
         await pc.setRemoteDescription({ type: 'answer', sdp: answerSdp });
+        if (self.sessionRevision !== sessionRevision) return;
 
         self.pc = pc;
         self.dc = dc;
@@ -1140,6 +1184,7 @@
           }
         }, 5000);
       } catch (e) {
+        if (self.sessionRevision !== sessionRevision) return;
         console.error('[VoiceEngine] start failed:', e);
         self.stopVoice();
         if (self.onError) self.onError('Voice connection failed - try again in a moment.');
@@ -1157,6 +1202,8 @@
     var prompt = text.trim();
     if (!prompt) return false;
     try {
+      this.interruptTurn(true);
+      this.speakingInput = false;
       dc.send(JSON.stringify({ type: 'response.cancel' }));
       if (this.onLoadingStart) this.onLoadingStart();
       dc.send(JSON.stringify({
@@ -1171,6 +1218,7 @@
         type: 'response.create',
         response: {
           output_modalities: ['audio'],
+          metadata: { mika_session: String(this.sessionRevision), mika_turn: String(this.turnRevision) },
         },
       }));
       return true;

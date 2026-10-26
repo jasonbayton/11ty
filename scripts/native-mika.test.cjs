@@ -40,6 +40,10 @@ function fixture(options = {}) {
   const mod = { exports: {} };
   vm.runInNewContext(options.source || fs.readFileSync(handlerFile, 'utf8'), { ...common, module: mod, exports: mod.exports, require: name => {
     if (name === 'openai') return { OpenAI };
+    if (name.endsWith('mika-deadline')) {
+      const actual = require('../netlify/functions/_shared/mika-deadline');
+      return { ...actual, createDeadline: (ms, clock) => actual.createDeadline(options.deadlineMs ?? ms, clock) };
+    }
     // This fixture isolates handler policy. Responses wire/replay is exercised separately.
     if (name.endsWith('mika-responses')) return { createResponsesCompletion: client => options => client.chat.completions.create(options) };
     if (name.endsWith('content-index')) return index;
@@ -463,7 +467,7 @@ for(const elapsed of [20000,25800,27000]) {
     ],fetch:async()=>{now=elapsed;return Response.json({jsonrpc:'2.0',id:1,result:{content:[{type:'text',text:'{"items":[],"total":0}'}]}});}});
     const result=await f.handler(event({message:'Compare Google Pixel apps?'}));
     if(elapsed<23500){assert.equal(f.model.length,2);assert.equal(f.model[1].params.tool_choice,'none');}
-    else{assert.equal(f.model.length,1);assert.match(JSON.parse(result.body).reply,/could not complete/);}
+    else{assert.equal(f.model.length,1);assert.equal(result.statusCode,elapsed>=26000?504:200);assert.match(JSON.parse(result.body).reply,elapsed>=26000?/timed out/:/could not complete/);}
   });
 }
 
@@ -595,4 +599,73 @@ test('the actual native handler preserves attachment capability on both JSON pri
     assert.equal(f.model.length, 0);
     assert.equal(f.http.length, 0);
   }
+});
+
+test('absolute deadline stops a stalled index or provider and rejects their late completion', { timeout: 2000 }, async t => {
+  const alive = setInterval(() => {}, 1000); t.after(() => clearInterval(alive));
+  for (const phase of ['index', 'model']) {
+    let release; const barrier = new Promise(resolve => { release = resolve; });
+    const f = fixture({ deadlineMs: 25, [phase + 'Barrier']: barrier });
+    const response = await f.handler(event(envelope()));
+    assert.equal(response.statusCode, 504);
+    assert.doesNotMatch(response.body, /synthetic-payload-canary/);
+    assert.equal(f.model.length, phase === 'index' ? 0 : 1);
+    const before = f.model.length; release(); await new Promise(setImmediate);
+    assert.equal(f.model.length, before, 'Late completion must not start another generation');
+  }
+});
+
+test('deadline includes pre-search and never starts paid work after retrieval exhausted it', async () => {
+  let now = 0;
+  const f = fixture({ now: () => now, searchDocs: () => { now = 27000; return { results: [] }; } });
+  const response = await f.handler(event(envelope()));
+  assert.equal(response.statusCode, 504); assert.equal(f.model.length, 0);
+});
+
+test('deadline covers tool response bodies and prevents queued native work from starting', { timeout: 15000 }, async t => {
+  const alive = setInterval(() => {}, 1000); t.after(() => clearInterval(alive));
+  const bodies = []; let requests = 0;
+  const calls = Array.from({ length: 5 }, (_, i) => ({ id: String(i), type: 'function', function: { name: 'sysapps_search', arguments: '{"query":"Android"}' } }));
+  const f = fixture({ deadlineMs: 10000, replies: [{ choices: [{ finish_reason: 'tool_calls', message: { role: 'assistant', tool_calls: calls } }] }],
+    fetch: async (_url, options) => {
+      requests++; assert.ok(options.signal);
+      return new Response(new ReadableStream({ start(controller) { bodies.push(controller); } }));
+    } });
+  const response = await f.handler(event(envelope()));
+  assert.equal(response.statusCode, 504); assert.equal(requests, 3); assert.equal(f.model.length, 1);
+  bodies.forEach(body => body.close()); await new Promise(setImmediate); await new Promise(setImmediate);
+  assert.equal(requests, 3); assert.equal(f.model.length, 1);
+});
+
+test('native topic analytics cannot hold the final response beyond the request deadline', { timeout: 2000 }, async t => {
+  const alive = setInterval(() => {}, 1000); t.after(() => clearInterval(alive));
+  let release; const analyticsBarrier = new Promise(resolve => { release = resolve; });
+  const f = fixture({ deadlineMs: 25, analyticsBarrier });
+  const response = await f.handler(event(envelope()));
+  assert.equal(response.statusCode, 200); assert.equal(f.model.length, 1);
+  assert.ok(f.http[0].signal.aborted);
+  release(); await new Promise(setImmediate);
+  assert.equal(f.http.length, 1, 'Expired analytics cannot start a later write');
+});
+
+test('a stalled native generation closes progress with exactly one safe terminal failure', { timeout: 2000 }, async t => {
+  const alive = setInterval(() => {}, 1000); t.after(() => clearInterval(alive));
+  let release; const modelBarrier = new Promise(resolve => { release = resolve; });
+  const f = fixture({ deadlineMs: 25, modelBarrier });
+  const { progressResponse } = require('../netlify/functions/_shared/mika-progress');
+  const response = await progressResponse(new Request('https://bayton.org/api/orb-chat-progress', {
+    method: 'POST', headers: { 'X-Bayton-Client': 'android' }, body: JSON.stringify(envelope()),
+  }), f.handler);
+  const wire = await response.text();
+  assert.equal((wire.match(/event: complete/g) || []).length, 1);
+  assert.match(wire, /"ok":false/); assert.doesNotMatch(wire, /synthetic-payload-canary/);
+  release(); await new Promise(setImmediate); assert.equal(f.model.length, 1);
+});
+
+test('a completed final answer inside the absolute budget remains successful near its boundary', async () => {
+  let now = 0;
+  const f = fixture({ now: () => now, beforeModel: () => { now = 25900; } });
+  const response = await f.handler(event(envelope()));
+  assert.equal(response.statusCode, 200); assert.equal(f.model.length, 1);
+  assert.match(JSON.parse(response.body).reply, /Android Enterprise answer/);
 });

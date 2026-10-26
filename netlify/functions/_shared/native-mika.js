@@ -71,7 +71,7 @@ function classifyTopic(message, kind) {
   // Every output character comes from a fixed server vocabulary, never from the input.
   return { topic: topic[0], intent: intent[0], tool, question: `[Native MIKA] ${intent[2]} ${topic[2]} (${tool}).` };
 }
-async function saveTopic(summary, { fetch: fetcher = fetch, key = process.env.ORB_DIRECTUS_API_KEY } = {}) {
+async function saveTopic(summary, { fetch: fetcher = fetch, key = process.env.ORB_DIRECTUS_API_KEY, signal: requestSignal } = {}) {
   if (!key) return;
   // Rebuild from fixed identifiers: callers cannot smuggle free text into persistence.
   const topic = TOPICS.find(([id]) => id === summary.topic) || ['general', null, 'Android Enterprise'];
@@ -80,11 +80,12 @@ async function saveTopic(summary, { fetch: fetcher = fetch, key = process.env.OR
   const question = `[Native MIKA] ${intent[2]} ${topic[2]} (${tool}).`;
   const answer = 'Topic summary only. No question text, history, payload or answer retained.';
   const headers = { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' };
-  const signal = AbortSignal.timeout(2000);
+  const signal = requestSignal ? AbortSignal.any([requestSignal, AbortSignal.timeout(2000)]) : AbortSignal.timeout(2000);
   try {
     const response = await fetcher(`https://ping.bayton.org/items/orb_questions?filter[question][_eq]=${encodeURIComponent(question)}&limit=1`, { headers, signal });
     if (!response.ok) return;
     const data = JSON.parse(await readTextBounded(response, 32000));
+    signal.throwIfAborted();
     const existing = data.data?.[0];
     if (existing && /^[a-zA-Z0-9-]{1,64}$/.test(String(existing.id))) {
       await fetcher(`https://ping.bayton.org/items/orb_questions/${existing.id}`, { method: 'PATCH', headers, signal, body: JSON.stringify({ count: Math.min(2147483647, (Number(existing.count) || 1) + 1), answer }) });

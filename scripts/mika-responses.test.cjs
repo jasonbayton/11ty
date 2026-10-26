@@ -134,3 +134,29 @@ test('native attachment parts survive the real SDK Responses wire with prior ass
     assert.equal(wire.body.store,false);assert.equal(wire.body.model,'gpt-6-luna');assert.deepEqual(wire.body.reasoning,{effort:'medium'});
   }
 });
+
+test('Responses forwards the absolute deadline cancellation and remaining timeout to the SDK', async () => {
+  const controller = new AbortController(); let received;
+  const complete = createResponsesCompletion({ responses: { create: async (_body, requestOptions) => {
+    received = requestOptions; return { status: 'completed', output: [message('Within budget')] };
+  } } });
+  await complete(options([{ role: 'user', content: 'Question' }]), { signal: controller.signal, timeout: 1234 });
+  assert.equal(received.signal, controller.signal); assert.equal(received.timeout, 1234);
+});
+
+test('the real SDK cancels a stalled fetch with the supplied request deadline and never retries', { timeout: 2000 }, async () => {
+  const { OpenAI } = require('openai'); let attempts = 0;
+  const controller = new AbortController();
+  const client = new OpenAI({ apiKey: 'synthetic-key', maxRetries: 0, timeout: 150, fetch: async (_url, init) => {
+    attempts++; assert.ok(init.signal);
+    return new Promise((_, reject) => {
+      const fail = () => reject(new DOMException('Aborted', 'AbortError'));
+      if (init.signal.aborted) fail(); else init.signal.addEventListener('abort', fail, { once: true });
+    });
+  } });
+  const timer = setTimeout(() => controller.abort(), 20);
+  try {
+    await assert.rejects(createResponsesCompletion(client)(options([{ role: 'user', content: 'Synthetic question' }]), { signal: controller.signal, timeout: 1000 }), error => error instanceof require('openai').APIUserAbortError);
+    assert.equal(attempts, 1);
+  } finally { clearTimeout(timer); }
+});

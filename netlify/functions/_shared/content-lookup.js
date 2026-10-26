@@ -31,7 +31,9 @@ async function lookupContent(docs, params, fetcher = fetch) {
     const content = raw;
     if (!content.trim()) throw Error('Mirror article is empty.');
     return { ...found, content, format: 'markdown', sourceUrl: source.href };
-  } catch {
+  } catch (error) {
+    // Cancellation is not evidence that the Markdown mirror is unavailable.
+    if (error?.name === 'AbortError' || error?.code === 'MIKA_DEADLINE') throw error;
     throw new MarkdownUnavailableError('Markdown source is temporarily unavailable.');
   }
 }

@@ -3,7 +3,7 @@
 function createResponsesCompletion(client) {
   const input = [];
   let consumed = 0;
-  return async options => {
+  return async (options, requestOptions) => {
     for (const message of options.messages.slice(consumed)) {
       if (consumed && message.role === 'assistant') continue;
       if (message.role === 'tool') input.push({ type: 'function_call_output', call_id: message.tool_call_id, output: message.content });
@@ -22,7 +22,7 @@ function createResponsesCompletion(client) {
       tools: options.tools.map(tool => ({ type: tool.type, ...tool.function, strict: false })),
       tool_choice: options.tool_choice, parallel_tool_calls: options.parallel_tool_calls,
       include: ['reasoning.encrypted_content'],
-    });
+    }, requestOptions);
     if (raw.status === 'failed') throw new Error('OpenAI response generation failed');
     // Never execute partial tools or present a preamble as a finished answer.
     const output = raw.status === 'completed' ? raw.output || [] : [];

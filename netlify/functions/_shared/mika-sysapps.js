@@ -2,14 +2,14 @@
 const ENDPOINT = 'https://sysapps.bayton.org/mcp';
 const TOOLS = new Set(require('./mika-sysapps-tools').tools.map(tool => tool.name));
 
-exports.executeSysappsCall = async function executeSysappsCall(toolName, args) {
+exports.executeSysappsCall = async function executeSysappsCall(toolName, args, { signal } = {}) {
   if (!TOOLS.has(toolName)) return { result: `Unknown sysapps tool: ${toolName}`, sources: [] };
   try {
     const response = await fetch(ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'tools/call', params: { name: toolName, arguments: toolName === 'sysapps_compare_devices' ? { diff_limit: 50, ...args } : toolName === 'sysapps_get_device_apps' ? { limit: 20, ...args } : args } }),
-      signal: AbortSignal.timeout(10000),
+      signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(10000)]) : AbortSignal.timeout(10000),
     });
     if (!response.ok) return { result: `System apps API error: HTTP ${response.status}`, sources: [] };
     const data = await response.json();
@@ -28,6 +28,7 @@ exports.executeSysappsCall = async function executeSysappsCall(toolName, args) {
       sources: data.result.isError ? [] : [{ title: 'Android System App Database', url: 'https://sysapps.bayton.org/' }],
     };
   } catch (error) {
+    if (signal?.aborted) throw signal.reason;
     return { result: `System apps lookup failed: ${error.message || 'timeout'}`, sources: [] };
   }
 };

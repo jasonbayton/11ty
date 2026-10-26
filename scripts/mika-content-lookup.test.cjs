@@ -72,3 +72,10 @@ test('new indexed-text delivery shares a byte budget across the turn and never c
   assert.equal(budget.remaining,0);
   assert.equal((await lookupWebsiteContent([indexed],doc.url,async()=>new Response('# Existing Markdown'),budget)).format,'markdown');
 });
+
+test('request cancellation cannot become a claim that the Markdown source is unavailable', async () => {
+  const { lookupWebsiteContent } = require('../netlify/functions/_shared/mika-content-lookup');
+  const cancelled = Object.assign(new Error('Request expired'), { code: 'MIKA_DEADLINE' });
+  const docs = [{ title: 'Page', url: '/android/page/', content: 'Available indexed fallback' }];
+  await assert.rejects(lookupWebsiteContent(docs, '/android/page/', async () => { throw cancelled; }), error => error === cancelled);
+});

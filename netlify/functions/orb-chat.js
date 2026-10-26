@@ -7,6 +7,7 @@
  */
 
 const { OpenAI } = require('openai');
+const { createDeadline } = require('./_shared/mika-deadline');
 const { createResponsesCompletion } = require('./_shared/mika-responses');
 const {
   jsonResponse,
@@ -247,7 +248,7 @@ const FETCH_URL_ALLOWLIST = [
 /**
  * Fetch and extract text from an allowed external URL.
  */
-async function fetchExternalUrl(url) {
+async function fetchExternalUrl(url, deadline) {
   let parsed;
   try { parsed = new URL(url); } catch { return { result: 'Invalid URL.', sources: [] }; }
 
@@ -258,7 +259,7 @@ async function fetchExternalUrl(url) {
   try {
     const res = await fetch(url, {
       headers: { 'User-Agent': 'BaytonOrb/1.0', Accept: 'text/html' },
-      signal: AbortSignal.timeout(8000),
+      signal: deadline ? AbortSignal.any([deadline.signal, AbortSignal.timeout(8000)]) : AbortSignal.timeout(8000),
     });
     if (!res.ok) return { result: `Fetch failed: HTTP ${res.status}`, sources: [] };
 
@@ -269,6 +270,7 @@ async function fetchExternalUrl(url) {
       sources: [{ title: parsed.hostname + parsed.pathname, url }],
     };
   } catch (e) {
+    deadline?.check();
     return { result: `Fetch error: ${e.message || 'timeout'}`, sources: [] };
   }
 }
@@ -276,21 +278,24 @@ async function fetchExternalUrl(url) {
 /**
  * Execute a tool call and return the result string + any sources.
  */
-async function executeTool(toolCall, native = false, indexedTextBudget) {
+async function executeTool(toolCall, native = false, indexedTextBudget, deadline) {
+  deadline?.check();
   const name = toolCall.function?.name;
   let args = {};
   try { args = JSON.parse(toolCall.function?.arguments || '{}'); } catch {}
 
   if (name === 'get_content_by_url') {
     try {
-      const docs = await loadSearchView();
-      const article = await lookupWebsiteContent(docs, args.url, undefined, indexedTextBudget);
+      const docs = deadline ? await deadline.run(loadSearchView) : await loadSearchView();
+      const article = await lookupWebsiteContent(docs, args.url, deadline ? (url, options = {}) => fetch(url, { ...options, signal: options.signal ? AbortSignal.any([deadline.signal, options.signal]) : deadline.signal }) : undefined, indexedTextBudget);
+      deadline?.check();
       if (!article) return { result: 'No indexed article found for that exact path.', sources: [] };
       return {
         result: JSON.stringify({ title: article.title, url: article.url, content: article.content, format: article.format, ...(article.delivery ? { delivery: article.delivery, note: article.note } : {}) }),
         sources: [{ title: article.title, url: 'https://bayton.org' + article.url }],
       };
     } catch (error) {
+      deadline?.check();
       if (error instanceof IndexedTextUnavailableError) return { result: error.reason === 'empty' ? 'This page has no usable indexed text. Use a targeted search for the specific passage or sub-article.' : 'A complete indexed-text read exceeds the remaining read budget. Use a targeted search for the specific passage or sub-article; this does not mean the documentation is missing.', sources: [] };
       return { result: 'The complete Markdown article is currently unavailable. Use search_bayton for indexed passages.', sources: [] };
     }
@@ -300,7 +305,7 @@ async function executeTool(toolCall, native = false, indexedTextBudget) {
     const query = args.query || '';
     if (!query) return { result: 'No query provided.', sources: [], resultCount: 0 };
 
-    const searchableDocs = await loadSearchView();
+    const searchableDocs = deadline ? await deadline.run(loadSearchView) : await loadSearchView();
     const { results } = searchDocs(searchableDocs, query, 8);
 
     const formatted = results.map((r, i) =>
@@ -366,17 +371,17 @@ async function executeTool(toolCall, native = false, indexedTextBudget) {
   }
 
   if (name === 'sysapps_get_package' || name === 'sysapps_search' || name === 'sysapps_list_devices' || name === 'sysapps_get_device_apps' || name === 'sysapps_compare_devices') {
-    return executeSysappsCall(name, args);
+    return executeSysappsCall(name, args, { signal: deadline?.signal });
   }
 
   if (name === 'fetch_url') {
-    return fetchExternalUrl(args.url || '');
+    return fetchExternalUrl(args.url || '', deadline);
   }
 
   return { result: `Unknown tool: ${name}`, sources: [] };
 }
 
-exports.handler = async (event, context = {}) => {
+async function handleChat(event, context, deadline) {
   if (event.httpMethod === 'OPTIONS') {
     return noContentResponse();
   }
@@ -395,17 +400,17 @@ exports.handler = async (event, context = {}) => {
   let native = Object.entries(event.headers || {}).some(([key, value]) => key.toLowerCase() === 'x-bayton-client' && value === 'android');
   let timing = native ? createNativeTiming() : null;
   let analyticsTask = null;
-  // Await fixed-topic analytics on every native completion path, including provider failure.
+  // Await fixed-topic analytics on native completion while the request budget remains.
   async function finish(response) {
     if (native) {
-      if (analyticsTask) await analyticsTask;
+      if (analyticsTask) await deadline.run(() => analyticsTask).catch(() => {});
       response.headers = { ...response.headers, 'server-timing': timing.header(), 'X-Mika-Attachments': '2' };
     }
     return response;
   }
   // Both clients share request-local Responses state and retain their public envelopes.
   const modelCall = options => {
-    const complete = () => responsesCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium', store: false });
+    const complete = () => deadline.run(() => responsesCompletion({ ...options, model: 'gpt-6-luna', reasoning_effort: 'medium', store: false }, { timeout: deadline.remaining(), signal: deadline.signal }));
     return native ? timing.measure('model', complete) : complete();
   };
 
@@ -416,17 +421,17 @@ exports.handler = async (event, context = {}) => {
     if (native) {
       timing ||= createNativeTiming();
       nativePolicy.validateNative(parsed, event.body || '{}');
-      if (process.env.MIKA_NATIVE_ENABLED !== 'true') return finish(jsonResponse(503, { error: 'native_service_disabled' }));
+      if (process.env.MIKA_NATIVE_ENABLED !== 'true') return await finish(jsonResponse(503, { error: 'native_service_disabled' }));
     }
     const userMessage = parsed.message || '';
     const history = Array.isArray(parsed.history) ? parsed.history.slice(-10) : [];
 
     if (!userMessage.trim()) {
-      return finish(jsonResponse(400, { error: 'No message provided' }));
+      return await finish(jsonResponse(400, { error: 'No message provided' }));
     }
 
     if (native) analyticsTask = timing.measure('analytics', () =>
-      nativePolicy.saveTopic(nativePolicy.classifyTopic(userMessage, parsed.context?.kind)))
+      nativePolicy.saveTopic(nativePolicy.classifyTopic(userMessage, parsed.context?.kind), { signal: deadline.signal }))
       .catch(() => {}); // Preserve analytics isolation without logging any request data.
 
 
@@ -443,7 +448,9 @@ exports.handler = async (event, context = {}) => {
 
     // ---- Pre-search: ALWAYS search before calling the LLM ----
     // Extract keywords and search with each individually, then merge
-    const searchableDocs = native ? await timing.measure('index', loadSearchView) : await loadSearchView();
+    const readIndex = () => deadline.run(loadSearchView);
+    const searchableDocs = native ? await timing.measure('index', readIndex) : await readIndex();
+    deadline.check();
     progress('search');
     const searchStarted = native ? timing.start() : 0;
     const keywords = extractKeywords(userMessage);
@@ -463,12 +470,14 @@ exports.handler = async (event, context = {}) => {
 
       // 1. Adjacent keyword pairs (catches "zero touch" → "zero-touch")
       for (let i = 0; i < keywords.length - 1; i++) {
+        deadline.check();
         const pair = keywords[i] + ' ' + keywords[i + 1];
         addResults(searchDocs(searchableDocs, pair, 20).results, true);
       }
 
       // 2. Individual keywords
       for (const kw of keywords) {
+        deadline.check();
         addResults(searchDocs(searchableDocs, kw, 10).results, false);
       }
 
@@ -476,6 +485,7 @@ exports.handler = async (event, context = {}) => {
       addResults(searchDocs(searchableDocs, userMessage, 5).results, true);
     }
 
+    deadline.check();
     // Build pre-search context - send more results so the LLM sees FAQ articles too
     let preSearchContext = '';
     if (preSearchResults.length > 0) {
@@ -505,10 +515,8 @@ exports.handler = async (event, context = {}) => {
       url: 'https://bayton.org' + r.url,
     }));
 
-    // Track elapsed time to bail before Netlify's 30s hard kill
-    const fnStart = Date.now();
-    const BUDGET_MS = 26000; // leave 4s buffer before Netlify's 30s timeout
-    const timeLeft = () => BUDGET_MS - (Date.now() - fnStart);
+    // One absolute budget includes retrieval and every provider/tool wait.
+    const timeLeft = deadline.remaining;
 
     progress('review');
     // Call LLM - can also use search_bayton tool for refinement
@@ -542,7 +550,7 @@ exports.handler = async (event, context = {}) => {
           runNativeTools(assistantMsg.tool_calls, async tc => {
             const stage = { search_bayton: 'search', get_content_by_url: 'read', sysapps_get_package: 'system_apps', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' }[tc.function?.name];
             if (stage) progress(stage);
-            const value = await executeTool(tc, true, indexedTextBudget);
+            const value = await deadline.run(() => executeTool(tc, true, indexedTextBudget, deadline));
             if (tc.function?.name === 'search_bayton') progress('search_done', { matches: value.resultCount });
             if (tc.function?.name === 'get_content_by_url' && value.sources.length) progress('read_done');
             return value;
@@ -557,7 +565,7 @@ exports.handler = async (event, context = {}) => {
         for (const tc of assistantMsg.tool_calls) {
           const toolStages = { search_bayton: 'search', get_content_by_url: 'read', sysapps_get_package: 'system_apps', sysapps_search: 'system_apps', sysapps_list_devices: 'system_apps', sysapps_get_device_apps: 'system_apps', sysapps_compare_devices: 'system_apps', fetch_url: 'external' };
           if (toolStages[tc.function?.name]) progress(toolStages[tc.function.name]);
-          const { result, sources, resultCount } = await executeTool(tc, native, indexedTextBudget);
+          const { result, sources, resultCount } = await deadline.run(() => executeTool(tc, native, indexedTextBudget, deadline));
           if (tc.function?.name === 'search_bayton') progress('search_done', { matches: resultCount, titles: sources.slice(0, 1).map(s => s.title) });
           if (tc.function?.name === 'get_content_by_url' && sources.length) progress('read_done', { titles: sources.slice(0, 1).map(s => s.title) });
           if (sources.length > 0) allSources = sources; // latest search wins
@@ -589,6 +597,7 @@ exports.handler = async (event, context = {}) => {
       choice = completion.choices?.[0];
     }
 
+    deadline.check();
     const reply = (choice?.finish_reason !== 'tool_calls' && choice?.message?.content) || 'I could not complete this lookup within the current limits. Please narrow the question or provide more specific details.';
 
     // Only return sources the LLM actually cited in its response
@@ -623,21 +632,28 @@ exports.handler = async (event, context = {}) => {
 
     const res = jsonResponse(200, { reply, sources: citedSources });
     res.headers['cache-control'] = 'no-store';
-    return finish(res);
+    return await finish(res);
 
   } catch (err) {
     if (native) {
-      if (err instanceof nativePolicy.NativeRequestError) return finish(jsonResponse(err.status, { error: err.message }));
+      if (err instanceof nativePolicy.NativeRequestError) return await finish(jsonResponse(err.status, { error: err.message }));
       console.error('Native MIKA request failed');
     } else console.error('Orb chat error:', err);
-    const isTimeout = err.message?.includes('timeout') || err.code === 'ETIMEDOUT' || err.name === 'AbortError';
+    const isTimeout = err.message?.includes('timeout') || err.code === 'ETIMEDOUT' || err.name === 'AbortError' || err.code === 'MIKA_DEADLINE';
     const errRes = jsonResponse(isTimeout ? 504 : 500, {
+      error: isTimeout ? 'request_timeout' : 'request_failed',
       reply: isTimeout
         ? 'That took a bit longer than expected and timed out. Give it another go - shorter questions tend to be snappier.'
         : 'Something went wrong on my end. Even the greatest orbs have off days.',
       sources: [],
     });
     errRes.headers['cache-control'] = 'no-store';
-    return finish(errRes);
+    return await finish(errRes);
   }
+}
+
+exports.handler = async (event, context = {}) => {
+  const deadline = createDeadline(undefined, Date.now);
+  try { return await handleChat(event, context, deadline); }
+  finally { deadline.close(); }
 };

@@ -48,7 +48,7 @@ test('session failures and method guards retain safe responses', async () => {
   assert.equal((await handler(async () => { throw Error('private-network-error'); })({ httpMethod: 'POST' })).statusCode, 502);
   assert.equal((await handler(async () => Response.json({}, { status: 429 }))({ httpMethod: 'POST' })).statusCode, 429);
 });
-function voiceBrowser(failHandshake = false) {
+function voiceBrowser(failHandshake = false, toolFetch) {
   const sent = [], requests = [], messages = [], peers = [];
   let stops = 0;
   const track = { stop() { stops++; } };
@@ -66,12 +66,12 @@ function voiceBrowser(failHandshake = false) {
   vm.runInNewContext(source, {
     window, document: { addEventListener() {}, getElementById() { return null; } },
     navigator: { mediaDevices: { async getUserMedia() { return { getTracks: () => [track] }; } } },
-    RTCPeerConnection: Peer, Audio: class { pause() {} }, setInterval: () => 1, clearInterval() {},
+    AbortController, RTCPeerConnection: Peer, Audio: class { pause() {} }, setInterval: () => 1, clearInterval() {},
     console: { warn() {}, error() {} },
     fetch: async (url, options) => {
       requests.push({ url, options });
       if (url === '/api/orb-realtime-session') return Response.json({ tools, client_secret: { value: 'synthetic-ephemeral' } });
-      if (url === '/api/orb-realtime-tool') return Response.json({ result: 'grounded output', sources: [] });
+      if (url === '/api/orb-realtime-tool') return toolFetch ? toolFetch(url, options) : Response.json({ result: 'grounded output', sources: [] });
       assert.equal(url, 'https://api.openai.com/v1/realtime/calls');
       assert.equal(options.headers.Authorization, 'Bearer synthetic-ephemeral');
       return new Response(failHandshake ? 'synthetic-sdp-error' : 'synthetic-answer', { status: failHandshake ? 400 : 200 });
@@ -95,11 +95,13 @@ test('browser negotiates GA session and response fields, tool continuation and t
   assert.ok(update.tools.some(x => x.name === 'search_bayton'));
   assert.deepEqual(update.tools, tools);
   assert.equal(update.modalities, undefined);
+  f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.created', response: { id: 'response-test' } }) });
   f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.output_audio_transcript.done', response_id: 'response-test', transcript: 'A concise answer' }) });
   f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.output_item.done', response_id: 'response-test', item: { type: 'message', role: 'assistant', content: [{ transcript: 'A concise answer' }] } }) });
   assert.deepEqual(f.messages, ['A concise answer']);
   f.engine.sendTextMessage('Test question');
-  f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.output_item.done', item: { type: 'function_call', call_id: 'test-call', name: 'search_bayton', arguments: '{"query":"Android Enterprise"}' } }) });
+  f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.created', response: { id: 'tool-response' } }) });
+  f.engine.dc.onmessage({ data: JSON.stringify({ type: 'response.done', response: { id: 'tool-response', status: 'completed', output: [{ type: 'function_call', status: 'completed', call_id: 'test-call', name: 'search_bayton', arguments: '{"query":"Android Enterprise"}' }] } }) });
   await settle();
   const responses = f.sent.filter(x => x.type === 'response.create');
   assert.equal(responses.length, 2);
@@ -172,4 +174,97 @@ test('every declared voice system-app tool uses the shared adapter without resha
     assert.match(JSON.parse(response.body).result, /Unknown tool:/);
   }
   assert.equal(calls.length, 5);
+});
+
+function emit(f, value) { f.engine.dc.onmessage({ data: JSON.stringify(value) }); }
+function toolResponse(f, id, ids = ['left', 'right'], status = 'completed') {
+  emit(f, { type: 'response.created', response: { id } });
+  const output = ids.map(call_id => ({ type: 'function_call', status: 'completed', call_id, name: 'search_bayton', arguments: '{"query":"Android"}' }));
+  emit(f, { type: 'response.done', response: { id, status, output } });
+  return output;
+}
+function deferredTools() {
+  const pending = [];
+  const fetcher = (_, options) => new Promise((resolve, reject) => pending.push({ options, resolve, reject }));
+  return { pending, fetcher };
+}
+
+test('voice resumes once only after every completed-response tool has returned', async () => {
+  const tools = deferredTools(); const f = voiceBrowser(false, tools.fetcher);
+  f.engine.startVoice(); await settle();
+  // Item completion alone is insufficient, including a partial/cancelled item.
+  emit(f, { type: 'response.created', response: { id: 'batch' } });
+  emit(f, { type: 'response.output_item.done', response_id: 'batch', item: { type: 'function_call', status: 'completed', call_id: 'left', name: 'search_bayton', arguments: '{}' } });
+  assert.equal(tools.pending.length, 0);
+  const output = toolResponse(f, 'batch');
+  assert.equal(tools.pending.length, 2);
+  tools.pending[0].resolve(Response.json({ result: 'Left evidence', sources: [] })); await settle();
+  assert.equal(f.sent.filter(e => e.type === 'response.create').length, 0);
+  assert.equal(f.sent.filter(e => e.item?.type === 'function_call_output').length, 0);
+  tools.pending[1].resolve(Response.json({ result: 'Right evidence', sources: [] })); await settle();
+  assert.equal(f.sent.filter(e => e.item?.type === 'function_call_output').length, 2);
+  assert.equal(f.sent.filter(e => e.type === 'response.create').length, 1);
+  emit(f, { type: 'response.done', response: { id: 'batch', status: 'completed', output } }); await settle();
+  assert.equal(f.sent.filter(e => e.type === 'response.create').length, 1);
+});
+
+test('speech interruption cancels all undelivered results and late callbacks cannot restart it', async () => {
+  const tools = deferredTools(); const f = voiceBrowser(false, tools.fetcher);
+  f.engine.startVoice(); await settle(); toolResponse(f, 'old');
+  tools.pending[0].resolve(Response.json({ result: 'Old evidence', sources: [{ title: 'Old source', url: '/old/' }] })); await settle();
+  emit(f, { type: 'input_audio_buffer.speech_started' });
+  assert.ok(tools.pending.every(p => p.options.signal.aborted));
+  const cancelled = f.sent.filter(e => e.item?.type === 'function_call_output');
+  assert.equal(cancelled.length, 2); assert.ok(cancelled.every(e => JSON.parse(e.item.output).error === 'cancelled'));
+  emit(f, { type: 'input_audio_buffer.speech_stopped' });
+  emit(f, { type: 'response.created', response: { id: 'new' } });
+  tools.pending[1].resolve(Response.json({ result: 'Stale evidence', sources: [{ title: 'Stale', url: '/stale/' }] })); await settle();
+  emit(f, { type: 'response.output_audio_transcript.done', response_id: 'old', transcript: 'Stale answer' });
+  assert.equal(f.sent.filter(e => e.type === 'response.create').length, 0);
+  assert.equal(f.sent.filter(e => e.item?.type === 'function_call_output').length, 2);
+  assert.equal(f.messages.length, 0); assert.equal(f.engine.pendingSources, null);
+});
+
+test('typed interruption and stop/reconnect reject results from previous turns and sessions', async () => {
+  for (const action of ['typed', 'reconnect']) {
+    const tools = deferredTools(); const f = voiceBrowser(false, tools.fetcher);
+    f.engine.startVoice(); await settle(); toolResponse(f, 'old');
+    const oldChannel = f.engine.dc;
+    if (action === 'typed') assert.equal(f.engine.sendTextMessage('New question'), true);
+    else { f.engine.stopVoice(); f.engine.startVoice(); await settle(); }
+    const before = f.sent.length;
+    tools.pending.forEach(p => p.resolve(Response.json({ result: 'Old result', sources: [{ url: '/old/' }] })));
+    await settle();
+    oldChannel.onmessage({ data: JSON.stringify({ type: 'response.done', response: { id: 'old', status: 'completed', output: [] } }) });
+    assert.equal(f.sent.length, before); assert.equal(f.engine.pendingSources, null);
+  }
+});
+
+test('cancelled and incomplete voice responses cannot execute partial calls; lookup failures settle once', async () => {
+  const f = voiceBrowser(false, async () => { throw Error('private tool error'); });
+  f.engine.startVoice(); await settle();
+  for (const status of ['cancelled', 'incomplete', 'failed']) toolResponse(f, status, [status], status);
+  assert.equal(f.requests.filter(r => r.url === '/api/orb-realtime-tool').length, 0);
+  toolResponse(f, 'failure', ['failure']); await settle();
+  assert.equal(f.sent.filter(e => e.type === 'response.create').length, 1);
+  assert.ok(!JSON.stringify(f.sent).includes('private tool error'));
+});
+
+test('a late first response.created from a superseded manual turn is cancelled by ID', async () => {
+  const f = voiceBrowser(); f.engine.startVoice(); await settle();
+  f.engine.sendTextMessage('Old question');
+  const old = f.sent.filter(e => e.type === 'response.create').at(-1).response.metadata;
+  f.engine.sendTextMessage('New question');
+  const current = f.sent.filter(e => e.type === 'response.create').at(-1).response.metadata;
+  const before = f.requests.length;
+  emit(f, { type: 'response.created', response: { id: 'late-old', metadata: old } });
+  emit(f, { type: 'response.done', response: { id: 'late-old', status: 'completed', output: [
+    { type: 'function_call', status: 'completed', call_id: 'stale', name: 'search_bayton', arguments: '{}' },
+  ] } });
+  emit(f, { type: 'response.output_audio_transcript.done', response_id: 'late-old', transcript: 'Stale answer' });
+  assert.equal(f.requests.length, before); assert.equal(f.messages.length, 0);
+  assert.ok(f.sent.some(e => e.type === 'response.cancel' && e.response_id === 'late-old'));
+  emit(f, { type: 'response.created', response: { id: 'current', metadata: current } });
+  emit(f, { type: 'response.output_audio_transcript.done', response_id: 'current', transcript: 'Current answer' });
+  assert.deepEqual(f.messages, ['Current answer']);
 });

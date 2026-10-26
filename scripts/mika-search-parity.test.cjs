@@ -82,6 +82,7 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
     process: { env }, console: { warn() {}, error() {} },
     require: name => {
       if (name === 'openai') return { OpenAI };
+      if (name.endsWith('mika-deadline')) return require('../netlify/functions/_shared/mika-deadline');
       // This suite compares grounding and tool-loop behaviour; the real Responses wire contract has its own tests.
       if (name.endsWith('mika-responses')) return { createResponsesCompletion: client => options => {
         assert.equal(options.model, 'gpt-6-luna'); assert.equal(options.reasoning_effort, 'medium');
