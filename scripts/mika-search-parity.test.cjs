@@ -83,6 +83,7 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
       if (name === 'openai') return { OpenAI };
       if (name.endsWith('content-index')) return { ...index, loadSearchView: async () => docs };
       if (name.endsWith('native-mika')) return nativePolicy;
+      if (name.endsWith('mika-sysapps')) return require(path.join(current, '_shared/mika-sysapps'));
       if (name.endsWith('native-execution')) return require(path.join(current, '_shared/native-execution'));
       if (name.endsWith('content-lookup')) return require(path.join(current, '_shared/content-lookup'));
       throw Error(name);
@@ -91,9 +92,30 @@ async function transcript(handlerPath, index, docs, message, native, mikaProgres
   const payload = { message, history: [{ role: 'user', content: 'What about Android?' }, { role: 'assistant', content: 'Which deployment scenario?' }] };
   if (native) Object.assign(payload, { version: 1, retention: 'topics_only' });
   const response = await mod.exports.handler({ httpMethod: 'POST', body: JSON.stringify(payload) }, { mikaProgress });
+  const approvedEvidenceRules = '\nSYSTEM APP EVIDENCE RULES:\n- os_api is an Android API level, not a marketing Android version. Use "API level" with the returned value; for example, os_api 37 means "API level 37", not "Android 37". If a marketing version is not established by retrieved evidence, use the API level verbatim.\n- Before comparing devices, the user must identify the reference model when several models match. "A Google Pixel" is ambiguous: ask which Pixel model and version; do not choose a representative model yourself, even if you name it in the answer. If multiple API levels exist for the selected model, ask which record/version to compare.\n- Compare only the exact contributed device records, not all devices or software builds. Explain any explicitly truncated result and never describe a partial list as a complete inventory.\n- For device comparison answers, state the exact records and total counts, show at most ten package examples, and link comparison_url when provided. Do not attempt to reproduce an entire returned inventory in the chat response.\n- Search result order and global device counts do not establish frequency within a selected OEM. Describe observed matches without claiming "most common" or "most commonly".\n';
+  for (const call of model) if (handlerPath === path.join(current, 'orb-chat.js') && call.params?.messages) {
+    assert.ok(call.params.messages[0].content.includes(approvedEvidenceRules));
+    call.params.messages[0].content = call.params.messages[0].content.replace('\n' + approvedEvidenceRules, '');
+  }
+  // The dedicated sysapps API changes three parameter descriptions and adds a comparison tool.
+  // Compare all tool schemas and all other descriptions exactly.
+  for (const call of model) if (call.params?.tools) call.params.tools = call.params.tools.filter(tool => tool.function.name !== 'sysapps_compare_devices');
+  for (const call of model) for (const tool of call.params?.tools || []) {
+    const fn = tool.function;
+    const field = { sysapps_search: 'query', sysapps_list_devices: 'os', sysapps_get_device_apps: 'os' }[fn.name];
+    if (field) {
+      const approved = {
+        sysapps_search: 'Package name, app name, or keyword. For a named OEM or model, include filters in the same query, e.g. "oem:Oukitel label:camera" or "model:WP60 label:camera". Results describe observed packages, not a safety verdict; device counts are global, not counts for the selected OEM.',
+        sysapps_list_devices: 'Android API level filter, e.g. "34" for Android 14 or "35" for Android 15',
+        sysapps_get_device_apps: 'Android API level from sysapps_list_devices (exact match)',
+      };
+      if (handlerPath === path.join(current, 'orb-chat.js')) assert.equal(fn.parameters.properties[field].description, approved[fn.name]);
+      fn.parameters.properties[field].description = '[reviewed dedicated sysapps API description]';
+    }
+  }
   return { model, status: response.statusCode, body: response.body };
 }
-test('complete prompts, pre-search ordering, sources and tool transcripts stay identical on both clients', async () => {
+test('prompts, search ordering, sources and transcripts retain parity except the pinned sysapps API contract updates', async () => {
   const old = load(path.join(baseline, 'content-index.cjs'));
   const next = load(path.join(current, '_shared/content-index.js'));
   const datasets = [old.buildSearchView(synthetic)];

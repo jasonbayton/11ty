@@ -15,7 +15,7 @@ function fixture(options = {}) {
     if (options.fetch) return options.fetch(url, init);
     return new Response('<p>Public documentation</p>');
   };
-  const common = { Buffer, URL, AbortSignal, Response, process: { env }, fetch: fetcher, console: { error: (...x) => logs.push(x), warn: (...x) => logs.push(x) } };
+  const common = { Date: options.now ? class extends Date { static now() { return options.now(); } } : Date, Buffer, URL, AbortSignal, Response, process: { env }, fetch: fetcher, console: { error: (...x) => logs.push(x), warn: (...x) => logs.push(x) } };
   const helper = { exports: {} };
   vm.runInNewContext(fs.readFileSync(helperFile, 'utf8'), { ...common, module: helper, exports: helper.exports });
   class OpenAI {
@@ -43,6 +43,11 @@ function fixture(options = {}) {
     if (name.endsWith('content-lookup')) {
       const actual = require('../netlify/functions/_shared/content-lookup');
       return { lookupContent: (docs, params) => actual.lookupContent(docs, params, fetcher) };
+    }
+    if (name.endsWith('mika-sysapps')) {
+      const adapter = { exports: {} };
+      vm.runInNewContext(fs.readFileSync(path.resolve('netlify/functions/_shared/mika-sysapps.js'), 'utf8'), { ...common, exports: adapter.exports });
+      return adapter.exports;
     }
     if (name.endsWith('native-mika')) return helper.exports;
     if (name.endsWith('native-execution')) return require('../netlify/functions/_shared/native-execution');
@@ -353,4 +358,89 @@ test('attachment capability preserves older probes and rejects bad versions, for
     assert.equal(f.model.length, 0);
     assert.equal(f.http.length, 0);
   }
+});
+
+for (const native of [false,true]) {
+  test(`two-round exhaustion finalises with evidence or clarification without another lookup, native=${native}`, async () => {
+    const round = id => ({choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:null,tool_calls:[{id,type:'function',function:{name:'search_bayton',arguments:'{"query":"Android"}'}}]}}]});
+    const f = fixture({replies:[round('first'),round('second'),{choices:[{finish_reason:'stop',message:{content:'Which Pixel model and Android version should I compare?'}}]}]});
+    const payload = {message:'Compare Dell XPS Googlebook apps with a Google Pixel?',history:[{role:'user',content:'Samsung gallery app?'},{role:'assistant',content:'Samsung gallery package.'}]};
+    const result = await f.handler(event(native ? envelope(payload) : payload));
+    assert.match(JSON.parse(result.body).reply,/Which Pixel model/);
+    assert.equal(f.model.length,3);
+    assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
+    assert.equal(f.model[2].params.messages.filter(m=>m.role==='tool').length,2);
+    assert.match(f.model[2].params.messages.at(-1).content,/All original scope and privacy rules still apply/);
+    assert.match(f.model[2].params.messages[0].content,/ABSOLUTE RULES/);
+    if(native) assert.ok(f.model.every(m=>m.params.store===false));
+  });
+}
+test('a provider returning no terminal text yields an honest bounded-lookup response', async () => {
+  const f=fixture({replies:[{choices:[{finish_reason:'length',message:{content:null}}]}]});
+  const result=await f.handler(event({message:'Android device apps?'}));
+  assert.match(JSON.parse(result.body).reply,/could not complete this lookup within the current limits/);
+  assert.equal(f.model.length,1);
+});
+
+test('both device lists then a direct comparison fit two rounds and preserve native privacy', async () => {
+  const call=(id,name,args)=>({id,type:'function',function:{name,arguments:JSON.stringify(args)}});
+  const args={left_make:'Dell',left_model:'XPS Googlebook',left_os:'37',right_make:'Google',right_model:'Pixel 9 Pro XL',right_os:'36'};
+  const f=fixture({replies:[
+    {choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[call('dell','sysapps_list_devices',{make:'Dell'}),call('pixel','sysapps_list_devices',{make:'Google',model:'Pixel 9 Pro XL',os:'36'})]}}]},
+    {choices:[{finish_reason:'tool_calls',message:{role:'assistant',tool_calls:[call('comparison','sysapps_compare_devices',args)]}}]},
+    {choices:[{finish_reason:'stop',message:{content:'The recorded Dell has dell.only, absent from this Pixel record.'}}]},
+  ],fetch:async(url,options)=>{
+    assert.equal(url,'https://sysapps.bayton.org/mcp');
+    const rpc=JSON.parse(options.body);
+    let data;
+    if(rpc.params.name==='sysapps_list_devices') {
+      const left=rpc.params.arguments.make==='Dell';
+      data={items:[{make:left?'Dell':'Google',model:left?'XPS Googlebook':'Pixel 9 Pro XL',os_api:left?'37':'36'}],total:1};
+    } else {
+      assert.deepEqual(rpc.params.arguments,{...args,diff_limit:50});
+      data={left:{make:'Dell',model:'XPS Googlebook',os_api:'37'},right:{make:'Google',model:'Pixel 9 Pro XL',os_api:'36'},shared_count:1,left_only_count:1,right_only_count:0,left_only:[{package_name:'dell.only',label:'Dell app'}],right_only:[]};
+    }
+    return Response.json({jsonrpc:'2.0',id:1,result:{content:[{type:'text',text:JSON.stringify(data)}]}});
+  }});
+  const result=await f.handler(event(envelope({message:'Compare recorded Dell XPS Googlebook API 37 to Pixel 9 Pro XL API 36'})));
+  assert.equal(result.statusCode,200);assert.equal(f.model.length,3);
+  assert.deepEqual(f.model.map(m=>m.params.tool_choice),['auto','auto','none']);
+  const comparison=JSON.parse(f.model[2].params.messages.find(m=>m.tool_call_id==='comparison').content);
+  assert.equal(comparison.left_only[0].package_name,'dell.only');
+  assert.equal(comparison.left_only_truncated,false);
+  const tool=f.model[0].params.tools.find(t=>t.function.name==='sysapps_compare_devices').function;
+  assert.deepEqual(tool.parameters.required,Object.keys(args));
+  assert.deepEqual(Object.keys(tool.parameters.properties),Object.keys(args));
+  assert.match(tool.description,/never silently select/);
+  assert.ok(f.model.every(m=>m.params.store===false));
+  assert.ok(!JSON.stringify(f.http.filter(h=>h.url.startsWith('https://ping'))).includes('Pixel 9 Pro XL'));
+});
+for(const elapsed of [20000,25800,27000]) {
+  test(`slow lookup respects the existing deadline and stops automatic tool selection at ${elapsed}ms`,async()=>{
+    let now=0;
+    const f=fixture({now:()=>now,replies:[
+      {choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:'I will compare those apps now.',tool_calls:[{id:'devices',type:'function',function:{name:'sysapps_list_devices',arguments:'{"make":"Google"}'}}]}}]},
+      {choices:[{finish_reason:'stop',message:{content:'Which Pixel model should I compare?'}}]},
+    ],fetch:async()=>{now=elapsed;return Response.json({jsonrpc:'2.0',id:1,result:{content:[{type:'text',text:'{"items":[],"total":0}'}]}});}});
+    const result=await f.handler(event({message:'Compare Google Pixel apps?'}));
+    if(elapsed<23500){assert.equal(f.model.length,2);assert.equal(f.model[1].params.tool_choice,'none');}
+    else{assert.equal(f.model.length,1);assert.match(JSON.parse(result.body).reply,/could not complete/);}
+  });
+}
+
+test('pre-round deadline bailout never returns an unexecuted tool preamble',async()=>{
+  let reads=0;
+  const f=fixture({now:()=>reads++===0?0:24000,replies:[{choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:'I will check that device now.',tool_calls:[{id:'skipped',type:'function',function:{name:'sysapps_list_devices',arguments:'{"make":"Dell"}'}}]}}]}]});
+  const result=await f.handler(event({message:'Dell Android apps?'}));
+  assert.match(JSON.parse(result.body).reply,/could not complete/);
+  assert.equal(f.model.length,1);
+  assert.ok(!f.http.some(r=>r.url==='https://sysapps.bayton.org/mcp'));
+});
+test('provider ignoring final none cannot execute a third round or expose an unfinished preamble',async()=>{
+  const round=id=>({choices:[{finish_reason:'tool_calls',message:{role:'assistant',content:'I will keep looking.',tool_calls:[{id,type:'function',function:{name:'search_bayton',arguments:'{"query":"Android"}'}}]}}]});
+  const f=fixture({replies:[round('one'),round('two'),round('three')]});
+  const result=await f.handler(event({message:'Android system apps?'}));
+  assert.match(JSON.parse(result.body).reply,/could not complete/);
+  assert.equal(f.model.length,3);assert.equal(f.model[2].params.tool_choice,'none');
+  assert.equal(f.model[2].params.messages.filter(m=>m.role==='tool').length,2);
 });
