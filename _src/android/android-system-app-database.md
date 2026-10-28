@@ -7,12 +7,18 @@ tags:
     - App management
     - sysapp-database
 excerpt: ''
-alert: 'This is a brand new service, and will evolve in response to feedback and iterative improvements. Feel free to let me know your thoughts.'
 type: documentation
 layout: base.njk
 eleventyNavigation:
   order: 10000
 ---
+
+<div class="callout callout-green">
+<div class="callout-heading">Visit the dedicated system app database</div>
+
+For package details, device comparisons and more, head over to the dedicated [Android System App Database](https://sysapps.bayton.org/).
+
+</div>
 
 <script>document.documentElement.classList.add('has-js');</script>
 <script>
