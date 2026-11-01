@@ -17,9 +17,14 @@ id: 426
       var btn = form.querySelector("button[type=submit]");
       form.addEventListener("submit", function (e) {
         e.preventDefault();
+        if (!form.reportValidity()) return;
         if (btn) btn.disabled = true;
         if (status) { status.style.color = ""; status.textContent = "Sending..."; }
-        var body = new URLSearchParams(new FormData(form));
+        // Browser hygiene only: the public relay must validate direct requests too.
+        var body = new URLSearchParams();
+        new FormData(form).forEach(function (value, key) {
+          body.append(key.replace(/[\r\n]/g, " "), String(value).replace(/[\r\n]/g, " "));
+        });
         body.set("ajax", "1");
         fetch("https://forms.bayton.org/submit", {
           method: "POST",
@@ -34,7 +39,7 @@ id: 426
           if (btn) btn.disabled = false;
           if (status) {
             status.style.color = "#dc3545";
-            status.textContent = r.status === 429 ? "Please wait a moment and try again." : "Sorry, something went wrong. Please email jason@bayton.org.";
+            status.textContent = r.status === 429 ? "Please wait a moment and try again." : r.status === 400 ? "Please check your details and try again." : "Sorry, something went wrong. Please email jason@bayton.org.";
           }
         }).catch(function () {
           if (btn) btn.disabled = false;
@@ -70,7 +75,7 @@ id: 426
   </div>
   <div class="form-group">
     <label for="email">Email<span class="orange">*</span></label>
-    <input type="email" id="email" name="email" required>
+    <input type="email" id="email" name="email" pattern="[^\s@]+@[^\s@.]+(?:\.[^\s@.]+)+" maxlength="254" title="Enter an email address such as name@example.com" required>
   </div>
   <div class="form-group">
     <label for="message">Message<span class="orange">*</span></label>
