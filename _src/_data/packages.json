@@ -35459,7 +35459,7 @@
   },
   "com.vzw.ecid": {
     "appName": "Call Filter",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
@@ -49407,7 +49407,7 @@
   },
   "com.vcast.mediamanager": {
     "appName": "Cloud",
-    "userFacing": false,
+    "userFacing": true,
     "additionalLocales": [],
     "devices": [
       {
