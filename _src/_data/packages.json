@@ -2621,6 +2621,11 @@
         "os": "31"
       },
       {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
+      },
+      {
         "make": "Google",
         "model": "Pixel 9a",
         "os": "36"
@@ -35459,7 +35464,7 @@
   },
   "com.vzw.ecid": {
     "appName": "Call Filter",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
@@ -49407,7 +49412,7 @@
   },
   "com.vcast.mediamanager": {
     "appName": "Cloud",
-    "userFacing": true,
+    "userFacing": false,
     "additionalLocales": [],
     "devices": [
       {
@@ -77721,6 +77726,11 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "31"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
       },
       {
         "make": "Google",
@@ -122369,6 +122379,11 @@
         "make": "samsung",
         "model": "SM-A528B",
         "os": "33"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
       },
       {
         "make": "samsung",
@@ -206983,6 +206998,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -207380,6 +207400,11 @@
         "os": "34"
       },
       {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -207770,6 +207795,11 @@
         "make": "motorola",
         "model": "moto g24",
         "os": "34"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
       },
       {
         "make": "Xiaomi",
@@ -262250,6 +262280,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X200",
         "os": "34"
       },
@@ -290211,6 +290246,11 @@
       },
       {
         "make": "samsung",
+        "model": "SM-S908U",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
         "model": "SM-X200",
         "os": "34"
       },
@@ -292805,6 +292845,11 @@
       {
         "make": "motorola",
         "model": "moto g - 2025",
+        "os": "36"
+      },
+      {
+        "make": "samsung",
+        "model": "SM-S908U",
         "os": "36"
       },
       {
