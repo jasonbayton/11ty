@@ -11,6 +11,7 @@ const embedTwitter = require("eleventy-plugin-embed-twitter");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const contentFeedEntries = require("./scripts/feed-entries.cjs");
+const stripFeedScripts = require("./scripts/feed-html.cjs");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 const striptags = require("striptags");
@@ -24,6 +25,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginTOC)
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addFilter("contentFeedEntries", contentFeedEntries);
+  eleventyConfig.addFilter("stripFeedScripts", stripFeedScripts);
   eleventyConfig.addFilter("renderFeedEntries", contentFeedEntries.renderFeedEntries);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginDate);

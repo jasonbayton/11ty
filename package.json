@@ -12,7 +12,7 @@
     "serve": "npm run refresh:data && npx @11ty/eleventy --serve",
     "incremental": "npm run refresh:data && npx @11ty/eleventy --serve --incremental",
     "test": "npm run check:urls && npm run test:mcp-smoke && npm run test:googlebook && npm run test:feeds && npm run test:content-query && node --test scripts/content-lookup.test.cjs scripts/native-mika.test.cjs scripts/orb-popular.test.cjs scripts/mika-search-parity.test.cjs scripts/mika-progress.test.cjs scripts/mika-sysapps.test.cjs scripts/mika-voice.test.cjs scripts/mika-content-lookup.test.cjs scripts/mika-responses.test.cjs scripts/mika-deadline.test.cjs",
-    "test:feeds": "node --test scripts/feed-entries.test.cjs",
+    "test:feeds": "node --test scripts/feed-entries.test.cjs scripts/feed-html.test.cjs",
     "test:googlebook": "node --test scripts/googlebook-work-profiles.test.cjs",
     "test:mcp-smoke": "node api/mcp/mcp-smoke-test.js",
     "test:content-query": "node --test scripts/content-query.test.cjs"
@@ -46,6 +46,7 @@
     "markdown-it-deflist": "^3.0.0",
     "marked": "16.3.0",
     "openai": "^6.33.0",
+    "parse5": "7.1.2",
     "workbox-sw": "^6.5.4"
   },
   "engines": {
