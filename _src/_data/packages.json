@@ -3125,6 +3125,18 @@
       }
     ]
   },
+  "com.google.android.apps.agentunderstander": {
+    "appName": "Agent Understander",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
   "com.hotwav.update": {
     "appName": "Aggiornamento firmware",
     "userFacing": false,
@@ -72792,11 +72804,6 @@
     "devices": [
       {
         "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
-      },
-      {
-        "make": "Google",
         "model": "Pixel 10",
         "os": "36"
       }
@@ -72816,11 +72823,6 @@
         "make": "Google",
         "model": "Pixel 9a",
         "os": "35"
-      },
-      {
-        "make": "Google",
-        "model": "Pixel 10 Pro",
-        "os": "37"
       },
       {
         "make": "Google",
@@ -98161,6 +98163,30 @@
         "make": "Google",
         "model": "Pixel 10",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.imsmedia.legacy.auto_generated_rro_product__": {
+    "appName": "com.google.imsmedia.legacy.auto_generated_rro_product__",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
+      }
+    ]
+  },
+  "com.google.imsmedia.legacy": {
+    "appName": "com.google.imsmedia.legacy.ImsMediaApplication",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       }
     ]
   },
@@ -247472,6 +247498,18 @@
         "make": "Google",
         "model": "Pixel 6",
         "os": "36"
+      }
+    ]
+  },
+  "com.google.android.apps.pixel.launcherconnector": {
+    "appName": "Pixel Zoeken",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "Google",
+        "model": "Pixel 10 Pro",
+        "os": "37"
       }
     ]
   },
