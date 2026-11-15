@@ -401,6 +401,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -1875,6 +1880,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -4933,6 +4943,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -5578,6 +5593,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -6639,6 +6659,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -7675,6 +7700,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -8642,6 +8672,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -9522,6 +9557,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -10457,6 +10497,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -11414,6 +11459,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -12385,6 +12435,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -13180,6 +13235,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -14297,6 +14357,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -17361,6 +17426,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "ANT DAO TECHNOLOGY LIMITED",
         "model": "B3",
         "os": "34"
@@ -20146,6 +20216,33 @@
       }
     ]
   },
+  "com.mediatek.mt6789.gamedriver": {
+    "appName": "Arm GPU Game Driver",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9491G",
+        "os": "34"
+      },
+      {
+        "make": "TCL",
+        "model": "9566X",
+        "os": "35"
+      },
+      {
+        "make": "ALCommon",
+        "model": "ALCommon",
+        "os": "35"
+      }
+    ]
+  },
   "com.mediatek.mt6835.gamedriver": {
     "appName": "Arm GPU Game Driver",
     "userFacing": false,
@@ -20172,28 +20269,6 @@
         "make": "LENOVO",
         "model": "TB132FU",
         "os": "34"
-      }
-    ]
-  },
-  "com.mediatek.mt6789.gamedriver": {
-    "appName": "Arm GPU Game Driver",
-    "userFacing": false,
-    "additionalLocales": [],
-    "devices": [
-      {
-        "make": "TCL",
-        "model": "9491G",
-        "os": "34"
-      },
-      {
-        "make": "TCL",
-        "model": "9566X",
-        "os": "35"
-      },
-      {
-        "make": "ALCommon",
-        "model": "ALCommon",
-        "os": "35"
       }
     ]
   },
@@ -20368,6 +20443,11 @@
       {
         "make": "motorola",
         "model": "moto g24",
+        "os": "34"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
         "os": "34"
       },
       {
@@ -20722,6 +20802,11 @@
       {
         "make": "TCL",
         "model": "T610K",
+        "os": "34"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
         "os": "34"
       },
       {
@@ -25272,6 +25357,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -27760,6 +27850,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -29291,6 +29386,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -30156,6 +30256,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -31173,6 +31278,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -32981,6 +33091,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -33673,6 +33788,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -34696,6 +34816,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -36252,6 +36377,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -38529,6 +38659,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -39799,6 +39934,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -41124,6 +41264,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -42385,6 +42530,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -44542,6 +44692,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -45672,6 +45827,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -46721,6 +46881,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -49113,6 +49278,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -51266,6 +51436,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -52348,6 +52523,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -53505,6 +53685,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -54988,6 +55173,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -55878,6 +56068,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -57324,6 +57519,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23124RA7EO",
         "os": "35"
@@ -58191,6 +58391,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -58793,6 +58998,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -59580,6 +59790,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -60381,6 +60596,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -63560,6 +63780,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -64511,6 +64736,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -69036,6 +69266,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -70175,6 +70410,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -73618,6 +73858,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -74310,6 +74555,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -75159,6 +75409,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -75718,6 +75973,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -76329,6 +76589,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -76553,6 +76818,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -78903,6 +79173,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -80506,6 +80781,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -81797,6 +82077,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -83401,6 +83686,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -84065,6 +84355,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -84672,6 +84967,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -85335,6 +85635,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -86031,6 +86336,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -86624,6 +86934,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -87029,6 +87344,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -87453,6 +87773,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -88575,6 +88900,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -89728,6 +90058,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -90418,6 +90753,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -91571,6 +91911,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -92300,6 +92645,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -93015,6 +93365,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -94967,6 +95322,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -95584,6 +95944,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -97366,6 +97731,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -99261,6 +99631,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -99510,6 +99885,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -99682,6 +100062,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -99974,6 +100359,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -100196,6 +100586,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -100401,6 +100796,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -100649,6 +101049,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -100808,6 +101213,11 @@
       {
         "make": "TCL",
         "model": "T610K",
+        "os": "34"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
         "os": "34"
       },
       {
@@ -101032,6 +101442,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -101417,6 +101832,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -101535,6 +101955,11 @@
     "additionalLocales": [],
     "devices": [
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "24117RN76O",
         "os": "36"
@@ -101551,6 +101976,11 @@
     "userFacing": false,
     "additionalLocales": [],
     "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
       {
         "make": "Xiaomi",
         "model": "24117RN76O",
@@ -121266,6 +121696,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -121914,6 +122349,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -122979,6 +123419,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -125832,6 +126277,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -127040,6 +127490,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -128922,6 +129377,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -130044,6 +130504,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -130896,6 +131361,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -132759,6 +133229,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -133434,6 +133909,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -135364,6 +135844,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -138023,6 +138508,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -139764,6 +140254,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -141279,6 +141774,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -142232,6 +142732,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -143195,6 +143700,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -144513,6 +145023,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -146360,6 +146875,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -148541,6 +149061,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -149969,6 +150494,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -152072,6 +152602,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -154471,6 +155006,18 @@
       }
     ]
   },
+  "com.mediatektest.factorymode": {
+    "appName": "Factory Test",
+    "userFacing": false,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      }
+    ]
+  },
   "ma.android.com.mafactory": {
     "appName": "Factory Test",
     "userFacing": false,
@@ -156428,6 +156975,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -157281,6 +157833,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -159154,6 +159711,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -160019,6 +160581,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -160840,6 +161407,11 @@
         "os": "34"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "TCL",
         "model": "9566X",
         "os": "35"
@@ -161595,6 +162167,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -166392,6 +166969,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -167322,6 +167904,11 @@
         "os": "30"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -168228,6 +168815,11 @@
         "os": "30"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -169047,6 +169639,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -169707,6 +170304,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -170741,6 +171343,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -171753,6 +172360,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -173426,6 +174038,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -174355,6 +174972,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -175197,6 +175819,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -175851,6 +176478,11 @@
         "os": "30"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Concept2, Inc.",
         "model": "PM Plus",
         "os": "36"
@@ -176477,6 +177109,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -177827,6 +178464,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -178745,6 +179387,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -179300,6 +179947,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -179860,6 +180512,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -180641,6 +181298,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -181202,6 +181864,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -183440,6 +184107,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -186336,6 +187008,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -188410,6 +189087,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -189412,6 +190094,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -190624,6 +191311,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -192029,6 +192721,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB570FU",
         "os": "35"
@@ -192643,6 +193340,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -199048,6 +199750,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -200669,6 +201376,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -201769,6 +202481,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -202524,6 +203241,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -203580,6 +204302,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -204495,6 +205222,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -205646,6 +206378,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -205801,6 +206538,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -206408,6 +207150,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -207548,6 +208295,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -208667,6 +209419,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -211274,6 +212031,30 @@
       }
     ]
   },
+  "com.example.minimalkeyboard": {
+    "appName": "Minimal Keyboard",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      }
+    ]
+  },
+  "com.example.minimallauncher": {
+    "appName": "Minimal Launcher",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      }
+    ]
+  },
   "com.vivo.minscreen": {
     "appName": "Minipantalla",
     "userFacing": false,
@@ -211377,6 +212158,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -212123,6 +212909,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -216198,6 +216989,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -216408,6 +217204,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -217315,6 +218116,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -218558,6 +219364,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -221461,6 +222272,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -222639,6 +223455,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -222719,6 +223540,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "Xiaomi",
@@ -222922,6 +223748,11 @@
         "make": "OUKITEL",
         "model": "WP60",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "INFINIX",
@@ -223800,6 +224631,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -224565,6 +225401,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -225728,6 +226569,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -226761,6 +227607,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -229283,6 +230134,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -232842,6 +233698,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -233870,6 +234731,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -234836,6 +235702,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -237240,6 +238111,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -238692,6 +239568,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -239926,6 +240807,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -240700,6 +241586,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -241732,6 +242623,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -242758,6 +243654,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -244847,6 +245748,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -245654,6 +246560,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -249274,6 +250185,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -250238,6 +251154,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -251053,6 +251974,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -252159,6 +253085,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -253228,6 +254159,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -254990,6 +255926,18 @@
       }
     ]
   },
+  "com.minimalcompany.quicksettings": {
+    "appName": "Quick Settings",
+    "userFacing": true,
+    "additionalLocales": [],
+    "devices": [
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      }
+    ]
+  },
   "com.samsung.android.app.sharelive": {
     "appName": "Quick Share",
     "userFacing": false,
@@ -256083,6 +257031,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -258093,6 +259046,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -259100,6 +260058,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -276595,6 +277558,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -278432,6 +279400,11 @@
         "make": "NUU",
         "model": "N5501L",
         "os": "27"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -280554,6 +281527,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -281877,6 +282855,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -282927,6 +283910,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -284865,6 +285853,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -286754,6 +287747,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -288257,6 +289255,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -289015,6 +290018,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -292799,6 +293807,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -295718,6 +296731,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -296816,6 +297834,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -299971,6 +300994,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -300951,6 +301979,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -301813,6 +302846,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -303266,6 +304304,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -304386,6 +305429,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -305339,6 +306387,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -306985,6 +308038,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "LENOVO",
         "model": "TB352FU",
         "os": "35"
@@ -307984,6 +309042,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "LENOVO",
@@ -309324,6 +310387,11 @@
         "os": "37"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -310245,6 +311313,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -311874,6 +312947,11 @@
         "os": "34"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "Xiaomi",
         "model": "23106RN0DA",
         "os": "35"
@@ -312027,6 +313105,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "NUU",
@@ -312758,6 +313841,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -313986,6 +315074,11 @@
         "os": "30"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -314521,6 +315614,11 @@
         "os": "30"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "revoview",
         "model": "S6518",
         "os": "30"
@@ -314720,6 +315818,11 @@
         "make": "LENOVO",
         "model": "Lenovo TB-7306F",
         "os": "30"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -315197,6 +316300,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "OUKITEL",
@@ -316884,6 +317992,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "samsung",
@@ -319300,6 +320413,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -323700,6 +324818,11 @@
         "os": "34"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -324468,6 +325591,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -325515,6 +326643,11 @@
         "make": "Unihertz",
         "model": "Titan 2",
         "os": "35"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -327012,6 +328145,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -331172,6 +332310,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "samsung",
         "model": "SM-X200",
         "os": "34"
@@ -332902,6 +334045,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -334686,6 +335834,11 @@
         "os": "35"
       },
       {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
+      },
+      {
         "make": "NUU",
         "model": "S6707X",
         "os": "34"
@@ -335207,6 +336360,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
@@ -335936,6 +337094,11 @@
         "make": "ASUS",
         "model": "ASUS Googlebook 14",
         "os": "37"
+      },
+      {
+        "make": "ALONG",
+        "model": "MP01",
+        "os": "34"
       },
       {
         "make": "revoview",
