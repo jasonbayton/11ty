@@ -256,14 +256,20 @@ MI can reject a request when app actions are disabled, the token is wrong, the s
 
 ## What the user sees
 
-Activity and system actions normally open a screen. Broadcasts and services often perform background work, so MANAGED SETTINGS acknowledges them with:
+When you tap an action under **Organisation settings**, MANAGED SETTINGS can show a short message (a toast) over the current screen. Successful activity and system settings launches open the target screen without a toast from MANAGED SETTINGS.
 
-- **Broadcast sent. A screen may not open.**
-- **Service requested. A screen may not open.**
+| Message | When it appears |
+| --- | --- |
+| **Broadcast sent. A screen may not open.** | MANAGED SETTINGS submitted the broadcast. Android can return successfully even if no receiver matches. |
+| **Service requested. A screen may not open.** | Android accepted the request to start the service. |
+| **This action is not available** | MANAGED SETTINGS couldn't find an activity to open, or Android couldn't find a service to start. |
+| **Your device doesn't allow this app to open this setting directly** | Android denied the activity launch. The activity may be private to the target app or require a permission MANAGED SETTINGS doesn't have. |
+| **Couldn't reach system settings right now. Please try again** | The activity launch failed while communicating with an Android system service. |
+| **Something went wrong opening this setting** | The activity launch failed with an unexpected error. |
+| **This action isn't permitted on this device** | Android rejected the broadcast or service request due to a permission or device-state restriction. |
+| **Couldn't send the request. Please try again** | The broadcast or service request failed with another error. |
 
-These messages confirm that MANAGED SETTINGS submitted the request. They cannot confirm that the receiving app completed it.
-
-If the target is unavailable, the user sees **This action is not available**. For a broadcast or service blocked by Android, the message is **This action isn't permitted on this device**. Other dispatch errors can show **Couldn't send the request. Please try again**. A broadcast with no matching receiver can still produce the sent acknowledgement, because Android does not return a receiver result to this dispatch path.
+For a broadcast or service, check the receiving app to confirm it completed the action. For messages shown by the built-in settings shortcuts, see [troubleshooting](/projects/managed-settings/support/troubleshooting/#builtin-warningstatus-messages).
 
 ## Replace or remove actions
 

@@ -20,8 +20,22 @@ If you're having issues configuring or using MANAGED SETTINGS, the below guidanc
 
 ## Built-in warning/status messages
 
+When a built-in settings shortcut fails to open, MANAGED SETTINGS shows a short message (a toast) over the settings screen. For broadcasts, services, and other actions configured by your organisation, see [What the user sees](/projects/managed-settings/support/custom-intents/#what-the-user-sees).
+
 **Activity may not be available on this device**
 : This shows when a device user taps a Setting (i.e., APN) for which there isn't an activity intent available. This may be because the OEM has implemented a custom activity intent, or the device doesn't have this setting available. Please follow steps under [submitting to support](#submitting-to-support) to have this investigated. You will be asked for a [bug report](/android/how-to-capture-device-logs/) after replicating the issue.
+
+**This action is not available**
+: MANAGED SETTINGS couldn't open the requested settings screen. The device may lack the screen or the manufacturer may use a different activity for it. You may see this when tapping APN settings. This wording appears in 1.0.3.3.
+
+**Your device doesn't allow this app to open this setting directly**
+: Android denied the launch. The target activity may be private to the app that owns it or require a permission MANAGED SETTINGS doesn't have.
+
+**Couldn't reach system settings right now. Please try again**
+: The request failed while MANAGED SETTINGS was communicating with an Android system service. Try opening the setting again.
+
+**Something went wrong opening this setting**
+: An unexpected error occurred while opening the setting. If it keeps happening, see [submitting to support](#submitting-to-support).
 
 **A supported client is required to email support**
 : The device user has tapped the support card under available actions, but no mail client is available on the device. This warning can be safely ignored if it is intentional, and device users should use another means of emailing the configured support address.
