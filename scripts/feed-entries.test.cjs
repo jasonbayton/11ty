@@ -32,6 +32,19 @@ test("excludes utility pages, archives, drafts and documents without public URLs
   assert.deepEqual(contentFeedEntries(excluded), []);
 });
 
+test("takes the newest published entries before reading their bodies", () => {
+  const oldest = entry("post", "/blog/old/");
+  const first = entry("note", "/notes/first/", "2026-01-02");
+  const second = entry("note", "/notes/second/", "2026-01-02");
+  const draft = entry("note", "/notes/draft/", "2026-01-03", "draft");
+  Object.defineProperty(oldest, "templateContent", { get() { throw new Error("Old body read"); } });
+
+  const items = [first, draft, oldest, second];
+  assert.deepEqual(contentFeedEntries(items, 2).map(item => item.url), [first.url, second.url]);
+  assert.deepEqual(contentFeedEntries(items, 1).map(item => item.url), [second.url]);
+  assert.deepEqual(contentFeedEntries([first], 20).map(item => item.url), [first.url]);
+});
+
 test("surfaces unfinished aggregate content synchronously so Eleventy can retry", () => {
   const unfinished = entry("documentation", "/android/faq/");
   const premature = new Error("Tried to use templateContent too early");

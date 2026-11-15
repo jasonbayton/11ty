@@ -47,7 +47,7 @@ test("removes the oversized embedded database without truncating visible content
 test("every RSS article export filters scripts before URL conversion", () => {
   const source = path.join(__dirname, "../_src");
   const templates = fs.readdirSync(source).filter(name => /^rss.*\.njk$/.test(name));
-  assert.equal(templates.length, 12);
+  assert.equal(templates.length, 13);
   for (const name of templates) {
     const template = fs.readFileSync(path.join(source, name), "utf8");
     assert.match(template, /post\.templateContent \| stripFeedScripts \| htmlToAbsoluteUrls/, name);
