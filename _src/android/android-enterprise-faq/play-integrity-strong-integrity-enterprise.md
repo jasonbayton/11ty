@@ -3,7 +3,7 @@ title: "What is Strong Integrity, and why are my Android 13+ devices failing com
 published: '2026-09-14'
 status: publish
 author: 'Jason Bayton'
-excerpt: "Why Android 13+ devices can fail Strong Integrity despite being unmodified, how OS and vendor patch levels affect the verdict, and what Intune administrators should review before 31 October 2026."
+excerpt: "Why Android 13+ devices can fail Strong Integrity despite being unmodified, how OS and vendor patch levels affect the verdict, and what Intune administrators should review now that the updated enforcement is active."
 type: documentation
 tags:
     - FAQ
@@ -47,7 +47,7 @@ For an enterprise deployment, check whether the device is still receiving firmwa
 
 ## Example of enforcement
 
-As of 12 October 2026, [Microsoft says Intune will enforce the updated definition by **31 October 2026**](https://learn.microsoft.com/en-us/intune/whats-new/in-development#plan-for-change-google-play-strong-integrity-definition-update-for-android-13-or-above). Until then, it has adjusted compliance and app protection policy behaviour to follow Google's backward compatibility guidance.
+As of 31 October 2026, [Microsoft enforces the updated Strong Integrity definition in Intune](https://learn.microsoft.com/en-us/intune/whats-new/in-development#plan-for-change-google-play-strong-integrity-definition-update-for-android-13-or-above). Prior to this date, Intune followed Google's backward compatibility guidance, which allowed affected devices to continue passing. That grace period has ended.
 
 For affected Android 13+ devices:
 
