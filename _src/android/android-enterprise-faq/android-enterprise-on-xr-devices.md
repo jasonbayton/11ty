@@ -17,6 +17,7 @@ sources:
   - https://developers.google.com/android/work/xr-management
   - https://www.androidenterprise.community/product-updates/android-enterprise-management-arrives-for-android-xr-2392
   - https://news.samsung.com/global/samsung-galaxy-xr-evolves-work-in-the-ai-era-with-new-enterprise-capabilities-and-everyday-features
+  - https://www.androidenterprise.community/product-updates
 ---
 Yes. Google has published [Android Enterprise for Android XR](https://developers.google.com/android/work/xr-management) documentation, and enterprise management capabilities shipped via an April 2026 firmware update for supported devices.
 
@@ -24,7 +25,7 @@ Yes. Google has published [Android Enterprise for Android XR](https://developers
 
 Management is possible on **fully managed** devices only. There is no work profile - COPE or BYOD - support. EMMs may use AMAPI or a custom DPC.
 
-Six EMM partners were validated at launch: **ArborXR**, **ManageXR**, **Microsoft Intune**, **Omnissa Workspace ONE**, **Samsung Knox Manage**, and **SOTI MobiControl**. Google has indicated more partners will be validated in the coming months.
+Six EMM partners were validated at launch: **ArborXR**, **ManageXR**, **Microsoft Intune**, **Omnissa Workspace ONE**, **Samsung Knox Manage**, and **SOTI MobiControl**.
 
 The XR validation requirements are adapted from the standard mobile set:
 
@@ -41,8 +42,9 @@ The XR validation requirements are adapted from the standard mobile set:
 
 ### What devices are available?
 
-- **Samsung Galaxy XR** - the only shipping Android XR headset (launched October 2025). Android Enterprise support arrived via an April 2026 firmware update. Samsung Knox management is also available, and Samsung has committed to five years of software and security updates
-- **XREAL Project Aura**, **Samsung smart glasses**, and **Google AI glasses** are announced for 2026 but not yet available
+- **Samsung Galaxy XR** - the first shipping Android XR headset (launched October 2025). Android Enterprise support arrived via an April 2026 firmware update. Samsung Knox management is also available, and Samsung has committed to five years of software and security updates
+- **XREAL Aura** - wired XR glasses (under 95g) launched October 2026. Managed through Android Enterprise including zero-touch enrolment, fully managed mode, and Managed Google Play. Use cases include virtual multi-monitor setups, 3D product simulation, and remote expert assistance
+- **Samsung smart glasses** and **Google AI glasses** are announced but not yet available
 
 ### What should I plan for?
 
